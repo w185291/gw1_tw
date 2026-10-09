@@ -1,0 +1,369 @@
+{
+  "id": "gates-of-kryta",
+  "order": 7,
+  "campaign": "prophecies",
+  "region": "kryta",
+  "name": {
+    "zhTW": "柯瑞塔關所",
+    "en": "Gates of Kryta"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "aliases": [
+    "科瑞塔關所",
+    "Kryta Gates"
+  ],
+  "tags": [
+    "柯瑞塔關所",
+    "Gates of Kryta",
+    "Prophecies",
+    "第一章",
+    "Bonus"
+  ],
+  "summary": "進入村落並協助白斗篷清除亡靈。Bonus 要先帶走小豬 Oink，再取歐爾文字交給史學家。",
+  "partySize": 6,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "由 Scoundrel’s Rise 進入 Gates of Kryta 任務據點，按 Enter Mission。",
+    "location": "柯瑞塔關所據點",
+    "requirements": []
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "objectives": [
+    {
+      "text": "協助白斗篷清除亡靈，讓難民進入柯瑞塔。"
+    }
+  ],
+  "bonus": {
+    "available": true,
+    "kind": "bonus",
+    "title": "取回歐爾文字",
+    "summary": "取回歐爾文字",
+    "trigger": "與小豬 Oink 交談，將牠帶回主人 Cheswick。",
+    "steps": [
+      "Oink 必須先被帶去才能取得 Bonus 信用；不要只自行取書。",
+      "Oink 可幫你承受攻擊；文字要交給 McClain，不是隻交給小豬主人。"
+    ],
+    "missable": true,
+    "completion": "取回 Orrian Text 並交給 Orrian Historian McClain，畫面顯示 Bonus 完成。"
+  },
+  "walkthrough": [
+    {
+      "title": "清村外亡靈",
+      "content": "往南到原圖 2 的村落，先清入口道路的所有亡靈才能開門。想做 Bonus，起始附近先與小豬 Oink 交談讓它跟隨。"
+    },
+    {
+      "title": "讓小豬回家",
+      "content": "把 Oink 帶回村內 Cheswick，依提示找史學家。小豬對敵人不會死亡，也可先帶著牠一起打取書路線。"
+    },
+    {
+      "title": "取回文字",
+      "content": "由海灘沿水道往北，到原圖 3 的寶箱取 Orrian Text。拿書及沿途觸發點會冒出 Smoke Phantoms；低等隊伍應清怪，不要硬跑。"
+    },
+    {
+      "title": "先交書拿 Bonus",
+      "content": "回村中原圖 2，將文字交給 Orrian Historian McClain，確認 Bonus 完成。只有拿到書還不算完成。"
+    },
+    {
+      "title": "穿村到東側海岸",
+      "content": "與 Justiciar Toriimo 交談開南門，過海灘橋往東，找到 Justiciar Hablion。"
+    },
+    {
+      "title": "清除沼澤亡靈",
+      "content": "對話後過場會讓白斗篷投入戰鬥。保護 Hablion；他途中會與白斗篷主隊分開，但你仍需跟上主隊，把沿途亡靈清光，觸發結尾。"
+    }
+  ],
+  "routeSummary": "南側村落 → 小豬與主人 → 海灘向北水道取文字 → 村中交書 → 東側海岸 → 沼澤亡靈",
+  "mapImage": "/maps/Gates_of_Kryta_map.jpg",
+  "mapNotes": [
+    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/Gates_of_Kryta_map.jpg",
+      "title": "主線路線圖",
+      "alt": "柯瑞塔關所・主線路線圖",
+      "width": 436,
+      "height": 627,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gates_of_Kryta_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/b/bb/Gates_of_Kryta_map.jpg",
+      "uploader": "Mat Cauthorn",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Sayad the Bloodless",
+        "en": "Sayad the Bloodless"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Debilitating Shot",
+        "Edge of Extinction",
+        "Troll Unguent"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless",
+      "revision": 2398388
+    },
+    {
+      "name": {
+        "zhTW": "Ijan the Cursed",
+        "en": "Ijan the Cursed"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Healing Breeze",
+        "Scourge Healing",
+        "Smite Hex",
+        "Vengeance"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
+      "revision": 1808601
+    },
+    {
+      "name": {
+        "zhTW": "Onan the Spiritless",
+        "en": "Onan the Spiritless"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Fragility",
+        "Phantom Pain",
+        "Spirit of Failure"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Onan_the_Spiritless",
+      "revision": 1807505
+    },
+    {
+      "name": {
+        "zhTW": "Nazeem the Damned",
+        "en": "Nazeem the Damned"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Blinding Flash",
+        "Earthquake",
+        "Lightning Touch"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Nazeem_the_Damned",
+      "revision": 2283190
+    },
+    {
+      "name": {
+        "zhTW": "Haja Bloodwail",
+        "en": "Haja Bloodwail"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Deflect Arrows",
+        "Hamstring",
+        "Healing Signet",
+        "Sever Artery"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Haja_Bloodwail",
+      "revision": 2134774
+    },
+    {
+      "name": {
+        "zhTW": "Bakkir the Forsaken",
+        "en": "Bakkir the Forsaken"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Minions",
+        "Dark Bond",
+        "Death Nova",
+        "Life Siphon"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Bakkir_the_Forsaken",
+      "revision": 2605158
+    }
+  ],
+  "recommendedTeam": [
+    "治療與防護技能可指定友軍 Hablion。",
+    "準備解降咒與解病症，處理骷髏幻術的愚蠢和脆弱。",
+    "多數亡靈受神聖傷害雙倍傷害；幻影與骷髏沒有血肉，流血、毒性、疾病和屍體召喚不一定有效。"
+  ],
+  "tips": [
+    "主線也可不與 Hablion 對話，經水路後側清完亡靈，避免他的死亡風險。",
+    "若隊伍幾乎全滅，只剩一人，可回去與尚未啟動的 Hablion 交談，過場會復活隊友。",
+    "通關到獅子拱門；小豬屋後另有製圖支路。"
+  ],
+  "warnings": [
+    "Hablion 被啟動後死亡會使主線失敗。",
+    "未先帶回 Oink 或未交文字給 McClain，都不能只靠開寶箱取得 Bonus。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "依上方主線與 Bonus 順序推進，逐群清怪。"
+    ],
+    "hard": [
+      "白斗篷 NPC 很快會倒，先跑在前方清路，特別保護 Hablion。",
+      "骷髏幻術有愚蠢與脆弱，帶解降咒、解病症和反施法技能。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "NM 主線",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": [
+          "原 Wiki 傳統模式表未列金幣。",
+          "非 Prophecies 出生角色普通模式不獲此主線一般獎勵，依 Wiki 說明。"
+        ]
+      }
+    ],
+    "bonus": [
+      {
+        "label": "NM Bonus",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "hard": [
+      {
+        "label": "HM 主線",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "zaishen": [
+      {
+        "label": "已接取 Zaishen Mission 的額外領取獎勵",
+        "experience": 1000,
+        "gold": 250,
+        "skillPoints": null,
+        "notes": [
+          "基本主線目標：15 枚戰承銅幣。",
+          "完成本關 Bonus：額外 22 枚戰承銅幣。",
+          "以困難模式完成主線：額外 37 枚戰承銅幣。",
+          "需事先接取對應 Zaishen Quest，完成後向 Zehnchu 領取；不是每次通關自動發給。"
+        ]
+      }
+    ],
+    "reforged": [
+      {
+        "label": "Reforged NM 主線",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged NM Bonus",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM 主線",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ]
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Gates_of_Kryta",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki 任務頁",
+      "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta?oldid=2729953",
+      "revision": 2729953,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "激戰繁中 Wiki：首部曲地名與 NPC 對照",
+      "url": "https://guildwars.fandom.com/zh-tw/wiki/英中地名NPC任務表(首部曲)",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Zaishen Quest 獎勵",
+      "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta_%28Zaishen_quest%29?oldid=2250658",
+      "revision": 2250658,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "巴哈姆特：一章主線任務文字詳解（舊版中文參考）",
+      "url": "https://forum.gamer.com.tw/G2.php?bsn=7678&lorder=1&parent=600&sn=599",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
+    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+  ],
+  "previousMission": "the-frost-gate",
+  "nextMission": "dalessio-seaboard",
+  "prerequisites": []
+}

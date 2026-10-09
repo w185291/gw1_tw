@@ -1,0 +1,2 @@
+import styles from './Site.module.css';
+export function SiteFooter(){return <footer className={styles.footer}><div><strong>Guild Wars 1 攻略站</strong><p>本站為玩家製作之非官方攻略網站</p></div><div><a href="https://wiki.guildwars.com/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Guild Wars Wiki</a><a href="https://gwpvx.fandom.com/wiki/PvX_wiki" target="_blank" rel="noopener noreferrer">PvXwiki</a><a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html" target="_blank" rel="noopener noreferrer">攻略文字授權</a><p>遊戲與圖片 © ArenaNet / NCsoft</p></div></footer>;}

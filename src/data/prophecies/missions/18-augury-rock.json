@@ -1,0 +1,123 @@
+{
+  "id": "augury-rock",
+  "order": 18,
+  "campaign": "prophecies",
+  "region": "crystal-desert",
+  "name": {
+    "zhTW": "預言之石",
+    "en": "Augury Rock"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "draft",
+  "aliases": [],
+  "tags": [
+    "預言之石",
+    "Augury Rock",
+    "Prophecies",
+    "第一章",
+    "Bonus"
+  ],
+  "summary": "完成三試煉後，獨自擊敗自己的分身。",
+  "partySize": 1,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
+    "location": "預言之石據點",
+    "requirements": [
+      "絕望沙丘、乾渴之河、伊洛那流域三試煉全部完成。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "objectives": [
+    {
+      "text": "完成三試煉後，獨自擊敗自己的分身。"
+    }
+  ],
+  "bonus": {
+    "available": true,
+    "kind": "timed-bonus",
+    "title": "限時擊敗分身",
+    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
+    "trigger": "待整理",
+    "steps": [],
+    "missable": true,
+    "completion": "待查核"
+  },
+  "walkthrough": [],
+  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "mapImage": "/maps/Augury_Rock_overview.jpg",
+  "mapNotes": [
+    "保留原 Wiki 英文標記，圖片可放大。",
+    "預言之石原站只有場景俯瞰圖，並沒有標示行走路線。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/Augury_Rock_overview.jpg",
+      "title": "場景俯瞰圖（原 Wiki 沒有標線路線圖）",
+      "alt": "預言之石・場景俯瞰圖（原 Wiki 沒有標線路線圖）",
+      "width": 1024,
+      "height": 768,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Augury_Rock_overview.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/f/f1/Augury_Rock_overview.jpg",
+      "uploader": "Liche",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": false,
+      "role": "overview_screenshot"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [],
+  "tips": [],
+  "warnings": [],
+  "modeDifferences": {
+    "normal": [],
+    "hard": []
+  },
+  "rewards": {
+    "normal": [],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Augury_Rock",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki 任務頁",
+      "url": "https://wiki.guildwars.com/wiki/Augury_Rock?oldid=2719406",
+      "revision": 2719406,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
+    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+  ],
+  "previousMission": "elona-reach",
+  "nextMission": "the-dragons-lair",
+  "prerequisites": [
+    "dunes-of-despair",
+    "thirsty-river",
+    "elona-reach"
+  ]
+}

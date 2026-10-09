@@ -1,0 +1,200 @@
+{
+  "id": "prophecies",
+  "name": {
+    "zhTW": "第一章：預言",
+    "en": "Guild Wars Prophecies"
+  },
+  "shortName": "Prophecies",
+  "order": 1,
+  "description": "從阿斯卡隆到火環群島，25 關主線 Mission。沙漠三試煉可自由排序，須全數完成才可飛昇。",
+  "status": "available",
+  "regions": [
+    {
+      "id": "ascalon",
+      "name": {
+        "zhTW": "阿斯卡隆",
+        "en": "Ascalon"
+      }
+    },
+    {
+      "id": "northern-shiverpeaks",
+      "name": {
+        "zhTW": "北席娃山脈",
+        "en": "Northern Shiverpeaks"
+      }
+    },
+    {
+      "id": "kryta",
+      "name": {
+        "zhTW": "柯瑞塔",
+        "en": "Kryta"
+      }
+    },
+    {
+      "id": "maguuma-jungle",
+      "name": {
+        "zhTW": "梅古瑪叢林",
+        "en": "Maguuma Jungle"
+      }
+    },
+    {
+      "id": "crystal-desert",
+      "name": {
+        "zhTW": "水晶沙漠",
+        "en": "Crystal Desert"
+      }
+    },
+    {
+      "id": "southern-shiverpeaks",
+      "name": {
+        "zhTW": "南席娃山脈",
+        "en": "Southern Shiverpeaks"
+      }
+    },
+    {
+      "id": "ring-of-fire-islands",
+      "name": {
+        "zhTW": "火環群島",
+        "en": "Ring of Fire Islands"
+      }
+    }
+  ],
+  "structure": "timeline",
+  "flow": [
+    {
+      "entry": "the-great-northern-wall",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "fort-ranik",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "ruins-of-surmia",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "nolani-academy",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "borlis-pass",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "the-frost-gate",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "gates-of-kryta",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "dalessio-seaboard",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "divinity-coast",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "the-wilds",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "bloodstone-fen",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "aurora-glade",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "riverside-province",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "sanctum-cay",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "dunes-of-despair",
+      "requires": [],
+      "branch": "飛昇三試煉・順序不限"
+    },
+    {
+      "entry": "thirsty-river",
+      "requires": [],
+      "branch": "飛昇三試煉・順序不限"
+    },
+    {
+      "entry": "elona-reach",
+      "requires": [],
+      "branch": "飛昇三試煉・順序不限"
+    },
+    {
+      "entry": "augury-rock",
+      "requires": [
+        "dunes-of-despair",
+        "thirsty-river",
+        "elona-reach"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "the-dragons-lair",
+      "requires": [
+        "augury-rock"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "ice-caves-of-sorrow",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "iron-mines-of-moladune",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "thunderhead-keep",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "ring-of-fire",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "abaddons-mouth",
+      "requires": [
+        "ring-of-fire"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "hells-precipice",
+      "requires": [
+        "abaddons-mouth"
+      ],
+      "branch": null
+    }
+  ]
+}

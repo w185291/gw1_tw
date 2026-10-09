@@ -1,0 +1,546 @@
+{
+  "id": "divinity-coast",
+  "order": 9,
+  "campaign": "prophecies",
+  "region": "kryta",
+  "name": {
+    "zhTW": "神聖海岸",
+    "en": "Divinity Coast"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "aliases": [
+    "Divinity",
+    "神聖海岸任務"
+  ],
+  "tags": [
+    "神聖海岸",
+    "Divinity Coast",
+    "Prophecies",
+    "第一章",
+    "Bonus"
+  ],
+  "summary": "取得真實之泉的淨化，帶詹瑟之眼一路辨認並護送五位天選者。要先向獅衛交付，再把眼送到終點。",
+  "partySize": 6,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "由 Watchtower Coast 進入 Divinity Coast 據點，或通關達雷西海濱後到達，按 Enter Mission。",
+    "location": "神聖海岸據點",
+    "requirements": []
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "objectives": [
+    {
+      "text": "帶詹瑟之眼到沿海城鎮，護送天選者。"
+    }
+  ],
+  "bonus": {
+    "available": true,
+    "kind": "bonus",
+    "title": "護送五名天選者",
+    "summary": "護送五名天選者",
+    "trigger": "讓詹瑟之眼辨認天選者；救出第二位後與他交談，顯示 Bonus 目標。",
+    "steps": [
+      "五位天選者必須全部存活並跟到終點；少一位即無法拿完整 Bonus。",
+      "英雄可先用任務地圖旗標派到即將受襲的村民位置，玩家稍後再靠近觸發。",
+      "若護送困難，可救人後暫時不讓隊長接近，先清完去 Loamhurst 的路再回頭接人。夏摩爾第一位很靠近取眼點，規劃此策略要貼左側下樓。"
+    ],
+    "missable": true,
+    "completion": "五名天選者全部存活且跟到 Loamhurst，與 Lionguard Minah 交談後獲得 Bonus；之後才送眼到終點。"
+  },
+  "walkthrough": [
+    {
+      "title": "先淨化再取眼",
+      "content": "到 Shaemoor 與 Hablion 交談，前往東南山上的 Fountain of Truth，站上泉水取得 Cleansed。回 Hablion 取 Eye of Janthir，眼會跟著被淨化的隊員。"
+    },
+    {
+      "title": "檢查村民",
+      "content": "眼能分辨天選者。隊長必須接近透過測試的人，才會讓他跟隨；不能只讓眼辨認後就離開。"
+    },
+    {
+      "title": "西門過高橋",
+      "content": "由夏摩爾西門往西南過橋。詹瑟之眼能擊倒範圍敵人，近身接戰可減少敵人輸出。橋後的商隊被圍攻，救商人可得士氣。"
+    },
+    {
+      "title": "依原圖接齊五人",
+      "content": "照圖的五處標記救人，特別是第 2、5 位，玩家一進雷達就會被天狗攻擊。第 2 位還必須對話，讓 Bonus 出現在任務目標後才會跟隨。"
+    },
+    {
+      "title": "西轉北穿越沼澤",
+      "content": "繼續西行到沼澤邊第二名天狗頭目，再向北穿過亡靈區到 Loamhurst。避免讓天選者踏進毒水，並檢查隊伍列表沒有灰名。"
+    },
+    {
+      "title": "先交天選者再交眼",
+      "content": "在終點與 Lionguard Minah 交談，交付全部五人拿 Bonus。之後才把眼帶到書座完成主線。"
+    }
+  ],
+  "routeSummary": "夏摩爾 → 東南真實之泉 → 詹瑟之眼 → 西門與高橋 → 五名天選者 → 西側沼澤向北 → Loamhurst",
+  "mapImage": "/maps/Divinity_Coast_map.jpg",
+  "mapNotes": [
+    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/Divinity_Coast_map.jpg",
+      "title": "主線路線圖",
+      "alt": "神聖海岸・主線路線圖",
+      "width": 542,
+      "height": 329,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Divinity_Coast_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/7/72/Divinity_Coast_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/Divinity_Coast_Bonus_Villager_2.jpg",
+      "title": "補充路線圖",
+      "alt": "神聖海岸・補充路線圖",
+      "width": 355,
+      "height": 379,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Divinity_Coast_Bonus_Villager_2.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/d/da/Divinity_Coast_Bonus_Villager_2.jpg",
+      "uploader": "Yoshida Keiji",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "bonus_route"
+    },
+    {
+      "src": "/maps/Divinity_Coast_Bonus_Villager_3.jpg",
+      "title": "補充路線圖",
+      "alt": "神聖海岸・補充路線圖",
+      "width": 230,
+      "height": 267,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Divinity_Coast_Bonus_Villager_3.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/3/39/Divinity_Coast_Bonus_Villager_3.jpg",
+      "uploader": "Yoshida Keiji",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "bonus_route"
+    },
+    {
+      "src": "/maps/Divinity_Coast_Bonus_Villager_4.jpg",
+      "title": "補充路線圖",
+      "alt": "神聖海岸・補充路線圖",
+      "width": 296,
+      "height": 324,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Divinity_Coast_Bonus_Villager_4.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/e/ed/Divinity_Coast_Bonus_Villager_4.jpg",
+      "uploader": "Yoshida Keiji",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "bonus_route"
+    },
+    {
+      "src": "/maps/Divinity_Coast_Bonus_Villager_5.jpg",
+      "title": "補充路線圖",
+      "alt": "神聖海岸・補充路線圖",
+      "width": 294,
+      "height": 324,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Divinity_Coast_Bonus_Villager_5.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/8/80/Divinity_Coast_Bonus_Villager_5.jpg",
+      "uploader": "Yoshida Keiji",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "bonus_route"
+    },
+    {
+      "src": "/maps/Undeads_bosses_divinity_coast_map.jpg",
+      "title": "補充路線圖",
+      "alt": "神聖海岸・補充路線圖",
+      "width": 523,
+      "height": 367,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Undeads_bosses_divinity_coast_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/1/1a/Undeads_bosses_divinity_coast_map.jpg",
+      "uploader": "Razor39999",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": false,
+      "role": "boss_locations"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Fluum Banzo",
+        "en": "Fluum Banzo"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Blessed Signet",
+        "Guardian",
+        "Orison of Healing",
+        "Protective Bond",
+        "Restore Life"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
+      "revision": 2498966
+    },
+    {
+      "name": {
+        "zhTW": "Gren Waveslosh",
+        "en": "Gren Waveslosh"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Mantra of Lightning",
+        "Mind Wrack",
+        "Spirit Shackles"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gren_Waveslosh",
+      "revision": 2715252
+    },
+    {
+      "name": {
+        "zhTW": "Frak Undertow",
+        "en": "Frak Undertow"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Deep Freeze",
+        "Glyph of Lesser Energy",
+        "Grasping Earth"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Frak_Undertow",
+      "revision": 2337575
+    },
+    {
+      "name": {
+        "zhTW": "Sky Quickfeather",
+        "en": "Sky Quickfeather"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Defensive Stance",
+        "Healing Signet",
+        "Riposte",
+        "Seeking Blade",
+        "Swift Chop"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Sky_Quickfeather",
+      "revision": 2605594
+    },
+    {
+      "name": {
+        "zhTW": "Dyv Cloudclaw",
+        "en": "Dyv Cloudclaw"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Dual Shot",
+        "Favorable Winds",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dyv_Cloudclaw",
+      "revision": 2605583
+    },
+    {
+      "name": {
+        "zhTW": "Glyd Swiftwing",
+        "en": "Glyd Swiftwing"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Mark of Subversion",
+        "Soul Feast",
+        "Suffering"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Glyd_Swiftwing",
+      "revision": 2605585
+    },
+    {
+      "name": {
+        "zhTW": "Ghita Bonz",
+        "en": "Ghita Bonz"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Debilitating Shot",
+        "Edge of Extinction",
+        "Troll Unguent"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Ghita_Bonz",
+      "revision": 2074482
+    },
+    {
+      "name": {
+        "zhTW": "Raja Crux",
+        "en": "Raja Crux"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Healing Breeze",
+        "Scourge Healing",
+        "Smite Hex",
+        "Vengeance"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raja_Crux",
+      "revision": 1808825
+    },
+    {
+      "name": {
+        "zhTW": "Bija Gravewailer",
+        "en": "Bija Gravewailer"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Fragility",
+        "Phantom Pain",
+        "Spirit of Failure"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Bija_Gravewailer",
+      "revision": 2605159
+    },
+    {
+      "name": {
+        "zhTW": "Najja Doombringer",
+        "en": "Najja Doombringer"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Blinding Flash",
+        "Earthquake",
+        "Lightning Touch"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Najja_Doombringer",
+      "revision": 2419739
+    },
+    {
+      "name": {
+        "zhTW": "Zameel Dirge",
+        "en": "Zameel Dirge"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"I Will Survive!\"",
+        "Deflect Arrows",
+        "Healing Signet",
+        "Irresistible Blow"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Zameel_Dirge",
+      "revision": 2135253
+    },
+    {
+      "name": {
+        "zhTW": "Zukra Cadava",
+        "en": "Zukra Cadava"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Minions",
+        "Dark Bond",
+        "Death Nova",
+        "Life Siphon"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Zukra_Cadava",
+      "revision": 2563776
+    }
+  ],
+  "recommendedTeam": [
+    "能治療任務友軍的補師；五名天選者都要活到交付。",
+    "隊伍加速、遠距離擊倒或近戰反制，快速救第 2、5 位天選者。",
+    "留意毒水與已接上的友軍；不要只追著新目標跑。"
+  ],
+  "tips": [
+    "過河走高橋；其他水路可能繞進更多天狗，延誤救人。",
+    "最後沒有與 Minah 交談、直接送眼，會漏 Bonus。",
+    "通關到德魯伊高地（Druid’s Overlook）。",
+    "救出天選者另有金幣獎勵，依救出人數與真人玩家數計算；請看 Wiki 獎勵段。"
+  ],
+  "warnings": [
+    "第 2、5 位天選者在玩家進入雷達後立即遭攻擊；先派英雄上前。",
+    "少一位、名單灰色表示落後，或直接把眼送到終點，都會漏 Bonus。",
+    "不要讓天選者走入中毒的沼澤水。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "依上方主線與 Bonus 順序推進，逐群清怪。"
+    ],
+    "hard": [
+      "準備隊伍加速、治療友軍、遠距離控場與阻止近戰的技能。",
+      "救新村民時不要把已接上的天選者留在敵人附近；準備範圍傷害讓攻擊者分散。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "NM 主線",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": [
+          "原 Wiki 傳統模式表未列金幣。"
+        ]
+      }
+    ],
+    "bonus": [
+      {
+        "label": "NM Bonus",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "hard": [
+      {
+        "label": "HM 主線",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "zaishen": [
+      {
+        "label": "已接取 Zaishen Mission 的額外領取獎勵",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": null,
+        "notes": [
+          "基本主線目標：20 枚戰承銅幣。",
+          "完成本關 Bonus：額外 30 枚戰承銅幣。",
+          "以困難模式完成主線：額外 50 枚戰承銅幣。",
+          "需事先接取對應 Zaishen Quest，完成後向 Zehnchu 領取；不是每次通關自動發給。"
+        ]
+      }
+    ],
+    "reforged": [
+      {
+        "label": "Reforged NM 主線",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged NM Bonus",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM 主線",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ]
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Divinity_Coast",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki 任務頁",
+      "url": "https://wiki.guildwars.com/wiki/Divinity_Coast?oldid=2723626",
+      "revision": 2723626,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "激戰繁中 Wiki：首部曲地名與 NPC 對照",
+      "url": "https://guildwars.fandom.com/zh-tw/wiki/英中地名NPC任務表(首部曲)",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Zaishen Quest 獎勵",
+      "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_%28Zaishen_quest%29?oldid=1993655",
+      "revision": 1993655,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "巴哈姆特：一章主線任務文字詳解（舊版中文參考）",
+      "url": "https://forum.gamer.com.tw/G2.php?bsn=7678&lorder=1&parent=600&sn=599",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
+    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+  ],
+  "previousMission": "dalessio-seaboard",
+  "nextMission": "the-wilds",
+  "prerequisites": []
+}

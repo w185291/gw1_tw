@@ -1,0 +1,501 @@
+{
+  "id": "the-great-northern-wall",
+  "order": 1,
+  "campaign": "prophecies",
+  "region": "ascalon",
+  "name": {
+    "zhTW": "北方長城",
+    "en": "The Great Northern Wall"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "aliases": [
+    "Great Northern Wall",
+    "長城"
+  ],
+  "tags": [
+    "北方長城",
+    "The Great Northern Wall",
+    "Prophecies",
+    "第一章",
+    "Bonus"
+  ],
+  "summary": "出城偵察夏爾軍隊，再沿指定橋路撤回長城。這關的重點是撤退，並不要求殲滅敵軍。",
+  "partySize": 4,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "由 Ascalon City 走入 The Great Northern Wall 任務據點，按 Enter Mission。",
+    "location": "阿斯卡隆城／北方長城據點",
+    "requirements": []
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "objectives": [
+    {
+      "text": "偵察夏爾軍隊，沿橋路撤回長城。"
+    }
+  ],
+  "bonus": {
+    "available": true,
+    "kind": "bonus",
+    "title": "歸還四件盔甲",
+    "summary": "歸還四件盔甲",
+    "trigger": "與四處殘骸互動取得盔甲，再找到 Kilnn Testibrie。",
+    "steps": [
+      "在四處 Wreckage 收齊頭飾、腿甲、護脛、肩甲，交給 Kilnn Testibrie。",
+      "最安全的時機是夏爾追逐劇情之前；不要賣掉或拆解任務盔甲。"
+    ],
+    "missable": true,
+    "completion": "四件盔甲全部交給 Kilnn Testibrie，畫面顯示 Bonus 完成。"
+  },
+  "walkthrough": [
+    {
+      "title": "開門與出城",
+      "content": "與卡爾漢軍官（Captain Calhaan）交談。出城往西北走，到第二座門時使用旁邊的拉桿。低等隊伍先逐群清怪，不要同時引到附近巡邏隊。"
+    },
+    {
+      "title": "順路收集盔甲",
+      "content": "第一個分岔的殘骸有頭飾（Crest）；走東側支路取得腿甲（Cuisse）。過橋後先往左取護脛（Greaves），再折回往東北取肩甲（Pauldron）。按 Alt 找 Wreckage；四件都要撿。"
+    },
+    {
+      "title": "先完成隱藏目標",
+      "content": "沿肩甲所在道路到基爾恩・泰斯布里（Kilnn Testibrie）的墓，與他交談並交出四件盔甲。確認 Bonus 完成後再折回西南主線。"
+    },
+    {
+      "title": "觸發偵察劇情",
+      "content": "透過一群帶頭目的夏爾後觸發過場。此時開始限時撤退；不要停下來打整支追兵。"
+    },
+    {
+      "title": "沿橋路撤退",
+      "content": "一路向南往長城跑，經橋梁沿指定路線回到卡爾漢，與他交談。只需一名玩家抵達並回報；即使追兵接近也要繼續前進。走錯分岔可能繞到門的另一側，來不及折返。"
+    }
+  ],
+  "routeSummary": "起點 → 西北城門 → 四處殘骸與墓地 → 西南夏爾營地 → 劇情 → 向南跑回卡爾漢軍官",
+  "mapImage": "/maps/The_Great_Northern_Wall_western_cartographer_map.jpg",
+  "mapNotes": [
+    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "title": "主線路線圖",
+      "alt": "北方長城・主線路線圖",
+      "width": 341,
+      "height": 408,
+      "filePage": "https://wiki.guildwars.com/wiki/File:The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/90/The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/The_Great_Northern_Wall_map.jpg",
+      "title": "補充路線圖",
+      "alt": "北方長城・補充路線圖",
+      "width": 535,
+      "height": 567,
+      "filePage": "https://wiki.guildwars.com/wiki/File:The_Great_Northern_Wall_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/0/09/The_Great_Northern_Wall_map.jpg",
+      "uploader": "Mat Cauthorn",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "bonus_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Drub Gorefang",
+        "en": "Drub Gorefang"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Cyclone Axe",
+        "Healing Signet",
+        "Penetrating Blow",
+        "Shield Stance"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Drub_Gorefang",
+      "revision": 2656529
+    },
+    {
+      "name": {
+        "zhTW": "Slur Scarchest",
+        "en": "Slur Scarchest"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Favorable Winds",
+        "Ignite Arrows",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Slur_Scarchest",
+      "revision": 2413707
+    },
+    {
+      "name": {
+        "zhTW": "Swag the Lasher",
+        "en": "Swag the Lasher"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Banish",
+        "Heal Area",
+        "Infuse Health"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Swag_the_Lasher",
+      "revision": 2413685
+    },
+    {
+      "name": {
+        "zhTW": "Maul Riptear",
+        "en": "Maul Riptear"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Faintheartedness",
+        "Life Siphon",
+        "Mark of Pain"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Maul_Riptear",
+      "revision": 2413737
+    },
+    {
+      "name": {
+        "zhTW": "Marr Burnhorn",
+        "en": "Marr Burnhorn"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Burn",
+        "Ether Feast",
+        "Illusion of Haste",
+        "Mantra of Flame"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Marr_Burnhorn",
+      "revision": 2413711
+    },
+    {
+      "name": {
+        "zhTW": "Fume Kindleflail",
+        "en": "Fume Kindleflail"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare",
+        "Lava Font"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Fume_Kindleflail",
+      "revision": 2656570
+    },
+    {
+      "name": {
+        "zhTW": "Bonfaaz Burntfur",
+        "en": "Bonfaaz Burntfur"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare",
+        "Lava Font"
+      ],
+      "notes": [
+        "此頭目只在劇情可見，撤退時移除，不是必殺目標。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Bonfaaz_Burntfur",
+      "revision": 2663172
+    },
+    {
+      "name": {
+        "zhTW": "Igg Fecpelter",
+        "en": "Igg Fecpelter"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Called Shot",
+        "Lightning Reflexes",
+        "Quickening Zephyr",
+        "Troll Unguent"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Igg_Fecpelter",
+      "revision": 2709777
+    },
+    {
+      "name": {
+        "zhTW": "Fleck Grokspit",
+        "en": "Fleck Grokspit"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Parasitic Bond",
+        "Putrid Explosion",
+        "Weaken Armor"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Fleck_Grokspit",
+      "revision": 2414496
+    },
+    {
+      "name": {
+        "zhTW": "Spazz Mindrender",
+        "en": "Spazz Mindrender"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Chaos Storm",
+        "Empathy",
+        "Ether Feast",
+        "Ether Lord"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Spazz_Mindrender",
+      "revision": 2414601
+    },
+    {
+      "name": {
+        "zhTW": "Claw Fleshfixer",
+        "en": "Claw Fleshfixer"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Lightning Orb",
+        "Lightning Strike",
+        "Whirlwind"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Claw_Fleshfixer",
+      "revision": 2414598
+    },
+    {
+      "name": {
+        "zhTW": "Onaona Kubkub",
+        "en": "Onaona Kubkub"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"Watch Yourself!\"",
+        "Counter Blow",
+        "Healing Signet",
+        "Mighty Blow"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Onaona_Kubkub",
+      "revision": 2178804
+    },
+    {
+      "name": {
+        "zhTW": "Makani Ookook",
+        "en": "Makani Ookook"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Orison of Healing",
+        "Symbol of Wrath",
+        "Vital Blessing"
+      ],
+      "notes": [
+        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Makani_Ookook",
+      "revision": 2169672
+    }
+  ],
+  "recommendedTeam": [
+    "一名治療者與復活技能，讓低等隊伍能穩定清前段敵人。",
+    "撤退時使用加速；不需要把追兵全殺光。",
+    "解減速降咒，避免石像鬼的意念負荷或殘廢痛苦。"
+  ],
+  "tips": [
+    "粉紫色焦油水會附加 Tar 減速；撤退時盡量走乾地。",
+    "完成後到瑞尼克要塞。地圖另附西南探圖支路，供製圖稱號使用，不是主線撤退路線。"
+  ],
+  "warnings": [
+    "追逐開始後停下戰鬥或走錯橋路，可能被追兵趕上或任務計時判定失敗。",
+    "撤退前先完成四件盔甲交付，別等夏爾開始追你。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "依上方主線與 Bonus 順序推進，逐群清怪。"
+    ],
+    "hard": [
+      "困難模式敵人移速較快；跳過過場並準備隊伍加速技能，如「撤退！」（Fall Back!）。",
+      "必要時把英雄旗標放在追兵路上阻擋；不要為了救回所有隊員而停止撤退。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "NM 主線",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": [
+          "原 Wiki 傳統模式表未列金幣。",
+          "非 Prophecies 出生角色普通模式不獲此主線一般獎勵，依 Wiki 說明。"
+        ]
+      }
+    ],
+    "bonus": [
+      {
+        "label": "NM Bonus",
+        "experience": 1000,
+        "gold": null,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "hard": [
+      {
+        "label": "HM 主線",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ],
+    "zaishen": [
+      {
+        "label": "已接取 Zaishen Mission 的額外領取獎勵",
+        "experience": 1000,
+        "gold": 250,
+        "skillPoints": null,
+        "notes": [
+          "基本主線目標：15 枚戰承銅幣。",
+          "完成本關 Bonus：額外 22 枚戰承銅幣。",
+          "以困難模式完成主線：額外 37 枚戰承銅幣。",
+          "需事先接取對應 Zaishen Quest，完成後向 Zehnchu 領取；不是每次通關自動發給。"
+        ]
+      }
+    ],
+    "reforged": [
+      {
+        "label": "Reforged NM 主線",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged NM Bonus",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM 主線",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      },
+      {
+        "label": "Reforged HM Bonus",
+        "experience": 2000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": []
+      }
+    ]
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki 任務頁",
+      "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall?oldid=2741820",
+      "revision": 2741820,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "激戰繁中 Wiki：首部曲地名與 NPC 對照",
+      "url": "https://guildwars.fandom.com/zh-tw/wiki/英中地名NPC任務表(首部曲)",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Zaishen Quest 獎勵",
+      "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall_%28Zaishen_quest%29?oldid=2436254",
+      "revision": 2436254,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "巴哈姆特：一章主線任務文字詳解（舊版中文參考）",
+      "url": "https://forum.gamer.com.tw/G2.php?bsn=7678&lorder=1&parent=600&sn=599",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
+    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+  ],
+  "previousMission": null,
+  "nextMission": "fort-ranik",
+  "prerequisites": []
+}

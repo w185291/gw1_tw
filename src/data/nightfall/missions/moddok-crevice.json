@@ -1,0 +1,394 @@
+{
+  "id": "moddok-crevice",
+  "order": 9,
+  "displayOrder": "8",
+  "storyStage": 8,
+  "campaign": "nightfall",
+  "region": "kourna",
+  "name": {
+    "zhTW": "摩多克裂縫",
+    "en": "Moddok Crevice"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Moddok Crevice",
+    "摩多克裂谷"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "穿越Bahdok洞穴，擊敗Bayel與Hunger前往瓦比。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Unlucky Simon 對話選擇開始任務。",
+    "location": "摩多克裂縫 / Moddok Crevice",
+    "requirements": [
+      "已完成Pogahn Passage或Rilohn Refuge，兩關只需其中一關。",
+      "Dunkoro必須在隊。"
+    ]
+  },
+  "missionStarter": "Unlucky Simon",
+  "requiredHeroes": [
+    {
+      "id": "dunkoro",
+      "name": {
+        "zhTW": "唐克羅 / Dunkoro",
+        "en": "Dunkoro"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "完成0–2項指示",
+      "expert": "完成三項",
+      "master": "完成四項指示"
+    },
+    "hard": {
+      "standard": "完成0–2項指示",
+      "expert": "完成三項",
+      "master": "完成四項指示"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "穿越Bahdok洞穴，擊敗Bayel與Hunger前往瓦比。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "完成四項指示",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "完成四項指示"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "拒絕海盜可分批打",
+      "content": "Captain Bohseda自稱導遊；不信任會立即翻臉，可與後續伏兵分開打。信任會被一起伏擊，選擇本身不影響四項大師指示。"
+    },
+    {
+      "title": "先避錯路與巡邏",
+      "content": "不要踏圖1上坡Mandragor岔路，連英雄／小兵也不能踩；改西通路經過瀑布。派一人觸發上坡海盜巡邏，全隊退瀑布等它離開，再上西路。"
+    },
+    {
+      "title": "沿東牆到雙跑者",
+      "content": "順東牆避營地，到兩Corsair Runners前先插旗指定目標。玩家減速第二個，英雄殺第一個；不要等Dunkoro說完才行動。"
+    },
+    {
+      "title": "橋下打最後兩敵",
+      "content": "按北線下降到庫爾納。橋下可擋高地弓箭，以非投射技能先拉Bayel再Hunger；或拉Hunger到另一橋，殘廢防其退回治療。"
+    }
+  ],
+  "routeSummary": "波甘驛站 → 裡歐恩難民營 → 摩多克裂縫 → 提亞克林地",
+  "mapImage": "/maps/nightfall-Moddok_Crevice_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Moddok_Crevice_map.jpg",
+      "title": "摩多克裂縫 · 主線路線",
+      "alt": "摩多克裂縫的Guild Wars Wiki原圖：主線路線",
+      "width": 242,
+      "height": 477,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Moddok_Crevice_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/d/df/Moddok_Crevice_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Ranshek, Carrion Eater",
+        "en": "Ranshek, Carrion Eater"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Cleave"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
+      "revision": 2715097
+    },
+    {
+      "name": {
+        "zhTW": "Kehmak the Tranquil",
+        "en": "Kehmak the Tranquil"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Light of Deliverance"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
+      "revision": 2715097
+    },
+    {
+      "name": {
+        "zhTW": "Yakun Trueshot",
+        "en": "Yakun Trueshot"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Cruel Spear"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
+      "revision": 2715097
+    },
+    {
+      "name": {
+        "zhTW": "The Hunger",
+        "en": "The Hunger"
+      },
+      "profession": null,
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
+      "revision": 2715097
+    },
+    {
+      "name": {
+        "zhTW": "General Bayel",
+        "en": "General Bayel"
+      },
+      "profession": "僧侶",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
+      "revision": 2715097
+    }
+  ],
+  "recommendedTeam": [
+    "Dunkoro與多來源減速／擊倒、跑速、遠距離非投射傷害；HM跑者更快，末段在橋下掩蔽。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。",
+    "本關屬17故事階段的第8階段，完成後沿單一主線還有9關；總索引另保留所有替代關卡。"
+  ],
+  "warnings": [
+    "第一建議可能被英雄／小兵誤踩路破壞；第二成功提示要等第三後才出現。即使四項已計數也不要殺昆蟲Boss，可能使大師判定失效。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "完成四項指示",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "完成四項指示",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Moddok_Crevice",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Moddok Crevice",
+      "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice",
+      "revision": 2715097,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Moddok Crevice (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice_%28outpost%29",
+      "revision": 2636709,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "tihark-orchard",
+  "previousOptions": [
+    "pogahn-passage",
+    "rilohn-refuge"
+  ],
+  "nextOptions": [
+    "tihark-orchard"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Rally The Princes",
+        "en": "Rally The Princes"
+      },
+      "giver": "Kuwame",
+      "location": "Wehhan Terraces",
+      "directions": "從Wehhan到Yatendi找Kehanni，再到Chantry of Secrets找Seeker，經Vehtendi會Kehanni取得邀請；過Forum Highlands至Haila，在Font of Lyss清洗後傳進Tihark，找Kazsha。",
+      "url": "https://wiki.guildwars.com/wiki/Rally_The_Princes",
+      "revision": 2709906,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "checklist": [
+    {
+      "title": "Dunkoro 四項指示",
+      "items": [
+        "不踏Mandragor上坡路，含英雄與小兵",
+        "躲瀑布讓巡邏離開，再上西路",
+        "沿東牆避開海盜營地",
+        "攔殺兩名不同方向跑者；不殺昆蟲Boss"
+      ]
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "第一建議可能被英雄／小兵誤踩路破壞；第二成功提示要等第三後才出現。即使四項已計數也不要殺昆蟲Boss，可能使大師判定失效。",
+      "counter": "Dunkoro與多來源減速／擊倒、跑速、遠距離非投射傷害；HM跑者更快，末段在橋下掩蔽。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "完成0–2項指示",
+      "expert": "完成三項",
+      "master": "完成四項指示"
+    },
+    "hard": {
+      "standard": "完成0–2項指示",
+      "expert": "完成三項",
+      "master": "完成四項指示"
+    }
+  }
+}

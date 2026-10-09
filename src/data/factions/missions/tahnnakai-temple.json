@@ -1,0 +1,443 @@
+{
+  "id": "tahnnakai-temple",
+  "order": 5,
+  "displayOrder": "5",
+  "storyStage": 5,
+  "campaign": "factions",
+  "region": "kaineng",
+  "name": {
+    "zhTW": "譚納凱神殿",
+    "en": "Tahnnakai Temple"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Tahnnakai Temple"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "依序解放八位被束縛的英雄靈魂，Togo 與 Mhenlo 必須存活。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "譚納凱神殿 / Tahnnakai Temple",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "依序解放八位被束縛的英雄靈魂，Togo 與 Mhenlo 必須存活。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於20分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於20分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "1 Kitah／2 Naku",
+      "content": "第一室把兩對 Temple Guardians 分開拉。第二室從右、中央、左逐批清理，沿走道拉怪；讓英雄先拉，玩家留後，避免跟隨的 Togo／Mhenlo衝進去。"
+    },
+    {
+      "title": "3 Teinai／4 Karei",
+      "content": "Teinai 房感染者是一大群，Boss 較獨立；在入口轉角集中敵人，注意 Star Burst 與 Sliver Armor。Karei 房先處理可分開拉的守衛。"
+    },
+    {
+      "title": "5 Jaizhanju／6 Zojun",
+      "content": "第五室先拉右側小群，將戰士拉離治療；門兩側都清掉，免得下室被包抄。第六室從左門較容易，等巡邏上階再分批處理守衛與主群。"
+    },
+    {
+      "title": "7 Kaolai",
+      "content": "這室壓力最大，元素使多且有 Restoration 範圍復活。先放保護靈、分散站位，由高防禦英雄拉怪，玩家與跟隨 NPC 留在安全距離。"
+    },
+    {
+      "title": "8 Vizu",
+      "content": "圓環有巡邏遊俠，橋邊守衛可能妨礙戰鬥，先消除威脅。利用橋作瓶頸但後排散開；必須清完中央敵人，不能只殺 Vizu。等釋放靈魂走到門口開門。"
+    }
+  ],
+  "routeSummary": "納普區 → 譚納凱神殿 → 亭石",
+  "mapImage": "/maps/factions-Tahnnakai_Temple_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Tahnnakai_Temple_map.jpg",
+      "title": "譚納凱神殿 · 主線路線",
+      "alt": "譚納凱神殿的Guild Wars Wiki原圖：主線路線",
+      "width": 480,
+      "height": 555,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Tahnnakai_Temple_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/3/37/Tahnnakai_Temple_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Bound Jaizhanju",
+        "en": "Bound Jaizhanju"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Auspicious Parry"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Zojun",
+        "en": "Bound Zojun"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Famine"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Karei",
+        "en": "Bound Karei"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Spell Breaker"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Naku",
+        "en": "Bound Naku"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Wail of Doom"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Kitah",
+        "en": "Bound Kitah"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Arcane Languor"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Teinai",
+        "en": "Bound Teinai"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Star Burst"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Vizu",
+        "en": "Bound Vizu"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [
+        "Shroud of Silence"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    },
+    {
+      "name": {
+        "zhTW": "Bound Kaolai",
+        "en": "Bound Kaolai"
+      },
+      "profession": "祭祀者",
+      "importantSkills": [
+        "Defiant Was Xinrae"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
+      "revision": 2703540
+    }
+  ],
+  "recommendedTeam": [
+    "帶範圍保護、NPC 治療、打斷及單群拉怪工具；橋頭召喚肉盾可擋住近戰。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "倒數會在逐室擊敗 Boss 後補回，但總通關時間仍決定獎勵。不要用小兵／靈阻擋解放後的靈魂；Togo 或 Mhenlo 死亡即失敗。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於20分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於30分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Tahnnakai Temple",
+      "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple",
+      "revision": 2703540,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "nahpui-quarter",
+  "nextMission": "arborstone",
+  "previousOptions": [
+    "nahpui-quarter"
+  ],
+  "nextOptions": [
+    "arborstone"
+  ],
+  "prerequisites": [
+    "nahpui-quarter"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "To Tahnnakai Temple",
+        "en": "To Tahnnakai Temple"
+      },
+      "giver": "Adept Kai",
+      "location": "Senji's Corner",
+      "directions": "到神殿門找Bai，保護Togo、Mhenlo清Nika公會外感染者，再護送到門口，找Khai Jhong交任務。",
+      "url": "https://wiki.guildwars.com/wiki/To_Tahnnakai_Temple",
+      "revision": 2721294,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "A Meeting With the Emperor",
+        "en": "A Meeting With the Emperor"
+      },
+      "giver": "Emperor's Voice",
+      "location": "Zin Ku Corridor",
+      "directions": "到皇宮與皇帝會面，找Emperor’s Voice交任務。",
+      "url": "https://wiki.guildwars.com/wiki/A_Meeting_With_the_Emperor",
+      "revision": 2716117,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Count's Daughter",
+        "en": "The Count's Daughter"
+      },
+      "giver": "Emperor's Voice",
+      "location": "Zin Ku Corridor",
+      "directions": "在麻都堡壘外會合Danika，沿任務找Redemptor Karl與Lift Operator Shulz，再找Acolyte Hanz。",
+      "url": "https://wiki.guildwars.com/wiki/The_Count%27s_Daughter",
+      "revision": 2391807,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "倒數會在逐室擊敗 Boss 後補回，但總通關時間仍決定獎勵。不要用小兵／靈阻擋解放後的靈魂；Togo 或 Mhenlo 死亡即失敗。",
+      "counter": "帶範圍保護、NPC 治療、打斷及單群拉怪工具；橋頭召喚肉盾可擋住近戰。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    }
+  }
+}

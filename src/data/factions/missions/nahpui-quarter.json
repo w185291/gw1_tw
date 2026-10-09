@@ -1,0 +1,388 @@
+{
+  "id": "nahpui-quarter",
+  "order": 4,
+  "displayOrder": "4",
+  "storyStage": 4,
+  "campaign": "factions",
+  "region": "kaineng",
+  "name": {
+    "zhTW": "納普區",
+    "en": "Nahpui Quarter"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Nahpui Quarter"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "擊敗麒麟、龜龍、鳳凰、龍四位天界生物，取得 Weh no Su。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "納普區 / Nahpui Quarter",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過30分鐘",
+      "expert": "25–30分鐘",
+      "master": "少於25分鐘"
+    },
+    "hard": {
+      "standard": "超過45分鐘",
+      "expert": "40–45分鐘",
+      "master": "少於40分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "擊敗麒麟、龜龍、鳳凰、龍四位天界生物，取得 Weh no Su。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於25分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於25分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "選左側入口",
+      "content": "四 Boss 在地圖綠星固定位置，擊殺順序不限；Wiki 建議從最左傳送門開始，後續精華較易處理。"
+    },
+    {
+      "title": "逐區向前",
+      "content": "先清不會重生的 Star Tengu，再打 Boss。Boss 死後會生成較弱天界精華；精華被擊殺約三分鐘後再生，所以穩定推進，不反覆停留原地。"
+    },
+    {
+      "title": "處理最後 Boss",
+      "content": "保留要捕捉的精英技能到前三個 Boss。第四個 Boss 死後立即結束，傳送到 Senji’s Corner，接 To Tahnnakai Temple。"
+    }
+  ],
+  "routeSummary": "薇茹廣場 → 納普區 → 譚納凱神殿",
+  "mapImage": "/maps/factions-Nahpui_Quarter_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Nahpui_Quarter_map.jpg",
+      "title": "納普區 · 主線路線",
+      "alt": "納普區的Guild Wars Wiki原圖：主線路線",
+      "width": 993,
+      "height": 932,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Nahpui_Quarter_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/1/1a/Nahpui_Quarter_map.jpg",
+      "uploader": "Chieftain Alex",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/factions-Nahpui_Quarter_mission_loading_screen.jpg",
+      "title": "納普區 · 載入畫面",
+      "alt": "納普區的Guild Wars Wiki原圖：載入畫面",
+      "width": 1000,
+      "height": 750,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Nahpui_Quarter_mission_loading_screen.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/92/Nahpui_Quarter_mission_loading_screen.jpg",
+      "uploader": "Ab.er.rant",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "loading_screen"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Kaijun Don",
+        "en": "Kaijun Don"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Signet of Judgment"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
+      "revision": 2709901
+    },
+    {
+      "name": {
+        "zhTW": "Kuonghsang",
+        "en": "Kuonghsang"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Grenth's Balance"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
+      "revision": 2709901
+    },
+    {
+      "name": {
+        "zhTW": "Hai Jii",
+        "en": "Hai Jii"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Lyssa's Aura"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
+      "revision": 2709901
+    },
+    {
+      "name": {
+        "zhTW": "Tahmu",
+        "en": "Tahmu"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Lightning Surge"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
+      "revision": 2709901
+    }
+  ],
+  "recommendedTeam": [
+    "準備反施法、移除姿態、解咒與範圍輸出；可利用天狗屍體召喚，但龜精華會搶屍體。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "天界生物沒有可利用的血肉屍體，不能全靠中毒、流血或召喚補充。精華會再生，回頭清怪容易拖過大師時間。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於25分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於40分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Nahpui_Quarter",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Nahpui Quarter",
+      "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter",
+      "revision": 2709901,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "vizunah-square",
+  "nextMission": "tahnnakai-temple",
+  "previousOptions": [
+    "vizunah-square"
+  ],
+  "nextOptions": [
+    "tahnnakai-temple"
+  ],
+  "prerequisites": [
+    "vizunah-square"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Finding The Oracle",
+        "en": "Finding The Oracle"
+      },
+      "giver": "Messenger Gosuh",
+      "location": "Dragon's Throat",
+      "directions": "在Shadow’s Passage與Mhenlo、Togo談神諭者，再到Bukdek Byway尋Nika。",
+      "url": "https://wiki.guildwars.com/wiki/Finding_The_Oracle",
+      "revision": 2578673,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Closer to the Stars",
+        "en": "Closer to the Stars"
+      },
+      "giver": "Nika",
+      "location": "Bukdek Byway",
+      "directions": "在Wajjun Bazaar護Fishmonger Bihzun對抗Jade Brotherhood，問神諭者線索，再找Loud Kou與Adept Nai。",
+      "url": "https://wiki.guildwars.com/wiki/Closer_to_the_Stars",
+      "revision": 2586789,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "To Tahnnakai Temple",
+        "en": "To Tahnnakai Temple"
+      },
+      "giver": "Adept Kai",
+      "location": "Senji's Corner",
+      "directions": "到神殿門找Bai，保護Togo、Mhenlo清Nika公會外感染者，再護送到門口，找Khai Jhong交任務。",
+      "url": "https://wiki.guildwars.com/wiki/To_Tahnnakai_Temple",
+      "revision": 2721294,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "天界生物沒有可利用的血肉屍體，不能全靠中毒、流血或召喚補充。精華會再生，回頭清怪容易拖過大師時間。",
+      "counter": "準備反施法、移除姿態、解咒與範圍輸出；可利用天狗屍體召喚，但龜精華會搶屍體。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過30分鐘",
+      "expert": "25–30分鐘",
+      "master": "少於25分鐘"
+    },
+    "hard": {
+      "standard": "超過45分鐘",
+      "expert": "40–45分鐘",
+      "master": "少於40分鐘"
+    }
+  }
+}

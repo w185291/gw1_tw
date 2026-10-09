@@ -1,0 +1,418 @@
+{
+  "id": "boreas-seabed",
+  "order": 7,
+  "displayOrder": "7",
+  "storyStage": 7,
+  "campaign": "factions",
+  "region": "jade-sea",
+  "name": {
+    "zhTW": "風神海床",
+    "en": "Boreas Seabed"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Boreas Seabed"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "贏得三氏族比賽，取得聖矛並擊敗 Zhu Hanuku。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "風神海床 / Boreas Seabed",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "贏得三氏族比賽，取得聖矛並擊敗 Zhu Hanuku。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於20分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於20分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "依順序擊敗三氏族",
+      "content": "蟹族由東南、蛇族由西南、龜族由西北進場；上一組死亡下一組就出現。利用出場狹道集中敵人，龜族 Argo 的 Argo’s Cry 要打斷。"
+    },
+    {
+      "title": "取得並充能聖矛",
+      "content": "比賽後可拿 Spear of Archemorus，為可選但有幫助的束物。附近生物死亡可充能，滿層丟下造成高傷害。"
+    },
+    {
+      "title": "打斷海怪",
+      "content": "前往 Zhu Hanuku，避免同時引旁邊敵群。Jade Fury 和復活招式施法較長，用打斷／暈眩控制，清除 Kraken Spawns。擊敗海怪後到 Zos Shivros Channel。"
+    }
+  ],
+  "routeSummary": "亭石 → 風神海床 → 孫江行政區",
+  "mapImage": "/maps/factions-Boreas_Seabed_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Boreas_Seabed_map.jpg",
+      "title": "風神海床 · 主線路線",
+      "alt": "風神海床的Guild Wars Wiki原圖：主線路線",
+      "width": 800,
+      "height": 419,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Boreas_Seabed_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/c/c8/Boreas_Seabed_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Seaguard Eli",
+        "en": "Seaguard Eli"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Dragon Slash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Aurora",
+        "en": "Aurora"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Barrage"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Daeman",
+        "en": "Daeman"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Broad Head Arrow"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Seaguard Gita",
+        "en": "Seaguard Gita"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Life Sheath"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Seaguard Hala",
+        "en": "Seaguard Hala"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Power Leech"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Argo",
+        "en": "Argo"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Mind Burn"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    },
+    {
+      "name": {
+        "zhTW": "Zhu Hanuku",
+        "en": "Zhu Hanuku"
+      },
+      "profession": "幻術師",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
+      "revision": 2735399
+    }
+  ],
+  "recommendedTeam": [
+    "帶多個打斷、暈眩、保護與召喚；死亡召喚物可幫聖矛充能。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "不要把 Argo 的範圍技和海怪的 Jade Fury 當一般普攻硬吃。比賽階段附近死亡充能也可能使聖矛傷及隊伍。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於20分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於20分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Boreas_Seabed",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Boreas Seabed",
+      "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed",
+      "revision": 2735399,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "arborstone",
+  "nextMission": "sunjiang-district",
+  "previousOptions": [
+    "arborstone"
+  ],
+  "nextOptions": [
+    "sunjiang-district"
+  ],
+  "prerequisites": [
+    "arborstone"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "The Convocation",
+        "en": "The Convocation"
+      },
+      "giver": "Headmaster Amara",
+      "location": "Altrumm  Ruins",
+      "directions": "會合Togo，前往風神海床尋求入場，找Elder Rhea交任務。",
+      "url": "https://wiki.guildwars.com/wiki/The_Convocation",
+      "revision": 2607120,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "City Under Attack",
+        "en": "City Under Attack"
+      },
+      "giver": "Imperial Herald",
+      "location": "Zos Shivros Channel",
+      "directions": "到城門找Togo，調查下水道襲擊，去Raisu Pavilion向皇帝報告。",
+      "url": "https://wiki.guildwars.com/wiki/City_Under_Attack",
+      "revision": 2688492,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Battle in the Sewers",
+        "en": "Battle in the Sewers"
+      },
+      "giver": "Emperor's Hand",
+      "location": "Raisu Pavilion",
+      "directions": "在Shenzun Tunnels會合皇家衛隊，護送到Jafai，找Kazuya交任務開孫江入口。",
+      "url": "https://wiki.guildwars.com/wiki/Battle_in_the_Sewers",
+      "revision": 2722326,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "不要把 Argo 的範圍技和海怪的 Jade Fury 當一般普攻硬吃。比賽階段附近死亡充能也可能使聖矛傷及隊伍。",
+      "counter": "帶多個打斷、暈眩、保護與召喚；死亡召喚物可幫聖矛充能。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "id": "tihark-orchard",
+  "order": 10,
+  "displayOrder": "9",
+  "storyStage": 9,
+  "campaign": "nightfall",
+  "region": "vabbi",
+  "name": {
+    "zhTW": "提亞克林地",
+    "en": "Tihark Orchard"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Tihark Orchard"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "單人參加莉莎節，說服三親王，最後保衛花園。",
+  "partySize": 1,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Event Planner Kazsha 對話選擇開始任務。",
+    "location": "提亞克林地 / Tihark Orchard",
+    "requirements": [
+      "完成Rally The Princes。",
+      "单人任務，不能带英雄或傭兵。"
+    ]
+  },
+  "missionStarter": "Event Planner Kazsha",
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "special",
+    "normal": {
+      "standard": "參與三項節慶活動",
+      "expert": "參與四項",
+      "master": "參與五項"
+    },
+    "hard": {
+      "standard": "參與三項節慶活動",
+      "expert": "參與四項",
+      "master": "參與五項"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "單人參加莉莎節，說服三親王，最後保衛花園。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "參與五項",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "參與五項"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "單人自保配置",
+      "content": "這關一人且不能帶英雄／傭兵，帶自療、輸出與移動技能。玩家參與活動取得三親王談話資格。"
+    },
+    {
+      "title": "爭取三方資格",
+      "content": "Mehtu可用/dance教Dende或Mina，或贏Lumo模仿；Bokka可交Jejumba所得古瓶給Oluda，或賄賂；Ahmtur可重演打“Palawa Joko”或贏Zilo喝酒。"
+    },
+    {
+      "title": "先湊滿五活動",
+      "content": "舞蹈、送瓶、送瓶後再5白金賄賂、戰役重演、喝酒可組成五項。若不想付賄賂改做Lumo模仿。得到資格後與各親王說話，五項確認後才再次找Ahmtur。"
+    },
+    {
+      "title": "領守衛逐群清鳥",
+      "content": "第二次Ahmtur談話觸發Harpies。帶兩宮衛兩隊長靠近各鳥群再退後，讓盟友參戰；逐群清完完成。"
+    }
+  ],
+  "routeSummary": "摩多克裂縫 → 提亞克林地 → 達沙走廊 → 薩崗諾稜堡",
+  "mapImage": "/maps/nightfall-Tihark_Orchard_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Tihark_Orchard_map.jpg",
+      "title": "提亞克林地 · 主線路線",
+      "alt": "提亞克林地的Guild Wars Wiki原圖：主線路線",
+      "width": 454,
+      "height": 276,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Tihark_Orchard_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/90/Tihark_Orchard_map.jpg",
+      "uploader": "Matte",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "自療與短施法傷害，召喚攻擊靈可輔助活動戰；HM只有最終鳥群戰更危險，活動規則不變。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "再次找Ahmtur前必須完成五活動，過場後不能補。別帶只能靠英雄運作的技能欄；自療保命很重要。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "參與五項",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "參與五項",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Tihark_Orchard",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Tihark Orchard",
+      "url": "https://wiki.guildwars.com/wiki/Tihark_Orchard",
+      "revision": 2728545,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Tihark Orchard (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Tihark_Orchard_%28outpost%29",
+      "revision": 2724832,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Tihark Orchard/Guide",
+      "url": "https://wiki.guildwars.com/wiki/Tihark_Orchard/Guide",
+      "revision": 2723058,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "moddok-crevice",
+  "nextMission": null,
+  "previousOptions": [
+    "moddok-crevice"
+  ],
+  "nextOptions": [
+    "dasha-vestibule",
+    "dzagonur-bastion"
+  ],
+  "prerequisites": [
+    "moddok-crevice"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Rally The Princes",
+        "en": "Rally The Princes"
+      },
+      "giver": "Kuwame",
+      "location": "Wehhan Terraces",
+      "directions": "從Wehhan到Yatendi找Kehanni，再到Chantry of Secrets找Seeker，經Vehtendi會Kehanni取得邀請；過Forum Highlands至Haila，在Font of Lyss清洗後傳進Tihark，找Kazsha。",
+      "url": "https://wiki.guildwars.com/wiki/Rally_The_Princes",
+      "revision": 2709906,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "All's Well That Ends Well",
+        "en": "All's Well That Ends Well"
+      },
+      "giver": "Royal Food Taster Rendu",
+      "location": "The Kodash Bazaar",
+      "directions": "Mirror of Lyss找Kehanni，到Resplendent Makuun與Bokka、Bokka Amphitheatre的Vaughn會談，清伏擊精銳，回Oluda。",
+      "url": "https://wiki.guildwars.com/wiki/All%27s_Well_That_Ends_Well",
+      "revision": 2675732,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Warning Kehanni",
+        "en": "Warning Kehanni"
+      },
+      "giver": "Royal Finance Minister Oluda",
+      "location": "Honur Hill",
+      "directions": "警告Kehanni，清神殿前鋒，回Head Priest Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Warning_Kehanni",
+      "revision": 2602437,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Greed and Regret",
+        "en": "Greed and Regret"
+      },
+      "giver": "Head Priest Vahmani",
+      "location": "Grand Court of Sebelkeh",
+      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找Goren到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
+      "url": "https://wiki.guildwars.com/wiki/Greed_and_Regret",
+      "revision": 2687256,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Calling the Order",
+        "en": "Calling the Order"
+      },
+      "giver": "Head Priest Vahmani",
+      "location": "Grand Court of Sebelkeh",
+      "directions": "帶Whispers指派Acolytes防Margonite，保護Norgu，對話後向Ahmtur報告，回Murunda。",
+      "url": "https://wiki.guildwars.com/wiki/Calling_the_Order",
+      "revision": 2689296,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "specialActivities": [
+    {
+      "title": "舞蹈",
+      "instructions": "找Dende（女角）或Mina（男角），對話後/dance。"
+    },
+    {
+      "title": "送古瓶",
+      "instructions": "向Jejumba取得古瓶交Oluda，可付4白金、以打Royal Guard Captain所得Golden Phoenix Feather換，或直接擊敗Jejumba。"
+    },
+    {
+      "title": "送瓶後賄賂",
+      "instructions": "送禮後再付5白金給Oluda，算另一項活動。"
+    },
+    {
+      "title": "戰役重演",
+      "instructions": "擊敗扮演Palawa Joko的NPC。"
+    },
+    {
+      "title": "Zilo喝酒／Lumo模仿替代",
+      "instructions": "Zilo喝酒：在他喝完桶前向客人取十二杯；孩子、僕人與守衛不可取，偷Great Zehtuka會使他敵對。Lumo模仿：連續十次在2–3秒內輸入相同動作，常見/dance、/cheer、/beg、/boo、/bored、/breath、/taunt等；全動作表見本頁來源Tihark Orchard/Guide。"
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "再次找Ahmtur前必須完成五活動，過場後不能補。別帶只能靠英雄運作的技能欄；自療保命很重要。",
+      "counter": "自療與短施法傷害，召喚攻擊靈可輔助活動戰；HM只有最終鳥群戰更危險，活動規則不變。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "參與三項節慶活動",
+      "expert": "參與四項",
+      "master": "參與五項"
+    },
+    "hard": {
+      "standard": "參與三項節慶活動",
+      "expert": "參與四項",
+      "master": "參與五項"
+    }
+  }
+}

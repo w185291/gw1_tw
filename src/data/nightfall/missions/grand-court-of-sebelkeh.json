@@ -1,0 +1,346 @@
+{
+  "id": "grand-court-of-sebelkeh",
+  "order": 13,
+  "displayOrder": "11",
+  "storyStage": 11,
+  "campaign": "nightfall",
+  "region": "vabbi",
+  "name": {
+    "zhTW": "希貝克大宮廷",
+    "en": "Grand Court of Sebelkeh"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Grand Court of Sebelkeh"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "保護莉莎祭壇，佔領三裂隙。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Head Priest Vahmani 對話選擇開始任務。",
+    "location": "希貝克大宮廷 / Grand Court of Sebelkeh",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Head Priest Vahmani",
+  "requiredHeroes": [
+    {
+      "id": "tahlkora",
+      "name": {
+        "zhTW": "塔蔻菈 / Tahlkora",
+        "en": "Tahlkora"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過9分鐘",
+      "expert": "6–9分鐘",
+      "master": "少於6分鐘"
+    },
+    "hard": {
+      "standard": "超過16分鐘",
+      "expert": "12–16分鐘",
+      "master": "少於12分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "保護莉莎祭壇，佔領三裂隙。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於6分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於6分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "離開起點馬上守中央",
+      "content": "離開傳送圈開始計時，各裂隙兩怪衝祭壇，留人在中央阻止佔領；佔領速度最多四人貢獻，敵人會抵銷。"
+    },
+    {
+      "title": "清第一裂隙",
+      "content": "單隊可先南方較遠的平臺，殺守軍與Torment Claw，站在裂隙旁戰鬥同步佔領。殺全守軍，免它們重開裂隙。"
+    },
+    {
+      "title": "返祭壇處理Blasphemy",
+      "content": "它死亡會給全隊Last Rites of Torment並出三Unbound Energies，先清這些再殺下一個。打斷Summon Torment避免每次把裂隙紅條加25%。"
+    },
+    {
+      "title": "第二、三裂隙",
+      "content": "確保中央安全後再清西北、東北。HM可一兩人守中央其餘輸出佔點；佔滿後稍等完成。首次過關獲得General Morgahn。"
+    }
+  ],
+  "routeSummary": "達沙走廊 → 薩崗諾稜堡 → 希貝克大宮廷 → 徵納群落 → 納度灣",
+  "mapImage": "/maps/nightfall-Grand_Court_of_Sebelkeh_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Grand_Court_of_Sebelkeh_map.jpg",
+      "title": "希貝克大宮廷 · 主線路線",
+      "alt": "希貝克大宮廷的Guild Wars Wiki原圖：主線路線",
+      "width": 407,
+      "height": 487,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Grand_Court_of_Sebelkeh_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/1/18/Grand_Court_of_Sebelkeh_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "Tahlkora、召喚／靈守中央、範圍爆發、打斷Torment Slash與Summon Torment、群解咒。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "祭壇被奪會失敗。新裂隙佔下後Blasphemy更快重生，不能一直追外圈忘中央；已佔裂隙紅條到75%要派人壓回。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於6分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於12分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Grand Court of Sebelkeh",
+      "url": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh",
+      "revision": 2698661,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Grand Court of Sebelkeh (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh_%28outpost%29",
+      "revision": 2730656,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": null,
+  "previousOptions": [
+    "dasha-vestibule",
+    "dzagonur-bastion"
+  ],
+  "nextOptions": [
+    "jennurs-horde",
+    "nundu-bay"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Pledge of the Merchant Princes",
+        "en": "Pledge of the Merchant Princes"
+      },
+      "giver": "Zerai the Learner",
+      "location": "the Kodash Bazaar",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
+      "revision": 2621044,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Attack at the Kodash",
+        "en": "Attack at the Kodash"
+      },
+      "giver": "Zerai the Learner",
+      "location": "the Kodash Bazaar",
+      "directions": "必須同帶Koss、Melonni；找Butoh保衛Grand Forum of Vabb，再回Butoh與Zerai，選花園或Ronjok支線。",
+      "url": "https://wiki.guildwars.com/wiki/Attack_at_the_Kodash",
+      "revision": 2635750,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Heart or Mind: Garden in Danger",
+        "en": "Heart or Mind: Garden in Danger"
+      },
+      "giver": "Zerai the Learner",
+      "location": "The Kodash Bazaar",
+      "directions": "帶Koss到Nightfallen Garden找Lohhaj，回Kobahl開徵納群落。",
+      "url": "https://wiki.guildwars.com/wiki/Heart_or_Mind%3A_Garden_in_Danger",
+      "revision": 2533679,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Heart or Mind: Ronjok in Danger",
+        "en": "Heart or Mind: Ronjok in Danger"
+      },
+      "giver": "Zerai the Learner",
+      "location": "The Kodash Bazaar",
+      "directions": "帶Melonni到Marga Coast的Ronjok找Jonah，依指示調查、安撫Hahla清惡魔，回Raja開納度灣。",
+      "url": "https://wiki.guildwars.com/wiki/Heart_or_Mind%3A_Ronjok_in_Danger",
+      "revision": 2602714,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "祭壇被奪會失敗。新裂隙佔下後Blasphemy更快重生，不能一直追外圈忘中央；已佔裂隙紅條到75%要派人壓回。",
+      "counter": "Tahlkora、召喚／靈守中央、範圍爆發、打斷Torment Slash與Summon Torment、群解咒。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過9分鐘",
+      "expert": "6–9分鐘",
+      "master": "少於6分鐘"
+    },
+    "hard": {
+      "standard": "超過16分鐘",
+      "expert": "12–16分鐘",
+      "master": "少於12分鐘"
+    }
+  }
+}

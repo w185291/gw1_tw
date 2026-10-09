@@ -1,0 +1,400 @@
+{
+  "id": "chahbek-village",
+  "order": 1,
+  "displayOrder": "1",
+  "storyStage": 1,
+  "campaign": "nightfall",
+  "region": "istan",
+  "name": {
+    "zhTW": "夏貝克村莊",
+    "en": "Chahbek Village"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Chahbek Village"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "擊退佔村海盜並擊沉兩艘船，保護三名新兵。",
+  "partySize": 4,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 First Spear Jahdugar 對話選擇開始任務。",
+    "location": "夏貝克村莊 / Chahbek Village",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "First Spear Jahdugar",
+  "requiredHeroes": [
+    {
+      "id": "koss",
+      "name": {
+        "zhTW": "寇斯 / Koss",
+        "en": "Koss"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "survival",
+    "normal": {
+      "standard": "存活0–1名新兵",
+      "expert": "存活兩名新兵",
+      "master": "三名新兵全存活"
+    },
+    "hard": {
+      "standard": "存活0–1名新兵",
+      "expert": "存活兩名新兵",
+      "master": "三名新兵全存活"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "擊退佔村海盜並擊沉兩艘船，保護三名新兵。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "三名新兵全存活",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "三名新兵全存活"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "清村口",
+      "content": "帶 Koss 四人隊進場，跟 Kormir 逐群清海盜；先擊沉船可減少威脅。"
+    },
+    {
+      "title": "裝填兩座投石車",
+      "content": "取 Istani Fire Oil，搬到投石車點一下裝填、再點一下發射。南北兩船各擊沉一次，每艘帶來士氣提升。也可用遠距離殺船上海盜。"
+    },
+    {
+      "title": "清 Boss 與餘兵",
+      "content": "先處理 Midshipman Bennis，再逐群清右上多群海盜；保持新兵在治療範圍。全村威脅與船解決後完成。"
+    }
+  ],
+  "routeSummary": "本章起點／外來角色入口 → 夏貝克村莊 → 卓坎諾挖掘點",
+  "mapImage": "/maps/nightfall-Chahbek_Village_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Chahbek_Village_map.jpg",
+      "title": "夏貝克村莊 · 主線路線",
+      "alt": "夏貝克村莊的Guild Wars Wiki原圖：主線路線",
+      "width": 355,
+      "height": 490,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Chahbek_Village_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/6/6c/Chahbek_Village_map.jpg",
+      "uploader": "J.P.",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Midshipman Bennis",
+        "en": "Midshipman Bennis"
+      },
+      "profession": "聖言者",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Chahbek_Village#Bosses",
+      "revision": 2726169
+    }
+  ],
+  "recommendedTeam": [
+    "Koss 加治療與清病症；HM 先殺 Corsair Healers，再處理施法者。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "三名新兵全存活才有大師。HM Boss 與右上多群較危險，不能一次引完。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "三名新兵全存活",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "三名新兵全存活",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 250,
+        "gold": 20,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 750,
+        "gold": 30,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 1000,
+        "gold": 50,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Chahbek_Village",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Chahbek Village",
+      "url": "https://wiki.guildwars.com/wiki/Chahbek_Village",
+      "revision": 2726169,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Chahbek Village (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Chahbek_Village_%28outpost%29",
+      "revision": 2723647,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "jokanur-diggings",
+  "previousOptions": [],
+  "nextOptions": [
+    "jokanur-diggings"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Into Chahbek Village",
+        "en": "Into Chahbek Village"
+      },
+      "giver": "Kormir",
+      "location": "Island of Shehkah",
+      "directions": "找First Spear Jahdugar交任務，加入Koss後啟動夏貝克村莊。",
+      "url": "https://wiki.guildwars.com/wiki/Into_Chahbek_Village",
+      "revision": 2627767,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Primary Training",
+        "en": "Primary Training"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "到村旁訓練營找本職專家至少一次，再回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+      "revision": 2683242,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Honing your Skills",
+        "en": "Honing your Skills"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "找Binah進Kamadan，練到等級五回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Honing_your_Skills",
+      "revision": 2627768,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Secondary Training",
+        "en": "Secondary Training"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "到訓練營找不同本職的專家，回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Secondary_Training",
+      "revision": 2703791,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Choose Your Secondary Profession",
+        "en": "Choose Your Secondary Profession"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "在訓練營完成副職選擇，再向Dehvad交任務。",
+      "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_%28Nightfall_quest%29",
+      "revision": 2683243,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Leaving a Legacy",
+        "en": "Leaving a Legacy"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "找Bohanna、Dunkoro與Hamar，帶Hamar清Dohjok採石場五群鳥，回Gatah；取得Dunkoro。",
+      "url": "https://wiki.guildwars.com/wiki/Leaving_a_Legacy",
+      "revision": 2627765,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Honorable General",
+        "en": "The Honorable General"
+      },
+      "giver": "Digmaster Gatah",
+      "location": "Jokanur Diggings",
+      "directions": "達First Spear或等級12，與Morgahn會面並擊敗庫爾納隊，回Dajmir。",
+      "url": "https://wiki.guildwars.com/wiki/The_Honorable_General",
+      "revision": 2713273,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Signs and Portents",
+        "en": "Signs and Portents"
+      },
+      "giver": "Emissary Dajmir",
+      "location": "The Astralarium",
+      "directions": "帶Koss到Zehlon Reach找Dajmir、Melonni與Kormir，調查Inscribed Wall，回Gatah；取得Melonni。",
+      "url": "https://wiki.guildwars.com/wiki/Signs_and_Portents",
+      "revision": 2627788,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "三名新兵全存活才有大師。HM Boss 與右上多群較危險，不能一次引完。",
+      "counter": "Koss 加治療與清病症；HM 先殺 Corsair Healers，再處理施法者。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "存活0–1名新兵",
+      "expert": "存活兩名新兵",
+      "master": "三名新兵全存活"
+    },
+    "hard": {
+      "standard": "存活0–1名新兵",
+      "expert": "存活兩名新兵",
+      "master": "三名新兵全存活"
+    }
+  }
+}

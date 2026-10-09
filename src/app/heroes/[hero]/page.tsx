@@ -1,0 +1,10 @@
+import Link from 'next/link';
+import {notFound} from 'next/navigation';
+import {getHeroes,getMissions} from '@/lib/content';
+import {pageMetadata} from '@/lib/metadata';
+import {Breadcrumbs} from '@/components/Breadcrumbs';
+import styles from '@/components/Guide.module.css';
+export const dynamicParams=false;
+export function generateStaticParams(){return getHeroes().map(h=>({hero:h.id}));}
+export async function generateMetadata({params}:{params:Promise<{hero:string}>}){const {hero}=await params;const h=getHeroes().find(h=>h.id===hero);if(!h)notFound();return pageMetadata(h.name.zhTW+' 招募',h.summary,`/heroes/${h.id}/`);}
+export default async function HeroPage({params}:{params:Promise<{hero:string}>}){const {hero}=await params;const h=getHeroes().find(h=>h.id===hero);if(!h)notFound();return <><Breadcrumbs items={[{label:'首頁',href:'/'},{label:'英雄',href:'/heroes/'},{label:h.name.zhTW}]}/><article className={styles.missionDetail}><header className={styles.detailHeader}><h1>{h.name.zhTW}</h1><p>{h.name.en} · {h.profession} · 社群譯名，台版正式名稱待核</p>{h.choiceGroup&&<p className={styles.trialNote}>選擇群組：{h.choiceGroup}。首次招募只能選一位；另一位可破關後補招。</p>}</header>{[['Nightfall 出生角色',h.native],['外來角色',h.foreign],['破關後補招／細節',h.postgame]].map(([title,items])=><section className={styles.detailSection} key={title as string}><h2>{title}</h2><ul>{(items as string[]).map(x=><li key={x}>{x}</li>)}</ul></section>)}<section className={styles.detailSection}><h2>需要此英雄的 Mission</h2><ul>{getMissions('nightfall').filter(m=>h.requiredIn.includes(m.id)).map(m=><li key={m.id}><Link href={`/campaigns/nightfall/missions/${m.id}/`}>{m.displayOrder} · {m.name.zhTW}</Link></li>)}</ul>{h.id==='koss'&&<p>Attack at the Kodash 主線Quest另需同帶Koss與Melonni。</p>}{h.id==='razah'&&<Link href="/guides/finding-a-purpose/">Finding a Purpose 入口</Link>}</section><section className={styles.detailSection}><h2>來源</h2><ul>{h.sources.map(s=><li key={s.url}><a href={s.url+'?oldid='+s.revision}>{s.title}</a> · {s.checkedAt}</li>)}</ul></section></article></>;}

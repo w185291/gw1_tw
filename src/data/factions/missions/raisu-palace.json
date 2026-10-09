@@ -1,0 +1,440 @@
+{
+  "id": "raisu-palace",
+  "order": 12,
+  "displayOrder": "11",
+  "storyStage": 11,
+  "campaign": "factions",
+  "region": "kaineng",
+  "name": {
+    "zhTW": "萊蘇皇宮",
+    "en": "Raisu Palace"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Raisu Palace"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "穿過宮殿，在 Shiro 殺死皇帝之前抵達；Togo、Mhenlo 存活。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "萊蘇皇宮 / Raisu Palace",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過28分鐘",
+      "expert": "26–28分鐘",
+      "master": "少於26分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "穿過宮殿，在 Shiro 殺死皇帝之前抵達；Togo、Mhenlo 存活。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於20分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於20分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "選天界技能與盟友",
+      "content": "向 Kuunavang 拿 Celestial skill，英雄不能領取，傭兵可以。隊長選兩名盟友；Wiki 推薦 Danika＋Talon 節省時間。選好並跨門才開始計時。"
+    },
+    {
+      "title": "前四 Boss",
+      "content": "外圈到戰士 Boss，勿引後群。Talon 會關傳送門使第二室較易；沒有 Nika 則需打坡上的遊俠 Boss。先拉巡邏，第四室元素 Boss 後方階梯治療／祭祀也要清。"
+    },
+    {
+      "title": "Danika 捷徑",
+      "content": "元素 Boss 後全隊穿橋觸發 Danika 關門過場，避免一路停戰。過場後往左沿外牆到祭祀 Boss，走地毯避酸液；留意背後跟來的敵群。"
+    },
+    {
+      "title": "清除最後三 Boss",
+      "content": "優先僧侶再刺客與幻術；所有必要 Boss 都要擊殺才完成。盟友若在啟動捷徑前死亡，捷徑就不能用。"
+    }
+  ],
+  "routeSummary": "沉睡之水 → 萊蘇皇宮 → 帝國聖所",
+  "mapImage": "/maps/factions-Raisu_Palace_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Raisu_Palace_map.jpg",
+      "title": "萊蘇皇宮 · 主線路線",
+      "alt": "萊蘇皇宮的Guild Wars Wiki原圖：主線路線",
+      "width": 737,
+      "height": 323,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Raisu_Palace_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/0/08/Raisu_Palace_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Sword Ancient Kai",
+        "en": "Sword Ancient Kai"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Auspicious Parry"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Famished Ancient Brrne",
+        "en": "Famished Ancient Brrne"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Famine"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Untouched Ancient Ky",
+        "en": "Untouched Ancient Ky"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Spell Breaker"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Gate Guard",
+        "en": "Gate Guard"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Doomed Ancient Kkraz",
+        "en": "Doomed Ancient Kkraz"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Wail of Doom"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Arcane Ancient Phi",
+        "en": "Arcane Ancient Phi"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Arcane Languor"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Star Ancient Koosun",
+        "en": "Star Ancient Koosun"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Star Burst"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Silent Ancient Onata",
+        "en": "Silent Ancient Onata"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [
+        "Shroud of Silence"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Defiant Ancient Sseer",
+        "en": "Defiant Ancient Sseer"
+      },
+      "profession": "祭祀者",
+      "importantSkills": [
+        "Defiant Was Xinrae"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    },
+    {
+      "name": {
+        "zhTW": "Shiro Tagachi",
+        "en": "Shiro Tagachi"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
+      "revision": 2697823
+    }
+  ],
+  "recommendedTeam": [
+    "帶條件壓制與解加持，應對 Spell Breaker／Spell Shield；擊殺 Boss 計程車氣提升可重置天界技能。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "NPC 死亡與捷徑未開會影響進度。沒有 Nika 不能直接假裝走她的跳過路；Danika 衝橋要全隊事先協調，勿將 Togo、Mhenlo 留在怪群。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於20分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於26分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Raisu_Palace",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Raisu Palace",
+      "url": "https://wiki.guildwars.com/wiki/Raisu_Palace",
+      "revision": 2697823,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "unwaking-waters",
+  "nextMission": "imperial-sanctum",
+  "previousOptions": [
+    "unwaking-waters"
+  ],
+  "nextOptions": [
+    "imperial-sanctum"
+  ],
+  "prerequisites": [
+    "unwaking-waters"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Taking Back the Palace",
+        "en": "Taking Back the Palace"
+      },
+      "giver": "Kuunavang",
+      "location": "Harvest Temple",
+      "directions": "回凱寧中心，再到Raisu Pavilion找Tsungkim取得皇宮入口，回Captain Sei。",
+      "url": "https://wiki.guildwars.com/wiki/Taking_Back_the_Palace",
+      "revision": 2718944,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "NPC 死亡與捷徑未開會影響進度。沒有 Nika 不能直接假裝走她的跳過路；Danika 衝橋要全隊事先協調，勿將 Togo、Mhenlo 留在怪群。",
+      "counter": "帶條件壓制與解加持，應對 Spell Breaker／Spell Shield；擊殺 Boss 計程車氣提升可重置天界技能。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過28分鐘",
+      "expert": "26–28分鐘",
+      "master": "少於26分鐘"
+    }
+  }
+}

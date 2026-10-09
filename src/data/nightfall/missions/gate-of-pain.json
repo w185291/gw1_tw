@@ -1,0 +1,350 @@
+{
+  "id": "gate-of-pain",
+  "order": 18,
+  "displayOrder": "15",
+  "storyStage": 15,
+  "campaign": "nightfall",
+  "region": "torment",
+  "name": {
+    "zhTW": "懲罰之門",
+    "en": "Gate of Pain"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Gate of Pain"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "沿River of Souls解放十靈魂，先清三額外elite emissary群。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Jarindok 對話選擇開始任務。",
+    "location": "懲罰之門 / Gate of Pain",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Jarindok",
+  "requiredHeroes": [
+    {
+      "id": "dunkoro",
+      "name": {
+        "zhTW": "唐克羅 / Dunkoro",
+        "en": "Dunkoro"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "清0–1個elite emissary整群",
+      "expert": "清兩個",
+      "master": "清三個"
+    },
+    "hard": {
+      "standard": "清0–1個elite emissary整群",
+      "expert": "清兩個",
+      "master": "清三個"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "沿River of Souls解放十靈魂，先清三額外elite emissary群。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "清三個",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "清三個"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "沿左走穿隧道",
+      "content": "Leech Tunnels沿左到河，Terrorweb有Meteor Shower且不是Abaddon軍，Lightbringer對它無效。環境Dreadful Pain持續施壓。"
+    },
+    {
+      "title": "先清三額外使者",
+      "content": "第一個在過河前牆後可遠距離打；第二中央堡壘在樓梯外插旗單拉；第三在地圖另一邊，可過看不到明顯橋的魂河。每個連三Terrorweb護衛都殺才計數。"
+    },
+    {
+      "title": "留一隻捕魚蜘蛛",
+      "content": "右橋過河後有六Tortureweb Boss。大師尚未做完前保留至少一隻，避免第十靈魂到安全位置自動結束。"
+    },
+    {
+      "title": "最後解放剩餘魂",
+      "content": "三群額外全清才殺最後蜘蛛。魂無敵且自己走安全地，不必跟；若卡路可離開指南針範圍讓其移動。"
+    }
+  ],
+  "routeSummary": "摩拉廢墟 → 懲罰之門 → 瘋狂之門",
+  "mapImage": "/maps/nightfall-Gate_of_Pain_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Gate_of_Pain_map.jpg",
+      "title": "懲罰之門 · 主線路線",
+      "alt": "懲罰之門的Guild Wars Wiki原圖：主線路線",
+      "width": 626,
+      "height": 422,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gate_of_Pain_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/f/fe/Gate_of_Pain_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Tortureweb Dryder",
+        "en": "Tortureweb Dryder"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Ether Prism"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Pain#Bosses",
+      "revision": 2710232
+    }
+  ],
+  "recommendedTeam": [
+    "Dunkoro、持續治療、減傷防Liquid Flame，打斷／反施法；勿以為Lightbringer涵蓋所有蜘蛛。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "第十魂抵安全地會提前結束，大師只能先完成。只殺elite使者未殺護衛不會更新；卡魂無法修復時可能須重開。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "清三個",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "清三個",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Gate_of_Pain",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Gate of Pain",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Pain",
+      "revision": 2710232,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Gate of Pain (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Pain_%28outpost%29",
+      "revision": 2730657,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "ruins-of-morah",
+  "nextMission": "gate-of-madness",
+  "previousOptions": [
+    "ruins-of-morah"
+  ],
+  "nextOptions": [
+    "gate-of-madness"
+  ],
+  "prerequisites": [
+    "ruins-of-morah"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Uncharted Territory",
+        "en": "Uncharted Territory"
+      },
+      "giver": "Pehai",
+      "location": "Gate of Torment",
+      "directions": "帶Dunkoro到Nightfallen Jahai找Kormir，同行尋Tortured Sunspear，回Jarindok開懲罰之門。",
+      "url": "https://wiki.guildwars.com/wiki/Uncharted_Territory",
+      "revision": 2668044,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Kormir's Crusade",
+        "en": "Kormir's Crusade"
+      },
+      "giver": "Rahmor",
+      "location": "Gate of Fear",
+      "directions": "Domain of Fear會Kormir，同行到Gate of Secrets，找Keeper Halyssi。",
+      "url": "https://wiki.guildwars.com/wiki/Kormir%27s_Crusade",
+      "revision": 2655494,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "All Alone in the Darkness",
+        "en": "All Alone in the Darkness"
+      },
+      "giver": "Keeper Halyssi",
+      "location": "Gate of Secrets",
+      "directions": "Domain of Secrets會Kormir，尋失蹤斥候，救Ahtok清Margonite，回Runic Oracle開瘋狂之門。",
+      "url": "https://wiki.guildwars.com/wiki/All_Alone_in_the_Darkness",
+      "revision": 2680390,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "第十魂抵安全地會提前結束，大師只能先完成。只殺elite使者未殺護衛不會更新；卡魂無法修復時可能須重開。",
+      "counter": "Dunkoro、持續治療、減傷防Liquid Flame，打斷／反施法；勿以為Lightbringer涵蓋所有蜘蛛。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "清0–1個elite emissary整群",
+      "expert": "清兩個",
+      "master": "清三個"
+    },
+    "hard": {
+      "standard": "清0–1個elite emissary整群",
+      "expert": "清兩個",
+      "master": "清三個"
+    }
+  }
+}

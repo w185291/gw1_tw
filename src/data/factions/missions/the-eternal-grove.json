@@ -1,0 +1,416 @@
+{
+  "id": "the-eternal-grove",
+  "order": 9,
+  "displayOrder": "9A",
+  "storyStage": 9,
+  "campaign": "factions",
+  "region": "echovald",
+  "name": {
+    "zhTW": "永恆之林",
+    "en": "The Eternal Grove"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "The Eternal Grove"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵",
+    "Kurzick 庫茲柯"
+  ],
+  "summary": "保護三棵永恆樹旁共十二位 Tree Singers，擋下勒克森及感染者。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "永恆之林 / The Eternal Grove",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "survival",
+    "normal": {
+      "standard": "存活1–5名Tree Singers",
+      "expert": "存活6–11名Tree Singers",
+      "master": "十二名Tree Singers全存活"
+    },
+    "hard": {
+      "standard": "存活1–5名Tree Singers",
+      "expert": "存活6–11名Tree Singers",
+      "master": "十二名Tree Singers全存活"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "保護三棵永恆樹旁共十二位 Tree Singers，擋下勒克森及感染者。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "十二名Tree Singers全存活",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "十二名Tree Singers全存活"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "分配兩門防守",
+      "content": "三棵樹各四位歌者，樹條反映歌者生命，下降四分之一不一定已死亡。八人均衡分兩組守北、南門；單人英雄隊可用三英雄守北，玩家帶其餘人機動守南。"
+    },
+    {
+      "title": "優先突擊攻城龜",
+      "content": "勒克森從北、西、南來，六隻龜次序西→南→北→南→北→西。龜上小丘會炮轟歌者；快殺龜後立即返防，不追零散遊俠。西側兩龜及遊俠清完會觸發感染者階段。"
+    },
+    {
+      "title": "使用 Juggernaut",
+      "content": "變形後與 Juggernaut 對話一次讓其跟隨，再一次讓其守原地；可北一南二。樹仍有歌者存活時，其死亡會在對應樹邊再生。"
+    },
+    {
+      "title": "感染者階段留在林內",
+      "content": "兩門同時被攻，站在門內靠近友軍治療。南門早期較強，第二波含 Maaka；清完的一組立刻援助另一門。"
+    },
+    {
+      "title": "留意最後偷襲",
+      "content": "末波北門有 Xenxo、Senku，南門會偷進兩戰士；先攔下南門偷襲，再集中北門。共十二群感染者，清除末波完成。"
+    }
+  ],
+  "routeSummary": "孫江行政區 → 永恆之林 → 沉睡之水",
+  "mapImage": "/maps/factions-Eternal_Grove_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。",
+    "此關原圖不是玩家行走路線，請依通關步驟判斷。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Eternal_Grove_map.jpg",
+      "title": "永恆之林 · 防守戰術圖",
+      "alt": "永恆之林的Guild Wars Wiki原圖：防守戰術圖",
+      "width": 195,
+      "height": 167,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Eternal_Grove_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/4/48/Eternal_Grove_map.jpg",
+      "uploader": "Aspectacle",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "defense_tactics"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "The Afflicted Maaka",
+        "en": "The Afflicted Maaka"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Enraged Smash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
+      "revision": 2740958
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Senku",
+        "en": "The Afflicted Senku"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [
+        "Shadow Form"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
+      "revision": 2740958
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Xenxo",
+        "en": "The Afflicted Xenxo"
+      },
+      "profession": "祭祀者",
+      "importantSkills": [
+        "Weapon of Quickening"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
+      "revision": 2740958
+    }
+  ],
+  "recommendedTeam": [
+    "兩組都要有治療、保護、輸出；群體治療與範圍保護可支援 NPC。英雄靈要手動放在兩門可覆蓋的位置。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "大師要求十二位歌者全活；至少一位存活可完成。感染者階段追出門會漏怪到歌者；多個 Soul Explosion 同時炸會壓垮小組。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "十二名Tree Singers全存活",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "十二名Tree Singers全存活",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/The_Eternal_Grove",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "The Eternal Grove",
+      "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove",
+      "revision": 2740958,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "sunjiang-district",
+  "nextMission": "unwaking-waters",
+  "previousOptions": [
+    "sunjiang-district"
+  ],
+  "nextOptions": [
+    "unwaking-waters"
+  ],
+  "prerequisites": [
+    "sunjiang-district"
+  ],
+  "branch": "Kurzick 庫茲柯",
+  "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Journey to House zu Heltzer",
+        "en": "Journey to House zu Heltzer"
+      },
+      "giver": "Jamei",
+      "location": "Maatu Keep",
+      "directions": "先到Altrumm Ruins找Oldrich，再前往House zu Heltzer找Count。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_House_zu_Heltzer",
+      "revision": 2394089,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Befriending the Kurzicks",
+        "en": "Befriending the Kurzicks"
+      },
+      "giver": "Count zu Heltzer",
+      "location": "House zu Heltzer",
+      "directions": "累積一萬點尚未花費的Kurzick陣營點，再回Count。不要先捐掉點數。",
+      "url": "https://wiki.guildwars.com/wiki/Befriending_the_Kurzicks",
+      "revision": 2427113,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Defenders of the Forest",
+        "en": "The Defenders of the Forest"
+      },
+      "giver": "Count zu Heltzer",
+      "location": "House zu Heltzer",
+      "directions": "Drazach Thicket找Klaus、Leiber、Berta，保護三人到永恆之林，向Mirek交任務。",
+      "url": "https://wiki.guildwars.com/wiki/The_Defenders_of_the_Forest",
+      "revision": 2635636,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Into the Whirlpool",
+        "en": "Into the Whirlpool"
+      },
+      "giver": "Count Durheim",
+      "location": "Vasburg Armory",
+      "directions": "與Mhenlo行至沉睡之水邊緣，找Acolyte Jorg准入，再回Redemptor Iszar。",
+      "url": "https://wiki.guildwars.com/wiki/Into_the_Whirlpool",
+      "revision": 2517111,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Journey to the Whirlpool",
+        "en": "Journey to the Whirlpool"
+      },
+      "giver": "Petras",
+      "location": "Leviathan Pits",
+      "directions": "護送Togo到沉睡之水邊緣，找Attis准入，再找Elder Oxis。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Whirlpool",
+      "revision": 2505707,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "defenseTimeline": [
+    {
+      "stage": "分配兩門防守",
+      "action": "三棵樹各四位歌者，樹條反映歌者生命，下降四分之一不一定已死亡。八人均衡分兩組守北、南門；單人英雄隊可用三英雄守北，玩家帶其餘人機動守南。"
+    },
+    {
+      "stage": "優先突擊攻城龜",
+      "action": "勒克森從北、西、南來，六隻龜次序西→南→北→南→北→西。龜上小丘會炮轟歌者；快殺龜後立即返防，不追零散遊俠。西側兩龜及遊俠清完會觸發感染者階段。"
+    },
+    {
+      "stage": "使用 Juggernaut",
+      "action": "變形後與 Juggernaut 對話一次讓其跟隨，再一次讓其守原地；可北一南二。樹仍有歌者存活時，其死亡會在對應樹邊再生。"
+    },
+    {
+      "stage": "感染者階段留在林內",
+      "action": "兩門同時被攻，站在門內靠近友軍治療。南門早期較強，第二波含 Maaka；清完的一組立刻援助另一門。"
+    },
+    {
+      "stage": "留意最後偷襲",
+      "action": "末波北門有 Xenxo、Senku，南門會偷進兩戰士；先攔下南門偷襲，再集中北門。共十二群感染者，清除末波完成。"
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "大師要求十二位歌者全活；至少一位存活可完成。感染者階段追出門會漏怪到歌者；多個 Soul Explosion 同時炸會壓垮小組。",
+      "counter": "兩組都要有治療、保護、輸出；群體治療與範圍保護可支援 NPC。英雄靈要手動放在兩門可覆蓋的位置。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "存活1–5名Tree Singers",
+      "expert": "存活6–11名Tree Singers",
+      "master": "十二名Tree Singers全存活"
+    },
+    "hard": {
+      "standard": "存活1–5名Tree Singers",
+      "expert": "存活6–11名Tree Singers",
+      "master": "十二名Tree Singers全存活"
+    }
+  }
+}

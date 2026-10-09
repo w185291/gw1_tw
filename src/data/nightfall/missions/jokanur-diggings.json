@@ -1,0 +1,455 @@
+{
+  "id": "jokanur-diggings",
+  "order": 2,
+  "displayOrder": "2",
+  "storyStage": 2,
+  "campaign": "nightfall",
+  "region": "istan",
+  "name": {
+    "zhTW": "卓坎諾挖掘點",
+    "en": "Jokanur Diggings"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Jokanur Diggings"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "完成石板三試煉，護送 Kormir，擊敗 Apocrypha，避免鬼魂死亡。",
+  "partySize": 4,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Digmaster Gatah 對話選擇開始任務。",
+    "location": "卓坎諾挖掘點 / Jokanur Diggings",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Digmaster Gatah",
+  "requiredHeroes": [
+    {
+      "id": "melonni",
+      "name": {
+        "zhTW": "梅隆妮 / Melonni",
+        "en": "Melonni"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "survival",
+    "normal": {
+      "standard": "2–3名Sunspear Ghosts死亡",
+      "expert": "一名鬼魂死亡",
+      "master": "零鬼魂死亡，包含Kahdash"
+    },
+    "hard": {
+      "standard": "2–3名Sunspear Ghosts死亡",
+      "expert": "一名鬼魂死亡",
+      "master": "零鬼魂死亡，包含Kahdash"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "完成石板三試煉，護送 Kormir，擊敗 Apocrypha，避免鬼魂死亡。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "零鬼魂死亡，包含Kahdash",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "零鬼魂死亡，包含Kahdash"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "第一塊石板",
+      "content": "向西到遺跡，等壓石抬起再穿過。殺 Darehk 取得石板放基座開門；避飛鏢與火焰。"
+    },
+    {
+      "title": "兩石板同步",
+      "content": "第二區鬼魂會拿回石板。單人先把第一塊丟在基座附近地上，去拿第二塊並放置，再迅速拿第一塊放另一基座；雙玩家可同時攜帶。"
+    },
+    {
+      "title": "護送 Kahdash",
+      "content": "第三區鬼魂 Kahdash 自己搬石板，清周圍不死族保護他。他死亡會重生重試，但已失去大師資格。"
+    },
+    {
+      "title": "最終雕像",
+      "content": "往下清骷髏再殺 Apocrypha，它用 Reform Carvings 改變職業。Kormir 必須存活；不死族約兩分半重生，開門後穩定推進。"
+    }
+  ],
+  "routeSummary": "夏貝克村莊 → 卓坎諾挖掘點 → 黑潮之穴",
+  "mapImage": "/maps/nightfall-Jokanur_Diggings_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Jokanur_Diggings_map.jpg",
+      "title": "卓坎諾挖掘點 · 主線路線",
+      "alt": "卓坎諾挖掘點的Guild Wars Wiki原圖：主線路線",
+      "width": 600,
+      "height": 419,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Jokanur_Diggings_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/7/79/Jokanur_Diggings_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/nightfall-Dead_Digger.jpg",
+      "title": "卓坎諾挖掘點 · 關卡場景",
+      "alt": "卓坎諾挖掘點的Guild Wars Wiki原圖：關卡場景",
+      "width": 1016,
+      "height": 704,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Dead_Digger.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/6/6e/Dead_Digger.jpg",
+      "uploader": "Myria83",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "mission_scene"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "帶神聖傷害、解咒與NPC治療；HM 地形傷害壓力高，跑石板者要有支援。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "大師包括 Kahdash 及第二區鬼魂零死亡。避免召喚物、範圍技與點名誤殺鬼魂，必要時英雄設避免戰鬥；Kormir 勿站火焰噴口。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "零鬼魂死亡，包含Kahdash",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "零鬼魂死亡，包含Kahdash",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Jokanur_Diggings",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Jokanur Diggings",
+      "url": "https://wiki.guildwars.com/wiki/Jokanur_Diggings",
+      "revision": 2708009,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Jokanur Diggings (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Jokanur_Diggings_%28outpost%29",
+      "revision": 2730655,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "chahbek-village",
+  "nextMission": "blacktide-den",
+  "previousOptions": [
+    "chahbek-village"
+  ],
+  "nextOptions": [
+    "blacktide-den"
+  ],
+  "prerequisites": [
+    "chahbek-village"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Primary Training",
+        "en": "Primary Training"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "到村旁訓練營找本職專家至少一次，再回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+      "revision": 2683242,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Honing your Skills",
+        "en": "Honing your Skills"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "找Binah進Kamadan，練到等級五回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Honing_your_Skills",
+      "revision": 2627768,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Secondary Training",
+        "en": "Secondary Training"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "到訓練營找不同本職的專家，回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Secondary_Training",
+      "revision": 2703791,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Choose Your Secondary Profession",
+        "en": "Choose Your Secondary Profession"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "在訓練營完成副職選擇，再向Dehvad交任務。",
+      "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_%28Nightfall_quest%29",
+      "revision": 2683243,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Leaving a Legacy",
+        "en": "Leaving a Legacy"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Churrhir Fields",
+      "directions": "找Bohanna、Dunkoro與Hamar，帶Hamar清Dohjok採石場五群鳥，回Gatah；取得Dunkoro。",
+      "url": "https://wiki.guildwars.com/wiki/Leaving_a_Legacy",
+      "revision": 2627765,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Honorable General",
+        "en": "The Honorable General"
+      },
+      "giver": "Digmaster Gatah",
+      "location": "Jokanur Diggings",
+      "directions": "達First Spear或等級12，與Morgahn會面並擊敗庫爾納隊，回Dajmir。",
+      "url": "https://wiki.guildwars.com/wiki/The_Honorable_General",
+      "revision": 2713273,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Signs and Portents",
+        "en": "Signs and Portents"
+      },
+      "giver": "Emissary Dajmir",
+      "location": "The Astralarium",
+      "directions": "帶Koss到Zehlon Reach找Dajmir、Melonni與Kormir，調查Inscribed Wall，回Gatah；取得Melonni。",
+      "url": "https://wiki.guildwars.com/wiki/Signs_and_Portents",
+      "revision": 2627788,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Isle of the Dead",
+        "en": "Isle of the Dead"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "從Champion’s Dawn向西南到Cliffs of Dohjok救Nerashi小隊，與她談後經Beknur Harbor到Issnur Isles清四群不死族，再到Mehtani Keys清三群，回Kamadan的Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Isle_of_the_Dead_%28quest%29",
+      "revision": 2682989,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Bad Tide Rising",
+        "en": "Bad Tide Rising"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "會合Yurukaro，關三裂隙保Kamadan，回Dehvad。",
+      "url": "https://wiki.guildwars.com/wiki/Bad_Tide_Rising",
+      "revision": 2619746,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Special Delivery",
+        "en": "Special Delivery"
+      },
+      "giver": "First Spear Dehvad",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "找Hayao部署Zaishen，向Puuba問Jerek，送命令再回Puuba。",
+      "url": "https://wiki.guildwars.com/wiki/Special_Delivery",
+      "revision": 2627808,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Big News, Small Package",
+        "en": "Big News, Small Package"
+      },
+      "giver": "Castellan Puuba",
+      "location": "Sunspear Great Hall",
+      "directions": "找Jerek，再去Mehtani Keys查Tahlkora線索，回Jerek；取得Tahlkora。",
+      "url": "https://wiki.guildwars.com/wiki/Big_News%2C_Small_Package",
+      "revision": 2619750,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Following the Trail",
+        "en": "Following the Trail"
+      },
+      "giver": "Jerek",
+      "location": "Plains of Jarin",
+      "directions": "帶Tahlkora到Cliffs of Dohjok殺海盜隊長收六卷軸片，最後一片找Mindhebeh，回Savage Nunbe開黑潮之穴。",
+      "url": "https://wiki.guildwars.com/wiki/Following_the_Trail",
+      "revision": 2627787,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "大師包括 Kahdash 及第二區鬼魂零死亡。避免召喚物、範圍技與點名誤殺鬼魂，必要時英雄設避免戰鬥；Kormir 勿站火焰噴口。",
+      "counter": "帶神聖傷害、解咒與NPC治療；HM 地形傷害壓力高，跑石板者要有支援。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "2–3名Sunspear Ghosts死亡",
+      "expert": "一名鬼魂死亡",
+      "master": "零鬼魂死亡，包含Kahdash"
+    },
+    "hard": {
+      "standard": "2–3名Sunspear Ghosts死亡",
+      "expert": "一名鬼魂死亡",
+      "master": "零鬼魂死亡，包含Kahdash"
+    }
+  }
+}

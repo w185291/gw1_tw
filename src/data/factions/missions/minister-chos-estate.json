@@ -1,0 +1,410 @@
+{
+  "id": "minister-chos-estate",
+  "order": 1,
+  "displayOrder": "1",
+  "storyStage": 1,
+  "campaign": "factions",
+  "region": "shing-jea",
+  "name": {
+    "zhTW": "周大臣莊園",
+    "en": "Minister Cho's Estate"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Minister Cho's Estate"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "保護 Togo 與 Yijo，找到周大臣並擊敗感染後的大臣。",
+  "partySize": 4,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "周大臣莊園 / Minister Cho's Estate",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "保護 Togo 與 Yijo，找到周大臣並擊敗感染後的大臣。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於20分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於20分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "跟隨教學開門",
+      "content": "起點只有一條路。跟著 Togo 逐段清除守衛；在小地圖示範時，至少一人走到他指定的樹旁，才會繼續開門。"
+    },
+    {
+      "title": "穿越獸苑",
+      "content": "擊敗 Afflicted Horror 後路線變寬，仍跟著 Togo 前進。分開拉巡邏與動物群，不必把周圍所有動物都引過來。Sickened Scribes 的範圍傷害要避開。"
+    },
+    {
+      "title": "擊敗大臣",
+      "content": "抵達宅邸觸發轉變，保護跟隨 NPC，集中打 Diseased Minister；擊殺時的 Afflicted Soul Explosion 會造成範圍傷害，先補滿隊伍。"
+    }
+  ],
+  "routeSummary": "本章起點／外來角色入口 → 周大臣莊園 → 禎臺郡",
+  "mapImage": "/maps/factions-Minister_Cho's_Estate_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Minister_Cho's_Estate_map.jpg",
+      "title": "周大臣莊園 · 主線路線",
+      "alt": "周大臣莊園的Guild Wars Wiki原圖：主線路線",
+      "width": 783,
+      "height": 385,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Minister_Cho%27s_Estate_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/1/15/Minister_Cho%27s_Estate_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/factions-Minister_Cho's_Estate_loading_screen.jpg",
+      "title": "周大臣莊園 · 載入畫面",
+      "alt": "周大臣莊園的Guild Wars Wiki原圖：載入畫面",
+      "width": 1024,
+      "height": 768,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Minister_Cho%27s_Estate_loading_screen.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/b/b6/Minister_Cho%27s_Estate_loading_screen.jpg",
+      "uploader": "Konig Des Todes",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "loading_screen"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Afflicted Horror",
+        "en": "Afflicted Horror"
+      },
+      "profession": "戰士",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate#Bosses",
+      "revision": 2709092
+    },
+    {
+      "name": {
+        "zhTW": "Diseased Minister",
+        "en": "Diseased Minister"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate#Bosses",
+      "revision": 2709092
+    }
+  ],
+  "recommendedTeam": [
+    "四人隊帶治療與減傷；HM 注意近戰擊倒、Primal Rage／Frenzy，以及末段燃燒與範圍傷害。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "Togo 或 Yijo 死亡會失敗。若 Togo 被隨機寶箱永久卡住，須重開；若守衛提前殺死尚未轉變的大臣，也可能無法完成。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於20分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於20分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Minister Cho's Estate",
+      "url": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate",
+      "revision": 2709092,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "zen-daijun",
+  "previousOptions": [],
+  "nextOptions": [
+    "zen-daijun"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "A Formal Introduction",
+        "en": "A Formal Introduction"
+      },
+      "giver": "Master Togo",
+      "location": "Linnok Courtyard",
+      "directions": "在Sunqua Vale會合Togo，護送到周大臣莊園，找Zui開門與Kayao交任務。",
+      "url": "https://wiki.guildwars.com/wiki/A_Formal_Introduction",
+      "revision": 2710181,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Warning the Tengu",
+        "en": "Warning the Tengu"
+      },
+      "giver": "Ang the Ephemeral",
+      "location": "Ran Musu Gardens",
+      "directions": "到Aerie天狗村找Soar Honorclaw，殺感染生物再回報。",
+      "url": "https://wiki.guildwars.com/wiki/Warning_the_Tengu",
+      "revision": 2627731,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Threat Grows",
+        "en": "The Threat Grows"
+      },
+      "giver": "Soar Honorclaw",
+      "location": "Kinya Province",
+      "directions": "到Panjiang Peninsula的Kaitan Village，擊敗襲村守衛，回報Sister Tai。",
+      "url": "https://wiki.guildwars.com/wiki/The_Threat_Grows",
+      "revision": 2710189,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Journey to the Master",
+        "en": "Journey to the Master"
+      },
+      "giver": "Sister Tai",
+      "location": "Panjiang Peninsula",
+      "directions": "到Linnok Courtyard會合Togo。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Master",
+      "revision": 2627733,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Road Less Traveled",
+        "en": "The Road Less Traveled"
+      },
+      "giver": "Master Togo",
+      "location": "Linnok Courtyard",
+      "directions": "向Tsukaro詢問道路，與Brother Pe Wan同行到Seitung Harbor並交談。",
+      "url": "https://wiki.guildwars.com/wiki/The_Road_Less_Traveled",
+      "revision": 2710190,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Looking For Trouble",
+        "en": "Looking For Trouble"
+      },
+      "giver": "Brother Pe Wan",
+      "location": "Seitung Harbor",
+      "directions": "在Jaya Bluffs找Zho、Talon、Panaku、Lo Sha，清修道院瘟疫敵人，回報Zho。",
+      "url": "https://wiki.guildwars.com/wiki/Looking_For_Trouble",
+      "revision": 2710199,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "To the Rescue",
+        "en": "To the Rescue"
+      },
+      "giver": "Zho",
+      "location": "Jaya Bluffs",
+      "directions": "在Haiju Lagoon的Linkei Township會合Su、Sister Tai、Kai Ying與Professor Gai，抵擋兩側感染者；Su活著才能領獎並接To Zen Daijun，若死亡須重新進區。",
+      "url": "https://wiki.guildwars.com/wiki/To_the_Rescue_%28Factions_quest%29",
+      "revision": 2712205,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "To Zen Daijun",
+        "en": "To Zen Daijun"
+      },
+      "giver": "Su",
+      "location": "Haiju Lagoon",
+      "directions": "護送Su、Gai、Tai、Kai Ying到禎臺郡門口，找Togo與Hanjui。",
+      "url": "https://wiki.guildwars.com/wiki/To_Zen_Daijun",
+      "revision": 2710208,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Togo 或 Yijo 死亡會失敗。若 Togo 被隨機寶箱永久卡住，須重開；若守衛提前殺死尚未轉變的大臣，也可能無法完成。",
+      "counter": "四人隊帶治療與減傷；HM 注意近戰擊倒、Primal Rage／Frenzy，以及末段燃燒與範圍傷害。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    }
+  }
+}

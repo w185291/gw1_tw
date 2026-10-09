@@ -1,0 +1,428 @@
+{
+  "id": "dzagonur-bastion",
+  "order": 12,
+  "displayOrder": "10B",
+  "storyStage": 10,
+  "campaign": "nightfall",
+  "region": "vabbi",
+  "name": {
+    "zhTW": "薩崗諾稜堡",
+    "en": "Dzagonur Bastion"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Dzagonur Bastion"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵",
+    "Master of Whispers 路線"
+  ],
+  "summary": "防守三門與三炮，擊敗四位將軍，保護Ahmtur。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Lieutenant Murunda 對話選擇開始任務。",
+    "location": "薩崗諾稜堡 / Dzagonur Bastion",
+    "requirements": [
+      "每位隊員已領取Greed and Regret或Calling the Order的獎勵。",
+      "队伍須有所需英雄；同伴帶入亦可。"
+    ]
+  },
+  "missionStarter": "Lieutenant Murunda",
+  "requiredHeroes": [
+    {
+      "id": "master-of-whispers",
+      "name": {
+        "zhTW": "喚言大師 / Master of Whispers",
+        "en": "Master of Whispers"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "零防禦設施",
+      "expert": "保留1–4座",
+      "master": "保留5–6座防禦設施"
+    },
+    "hard": {
+      "standard": "零防禦設施",
+      "expert": "保留1–4座",
+      "master": "保留5–6座防禦設施"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "防守三門與三炮，擊敗四位將軍，保護Ahmtur。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "保留5–6座防禦設施",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "保留5–6座防禦設施"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "分配守軍",
+      "content": "由傳送點出堡後指揮三組Disciple of Secrets，推薦兩組守東、一組中央；玩家隊機動守西中。NPC仍需要支援。"
+    },
+    {
+      "title": "撐住初波",
+      "content": "庫爾納軍逐波來，別全隊長時間跑到另一頭，注意三炮三門計數。單玩家隊一起機動較容易；多人可兩組四人。"
+    },
+    {
+      "title": "將軍出現後主動出擊",
+      "content": "從西到東Doriah、Nimtak、Kumtash、Tirraj；活著會持續召軍。先迅速殺較容易的西Doriah，清壓力後回防，再逐步往東。"
+    },
+    {
+      "title": "控制元素將軍",
+      "content": "Tirraj的Invoke Lightning可重創抱團隊伍，打斷／減傷先準備。殺完四位即結束；大師最少留下五座防禦設施。"
+    }
+  ],
+  "routeSummary": "提亞克林地 → 薩崗諾稜堡 → 希貝克大宮廷",
+  "mapImage": "/maps/nightfall-Dzagonur_Bastion_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。",
+    "此關原圖不是玩家行走路線，請依通關步驟判斷。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Dzagonur_Bastion_map.jpg",
+      "title": "薩崗諾稜堡 · 防禦設施位置",
+      "alt": "薩崗諾稜堡的Guild Wars Wiki原圖：防禦設施位置",
+      "width": 643,
+      "height": 456,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Dzagonur_Bastion_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/1/14/Dzagonur_Bastion_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "defense_positions"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "General Doriah",
+        "en": "General Doriah"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Magehunter's Smash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
+      "revision": 2741865
+    },
+    {
+      "name": {
+        "zhTW": "General Nimtak",
+        "en": "General Nimtak"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Spell Breaker"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
+      "revision": 2741865
+    },
+    {
+      "name": {
+        "zhTW": "General Tirraj",
+        "en": "General Tirraj"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Invoke Lightning"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
+      "revision": 2741865
+    },
+    {
+      "name": {
+        "zhTW": "General Kumtash",
+        "en": "General Kumtash"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Anthem of Guidance"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
+      "revision": 2741865
+    }
+  ],
+  "recommendedTeam": [
+    "Whispers召喚、機動跑速、施法封鎖與可持續治療；陷入耗損戰會越來越難，需先殺將軍減少生兵。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "Prince Ahmtur死亡或堡壘失守即失敗。大師並非六座全存，而是5–6；若犧牲一炮誘將軍靠近，再失一設施就失去大師。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "保留5–6座防禦設施",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "保留5–6座防禦設施",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Dzagonur Bastion",
+      "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion",
+      "revision": 2741865,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Dzagonur Bastion (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion_%28outpost%29",
+      "revision": 2697484,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "tihark-orchard",
+  "nextMission": "grand-court-of-sebelkeh",
+  "previousOptions": [
+    "tihark-orchard"
+  ],
+  "nextOptions": [
+    "grand-court-of-sebelkeh"
+  ],
+  "prerequisites": [
+    "tihark-orchard"
+  ],
+  "branch": "Master of Whispers 路線",
+  "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "All's Well That Ends Well",
+        "en": "All's Well That Ends Well"
+      },
+      "giver": "Royal Food Taster Rendu",
+      "location": "The Kodash Bazaar",
+      "directions": "Mirror of Lyss找Kehanni，到Resplendent Makuun與Bokka、Bokka Amphitheatre的Vaughn會談，清伏擊精銳，回Oluda。",
+      "url": "https://wiki.guildwars.com/wiki/All%27s_Well_That_Ends_Well",
+      "revision": 2675732,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Warning Kehanni",
+        "en": "Warning Kehanni"
+      },
+      "giver": "Royal Finance Minister Oluda",
+      "location": "Honur Hill",
+      "directions": "警告Kehanni，清神殿前鋒，回Head Priest Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Warning_Kehanni",
+      "revision": 2602437,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Calling the Order",
+        "en": "Calling the Order"
+      },
+      "giver": "Head Priest Vahmani",
+      "location": "Grand Court of Sebelkeh",
+      "directions": "帶Whispers指派Acolytes防Margonite，保護Norgu，對話後向Ahmtur報告，回Murunda。",
+      "url": "https://wiki.guildwars.com/wiki/Calling_the_Order",
+      "revision": 2689296,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Pledge of the Merchant Princes",
+        "en": "Pledge of the Merchant Princes"
+      },
+      "giver": "Zerai the Learner",
+      "location": "the Kodash Bazaar",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
+      "revision": 2621044,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "defenseTimeline": [
+    {
+      "stage": "分配守軍",
+      "action": "由傳送點出堡後指揮三組Disciple of Secrets，推薦兩組守東、一組中央；玩家隊機動守西中。NPC仍需要支援。"
+    },
+    {
+      "stage": "撐住初波",
+      "action": "庫爾納軍逐波來，別全隊長時間跑到另一頭，注意三炮三門計數。單玩家隊一起機動較容易；多人可兩組四人。"
+    },
+    {
+      "stage": "將軍出現後主動出擊",
+      "action": "從西到東Doriah、Nimtak、Kumtash、Tirraj；活著會持續召軍。先迅速殺較容易的西Doriah，清壓力後回防，再逐步往東。"
+    },
+    {
+      "stage": "控制元素將軍",
+      "action": "Tirraj的Invoke Lightning可重創抱團隊伍，打斷／減傷先準備。殺完四位即結束；大師最少留下五座防禦設施。"
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Prince Ahmtur死亡或堡壘失守即失敗。大師並非六座全存，而是5–6；若犧牲一炮誘將軍靠近，再失一設施就失去大師。",
+      "counter": "Whispers召喚、機動跑速、施法封鎖與可持續治療；陷入耗損戰會越來越難，需先殺將軍減少生兵。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "零防禦設施",
+      "expert": "保留1–4座",
+      "master": "保留5–6座防禦設施"
+    },
+    "hard": {
+      "standard": "零防禦設施",
+      "expert": "保留1–4座",
+      "master": "保留5–6座防禦設施"
+    }
+  }
+}

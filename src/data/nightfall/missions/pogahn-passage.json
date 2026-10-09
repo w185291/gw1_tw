@@ -1,0 +1,399 @@
+{
+  "id": "pogahn-passage",
+  "order": 7,
+  "displayOrder": "7A",
+  "storyStage": 7,
+  "campaign": "nightfall",
+  "region": "kourna",
+  "name": {
+    "zhTW": "波甘驛站",
+    "en": "Pogahn Passage"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Pogahn Passage"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵",
+    "Margrid 路線"
+  ],
+  "summary": "偽裝庫爾納守軍，取頭冠、救Kormir與Shahai，再從碼頭撤離。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Jack of Truths 對話選擇開始任務。",
+    "location": "波甘驛站 / Pogahn Passage",
+    "requirements": [
+      "每位隊員已領取No Me, No Kormir或To Kill a Demon的獎勵。",
+      "隊伍必須帶入本頁所列必要英雄；不要求你本人已招募，但需有隊員帶入。"
+    ]
+  },
+  "missionStarter": "Jack of Truths",
+  "requiredHeroes": [
+    {
+      "id": "margrid-the-sly",
+      "name": {
+        "zhTW": "狡猾者瑪格麗特 / Margrid the Sly",
+        "en": "Margrid the Sly"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "完成0–2項額外活動",
+      "expert": "完成三項",
+      "master": "完成四項"
+    },
+    "hard": {
+      "standard": "完成0–2項額外活動",
+      "expert": "完成三項",
+      "master": "完成四項"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "偽裝庫爾納守軍，取頭冠、救Kormir與Shahai，再從碼頭撤離。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "完成四項",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "完成四項"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "潛入時先做四件事",
+      "content": "向Kahturin拿監獄密碼、向Nahnkos接囚犯護送、觸發Demon Spawn守衛對話、向Linko接替守門。均須救人過場前完成。"
+    },
+    {
+      "title": "取頭冠進監獄",
+      "content": "到圖5寶庫觸發Margrid對話，再到圖6向Shelkesh答密碼；答錯或沒密碼會出現三敵加守門者，清完才開門。"
+    },
+    {
+      "title": "救人與撤離",
+      "content": "清Jailer Gahanni和守軍後過場，開始十五分鐘撤退。回橋後等大巡邏越過小靜止群，分別拉，勿同時引兩僧侶群。"
+    },
+    {
+      "title": "碼頭先小後大",
+      "content": "可北穿堡或南沿碼頭，最終會合。先拉四守軍，再打Captain Nebo施法群；Kormir與Shahai都到碼頭盡頭才完成。"
+    }
+  ],
+  "routeSummary": "科登諾路口 → 波甘驛站 → 摩多克裂縫",
+  "mapImage": "/maps/nightfall-Pogahn_Passage_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Pogahn_Passage_map.jpg",
+      "title": "波甘驛站 · 主線路線",
+      "alt": "波甘驛站的Guild Wars Wiki原圖：主線路線",
+      "width": 730,
+      "height": 572,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Pogahn_Passage_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/3/3e/Pogahn_Passage_map.jpg",
+      "uploader": "T.T.H.",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Lieutenant Nali",
+        "en": "Lieutenant Nali"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Enchanter's Conundrum"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Pogahn_Passage#Bosses",
+      "revision": 2710723
+    },
+    {
+      "name": {
+        "zhTW": "Captain Nebo",
+        "en": "Captain Nebo"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Master of Magic"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Pogahn_Passage#Bosses",
+      "revision": 2710723
+    },
+    {
+      "name": {
+        "zhTW": "Colonel Kajo",
+        "en": "Colonel Kajo"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Cautery Signet"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Pogahn_Passage#Bosses",
+      "revision": 2710723
+    }
+  ],
+  "recommendedTeam": [
+    "Margrid帶打斷鎖Nebo，保護靈／元素減傷保NPC，防弓箭格擋。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "Kormir、Shahai必須安全到達，玩家拉怪會帶NPC向前，宜用Margrid拉。若Linko缺失須重開才拿大師。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "完成四項",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "完成四項",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Pogahn_Passage",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Pogahn Passage",
+      "url": "https://wiki.guildwars.com/wiki/Pogahn_Passage",
+      "revision": 2710723,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Pogahn Passage (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Pogahn_Passage_%28outpost%29",
+      "revision": 2697483,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "中文地名對照：灰機激戰詞典",
+      "url": "https://guildwars.huijiwiki.com/wiki/%E8%AF%8D%E5%85%B8",
+      "revision": null,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "kodonur-crossroads",
+  "nextMission": "moddok-crevice",
+  "previousOptions": [
+    "kodonur-crossroads"
+  ],
+  "nextOptions": [
+    "moddok-crevice"
+  ],
+  "prerequisites": [
+    "kodonur-crossroads"
+  ],
+  "branch": "Margrid 路線",
+  "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Mysterious Message",
+        "en": "Mysterious Message"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "接神秘訊息後在Margrid與Master of Whispers路線中選一，首次招募與後續兩組Mission會受選擇影響。",
+      "url": "https://wiki.guildwars.com/wiki/Mysterious_Message_%28Nightfall_quest%29",
+      "revision": 2722997,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "For a Price",
+        "en": "For a Price"
+      },
+      "giver": "Margrid the Sly",
+      "location": "Jahai Bluffs",
+      "directions": "Marga Coast找Margrid，從Unlucky Simon及Shifty Lem取Gandara地圖，回Margrid。",
+      "url": "https://wiki.guildwars.com/wiki/For_a_Price",
+      "revision": 2640618,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "No Me, No Kormir",
+        "en": "No Me, No Kormir"
+      },
+      "giver": "Margrid the Sly",
+      "location": "Marga Coast",
+      "directions": "把地圖給Pogahn的Jack of Truths，攔守軍取盔甲偽裝再回Jack；招Margrid。",
+      "url": "https://wiki.guildwars.com/wiki/No_Me%2C_No_Kormir",
+      "revision": 2728546,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "checklist": [
+    {
+      "title": "四項額外活動",
+      "items": [
+        "Kahturin監獄密碼",
+        "Nahnkos囚犯護送",
+        "Demon Spawn守衛對話",
+        "Linko接替守門"
+      ]
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Kormir、Shahai必須安全到達，玩家拉怪會帶NPC向前，宜用Margrid拉。若Linko缺失須重開才拿大師。",
+      "counter": "Margrid帶打斷鎖Nebo，保護靈／元素減傷保NPC，防弓箭格擋。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "完成0–2項額外活動",
+      "expert": "完成三項",
+      "master": "完成四項"
+    },
+    "hard": {
+      "standard": "完成0–2項額外活動",
+      "expert": "完成三項",
+      "master": "完成四項"
+    }
+  }
+}

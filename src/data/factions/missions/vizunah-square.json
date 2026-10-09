@@ -1,0 +1,469 @@
+{
+  "id": "vizunah-square",
+  "order": 3,
+  "displayOrder": "3",
+  "storyStage": 3,
+  "campaign": "factions",
+  "region": "kaineng",
+  "name": {
+    "zhTW": "薇茹廣場",
+    "en": "Vizunah Square"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Vizunah Square"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "與另一隊會合，保護 Togo 和 Mhenlo，消滅沿途感染者。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "薇茹廣場 / Vizunah Square",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過30分鐘",
+      "expert": "25–30分鐘",
+      "master": "少於25分鐘"
+    },
+    "hard": {
+      "standard": "超過40分鐘",
+      "expert": "35–40分鐘",
+      "master": "少於35分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "與另一隊會合，保護 Togo 和 Mhenlo，消滅沿途感染者。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於25分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於25分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "依入口會合",
+      "content": "本地隊先跟 Togo 抵擋感染者；外地隊跟 Mhenlo 清除 Am Fah 後趕往會合處。外地隊抵達前 Togo 已可能死亡，本地隊要能獨立防守。"
+    },
+    {
+      "title": "守住三場大戰",
+      "content": "會合後沿共同路線清除三處戰鬥。敵人由多個入口增援，可分散站位控制入口，擊殺感染頭目才會停止部分增援並開門。"
+    },
+    {
+      "title": "清理最後構造體",
+      "content": "每隊保留自己的復活技能；可以治療另一隊友軍，但不能用一般復活技能救另一隊成員。最後擊敗隨機出現的 Shiro 構造體，完成後抵達 Dragon’s Throat。"
+    }
+  ],
+  "routeSummary": "禎臺郡 → 薇茹廣場 → 納普區",
+  "mapImage": "/maps/factions-Vizunah_Square_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Vizunah_Square_map.jpg",
+      "title": "薇茹廣場 · 主線路線",
+      "alt": "薇茹廣場的Guild Wars Wiki原圖：主線路線",
+      "width": 629,
+      "height": 693,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Vizunah_Square_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/b/b5/Vizunah_Square_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "The Afflicted Ako",
+        "en": "The Afflicted Ako"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Enraged Smash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Huan",
+        "en": "The Afflicted Huan"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Broad Head Arrow"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Miju",
+        "en": "The Afflicted Miju"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Ray of Judgment"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Thu",
+        "en": "The Afflicted Thu"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Order of Apostasy"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Li Yun",
+        "en": "The Afflicted Li Yun"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Stolen Speed"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Kam",
+        "en": "The Afflicted Kam"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Mind Burn"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Soon Kim",
+        "en": "The Afflicted Soon Kim"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [
+        "Shadow Form"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Hakaru",
+        "en": "The Afflicted Hakaru"
+      },
+      "profession": "祭祀者",
+      "importantSkills": [
+        "Weapon of Quickening"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
+      "revision": 2721631
+    }
+  ],
+  "recommendedTeam": [
+    "每隊八人，各帶 NPC 治療、復活、範圍減傷與打斷；不要依賴另一隊的治療或復活。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "Togo、Mhenlo 任一死亡即失敗。感染者同時死亡的爆炸可秒殺抱團隊伍；HM 優先打斷會復活的祭祀者。NPC 卡寶箱且無法脫困時須重開。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於25分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於35分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Vizunah_Square",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Vizunah Square",
+      "url": "https://wiki.guildwars.com/wiki/Vizunah_Square",
+      "revision": 2721631,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "zen-daijun",
+  "nextMission": "nahpui-quarter",
+  "previousOptions": [
+    "zen-daijun"
+  ],
+  "nextOptions": [
+    "nahpui-quarter"
+  ],
+  "prerequisites": [
+    "zen-daijun"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "A Master's Burden",
+        "en": "A Master's Burden"
+      },
+      "giver": "First Mate Xiang",
+      "location": "Seitung Harbor",
+      "directions": "找Kaineng Docks的Greico，再到Wajjun Bazaar找Togo與Jia告知Yijo訊息，回Greico。",
+      "url": "https://wiki.guildwars.com/wiki/A_Master%27s_Burden",
+      "revision": 2694503,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Mayhem in the Market",
+        "en": "Mayhem in the Market"
+      },
+      "giver": "Headmaster Greico",
+      "location": "Kaineng Docks",
+      "directions": "依序找Kisai、Mai、Aeson、Yuun、Lukas，再進下水道找Jinzo與Togo，最後找Pei開本地廣場入口。",
+      "url": "https://wiki.guildwars.com/wiki/Mayhem_in_the_Market",
+      "revision": 2710258,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Welcome to Cantha",
+        "en": "Welcome to Cantha"
+      },
+      "giver": "Dockhand Quangnai",
+      "location": "Bejunkan Pier",
+      "directions": "外來角色到Bukdek Byway找Mhenlo，同行找Togo，向Guardsman Chow交任務開外地廣場。",
+      "url": "https://wiki.guildwars.com/wiki/Welcome_to_Cantha",
+      "revision": 2575594,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Finding The Oracle",
+        "en": "Finding The Oracle"
+      },
+      "giver": "Messenger Gosuh",
+      "location": "Dragon's Throat",
+      "directions": "在Shadow’s Passage與Mhenlo、Togo談神諭者，再到Bukdek Byway尋Nika。",
+      "url": "https://wiki.guildwars.com/wiki/Finding_The_Oracle",
+      "revision": 2578673,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Closer to the Stars",
+        "en": "Closer to the Stars"
+      },
+      "giver": "Nika",
+      "location": "Bukdek Byway",
+      "directions": "在Wajjun Bazaar護Fishmonger Bihzun對抗Jade Brotherhood，問神諭者線索，再找Loud Kou與Adept Nai。",
+      "url": "https://wiki.guildwars.com/wiki/Closer_to_the_Stars",
+      "revision": 2586789,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "entryVariants": [
+    {
+      "name": "Local Quarter 本地入口",
+      "description": "二章角色經A Master’s Burden、Mayhem in the Market進入，護Togo；外來角色須先完成Zen Daijun並加入正在做Mayhem的二章隊伍。"
+    },
+    {
+      "name": "Foreign Quarter 外地入口",
+      "description": "外來角色經Welcome to Cantha進入，護Mhenlo；二章角色需完成Nahpui Quarter後才能自由進此外地入口。"
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Togo、Mhenlo 任一死亡即失敗。感染者同時死亡的爆炸可秒殺抱團隊伍；HM 優先打斷會復活的祭祀者。NPC 卡寶箱且無法脫困時須重開。",
+      "counter": "每隊八人，各帶 NPC 治療、復活、範圍減傷與打斷；不要依賴另一隊的治療或復活。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過30分鐘",
+      "expert": "25–30分鐘",
+      "master": "少於25分鐘"
+    },
+    "hard": {
+      "standard": "超過40分鐘",
+      "expert": "35–40分鐘",
+      "master": "少於35分鐘"
+    }
+  }
+}

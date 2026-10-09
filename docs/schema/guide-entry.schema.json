@@ -133,11 +133,16 @@
               "en"
             ],
             "additionalProperties": false
+          },
+          "required": {
+            "default": true,
+            "type": "boolean"
           }
         },
         "required": [
           "id",
-          "name"
+          "name",
+          "required"
         ],
         "additionalProperties": false
       }

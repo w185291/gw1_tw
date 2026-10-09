@@ -1,0 +1,348 @@
+{
+  "id": "ruins-of-morah",
+  "order": 17,
+  "displayOrder": "14",
+  "storyStage": 14,
+  "campaign": "nightfall",
+  "region": "desolation",
+  "name": {
+    "zhTW": "摩拉廢墟",
+    "en": "Ruins of Morah"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Ruins of Morah"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "擊敗Varesh的Prophet與Commander兩形態。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Captain Mehhan 對話選擇開始任務。",
+    "location": "摩拉廢墟 / Ruins of Morah",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Captain Mehhan",
+  "requiredHeroes": [
+    {
+      "id": "general-morgahn",
+      "name": {
+        "zhTW": "摩根將軍 / General Morgahn",
+        "en": "General Morgahn"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過12分鐘",
+      "expert": "8–12分鐘",
+      "master": "少於8分鐘"
+    },
+    "hard": {
+      "standard": "超過14分鐘",
+      "expert": "10–14分鐘",
+      "master": "少於10分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "擊敗Varesh的Prophet與Commander兩形態。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於8分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於8分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "先處理三僧",
+      "content": "坑中Varesh旁三Margonite Clerics，先殺或把Varesh單拉到入口附近。用致盲／減速壓她，離開Earth、Frost Vortices。"
+    },
+    {
+      "title": "第一次死亡後撤",
+      "content": "她會復活成Commander，過場間隙回入口插旗。周圍Torment巡邏逆時針，先在入口分批拉附近惡魔，避免同時受集火。"
+    },
+    {
+      "title": "中斷複製與集火",
+      "content": "Call to the Torment讓惡魔複製，優先打斷或迅速擊殺；Enemies Must Die!會使敵軍點名某隊員，預先減傷保護。"
+    },
+    {
+      "title": "殺第二形態",
+      "content": "清附近有限援軍後，再進入足夠距離攻擊Varesh；若站門太近她會退回中央。第二次擊殺立即結束到Gate of Torment。"
+    }
+  ],
+  "routeSummary": "荒蕪之地入口 → 摩拉廢墟 → 懲罰之門",
+  "mapImage": "/maps/nightfall-Ruins_of_Morah_mission.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。",
+    "此關原圖不是玩家行走路線，請依通關步驟判斷。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Ruins_of_Morah_mission.jpg",
+      "title": "摩拉廢墟 · 關卡場景",
+      "alt": "摩拉廢墟的Guild Wars Wiki原圖：關卡場景",
+      "width": 600,
+      "height": 375,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Ruins_of_Morah_mission.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/2/20/Ruins_of_Morah_mission.jpg",
+      "uploader": "Aspectacle",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "mission_scene"
+    },
+    {
+      "src": "/maps/nightfall-Commander_Varesh.jpg",
+      "title": "摩拉廢墟 · 原版補充圖",
+      "alt": "摩拉廢墟的Guild Wars Wiki原圖：原版補充圖",
+      "width": 386,
+      "height": 573,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Commander_Varesh.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/f/f9/Commander_Varesh.jpg",
+      "uploader": "Manifold",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "boss_render"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "General Morgahn、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "首形態倒地不算過關。別把召喚物鋪到巡邏路；中心站位替代法需無小兵／靈，否則容易額外引怪。原Wiki沒有玩家路線圖，頁面場景圖不能作導航。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於8分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於10分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Ruins_of_Morah",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Ruins of Morah",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Morah",
+      "revision": 2737900,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Ruins of Morah (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Morah_%28outpost%29",
+      "revision": 2646915,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "gate-of-desolation",
+  "nextMission": "gate-of-pain",
+  "previousOptions": [
+    "gate-of-desolation"
+  ],
+  "nextOptions": [
+    "gate-of-pain"
+  ],
+  "prerequisites": [
+    "gate-of-desolation"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "A Deal's a Deal",
+        "en": "A Deal's a Deal"
+      },
+      "giver": "Sahlahjar the Dead",
+      "location": "Remains of Sahlahja",
+      "directions": "到Joko’s Domain找Joko，殺General Huduh收回軍隊，再攻Bone Palace清Zadukar，回Kehmtut。",
+      "url": "https://wiki.guildwars.com/wiki/A_Deal%27s_a_Deal",
+      "revision": 2727740,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Horde of Darkness",
+        "en": "Horde of Darkness"
+      },
+      "giver": "Priest Kehmtut",
+      "location": "Bone Palace",
+      "directions": "吞Elder Siege Wurm學Junundu Siege，用它擊破封鎖軍及Solitary Colossus搭路，找Mehhan進摩拉廢墟。",
+      "url": "https://wiki.guildwars.com/wiki/Horde_of_Darkness",
+      "revision": 2676158,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Uncharted Territory",
+        "en": "Uncharted Territory"
+      },
+      "giver": "Pehai",
+      "location": "Gate of Torment",
+      "directions": "帶Dunkoro到Nightfallen Jahai找Kormir，同行尋Tortured Sunspear，回Jarindok開懲罰之門。",
+      "url": "https://wiki.guildwars.com/wiki/Uncharted_Territory",
+      "revision": 2668044,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "首形態倒地不算過關。別把召喚物鋪到巡邏路；中心站位替代法需無小兵／靈，否則容易額外引怪。原Wiki沒有玩家路線圖，頁面場景圖不能作導航。",
+      "counter": "General Morgahn、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過12分鐘",
+      "expert": "8–12分鐘",
+      "master": "少於8分鐘"
+    },
+    "hard": {
+      "standard": "超過14分鐘",
+      "expert": "10–14分鐘",
+      "master": "少於10分鐘"
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "id": "gate-of-desolation",
+  "order": 16,
+  "displayOrder": "13",
+  "storyStage": 13,
+  "campaign": "nightfall",
+  "region": "desolation",
+  "name": {
+    "zhTW": "荒蕪之地入口",
+    "en": "Gate of Desolation"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Gate of Desolation"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "馴服Queen Aijundu，乘Junundu穿硫磺到Sahlahja。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "long",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Laph Longmane 對話選擇開始任務。",
+    "location": "荒蕪之地入口 / Gate of Desolation",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Laph Longmane",
+  "requiredHeroes": [
+    {
+      "id": "zhed-shadowhoof",
+      "name": {
+        "zhTW": "影爪傑德 / Zhed Shadowhoof",
+        "en": "Zhed Shadowhoof"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "零幼蟲獲救",
+      "expert": "救1–2隻",
+      "master": "救三隻幼蟲"
+    },
+    "hard": {
+      "standard": "零幼蟲獲救",
+      "expert": "救1–2隻",
+      "master": "救三隻幼蟲"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "馴服Queen Aijundu，乘Junundu穿硫磺到Sahlahja。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "救三隻幼蟲",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "救三隻幼蟲"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "安全高坡守獸跡",
+      "content": "人形踩亮黃硫磺會迅速死亡，英雄插旗遠離。逐波拉不死族上坡，優先會復活的Acolytes、Cavaliers、Chakeh。女王短暫退後再來，清完援軍及第二次削弱才馴服。"
+    },
+    {
+      "title": "換Junundu技能",
+      "content": "點Wurm Spoor全隊乘蟲，技能欄換Junundu；用Wail復活、Feast治療。遇巖地必須下蟲，到下一獸跡再上；英雄要設防守／戰鬥模式。"
+    },
+    {
+      "title": "救三幼蟲",
+      "content": "沿圖額外路線清幼蟲附近Margonite，儘量拉遠後打，Junundu Smash也會傷幼蟲。每處日誌提示獲救才繼續。"
+    },
+    {
+      "title": "繞開元素到終點",
+      "content": "元素生物不能擊倒且無屍體，Bite／Feast效果有限；可按地圖繞行避Sandstorm Crags。最後到Remains of Sahlahja完成。"
+    }
+  ],
+  "routeSummary": "徵納群落 → 納度灣 → 荒蕪之地入口 → 摩拉廢墟",
+  "mapImage": "/maps/nightfall-Gate_of_Desolation_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Gate_of_Desolation_map.jpg",
+      "title": "荒蕪之地入口 · 主線路線",
+      "alt": "荒蕪之地入口的Guild Wars Wiki原圖：主線路線",
+      "width": 524,
+      "height": 488,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gate_of_Desolation_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/92/Gate_of_Desolation_map.jpg",
+      "uploader": "Aspectacle",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Avah the Crafty",
+        "en": "Avah the Crafty"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Soldier's Stance"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    },
+    {
+      "name": {
+        "zhTW": "Nehmak the Unpleasant",
+        "en": "Nehmak the Unpleasant"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Signet of Suffering"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    },
+    {
+      "name": {
+        "zhTW": "Amind the Bitter",
+        "en": "Amind the Bitter"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Hex Eater Vortex"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    },
+    {
+      "name": {
+        "zhTW": "Chakeh the Lonely",
+        "en": "Chakeh the Lonely"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Soldier's Fury"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    },
+    {
+      "name": {
+        "zhTW": "Chundu the Meek",
+        "en": "Chundu the Meek"
+      },
+      "profession": "神喚使",
+      "importantSkills": [
+        "Vow of Silence"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    },
+    {
+      "name": {
+        "zhTW": "Queen Aijundu",
+        "en": "Queen Aijundu"
+      },
+      "profession": "遊俠",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
+      "revision": 2717145
+    }
+  ],
+  "recommendedTeam": [
+    "Zhed、起點群療保護、反復活；乘蟲後各自注意治療／復活技能，寵物可增加乘蟲攻擊者。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "女王戰與硫磺人形死亡最危險。清第五Boss後仍須回Joko聽對話才可用獸跡。Junundu Siege此Mission還不可用，不應把後續Horde技能當成本關攻略。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "救三隻幼蟲",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "救三隻幼蟲",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Gate_of_Desolation",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Gate of Desolation",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation",
+      "revision": 2717145,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Gate of Desolation (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation_%28outpost%29",
+      "revision": 2730658,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "ruins-of-morah",
+  "previousOptions": [
+    "jennurs-horde",
+    "nundu-bay"
+  ],
+  "nextOptions": [
+    "ruins-of-morah"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Crossing the Desolation",
+        "en": "Crossing the Desolation"
+      },
+      "giver": "Lonai",
+      "location": "Zerai the Learner",
+      "directions": "Command Post找Kormir，帶Zhed見Mirza到荒蕪邊緣；返回Kormir後調查Joko敗戰紀念碑，找Dirah追蹤，回Laph。",
+      "url": "https://wiki.guildwars.com/wiki/Crossing_the_Desolation",
+      "revision": 2558926,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "A Deal's a Deal",
+        "en": "A Deal's a Deal"
+      },
+      "giver": "Sahlahjar the Dead",
+      "location": "Remains of Sahlahja",
+      "directions": "到Joko’s Domain找Joko，殺General Huduh收回軍隊，再攻Bone Palace清Zadukar，回Kehmtut。",
+      "url": "https://wiki.guildwars.com/wiki/A_Deal%27s_a_Deal",
+      "revision": 2727740,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Horde of Darkness",
+        "en": "Horde of Darkness"
+      },
+      "giver": "Priest Kehmtut",
+      "location": "Bone Palace",
+      "directions": "吞Elder Siege Wurm學Junundu Siege，用它擊破封鎖軍及Solitary Colossus搭路，找Mehhan進摩拉廢墟。",
+      "url": "https://wiki.guildwars.com/wiki/Horde_of_Darkness",
+      "revision": 2676158,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "女王戰與硫磺人形死亡最危險。清第五Boss後仍須回Joko聽對話才可用獸跡。Junundu Siege此Mission還不可用，不應把後續Horde技能當成本關攻略。",
+      "counter": "Zhed、起點群療保護、反復活；乘蟲後各自注意治療／復活技能，寵物可增加乘蟲攻擊者。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "零幼蟲獲救",
+      "expert": "救1–2隻",
+      "master": "救三隻幼蟲"
+    },
+    "hard": {
+      "standard": "零幼蟲獲救",
+      "expert": "救1–2隻",
+      "master": "救三隻幼蟲"
+    }
+  }
+}

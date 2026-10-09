@@ -1,0 +1,297 @@
+{
+  "id": "abaddons-gate",
+  "order": 20,
+  "displayOrder": "17",
+  "storyStage": 17,
+  "campaign": "nightfall",
+  "region": "torment",
+  "name": {
+    "zhTW": "亞霸頓之門",
+    "en": "Abaddon's Gate"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Abaddon's Gate"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "封鎖亞霸頓，迴圈摧毀碑石並攻擊暴露的頭部。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Keeper Sharissh 對話選擇開始任務。",
+    "location": "亞霸頓之門 / Abaddon's Gate",
+    "requirements": [
+      "已完成Gate of Madness。",
+      "沒有指定必要英雄。"
+    ]
+  },
+  "missionStarter": "Keeper Sharissh",
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "封鎖亞霸頓，迴圈摧毀碑石並攻擊暴露的頭部。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於20分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於20分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "到三封印平臺",
+      "content": "通道到底上橋，左、右為雙手，中央為頭。每處兩Graven Monoliths，最多六隻同時在場。"
+    },
+    {
+      "title": "左右手先於頭",
+      "content": "整隊約定左手→右手→頭，先清兩手共四碑石，再清頭兩碑石；頭先清而雙手未封會重生，白費一輪。"
+    },
+    {
+      "title": "把握短弱點視窗",
+      "content": "三封印後頭下降，集中短施法／無視護甲輸出。每次完整封鎖還會扣他1000生命；掙脫後撤開新碑石，重複。"
+    },
+    {
+      "title": "處理擊倒暈眩與爪",
+      "content": "Words of Madness會擊倒、傷害、暈眩，通常全封約五秒後發作；準備群體清病症、群療與抗擊倒。Torment Claws出現立即打斷長施法並清除。"
+    }
+  ],
+  "routeSummary": "瘋狂之門 → 亞霸頓之門",
+  "mapImage": "/maps/nightfall-Abaddon's_Gate_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Abaddon's_Gate_map.jpg",
+      "title": "亞霸頓之門 · 主線路線",
+      "alt": "亞霸頓之門的Guild Wars Wiki原圖：主線路線",
+      "width": 469,
+      "height": 234,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Abaddon%27s_Gate_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/b/b5/Abaddon%27s_Gate_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "帶群體清病症、治療、抗擊倒、短施法與復活紋章；頻繁士氣提升會重置長回充技能。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "先打頭不會完成封印。不要只堆輸出放棄清暈眩／治療，長施法很容易被打斷；此關沒有Raisu的天界技能機制。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於20分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於20分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Abaddon%27s_Gate",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Abaddon's Gate",
+      "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Gate",
+      "revision": 2739035,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Abaddon's Gate (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Gate_%28outpost%29",
+      "revision": 2604853,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "gate-of-madness",
+  "nextMission": null,
+  "previousOptions": [
+    "gate-of-madness"
+  ],
+  "nextOptions": [],
+  "prerequisites": [
+    "gate-of-madness"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "到Throne of Secrets找Keeper of Secrets領每角色一次Book of Secrets；沒有獎勵提示，忘領可重打回來。",
+    "破關後內容獨立於本章Mission主線列表。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "封鎖迴圈",
+      "mechanism": "兩手未封時，先殺頭碑石會重生；全封才暴露頭。",
+      "counter": "左手→右手→頭，全封集中輸出，掙脫後重復。"
+    },
+    {
+      "name": "Words of Madness",
+      "mechanism": "全隊擊倒、傷害及暈眩，易打斷長施法。",
+      "counter": "群體清病症、抗擊倒、短施法與群體治療。"
+    },
+    {
+      "name": "Torment Claws",
+      "mechanism": "不定時生成、長施法範圍傷害。",
+      "counter": "立即點名打斷再清。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    },
+    "hard": {
+      "standard": "超過25分鐘",
+      "expert": "20–25分鐘",
+      "master": "少於20分鐘"
+    }
+  }
+}

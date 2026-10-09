@@ -1,0 +1,448 @@
+{
+  "id": "unwaking-waters",
+  "order": 11,
+  "displayOrder": "10",
+  "storyStage": 10,
+  "campaign": "factions",
+  "region": "jade-sea",
+  "name": {
+    "zhTW": "沉睡之水",
+    "en": "Unwaking Waters"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Unwaking Waters"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "兩隊沿漩渦下降，削弱 Kuunavang 開啟三道屏障，最後擊敗牠。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "沉睡之水 / Unwaking Waters",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過20分鐘",
+      "expert": "15–20分鐘",
+      "master": "少於15分鐘"
+    },
+    "hard": {
+      "standard": "超過20分鐘",
+      "expert": "15–20分鐘",
+      "master": "少於15分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "兩隊沿漩渦下降，削弱 Kuunavang 開啟三道屏障，最後擊敗牠。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於15分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於15分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "滿八人入場",
+      "content": "庫茲柯與勒克森入口共用同一 Mission，會與另一隊配對；沒有玩家隊時由傭兵補充。各隊只能復活自己隊員。"
+    },
+    {
+      "title": "逐門削弱巨龍",
+      "content": "第一、二、三門在生命約75%、50%、25%時開啟。先清感染者再攻龍，範圍技要散開；巨龍與感染者重疊時退到路外側，先處理感染者。"
+    },
+    {
+      "title": "追隨螺旋道路",
+      "content": "巨龍退後要沿下降路線追上。過門會有新敵群與兩個 Resurrection Orbs，可留一個給最終戰鬥，但不能復活另一隊。"
+    },
+    {
+      "title": "Harvest Temple 決戰",
+      "content": "過場後近戰也能碰到龍。先放減傷，避免 Dark Chain Lightning 串到全隊；召喚 Corrupted Scales 時手動點名清除，英雄不一定自動打。最後再次削弱至近零即完成。"
+    }
+  ],
+  "routeSummary": "永恆之林 → 蓋拉孵化所 → 沉睡之水 → 萊蘇皇宮",
+  "mapImage": "/maps/factions-Unwaking_Waters_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Unwaking_Waters_map.jpg",
+      "title": "沉睡之水 · 主線路線",
+      "alt": "沉睡之水的Guild Wars Wiki原圖：主線路線",
+      "width": 877,
+      "height": 722,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Unwaking_Waters_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/8/8f/Unwaking_Waters_map.jpg",
+      "uploader": "Chieftain Alex",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "The Afflicted Maaka",
+        "en": "The Afflicted Maaka"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Enraged Smash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Pana",
+        "en": "The Afflicted Pana"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Broad Head Arrow"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Jingme",
+        "en": "The Afflicted Jingme"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Ray of Judgment"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Lau",
+        "en": "The Afflicted Lau"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Order of Apostasy"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Hsin Jun",
+        "en": "The Afflicted Hsin Jun"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Stolen Speed"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Shen",
+        "en": "The Afflicted Shen"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Mind Burn"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Senku",
+        "en": "The Afflicted Senku"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [
+        "Shadow Form"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    },
+    {
+      "name": {
+        "zhTW": "The Afflicted Xenxo",
+        "en": "The Afflicted Xenxo"
+      },
+      "profession": "祭祀者",
+      "importantSkills": [
+        "Weapon of Quickening"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
+      "revision": 2717290
+    }
+  ],
+  "recommendedTeam": [
+    "遠距離／無視護甲傷害、保護靈、多個打斷與群體治療；HM 感染者更難清，大師仍是十五分鐘內。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "巨龍有部分打斷抗性，要多次／多來源打斷。Corrupted Scales 算靈，免疫多數病症與咒文；只有一隊的保護不等於另一隊能復活你。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於15分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於15分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Unwaking_Waters",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Unwaking Waters",
+      "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters",
+      "revision": 2717290,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "raisu-palace",
+  "previousOptions": [
+    "the-eternal-grove",
+    "gyala-hatchery"
+  ],
+  "nextOptions": [
+    "raisu-palace"
+  ],
+  "prerequisites": [],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Into the Whirlpool",
+        "en": "Into the Whirlpool"
+      },
+      "giver": "Count Durheim",
+      "location": "Vasburg Armory",
+      "directions": "與Mhenlo行至沉睡之水邊緣，找Acolyte Jorg准入，再回Redemptor Iszar。",
+      "url": "https://wiki.guildwars.com/wiki/Into_the_Whirlpool",
+      "revision": 2517111,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Journey to the Whirlpool",
+        "en": "Journey to the Whirlpool"
+      },
+      "giver": "Petras",
+      "location": "Leviathan Pits",
+      "directions": "護送Togo到沉睡之水邊緣，找Attis准入，再找Elder Oxis。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Whirlpool",
+      "revision": 2505707,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Taking Back the Palace",
+        "en": "Taking Back the Palace"
+      },
+      "giver": "Kuunavang",
+      "location": "Harvest Temple",
+      "directions": "回凱寧中心，再到Raisu Pavilion找Tsungkim取得皇宮入口，回Captain Sei。",
+      "url": "https://wiki.guildwars.com/wiki/Taking_Back_the_Palace",
+      "revision": 2718944,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "entryVariants": [
+    {
+      "name": "Kurzick 入口",
+      "description": "永恆之林→Into the Whirlpool；入口Morostav Trail。"
+    },
+    {
+      "name": "Luxon 入口",
+      "description": "蓋拉孵化所→Journey to the Whirlpool；入口Silent Surf。"
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "巨龍有部分打斷抗性，要多次／多來源打斷。Corrupted Scales 算靈，免疫多數病症與咒文；只有一隊的保護不等於另一隊能復活你。",
+      "counter": "遠距離／無視護甲傷害、保護靈、多個打斷與群體治療；HM 感染者更難清，大師仍是十五分鐘內。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過20分鐘",
+      "expert": "15–20分鐘",
+      "master": "少於15分鐘"
+    },
+    "hard": {
+      "standard": "超過20分鐘",
+      "expert": "15–20分鐘",
+      "master": "少於15分鐘"
+    }
+  }
+}

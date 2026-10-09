@@ -1,0 +1,398 @@
+{
+  "id": "dasha-vestibule",
+  "order": 11,
+  "displayOrder": "10A",
+  "storyStage": 10,
+  "campaign": "nightfall",
+  "region": "vabbi",
+  "name": {
+    "zhTW": "達沙走廊",
+    "en": "Dasha Vestibule"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Dasha Vestibule"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵",
+    "Margrid 路線"
+  ],
+  "summary": "與Goren、Margrid完成永恆、神性、智慧三試煉並救出親王。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Lock of Ahdashim 對話選擇開始任務。",
+    "location": "達沙走廊 / Dasha Vestibule",
+    "requirements": [
+      "每位隊員已領取Greed and Regret或Calling the Order的獎勵。",
+      "队伍須有所需英雄；同伴帶入亦可。"
+    ]
+  },
+  "missionStarter": "Lock of Ahdashim",
+  "requiredHeroes": [
+    {
+      "id": "margrid-the-sly",
+      "name": {
+        "zhTW": "狡猾者瑪格麗特 / Margrid the Sly",
+        "en": "Margrid the Sly"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "零寶物",
+      "expert": "取得1–2件",
+      "master": "取得三件寶物"
+    },
+    "hard": {
+      "standard": "零寶物",
+      "expert": "取得1–2件",
+      "master": "取得三件寶物"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "與Goren、Margrid完成永恆、神性、智慧三試煉並救出親王。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "取得三件寶物",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "取得三件寶物"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "開場先接Goren",
+      "content": "找Lock of Ahdashim啟動，進場和Goren對話讓其跟隨。分批清Djinn，Ruby Djinn的Searing Flames優先打斷。"
+    },
+    {
+      "title": "永恆試煉",
+      "content": "中央先開。擊敗六Eternal Guardians消除衰減、慢行與技能慢回。左階近寶箱會加伏兵，可先拉怪或走右。取得Ruby Key用於此區Sapphire Chest。"
+    },
+    {
+      "title": "神性試煉",
+      "content": "左室走道有火水陷阱，拉Djinn離開。後方六謎題守衛從左到右固定答Balthazar、Dwayna、Grenth、Lyssa、Melandru、Abaddon；錯答會生怪。此處Diamond Key開Diamond Chest。"
+    },
+    {
+      "title": "智慧試煉",
+      "content": "右室先殺四Thunder of Ahdashim，Quake會擊倒並破壞搬的水晶。兩塊鑰匙放不重複因數基座：6＋35、10＋21或14＋15任一組。Sapphire Key開Ruby Chest。"
+    },
+    {
+      "title": "三頭目分開拉",
+      "content": "最後中央三Djinn逐個打，Kormab的Searing Flames尤其危險。第三Boss死立即完成，先取三寶並捕前兩個技能。"
+    }
+  ],
+  "routeSummary": "提亞克林地 → 達沙走廊 → 希貝克大宮廷",
+  "mapImage": "/maps/nightfall-Dasha_Vestibule_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Dasha_Vestibule_map.jpg",
+      "title": "達沙走廊 · 主線路線",
+      "alt": "達沙走廊的Guild Wars Wiki原圖：主線路線",
+      "width": 871,
+      "height": 685,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Dasha_Vestibule_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/0/03/Dasha_Vestibule_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Kormab, Burning Heart",
+        "en": "Kormab, Burning Heart"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Searing Flames"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
+      "revision": 2704096
+    },
+    {
+      "name": {
+        "zhTW": "Shakor Firespear",
+        "en": "Shakor Firespear"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Angelic Bond"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
+      "revision": 2704096
+    },
+    {
+      "name": {
+        "zhTW": "Hajok Earthguardian",
+        "en": "Hajok Earthguardian"
+      },
+      "profession": "神喚使",
+      "importantSkills": [
+        "Zealous Vow"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
+      "revision": 2704096
+    }
+  ],
+  "recommendedTeam": [
+    "Margrid打斷／預先拉怪，保護、反施法、清燃燒；大多敵人無血肉，屍體與毒血效果有限。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "Goren必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "取得三件寶物",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "取得三件寶物",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Dasha_Vestibule",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Dasha Vestibule",
+      "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule",
+      "revision": 2704096,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Dasha Vestibule (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule_%28outpost%29",
+      "revision": 2699744,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "tihark-orchard",
+  "nextMission": "grand-court-of-sebelkeh",
+  "previousOptions": [
+    "tihark-orchard"
+  ],
+  "nextOptions": [
+    "grand-court-of-sebelkeh"
+  ],
+  "prerequisites": [
+    "tihark-orchard"
+  ],
+  "branch": "Margrid 路線",
+  "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "All's Well That Ends Well",
+        "en": "All's Well That Ends Well"
+      },
+      "giver": "Royal Food Taster Rendu",
+      "location": "The Kodash Bazaar",
+      "directions": "Mirror of Lyss找Kehanni，到Resplendent Makuun與Bokka、Bokka Amphitheatre的Vaughn會談，清伏擊精銳，回Oluda。",
+      "url": "https://wiki.guildwars.com/wiki/All%27s_Well_That_Ends_Well",
+      "revision": 2675732,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Warning Kehanni",
+        "en": "Warning Kehanni"
+      },
+      "giver": "Royal Finance Minister Oluda",
+      "location": "Honur Hill",
+      "directions": "警告Kehanni，清神殿前鋒，回Head Priest Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Warning_Kehanni",
+      "revision": 2602437,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Greed and Regret",
+        "en": "Greed and Regret"
+      },
+      "giver": "Head Priest Vahmani",
+      "location": "Grand Court of Sebelkeh",
+      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找Goren到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
+      "url": "https://wiki.guildwars.com/wiki/Greed_and_Regret",
+      "revision": 2687256,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Pledge of the Merchant Princes",
+        "en": "Pledge of the Merchant Princes"
+      },
+      "giver": "Zerai the Learner",
+      "location": "the Kodash Bazaar",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
+      "revision": 2621044,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Goren必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。",
+      "counter": "Margrid打斷／預先拉怪，保護、反施法、清燃燒；大多敵人無血肉，屍體與毒血效果有限。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "零寶物",
+      "expert": "取得1–2件",
+      "master": "取得三件寶物"
+    },
+    "hard": {
+      "standard": "零寶物",
+      "expert": "取得1–2件",
+      "master": "取得三件寶物"
+    }
+  }
+}

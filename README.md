@@ -2,6 +2,8 @@
 
 可維護的 Guild Wars 1 攻略網站。正式規格在 [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md)，實作計畫在 [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)。前次靜態 HTML 原型不參與此專案建置。
 
+最新第二、三章規格見 `docs/REQUIREMENTS_PHASE2.md`、`docs/REQUIREMENTS_PHASE3.md`；查核範圍與限制見 `docs/PHASE23_CONTENT_AUDIT.md`。
+
 ## 技術
 
 Node.js 22 以上、Next.js App Router、React、TypeScript strict、CSS Modules、Zod schema。資料與 UI 分離，不使用資料庫。依 package-lock.json 固定實際驗證過的版本；使用與 Next ESLint 相容的 TypeScript 6 API。
@@ -35,8 +37,11 @@ npm run start
 - `/campaigns/prophecies/missions`：任務列表。
 - `/campaigns/prophecies/missions/[id]`：共用 MissionDetailTemplate。
 - `/search`：中英文、aliases、tags 搜尋。
-- Factions／Nightfall／Eye of the North：章節架構入口，資料待整理。
-- Heroes／Dungeons／Elite Missions／Zaishen／Builds／Skills／Beyond：規格要求的後續入口，明確標示未整理。
+- `/campaigns/factions`：13份完整攻略、12故事階段與Kurzick／Luxon分支。
+- `/campaigns/nightfall`：20份完整攻略、17故事階段、三組替代路線。
+- `/heroes/[id]`：13位英雄招募；`/guides/[id]`：12個主線外內容索引。
+- Eye of the North：架構入口，資料待整理。
+- 菁英／Beyond提供已分類入口索引；Dungeons／Zaishen／Builds／Skills詳細攻略仍待後續。
 
 完整示範是北方長城、柯瑞塔關所、神聖海岸。其餘 22 關是資料骨架，不宣稱攻略完整。25 關的來源與 34 張 Wiki 原圖均儲存；預言之石只有俯瞰截圖，沒有原站標線路線圖。
 
@@ -55,6 +60,10 @@ src/
   templates/MissionDetailTemplate.tsx
   data/campaigns/                 # 章節 JSON
   data/prophecies/missions/        # 25 份 Mission JSON
+  data/factions/missions/          # 13 份
+  data/nightfall/missions/         # 20 份
+  data/heroes/                     # 13 位英雄
+  data/extras/                     # 主線外入口索引
   data/schemas/content.ts          # schema + types
   lib/content.ts                  # repository 邊界
 public/maps/                      # Wiki 原圖
@@ -88,3 +97,7 @@ GuideEntry 支援七種 type；不要把所有章節強制塞進直線 25 Missio
 `docs/reference/` 保留 Wiki 抓取版本與 maps-manifest。各頁顯示固定原文版本與修訂紀錄，各圖顯示來源及上傳者。Wiki 社群攻略文字的翻譯衍生遵循 GNU FDL 1.2 或更新版本；遊戲影象權利另屬 ArenaNet／NCsoft，不把影象標為 GNU FDL。
 
 本網站是非官方玩家攻略。查核日期 2026-10-09；來源更新時需重新查核與建置。未核對的難度、建議等級、數值時間及譯名在 UI／todos 如實標示。
+
+## 更新Wiki來源
+
+`npm run research:fetch`使用公開MediaWiki API、最多兩個並行請求，保留新版修訂到独立資料夾，不自動改寫中文攻略。原始已查核修訂與43張新增圖片來源保留在docs/reference/phase23。

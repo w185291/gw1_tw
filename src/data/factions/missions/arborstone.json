@@ -1,0 +1,395 @@
+{
+  "id": "arborstone",
+  "order": 6,
+  "displayOrder": "6",
+  "storyStage": 6,
+  "campaign": "factions",
+  "region": "echovald",
+  "name": {
+    "zhTW": "亭石",
+    "en": "Arborstone"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Arborstone",
+    "亭石神殿"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "取回聖維克多骨灰罈，護送 Danika 開啟出口並與 Mhenlo 會合。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "亭石 / Arborstone",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    },
+    "hard": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "取回聖維克多骨灰罈，護送 Danika 開啟出口並與 Mhenlo 會合。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於30分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於30分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "進教堂取得骨灰罈",
+      "content": "起點向西南過橋再左轉下坡；避開大蘑菇的 Stone Spores。Danika 到門口後開門，清除五群守護者才能取罈。牆可擋弓箭，水區延長加持。"
+    },
+    {
+      "title": "選撤離路線",
+      "content": "取罈後教堂開始崩塌。持罈者讓 Danika 跟隨；中間黃線較直觀，南紫線有 Dredge 打斷／擊倒，北綠線有植物與 Oni。選中線時偏左推進，在崩塌樓梯外拉怪，不在樓梯丟罈。"
+    },
+    {
+      "title": "跨越 Oni 伏擊",
+      "content": "主廳出口樓梯先後出現 Oni，在最高階不崩塌的小區域等它們靠近。隨時回看 Danika，避免她落後或單獨走另一條路。"
+    },
+    {
+      "title": "最後才殺 Stone Judge",
+      "content": "先減少門前 Stone Rain、Reaper 等敵人，再殺 Judge。Judge 死後 Danika 會衝向門，喚醒兩隻 Stone Crushers；清除幹擾讓她施法開門。"
+    }
+  ],
+  "routeSummary": "譚納凱神殿 → 亭石 → 風神海床",
+  "mapImage": "/maps/factions-Arborstone_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Arborstone_map.jpg",
+      "title": "亭石 · 主線路線",
+      "alt": "亭石的Guild Wars Wiki原圖：主線路線",
+      "width": 517,
+      "height": 735,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Arborstone_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/e/ee/Arborstone_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Dark Fang",
+        "en": "Dark Fang"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Vampiric Spirit"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
+      "revision": 2730001
+    },
+    {
+      "name": {
+        "zhTW": "The Ancient",
+        "en": "The Ancient"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Shatterstone"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
+      "revision": 2730001
+    },
+    {
+      "name": {
+        "zhTW": "Stone Judge",
+        "en": "Stone Judge"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Forceful Blow"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
+      "revision": 2730001
+    },
+    {
+      "name": {
+        "zhTW": "Ryver Mossplanter",
+        "en": "Ryver Mossplanter"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Lacerate"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
+      "revision": 2730001
+    },
+    {
+      "name": {
+        "zhTW": "Milefaun Mindflayer",
+        "en": "Milefaun Mindflayer"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Surge"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
+      "revision": 2730001
+    }
+  ],
+  "recommendedTeam": [
+    "帶短施法／防打斷、反近戰與保護；HM 優先壓制 Milefaun 的 Energy Surge 及 Warden 元素使。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "Mhenlo 必須存活，Danika 是開門關鍵。提早殺 Judge 會讓她衝進仍有很多敵人的出口；持罈者跑太快或召喚物吸引治療會令她掉隊。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於30分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於30分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Arborstone",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Arborstone",
+      "url": "https://wiki.guildwars.com/wiki/Arborstone",
+      "revision": 2730001,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "tahnnakai-temple",
+  "nextMission": "boreas-seabed",
+  "previousOptions": [
+    "tahnnakai-temple"
+  ],
+  "nextOptions": [
+    "boreas-seabed"
+  ],
+  "prerequisites": [
+    "tahnnakai-temple"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "A Meeting With the Emperor",
+        "en": "A Meeting With the Emperor"
+      },
+      "giver": "Emperor's Voice",
+      "location": "Zin Ku Corridor",
+      "directions": "到皇宮與皇帝會面，找Emperor’s Voice交任務。",
+      "url": "https://wiki.guildwars.com/wiki/A_Meeting_With_the_Emperor",
+      "revision": 2716117,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Count's Daughter",
+        "en": "The Count's Daughter"
+      },
+      "giver": "Emperor's Voice",
+      "location": "Zin Ku Corridor",
+      "directions": "在麻都堡壘外會合Danika，沿任務找Redemptor Karl與Lift Operator Shulz，再找Acolyte Hanz。",
+      "url": "https://wiki.guildwars.com/wiki/The_Count%27s_Daughter",
+      "revision": 2391807,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "The Convocation",
+        "en": "The Convocation"
+      },
+      "giver": "Headmaster Amara",
+      "location": "Altrumm  Ruins",
+      "directions": "會合Togo，前往風神海床尋求入場，找Elder Rhea交任務。",
+      "url": "https://wiki.guildwars.com/wiki/The_Convocation",
+      "revision": 2607120,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "Mhenlo 必須存活，Danika 是開門關鍵。提早殺 Judge 會讓她衝進仍有很多敵人的出口；持罈者跑太快或召喚物吸引治療會令她掉隊。",
+      "counter": "帶短施法／防打斷、反近戰與保護；HM 優先壓制 Milefaun 的 Energy Surge 及 Warden 元素使。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    },
+    "hard": {
+      "standard": "超過35分鐘",
+      "expert": "30–35分鐘",
+      "master": "少於30分鐘"
+    }
+  }
+}

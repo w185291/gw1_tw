@@ -6,9 +6,178 @@
   },
   "shortName": "Nightfall",
   "order": 3,
-  "description": "預留主線 Quest、NPC 啟動 Mission、必要英雄和 Standard／Expert／Master 獎勵條件。",
-  "status": "planned",
-  "regions": [],
+  "description": "20個合作任務、17個故事階段；三組替代路線、NPC啟動與必要英雄。",
+  "status": "available",
+  "regions": [
+    {
+      "id": "istan",
+      "name": {
+        "zhTW": "伊斯坦",
+        "en": "Istan"
+      }
+    },
+    {
+      "id": "kourna",
+      "name": {
+        "zhTW": "庫爾納",
+        "en": "Kourna"
+      }
+    },
+    {
+      "id": "vabbi",
+      "name": {
+        "zhTW": "瓦比",
+        "en": "Vabbi"
+      }
+    },
+    {
+      "id": "desolation",
+      "name": {
+        "zhTW": "荒蕪之地",
+        "en": "The Desolation"
+      }
+    },
+    {
+      "id": "torment",
+      "name": {
+        "zhTW": "苦痛領域",
+        "en": "Realm of Torment"
+      }
+    }
+  ],
   "structure": "branched",
-  "flow": []
+  "flow": [
+    {
+      "entry": "chahbek-village",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "jokanur-diggings",
+      "requires": [
+        "chahbek-village"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "blacktide-den",
+      "requires": [
+        "jokanur-diggings"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "consulate-docks",
+      "requires": [
+        "blacktide-den"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "venta-cemetery",
+      "requires": [
+        "consulate-docks"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "kodonur-crossroads",
+      "requires": [
+        "venta-cemetery"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "pogahn-passage",
+      "requires": [
+        "kodonur-crossroads"
+      ],
+      "branch": "Margrid 路線"
+    },
+    {
+      "entry": "rilohn-refuge",
+      "requires": [
+        "kodonur-crossroads"
+      ],
+      "branch": "Master of Whispers 路線"
+    },
+    {
+      "entry": "moddok-crevice",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "tihark-orchard",
+      "requires": [
+        "moddok-crevice"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "dasha-vestibule",
+      "requires": [
+        "tihark-orchard"
+      ],
+      "branch": "Margrid 路線"
+    },
+    {
+      "entry": "dzagonur-bastion",
+      "requires": [
+        "tihark-orchard"
+      ],
+      "branch": "Master of Whispers 路線"
+    },
+    {
+      "entry": "grand-court-of-sebelkeh",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "jennurs-horde",
+      "requires": [
+        "grand-court-of-sebelkeh"
+      ],
+      "branch": "保衛花園"
+    },
+    {
+      "entry": "nundu-bay",
+      "requires": [
+        "grand-court-of-sebelkeh"
+      ],
+      "branch": "保衛 Ronjok"
+    },
+    {
+      "entry": "gate-of-desolation",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "ruins-of-morah",
+      "requires": [
+        "gate-of-desolation"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "gate-of-pain",
+      "requires": [
+        "ruins-of-morah"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "gate-of-madness",
+      "requires": [
+        "gate-of-pain"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "abaddons-gate",
+      "requires": [
+        "gate-of-madness"
+      ],
+      "branch": null
+    }
+  ]
 }

@@ -6,9 +6,126 @@
   },
   "shortName": "Factions",
   "order": 2,
-  "description": "預留 Cantha 主線、Kurzick／Luxon 分支、競技與挑戰任務，以及菁英副本和 Winds of Change。",
-  "status": "planned",
-  "regions": [],
+  "description": "13個不同合作任務、12個故事階段；第9階段庫茲柯／勒克森分支後匯合。",
+  "status": "available",
+  "regions": [
+    {
+      "id": "shing-jea",
+      "name": {
+        "zhTW": "星岬島",
+        "en": "Shing Jea Island"
+      }
+    },
+    {
+      "id": "kaineng",
+      "name": {
+        "zhTW": "凱寧城",
+        "en": "Kaineng City"
+      }
+    },
+    {
+      "id": "echovald",
+      "name": {
+        "zhTW": "石化森林",
+        "en": "Echovald Forest"
+      }
+    },
+    {
+      "id": "jade-sea",
+      "name": {
+        "zhTW": "翡翠海",
+        "en": "The Jade Sea"
+      }
+    }
+  ],
   "structure": "branched",
-  "flow": []
+  "flow": [
+    {
+      "entry": "minister-chos-estate",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "zen-daijun",
+      "requires": [
+        "minister-chos-estate"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "vizunah-square",
+      "requires": [
+        "zen-daijun"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "nahpui-quarter",
+      "requires": [
+        "vizunah-square"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "tahnnakai-temple",
+      "requires": [
+        "nahpui-quarter"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "arborstone",
+      "requires": [
+        "tahnnakai-temple"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "boreas-seabed",
+      "requires": [
+        "arborstone"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "sunjiang-district",
+      "requires": [
+        "boreas-seabed"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "the-eternal-grove",
+      "requires": [
+        "sunjiang-district"
+      ],
+      "branch": "Kurzick 庫茲柯"
+    },
+    {
+      "entry": "gyala-hatchery",
+      "requires": [
+        "sunjiang-district"
+      ],
+      "branch": "Luxon 勒克森"
+    },
+    {
+      "entry": "unwaking-waters",
+      "requires": [],
+      "branch": null
+    },
+    {
+      "entry": "raisu-palace",
+      "requires": [
+        "unwaking-waters"
+      ],
+      "branch": null
+    },
+    {
+      "entry": "imperial-sanctum",
+      "requires": [
+        "raisu-palace"
+      ],
+      "branch": null
+    }
+  ]
 }

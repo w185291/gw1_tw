@@ -1,0 +1,389 @@
+{
+  "id": "venta-cemetery",
+  "order": 5,
+  "displayOrder": "5",
+  "storyStage": 5,
+  "campaign": "nightfall",
+  "region": "kourna",
+  "name": {
+    "zhTW": "凡特墓地",
+    "en": "Venta Cemetery"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Venta Cemetery"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "將至少一名 Sunspear Evacuee 帶到海岸與 Margrid 交涉。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Rojis 對話選擇開始任務。",
+    "location": "凡特墓地 / Venta Cemetery",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Rojis",
+  "requiredHeroes": [
+    {
+      "id": "koss",
+      "name": {
+        "zhTW": "寇斯 / Koss",
+        "en": "Koss"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "清0–7個哨站",
+      "expert": "清8–11個",
+      "master": "清十二個哨站"
+    },
+    "hard": {
+      "standard": "清0–7個哨站",
+      "expert": "清8–11個",
+      "master": "清十二個哨站"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "將至少一名 Sunspear Evacuee 帶到海岸與 Margrid 交涉。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "清十二個哨站",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "清十二個哨站"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "熟悉警戒機制",
+      "content": "接近Sentry Trap後五秒內使用Disarm Trap，避免100範圍傷害；施法被打斷會失敗。先清巡邏再接近哨站，快速殺守兵避免炮擊。"
+    },
+    {
+      "title": "通關直達路線",
+      "content": "僅通關可沿北牆向西到西北角，再向南到Margrid。遠離中央Morzek Garrison，勿踏進紅門據點攻擊範圍。"
+    },
+    {
+      "title": "大師繞行十二哨站",
+      "content": "按地圖大師路線逐處清哨站，留意任務日誌0/12。炮擊後旗色可能不變，日誌計數較可靠。"
+    },
+    {
+      "title": "清完才交涉",
+      "content": "確認12站計數、仍有撤退者活著，再向海岸Margrid對話完成。Dockmaster Ahlaro 接下一條主線。"
+    }
+  ],
+  "routeSummary": "領事館碼頭 → 凡特墓地 → 科登諾路口",
+  "mapImage": "/maps/nightfall-Venta_Cemetery_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Venta_Cemetery_map.jpg",
+      "title": "凡特墓地 · 主線路線",
+      "alt": "凡特墓地的Guild Wars Wiki原圖：主線路線",
+      "width": 720,
+      "height": 561,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Venta_Cemetery_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/f/f3/Venta_Cemetery_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "Koss、速度提升、範圍輸出與保護；HM特別避免哨站加巡邏同時引到。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "中央據點炮擊可超過600範圍傷害，警告很晚，應提前避開。所有撤退者死亡即失敗；接Margrid會結束，先做完哨站。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "清十二個哨站",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "清十二個哨站",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Venta_Cemetery",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Venta Cemetery",
+      "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery",
+      "revision": 2692983,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Venta Cemetery (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery_%28outpost%29",
+      "revision": 2556848,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "consulate-docks",
+  "nextMission": "kodonur-crossroads",
+  "previousOptions": [
+    "consulate-docks"
+  ],
+  "nextOptions": [
+    "kodonur-crossroads"
+  ],
+  "prerequisites": [
+    "consulate-docks"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Hunted!",
+        "en": "Hunted!"
+      },
+      "giver": "Sunspear Modiki",
+      "location": "Yohlon Haven",
+      "directions": "到Zudash、Ronjok的Jonah尋避難處，找Bahsi入地下清怪建立Command Post，回Lonai。",
+      "url": "https://wiki.guildwars.com/wiki/Hunted%21",
+      "revision": 2619785,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "The Great Escape",
+        "en": "The Great Escape"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "到Arkjok Ward找Nerashi，清外圍巡邏與Kubeh解救Koss及烈日之矛，回Lonai。",
+      "url": "https://wiki.guildwars.com/wiki/The_Great_Escape",
+      "revision": 2619838,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "And a Hero Shall Lead Them",
+        "en": "And a Hero Shall Lead Them"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "本章角色需Sunspear General（2500點），外來領袖免；在Command Post找Koss，救餘軍避哨兵／陷阱，找Suha後回Rojis。",
+      "url": "https://wiki.guildwars.com/wiki/And_a_Hero_Shall_Lead_Them",
+      "revision": 2625522,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "The Council is Called",
+        "en": "The Council is Called"
+      },
+      "giver": "Dockmaster Ahlaro",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "依序向Suhl、Nahlo、Dahut報告領事館戰況，再回Suhl。",
+      "url": "https://wiki.guildwars.com/wiki/The_Council_is_Called",
+      "revision": 2634210,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "To Vabbi!",
+        "en": "To Vabbi!"
+      },
+      "giver": "Elder Suhl",
+      "location": "Consulate",
+      "directions": "Command Post問Dunkoro，與Nerashi探Jahai、清巡邏，回Lonai。",
+      "url": "https://wiki.guildwars.com/wiki/To_Vabbi%21",
+      "revision": 2727323,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Centaur Blackmail",
+        "en": "Centaur Blackmail"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "在Command Post找人馬，帶路到Jahai Bluffs會Zhed與線人，找Whispers，再向Kodonur的Haroj與Rikesh交任務；取得Zhed。",
+      "url": "https://wiki.guildwars.com/wiki/Centaur_Blackmail",
+      "revision": 2638519,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "checklist": [
+    {
+      "title": "十二哨站核對",
+      "items": [
+        "第1站：檢視任務日誌是否增加",
+        "第2站：檢視任務日誌是否增加",
+        "第3站：檢視任務日誌是否增加",
+        "第4站：檢視任務日誌是否增加",
+        "第5站：檢視任務日誌是否增加",
+        "第6站：檢視任務日誌是否增加",
+        "第7站：檢視任務日誌是否增加",
+        "第8站：檢視任務日誌是否增加",
+        "第9站：檢視任務日誌是否增加",
+        "第10站：檢視任務日誌是否增加",
+        "第11站：檢視任務日誌是否增加",
+        "第12站：檢視任務日誌是否增加"
+      ]
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "中央據點炮擊可超過600範圍傷害，警告很晚，應提前避開。所有撤退者死亡即失敗；接Margrid會結束，先做完哨站。",
+      "counter": "Koss、速度提升、範圍輸出與保護；HM特別避免哨站加巡邏同時引到。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "清0–7個哨站",
+      "expert": "清8–11個",
+      "master": "清十二個哨站"
+    },
+    "hard": {
+      "standard": "清0–7個哨站",
+      "expert": "清8–11個",
+      "master": "清十二個哨站"
+    }
+  }
+}

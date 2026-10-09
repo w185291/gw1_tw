@@ -12,6 +12,9 @@ export const campaignSchema = z.object({
   structure:z.enum(['timeline','branched']), flow:z.array(flowNode),
 });
 const reward = z.object({label:z.string(),experience:z.number().int().nonnegative().nullable(),gold:z.number().int().nonnegative().nullable(),skillPoints:z.number().int().nonnegative().nullable(),notes:z.array(z.string())});
+const quest = z.object({name, giver:z.string(), location:z.string(), directions:z.string(), url:z.url(), revision:z.number().int(), translationStatus:z.enum(['verified','needs-review'])});
+const tierConditions = z.object({standard:z.string(),expert:z.string(),master:z.string()});
+const mechanism = z.object({name:z.string(),mechanism:z.string(),counter:z.string()});
 export const missionSchema = z.object({
   id:slug,order:z.number().int().positive(),campaign:slug,region:slug,name,type:entryTypeSchema,
   category:z.enum(['main-story','side-story','elite','beyond']), status:z.enum(['complete','draft']),
@@ -21,7 +24,22 @@ export const missionSchema = z.object({
   durationCategory:z.enum(['short','medium','long','variable','unknown']),
   modes:z.object({normal:z.boolean(),hard:z.boolean()}),
   entryMethod:z.object({type:z.enum(['enter-mission','npc','quest']),description:z.string(),location:z.string(),requirements:z.array(z.string())}),
-  requiredHeroes:z.array(z.object({id:slug,name})),rewardTiers:z.array(z.enum(['standard','expert','master'])),
+  requiredHeroes:z.array(z.object({id:slug,name,required:z.boolean().default(true)})),rewardTiers:z.array(z.enum(['standard','expert','master'])),
+  displayOrder:z.string().optional(),storyStage:z.number().int().optional(),
+  translationStatus:z.enum(['verified','needs-review']).default('verified'),verificationStatus:z.enum(['source-checked','pending']).default('pending'),
+  branch:z.string().nullable().default(null),routeChoice:z.string().nullable().default(null),
+  nextOptions:z.array(slug).default([]),previousOptions:z.array(slug).default([]),
+  entryVariants:z.array(z.object({name:z.string(),description:z.string()})).default([]),
+  primaryQuestBefore:z.array(quest).default([]),primaryQuestAfter:z.array(quest).default([]),
+  missionStarter:z.string().nullable().default(null),
+  masterReward:z.object({kind:z.enum(['time','survival','objectives','special']),normal:tierConditions,hard:tierConditions,notes:z.array(z.string())}).optional(),
+  missionReward:z.object({system:z.literal('standard-expert-master'),normal:tierConditions,hard:tierConditions}).optional(),
+  bossMechanics:z.array(mechanism).default([]),
+  checklist:z.array(z.object({title:z.string(),items:z.array(z.string())})).default([]),
+  defenseTimeline:z.array(z.object({stage:z.string(),action:z.string()})).default([]),
+  strategyVariants:z.array(z.object({title:z.string(),steps:z.array(z.string())})).default([]),
+  specialActivities:z.array(z.object({title:z.string(),instructions:z.string()})).default([]),
+  afterCompletion:z.array(z.string()).default([]),
   objectives:z.array(z.object({text:z.string()})),
   bonus:z.object({available:z.boolean(),kind:z.enum(['bonus','timed-bonus','masters','none']),title:z.string(),summary:z.string(),trigger:z.string(),steps:z.array(z.string()),missable:z.boolean(),completion:z.string()}),
   walkthrough:z.array(z.object({title:z.string(),content:z.string()})),routeSummary:z.string(),
@@ -38,5 +56,9 @@ export type Campaign = z.infer<typeof campaignSchema>;
 export const guideEntrySchema = missionSchema.pick({id:true,campaign:true,region:true,name:true,type:true,category:true,status:true,aliases:true,tags:true,summary:true,entryMethod:true,requiredHeroes:true,rewardTiers:true,sources:true});
 export type GuideEntry = z.infer<typeof guideEntrySchema>;
 export type Mission = z.infer<typeof missionSchema>;
+export const heroSchema=z.object({id:slug,name,profession:z.string(),translationStatus:z.enum(['verified','needs-review']),summary:z.string(),native:z.array(z.string()),foreign:z.array(z.string()),choiceGroup:z.string().nullable(),postgame:z.array(z.string()),requiredIn:z.array(slug),sources:z.array(source)});
+export type Hero=z.infer<typeof heroSchema>;
+export const extraGuideSchema=z.object({id:slug,campaign:slug,name,type:entryTypeSchema,category:z.enum(['side-story','elite','beyond']),summary:z.string(),steps:z.array(z.string()),sources:z.array(source)});
+export type ExtraGuide=z.infer<typeof extraGuideSchema>;
 export type GuideEntryType = z.infer<typeof entryTypeSchema>;
 export type SearchEntry = { id:string;name:{zhTW:string;en:string};aliases:string[];tags:string[];summary:string;href:string;kind:string;status:'complete'|'draft' };

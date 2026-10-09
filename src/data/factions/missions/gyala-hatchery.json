@@ -1,0 +1,385 @@
+{
+  "id": "gyala-hatchery",
+  "order": 10,
+  "displayOrder": "9B",
+  "storyStage": 9,
+  "campaign": "factions",
+  "region": "jade-sea",
+  "name": {
+    "zhTW": "蓋拉孵化所",
+    "en": "Gyala Hatchery"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Gyala Hatchery"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵",
+    "Luxon 勒克森"
+  ],
+  "summary": "護送五隻幼龜到 Leviathan Pits，最終清除感染者。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "蓋拉孵化所 / Gyala Hatchery",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "survival",
+    "normal": {
+      "standard": "一隻幼龜存活",
+      "expert": "2–4隻幼龜存活",
+      "master": "五隻幼龜全存活"
+    },
+    "hard": {
+      "standard": "一隻幼龜存活",
+      "expert": "2–4隻幼龜存活",
+      "master": "五隻幼龜全存活"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "護送五隻幼龜到 Leviathan Pits，最終清除感染者。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "五隻幼龜全存活",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "五隻幼龜全存活"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "選正路或清場繞路",
+      "content": "正路跟 Argo 車隊，較快；穩定大師可開場右轉到西北角，沿右側牆向南到地圖底，再逆向清十處庫茲柯伏兵，最後回幼龜處才啟動護送。"
+    },
+    {
+      "title": "用一罐煙集中火力",
+      "content": "向 Petras 拿 Smoke Canister；雖可拿三罐，通常只放一罐讓三隻攻城龜集中射擊。大量近戰時放幼龜中央，遠距離群可放灘邊。"
+    },
+    {
+      "title": "逐停靠點保護",
+      "content": "正路第一處先殺 Juggernaut，第二處有三方向增援；骨架區仍有北方突襲，後續西、南兩群及北、西增援。守在車隊，移動煙罐與清近戰，不獨自跑遠。"
+    },
+    {
+      "title": "過場後仍須戰鬥",
+      "content": "到終點門後感染者從北方來，煙罐放門後且勿太前，以免斜坡阻擋炮擊。清除所有感染者才完成。"
+    }
+  ],
+  "routeSummary": "孫江行政區 → 蓋拉孵化所 → 沉睡之水",
+  "mapImage": "/maps/factions-Gyala_Hatchery_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Gyala_Hatchery_map.jpg",
+      "title": "蓋拉孵化所 · 主線路線",
+      "alt": "蓋拉孵化所的Guild Wars Wiki原圖：主線路線",
+      "width": 232,
+      "height": 424,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gyala_Hatchery_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/0/0f/Gyala_Hatchery_map.jpg",
+      "uploader": "Kazerniel",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/factions-Gyala_Hatchery_map2.jpg",
+      "title": "蓋拉孵化所 · 原版補充圖",
+      "alt": "蓋拉孵化所的Guild Wars Wiki原圖：原版補充圖",
+      "width": 512,
+      "height": 512,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gyala_Hatchery_map2.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/5/53/Gyala_Hatchery_map2.jpg",
+      "uploader": "MaXX LGD",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "alternative_route"
+    },
+    {
+      "src": "/maps/factions-Gyala_Hatchery_20min_Map.jpg",
+      "title": "蓋拉孵化所 · 原版補充圖",
+      "alt": "蓋拉孵化所的Guild Wars Wiki原圖：原版補充圖",
+      "width": 697,
+      "height": 948,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gyala_Hatchery_20min_Map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/c/c0/Gyala_Hatchery_20min_Map.jpg",
+      "uploader": "Dances With Goblins",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "20_minute_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "帶肉盾、範圍減傷、致盲／虛弱與可治療友軍的技能；單人隊保留遠距離攻擊。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "大師要求五隻幼龜都存活；過場動畫看似復活的幼龜仍算死亡。繞路回來也有小群突襲，護送開始後不能甩開幼龜。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "五隻幼龜全存活",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "五隻幼龜全存活",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Gyala_Hatchery",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Gyala Hatchery",
+      "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery",
+      "revision": 2728544,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "sunjiang-district",
+  "nextMission": "unwaking-waters",
+  "previousOptions": [
+    "sunjiang-district"
+  ],
+  "nextOptions": [
+    "unwaking-waters"
+  ],
+  "prerequisites": [
+    "sunjiang-district"
+  ],
+  "branch": "Luxon 勒克森",
+  "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Journey to Cavalon",
+        "en": "Journey to Cavalon"
+      },
+      "giver": "Jamei",
+      "location": "Maatu Keep",
+      "directions": "前往Zos Shivros Channel找Watchman Bencis，再至Cavalon回報Elder Rhea。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_Cavalon",
+      "revision": 2393979,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Befriending the Luxons",
+        "en": "Befriending the Luxons"
+      },
+      "giver": "Elder Rhea",
+      "location": "Cavalon",
+      "directions": "累積一萬點尚未花費的Luxon陣營點，向Elder Rhea交任務。不要先花掉。",
+      "url": "https://wiki.guildwars.com/wiki/Befriending_the_Luxons",
+      "revision": 2677366,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Stolen Eggs",
+        "en": "Stolen Eggs"
+      },
+      "giver": "Elder Rhea",
+      "location": "Cavalon",
+      "directions": "取回偷走的幼龜蛋箱，交給Gratian，再找Endre開孵化所。",
+      "url": "https://wiki.guildwars.com/wiki/Stolen_Eggs",
+      "revision": 2615021,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Into the Whirlpool",
+        "en": "Into the Whirlpool"
+      },
+      "giver": "Count Durheim",
+      "location": "Vasburg Armory",
+      "directions": "與Mhenlo行至沉睡之水邊緣，找Acolyte Jorg准入，再回Redemptor Iszar。",
+      "url": "https://wiki.guildwars.com/wiki/Into_the_Whirlpool",
+      "revision": 2517111,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Journey to the Whirlpool",
+        "en": "Journey to the Whirlpool"
+      },
+      "giver": "Petras",
+      "location": "Leviathan Pits",
+      "directions": "護送Togo到沉睡之水邊緣，找Attis准入，再找Elder Oxis。",
+      "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Whirlpool",
+      "revision": 2505707,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "strategyVariants": [
+    {
+      "title": "正路護送",
+      "steps": [
+        "全隊與車隊同行，一罐煙集中三炮火。",
+        "每波把近戰攔在幼龜外，遠距離群移煙罐。"
+      ]
+    },
+    {
+      "title": "逆向預清繞路",
+      "steps": [
+        "開場右轉西北，沿外牆走至地圖南端。",
+        "沿任務路逆向清伏兵回幼龜處再觸發護送；時間較長，但獎勵不看時間。"
+      ]
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "大師要求五隻幼龜都存活；過場動畫看似復活的幼龜仍算死亡。繞路回來也有小群突襲，護送開始後不能甩開幼龜。",
+      "counter": "帶肉盾、範圍減傷、致盲／虛弱與可治療友軍的技能；單人隊保留遠距離攻擊。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "一隻幼龜存活",
+      "expert": "2–4隻幼龜存活",
+      "master": "五隻幼龜全存活"
+    },
+    "hard": {
+      "standard": "一隻幼龜存活",
+      "expert": "2–4隻幼龜存活",
+      "master": "五隻幼龜全存活"
+    }
+  }
+}

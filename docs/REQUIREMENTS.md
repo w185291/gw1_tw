@@ -1,3 +1,5 @@
+目前工作擴充：依 docs/REQUIREMENTS_PHASE2.md 與 docs/REQUIREMENTS_PHASE3.md 完成第二章、第三章；本文件仍定義共用架構。最新附件優先，遊戲事實以 Wiki 查核結果為準。
+
 # GW1 攻略網站專案需求
 
 請建立一個可正式部署、可長期維護的 Guild Wars 1 攻略網站。

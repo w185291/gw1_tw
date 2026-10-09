@@ -1,0 +1,399 @@
+{
+  "id": "gate-of-madness",
+  "order": 19,
+  "displayOrder": "16",
+  "storyStage": 16,
+  "campaign": "nightfall",
+  "region": "torment",
+  "name": {
+    "zhTW": "瘋狂之門",
+    "en": "Gate of Madness"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Gate of Madness"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "關五裂隙，集結五神化身，擊敗Shiro與不死巫妖。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "long",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Runic Oracle 對話選擇開始任務。",
+    "location": "瘋狂之門 / Gate of Madness",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Runic Oracle",
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "佔0–2座神龕",
+      "expert": "佔3–4座",
+      "master": "五神龕都曾佔領"
+    },
+    "hard": {
+      "standard": "佔0–2座神龕",
+      "expert": "佔3–4座",
+      "master": "五神龕都曾佔領"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "關五裂隙，集結五神化身，擊敗Shiro與不死巫妖。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "五神龕都曾佔領",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "五神龕都曾佔領"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "穿峽谷分群",
+      "content": "可走泰坦橋較短或繞Margonite。Shiro’ken門前若求穩就退坡下逐群拉，不要與門後群疊戰。"
+    },
+    {
+      "title": "關五混沌裂隙",
+      "content": "每隙三Portal Wraith全殺才關。迴圈生怪可留一小怪避免整群補生，優先殺Wraith關源頭；關閉區當安全拉怪點。"
+    },
+    {
+      "title": "先佔五神龕",
+      "content": "神殿開啟後，殺龕守軍、站近佔點，五個都第一次佔到才大師，之後丟失也保留計數。殺雙Boss會直接結束，需先完成佔點。"
+    },
+    {
+      "title": "分開雙Boss",
+      "content": "隊伍置神殿門外，優先把追得遠的Shiro拉開，保護後排。低於約25%會Impossible Odds，準備姿態移除Battle Scars與爆發；巫妖用非加持保護與群療應對。"
+    }
+  ],
+  "routeSummary": "懲罰之門 → 瘋狂之門 → 亞霸頓之門",
+  "mapImage": "/maps/nightfall-Gate_of_Madness_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Gate_of_Madness_map.jpg",
+      "title": "瘋狂之門 · 主線路線",
+      "alt": "瘋狂之門的Guild Wars Wiki原圖：主線路線",
+      "width": 414,
+      "height": 519,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gate_of_Madness_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/2/22/Gate_of_Madness_map.jpg",
+      "uploader": "Kazerniel",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/nightfall-Gate_of_Madness_stucked_Shiro.jpg",
+      "title": "瘋狂之門 · 原版補充圖",
+      "alt": "瘋狂之門的Guild Wars Wiki原圖：原版補充圖",
+      "width": 1024,
+      "height": 768,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Gate_of_Madness_stucked_Shiro.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/a/ae/Gate_of_Madness_stucked_Shiro.jpg",
+      "uploader": "Yoshida Keiji",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": false,
+      "role": "tactical_screenshot"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Champion Puran",
+        "en": "Champion Puran"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Magehunter's Smash"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
+      "revision": 2734870
+    },
+    {
+      "name": {
+        "zhTW": "Curator Kali",
+        "en": "Curator Kali"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Invoke Lightning"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
+      "revision": 2734870
+    },
+    {
+      "name": {
+        "zhTW": "Shiro Tagachi",
+        "en": "Shiro Tagachi"
+      },
+      "profession": "暗殺者",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
+      "revision": 2734870
+    },
+    {
+      "name": {
+        "zhTW": "Undead Lich",
+        "en": "Undead Lich"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
+      "revision": 2734870
+    }
+  ],
+  "recommendedTeam": [
+    "姿態移除、攻擊反擊、靈／小兵阻擋、範圍治療與復活；Lightbringer對Portal Wraith無效。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "全隊治療降低15%。不要把Boss拉離神殿太遠，Wiki記錄會全隊死。英雄遠距離插旗佔點的捷徑可能破壞對話觸發，必須歸隊後全隊一起進神殿。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "五神龕都曾佔領",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "五神龕都曾佔領",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Gate_of_Madness",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Gate of Madness",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Madness",
+      "revision": 2734870,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Gate of Madness (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Madness_%28outpost%29",
+      "revision": 2683657,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "gate-of-pain",
+  "nextMission": "abaddons-gate",
+  "previousOptions": [
+    "gate-of-pain"
+  ],
+  "nextOptions": [
+    "abaddons-gate"
+  ],
+  "prerequisites": [
+    "gate-of-pain"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "Kormir's Crusade",
+        "en": "Kormir's Crusade"
+      },
+      "giver": "Rahmor",
+      "location": "Gate of Fear",
+      "directions": "Domain of Fear會Kormir，同行到Gate of Secrets，找Keeper Halyssi。",
+      "url": "https://wiki.guildwars.com/wiki/Kormir%27s_Crusade",
+      "revision": 2655494,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "All Alone in the Darkness",
+        "en": "All Alone in the Darkness"
+      },
+      "giver": "Keeper Halyssi",
+      "location": "Gate of Secrets",
+      "directions": "Domain of Secrets會Kormir，尋失蹤斥候，救Ahtok清Margonite，回Runic Oracle開瘋狂之門。",
+      "url": "https://wiki.guildwars.com/wiki/All_Alone_in_the_Darkness",
+      "revision": 2680390,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "strategyVariants": [
+    {
+      "title": "穩定正常佔點",
+      "steps": [
+        "逐一清五龕守軍並佔點。",
+        "分開拉Shiro與巫妖，後排遠離；五龕完成前不要殺雙Boss。"
+      ]
+    },
+    {
+      "title": "英雄插旗捷徑（Wiki記錄AI漏洞）",
+      "steps": [
+        "在玩家未進神殿／神龕指南針範圍前，遠距離旗英雄逐龕佔領。",
+        "佔完召回所有英雄，全隊一起進門觸發對話；過早引Boss可能導致無法結束。",
+        "此法依賴AI行為，若失效改正常佔點，不保證固定有效。"
+      ]
+    }
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "全隊治療降低15%。不要把Boss拉離神殿太遠，Wiki記錄會全隊死。英雄遠距離插旗佔點的捷徑可能破壞對話觸發，必須歸隊後全隊一起進神殿。",
+      "counter": "姿態移除、攻擊反擊、靈／小兵阻擋、範圍治療與復活；Lightbringer對Portal Wraith無效。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "佔0–2座神龕",
+      "expert": "佔3–4座",
+      "master": "五神龕都曾佔領"
+    },
+    "hard": {
+      "standard": "佔0–2座神龕",
+      "expert": "佔3–4座",
+      "master": "五神龕都曾佔領"
+    }
+  }
+}

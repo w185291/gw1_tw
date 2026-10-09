@@ -1,0 +1,484 @@
+{
+  "id": "kodonur-crossroads",
+  "order": 6,
+  "displayOrder": "6",
+  "storyStage": 6,
+  "campaign": "nightfall",
+  "region": "kourna",
+  "name": {
+    "zhTW": "科登諾路口",
+    "en": "Kodonur Crossroads"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Kodonur Crossroads"
+  ],
+  "tags": [
+    "nightfall",
+    "大師獎勵"
+  ],
+  "summary": "取六把牢房鑰匙、解救六名人馬，攻堡救 Mirza。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "medium",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "npc",
+    "description": "在此據點與 Estate Guard Rikesh 對話選擇開始任務。",
+    "location": "科登諾路口 / Kodonur Crossroads",
+    "requirements": [
+      "完成並領取頁面列出的前置 Quest；替代路線與角色出生章節例外，詳見入口說明。"
+    ]
+  },
+  "missionStarter": "Estate Guard Rikesh",
+  "requiredHeroes": [
+    {
+      "id": "zhed-shadowhoof",
+      "name": {
+        "zhTW": "影爪傑德 / Zhed Shadowhoof",
+        "en": "Zhed Shadowhoof"
+      },
+      "required": true
+    }
+  ],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "objectives",
+    "normal": {
+      "standard": "殺0–1位cruel Taskmaster",
+      "expert": "殺兩位",
+      "master": "殺三位"
+    },
+    "hard": {
+      "standard": "殺0–1位cruel Taskmaster",
+      "expert": "殺兩位",
+      "master": "殺三位"
+    },
+    "notes": [
+      "完成主線後按上述條件結算；普通、困難的目標數量相同，獎勵數值不同。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "取六把牢房鑰匙、解救六名人馬，攻堡救 Mirza。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "殺三位",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "殺三位"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "巡迴取得鑰匙",
+      "content": "殺六個Taskmasters取得隊伍共用鑰匙；任一成員可開任一牢房，每次耗一把。中央與近堡牢房開啟會觸發衝鋒巡邏，先做好準備。"
+    },
+    {
+      "title": "額外三頭目",
+      "content": "攻堡前清東側牢房再往東的Sadi-Belai、東方小島Vanahk、堡南Suli。Sadi-Belai會Zealous Benediction，先拉巡邏再集火。"
+    },
+    {
+      "title": "開堡門前佈置",
+      "content": "放完六人馬才觸發堡內部隊。先清兩側階梯，英雄插旗外面；玩家開門後立即退回階梯，用英雄拉敵人出來。"
+    },
+    {
+      "title": "完成堡壘戰",
+      "content": "分批清內部施法者，最後殺Overseer Boktek和Haubeh。別把所有友軍與自己堵進角落。"
+    }
+  ],
+  "routeSummary": "凡特墓地 → 科登諾路口 → 波甘驛站 → 裡歐恩難民營",
+  "mapImage": "/maps/nightfall-Kodonur_Crossroads_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/nightfall-Alternate_Estate_route.jpg",
+      "title": "科登諾路口 · 原版補充圖",
+      "alt": "科登諾路口的Guild Wars Wiki原圖：原版補充圖",
+      "width": 330,
+      "height": 395,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Alternate_Estate_route.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/9f/Alternate_Estate_route.jpg",
+      "uploader": "Ceyarrecks",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "alternative_route"
+    },
+    {
+      "src": "/maps/nightfall-Kodonur_Crossroads_map.jpg",
+      "title": "科登諾路口 · 主線路線",
+      "alt": "科登諾路口的Guild Wars Wiki原圖：主線路線",
+      "width": 545,
+      "height": 682,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Kodonur_Crossroads_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/c/cb/Kodonur_Crossroads_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "zhTW": "Taskmaster Sadi-Belai",
+        "en": "Taskmaster Sadi-Belai"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Zealous Benediction"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
+      "revision": 2738156
+    },
+    {
+      "name": {
+        "zhTW": "Overseer Haubeh",
+        "en": "Overseer Haubeh"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Blood is Power"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
+      "revision": 2738156
+    },
+    {
+      "name": {
+        "zhTW": "Taskmaster Vanahk",
+        "en": "Taskmaster Vanahk"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Blood is Power"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
+      "revision": 2738156
+    },
+    {
+      "name": {
+        "zhTW": "Overseer Boktek",
+        "en": "Overseer Boktek"
+      },
+      "profession": "聖言者",
+      "importantSkills": [
+        "Cautery Signet"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
+      "revision": 2738156
+    },
+    {
+      "name": {
+        "zhTW": "Taskmaster Suli",
+        "en": "Taskmaster Suli"
+      },
+      "profession": "神喚使",
+      "importantSkills": [
+        "Pious Renewal"
+      ],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
+      "revision": 2738156
+    }
+  ],
+  "recommendedTeam": [
+    "Zhed 必須在隊；Panic等範圍施法壓制、解加持與保護，謹慎逐群拉。"
+  ],
+  "tips": [
+    "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
+  ],
+  "warnings": [
+    "六牢全開會增加堡壘部隊，提前清外圍。人馬跟隊長、不跟旗，可能把玩家堵死在角落。大師三位額外Taskmaster要先清。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "殺三位",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "殺三位",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Kodonur Crossroads",
+      "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads",
+      "revision": 2738156,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Nightfall missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Nightfall_missions_and_primary_quests",
+      "revision": 2704989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Kodonur Crossroads (outpost)",
+      "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads_%28outpost%29",
+      "revision": 2697434,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "venta-cemetery",
+  "nextMission": null,
+  "previousOptions": [
+    "venta-cemetery"
+  ],
+  "nextOptions": [
+    "pogahn-passage",
+    "rilohn-refuge"
+  ],
+  "prerequisites": [
+    "venta-cemetery"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "zhTW": "The Council is Called",
+        "en": "The Council is Called"
+      },
+      "giver": "Dockmaster Ahlaro",
+      "location": "Kamadan, Jewel of Istan",
+      "directions": "依序向Suhl、Nahlo、Dahut報告領事館戰況，再回Suhl。",
+      "url": "https://wiki.guildwars.com/wiki/The_Council_is_Called",
+      "revision": 2634210,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "To Vabbi!",
+        "en": "To Vabbi!"
+      },
+      "giver": "Elder Suhl",
+      "location": "Consulate",
+      "directions": "Command Post問Dunkoro，與Nerashi探Jahai、清巡邏，回Lonai。",
+      "url": "https://wiki.guildwars.com/wiki/To_Vabbi%21",
+      "revision": 2727323,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Centaur Blackmail",
+        "en": "Centaur Blackmail"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "在Command Post找人馬，帶路到Jahai Bluffs會Zhed與線人，找Whispers，再向Kodonur的Haroj與Rikesh交任務；取得Zhed。",
+      "url": "https://wiki.guildwars.com/wiki/Centaur_Blackmail",
+      "revision": 2638519,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "zhTW": "Mysterious Message",
+        "en": "Mysterious Message"
+      },
+      "giver": "Lonai",
+      "location": "Sunspear Sanctuary",
+      "directions": "接神秘訊息後在Margrid與Master of Whispers路線中選一，首次招募與後續兩組Mission會受選擇影響。",
+      "url": "https://wiki.guildwars.com/wiki/Mysterious_Message_%28Nightfall_quest%29",
+      "revision": 2722997,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "For a Price",
+        "en": "For a Price"
+      },
+      "giver": "Margrid the Sly",
+      "location": "Jahai Bluffs",
+      "directions": "Marga Coast找Margrid，從Unlucky Simon及Shifty Lem取Gandara地圖，回Margrid。",
+      "url": "https://wiki.guildwars.com/wiki/For_a_Price",
+      "revision": 2640618,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "No Me, No Kormir",
+        "en": "No Me, No Kormir"
+      },
+      "giver": "Margrid the Sly",
+      "location": "Marga Coast",
+      "directions": "把地圖給Pogahn的Jack of Truths，攔守軍取盔甲偽裝再回Jack；招Margrid。",
+      "url": "https://wiki.guildwars.com/wiki/No_Me%2C_No_Kormir",
+      "revision": 2728546,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "Secrets in the Shadow",
+        "en": "Secrets in the Shadow"
+      },
+      "giver": "Master of Whispers",
+      "location": "Jahai Bluffs",
+      "directions": "找Dehjah，清三組地底惡魔，回Whispers。",
+      "url": "https://wiki.guildwars.com/wiki/Secrets_in_the_Shadow",
+      "revision": 2602322,
+      "translationStatus": "needs-review"
+    },
+    {
+      "name": {
+        "zhTW": "To Kill a Demon",
+        "en": "To Kill a Demon"
+      },
+      "giver": "Master of Whispers",
+      "location": "Dejarin Estate",
+      "directions": "Floodplain of Mahnkelon會Whispers，清水廠外五群Droughtlings，回Dehjah；招Whispers。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kill_a_Demon",
+      "revision": 2728551,
+      "translationStatus": "needs-review"
+    }
+  ],
+  "afterCompletion": [
+    "後續Quest順序見下一站；每個Quest列出接任務NPC及地點。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "關鍵敵人與機制",
+      "mechanism": "六牢全開會增加堡壘部隊，提前清外圍。人馬跟隊長、不跟旗，可能把玩家堵死在角落。大師三位額外Taskmaster要先清。",
+      "counter": "Zhed 必須在隊；Panic等範圍施法壓制、解加持與保護，謹慎逐群拉。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "殺0–1位cruel Taskmaster",
+      "expert": "殺兩位",
+      "master": "殺三位"
+    },
+    "hard": {
+      "standard": "殺0–1位cruel Taskmaster",
+      "expert": "殺兩位",
+      "master": "殺三位"
+    }
+  }
+}

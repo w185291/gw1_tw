@@ -1,0 +1,303 @@
+{
+  "id": "imperial-sanctum",
+  "order": 13,
+  "displayOrder": "12",
+  "storyStage": 12,
+  "campaign": "factions",
+  "region": "kaineng",
+  "name": {
+    "zhTW": "帝國聖所",
+    "en": "Imperial Sanctum"
+  },
+  "type": "cooperative-mission",
+  "category": "main-story",
+  "status": "complete",
+  "translationStatus": "verified",
+  "verificationStatus": "source-checked",
+  "aliases": [
+    "Imperial Sanctum"
+  ],
+  "tags": [
+    "factions",
+    "大師獎勵"
+  ],
+  "summary": "擊敗 Shiro，完成第二章。",
+  "partySize": 8,
+  "recommendedLevel": null,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "short",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "enter-mission",
+    "description": "在任務據點按「進入任務」開始。",
+    "location": "帝國聖所 / Imperial Sanctum",
+    "requirements": [
+      "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
+    ]
+  },
+  "missionStarter": null,
+  "requiredHeroes": [],
+  "rewardTiers": [
+    "standard",
+    "expert",
+    "master"
+  ],
+  "masterReward": {
+    "kind": "time",
+    "normal": {
+      "standard": "超過5分鐘",
+      "expert": "2.5–5分鐘",
+      "master": "少於2.5分鐘"
+    },
+    "hard": {
+      "standard": "超過6分鐘",
+      "expert": "3–6分鐘",
+      "master": "少於3分鐘"
+    },
+    "notes": [
+      "以完整通關時間判定，並非一路跑到終點。邊界照Wiki表述保留，實際以結算為準。"
+    ]
+  },
+  "objectives": [
+    {
+      "text": "擊敗 Shiro，完成第二章。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "masters",
+    "title": "標準／專家／大師",
+    "summary": "少於2.5分鐘",
+    "trigger": "以本關的獎勵條件判定，詳見獎勵條件區。",
+    "steps": [
+      "少於2.5分鐘"
+    ],
+    "missable": true,
+    "completion": "完成主線後於結算確認等級。"
+  },
+  "walkthrough": [
+    {
+      "title": "入場準備",
+      "content": "向 Kuunavang 領天界技能，配置反近戰、姿態移除與範圍保護。英雄沒有天界技能；單玩家純英雄隊通常不會被正常 Echoing Banishment 放逐，亦失去打 Bound foe 計程車氣重置來源。"
+    },
+    {
+      "title": "處理姿態與放逐",
+      "content": "Wild Blow／Wild Throw 可移除 Battle Scars 與 Riposting Shadows。多人隊若被放逐，先殺 Bound foe 讓隊員回來並拿士氣；英雄要插旗避免追放逐玩家而停戰。"
+    },
+    {
+      "title": "快速打破冥想",
+      "content": "Meditation of the Reaper 吸收下一500傷害，最多30秒；在其中持續造成足額傷害使其提早結束。結束時每持續一秒偷取附近友軍20生命，所以不能停手等滿三十秒。"
+    },
+    {
+      "title": "低血量爆發",
+      "content": "Impossible Odds 可移除咒文並轉移病症，使用後再補反擊咒文，後排遠離。一般兩秒擊倒無效，可用足夠長的擊倒或 Earthbind；擊敗後抵達 Divine Path。"
+    }
+  ],
+  "routeSummary": "萊蘇皇宮 → 帝國聖所",
+  "mapImage": "/maps/factions-Imperial_Sanctum_map.jpg",
+  "mapNotes": [
+    "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
+    "步驟中的方位與編號只適用於對應原圖，額外路線可能有不同編號。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/factions-Imperial_Sanctum_map.jpg",
+      "title": "帝國聖所 · 主線路線",
+      "alt": "帝國聖所的Guild Wars Wiki原圖：主線路線",
+      "width": 479,
+      "height": 468,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Imperial_Sanctum_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/9f/Imperial_Sanctum_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "ArenaNet／NCsoft 遊戲截圖，原檔授權標記見來源頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route"
+    }
+  ],
+  "bosses": [],
+  "recommendedTeam": [
+    "姿態移除、致盲與格擋、無視護甲／反擊傷害、保護靈。Mhenlo 死亡不會使本關失敗。"
+  ],
+  "tips": [
+    "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
+  ],
+  "warnings": [
+    "Shiro 技能不能被禁用；只有有施法時間的 Impossible Odds 能打斷。HM 咒文／病症縮短；冥想若異常持續仍要維持治療。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "少於2.5分鐘",
+      "依上述步驟完成主線，勿忽略跟隨或防守NPC。"
+    ],
+    "hard": [
+      "少於3分鐘",
+      "敵人傷害、耐久與壓力增加，逐群拉怪並提前佈置保護；不能由NM通關速度推算HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 100,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 1500,
+        "gold": 150,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 2000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "hard": [
+      {
+        "label": "標準",
+        "experience": 1000,
+        "gold": 200,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "專家",
+        "experience": 2000,
+        "gold": 300,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      },
+      {
+        "label": "大師",
+        "experience": 3000,
+        "gold": 500,
+        "skillPoints": 1,
+        "notes": [
+          "陣營／稱號點數與重複領取限制請依原文獎勵表。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Imperial_Sanctum",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Imperial Sanctum",
+      "url": "https://wiki.guildwars.com/wiki/Imperial_Sanctum",
+      "revision": 2697824,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "List of Factions missions and primary quests",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Factions_missions_and_primary_quests",
+      "revision": 2702199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Feedback:Localization bugs/Traditional Chinese/Zaishen Mission Quest Name",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Imperial Sanctum/Guide",
+      "url": "https://wiki.guildwars.com/wiki/Imperial_Sanctum/Guide",
+      "revision": 2727564,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Meditation of the Reaper",
+      "url": "https://wiki.guildwars.com/wiki/Meditation_of_the_Reaper",
+      "revision": 2686748,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "未設主觀難度評分、推薦等級與預估分鐘；保留null。",
+    "NPC、英雄及多數技能的正式繁體中文譯名待核；保留英文對照。",
+    "Zaishen／Reforged獎勵數值待專頁查核。"
+  ],
+  "previousMission": "raisu-palace",
+  "nextMission": null,
+  "previousOptions": [
+    "raisu-palace"
+  ],
+  "nextOptions": [],
+  "prerequisites": [
+    "raisu-palace"
+  ],
+  "branch": null,
+  "routeChoice": null,
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "到Divine Path找Suun領一次性Amulet of the Mists，沒有獎勵驚嘆號；忘領可再通關回來。",
+    "破關後內容獨立於本章Mission主線列表。"
+  ],
+  "bossMechanics": [
+    {
+      "name": "Meditation of the Reaper",
+      "mechanism": "最多30秒吸收500傷害；結束時每持續一秒偷取附近友軍20生命。",
+      "counter": "集中傷害快速填滿500，持續群療；不要停止攻擊等待。"
+    },
+    {
+      "name": "Battle Scars／Riposting Shadows",
+      "mechanism": "姿態提供額外攻擊壓力與反擊。",
+      "counter": "用Wild Blow／Wild Throw結束姿態，格擋保護近戰。"
+    },
+    {
+      "name": "Impossible Odds",
+      "mechanism": "清咒、轉移病症與範圍攻擊。",
+      "counter": "施用後再補反擊咒，後排散開，帶打斷；不是所有Shiro技能都可打斷。"
+    }
+  ],
+  "missionReward": {
+    "system": "standard-expert-master",
+    "normal": {
+      "standard": "超過5分鐘",
+      "expert": "2.5–5分鐘",
+      "master": "少於2.5分鐘"
+    },
+    "hard": {
+      "standard": "超過6分鐘",
+      "expert": "3–6分鐘",
+      "master": "少於3分鐘"
+    }
+  }
+}

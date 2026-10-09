@@ -254,11 +254,16 @@
               "en"
             ],
             "additionalProperties": false
+          },
+          "required": {
+            "default": true,
+            "type": "boolean"
           }
         },
         "required": [
           "id",
-          "name"
+          "name",
+          "required"
         ],
         "additionalProperties": false
       }
@@ -272,6 +277,450 @@
           "expert",
           "master"
         ]
+      }
+    },
+    "displayOrder": {
+      "type": "string"
+    },
+    "storyStage": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "translationStatus": {
+      "default": "verified",
+      "type": "string",
+      "enum": [
+        "verified",
+        "needs-review"
+      ]
+    },
+    "verificationStatus": {
+      "default": "pending",
+      "type": "string",
+      "enum": [
+        "source-checked",
+        "pending"
+      ]
+    },
+    "branch": {
+      "default": null,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "routeChoice": {
+      "default": null,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nextOptions": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "previousOptions": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "entryVariants": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "primaryQuestBefore": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "properties": {
+              "zhTW": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "zhTW",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "giver": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "directions": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "translationStatus": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "needs-review"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "giver",
+          "location",
+          "directions",
+          "url",
+          "revision",
+          "translationStatus"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "primaryQuestAfter": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "properties": {
+              "zhTW": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "zhTW",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "giver": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "directions": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "translationStatus": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "needs-review"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "giver",
+          "location",
+          "directions",
+          "url",
+          "revision",
+          "translationStatus"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "missionStarter": {
+      "default": null,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "masterReward": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "time",
+            "survival",
+            "objectives",
+            "special"
+          ]
+        },
+        "normal": {
+          "type": "object",
+          "properties": {
+            "standard": {
+              "type": "string"
+            },
+            "expert": {
+              "type": "string"
+            },
+            "master": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "standard",
+            "expert",
+            "master"
+          ],
+          "additionalProperties": false
+        },
+        "hard": {
+          "type": "object",
+          "properties": {
+            "standard": {
+              "type": "string"
+            },
+            "expert": {
+              "type": "string"
+            },
+            "master": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "standard",
+            "expert",
+            "master"
+          ],
+          "additionalProperties": false
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "normal",
+        "hard",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "missionReward": {
+      "type": "object",
+      "properties": {
+        "system": {
+          "type": "string",
+          "const": "standard-expert-master"
+        },
+        "normal": {
+          "type": "object",
+          "properties": {
+            "standard": {
+              "type": "string"
+            },
+            "expert": {
+              "type": "string"
+            },
+            "master": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "standard",
+            "expert",
+            "master"
+          ],
+          "additionalProperties": false
+        },
+        "hard": {
+          "type": "object",
+          "properties": {
+            "standard": {
+              "type": "string"
+            },
+            "expert": {
+              "type": "string"
+            },
+            "master": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "standard",
+            "expert",
+            "master"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "system",
+        "normal",
+        "hard"
+      ],
+      "additionalProperties": false
+    },
+    "bossMechanics": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "mechanism": {
+            "type": "string"
+          },
+          "counter": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "mechanism",
+          "counter"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "checklist": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "title",
+          "items"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "defenseTimeline": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stage": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stage",
+          "action"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "strategyVariants": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "title",
+          "steps"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "specialActivities": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "instructions": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "instructions"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "afterCompletion": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     },
     "objectives": {
@@ -991,6 +1440,22 @@
     "entryMethod",
     "requiredHeroes",
     "rewardTiers",
+    "translationStatus",
+    "verificationStatus",
+    "branch",
+    "routeChoice",
+    "nextOptions",
+    "previousOptions",
+    "entryVariants",
+    "primaryQuestBefore",
+    "primaryQuestAfter",
+    "missionStarter",
+    "bossMechanics",
+    "checklist",
+    "defenseTimeline",
+    "strategyVariants",
+    "specialActivities",
+    "afterCompletion",
     "objectives",
     "bonus",
     "walkthrough",

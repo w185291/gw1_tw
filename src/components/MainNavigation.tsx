@@ -41,7 +41,7 @@ export function MainNavigation({campaigns}:{campaigns:Campaign[]}){
  }}>
   <details name={group}><summary>遊戲介紹</summary><div className={styles.dropdown}><Link href="/">首頁</Link><Link href="/what-is-guild-wars/">認識 GW1</Link><Link href="/getting-started/">新手入門</Link><Link href="/glossary/">遊戲中英名稱對照</Link></div></details>
   <details name={group}><summary>主線攻略</summary><div className={styles.dropdown}><Link href="/campaigns/">全部章節</Link>{campaigns.map(c=><Link key={c.id} href={`/campaigns/${c.id}/`} aria-current={pathname.startsWith(`/campaigns/${c.id}`)?'page':undefined}>{c.name.zhTW}</Link>)}</div></details>
-  <details name={group}><summary>職業資料</summary><div className={styles.dropdown}><Link href="/professions/">職業介紹</Link><Link href="/skills/">技能資料庫</Link><Link href="/builds/">Build 搭配</Link></div></details>
+  <details name={group}><summary>職業資料</summary><div className={styles.dropdown}><Link href="/professions/">職業介紹</Link><Link href="/skills/">技能資料庫</Link><Link href="/skill-trainers/">技能導師</Link><Link href="/builds/">Build 搭配</Link></div></details>
   <details name={group}><summary>其他攻略</summary><div className={styles.dropdown}>{otherGuides.map(([id,label])=><Link key={id} href={`/${id}/`} aria-current={pathname.startsWith(`/${id}/`)?'page':undefined}>{label}</Link>)}</div></details>
   <details name={group}><summary>玩法與目標</summary><div className={styles.dropdown}>{activities.map(([id,label])=><Link key={id} href={`/${id}/`} aria-current={pathname.startsWith(`/${id}/`)?'page':undefined}>{label}</Link>)}</div></details>
   <Link href="/hall-of-monuments/" aria-current={pathname.startsWith('/hall-of-monuments/')?'page':undefined}>史蹟殿堂</Link>

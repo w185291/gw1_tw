@@ -6,7 +6,7 @@ import {sections} from '@/data/sections';
 export const dynamic='force-static';
 
 export default function sitemap():MetadataRoute.Sitemap{
- const paths=['/','/what-is-guild-wars/','/getting-started/','/campaigns/','/professions/','/skills/','/heroes/','/search/','/hall-of-monuments/','/glossary/','/data-sources/game-client/'];
+ const paths=['/','/what-is-guild-wars/','/getting-started/','/campaigns/','/professions/','/skills/','/skill-trainers/','/heroes/','/search/','/hall-of-monuments/','/glossary/','/data-sources/game-client/'];
  paths.push(...sections.map(section=>`/${section.id}/`));
  for(const campaign of getCampaigns())paths.push(`/campaigns/${campaign.id}/`,`/campaigns/${campaign.id}/missions/`);
  for(const profession of professions)paths.push(`/professions/${profession.id}/`,`/skills/professions/${profession.id}/`);

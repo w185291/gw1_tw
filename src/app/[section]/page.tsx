@@ -4,6 +4,7 @@ import {sections} from '@/data/sections';
 import {pageMetadata} from '@/lib/metadata';
 import styles from '@/components/Site.module.css';
 import pageStyles from './SectionPage.module.css';
+import {BuildGuide} from '@/components/BuildGuide';
 export const dynamicParams=false;
 export function generateStaticParams(){return sections.map(s=>({section:s.id}));}
 export async function generateMetadata({params}:{params:Promise<{section:string}>}){const {section}=await params;const s=sections.find(s=>s.id===section);if(!s)notFound();return pageMetadata(s.title,s.description,`/${s.id}/`);}
@@ -11,6 +12,7 @@ export default async function SectionPage({params}:{params:Promise<{section:stri
  const {section}=await params;
  const s=sections.find(s=>s.id===section);
  if(!s)notFound();
+ if(section==='builds')return <BuildGuide/>;
  return <div className={styles.pageContainer}>
   <header className={`${styles.pageTitle} ${pageStyles.heading}`}><p className={styles.eyebrow}>遊戲內容指南</p><h1>{s.title}</h1><p>{s.description}</p></header>
   <section className={pageStyles.intro} aria-label="玩法與開始方式"><div><h2>這是什麼？</h2><p>{s.intro}</p></div><div><h2>從哪裡開始？</h2><p>{s.start}</p></div></section>

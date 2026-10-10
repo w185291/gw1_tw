@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "plague-sending",
+  "name": {
+    "en": "Plague Sending",
+    "zhTW": "散播疫病",
+    "translationVerified": true
+  },
+  "clientSkillId": 149,
+  "icon": "/skills/plague-sending.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 1.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Transfer 1...3...3 negative condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes.",
+      "zhTW": "犧牲自己最大體力的 10% 。轉移 1～3 個負面「病症」及該「病症」的剩餘持續時間至目標敵人及所有鄰近該目標的敵人身上。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-greywind",
+          "en": "Captain Greywind",
+          "zhTW": "Captain Greywind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Greywind (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Sending",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Greywind",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Sending",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Sending",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "apep-unending-night",
+          "en": "Apep, Unending Night",
+          "zhTW": "Apep, Unending Night",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center-explorable-area",
+              "en": "Kaineng Center (explorable area)",
+              "zhTW": "Kaineng Center (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "raid-on-kaineng-center",
+              "en": "Raid on Kaineng Center",
+              "zhTW": "Raid on Kaineng Center",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raid_on_Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Apep, Unending Night (Kaineng Center (explorable area), during Raid on Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Sending",
+        "url": "https://wiki.guildwars.com/wiki/Apep,_Unending_Night",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 10% 。轉移 1～3 個負面「病症」及該「病症」的剩餘持續時間至目標敵人及所有鄰近該目標的敵人身上。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Plague_Sending",
+      "revision": 2695851,
+      "title": "Plague Sending",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25118"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25119,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 %str1%%% 。轉移 %str2% 個負面「病症」及該「病症」的剩餘持續時間至目標敵人及所有鄰近該目標的敵人身上。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

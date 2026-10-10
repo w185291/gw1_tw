@@ -1,0 +1,211 @@
+{
+  "pvpOnly": false,
+  "id": "auspicious-blow",
+  "name": {
+    "en": "Auspicious Blow",
+    "zhTW": "幸運打擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 905,
+  "icon": "/skills/auspicious-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If Auspicious Blow hits, you strike for +5...17...20 damage and gain 3...7...8 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
+      "zhTW": "命中時造成 5～20 額外傷害，且你獲得 3～8 能量，若是目標遭受虛弱，則此技能無法被格檔。"
+    },
+    "pvp": {
+      "en": "Hammer Attack. If Auspicious Blow hits, you strike for +5...17...20 damage and gain 2...4...4 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
+      "zhTW": "命中時造成 5～20 額外傷害，且你獲得 2～4 能量，若是目標遭受虛弱，則此技能無法被格檔。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Auspicious Blow (PvP)",
+      "description": {
+        "en": "Hammer Attack. If Auspicious Blow hits, you strike for +5...17...20 damage and gain 2...4...4 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
+        "zhTW": "命中時造成 5～20 額外傷害，且你獲得 2～4 能量，若是目標遭受虛弱，則此技能無法被格檔。"
+      },
+      "stats": {
+        "Adrenaline": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Auspicious_Blow_%28PvP%29",
+        "revision": 2738526,
+        "title": "Auspicious Blow (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3455
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-berserker",
+          "en": "Cairn the Berserker",
+          "zhTW": "Cairn the Berserker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Berserker (Divinity Coast (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Berserker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "indestructible-golem",
+          "en": "Indestructible Golem",
+          "zhTW": "Indestructible Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-elusive-golemancer",
+              "en": "The Elusive Golemancer",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elusive_Golemancer"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Indestructible Golem (The Elusive Golemancer)",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Indestructible_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 5～20 額外傷害，且你獲得 3～8 能量，若是目標遭受虛弱，則此技能無法被格檔。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+      "revision": 2738431,
+      "title": "Auspicious Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Auspicious_Blow_%28PvP%29",
+      "revision": 2738526,
+      "title": "Auspicious Blow (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26964",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26965,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，且你獲得 %str2% 能量，若是目標遭受虛弱，則此技能無法被格檔。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

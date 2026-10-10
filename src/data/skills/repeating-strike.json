@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "repeating-strike",
+  "name": {
+    "en": "Repeating Strike",
+    "zhTW": "連環狙殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 976,
+  "icon": "/skills/repeating-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "off-hand-attack",
+    "en": "Off-hand attack",
+    "zhTW": "即刻攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Off-Hand Attack. Must follow an off-hand attack. If it hits, this attack strikes for +10...26...30 damage. If it misses, it takes an additional 15 seconds to recharge.",
+      "zhTW": "必須接續在「即刻攻擊」之後。命中時對目標造成 10～30 額外傷害。若攻擊失誤，此技能的回復時間增加 15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Repeating_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "必須接續在「即刻攻擊」之後。命中時對目標造成 10～30 額外傷害。若攻擊失誤，此技能的回復時間增加 15 秒。",
+  "commonUses": [
+    "匕首精通 · 即刻攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Repeating_Strike",
+      "revision": 2733175,
+      "title": "Repeating Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26418"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26419,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「即刻攻擊」之後。命中時對目標造成 %str1% 額外傷害。若攻擊失誤，此技能的回復時間增加 15 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

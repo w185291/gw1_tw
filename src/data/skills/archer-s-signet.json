@@ -1,0 +1,131 @@
+{
+  "pvpOnly": false,
+  "id": "archer-s-signet",
+  "name": {
+    "en": "Archer's Signet",
+    "zhTW": "射手紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1200,
+  "icon": "/skills/archer-s-signet.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. For 1...19...24 second[s], conditions you apply while wielding a bow last 150% longer.",
+      "zhTW": "持續1～24秒，裝備弓時，你造成的病症，持續時間增加100%。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nundak-the-archer",
+          "en": "Nundak The Archer",
+          "zhTW": "Nundak The Archer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "melandru-s-hope",
+              "en": "Melandru's Hope",
+              "zhTW": "梅蘭朵的盼望",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Nundak The Archer (Melandru's Hope)",
+        "source": "https://wiki.guildwars.com/wiki/Archer%27s_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Nundak_The_Archer",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續1～24秒，裝備弓時，你造成的病症，持續時間增加100%。",
+  "commonUses": [
+    "Expertise · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Archer%27s_Signet",
+      "revision": 2726468,
+      "title": "Archer's Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27209"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27210,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，裝備弓時，你造成的病症，持續時間增加100%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

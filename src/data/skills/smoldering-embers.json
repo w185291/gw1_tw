@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "smoldering-embers",
+  "name": {
+    "en": "Smoldering Embers",
+    "zhTW": "陰燒餘燼",
+    "translationVerified": true
+  },
+  "clientSkillId": 1090,
+  "icon": "/skills/smoldering-embers.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. Target foe is struck for 10...58...70 fire damage. If you are Overcast, that foe is hexed with Smoldering Embers for 3 seconds and takes 5...21...25 additional fire damage each second.",
+      "zhTW": "使目標敵人受到 10～70 火焰傷害。 在 3 秒之後，若該目標沒有移動，則其遭受「著火」病症 3 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Smoldering_Embers",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "使目標敵人受到 10～70 火焰傷害。 在 3 秒之後，若該目標沒有移動，則其遭受「著火」病症 3 秒。",
+  "commonUses": [
+    "火系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Smoldering_Embers",
+      "revision": 2686608,
+      "title": "Smoldering Embers",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26702",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26703,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 火焰傷害。 在 3 秒之後，若該目標沒有移動，則其遭受「著火」病症 3 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

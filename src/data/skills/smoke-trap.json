@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "smoke-trap",
+  "name": {
+    "en": "Smoke Trap",
+    "zhTW": "煙霧陷阱",
+    "translationVerified": true
+  },
+  "clientSkillId": 1729,
+  "icon": "/skills/smoke-trap.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "trap",
+    "en": "trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Trap. When Smoke Trap is triggered, nearby foes are Blinded and Dazed for 5...9...10 seconds. Smoke Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+      "zhTW": "觸發後，區域內敵人目盲、暈眩 5～10 秒。陷阱 90 秒後消失；施放時容易被打斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "veldrunner-centaur-boss",
+          "en": "Veldrunner Centaur (boss)",
+          "zhTW": "Veldrunner Centaur (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodonur-crossroads",
+              "en": "Kodonur Crossroads",
+              "zhTW": "科登諾路口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Veldrunner Centaur (boss) (Kodonur Crossroads)",
+        "source": "https://wiki.guildwars.com/wiki/Smoke_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Veldrunner_Centaur_(boss)",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "uhiwi-the-smoky",
+          "en": "Uhiwi the Smoky",
+          "zhTW": "Uhiwi the Smoky",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-shattered-ravines",
+              "en": "The Shattered Ravines",
+              "zhTW": "碎裂溝谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Shattered_Ravines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Uhiwi the Smoky (The Shattered Ravines)",
+        "source": "https://wiki.guildwars.com/wiki/Smoke_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Uhiwi_the_Smoky",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "觸發後，區域內敵人目盲、暈眩 5～10 秒。陷阱 90 秒後消失；施放時容易被打斷。",
+  "commonUses": [
+    "求生 · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Smoke_Trap",
+      "revision": 2726460,
+      "title": "Smoke Trap",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/44053"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44054,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "When Smoke Trap is triggered, foes in the area are Blinded and Dazed for %str2% second. Smoke Trap ends after 90 seconds. While activating this skill, you are easily interrupted."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

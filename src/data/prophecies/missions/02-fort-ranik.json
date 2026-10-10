@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "擊退夏爾並奪回長城。",
+  "summary": "擊退夏爾、修復投石機，最後擊殺長城前的頭目與護衛。Bonus 是救出被俘的Deeter Saberlin。",
   "partySize": 4,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "瑞尼克要塞據點",
+    "description": "從 Regent Valley 進入 Fort Ranik 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Fort Ranik 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,46 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "救出 Trooper Deeter Saberlin",
+    "summary": "救出 Trooper Deeter Saberlin",
+    "trigger": "向Master Armin Saberlin接到救援提示，再前往地圖 2 救出 Deeter Saberlin。",
+    "steps": [
+      "向Master Armin Saberlin接到救援提示，再前往地圖 2 救出 Deeter Saberlin。",
+      "即使Master Armin Saberlin死亡，完成救援仍能獲得 Bonus；不必因此重開。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "即使Master Armin Saberlin死亡，完成救援仍能獲得 Bonus；不必因此重開。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "推進並救人",
+      "content": "先協助前線守軍，把夏爾逐群引回清除。Master Armin Saberlin（Master Armin Saberlin）早期加入，走到大段殘牆處會停下。清掉附近頭目後可向他接 Bonus。"
+    },
+    {
+      "title": "走俘虜支路",
+      "content": "在地圖標記 2 的小繞路找到 Trooper Deeter Saberlin，清除監守夏爾並救出他。這與主線路線接近，建議此時完成。"
+    },
+    {
+      "title": "找到攻城師",
+      "content": "繼續往長城前進，與 Siegemaster Lormar 交談，得知投石機需要三種零件。"
+    },
+    {
+      "title": "搬回三種零件",
+      "content": "按 Alt 找 Wrecked Catapults，取得 Restraining Bolt、Arming Crank、Release Lever，逐件搬回並與Siegemaster Lormar交談交付。原圖有三處零件位置。"
+    },
+    {
+      "title": "正確操作投石機",
+      "content": "修好後，拉桿第一下是上膛，第二下才會發射。炮擊能清掉前方大量敵人；高等隊伍也可自行打通，修復不是必要通關條件。"
+    },
+    {
+      "title": "第二座投石機與終點",
+      "content": "下一座投石機已可使用，瞄準夏爾出入的大坑。敵軍在接近後會散開，因此想用炮擊打最終頭目要迅速操作；否則把頭目隊伍單獨引出，擊殺頭目與其隊伍即可完成。"
+    }
+  ],
+  "routeSummary": "起點守軍 → Master Armin Saberlin與俘虜支路 → Siegemaster Lormar投石機 → 三處零件 → 第二座投石機 → 最終頭目",
   "mapImage": "/maps/Fort_Ranik_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +106,200 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Spar the Ravager",
+        "zhTW": "Spar the Ravager（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Frenzy",
+        "Healing Signet",
+        "Shield Stance",
+        "Wild Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Spar_the_Ravager",
+      "revision": 2413729,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Spar_the_Ravager"
+        },
+        {
+          "name": "Shield Stance",
+          "counter": "姿態期間使用非攻擊傷害，或先拆姿態再集火。",
+          "source": "https://wiki.guildwars.com/wiki/Spar_the_Ravager"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Klaww FeatherStorm",
+        "zhTW": "Klaww FeatherStorm（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Favorable Winds",
+        "Ignite Arrows",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Klaww_FeatherStorm",
+      "revision": 2413695,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Klaww_FeatherStorm"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rrrack Whitefire",
+        "zhTW": "Rrrack Whitefire（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Banish",
+        "Heal Area",
+        "Infuse Health"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Rrrack_Whitefire",
+      "revision": 2635201,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Roarst One Eye",
+        "zhTW": "Roarst One Eye（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Faintheartedness",
+        "Life Siphon",
+        "Mark of Pain"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Roarst_One_Eye",
+      "revision": 2412912,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Roarst_One_Eye"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Craze the Unforgiving",
+        "zhTW": "Craze the Unforgiving（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Burn",
+        "Illusion of Haste",
+        "Ether Feast",
+        "Mantra of Flame"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Craze_the_Unforgiving",
+      "revision": 2413713,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Torch Spitfur",
+        "zhTW": "Torch Spitfur（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Torch_Spitfur",
+      "revision": 2666810,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "火焰呼喚者的隕石雨要打斷或閃開；靠牆可擋弓手的爆裂箭。終點頭目周圍敵群很密，勿一口氣衝入。"
+  ],
+  "tips": [
+    "零件搬運期間可輪流交付；單人帶英雄也能完成。",
+    "地圖綠點 Gurn Blanston 有額外支線「給妻子的訊息」，不是 Bonus。",
+    "通關後到邊境關所（Frontier Gate），再經探索區前往蘇米亞廢墟。"
+  ],
+  "warnings": [
+    "向Master Armin Saberlin接到救援提示，再前往地圖 2 救出 Deeter Saberlin。",
+    "開場固定敵群後面還有兩支巡邏，先引固定群離開原位，避免被三隊包圍。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "開場固定敵群後面還有兩支巡邏，先引固定群離開原位，避免被三隊包圍。",
+      "火焰呼喚者的隕石雨要打斷或閃開；靠牆可擋弓手的爆裂箭。終點頭目周圍敵群很密，勿一口氣衝入。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +319,103 @@
       "revision": 2742391,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Spar the Ravager",
+      "url": "https://wiki.guildwars.com/wiki/Spar_the_Ravager",
+      "revision": 2413729,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Klaww FeatherStorm",
+      "url": "https://wiki.guildwars.com/wiki/Klaww_FeatherStorm",
+      "revision": 2413695,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Rrrack Whitefire",
+      "url": "https://wiki.guildwars.com/wiki/Rrrack_Whitefire",
+      "revision": 2635201,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Roarst One Eye",
+      "url": "https://wiki.guildwars.com/wiki/Roarst_One_Eye",
+      "revision": 2412912,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Craze the Unforgiving",
+      "url": "https://wiki.guildwars.com/wiki/Craze_the_Unforgiving",
+      "revision": 2413713,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Torch Spitfur",
+      "url": "https://wiki.guildwars.com/wiki/Torch_Spitfur",
+      "revision": 2666810,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "the-great-northern-wall",
   "nextMission": "ruins-of-surmia",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10474",
+    "game-client://2026-10-09/string/10553"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到邊境關所（Frontier Gate），再經探索區前往蘇米亞廢墟。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10474,
+      10553
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "Ruins of Surmia (quest)",
+        "zhTW": "Ruins of Surmia (quest)（繁中名稱待確認）"
+      },
+      "giver": "Warmaster Riga",
+      "location": "Frontier Gate (Ascalon)",
+      "directions": "從 Frontier Gate 找 Warmaster Riga 接取，出 Eastern Frontier 往北沿道路前進，抵達 Ruins of Surmia 後向 Captain Miken 回報。",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia_%28quest%29",
+      "revision": 2719506,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

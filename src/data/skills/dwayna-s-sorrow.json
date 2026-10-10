@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "dwayna-s-sorrow",
+  "name": {
+    "en": "Dwayna's Sorrow",
+    "zhTW": "薇娜的憂傷",
+    "translationVerified": true
+  },
+  "clientSkillId": 838,
+  "icon": "/skills/dwayna-s-sorrow.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 30 seconds, target ally and all nearby allies are enchanted with Dwayna's Sorrow. If an ally dies while under the effects of Dwayna's Sorrow, your party is healed for 5...41...50.",
+      "zhTW": "持續30 秒，使目標盟友及附近的所有盟友受到此「加持」，若任何一名盟友在受到此「加持」時死亡，所有隊伍成員獲得 5～50 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Dwayna%27s_Sorrow",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dwayna%27s_Sorrow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續30 秒，使目標盟友及附近的所有盟友受到此「加持」，若任何一名盟友在受到此「加持」時死亡，所有隊伍成員獲得 5～50 體力。",
+  "commonUses": [
+    "治療祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Sorrow",
+      "revision": 2714927,
+      "title": "Dwayna's Sorrow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26870"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26871,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3% 秒，使目標盟友及附近的所有盟友受到此「加持」，若任何一名盟友在受到此「加持」時死亡，所有隊伍成員獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,267 @@
+{
+  "pvpOnly": false,
+  "id": "belly-smash",
+  "name": {
+    "en": "Belly Smash",
+    "zhTW": "腹部猛擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 350,
+  "icon": "/skills/belly-smash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If this attack strikes a foe who is knocked down, the resulting dust cloud will blind adjacent foes for 3...6...7 seconds.",
+      "zhTW": "若擊中正倒在地上的敵人，揚起的塵雲將會讓你鄰近的敵人遭受「盲目」病症 3～7 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "ephaz",
+          "en": "Ephaz",
+          "zhTW": "Ephaz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ephaz (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Ephaz",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "clobberhusk",
+          "en": "Clobberhusk",
+          "zhTW": "Clobberhusk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lornar-s-pass",
+              "en": "Lornar's Pass",
+              "zhTW": "洛拿斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lornar%27s_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Clobberhusk (Lornar's Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Clobberhusk",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "first-inscribed",
+          "en": "First Inscribed",
+          "zhTW": "First Inscribed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-caves",
+              "en": "Bloodstone Caves",
+              "zhTW": "血石洞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Caves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "First Inscribed (Bloodstone Caves)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/First_Inscribed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "hodat-the-tumbler",
+          "en": "Hodat the Tumbler",
+          "zhTW": "Hodat the Tumbler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          },
+          {
+            "name": {
+              "id": "forgotten-relics",
+              "en": "Forgotten Relics",
+              "zhTW": "Forgotten Relics",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forgotten_Relics"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hodat the Tumbler (Dalada Uplands, after Forgotten Relics)",
+        "source": "https://wiki.guildwars.com/wiki/Belly_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Hodat_the_Tumbler",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "若擊中正倒在地上的敵人，揚起的塵雲將會讓你鄰近的敵人遭受「盲目」病症 3～7 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Belly_Smash",
+      "revision": 2731726,
+      "title": "Belly Smash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25914",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25915,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若擊中正倒在地上的敵人，揚起的塵雲將會讓你鄰近的敵人遭受「盲目」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

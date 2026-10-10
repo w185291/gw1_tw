@@ -1,0 +1,495 @@
+{
+  "pvpOnly": false,
+  "id": "ward-against-melee",
+  "name": {
+    "en": "Ward Against Melee",
+    "zhTW": "迴避結界",
+    "translationVerified": true
+  },
+  "clientSkillId": 176,
+  "icon": "/skills/ward-against-melee.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. You create a Ward Against Melee at your current location. For 5...17...20 seconds, non-spirit allies in this area have a 50% chance to block melee attacks.",
+      "zhTW": "在你目前的地點創造一個迴避結界。持續 5～20 秒，使結界範圍內所有非「靈」的盟友有 50% 機率「格擋」近身攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-greywind",
+          "en": "Captain Greywind",
+          "zhTW": "Captain Greywind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Greywind (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Greywind",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "advanced-defense-techniques",
+          "en": "Advanced Defense Techniques",
+          "zhTW": "Advanced Defense Techniques",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Advanced Defense Techniques (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Advanced_Defense_Techniques",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "acolyte-sousuke",
+          "en": "Acolyte Sousuke",
+          "zhTW": "侍從 薩蘇克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Sousuke",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Sousuke",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zhed-shadowhoof",
+          "en": "Zhed Shadowhoof",
+          "zhTW": "影爪 杰德",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Zhed Shadowhoof",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Zhed_Shadowhoof",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在你目前的地點創造一個迴避結界。持續 5～20 秒，使結界範圍內所有非「靈」的盟友有 50% 機率「格擋」近身攻擊。",
+  "commonUses": [
+    "土系魔法 · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+      "revision": 2686635,
+      "title": "Ward Against Melee",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25174",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25175,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在你目前的地點創造一個迴避結界。持續 %str3% 秒，使結界範圍內所有非「靈」的盟友有 50%% 機率「格擋」近身攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

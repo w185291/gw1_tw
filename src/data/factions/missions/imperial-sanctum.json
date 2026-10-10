@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -124,7 +124,33 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Shiro Tagachi",
+        "zhTW": "Shiro Tagachi（繁中名稱待確認）"
+      },
+      "profession": "Assassin",
+      "importantSkills": [
+        "Battle Scars",
+        "Echoing Banishment",
+        "Impossible Odds",
+        "Meditation of the Reaper",
+        "Riposting Shadows",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "最多30秒吸收500傷害；結束時每持續一秒偷取附近友軍20生命。 集中傷害快速填滿500，持續群療；不要停止攻擊等待。 姿態提供額外攻擊壓力與反擊。 用Wild Blow／Wild Throw結束姿態，格擋保護近戰。 清咒、轉移病症與範圍攻擊。 施用後再補反擊咒，後排散開，帶打斷；不是所有Shiro技能都可打斷。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239
+    }
+  ],
   "recommendedTeam": [
     "姿態移除、致盲與格擋、無視護甲／反擊傷害、保護靈。Mhenlo 死亡不會使本關失敗。"
   ],
@@ -246,6 +272,13 @@
       "revision": 2686748,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Shiro Tagachi",
+      "url": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -299,5 +332,25 @@
       "expert": "3–6分鐘",
       "master": "少於3分鐘"
     }
-  }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22302",
+    "game-client://2026-10-09/string/22303",
+    "game-client://2026-10-09/string/22338"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22302,
+      22303,
+      22338
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "storyEndingVerified": true
 }

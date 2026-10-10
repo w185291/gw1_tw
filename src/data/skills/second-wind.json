@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "second-wind",
+  "name": {
+    "en": "Second Wind",
+    "zhTW": "援助之風",
+    "translationVerified": true
+  },
+  "clientSkillId": 1088,
+  "icon": "/skills/second-wind.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You gain 1 Energy and 5 Health for each point of Energy restricted by Overcast. You lose all enchantments.",
+      "zhTW": "依照精疲力竭所造成的能量耗損，每損失 1 能量使你獲得能量 1 。此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "snapjaw-windshell",
+          "en": "Snapjaw Windshell",
+          "zhTW": "Snapjaw Windshell",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Snapjaw Windshell (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Second_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Snapjaw_Windshell",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "依照精疲力竭所造成的能量耗損，每損失 1 能量使你獲得能量 1 。此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Second_Wind",
+      "revision": 2691022,
+      "title": "Second Wind",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26696",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26697,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "依照精疲力竭所造成的能量耗損，每損失 1 能量使你獲得能量 1 。此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

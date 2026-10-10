@@ -1,0 +1,178 @@
+{
+  "id": "sundering-weapon",
+  "name": {
+    "en": "Sundering Weapon",
+    "zhTW": "分離武裝"
+  },
+  "clientSkillId": 2148,
+  "icon": "/skills/sundering-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 4...9...10 seconds, target ally's next 3 attacks have 10% armor penetration and cause Cracked Armor for 5...17...20 seconds.",
+      "zhTW": "持續4～10秒，接下來3次目標盟友的攻擊造成敵人碎甲5～20秒且有10%防禦穿透。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續4～10秒，接下來3次目標盟友的攻擊造成敵人碎甲5～20秒且有10%防禦穿透。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
+      "revision": 2684103,
+      "title": "Sundering Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/68491"
+  ],
+  "descriptionEvidence": {
+    "stringId": 68492,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，接下來3次目標盟友的攻擊造成敵人碎甲%str1%秒且有%str2%%%防禦穿透。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

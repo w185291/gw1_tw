@@ -1,0 +1,427 @@
+{
+  "pvpOnly": false,
+  "id": "draw-conditions",
+  "name": {
+    "en": "Draw Conditions",
+    "zhTW": "狀態吸收",
+    "translationVerified": true
+  },
+  "clientSkillId": 311,
+  "icon": "/skills/draw-conditions.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Spell. All negative conditions are transferred from target other ally to yourself. For each condition acquired, you gain 6...22...26 Health.",
+      "zhTW": "將目標其他盟友身上的所有「病症」轉移到你身上。每轉移一項「病症」，你回復 6～26 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "gammel",
+          "en": "Gammel",
+          "zhTW": "Gammel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "copperhammer-mines",
+              "en": "Copperhammer Mines",
+              "zhTW": "銅錘礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Copperhammer_Mines"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gammel (Copperhammer Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Gammel",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "skill-chaining",
+          "en": "Skill Chaining",
+          "zhTW": "Skill Chaining",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Skill Chaining (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Skill_Chaining",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "rif-telourau",
+          "en": "Rif Telourau",
+          "zhTW": "Rif Telourau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pockmark-flats",
+              "en": "Pockmark Flats",
+              "zhTW": "麻點平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pockmark_Flats"
+          },
+          {
+            "name": {
+              "id": "diessa-lowlands",
+              "en": "Diessa Lowlands",
+              "zhTW": "底耶沙低地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diessa_Lowlands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rif Telourau (Pockmark Flats and Diessa Lowlands)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Rif_Telourau",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dracul-cadava",
+          "en": "Dracul Cadava",
+          "zhTW": "Dracul Cadava",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dracul Cadava (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Dracul_Cadava",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "fariq-earthturner",
+          "en": "Fariq Earthturner",
+          "zhTW": "Fariq Earthturner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fariq Earthturner (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Fariq_Earthturner",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "aily-the-innocent",
+          "en": "Aily the Innocent",
+          "zhTW": "Aily the Innocent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "a-little-help-from-above",
+              "en": "A Little Help From Above",
+              "zhTW": "A Little Help From Above",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Little_Help_From_Above"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Aily the Innocent (Divinity Coast (explorable area), during A Little Help From Above)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Aily_the_Innocent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "amiresh-the-pious",
+          "en": "Amiresh the Pious",
+          "zhTW": "Amiresh the Pious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Amiresh the Pious (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Amiresh_the_Pious",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "nifling-the-chained",
+          "en": "Nifling the Chained",
+          "zhTW": "Nifling the Chained",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Nifling the Chained (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Nifling_the_Chained",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "將目標其他盟友身上的所有「病症」轉移到你身上。每轉移一項「病症」，你回復 6～26 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+      "revision": 2695696,
+      "title": "Draw Conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25832"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25833,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "將目標其他盟友身上的所有「病症」轉移到你身上。每轉移一項「病症」，你回復 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

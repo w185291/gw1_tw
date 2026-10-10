@@ -6,12 +6,12 @@
   "campaign": "factions",
   "region": "shing-jea",
   "name": {
-    "zhTW": "禎臺郡",
+    "zhTW": "禎台郡",
     "en": "Zen Daijun"
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -40,7 +40,7 @@
   "entryMethod": {
     "type": "enter-mission",
     "description": "在任務據點按「進入任務」開始。",
-    "location": "禎臺郡 / Zen Daijun",
+    "location": "禎台郡 / Zen Daijun",
     "requirements": [
       "前置Quest與先前Mission決定據點入口是否開啟；非所有角色可由探險區直接走入。"
     ]
@@ -87,19 +87,23 @@
   },
   "walkthrough": [
     {
-      "title": "處理紫色瘴氣",
-      "content": "沿 Togo 路線進谷，Miasma 造成生命衰減並在同類之間傳播。敲地圖藍點的鐘召喚 Zunraa，以 Blessing of the Kirin 淨化；死亡後可以再次敲鐘。把敵人拉離瘴氣再打。"
+      "title": "進谷並淨化瘴氣",
+      "content": "跟 Master Togo 進谷，Miasma 造成生命衰減，會在同種族之間傳播。敲地圖藍點的鐘召喚 Zunraa，靠 Blessing of the Kirin 淨化；Zunraa 死亡可再敲鐘召回。"
     },
     {
-      "title": "選擇兩條通路",
-      "content": "第一座小神龕旁清除包含 Xai 的敵群後，可走北面的瀑布紅線，或南面洞穴黃線；兩條路都通向神殿。分批拉怪，避免同時打兩群。"
+      "title": "清第一神龕",
+      "content": "把敵人拉出紫色瘴氣區才交戰，清第一座小神龕旁 The Afflicted Xai 與護衛；避免為追怪讓治療者停在瘴氣中。"
     },
     {
-      "title": "清理橋與神殿",
-      "content": "雙龍雕像橋前先殺 Farmer Xeng Jo 與 Yijo；優先打斷 Yijo 的 Spirit Rift。再清除神殿中 Kana 與其餘敵人，必要時拉到門外避免範圍技重疊。"
+      "title": "選北路或南路",
+      "content": "可走北面瀑布紅線，也可走南面洞穴黃線，兩條路都通神殿。分批拉巡邏，保持 Togo 與 Yijo 在治療範圍，不同時接兩群怪。"
+    },
+    {
+      "title": "雙龍橋與神殿",
+      "content": "雙龍雕像橋前先殺 Afflicted Farmer Xeng Jo 和 Afflicted Yijo，優先打斷 Yijo 的 Spirit Rift。再清 The Afflicted Kana 與神殿其餘敵人；範圍技太密時拉到門外逐群處理。"
     }
   ],
-  "routeSummary": "周大臣莊園 → 禎臺郡 → 薇茹廣場",
+  "routeSummary": "周大臣莊園 → 禎台郡 → 薇茹廣場",
   "mapImage": "/maps/factions-Zen_Daijun_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -108,8 +112,8 @@
   "maps": [
     {
       "src": "/maps/factions-Zen_Daijun_map.jpg",
-      "title": "禎臺郡 · 主線路線",
-      "alt": "禎臺郡的Guild Wars Wiki原圖：主線路線",
+      "title": "禎台郡 · 主線路線",
+      "alt": "禎台郡的Guild Wars Wiki原圖：主線路線",
       "width": 800,
       "height": 458,
       "filePage": "https://wiki.guildwars.com/wiki/File:Zen_Daijun_map.jpg",
@@ -123,55 +127,119 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Afflicted Farmer Xeng Jo",
+        "zhTW": "Afflicted Farmer Xeng Jo（繁中名稱待確認）",
         "en": "Afflicted Farmer Xeng Jo"
       },
       "profession": "遊俠",
-      "importantSkills": [],
+      "importantSkills": [
+        "Kindle Arrows",
+        "Marauder's Shot",
+        "Throw Dirt",
+        "Troll Unguent",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Afflicted_Farmer_Xeng_Jo"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Zen_Daijun#Bosses",
-      "revision": 2708007
+      "source": "https://wiki.guildwars.com/wiki/Afflicted_Farmer_Xeng_Jo",
+      "revision": 2550677
     },
     {
       "name": {
-        "zhTW": "The Afflicted Xai",
+        "zhTW": "The Afflicted Xai（繁中名稱待確認）",
         "en": "The Afflicted Xai"
       },
       "profession": "遊俠",
-      "importantSkills": [],
+      "importantSkills": [
+        "Kindle Arrows",
+        "Marauder's Shot",
+        "Throw Dirt",
+        "Troll Unguent",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Xai"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Zen_Daijun#Bosses",
-      "revision": 2708007
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Xai",
+      "revision": 2550703
     },
     {
       "name": {
-        "zhTW": "The Afflicted Kana",
+        "zhTW": "The Afflicted Kana（繁中名稱待確認）",
         "en": "The Afflicted Kana"
       },
       "profession": "僧侶",
-      "importantSkills": [],
+      "importantSkills": [
+        "Aegis",
+        "Draw Conditions",
+        "Retribution",
+        "Reversal of Fortune",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Zen_Daijun#Bosses",
-      "revision": 2708007
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Kana",
+      "revision": 2610250
     },
     {
       "name": {
-        "zhTW": "Afflicted Yijo",
+        "zhTW": "Afflicted Yijo（繁中名稱待確認）",
         "en": "Afflicted Yijo"
       },
-      "profession": "祭祀者",
-      "importantSkills": [],
+      "profession": "Ritualist",
+      "importantSkills": [
+        "Pain",
+        "Spirit Burn",
+        "Spirit Rift",
+        "Vengeful Weapon",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Zen_Daijun#Bosses",
-      "revision": 2708007
+      "source": "https://wiki.guildwars.com/wiki/Afflicted_Yijo",
+      "revision": 2680701
     }
   ],
   "recommendedTeam": [
@@ -281,6 +349,34 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Afflicted Farmer Xeng Jo",
+      "url": "https://wiki.guildwars.com/wiki/Afflicted_Farmer_Xeng_Jo",
+      "revision": 2550677,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Xai",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Xai",
+      "revision": 2550703,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Kana",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Kana",
+      "revision": 2610250,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Afflicted Yijo",
+      "url": "https://wiki.guildwars.com/wiki/Afflicted_Yijo",
+      "revision": 2680701,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -321,7 +417,7 @@
       },
       "giver": "Soar Honorclaw",
       "location": "Kinya Province",
-      "directions": "到Panjiang Peninsula的Kaitan Village，擊敗襲村守衛，回報Sister Tai。",
+      "directions": "到Panjiang Peninsula的Kaitan Village，擊敗襲村守衛，回報泰修女。",
       "url": "https://wiki.guildwars.com/wiki/The_Threat_Grows",
       "revision": 2710189,
       "translationStatus": "needs-review"
@@ -331,7 +427,7 @@
         "zhTW": "Journey to the Master",
         "en": "Journey to the Master"
       },
-      "giver": "Sister Tai",
+      "giver": "泰修女",
       "location": "Panjiang Peninsula",
       "directions": "到Linnok Courtyard會合Togo。",
       "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Master",
@@ -357,7 +453,7 @@
       },
       "giver": "Brother Pe Wan",
       "location": "Seitung Harbor",
-      "directions": "在Jaya Bluffs找Zho、Talon、Panaku、Lo Sha，清修道院瘟疫敵人，回報Zho。",
+      "directions": "在Jaya Bluffs找若、Talon、派鳴、羅夏，清修道院瘟疫敵人，回報若。",
       "url": "https://wiki.guildwars.com/wiki/Looking_For_Trouble",
       "revision": 2710199,
       "translationStatus": "needs-review"
@@ -367,9 +463,9 @@
         "zhTW": "To the Rescue",
         "en": "To the Rescue"
       },
-      "giver": "Zho",
+      "giver": "若",
       "location": "Jaya Bluffs",
-      "directions": "在Haiju Lagoon的Linkei Township會合Su、Sister Tai、Kai Ying與Professor Gai，抵擋兩側感染者；Su活著才能領獎並接To Zen Daijun，若死亡須重新進區。",
+      "directions": "在Haiju Lagoon的Linkei Township會合蘇、泰修女、凱英與蓋師範，抵擋兩側感染者；蘇活著才能領獎並接To Zen Daijun，若死亡須重新進區。",
       "url": "https://wiki.guildwars.com/wiki/To_the_Rescue_%28Factions_quest%29",
       "revision": 2712205,
       "translationStatus": "needs-review"
@@ -379,9 +475,9 @@
         "zhTW": "To Zen Daijun",
         "en": "To Zen Daijun"
       },
-      "giver": "Su",
+      "giver": "蘇",
       "location": "Haiju Lagoon",
-      "directions": "護送Su、Gai、Tai、Kai Ying到禎臺郡門口，找Togo與Hanjui。",
+      "directions": "護送蘇、Gai、Tai、凱英到禎台郡門口，找Togo與Hanjui。",
       "url": "https://wiki.guildwars.com/wiki/To_Zen_Daijun",
       "revision": 2710208,
       "translationStatus": "needs-review"
@@ -435,5 +531,24 @@
       "expert": "20–25分鐘",
       "master": "少於20分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22186",
+    "game-client://2026-10-09/string/22187",
+    "game-client://2026-10-09/string/22202"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22186,
+      22187,
+      22202
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

@@ -1,0 +1,131 @@
+{
+  "pvpOnly": false,
+  "id": "punishing-shot",
+  "name": {
+    "en": "Punishing Shot",
+    "zhTW": "懲罰之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 409,
+  "icon": "/skills/punishing-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. If Punishing Shot hits, you strike for +10...18...20 damage and your target is interrupted.",
+      "zhTW": "懲罰之箭命中時，對目標造成 10～20 額外傷害，並且中斷其動作。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "thul-boulderrain",
+          "en": "Thul Boulderrain",
+          "zhTW": "Thul Boulderrain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thul Boulderrain (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Punishing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Thul_Boulderrain",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "懲罰之箭命中時，對目標造成 10～20 額外傷害，並且中斷其動作。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Punishing_Shot",
+      "revision": 2733125,
+      "title": "Punishing Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26176",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26177,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "懲罰之箭命中時，對目標造成 %str1% 額外傷害，並且中斷其動作。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

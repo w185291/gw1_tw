@@ -1,0 +1,524 @@
+{
+  "pvpOnly": false,
+  "id": "water-attunement",
+  "name": {
+    "en": "Water Attunement",
+    "zhTW": "水之調和",
+    "translationVerified": true
+  },
+  "clientSkillId": 208,
+  "icon": "/skills/water-attunement.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 36...55...60 seconds, you are attuned to Water. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Water Magic.",
+      "zhTW": "持續 36～60 秒，你與水調和。每次你使用水系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-undead-hordes",
+          "en": "The Undead Hordes",
+          "zhTW": "The Undead Hordes",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Undead Hordes (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/The_Undead_Hordes",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "bucknar-runeguard",
+          "en": "Bucknar Runeguard",
+          "zhTW": "Bucknar Runeguard",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bucknar Runeguard (The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Bucknar_Runeguard",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-judge",
+          "en": "The Judge",
+          "zhTW": "The Judge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Judge (Traveler's Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/The_Judge",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "elsnil-frigidheart",
+          "en": "Elsnil Frigidheart",
+          "zhTW": "Elsnil Frigidheart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Elsnil Frigidheart (Ice Cliff Chasms)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Elsnil_Frigidheart",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lord-glacius-the-eternal",
+          "en": "Lord Glacius the Eternal",
+          "zhTW": "Lord Glacius the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lord Glacius the Eternal (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Lord_Glacius_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "whiteout",
+          "en": "Whiteout",
+          "zhTW": "Whiteout",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Whiteout (Jaga Moraine)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Whiteout",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "dazehl-brainfreezer",
+          "en": "Dazehl Brainfreezer",
+          "zhTW": "Dazehl Brainfreezer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dazehl Brainfreezer (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Dazehl_Brainfreezer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "regent-of-ice",
+          "en": "Regent of Ice",
+          "zhTW": "Regent of Ice",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sepulchre-of-dragrimmar",
+              "en": "Sepulchre of Dragrimmar",
+              "zhTW": "爪格林瑪墳墓",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sepulchre_of_Dragrimmar"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Regent of Ice (Sepulchre of Dragrimmar)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Regent_of_Ice",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fragment-of-antiquities",
+          "en": "Fragment of Antiquities",
+          "zhTW": "Fragment of Antiquities",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Fragment of Antiquities (Sepulchre of Dragrimmar)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Fragment_of_Antiquities",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ancient-vaettir",
+          "en": "Ancient Vaettir",
+          "zhTW": "Ancient Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Vaettir (Raven's Point)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Vaettir",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "drikard-the-foggy",
+          "en": "Drikard the Foggy",
+          "zhTW": "Drikard the Foggy",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Drikard the Foggy (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Drikard_the_Foggy",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Water_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 36～60 秒，你與水調和。每次你使用水系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。",
+  "commonUses": [
+    "水系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Water_Attunement",
+      "revision": 2718871,
+      "title": "Water Attunement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25238",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25241,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你與水調和。每次你使用水系魔法時，獲得 1 能量並且可回收消耗能量的 30%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

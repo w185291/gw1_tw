@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "black-lotus-strike",
+  "name": {
+    "en": "Black Lotus Strike",
+    "zhTW": "黑蓮狙殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 779,
+  "icon": "/skills/black-lotus-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "lead-attack",
+    "en": "Lead attack",
+    "zhTW": "引導攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Lead Attack. If it hits, Black Lotus Strike strikes for +10...27...31 damage. If target foe is suffering from a Hex, you gain 5...11...13 Energy.",
+      "zhTW": "命中時對目標造成 10～31 額外傷害；若目標敵人正遭受「降咒」時，你獲得 5～13 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "命中時對目標造成 10～31 額外傷害；若目標敵人正遭受「降咒」時，你獲得 5～13 能量。",
+  "commonUses": [
+    "致命攻擊 · 引導攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike",
+      "revision": 2738316,
+      "title": "Black Lotus Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26394"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26395,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害；若目標敵人正遭受「降咒」時，你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

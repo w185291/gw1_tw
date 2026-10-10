@@ -1,0 +1,166 @@
+{
+  "pvpOnly": false,
+  "id": "whirling-axe",
+  "name": {
+    "en": "Whirling Axe",
+    "zhTW": "狂風斧",
+    "translationVerified": true
+  },
+  "clientSkillId": 888,
+  "icon": "/skills/whirling-axe.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Axe Attack. If Whirling Axe hits, you strike for +5...17...20 damage and any stance being used by your target ends. This attack cannot be blocked.",
+      "zhTW": "當狂風斧命中時，造成額外5～20傷害，移除目標態勢，無法被格檔。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "imuk-the-pungent",
+          "en": "Imuk the Pungent",
+          "zhTW": "Imuk the Pungent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Imuk the Pungent (Nebo Terrace (War in Kryta) and Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Axe",
+        "url": "https://wiki.guildwars.com/wiki/Imuk_the_Pungent",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "geoffer-pain-bringer",
+          "en": "Geoffer Pain Bringer",
+          "zhTW": "Geoffer Pain Bringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed-explorable-area",
+              "en": "Boreas Seabed (explorable area)",
+              "zhTW": "Boreas Seabed (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Geoffer Pain Bringer (Boreas Seabed (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Axe",
+        "url": "https://wiki.guildwars.com/wiki/Geoffer_Pain_Bringer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "當狂風斧命中時，造成額外5～20傷害，移除目標態勢，無法被格檔。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Whirling_Axe",
+      "revision": 2733163,
+      "title": "Whirling Axe",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/26944"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26945,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當狂風斧命中時，造成額外%str1%傷害，移除目標態勢，無法被格檔。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,507 @@
+{
+  "pvpOnly": false,
+  "id": "maelstrom",
+  "name": {
+    "en": "Maelstrom",
+    "zhTW": "水漩渦",
+    "translationVerified": true
+  },
+  "clientSkillId": 215,
+  "icon": "/skills/maelstrom.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 10.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create a Maelstrom at target foe's location. For 10 seconds, foes adjacent to that area are struck for 10...22...25 cold damage each second. Maelstrom interrupts spell-casting when it hits.",
+      "zhTW": "在目標敵人所在地點創造水漩渦。持續 10 秒，使鄰近水漩渦的敵人每秒受到 10～25 冰凍傷害。水漩渦命中目標時會中斷其施法動作。此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "wydd-kindlerun",
+          "en": "Wydd Kindlerun",
+          "zhTW": "Wydd Kindlerun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          },
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wydd Kindlerun (The Wilds, Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Wydd_Kindlerun",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "falls-the-fishfinder",
+          "en": "Falls the Fishfinder",
+          "zhTW": "Falls the Fishfinder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tangle-root",
+              "en": "Tangle Root",
+              "zhTW": "糾結之根",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tangle_Root"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Falls the Fishfinder (Tangle Root)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Falls_the_Fishfinder",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fryn-rageflame",
+          "en": "Fryn Rageflame",
+          "zhTW": "Fryn Rageflame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-falls",
+              "en": "The Falls",
+              "zhTW": "陷落區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fryn Rageflame (The Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Fryn_Rageflame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "hoss-rainswell",
+          "en": "Hoss Rainswell",
+          "zhTW": "Hoss Rainswell",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Hoss Rainswell (The Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Hoss_Rainswell",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "skitt-skizzle",
+          "en": "Skitt Skizzle",
+          "zhTW": "Skitt Skizzle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skitt Skizzle (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Skitt_Skizzle",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lord-glacius-the-eternal",
+          "en": "Lord Glacius the Eternal",
+          "zhTW": "Lord Glacius the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lord Glacius the Eternal (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Lord_Glacius_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "whiteout",
+          "en": "Whiteout",
+          "zhTW": "Whiteout",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Whiteout (Jaga Moraine)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Whiteout",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "dazehl-brainfreezer",
+          "en": "Dazehl Brainfreezer",
+          "zhTW": "Dazehl Brainfreezer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dazehl Brainfreezer (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Dazehl_Brainfreezer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "drikard-the-foggy",
+          "en": "Drikard the Foggy",
+          "zhTW": "Drikard the Foggy",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Drikard the Foggy (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Drikard_the_Foggy",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Maelstrom",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人所在地點創造水漩渦。持續 10 秒，使鄰近水漩渦的敵人每秒受到 10～25 冰凍傷害。水漩渦命中目標時會中斷其施法動作。此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "水系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Maelstrom",
+      "revision": 2738746,
+      "title": "Maelstrom",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25252",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25253,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人所在地點創造水漩渦。持續 10 秒，使鄰近水漩渦的敵人每秒受到 %str1% 冰凍傷害。水漩渦命中目標時會中斷其施法動作。此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

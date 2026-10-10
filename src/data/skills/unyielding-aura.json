@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "unyielding-aura",
+  "name": {
+    "en": "Unyielding Aura",
+    "zhTW": "堅毅靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 268,
+  "icon": "/skills/unyielding-aura.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. While you maintain this enchantment, your Monk spells heal for +15...51...60% more Health. When this enchantment ends one random other party member is resurrected with full Health and Energy and teleported to your location.",
+      "zhTW": "維持此加持時，所有僧侶魔法治療量增加15～60%，取消此加持時，復活一名死去隊友到你的位置，並且體力與能量全滿。"
+    },
+    "pvp": {
+      "en": "Elite Enchantment Spell. Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
+      "zhTW": "復活死亡隊友，恢復全部體力與能量。若停止維持或加持被移除，該隊友死亡並留下已用屍體；此加持期間的死亡不增加死亡懲罰。神恩 4 點以下有 50% 失敗率。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Unyielding Aura (PvP)",
+      "description": {
+        "en": "Elite Enchantment Spell. Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
+        "zhTW": "復活死亡隊友，恢復全部體力與能量。若停止維持或加持被移除，該隊友死亡並留下已用屍體；此加持期間的死亡不增加死亡懲罰。神恩 4 點以下有 50% 失敗率。"
+      },
+      "stats": {
+        "Upkeep": 1.0,
+        "Energy": 5.0,
+        "Activation": 3.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Unyielding_Aura_%28PvP%29",
+        "revision": 2630185,
+        "title": "Unyielding Aura (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2891
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ipillo-wupwup",
+          "en": "Ipillo Wupwup",
+          "zhTW": "Ipillo Wupwup",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ipillo Wupwup (Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/Unyielding_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Ipillo_Wupwup",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kaia-wupwup",
+          "en": "Kaia Wupwup",
+          "zhTW": "Kaia Wupwup",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          },
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kaia Wupwup (Spearhead Peak, Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Unyielding_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Kaia_Wupwup",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "維持此加持時，所有僧侶魔法治療量增加15～60%，取消此加持時，復活一名死去隊友到你的位置，並且體力與能量全滿。",
+  "commonUses": [
+    "神恩 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unyielding_Aura",
+      "revision": 2732821,
+      "title": "Unyielding Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unyielding_Aura_%28PvP%29",
+      "revision": 2630185,
+      "title": "Unyielding Aura (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25744"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25745,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "維持此加持時，所有僧侶魔法治療量增加%str1%%%，取消此加持時，復活一名死去隊友到你的位置，並且體力與能量全滿。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

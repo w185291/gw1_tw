@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "ward-of-stability",
+  "name": {
+    "en": "Ward of Stability",
+    "zhTW": "穩定結界",
+    "translationVerified": true
+  },
+  "clientSkillId": 938,
+  "icon": "/skills/ward-of-stability.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. Create a Ward of Stability at your current location. For 10...22...25 seconds, non-spirit allies cannot be knocked down.",
+      "zhTW": "你創造一個穩定結界。持續 10～25 秒，使範圍內非「靈」的盟友無法被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "perfected-aegis",
+          "en": "Perfected Aegis",
+          "zhTW": "Perfected Aegis",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Perfected Aegis (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
+        "url": "https://wiki.guildwars.com/wiki/Perfected_Aegis",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "你創造一個穩定結界。持續 10～25 秒，使範圍內非「靈」的盟友無法被擊倒。",
+  "commonUses": [
+    "土系魔法 · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
+      "revision": 2683940,
+      "title": "Ward of Stability",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26692",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26693,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你創造一個穩定結界。持續 %str3% 秒，使範圍內非「靈」的盟友無法被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

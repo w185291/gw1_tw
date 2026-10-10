@@ -1,0 +1,176 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-recall",
+  "name": {
+    "en": "Signet of Recall",
+    "zhTW": "回歸紋章"
+  },
+  "clientSkillId": 1993,
+  "icon": "/skills/signet-of-recall.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Signet. For 6 seconds, you have -4 Energy regeneration. When this effect ends, you gain 13...19...20 Energy.",
+      "zhTW": "持續 6 秒，你遭受 - 4 能量衰減。當此效果終止時，你獲得 13～20 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 6 秒，你遭受 - 4 能量衰減。當此效果終止時，你獲得 13～20 能量。",
+  "commonUses": [
+    "靈感魔法 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+      "revision": 2727266,
+      "title": "Signet of Recall",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/58946"
+  ],
+  "descriptionEvidence": {
+    "stringId": 58947,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你遭受 - 4 能量衰減。當此效果終止時，你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,256 @@
+{
+  "pvpOnly": false,
+  "id": "life-sheath",
+  "name": {
+    "en": "Life Sheath",
+    "zhTW": "生命保護",
+    "translationVerified": true
+  },
+  "clientSkillId": 1123,
+  "icon": "/skills/life-sheath.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. Remove 0...2...2 condition[s] from target ally. For 8 seconds, the next time that ally would take damage or life steal, that ally gains that amount of Health instead (maximum 20...84...100).",
+      "zhTW": "持續8秒，移除目標盟友身上0～2個 病症，同時下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多20～100。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "seaguard-gita",
+          "en": "Seaguard Gita",
+          "zhTW": "Seaguard Gita",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seaguard Gita (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Seaguard_Gita",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "monk-s-construct",
+          "en": "Monk's Construct",
+          "zhTW": "Monk's Construct",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district",
+              "en": "Sunjiang District",
+              "zhTW": "孫江行政區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monk's Construct (Sunjiang District mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Monk%27s_Construct",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ganshu-the-scribe",
+          "en": "Ganshu the Scribe",
+          "zhTW": "Ganshu the Scribe",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-gangs-of-kaineng",
+              "en": "The Gangs of Kaineng",
+              "zhTW": "The Gangs of Kaineng",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Gangs_of_Kaineng"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ganshu the Scribe (during The Gangs of Kaineng)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Ganshu_the_Scribe",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "chaelse-flameshielder",
+          "en": "Chaelse Flameshielder",
+          "zhTW": "Chaelse Flameshielder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          },
+          {
+            "name": {
+              "id": "the-dawn-of-rebellion",
+              "en": "The Dawn of Rebellion",
+              "zhTW": "The Dawn of Rebellion",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dawn_of_Rebellion"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chaelse Flameshielder (Grothmar Wardowns, after The Dawn of Rebellion)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Chaelse_Flameshielder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "taag-relicbinder",
+          "en": "Taag Relicbinder",
+          "zhTW": "Taag Relicbinder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "flame-temple-corridor",
+              "en": "Flame Temple Corridor",
+              "zhTW": "夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Flame_Temple_Corridor"
+          },
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taag Relicbinder (Flame Temple Corridor, only during Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Taag_Relicbinder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續8秒，移除目標盟友身上0～2個 病症，同時下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多20～100。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Life_Sheath",
+      "revision": 2670903,
+      "title": "Life Sheath",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26906"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26907,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，移除目標盟友身上%str1%個 病症，同時下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

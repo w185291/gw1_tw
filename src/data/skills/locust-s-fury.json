@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "locust-s-fury",
+  "name": {
+    "en": "Locust's Fury",
+    "zhTW": "蝗蟲暴怒",
+    "translationVerified": true
+  },
+  "clientSkillId": 1030,
+  "icon": "/skills/locust-s-fury.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10...30...35 seconds, you have an additional 50% chance to double strike while using daggers.",
+      "zhTW": "持續 10～35 秒，使你裝備匕首攻擊敵人時，出現「雙擊」的機率增加 50% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chkkr-locust-lord",
+          "en": "Chkkr Locust Lord",
+          "zhTW": "Chkkr Locust Lord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "melandru-s-hope",
+              "en": "Melandru's Hope",
+              "zhTW": "梅蘭朵的盼望",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chkkr Locust Lord (Melandru's Hope)",
+        "source": "https://wiki.guildwars.com/wiki/Locust%27s_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Chkkr_Locust_Lord",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 10～35 秒，使你裝備匕首攻擊敵人時，出現「雙擊」的機率增加 50% 。",
+  "commonUses": [
+    "致命攻擊 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Locust%27s_Fury",
+      "revision": 2731174,
+      "title": "Locust's Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26428"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26429,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你裝備匕首攻擊敵人時，出現「雙擊」的機率增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

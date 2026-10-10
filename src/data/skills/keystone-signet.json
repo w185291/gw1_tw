@@ -1,0 +1,198 @@
+{
+  "pvpOnly": false,
+  "id": "keystone-signet",
+  "name": {
+    "en": "Keystone Signet",
+    "zhTW": "楔石紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 63,
+  "icon": "/skills/keystone-signet.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fast-casting",
+    "en": "Fast Casting",
+    "zhTW": "快速施法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. All of your signets except Keystone Signet are recharged. For 20 seconds, the next 0...5...6 time[s] you use a signet that targets a foe, all other foes adjacent to your target take 15...51...60 damage and are interrupted.",
+      "zhTW": "所有其他紋章立即回復。持續 20 秒，接下來你對敵人施展的 0～6 次紋章，同時使鄰近敵人受到 15～60 傷害且中斷他們的動作。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rune-ethercrash",
+          "en": "Rune Ethercrash",
+          "zhTW": "Rune Ethercrash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rune Ethercrash (Spearhead Peak)",
+        "source": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Rune_Ethercrash",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "gao-han-of-the-rings",
+          "en": "Gao Han of the Rings",
+          "zhTW": "Gao Han of the Rings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "redemption-for-the-lost",
+              "en": "Redemption for the Lost",
+              "zhTW": "Redemption for the Lost",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Redemption_for_the_Lost"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Gao Han of the Rings (Sunjiang District (Winds of Change), only during Redemption for the Lost)",
+        "source": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Gao_Han_of_the_Rings",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "qwytzylkak",
+          "en": "Qwytzylkak",
+          "zhTW": "Qwytzylkak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          },
+          {
+            "name": {
+              "id": "the-killing-joke",
+              "en": "The Killing Joke",
+              "zhTW": "The Killing Joke",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Killing_Joke"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Qwytzylkak (Vehtendi Valley, only during The Killing Joke)",
+        "source": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Qwytzylkak",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "所有其他紋章立即回復。持續 20 秒，接下來你對敵人施展的 0～6 次紋章，同時使鄰近敵人受到 15～60 傷害且中斷他們的動作。",
+  "commonUses": [
+    "快速施法 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+      "revision": 2664408,
+      "title": "Keystone Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24922",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24923,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "所有其他紋章立即回復。持續 %str3% 秒，接下來你對敵人施展的 %str2% 次紋章，同時使鄰近敵人受到 %str1% 傷害且中斷他們的動作。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

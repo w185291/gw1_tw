@@ -1,0 +1,163 @@
+{
+  "id": "earthbind",
+  "name": {
+    "en": "Earthbind",
+    "zhTW": "地縛",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1252,
+  "icon": "/skills/earthbind.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...11...14 spirit. All non-spirit foes knocked down within its range are knocked down for at least 3 seconds. Whenever this happens, this spirit loses 50...30...25 Health. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "創造等級 1～14 的大地縛靈，範圍內的敵人一旦被擊倒，倒地效果將持續至少 3 秒。而當此效果發生時，縛靈失去 50～25 體力。大地縛靈將在 15～45 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...8...10 spirit. All non-spirit foes knocked down within its range are knocked down for at least 3 seconds. Whenever this happens, this spirit loses 50...30...25 Health. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "召喚等級 1～10 的靈體，持續 15～45 秒。範圍內非靈體敵人被擊倒時，倒地時間至少 3 秒；每次觸發，靈體失去 50～25 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Earthbind (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...8...10 spirit. All non-spirit foes knocked down within its range are knocked down for at least 3 seconds. Whenever this happens, this spirit loses 50...30...25 Health. This spirit dies after 15...39...45 seconds.",
+        "zhTW": "召喚等級 1～10 的靈體，持續 15～45 秒。範圍內非靈體敵人被擊倒時，倒地時間至少 3 秒；每次觸發，靈體失去 50～25 體力。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Activation": 3.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Earthbind_%28PvP%29",
+        "revision": 2738860,
+        "title": "Earthbind (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3015
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Earthbind",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "創造等級 1～14 的大地縛靈，範圍內的敵人一旦被擊倒，倒地效果將持續至少 3 秒。而當此效果發生時，縛靈失去 50～25 體力。大地縛靈將在 15～45 秒後消失。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Earthbind",
+      "revision": 2720880,
+      "title": "Earthbind",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Earthbind_%28PvP%29",
+      "revision": 2738860,
+      "title": "Earthbind (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27383"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27384,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的大地縛靈，範圍內的敵人一旦被擊倒，倒地效果將持續至少 3 秒。而當此效果發生時，縛靈失去 %str2% 體力。大地縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

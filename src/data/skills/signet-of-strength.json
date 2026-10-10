@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-strength",
+  "name": {
+    "en": "Signet of Strength",
+    "zhTW": "力量紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 944,
+  "icon": "/skills/signet-of-strength.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Your next 1...13...16 attack[s] deal +5 damage.",
+      "zhTW": "使你接下來的 1～16 次攻擊對目標造成 5 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "malfunctioning-shield-golem",
+          "en": "Malfunctioning Shield Golem",
+          "zhTW": "Malfunctioning Shield Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Shield Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Shield_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "使你接下來的 1～16 次攻擊對目標造成 5 額外傷害。",
+  "commonUses": [
+    "力量 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
+      "revision": 2683406,
+      "title": "Signet of Strength",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26966",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26967,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使你接下來的 %str1% 次攻擊對目標造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

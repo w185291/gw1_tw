@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -131,123 +131,237 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Bound Jaizhanju",
+        "zhTW": "Bound Jaizhanju（繁中名稱待確認）",
         "en": "Bound Jaizhanju"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Auspicious Parry",
+        "Gash",
+        "Healing Signet",
+        "Sever Artery",
+        "Sun and Moon Slash"
+      ],
+      "eliteSkills": [
         "Auspicious Parry"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Bound_Jaizhanju"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Jaizhanju",
+      "revision": 2621996
     },
     {
       "name": {
-        "zhTW": "Bound Zojun",
+        "zhTW": "Bound Zojun（繁中名稱待確認）",
         "en": "Bound Zojun"
       },
       "profession": "遊俠",
       "importantSkills": [
-        "Famine"
+        "Debilitating Shot",
+        "Determined Shot",
+        "Famine",
+        "Savage Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Bound_Zojun"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Zojun",
+      "revision": 2622005
     },
     {
       "name": {
-        "zhTW": "Bound Karei",
+        "zhTW": "Bound Karei（繁中名稱待確認）",
         "en": "Bound Karei"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Divine Intervention",
+        "Reverse Hex",
+        "Shield Guardian",
+        "Spell Breaker",
+        "Spell Shield"
+      ],
+      "eliteSkills": [
         "Spell Breaker"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Karei",
+      "revision": 2621999
     },
     {
       "name": {
-        "zhTW": "Bound Naku",
+        "zhTW": "Bound Naku（繁中名稱待確認）",
         "en": "Bound Naku"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Faintheartedness",
+        "Rotting Flesh",
+        "Taste of Pain",
+        "Wail of Doom",
+        "Well of Weariness"
+      ],
+      "eliteSkills": [
         "Wail of Doom"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Naku",
+      "revision": 2622001
     },
     {
       "name": {
-        "zhTW": "Bound Kitah",
+        "zhTW": "Bound Kitah（繁中名稱待確認）",
         "en": "Bound Kitah"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Arcane Languor",
+        "Diversion",
+        "Ether Feast",
+        "Images of Remorse",
+        "Shatter Hex"
+      ],
+      "eliteSkills": [
         "Arcane Languor"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Kitah",
+      "revision": 2622000
     },
     {
       "name": {
-        "zhTW": "Bound Teinai",
+        "zhTW": "Bound Teinai（繁中名稱待確認）",
         "en": "Bound Teinai"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Aura of Restoration",
+        "Burning Speed",
+        "Obsidian Flame",
+        "Sliver Armor",
         "Star Burst"
       ],
+      "eliteSkills": [
+        "Star Burst"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Teinai",
+      "revision": 2622002
     },
     {
       "name": {
-        "zhTW": "Bound Vizu",
+        "zhTW": "Bound Vizu（繁中名稱待確認）",
         "en": "Bound Vizu"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
+        "Disrupting Stab",
+        "Shadow Refuge",
+        "Shroud of Silence",
+        "Twisting Fangs",
+        "Wild Strike"
+      ],
+      "eliteSkills": [
         "Shroud of Silence"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Vizu",
+      "revision": 2622004
     },
     {
       "name": {
-        "zhTW": "Bound Kaolai",
+        "zhTW": "Bound Kaolai（繁中名稱待確認）",
         "en": "Bound Kaolai"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Defiant Was Xinrae",
+        "Life",
+        "Recuperation",
+        "Restoration",
+        "Vengeful Weapon"
+      ],
+      "eliteSkills": [
         "Defiant Was Xinrae"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple#Bosses",
-      "revision": 2703540
+      "source": "https://wiki.guildwars.com/wiki/Bound_Kaolai",
+      "revision": 2621998
     }
   ],
   "recommendedTeam": [
@@ -357,6 +471,62 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Jaizhanju",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Jaizhanju",
+      "revision": 2621996,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Zojun",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Zojun",
+      "revision": 2622005,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Karei",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Karei",
+      "revision": 2621999,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Naku",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Naku",
+      "revision": 2622001,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Kitah",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Kitah",
+      "revision": 2622000,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Teinai",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Teinai",
+      "revision": 2622002,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Vizu",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Vizu",
+      "revision": 2622004,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bound Kaolai",
+      "url": "https://wiki.guildwars.com/wiki/Bound_Kaolai",
+      "revision": 2621998,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -439,5 +609,24 @@
       "expert": "30–35分鐘",
       "master": "少於30分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22310",
+    "game-client://2026-10-09/string/22311",
+    "game-client://2026-10-09/string/22334"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22310,
+      22311,
+      22334
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

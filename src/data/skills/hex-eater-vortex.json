@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "hex-eater-vortex",
+  "name": {
+    "en": "Hex Eater Vortex",
+    "zhTW": "食咒渦流",
+    "translationVerified": true
+  },
+  "clientSkillId": 1348,
+  "icon": "/skills/hex-eater-vortex.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Remove a hex from target ally. If a hex is removed in this way, foes in the area of that ally take 30...78...90 damage and lose one enchantment.",
+      "zhTW": "移除目標友軍一項降咒。若移除成功，該友軍區域內敵人受到 30～90 傷害並失去一項加持。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "amind-the-bitter",
+          "en": "Amind the Bitter",
+          "zhTW": "Amind the Bitter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-desolation",
+              "en": "Gate of Desolation",
+              "zhTW": "荒蕪之地入口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Amind the Bitter (Gate of Desolation)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+        "url": "https://wiki.guildwars.com/wiki/Amind_the_Bitter",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "shelkeh-the-hungry",
+          "en": "Shelkeh the Hungry",
+          "zhTW": "Shelkeh the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shelkeh the Hungry (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+        "url": "https://wiki.guildwars.com/wiki/Shelkeh_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "mind-of-destruction",
+          "en": "Mind of Destruction",
+          "zhTW": "Mind of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Mind of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+        "url": "https://wiki.guildwars.com/wiki/Mind_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "移除目標友軍一項降咒。若移除成功，該友軍區域內敵人受到 30～90 傷害並失去一項加持。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+      "revision": 2724087,
+      "title": "Hex Eater Vortex",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33278",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33279,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Remove a hex from target ally. If a hex is removed in this way, foes in the area of that ally take %str1% damage and lose one enchantment."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

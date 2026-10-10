@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "none-shall-pass",
+  "name": {
+    "en": "\"None Shall Pass!\"",
+    "zhTW": "「無人可過！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 891,
+  "icon": "/skills/none-shall-pass.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Shout. All nearby foes that are moving are knocked down. This skill recharges 1...7...8 second[s] faster for each foe knocked down (maximum 25 seconds).",
+      "zhTW": "附近所有移動中的敵人將被擊倒，依照每個被擊倒的敵人數量，每個會使此技能回復時間加快 1～8 秒。 (最多加快 25 秒)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "carnak-the-hungry",
+          "en": "Carnak the Hungry",
+          "zhTW": "Carnak the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Carnak the Hungry (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Carnak_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "附近所有移動中的敵人將被擊倒，依照每個被擊倒的敵人數量，每個會使此技能回復時間加快 1～8 秒。 (最多加快 25 秒)",
+  "commonUses": [
+    "戰術 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass%21%22",
+      "revision": 2683400,
+      "title": "\"None Shall Pass!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/26976"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26977,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "附近所有移動中的敵人將被擊倒，依照每個被擊倒的敵人數量，每個會使此技能回復時間加快 %str1% 秒。 (最多加快 %str2% 秒)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

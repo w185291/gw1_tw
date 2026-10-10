@@ -1,0 +1,579 @@
+{
+  "pvpOnly": false,
+  "id": "restore-life",
+  "name": {
+    "en": "Restore Life",
+    "zhTW": "生命回復",
+    "translationVerified": true
+  },
+  "clientSkillId": 314,
+  "icon": "/skills/restore-life.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-spell",
+    "en": "Touch spell",
+    "zhTW": "碰觸魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 4.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Touch the body of a fallen party member. Target party member is returned to life with 20...56...65% Health and 42...80...90% Energy.",
+      "zhTW": "碰觸死亡隊員的屍體將其復活，並回復其 20～65% 體力和 42～90% 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "taltosh",
+          "en": "Taltosh",
+          "zhTW": "Taltosh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grendich-courthouse",
+              "en": "Grendich Courthouse",
+              "zhTW": "葛蘭迪法院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Taltosh (Grendich Courthouse)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Taltosh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "priest-of-menzies",
+          "en": "Priest of Menzies",
+          "zhTW": "Priest of Menzies",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fissure-of-woe",
+              "en": "Fissure of Woe",
+              "zhTW": "災難裂痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fissure_of_Woe"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Priest of Menzies (Fissure of Woe)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Priest_of_Menzies",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "leaps-thunderclap",
+          "en": "Leaps Thunderclap",
+          "zhTW": "Leaps Thunderclap",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Leaps Thunderclap (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Leaps_Thunderclap",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "abbot-ramoth",
+          "en": "Abbot Ramoth",
+          "zhTW": "Abbot Ramoth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          },
+          {
+            "name": {
+              "id": "the-false-gods",
+              "en": "The False Gods",
+              "zhTW": "The False Gods",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_False_Gods"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abbot Ramoth (The Black Curtain, only during The False Gods)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Abbot_Ramoth",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gack-splotchplunk",
+          "en": "Gack Splotchplunk",
+          "zhTW": "Gack Splotchplunk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gack Splotchplunk (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Gack_Splotchplunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "fluum-banzo",
+          "en": "Fluum Banzo",
+          "zhTW": "Fluum Banzo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fluum Banzo (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "bramblehash",
+          "en": "Bramblehash",
+          "zhTW": "Bramblehash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bramblehash (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Bramblehash",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "huma-cleansinghoof",
+          "en": "Huma Cleansinghoof",
+          "zhTW": "Huma Cleansinghoof",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Huma Cleansinghoof (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Huma_Cleansinghoof",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "splintertrunk",
+          "en": "Splintertrunk",
+          "zhTW": "Splintertrunk",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Splintertrunk (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Splintertrunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tama-blessedhoof",
+          "en": "Tama Blessedhoof",
+          "zhTW": "Tama Blessedhoof",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tama Blessedhoof (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Tama_Blessedhoof",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-vitality",
+          "en": "Tree of Vitality",
+          "zhTW": "Tree of Vitality",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Vitality (The Wilds and Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Vitality",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ramm-the-benevolent",
+          "en": "Ramm the Benevolent",
+          "zhTW": "Ramm the Benevolent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ramm the Benevolent (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "woho-sacredhide",
+          "en": "Woho Sacredhide",
+          "zhTW": "Woho Sacredhide",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Woho Sacredhide (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Woho_Sacredhide",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "garr-the-merciful",
+          "en": "Garr the Merciful",
+          "zhTW": "Garr the Merciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garr the Merciful (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Garr_the_Merciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gilroy-the-stoic",
+          "en": "Gilroy the Stoic",
+          "zhTW": "Gilroy the Stoic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gilroy the Stoic (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Gilroy_the_Stoic",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "corbin-the-upright",
+          "en": "Corbin the Upright",
+          "zhTW": "Corbin the Upright",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Corbin the Upright (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "selwin-the-fervent",
+          "en": "Selwin the Fervent",
+          "zhTW": "Selwin the Fervent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Selwin the Fervent (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Life",
+        "url": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Prophecies"
+  ],
+  "explanation": "碰觸死亡隊員的屍體將其復活，並回復其 20～65% 體力和 42～90% 能量。",
+  "commonUses": [
+    "治療祈禱 · 碰觸魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Restore_Life",
+      "revision": 2732824,
+      "title": "Restore Life",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25838"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25839,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸死亡隊員的屍體將其復活，並回復其 %str1%%% 體力和 %str2%%% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

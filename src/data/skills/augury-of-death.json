@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "augury-of-death",
+  "name": {
+    "en": "Augury of Death",
+    "zhTW": "死亡預言",
+    "translationVerified": true
+  },
+  "clientSkillId": 1646,
+  "icon": "/skills/augury-of-death.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...29...35 seconds, the next time damage would drop target foe's Health below 50%, you inflict a Deep Wound for 5...17...20 seconds and Shadow Step to that foe. This spell has half the normal range.",
+      "zhTW": "持續 5～35 秒，「下一次」傷害時，將使目標敵人的體力降低於 50% ，你將以暗影步伐傳送至目標處，同時使敵人遭受「重傷」病症 5～20 秒。此「魔法」的有效距離是普通的一半。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Augury_of_Death",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Augury_of_Death",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5～35 秒，「下一次」傷害時，將使目標敵人的體力降低於 50% ，你將以暗影步伐傳送至目標處，同時使敵人遭受「重傷」病症 5～20 秒。此「魔法」的有效距離是普通的一半。",
+  "commonUses": [
+    "暗殺技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Augury_of_Death",
+      "revision": 2609929,
+      "title": "Augury of Death",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/43989",
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 43990,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，「下一次」傷害時，將使目標敵人的體力降低於 %str1%%% ，你將以暗影步伐傳送至目標處，同時使敵人遭受「重傷」病症 %str2% 秒。此「魔法」的有效距離是普通的一半。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

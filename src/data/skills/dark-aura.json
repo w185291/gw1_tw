@@ -1,0 +1,332 @@
+{
+  "pvpOnly": false,
+  "id": "dark-aura",
+  "name": {
+    "en": "Dark Aura",
+    "zhTW": "暗黑靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 116,
+  "icon": "/skills/dark-aura.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 30 seconds, whenever target ally sacrifices Health, Dark Aura deals 5...41...50 shadow damage to adjacent foes, and you lose 5...17...20 Health.",
+      "zhTW": "持續 30 秒，每當目標盟友犧牲體力時，暗黑靈氣對鄰近該盟友的敵人造成 5～50 暗影傷害，同時你將損失 5～20 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "graven-images",
+          "en": "Graven Images",
+          "zhTW": "Graven Images",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Graven Images (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Graven_Images",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "slog-bloodsplatter",
+          "en": "Slog Bloodsplatter",
+          "zhTW": "Slog Bloodsplatter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diessa-lowlands",
+              "en": "Diessa Lowlands",
+              "zhTW": "底耶沙低地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diessa_Lowlands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Slog Bloodsplatter (Diessa Lowlands)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Slog_Bloodsplatter",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "shadow-of-death",
+          "en": "Shadow of Death",
+          "zhTW": "Shadow of Death",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Shadow of Death (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_of_Death",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "dread-nightstalk",
+          "en": "Dread Nightstalk",
+          "zhTW": "Dread Nightstalk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talmark-wilderness",
+              "en": "Talmark Wilderness",
+              "zhTW": "突馬克荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dread Nightstalk (Talmark Wilderness)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dread_Nightstalk",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，每當目標盟友犧牲體力時，暗黑靈氣對鄰近該盟友的敵人造成 5～50 暗影傷害，同時你將損失 5～20 體力。",
+  "commonUses": [
+    "死亡魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dark_Aura",
+      "revision": 2733679,
+      "title": "Dark Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25052",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25053,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 30 秒，每當目標盟友犧牲體力時，暗黑靈氣對鄰近該盟友的敵人造成 %str1% 暗影傷害，同時你將損失 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

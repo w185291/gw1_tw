@@ -1,0 +1,249 @@
+{
+  "id": "curse-of-the-nornbear",
+  "order": 5,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Curse of the Nornbear",
+    "zhTW": "諾恩熊的詛咒"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/62748",
+    "game-client://2026-10-09/string/72082",
+    "game-client://2026-10-09/string/72130"
+  ],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Curse of the Nornbear"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 追獵"
+  ],
+  "summary": "沿地圖 1→2→3→4 追獵，最後一場擊殺 Nornbear，完成後招募 Jora。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "在 Sifhalla 向 Sif Shadowhunter 選擇開始追獵；已完成者也可從 Hall of Monuments 的 Scrying Pool 重接。",
+    "location": "Sifhalla 的 Sif Shadowhunter",
+    "requirements": [
+      "每個要取得通關進度的角色，都要先領 跟蹤可怕的熊 獎勵；只靠隊友開場可進入，但未滿足前置者不會得到完成紀錄。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 追獵",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "沿地圖 1→2→3→4 追獵，最後一場擊殺 Nornbear，完成後招募 Jora。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "清路到狼祭壇",
+      "content": "跟 Jora、Sif 清入口的 Mandragor 與洞內敵人，往圖上 1 的 Shrine of the Wolf Spirit。原本友好的 Stonewolf 會轉敵對，先清守護巨人及狼群。"
+    },
+    {
+      "title": "取得追蹤能力",
+      "content": "向祭壇取得 Volfen Blessing，啟用後技能列換成五個狼能力。用 Volfen Bloodlust 在任務地圖顯示 Svanir 的位置；此變身有幫助，但不是通關必要條件。"
+    },
+    {
+      "title": "圖上 2 的遭遇",
+      "content": "跟紅點路線到 2，將 Nornbear 血量壓到約一半，它會逃走。不要在原地等，轉往下一個標記。"
+    },
+    {
+      "title": "圖上 3 的遭遇",
+      "content": "到 3 再打一場，約半血再次撤退；保留補血與解病症，沿南方紅點走向 4。"
+    },
+    {
+      "title": "圖上 4 完成擊殺",
+      "content": "最後一場才需要真正擊殺 Nornbear。看完過場回到 Sifhalla，Jora 解鎖為英雄，任務記入 Hero’s Handbook 第 7 頁。"
+    }
+  ],
+  "routeSummary": "在 Sifhalla 向 Sif Shadowhunter 選擇開始追獵；已完成者也可從 Hall of Monuments 的 Scrying Pool 重接。",
+  "mapImage": "/maps/eotn/curse-of-the-nornbear-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/curse-of-the-nornbear-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "Curse of the Nornbear 任務地圖",
+      "width": 298,
+      "height": 290,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Curse_of_the_Nornbear_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/c/c8/Curse_of_the_Nornbear_map.jpg",
+      "uploader": "Nomaramon01",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:Curse of the Nornbear map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "en": "Nornbear",
+        "zhTW": "Nornbear（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Charging Spirit",
+        "Shattered Spirit",
+        "Spirit Roar",
+        "Spirit Senses",
+        "Spirit World Retreat",
+        "Unseen Aggression"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "前兩處壓到約半血就移往下一處；圖上 4 才集中擊殺。用致盲或格擋限制近戰，隊伍分散，避免全員停在敵人身旁。",
+      "source": "https://wiki.guildwars.com/wiki/Nornbear",
+      "revision": 2571637,
+      "translationVerified": false
+    }
+  ],
+  "bossAbsenceVerified": false,
+  "bossAbsenceReason": "",
+  "recommendedTeam": [
+    "需要近戰減傷、穩定治療及解除病症。Jora、Sif 能造成流血，可搭配需要流血條件的攻擊。"
+  ],
+  "tips": [],
+  "warnings": [
+    "前兩場只追獵，最後一場才會擊殺完成；看到半血逃走不要判定失敗。",
+    "Volfen Bloodlust 偶爾不顯示目標，可以照地圖固定點追蹤。",
+    "若熊反覆回血不逃，旗標隊友遠離它，解除近距離戰鬥後再處理。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "初次建議用狼祭壇與追蹤技能，按 1、2、3、4 的順序完整跑流程。"
+    ],
+    "hard": [
+      "追蹤點及撤退規則相同，敵人等級較高；分批清狼與巨人，再接近祭壇。首次完成 Norn 聲望 1,500，重打 150。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "NM 首次 1,000 Norn 聲望，重打 100。",
+          "招募 Jora，記入 Hero’s Handbook 第 7 頁。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "HM 首次 1,500，重打 150。",
+          "招募 Jora，記入 Hero’s Handbook 第 7 頁。"
+        ]
+      }
+    ],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Curse_of_the_Nornbear",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Curse of the Nornbear",
+      "url": "https://wiki.guildwars.com/wiki/Curse_of_the_Nornbear",
+      "revision": 2705481,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nornbear",
+      "url": "https://wiki.guildwars.com/wiki/Nornbear",
+      "revision": 2571637,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "tracking-the-nornbear",
+  "nextMission": null,
+  "previousOptions": [],
+  "nextOptions": [
+    "flames-of-the-bear-spirit",
+    "vision-of-the-raven-spirit"
+  ],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "完成後回 Sifhalla，Jora 加入英雄名單。",
+    "北方同盟 的後续還有 Flames of the Bear Spirit → Blood Washes Blood，以及 Vision of the Raven Spirit → A Gate Too Far；兩條都需要完成。"
+  ],
+  "storyStartVerified": false,
+  "translationStatus": "verified",
+  "gameTextEvidence": {
+    "stringIds": [
+      62748,
+      72082,
+      72130
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "pvpOnly": false,
+  "id": "earth-attunement",
+  "name": {
+    "en": "Earth Attunement",
+    "zhTW": "地之調和",
+    "translationVerified": true
+  },
+  "clientSkillId": 169,
+  "icon": "/skills/earth-attunement.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 36...55...60 seconds, you are attuned to Earth. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Earth Magic.",
+      "zhTW": "持續 36～60 秒，你與大地調和。每次你使用土系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-geomancer-s-test",
+          "en": "The Geomancer's Test",
+          "zhTW": "The Geomancer's Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "serenity-temple",
+              "en": "Serenity Temple",
+              "zhTW": "寧靜神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Serenity_Temple"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Geomancer's Test (Serenity Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/The_Geomancer%27s_Test",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "moro-stormcalf",
+          "en": "Moro Stormcalf",
+          "zhTW": "Moro Stormcalf",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "deldrimor-bowl",
+              "en": "Deldrimor Bowl",
+              "zhTW": "戴爾狄摩盆地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Moro Stormcalf (Borlis Pass, Deldrimor Bowl)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Moro_Stormcalf",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "splinterquake",
+          "en": "Splinterquake",
+          "zhTW": "Splinterquake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Splinterquake (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Splinterquake",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "horm-frostrider",
+          "en": "Horm Frostrider",
+          "zhTW": "Horm Frostrider",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Horm Frostrider (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Horm_Frostrider",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bristlefire",
+          "en": "Bristlefire",
+          "zhTW": "Bristlefire",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bristlefire (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Bristlefire",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ghilaparu-stormstone",
+          "en": "Ghilaparu Stormstone",
+          "zhTW": "Ghilaparu Stormstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghilaparu Stormstone (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Ghilaparu_Stormstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "doro-icehide",
+          "en": "Doro Icehide",
+          "zhTW": "Doro Icehide",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Doro Icehide (The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Doro_Icehide",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "galigord-stonestrike",
+          "en": "Galigord Stonestrike",
+          "zhTW": "Galigord Stonestrike",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Galigord Stonestrike (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Galigord_Stonestrike",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "runar-brimstone",
+          "en": "Runar Brimstone",
+          "zhTW": "Runar Brimstone",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Runar Brimstone (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Runar_Brimstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "rago-kindlerock",
+          "en": "Rago Kindlerock",
+          "zhTW": "Rago Kindlerock",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Rago Kindlerock (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Rago_Kindlerock",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 36～60 秒，你與大地調和。每次你使用土系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。",
+  "commonUses": [
+    "土系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+      "revision": 2718873,
+      "title": "Earth Attunement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25160",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25161,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你與大地調和。每次你使用土系魔法時，獲得 1 能量並且可回收消耗能量的 30%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,268 @@
+{
+  "id": "union",
+  "name": {
+    "en": "Union",
+    "zhTW": "聯合",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 911,
+  "icon": "/skills/union.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "創造一個等級1～12的 聯合縛靈，每當範圍內的非靈盟友遭受傷害或者偷取生命時，將被減少15，同時靈受到15傷害，靈在30～60秒後死亡。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。範圍內非靈體友軍受到傷害或體力偷取時，減少 15 點，靈體則受到 15 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Union (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30...54...60 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。範圍內非靈體友軍受到傷害或體力偷取時，減少 15 點，靈體則受到 15 傷害。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Activation": 3.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Union_%28PvP%29",
+        "revision": 2720904,
+        "title": "Union (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3005
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Union",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "minions-gone-wild",
+          "en": "Minions Gone Wild",
+          "zhTW": "Minions Gone Wild",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Minions Gone Wild (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Union",
+        "url": "https://wiki.guildwars.com/wiki/Minions_Gone_Wild",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Union",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Union",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Union",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "每次幫範圍內友軍抵消部分傷害，並扣除靈體自身體力。適合配合其他防禦靈體，持續受攻擊時會消耗得很快。",
+  "commonUses": [
+    "ST 防禦祭祀",
+    "團隊減傷"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Union",
+      "revision": 2720903,
+      "title": "Union",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Union_%28PvP%29",
+      "revision": 2720904,
+      "title": "Union (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27353",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27354,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一個等級%str1%的 聯合縛靈，每當範圍內的非靈盟友遭受傷害或者偷取生命時，將被減少%str2%，同時靈受到%str2%傷害，靈在%str3%秒後死亡。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

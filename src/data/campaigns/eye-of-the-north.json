@@ -1,14 +1,124 @@
 {
   "id": "eye-of-the-north",
   "name": {
-    "zhTW": "北方之眼",
+    "zhTW": "激戰間奏曲：極地之眼",
     "en": "Guild Wars: Eye of the North"
   },
   "shortName": "Eye of the North",
   "order": 4,
-  "description": "預留阿蘇拉、諾恩、黑檀先鋒與戴爾狄摩分支、故事 Quest、地下城和英雄招募。",
-  "status": "planned",
-  "regions": [],
+  "description": "已整理序章、全章總覽與 Norn 分支九份攻略。極地之眼分主線 Quest、故事副本、英雄招募和地下城；Asura、Ebon Vanguard、最終戰與其餘地下城仍在逐篇整理，本章尚未完成。",
+  "status": "available",
+  "regions": [
+    {
+      "id": "far-shiverpeaks",
+      "name": {
+        "en": "Far Shiverpeaks",
+        "zhTW": "席娃山脈極端"
+      },
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/62715"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          62715
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
+    },
+    {
+      "id": "depths-of-tyria",
+      "name": {
+        "en": "Depths of Tyria",
+        "zhTW": "泰瑞亞深處"
+      },
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/62717"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          62717
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
+    }
+  ],
   "structure": "branched",
-  "flow": []
+  "flow": [
+    {
+      "entry": "the-beginning-of-the-end",
+      "requires": [],
+      "branch": "序章"
+    },
+    {
+      "entry": "against-the-destroyers",
+      "requires": [
+        "the-beginning-of-the-end"
+      ],
+      "branch": "全章總覽"
+    },
+    {
+      "entry": "northern-allies",
+      "requires": [
+        "against-the-destroyers"
+      ],
+      "branch": "Norn 總覽（兩路皆須完成）"
+    },
+    {
+      "entry": "tracking-the-nornbear",
+      "requires": [
+        "northern-allies"
+      ],
+      "branch": "Norn 前導"
+    },
+    {
+      "entry": "curse-of-the-nornbear",
+      "requires": [
+        "tracking-the-nornbear"
+      ],
+      "branch": "Norn 追獵"
+    },
+    {
+      "entry": "flames-of-the-bear-spirit",
+      "requires": [
+        "curse-of-the-nornbear"
+      ],
+      "branch": "Norn 熊分支"
+    },
+    {
+      "entry": "vision-of-the-raven-spirit",
+      "requires": [
+        "curse-of-the-nornbear"
+      ],
+      "branch": "Norn 鴉分支"
+    },
+    {
+      "entry": "blood-washes-blood",
+      "requires": [
+        "flames-of-the-bear-spirit"
+      ],
+      "branch": "Norn 熊分支收尾"
+    },
+    {
+      "entry": "a-gate-too-far",
+      "requires": [
+        "vision-of-the-raven-spirit"
+      ],
+      "branch": "Norn 鴉分支收尾"
+    }
+  ],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/57898"
+  ],
+  "gameTextEvidence": {
+    "stringIds": [
+      57898
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
 }

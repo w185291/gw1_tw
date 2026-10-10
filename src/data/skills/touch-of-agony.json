@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "touch-of-agony",
+  "name": {
+    "en": "Touch of Agony",
+    "zhTW": "劇痛之觸",
+    "translationVerified": true
+  },
+  "clientSkillId": 158,
+  "icon": "/skills/touch-of-agony.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 1.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Target touched foe takes 20...50...58 shadow damage.",
+      "zhTW": "犧牲自己最大體力的 10 % ，碰觸目標敵人使其受到 20～58 暗影傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "ephaz",
+          "en": "Ephaz",
+          "zhTW": "Ephaz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ephaz (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Ephaz",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 10 % ，碰觸目標敵人使其受到 20～58 暗影傷害。",
+  "commonUses": [
+    "血魔法 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+      "revision": 2683676,
+      "title": "Touch of Agony",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25136"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25137,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 10 %% ，碰觸目標敵人使其受到 %str2% 暗影傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "drunken-master",
+  "name": {
+    "en": "Drunken Master",
+    "zhTW": "酒醉大師"
+  },
+  "clientSkillId": 2218,
+  "icon": "/skills/drunken-master.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 60,
+  "description": {
+    "pve": {
+      "en": "Stance. For 72...90 seconds, your movement and attack speeds are increased by 10...15%. If you are drunk while activating this skill, your movement and attack speeds are increased by 25...33% instead.",
+      "zhTW": "持續 72～90 秒，移動及攻擊速度加快 10～15% 。若在酒醉狀態發動此技能，移動及攻擊速度則為加快 25～33% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "deeprunner-s-map",
+          "en": "Deeprunner's Map",
+          "zhTW": "藏寶圖",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "umbral-grotto",
+              "en": "Umbral Grotto",
+              "zhTW": "陰影石穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Umbral_Grotto"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "藏寶圖 (Umbral Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Drunken_Master",
+        "url": "https://wiki.guildwars.com/wiki/Deeprunner%27s_Map",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 72～90 秒，移動及攻擊速度加快 10～15% 。若在酒醉狀態發動此技能，移動及攻擊速度則為加快 25～33% 。",
+  "commonUses": [
+    "Deldrimor rank · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Drunken_Master",
+      "revision": 2721144,
+      "title": "Drunken Master",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69867"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69868,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，移動及攻擊速度加快 %str1%%% 。若在酒醉狀態發動此技能，移動及攻擊速度則為加快 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

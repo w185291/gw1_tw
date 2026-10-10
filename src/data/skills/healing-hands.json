@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "healing-hands",
+  "name": {
+    "en": "Healing Hands",
+    "zhTW": "治癒之手",
+    "translationVerified": true
+  },
+  "clientSkillId": 285,
+  "icon": "/skills/healing-hands.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10 seconds, whenever target ally takes damage, that ally is healed for 5...29...35 Health.",
+      "zhTW": "持續 10 秒，每當目標盟友受到傷害時，該盟友同時獲得 5～35 體力治癒效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rull-browbeater",
+          "en": "Rull Browbeater",
+          "zhTW": "Rull Browbeater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rull Browbeater (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Rull_Browbeater",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 10 秒，每當目標盟友受到傷害時，該盟友同時獲得 5～35 體力治癒效果。",
+  "commonUses": [
+    "治療祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healing_Hands",
+      "revision": 2731195,
+      "title": "Healing Hands",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25780"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25781,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標盟友受到傷害時，該盟友同時獲得 %str1% 體力治癒效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,142 @@
+{
+  "pvpOnly": false,
+  "id": "they-re-on-fire",
+  "name": {
+    "en": "\"They're on Fire!\"",
+    "zhTW": "「他們著火了！」"
+  },
+  "clientSkillId": 1597,
+  "icon": "/skills/they-re-on-fire.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 10 seconds, party members within earshot take 5...29...35% less damage from foes suffering from Burning.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的隊伍成員，被正遭受「著火」病症的敵人攻擊時，受到的傷害減少 5～35% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/%22They%27re_on_Fire%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/%22They%27re_on_Fire%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，使音量所及範圍內的隊伍成員，被正遭受「著火」病症的敵人攻擊時，受到的傷害減少 5～35% 。",
+  "commonUses": [
+    "領導 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22They%27re_on_Fire%21%22",
+      "revision": 2741800,
+      "title": "\"They're on Fire!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36352"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36353,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的隊伍成員，被正遭受「著火」病症的敵人攻擊時，受到的傷害減少 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

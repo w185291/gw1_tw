@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "dark-apostasy",
+  "name": {
+    "en": "Dark Apostasy",
+    "zhTW": "黑暗變節",
+    "translationVerified": true
+  },
+  "clientSkillId": 1029,
+  "icon": "/skills/dark-apostasy.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 3...14...17 seconds, every time you successfully land a critical hit, you remove one enchantment from your target. If you remove an enchantment in this way, you lose 10...4...3 Energy or Dark Apostasy ends.",
+      "zhTW": "持續 3～17 秒，每當你成功擊出致命攻擊，從目標身上移除一項「加持」，同時你損失 10～3 能量或者黑暗變節的效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "darkroot-entrop",
+          "en": "Darkroot Entrop",
+          "zhTW": "Darkroot Entrop",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Darkroot Entrop (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
+        "url": "https://wiki.guildwars.com/wiki/Darkroot_Entrop",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "arius-dark-apostle",
+          "en": "Arius, Dark Apostle",
+          "zhTW": "Arius, Dark Apostle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Arius, Dark Apostle (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
+        "url": "https://wiki.guildwars.com/wiki/Arius,_Dark_Apostle",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 3～17 秒，每當你成功擊出致命攻擊，從目標身上移除一項「加持」，同時你損失 10～3 能量或者黑暗變節的效果終止。",
+  "commonUses": [
+    "致命攻擊 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
+      "revision": 2720685,
+      "title": "Dark Apostasy",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26426"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26427,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你成功擊出致命攻擊，從目標身上移除一項「加持」，同時你損失 %str1% 能量或者黑暗變節的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "feral-lunge",
+  "name": {
+    "en": "Feral Lunge",
+    "zhTW": "野性衝刺",
+    "translationVerified": true
+  },
+  "clientSkillId": 439,
+  "icon": "/skills/feral-lunge.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "pet-attack",
+    "en": "Pet attack",
+    "zhTW": "寵物攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Pet Attack. Your animal companion attempts a Feral Lunge that deals +5...29...35 damage. If the attack strikes a foe who is attacking, that foe suffers from Bleeding for 5...21...25 seconds.",
+      "zhTW": "你的寵物發動野性衝刺對敵人造成 5～35 額外傷害。若寵物擊中正在進行攻擊的敵人，則使其遭受「流血」病症 5～25 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Feral_Lunge",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Feral_Lunge",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-charr-patrol",
+          "en": "The Charr Patrol",
+          "zhTW": "The Charr Patrol",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Charr Patrol (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Feral_Lunge",
+        "url": "https://wiki.guildwars.com/wiki/The_Charr_Patrol",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "你的寵物發動野性衝刺對敵人造成 5～35 額外傷害。若寵物擊中正在進行攻擊的敵人，則使其遭受「流血」病症 5～25 秒。",
+  "commonUses": [
+    "野獸支配 · 寵物攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Feral_Lunge",
+      "revision": 2732690,
+      "title": "Feral Lunge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26236",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26239,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你的寵物發動野性衝刺對敵人造成 %str1% 額外傷害。若寵物擊中正在進行攻擊的敵人，則使其遭受「流血」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

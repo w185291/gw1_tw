@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "crystal-desert",
   "name": {
-    "zhTW": "巨龍巢穴",
+    "zhTW": "龍穴",
     "en": "The Dragon's Lair"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "巨龍巢穴",
+    "龍穴",
     "The Dragon's Lair",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "透過六個化身房間，會見葛琳特。",
+  "summary": "擊敗 Glint；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "巨龍巢穴據點",
+    "description": "完成占卜之石後自動到達本據點，組成 8 人隊按 Enter Mission。",
+    "location": "The Dragon's Lair",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,24 +50,53 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "擊敗 Glint",
+    "summary": "擊敗 Glint",
+    "trigger": "到 Glint 房間後先不進最後傳送門，拾取任一 Dragon Egg 觸發敵對。",
+    "steps": [
+      "到 Glint 房間後先不進最後傳送門，拾取任一 Dragon Egg 觸發敵對。",
+      "帶解降咒、姿態移除與技能打斷。Crystal Hibernation 生效期間不可持續輸出幫她回血。",
+      "即使挑戰 Glint 全滅仍保留主線完成，並被送到 Droknar's Forge；但未殺 Glint 不會獲 Bonus。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "即使挑戰 Glint 全滅仍保留主線完成，並被送到 Droknar's Forge；但未殺 Glint 不會獲 Bonus。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "開門與生命流失區",
+      "content": "與 Forgotten Gate Keeper 交談開第一道門。依序經過六個職業房間，每房殺 Facet 後走傳送門。第一房持續生命減少，沿左側推進，先清補師型 Forgotten Sages，再以拆加持或打斷處理 Facet of Light。"
+    },
+    {
+      "title": "移動減速區",
+      "content": "第二房全區減速；高台弓手可用長弓引到低處。Facet of Nature 使用 Melandru's Resilience，不要用無關痛癢的狀態持續幫它回血，或準備移除姿態。"
+    },
+    {
+      "title": "混沌區與能量流失區",
+      "content": "第三房蜘蛛會拆加持，幻術敵人隔晶牆施法；先用非投射技能處理再前進。第四房持續扣能量，敵人死亡爆炸會造成傷害及毒，避免全隊站在屍體堆旁一起吃爆炸。"
+    },
+    {
+      "title": "元素區與力量區",
+      "content": "第五房不要站在環境法術範圍內戰鬥。第六房每 25 秒全員會倒地 5 秒，帶防擊倒或提前防護；優先清能利用倒地追加傷害的 Crystal Guardians，再殺 Facet of Strength。"
+    },
+    {
+      "title": "見到 Glint 先決定 Bonus",
+      "content": "到達 Glint 已取得主線信用，最後傳送門會帶全隊離開；想打 Bonus 就不要有人走進去。先補滿、布置隊伍，再撿 Dragon Egg 使 Glint 敵對。"
+    },
+    {
+      "title": "分散應對 Glint",
+      "content": "Crystal Haze 妨礙施法，需解降咒並分散。Jagged Crystal Skin 對物理攻擊反擊，近戰停止硬打或拆姿態／改元素傷害。Crystal Hibernation 有長施法，應打斷；已生效則停火，避免傷害變成治療。擊敗 Glint 即取得 Bonus。"
+    }
+  ],
+  "routeSummary": "開門與生命流失區 → 移動減速區 → 混沌區與能量流失區 → 元素區與力量區 → 見到 Glint 先決定 Bonus → 分散應對 Glint",
   "mapImage": "/maps/The_Dragon's_Lair_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/The_Dragon's_Lair_map.jpg",
       "title": "主線路線圖",
-      "alt": "巨龍巢穴・主線路線圖",
+      "alt": "龍穴・主線路線圖",
       "width": 432,
       "height": 379,
       "filePage": "https://wiki.guildwars.com/wiki/File:The_Dragon%27s_Lair_map.jpg",
@@ -78,13 +107,243 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Facet of Strength",
+        "zhTW": "Facet of Strength（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Gladiator's Defense",
+        "Healing Signet",
+        "Power Attack",
+        "Wild Blow",
+        "Stun Immunity"
+      ],
+      "eliteSkills": [
+        "Gladiator's Defense"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Strength",
+      "revision": 2428224,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Facet_of_Strength"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Facet of Nature",
+        "zhTW": "Facet of Nature（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Hunter's Shot",
+        "Melandru's Resilience",
+        "Pin Down"
+      ],
+      "eliteSkills": [
+        "Melandru's Resilience"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Nature",
+      "revision": 2329841,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Facet of Light",
+        "zhTW": "Facet of Light（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Guardian",
+        "Shield of Regeneration",
+        "Signet of Devotion"
+      ],
+      "eliteSkills": [
+        "Shield of Regeneration"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Light",
+      "revision": 1882830,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Facet of Darkness",
+        "zhTW": "Facet of Darkness（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Curses",
+        "Blood Renewal",
+        "Grenth's Balance",
+        "Parasitic Bond",
+        "Unholy Feast"
+      ],
+      "eliteSkills": [
+        "Grenth's Balance"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Darkness",
+      "revision": 1882828,
+      "dangerousSkills": [
+        {
+          "name": "Unholy Feast",
+          "counter": "後排與敵人保持距離，避免全隊近身承受偷取生命並讓它大量回血。",
+          "source": "https://wiki.guildwars.com/wiki/Facet_of_Darkness"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Facet of Chaos",
+        "zhTW": "Facet of Chaos（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Diversion",
+        "Ether Feast",
+        "Mantra of Recall",
+        "Shatter Hex"
+      ],
+      "eliteSkills": [
+        "Mantra of Recall"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Chaos",
+      "revision": 1893955,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Facet of Elements",
+        "zhTW": "Facet of Elements（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aftershock",
+        "Aura of Restoration",
+        "Crystal Wave",
+        "Lightning Surge",
+        "Shock"
+      ],
+      "eliteSkills": [
+        "Lightning Surge"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Facet_of_Elements",
+      "revision": 2098335,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Glint",
+        "zhTW": "Glint（繁中名稱待確認）"
+      },
+      "profession": "非玩家職業（龍）",
+      "importantSkills": [
+        "Crystal Bonds",
+        "Crystal Haze",
+        "Crystal Hibernation",
+        "Jagged Crystal Skin"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "龍，沒有玩家職業欄；不能擊倒。拿取 Dragon Egg 才轉為敵對，擊敗可完成 Bonus。"
+      ],
+      "strategy": "先解 Crystal Haze，Jagged Crystal Skin 生效時拆姿態或停物理攻擊；打斷 Crystal Hibernation，已生效就停火避免把傷害轉成治療。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Glint",
+      "revision": 2680776,
+      "dangerousSkills": [
+        {
+          "name": "Crystal Haze",
+          "counter": "先移除降咒再施法，避免施法者被耗乾能量。",
+          "source": "https://wiki.guildwars.com/wiki/Glint"
+        },
+        {
+          "name": "Crystal Hibernation",
+          "counter": "優先打斷；已生效時停火，避免傷害轉成治療。",
+          "source": "https://wiki.guildwars.com/wiki/Glint"
+        },
+        {
+          "name": "Jagged Crystal Skin",
+          "counter": "移除姿態，或停用物理攻擊直到效果結束。",
+          "source": "https://wiki.guildwars.com/wiki/Glint"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "需要群體治療、能量管理、防擊倒與解降咒，處理各房環境效果。",
+    "Bonus 加入姿態移除及可打斷技能的控制；遠距離站位減少反擊壓力。"
+  ],
+  "tips": [
+    "離開 Glint 的最後傳送門後到 Droknar's Forge。後續主線 Seeking The Seer 帶往南方山區，前往悲傷冰谷據點。"
+  ],
+  "warnings": [
+    "每房傳送會留下原地靈體與部分召喚盟友，進新房要重新布置。",
+    "任一隊員走入 Glint 的出口傳送門會帶隊離開，事先協調是否挑戰 Bonus。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "房間順序不變。第三房隔牆施法者與第六房的 Crystal Guardian／全體倒地組合更危險，先清控制與爆發來源。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +363,108 @@
       "revision": 2728086,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Strength",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Strength",
+      "revision": 2428224,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Nature",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Nature",
+      "revision": 2329841,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Light",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Light",
+      "revision": 1882830,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Darkness",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Darkness",
+      "revision": 1882828,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Chaos",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Chaos",
+      "revision": 1893955,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Facet of Elements",
+      "url": "https://wiki.guildwars.com/wiki/Facet_of_Elements",
+      "revision": 2098335,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Glint",
+      "url": "https://wiki.guildwars.com/wiki/Glint",
+      "revision": 2680776,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "augury-rock",
   "nextMission": "ice-caves-of-sorrow",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10420"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "離開 Glint 的最後傳送門後到 Droknar's Forge。後續主線 Seeking The Seer 帶往南方山區，前往悲傷冰谷據點。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10420
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "Seeking The Seer",
+        "zhTW": "Seeking The Seer（繁中名稱待確認）"
+      },
+      "giver": "Captain Hugo Bronzebeard",
+      "location": "Droknar's Forge",
+      "directions": "在 Droknar's Forge 找 Captain Hugo Bronzebeard 接取次要任務，出 Talus Chute 沿箭頭找 Korg Snowfoot。靠近時 Stone Summit 會攻擊他，先救人再對話；在找到下一位偵察兵前換區會重設這段進度。依新箭頭找 Onar Ironblood，再抵達 Ice Caves of Sorrow 據點，向 Blade Scout Shelby 回報。",
+      "url": "https://wiki.guildwars.com/wiki/Seeking_The_Seer",
+      "revision": 2721383,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "secondary"
+    }
+  ]
 }

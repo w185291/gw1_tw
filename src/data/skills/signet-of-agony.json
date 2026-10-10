@@ -1,0 +1,469 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-agony",
+  "name": {
+    "en": "Signet of Agony",
+    "zhTW": "劇痛紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 145,
+  "icon": "/skills/signet-of-agony.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Signet. You suffer from Bleeding for 25 seconds. All nearby foes take 10...58...70 damage.",
+      "zhTW": "犧牲自己最大體力的 10% 並且遭受「流血」病症 25 秒。對所有鄰近的敵人造成 10～70 傷害。"
+    },
+    "pvp": {
+      "en": "Signet. You suffer from Bleeding for 25 seconds. All nearby foes take 10...58...70 damage.",
+      "zhTW": "犧牲自己最大體力的 10% 並且遭受「流血」病症 25 秒。對所有鄰近的敵人造成 10～70 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Agony (PvP)",
+      "description": {
+        "en": "Signet. You suffer from Bleeding for 25 seconds. All nearby foes take 10...58...70 damage.",
+        "zhTW": "犧牲自己最大體力的 10% 並且遭受「流血」病症 25 秒。對所有鄰近的敵人造成 10～70 傷害。"
+      },
+      "stats": {
+        "Sacrifice": 10.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_%28PvP%29",
+        "revision": 2630006,
+        "title": "Signet of Agony (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3059
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "a-belated-betrothal",
+          "en": "A Belated Betrothal",
+          "zhTW": "A Belated Betrothal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seeker-s-passage",
+              "en": "Seeker's Passage",
+              "zhTW": "探索者通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seeker%27s_Passage"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Belated Betrothal (Seeker's Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/A_Belated_Betrothal",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "numa-plaguemane",
+          "en": "Numa Plaguemane",
+          "zhTW": "Numa Plaguemane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Numa Plaguemane (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Numa_Plaguemane",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "cootle-sizzlehorn",
+          "en": "Cootle Sizzlehorn",
+          "zhTW": "Cootle Sizzlehorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cootle Sizzlehorn (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Cootle_Sizzlehorn",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "zalo-soulhaunch",
+          "en": "Zalo Soulhaunch",
+          "zhTW": "Zalo Soulhaunch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zalo Soulhaunch (The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Zalo_Soulhaunch",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mandragor-queen",
+          "en": "Mandragor Queen",
+          "zhTW": "Mandragor Queen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "queen-of-the-quarry",
+              "en": "Queen of the Quarry",
+              "zhTW": "Queen of the Quarry",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Queen_of_the_Quarry"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mandragor Queen (Cliffs of Dohjok, during Queen of the Quarry)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Mandragor_Queen",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "najab-lifedrinker",
+          "en": "Najab Lifedrinker",
+          "zhTW": "Najab Lifedrinker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lahtenda-bog",
+              "en": "Lahtenda Bog",
+              "zhTW": "洛天帝沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Najab Lifedrinker (Lahtenda Bog)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Najab_Lifedrinker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "shelboh-the-ravenous",
+          "en": "Shelboh the Ravenous",
+          "zhTW": "Shelboh the Ravenous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shelboh the Ravenous (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Shelboh_the_Ravenous",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "terob-roundback",
+          "en": "Terob Roundback",
+          "zhTW": "Terob Roundback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Terob Roundback (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Terob_Roundback",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "wioli-the-infectious",
+          "en": "Wioli the Infectious",
+          "zhTW": "Wioli the Infectious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Wioli the Infectious (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+        "url": "https://wiki.guildwars.com/wiki/Wioli_the_Infectious",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 10% 並且遭受「流血」病症 25 秒。對所有鄰近的敵人造成 10～70 傷害。",
+  "commonUses": [
+    "血魔法 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+      "revision": 2718963,
+      "title": "Signet of Agony",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_%28PvP%29",
+      "revision": 2630006,
+      "title": "Signet of Agony (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25110",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25111,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 10%% 並且遭受「流血」病症 25 秒。對所有鄰近的敵人造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

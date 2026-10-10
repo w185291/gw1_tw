@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "mental-block",
+  "name": {
+    "en": "Mental Block",
+    "zhTW": "精神隔絕"
+  },
+  "clientSkillId": 2417,
+  "icon": "/skills/mental-block.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...11 seconds you have a 50% chance to block attacks. This Enchantment is reapplied every time an enemy strikes you.",
+      "zhTW": "持續 5～11 秒，你有 50% 的機率可格擋攻擊。每次受到敵人攻擊時，皆會重新啟動此加持效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-cipher-of-balthazar",
+          "en": "The Cipher of Balthazar",
+          "zhTW": "The Cipher of Balthazar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Cipher of Balthazar (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Mental_Block",
+        "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Balthazar",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 5～11 秒，你有 50% 的機率可格擋攻擊。每次受到敵人攻擊時，皆會重新啟動此加持效果。",
+  "commonUses": [
+    "Asura rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mental_Block",
+      "revision": 2647105,
+      "title": "Mental Block",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72857"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72858,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 %str1%%% 的機率可格擋攻擊。每次受到敵人攻擊時，皆會重新啟動此加持效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

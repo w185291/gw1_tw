@@ -1,0 +1,402 @@
+{
+  "pvpOnly": false,
+  "id": "barrage",
+  "name": {
+    "en": "Barrage",
+    "zhTW": "齊射",
+    "translationVerified": true
+  },
+  "clientSkillId": 395,
+  "icon": "/skills/barrage.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 1.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. All your preparations are removed. Shoot arrows at target foe and up to 5 foes adjacent to your target. These arrows strike for +5...17...20 damage if they hit.",
+      "zhTW": "同時攻擊最多 6 名鄰近目標的敵人，對這些敵人造成 5～20 額外傷害。使用此技能會讓你的所有「準備」狀態終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "markis",
+          "en": "Markis",
+          "zhTW": "Markis",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Markis (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Markis",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "snyk-the-hundred-tongue",
+          "en": "Snyk the Hundred Tongue",
+          "zhTW": "Snyk the Hundred Tongue",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Snyk the Hundred Tongue (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Snyk_the_Hundred_Tongue",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "cairn-the-cunning",
+          "en": "Cairn the Cunning",
+          "zhTW": "Cairn the Cunning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "war-in-kryta",
+              "en": "War in Kryta",
+              "zhTW": "War in Kryta",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/War_in_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Cunning (Riverside Province (explorable area), only during the War in Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Cunning",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "aurora",
+          "en": "Aurora",
+          "zhTW": "Aurora",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Aurora (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Aurora",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "chkkr-thousand-tail",
+          "en": "Chkkr Thousand Tail",
+          "zhTW": "Chkkr Thousand Tail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drazach-thicket",
+              "en": "Drazach Thicket",
+              "zhTW": "德瑞札灌木林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chkkr Thousand Tail (Drazach Thicket)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Chkkr_Thousand_Tail",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "commander-kubeh",
+          "en": "Commander Kubeh",
+          "zhTW": "Commander Kubeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          },
+          {
+            "name": {
+              "id": "the-great-escape",
+              "en": "The Great Escape",
+              "zhTW": "The Great Escape",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Great_Escape"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Kubeh (Arkjok Ward, only during The Great Escape)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Kubeh",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "bearer-of-misfortune",
+          "en": "Bearer of Misfortune",
+          "zhTW": "Bearer of Misfortune",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-pain",
+              "en": "Domain of Pain",
+              "zhTW": "苦痛領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Pain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bearer of Misfortune (Domain of Pain)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Bearer_of_Misfortune",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "groknar-weazlewortz",
+          "en": "Groknar Weazlewortz",
+          "zhTW": "Groknar Weazlewortz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Groknar Weazlewortz (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Groknar_Weazlewortz",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "docu-kindleshot",
+          "en": "Docu Kindleshot",
+          "zhTW": "Docu Kindleshot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Docu Kindleshot (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Docu_Kindleshot",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "frostmaw-spawn",
+          "en": "Frostmaw Spawn",
+          "zhTW": "Frostmaw Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frostmaw-s-burrow",
+              "en": "Frostmaw's Burrow",
+              "zhTW": "Frostmaw's Burrow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frostmaw%27s_Burrow"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Frostmaw Spawn (Frostmaw's Burrow)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Frostmaw_Spawn",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "storm-of-destruction",
+          "en": "Storm of Destruction",
+          "zhTW": "Storm of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Storm of Destruction (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Barrage",
+        "url": "https://wiki.guildwars.com/wiki/Storm_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "同時攻擊最多 6 名鄰近目標的敵人，對這些敵人造成 5～20 額外傷害。使用此技能會讓你的所有「準備」狀態終止。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Barrage",
+      "revision": 2733120,
+      "title": "Barrage",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26148"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26149,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "同時攻擊最多 6 名鄰近目標的敵人，對這些敵人造成 %str2% 額外傷害。使用此技能會讓你的所有「準備」狀態終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

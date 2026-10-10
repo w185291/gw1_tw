@@ -1,0 +1,315 @@
+{
+  "pvpOnly": false,
+  "id": "battle-rage",
+  "name": {
+    "en": "Battle Rage",
+    "zhTW": "戰鬥憤怒",
+    "translationVerified": true
+  },
+  "clientSkillId": 317,
+  "icon": "/skills/battle-rage.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 5...17...20 seconds, you move 33% faster and gain double adrenaline from attacks. Battle Rage ends if you use any non-adrenal skills.",
+      "zhTW": "持續5～20秒，移動速度增加33%，獲得雙倍怒氣，一旦使用非怒氣技能則戰鬥憤怒停止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "smukk-foombool",
+          "en": "Smukk Foombool",
+          "zhTW": "Smukk Foombool",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Smukk Foombool (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Smukk_Foombool",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "krogg-shmush-shiverpeak-mountains",
+          "en": "Krogg Shmush (Shiverpeak Mountains)",
+          "zhTW": "Krogg Shmush (Shiverpeak Mountains)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Krogg Shmush (Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Krogg_Shmush_(Shiverpeak_Mountains)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "arrahhsh-mountainclub",
+          "en": "Arrahhsh Mountainclub",
+          "zhTW": "Arrahhsh Mountainclub",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pongmei-valley",
+              "en": "Pongmei Valley",
+              "zhTW": "朋美谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Arrahhsh Mountainclub (Pongmei Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Arrahhsh_Mountainclub",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "mount-qinkai",
+          "en": "Mount Qinkai",
+          "zhTW": "今凱山",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "return-of-the-yeti",
+              "en": "Return of the Yeti",
+              "zhTW": "Return of the Yeti",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Return_of_the_Yeti"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Arrahhsh Mountainclub (Mount Qinkai, during Return of the Yeti)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Mount_Qinkai",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "initiate-jeng-sunjoo",
+          "en": "Initiate Jeng Sunjoo",
+          "zhTW": "Initiate Jeng Sunjoo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "ever-closer-to-the-edge",
+              "en": "Ever Closer to the Edge",
+              "zhTW": "Ever Closer to the Edge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ever_Closer_to_the_Edge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Initiate Jeng Sunjoo (Gyala Hatchery (explorable area), during Ever Closer to the Edge)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Initiate_Jeng_Sunjoo",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "saevio-proelium",
+          "en": "Saevio Proelium",
+          "zhTW": "Saevio Proelium",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-pain",
+              "en": "Domain of Pain",
+              "zhTW": "苦痛領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Pain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Saevio Proelium (Domain of Pain)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Saevio_Proelium",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cobleri-arronn",
+          "en": "Cobleri Arronn",
+          "zhTW": "Cobleri Arronn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cobleri Arronn (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Cobleri_Arronn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "avatar-of-destruction-warrior",
+          "en": "Avatar of Destruction (warrior)",
+          "zhTW": "Avatar of Destruction (warrior)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destruction-s-depths",
+              "en": "Destruction's Depths",
+              "zhTW": "破壞的深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avatar of Destruction (warrior) (Destruction's Depths)",
+        "source": "https://wiki.guildwars.com/wiki/Battle_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Avatar_of_Destruction_(warrior)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續5～20秒，移動速度增加33%，獲得雙倍怒氣，一旦使用非怒氣技能則戰鬥憤怒停止。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Battle_Rage",
+      "revision": 2736499,
+      "title": "Battle Rage",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25845",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25846,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，移動速度增加%str1%%%，獲得雙倍怒氣，一旦使用非怒氣技能則戰鬥憤怒停止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

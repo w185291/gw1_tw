@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "dark-escape",
+  "name": {
+    "en": "Dark Escape",
+    "zhTW": "黑暗脫逃",
+    "translationVerified": true
+  },
+  "clientSkillId": 1037,
+  "icon": "/skills/dark-escape.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...13...15 seconds, you move 25% faster and take half damage. Dark Escape ends if you successfully hit with an attack.",
+      "zhTW": "持續 5～15 秒，你的移動速度增加 25% 並且受到的傷害減半。當你攻擊成功命中目標時，黑暗脫逃的效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Escape",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 5～15 秒，你的移動速度增加 25% 並且受到的傷害減半。當你攻擊成功命中目標時，黑暗脫逃的效果終止。",
+  "commonUses": [
+    "暗影技巧 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dark_Escape",
+      "revision": 2683966,
+      "title": "Dark Escape",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26486"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26487,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度增加 %str1%%% 並且受到的傷害減半。當你攻擊成功命中目標時，黑暗脫逃的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

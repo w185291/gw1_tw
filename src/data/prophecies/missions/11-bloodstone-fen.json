@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "到血石查明真相，擊殺 Hablion 與護衛。",
+  "summary": "用藤種子搭橋前往血石。Bonus 需要喚醒四位德魯伊，全程避免殺死叢林守衛。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "血石沼澤據點",
+    "description": "從 Silverwood 進入 Bloodstone Fen 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Bloodstone Fen 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,51 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "喚醒四名 Druids 並與 Elder Druid 交談",
+    "summary": "喚醒四名 Druids 並與 Elder Druid 交談",
+    "trigger": "四位德魯伊以藤種子喚醒；長老出現前任何一名 Jungle Guardian 死亡都會使 Bonus 失敗並召出 Ravagers。",
+    "steps": [
+      "四位德魯伊以藤種子喚醒；長老出現前任何一名 Jungle Guardian 死亡都會使 Bonus 失敗並召出 Ravagers。",
+      "守衛追逐距離短、傷害不高，直接跑過到安全點補血通常比打它們安全。苔蘚甲蟲可以殺，別混淆。",
+      "長老出現後仍需交談。Bonus 完成後守衛不再主動攻擊，除非你攻擊它們。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "長老出現後仍需交談。Bonus 完成後守衛不再主動攻擊，除非你攻擊它們。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "取得第一顆種子",
+      "content": "起點 Saidra 告知斥候 Ryder 已先行並放下 Vine Seed。在發光圈放種子造橋；後續花朵按一次產生種子，取種子會冒出苔蘚甲蟲。"
+    },
+    {
+      "title": "攜帶足夠種子",
+      "content": "原圖 A、C 等處提供後續搭橋所需種子。單人只能一顆顆搬，原圖 C 較靠近最後橋，可減少折返。"
+    },
+    {
+      "title": "先調整英雄行為",
+      "content": "走德魯伊支路前將英雄設為避免戰鬥、寵物跟隨，停用召喚骸骨與攻擊生靈技能；暫不要用召喚石。避免誤殺 Jungle Guardians。"
+    },
+    {
+      "title": "完成德魯伊支線",
+      "content": "原圖 1 放藤種子喚醒第一位，他會搭橋並慢慢走到 4；附近 2 的花朵有種子，依 3 的其餘三處位置依次喚醒。等長老出現並交談完成 Bonus。"
+    },
+    {
+      "title": "接回通往血石的道路",
+      "content": "可沿藍色回程支路接主線。Ryder 並非必要對話；依地圖藤橋前往血石即可。"
+    },
+    {
+      "title": "先清兩側治療者",
+      "content": "不要直接衝中央 Hablion。先沿血石一側殺 White Mantle Abbot 與同伴，再繞到另一側清另一組，避免從中央穿過引頭目。"
+    },
+    {
+      "title": "擊殺主線目標",
+      "content": "最後集中擊殺 Hablion 與護衛。血石上的復活施法受到 Curse of the Bloodstone 減慢，注意不要在石面上集體倒下。"
+    }
+  ],
+  "routeSummary": "Saidra 取種子 → 藤橋 → 德魯伊支路 → 喚醒長老 → 接回主路 → 血石兩側治療者 → Hablion",
   "mapImage": "/maps/Bloodstone_Fen_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +111,337 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Mossk Rottail",
+        "zhTW": "Mossk Rottail（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Deathly Chill",
+        "Enfeebling Blood",
+        "Life Siphon",
+        "Well of Suffering"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Mossk_Rottail",
+      "revision": 2414497,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Mossk_Rottail"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tree of Winds",
+        "zhTW": "Tree of Winds（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tree_of_Winds",
+      "revision": 2463593,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Tree of Life",
+        "zhTW": "Tree of Life（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Guardian",
+        "Rebirth",
+        "Scourge Sacrifice",
+        "Watchful Spirit",
+        "Holy Wrath"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tree_of_Life",
+      "revision": 2679952,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Thornwrath",
+        "zhTW": "Thornwrath（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aftershock",
+        "Aura of Restoration",
+        "Earthquake",
+        "Stoning"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Thornwrath",
+      "revision": 2463591,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Justiciar Hablion",
+        "zhTW": "Justiciar Hablion（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Axe Rake",
+        "Cyclone Axe",
+        "Dismember",
+        "Healing Signet",
+        "Wild Blow",
+        "Cleave",
+        "Executioner's Strike",
+        "Protector's Defense"
+      ],
+      "eliteSkills": [
+        "Cleave"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Justiciar_Hablion",
+      "revision": 2611658,
+      "dangerousSkills": [
+        {
+          "name": "Cyclone Axe",
+          "counter": "前排以外保持距離，避免多名隊員同吃近身範圍攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Justiciar_Hablion"
+        },
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Justiciar_Hablion"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Torr the Relentless",
+        "zhTW": "Torr the Relentless（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Antidote Signet",
+        "Dryder's Defenses",
+        "Savage Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Torr_the_Relentless",
+      "revision": 2463581,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Torr_the_Relentless"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ramm the Benevolent",
+        "zhTW": "Ramm the Benevolent（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Convert Hexes",
+        "Divine Intervention",
+        "Judge's Insight",
+        "Restore Life",
+        "Shielding Hands"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+      "revision": 2632190,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Oswald the Amiable",
+        "zhTW": "Oswald the Amiable（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Mark of Subversion",
+        "Order of Pain",
+        "Vampiric Gaze",
+        "Well of the Profane"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Oswald_the_Amiable",
+      "revision": 2463583,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Nyle the Compassionate",
+        "zhTW": "Nyle the Compassionate（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Guilt",
+        "Shame",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Nyle_the_Compassionate",
+      "revision": 2566080,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Pleoh the Ugly",
+        "zhTW": "Pleoh the Ugly（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Glyph of Elemental Power",
+        "Searing Heat",
+        "Ward Against Elements"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Pleoh_the_Ugly",
+      "revision": 2463586,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Hepp Bilespitter",
+        "zhTW": "Hepp Bilespitter（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Cry of Frustration",
+        "Empathy",
+        "Ether Feast",
+        "Hex Breaker",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Hepp_Bilespitter",
+      "revision": 2266333,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Hepp_Bilespitter"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "保留解降咒、解病症與近戰防護，對付風騎士、巨魔與甲蟲。"
+  ],
+  "tips": [
+    "種子放錯會嘗試長橋再恢复原狀，撿起即可，不會因而消失。",
+    "全圖採種花的數量通常提示需要多少種子；不是每次都能從同一朵重複取得。",
+    "通關後到Quarrel Falls（Quarrel Falls）。"
+  ],
+  "warnings": [
+    "四位德魯伊以藤種子喚醒；長老出現前任何一名 Jungle Guardian 死亡都會使 Bonus 失敗並召出 Ravagers。",
+    "準備隊伍加速、投射物防護，帶英雄繞守衛時使用旗標，免得隊員被兩群交叉火力夾住。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "準備隊伍加速、投射物防護，帶英雄繞守衛時使用旗標，免得隊員被兩群交叉火力夾住。",
+      "保留解降咒、解病症與近戰防護，對付風騎士、巨魔與甲蟲。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +461,166 @@
       "revision": 2725862,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Mossk Rottail",
+      "url": "https://wiki.guildwars.com/wiki/Mossk_Rottail",
+      "revision": 2414497,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tree of Winds",
+      "url": "https://wiki.guildwars.com/wiki/Tree_of_Winds",
+      "revision": 2463593,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tree of Life",
+      "url": "https://wiki.guildwars.com/wiki/Tree_of_Life",
+      "revision": 2679952,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Thornwrath",
+      "url": "https://wiki.guildwars.com/wiki/Thornwrath",
+      "revision": 2463591,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Justiciar Hablion",
+      "url": "https://wiki.guildwars.com/wiki/Justiciar_Hablion",
+      "revision": 2611658,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Torr the Relentless",
+      "url": "https://wiki.guildwars.com/wiki/Torr_the_Relentless",
+      "revision": 2463581,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ramm the Benevolent",
+      "url": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+      "revision": 2632190,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Oswald the Amiable",
+      "url": "https://wiki.guildwars.com/wiki/Oswald_the_Amiable",
+      "revision": 2463583,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nyle the Compassionate",
+      "url": "https://wiki.guildwars.com/wiki/Nyle_the_Compassionate",
+      "revision": 2566080,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Pleoh the Ugly",
+      "url": "https://wiki.guildwars.com/wiki/Pleoh_the_Ugly",
+      "revision": 2463586,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hepp Bilespitter",
+      "url": "https://wiki.guildwars.com/wiki/Hepp_Bilespitter",
+      "revision": 2266333,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "the-wilds",
   "nextMission": "aurora-glade",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10498",
+    "game-client://2026-10-09/string/57852"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到Quarrel Falls（Quarrel Falls）。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10498,
+      57852
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "White Mantle Wrath: Demagogue's Vanguard",
+        "zhTW": "White Mantle Wrath: Demagogue's Vanguard（繁中名稱待確認）"
+      },
+      "giver": "Gareth Quickblade",
+      "location": "Quarrel Falls (Maguuma Jungle)",
+      "directions": "在 Quarrel Falls 找 Gareth Quickblade 接取。出 Silverwood，依三個箭頭擊殺各兩名 White Mantle Knight 加一名 Sycophant；最後一隊靠近 Ettin's Back 入口。穿過入口，到 Ventari's Refuge 外找 Councilor Vaylor 回報並接 Urgent Warning。",
+      "url": "https://wiki.guildwars.com/wiki/White_Mantle_Wrath%3A_Demagogue%27s_Vanguard",
+      "revision": 2724993,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "White Mantle Wrath: A Helping Hand",
+        "zhTW": "White Mantle Wrath: A Helping Hand（繁中名稱待確認）"
+      },
+      "giver": "Councilor Vaylor",
+      "location": "Ettin's Back (Maguuma Jungle)",
+      "directions": "Councilor Vaylor 同時提供的可選任務，不是 Urgent Warning 的必要前置。進 Ventari's Refuge 找 Ventari，他不會參戰；回到外面清三隊 White Mantle，每隊兩名 Knight 加一名 Sycophant，可借 Shining Blade 友軍協助。回 Councilor Vaylor 領獎。",
+      "url": "https://wiki.guildwars.com/wiki/White_Mantle_Wrath%3A_A_Helping_Hand",
+      "revision": 2725243,
+      "translationStatus": "needs-review",
+      "optional": true,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "Urgent Warning",
+        "zhTW": "Urgent Warning（繁中名稱待確認）"
+      },
+      "giver": "Councilor Vaylor",
+      "location": "Ettin's Back (Maguuma Jungle)",
+      "directions": "完成 Demagogue's Vanguard 後，直接向 Ettin's Back 的 Councilor Vaylor 接取；不用先完成 A Helping Hand。沿路往 Snakebite，再朝東北進 Aurora Glade 據點，向 Elder Gretchen 回報。",
+      "url": "https://wiki.guildwars.com/wiki/Urgent_Warning",
+      "revision": 2724991,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

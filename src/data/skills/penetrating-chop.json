@@ -1,0 +1,169 @@
+{
+  "pvpOnly": false,
+  "id": "penetrating-chop",
+  "name": {
+    "en": "Penetrating Chop",
+    "zhTW": "貫穿砍擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1136,
+  "icon": "/skills/penetrating-chop.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "Axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Axe Attack. If this attack hits, you strike for +10...22...25 damage. This axe attack has 20% armor penetration.",
+      "zhTW": "命中時對目標造成 10～25 額外傷害，這項斧攻擊技能具有 20% 防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "命中時對目標造成 10～25 額外傷害，這項斧攻擊技能具有 20% 防禦穿透效果。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "penetrating-attack",
+      "en": "Penetrating Attack",
+      "zhTW": "穿刺攻擊",
+      "translationVerified": true
+    },
+    {
+      "id": "sundering-attack",
+      "en": "Sundering Attack",
+      "zhTW": "割裂攻擊",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
+      "revision": 2738513,
+      "title": "Penetrating Chop",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/26946"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26947,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害，這項斧攻擊技能具有 20%% 防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

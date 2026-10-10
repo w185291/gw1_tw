@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "lingering-curse",
+  "name": {
+    "en": "Lingering Curse",
+    "zhTW": "強力詛咒",
+    "translationVerified": true
+  },
+  "clientSkillId": 142,
+  "icon": "/skills/lingering-curse.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 6...25...30 seconds, target foe and all nearby foes suffer -1...3...4 Health degeneration, and gain 25% less benefit from healing.",
+      "zhTW": "持續6～30秒，目標以及附近敵人受到1～4體力衰減，受到的治療量減少25%。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "grenth-s-cursed",
+          "en": "Grenth's Cursed",
+          "zhTW": "Grenth's Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Grenth's Cursed (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+        "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Cursed",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "craw-stonereap",
+          "en": "Craw Stonereap",
+          "zhTW": "Craw Stonereap",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone-explorable-area",
+              "en": "Arborstone (explorable area)",
+              "zhTW": "Arborstone (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Craw Stonereap (Arborstone (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+        "url": "https://wiki.guildwars.com/wiki/Craw_Stonereap",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-necromancer",
+          "en": "Monstrous Afflicted Necromancer",
+          "zhTW": "Monstrous Afflicted Necromancer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail-winds-of-change",
+              "en": "Morostav Trail (Winds of Change)",
+              "zhTW": "Morostav Trail (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Necromancer (Morostav Trail (Winds of Change), only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Necromancer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "creo-vulnero",
+          "en": "Creo Vulnero",
+          "zhTW": "Creo Vulnero",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Creo Vulnero (Domain of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+        "url": "https://wiki.guildwars.com/wiki/Creo_Vulnero",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續6～30秒，目標以及附近敵人受到1～4體力衰減，受到的治療量減少25%。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+      "revision": 2732023,
+      "title": "Lingering Curse",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25104",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25105,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標以及附近敵人受到%str1%體力衰減，受到的治療量減少%str2%%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

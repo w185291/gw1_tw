@@ -1,0 +1,263 @@
+{
+  "pvpOnly": false,
+  "id": "holy-wrath",
+  "name": {
+    "en": "Holy Wrath",
+    "zhTW": "神威",
+    "translationVerified": true
+  },
+  "clientSkillId": 249,
+  "icon": "/skills/holy-wrath.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 10...26...30 seconds, the next 1...8...10 time[s] target other ally takes attack damage, this spell deals 66% of the damage back to the source (maximum of 5...41...50 damage).",
+      "zhTW": "持續 10～30 秒，目標其他盟友接下來 1～10 次受到的攻擊傷害，反彈給攻擊者 66%。 (最多 5～50 )"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-greywind",
+          "en": "Captain Greywind",
+          "zhTW": "Captain Greywind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Greywind (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Greywind",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ming-the-judgment",
+          "en": "Ming the Judgment",
+          "zhTW": "Ming the Judgment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ming the Judgment (The Undercity (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Ming_the_Judgment",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dimsur-cheefai",
+          "en": "Dimsur Cheefai",
+          "zhTW": "Dimsur Cheefai",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Dimsur Cheefai (The Undercity (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Dimsur_Cheefai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-monk",
+          "en": "Monstrous Afflicted Monk",
+          "zhTW": "Monstrous Afflicted Monk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Monk (Morostav Trail, during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Monk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 10～30 秒，目標其他盟友接下來 1～10 次受到的攻擊傷害，反彈給攻擊者 66%。 (最多 5～50 )",
+  "commonUses": [
+    "懲戒祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+      "revision": 2731702,
+      "title": "Holy Wrath",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25705"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25706,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標其他盟友接下來 %str1% 次受到的攻擊傷害，反彈給攻擊者 66%%。 (最多 %str2% )"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

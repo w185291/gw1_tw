@@ -1,0 +1,177 @@
+{
+  "pvpOnly": false,
+  "id": "well-of-ruin",
+  "name": {
+    "en": "Well of Ruin",
+    "zhTW": "崩潰之泉"
+  },
+  "clientSkillId": 2236,
+  "icon": "/skills/well-of-ruin.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "well-spell",
+    "en": "Well spell",
+    "zhTW": "湧泉魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Ruin at its location. For 5...25...30 seconds, whenever a foe in the well takes physical damage, that foe has Cracked Armor for 5...17...20 seconds.",
+      "zhTW": "利用最近屍體，或犧牲 66% 體力，建立泉井 5～30 秒。區域內敵人每次受到物理傷害，獲得 5～20 秒防禦破裂。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "利用最近屍體，或犧牲 66% 體力，建立泉井 5～30 秒。區域內敵人每次受到物理傷害，獲得 5～20 秒防禦破裂。",
+  "commonUses": [
+    "詛咒 · 湧泉魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+      "revision": 2726503,
+      "title": "Well of Ruin",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/61598"
+  ],
+  "descriptionEvidence": {
+    "stringId": 61599,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Exploit nearest corpse or sacrifice 66%% health to create a Well of Ruin at its location. For %str3% second, whenever a foe in the well takes physical damage, that foe has Cracked Armor for %str1% second."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

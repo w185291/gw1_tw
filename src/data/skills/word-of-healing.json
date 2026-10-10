@@ -1,0 +1,282 @@
+{
+  "pvpOnly": false,
+  "id": "word-of-healing",
+  "name": {
+    "en": "Word of Healing",
+    "zhTW": "治癒文字",
+    "translationVerified": true
+  },
+  "clientSkillId": 282,
+  "icon": "/skills/word-of-healing.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Heal target ally for 5...81...100 Health. Heal for an additional 30...98...115 Health if that ally is below 50% Health.",
+      "zhTW": "治癒目標盟友 5～100 體力。若該盟友體力低於 50% ，則其額外獲得 30～115 體力治癒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "priest-of-menzies",
+          "en": "Priest of Menzies",
+          "zhTW": "Priest of Menzies",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fissure-of-woe",
+              "en": "Fissure of Woe",
+              "zhTW": "災難裂痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fissure_of_Woe"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Priest of Menzies (Fissure of Woe)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Priest_of_Menzies",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dassk-arossyss",
+          "en": "Dassk Arossyss",
+          "zhTW": "Dassk Arossyss",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dassk Arossyss (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Dassk_Arossyss",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "wissper-inssani",
+          "en": "Wissper Inssani",
+          "zhTW": "Wissper Inssani",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wissper Inssani (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Wissper_Inssani",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "josso-essher",
+          "en": "Josso Essher",
+          "zhTW": "Josso Essher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Josso Essher (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Josso_Essher",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ziinfaun-lifeforce",
+          "en": "Ziinfaun Lifeforce",
+          "zhTW": "Ziinfaun Lifeforce",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "xaquang-skyway",
+              "en": "Xaquang Skyway",
+              "zhTW": "夏安便道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Xaquang_Skyway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ziinfaun Lifeforce (Xaquang Skyway)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Ziinfaun_Lifeforce",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "hahan-faithful-protector",
+          "en": "Hahan, Faithful Protector",
+          "zhTW": "Hahan, Faithful Protector",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "garden-of-seborhin",
+              "en": "Garden of Seborhin",
+              "zhTW": "希伯欣花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Garden_of_Seborhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hahan, Faithful Protector (Garden of Seborhin)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Hahan,_Faithful_Protector",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "flannuss-broadwing",
+          "en": "Flannuss Broadwing",
+          "zhTW": "Flannuss Broadwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flannuss Broadwing (Arbor Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Flannuss_Broadwing",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "治癒目標盟友 5～100 體力。若該盟友體力低於 50% ，則其額外獲得 30～115 體力治癒。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+      "revision": 2687573,
+      "title": "Word of Healing",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25774"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25775,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標盟友 %str1% 體力。若該盟友體力低於 50%% ，則其額外獲得 %str2% 體力治癒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

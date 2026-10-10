@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "pious-restoration",
+  "name": {
+    "en": "Pious Restoration",
+    "zhTW": "神性復原",
+    "translationVerified": true
+  },
+  "clientSkillId": 1529,
+  "icon": "/skills/pious-restoration.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. You gain 80...136...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1...3...3 hex[es].",
+      "zhTW": "你獲得 80～150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1～3 項降咒。"
+    },
+    "pvp": {
+      "en": "Spell. You gain 80...136...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1 hex.",
+      "zhTW": "你獲得 80～150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1 項降咒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Pious Restoration (PvP)",
+      "description": {
+        "en": "Spell. You gain 80...136...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1 hex.",
+        "zhTW": "你獲得 80～150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1 項降咒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Pious_Restoration_%28PvP%29",
+        "revision": 2738543,
+        "title": "Pious Restoration (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3471
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Pious_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Pious_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "你獲得 80～150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1～3 項降咒。",
+  "commonUses": [
+    "風之祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pious_Restoration",
+      "revision": 2738416,
+      "title": "Pious Restoration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pious_Restoration_%28PvP%29",
+      "revision": 2738543,
+      "title": "Pious Restoration (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33403"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33404,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你獲得 %str1% 體力，移除自身一項神喚使加持，若移除成功，則消除自身 %str2% 項降咒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

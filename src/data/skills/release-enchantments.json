@@ -1,0 +1,141 @@
+{
+  "pvpOnly": false,
+  "id": "release-enchantments",
+  "name": {
+    "en": "Release Enchantments",
+    "zhTW": "釋放加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 960,
+  "icon": "/skills/release-enchantments.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Lose all enchantments. Each party member is healed for 5...29...35 Health for each Monk enchantment lost.",
+      "zhTW": "失去自己的所有加持，你每失去一項「僧侶加持」，將使每位隊伍成員獲得 5～35 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Release_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "失去自己的所有加持，你每失去一項「僧侶加持」，將使每位隊伍成員獲得 5～35 體力。",
+  "commonUses": [
+    "神恩 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Release_Enchantments",
+      "revision": 2741397,
+      "title": "Release Enchantments",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26904",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26905,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "失去自己的所有加持，你每失去一項「僧侶加持」，將使每位隊伍成員獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

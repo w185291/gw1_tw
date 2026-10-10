@@ -1,0 +1,486 @@
+{
+  "pvpOnly": false,
+  "id": "fireball",
+  "name": {
+    "en": "Fireball",
+    "zhTW": "火球",
+    "translationVerified": true
+  },
+  "clientSkillId": 186,
+  "icon": "/skills/fireball.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Send out a ball of fire that strikes target foe and all nearby foes for 7...91...112 fire damage.",
+      "zhTW": "發射火球，對目標與附近敵人造成 7～112 火焰傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodash-bazaar",
+              "en": "Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "caravan-in-trouble",
+          "en": "Caravan in Trouble",
+          "zhTW": "Caravan in Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eastern-frontier",
+              "en": "Eastern Frontier",
+              "zhTW": "東方邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Caravan in Trouble (Eastern Frontier)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Caravan_in_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "sheg-zamn-mada",
+          "en": "Sheg Zamn Mada",
+          "zhTW": "Sheg Zamn Mada",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sheg Zamn Mada (Diviner's Ascent, Prophet's Path, Salt Flats, The Arid Sea, The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Sheg_Zamn_Mada",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "captain-mwende",
+          "en": "Captain Mwende",
+          "zhTW": "Captain Mwende",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "consulate-docks",
+              "en": "Consulate Docks",
+              "zhTW": "領事館碼頭",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Consulate_Docks"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Mwende (Consulate Docks)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Mwende",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "admiral-kantoh",
+          "en": "Admiral Kantoh",
+          "zhTW": "Admiral Kantoh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Admiral Kantoh (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Admiral_Kantoh",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "captain-nebo",
+          "en": "Captain Nebo",
+          "zhTW": "Captain Nebo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pogahn-passage",
+              "en": "Pogahn Passage",
+              "zhTW": "波甘驛站",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pogahn_Passage"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Nebo (Pogahn Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Nebo",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Fireball",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "發射火球，對目標與附近敵人造成 7～112 火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fireball",
+      "revision": 2732012,
+      "title": "Fireball",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25194",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25195,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Send out a ball of fire that strikes target foe and all nearby foes for %str1% fire damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

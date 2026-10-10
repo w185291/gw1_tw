@@ -1,0 +1,194 @@
+{
+  "pvpOnly": false,
+  "id": "expert-s-dexterity",
+  "name": {
+    "en": "Expert's Dexterity",
+    "zhTW": "專精者靈巧",
+    "translationVerified": true
+  },
+  "clientSkillId": 1724,
+  "icon": "/skills/expert-s-dexterity.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 1...16...20 second[s], you attack 33% faster and your Marksmanship attribute is increased by 2.",
+      "zhTW": "持續1～20秒，攻擊速度增加33%，弓術精通屬性+2。"
+    },
+    "pvp": {
+      "en": "Elite Stance. For 1...16...20 second[s], you attack 15% faster and your Marksmanship attribute is increased by 1.",
+      "zhTW": "持續1～20秒，攻擊速度增加15%，弓術精通屬性+1。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Expert's Dexterity (PvP)",
+      "description": {
+        "en": "Elite Stance. For 1...16...20 second[s], you attack 15% faster and your Marksmanship attribute is increased by 1.",
+        "zhTW": "持續1～20秒，攻擊速度增加15%，弓術精通屬性+1。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity_%28PvP%29",
+        "revision": 2628842,
+        "title": "Expert's Dexterity (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2959
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "confessor-isaiah",
+          "en": "Confessor Isaiah",
+          "zhTW": "Confessor Isaiah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Confessor Isaiah (The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity",
+        "url": "https://wiki.guildwars.com/wiki/Confessor_Isaiah",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "bansheh-gatherer-of-branches",
+          "en": "Bansheh, Gatherer of Branches",
+          "zhTW": "Bansheh, Gatherer of Branches",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "resplendent-makuun",
+              "en": "Resplendent Makuun",
+              "zhTW": "奢華之城．莫肯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Resplendent_Makuun"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bansheh, Gatherer of Branches (Resplendent Makuun) (may not spawn, see individual page)",
+        "source": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity",
+        "url": "https://wiki.guildwars.com/wiki/Bansheh,_Gatherer_of_Branches",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續1～20秒，攻擊速度增加33%，弓術精通屬性+2。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity",
+      "revision": 2628838,
+      "title": "Expert's Dexterity",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity_%28PvP%29",
+      "revision": 2628842,
+      "title": "Expert's Dexterity (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/50089"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50090,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，攻擊速度增加%str1%%%，弓術精通屬性+%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

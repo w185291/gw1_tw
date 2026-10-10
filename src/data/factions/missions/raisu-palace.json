@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -127,149 +127,296 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Sword Ancient Kai",
+        "zhTW": "Sword Ancient Kai（繁中名稱待確認）",
         "en": "Sword Ancient Kai"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Auspicious Parry",
+        "Gash",
+        "Healing Signet",
+        "Sever Artery",
+        "Song of the Mists",
+        "Sun and Moon Slash"
+      ],
+      "eliteSkills": [
         "Auspicious Parry"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Sword_Ancient_Kai"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Sword_Ancient_Kai",
+      "revision": 2622007
     },
     {
       "name": {
-        "zhTW": "Famished Ancient Brrne",
+        "zhTW": "Famished Ancient Brrne（繁中名稱待確認）",
         "en": "Famished Ancient Brrne"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Debilitating Shot",
+        "Determined Shot",
+        "Famine",
+        "Savage Shot",
+        "Troll Unguent",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Famine"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Famished_Ancient_Brrne"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Famished_Ancient_Brrne",
+      "revision": 2621949
     },
     {
       "name": {
-        "zhTW": "Untouched Ancient Ky",
+        "zhTW": "Untouched Ancient Ky（繁中名稱待確認）",
         "en": "Untouched Ancient Ky"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Divine Intervention",
+        "Reverse Hex",
+        "Shield Guardian",
+        "Spell Breaker",
+        "Spell Shield",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Spell Breaker"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Untouched_Ancient_Ky",
+      "revision": 2621933
     },
     {
       "name": {
-        "zhTW": "Gate Guard",
-        "en": "Gate Guard"
+        "en": "Gate Guard (boss)",
+        "zhTW": "Gate Guard (boss)（繁中名稱待確認）"
       },
-      "profession": "死靈法師",
-      "importantSkills": [],
-      "notes": [
-        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
-      ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
-    },
-    {
-      "name": {
-        "zhTW": "Doomed Ancient Kkraz",
-        "en": "Doomed Ancient Kkraz"
-      },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Faintheartedness",
+        "Rotting Flesh",
+        "Wail of Doom",
+        "Well of Weariness"
+      ],
+      "eliteSkills": [
         "Wail of Doom"
       ],
-      "notes": [
-        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
-      ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "這位 Shiro’ken 守衛在結尾過場前才生成，不能擊殺或捕捉。不要把它與一般 Gate Guard 的職業、技能混為一談；通關重點仍是擊殺 Shiro’ken 頭目。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Gate_Guard_%28boss%29",
+      "revision": 2622006
     },
     {
       "name": {
-        "zhTW": "Arcane Ancient Phi",
+        "zhTW": "Doomed Ancient Kkraz（繁中名稱待確認）",
+        "en": "Doomed Ancient Kkraz"
+      },
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Faintheartedness",
+        "Rotting Flesh",
+        "Taste of Pain",
+        "Wail of Doom",
+        "Well of Weariness",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
+        "Wail of Doom"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
+      "notes": [
+        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      ],
+      "source": "https://wiki.guildwars.com/wiki/Doomed_Ancient_Kkraz",
+      "revision": 2621934
+    },
+    {
+      "name": {
+        "zhTW": "Arcane Ancient Phi（繁中名稱待確認）",
         "en": "Arcane Ancient Phi"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Arcane Languor",
+        "Diversion",
+        "Ether Feast",
+        "Images of Remorse",
+        "Shatter Hex",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Arcane Languor"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Arcane_Ancient_Phi",
+      "revision": 2622009
     },
     {
       "name": {
-        "zhTW": "Star Ancient Koosun",
+        "zhTW": "Star Ancient Koosun（繁中名稱待確認）",
         "en": "Star Ancient Koosun"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Aura of Restoration",
+        "Burning Speed",
+        "Obsidian Flame",
+        "Sliver Armor",
+        "Star Burst",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Star Burst"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Star_Ancient_Koosun",
+      "revision": 2622010
     },
     {
       "name": {
-        "zhTW": "Silent Ancient Onata",
+        "zhTW": "Silent Ancient Onata（繁中名稱待確認）",
         "en": "Silent Ancient Onata"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
+        "Disrupting Stab",
+        "Shadow Refuge",
+        "Shroud of Silence",
+        "Twisting Fangs",
+        "Wild Strike",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Shroud of Silence"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Silent_Ancient_Onata",
+      "revision": 2595934
     },
     {
       "name": {
-        "zhTW": "Defiant Ancient Sseer",
+        "zhTW": "Defiant Ancient Sseer（繁中名稱待確認）",
         "en": "Defiant Ancient Sseer"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Life",
+        "Recuperation",
+        "Restoration",
+        "Vengeful Weapon",
+        "Soul Twisting",
+        "Song of the Mists",
         "Defiant Was Xinrae"
       ],
+      "eliteSkills": [
+        "Soul Twisting",
+        "Defiant Was Xinrae"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Defiant_Ancient_Sseer",
+      "revision": 2572520
     },
     {
       "name": {
-        "zhTW": "Shiro Tagachi",
+        "zhTW": "Shiro Tagachi（繁中名稱待確認）",
         "en": "Shiro Tagachi"
       },
-      "profession": "暗殺者",
-      "importantSkills": [],
+      "profession": "Assassin",
+      "importantSkills": [
+        "Invulnerability"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "NPC 死亡與捷徑未開會影響進度。沒有 Nika 不能直接假裝走她的跳過路；Danika 衝橋要全隊事先協調，勿將 Togo、Mhenlo 留在怪群。 帶條件壓制與解加持，應對 Spell Breaker／Spell Shield；擊殺 Boss 計程車氣提升可重置天界技能。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Raisu_Palace#Bosses",
-      "revision": 2697823
+      "source": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239
     }
   ],
   "recommendedTeam": [
@@ -379,6 +526,83 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Sword Ancient Kai",
+      "url": "https://wiki.guildwars.com/wiki/Sword_Ancient_Kai",
+      "revision": 2622007,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Famished Ancient Brrne",
+      "url": "https://wiki.guildwars.com/wiki/Famished_Ancient_Brrne",
+      "revision": 2621949,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Untouched Ancient Ky",
+      "url": "https://wiki.guildwars.com/wiki/Untouched_Ancient_Ky",
+      "revision": 2621933,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Gate Guard (boss)",
+      "url": "https://wiki.guildwars.com/wiki/Gate_Guard_%28boss%29",
+      "revision": 2622006,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Doomed Ancient Kkraz",
+      "url": "https://wiki.guildwars.com/wiki/Doomed_Ancient_Kkraz",
+      "revision": 2621934,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Arcane Ancient Phi",
+      "url": "https://wiki.guildwars.com/wiki/Arcane_Ancient_Phi",
+      "revision": 2622009,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Star Ancient Koosun",
+      "url": "https://wiki.guildwars.com/wiki/Star_Ancient_Koosun",
+      "revision": 2622010,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Silent Ancient Onata",
+      "url": "https://wiki.guildwars.com/wiki/Silent_Ancient_Onata",
+      "revision": 2595934,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Defiant Ancient Sseer",
+      "url": "https://wiki.guildwars.com/wiki/Defiant_Ancient_Sseer",
+      "revision": 2572520,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Shiro Tagachi",
+      "url": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Gate Guard",
+      "url": "https://wiki.guildwars.com/wiki/Gate_Guard",
+      "revision": 2601965,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -436,5 +660,24 @@
       "expert": "26–28分鐘",
       "master": "少於26分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22286",
+    "game-client://2026-10-09/string/22287",
+    "game-client://2026-10-09/string/22308"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22286,
+      22287,
+      22308
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

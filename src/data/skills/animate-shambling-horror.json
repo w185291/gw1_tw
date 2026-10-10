@@ -1,0 +1,228 @@
+{
+  "pvpOnly": false,
+  "id": "animate-shambling-horror",
+  "name": {
+    "en": "Animate Shambling Horror",
+    "zhTW": "操縱爬行骸骨"
+  },
+  "clientSkillId": 1351,
+  "icon": "/skills/animate-shambling-horror.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Exploit nearest corpse to create a level 1...14...17 shambling horror. When the shambling horror dies, it is replaced by a level 0...12...15 jagged horror that causes Bleeding with each of its attacks.",
+      "zhTW": "利用最近的屍體召喚一隻等級 1～17 的爬行骸骨。當爬行骸骨死亡時，將產生一隻等級 0～15 的鋸齒骸骨，攻擊命中敵人時使其遭受「流血」病症。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-master",
+          "en": "The Master",
+          "zhTW": "The Master",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Master (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+        "url": "https://wiki.guildwars.com/wiki/The_Master",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-bellok",
+          "en": "Taskmaster Bellok",
+          "zhTW": "Taskmaster Bellok",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Bellok (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Bellok",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-nard",
+          "en": "Taskmaster Nard",
+          "zhTW": "Taskmaster Nard",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Nard (Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Nard",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "利用最近的屍體召喚一隻等級 1～17 的爬行骸骨。當爬行骸骨死亡時，將產生一隻等級 0～15 的鋸齒骸骨，攻擊命中敵人時使其遭受「流血」病症。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+      "revision": 2731098,
+      "title": "Animate Shambling Horror",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36968"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36969,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "利用最近的屍體召喚一隻等級 %str1% 的爬行骸骨。當爬行骸骨死亡時，將產生一隻等級 %str2% 的鋸齒骸骨，攻擊命中敵人時使其遭受「流血」病症。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

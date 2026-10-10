@@ -1,0 +1,206 @@
+{
+  "pvpOnly": false,
+  "id": "tainted-flesh",
+  "name": {
+    "en": "Tainted Flesh",
+    "zhTW": "腐敗肉體",
+    "translationVerified": true
+  },
+  "clientSkillId": 113,
+  "icon": "/skills/tainted-flesh.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 20...39...44 seconds, allies in the area are immune to disease, and anyone striking those allies in melee becomes Diseased for 3...13...15 seconds.",
+      "zhTW": "持續 20～44 秒，區域內友軍免疫疾病；近戰攻擊這些友軍的敵人感染疾病 3～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "dosakaru-fevertouch",
+          "en": "Dosakaru Fevertouch",
+          "zhTW": "Dosakaru Fevertouch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dosakaru Fevertouch (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Dosakaru_Fevertouch",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "konrru-tainted-stone",
+          "en": "Konrru, Tainted Stone",
+          "zhTW": "Konrru, Tainted Stone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Konrru, Tainted Stone (Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Konrru,_Tainted_Stone",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "lukrker-foulfist",
+          "en": "Lukrker Foulfist",
+          "zhTW": "Lukrker Foulfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Lukrker Foulfist (Gyala Hatchery (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Lukrker_Foulfist",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "jerneh-nightbringer",
+          "en": "Jerneh Nightbringer",
+          "zhTW": "Jerneh Nightbringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Jerneh Nightbringer (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Jerneh_Nightbringer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 20～44 秒，區域內友軍免疫疾病；近戰攻擊這些友軍的敵人感染疾病 3～15 秒。",
+  "commonUses": [
+    "死亡魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+      "revision": 2727552,
+      "title": "Tainted Flesh",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25046"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25047,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, allies in the area are immune to disease, and anyone striking those allies in melee becomes Diseased for %str2% second."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

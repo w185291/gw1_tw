@@ -1,0 +1,217 @@
+{
+  "pvpOnly": false,
+  "id": "twin-moon-sweep",
+  "name": {
+    "en": "Twin Moon Sweep",
+    "zhTW": "雙月掃蕩",
+    "translationVerified": true
+  },
+  "clientSkillId": 1487,
+  "icon": "/skills/twin-moon-sweep.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. You lose 1 Dervish enchantment and gain 10...42...50 Health. If an enchantment is lost in this way, you cannot be blocked, you strike twice, and you gain an additional 10...58...70 Health.",
+      "zhTW": "移除自身一項神喚使加持，獲得 10～50 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10～70 體力。"
+    },
+    "pvp": {
+      "en": "Melee Attack. You lose 1 Dervish enchantment and gain 10...18...20 Health. If an enchantment is lost in this way, you cannot be blocked, you strike twice, with each strike doing 25% less damage than normal, and you gain an additional 10...26...30 Health.",
+      "zhTW": "移除自身一項神喚使加持，獲得 10～20 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10～30 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Twin Moon Sweep (PvP)",
+      "description": {
+        "en": "Melee Attack. You lose 1 Dervish enchantment and gain 10...18...20 Health. If an enchantment is lost in this way, you cannot be blocked, you strike twice, with each strike doing 25% less damage than normal, and you gain an additional 10...26...30 Health.",
+        "zhTW": "移除自身一項神喚使加持，獲得 10～20 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10～30 體力。"
+      },
+      "stats": {
+        "Adrenaline": 7.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_%28PvP%29",
+        "revision": 2656124,
+        "title": "Twin Moon Sweep (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3264
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kai-shi-jo",
+          "en": "Kai Shi Jo",
+          "zhTW": "Kai Shi Jo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kai Shi Jo (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Kai_Shi_Jo",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "移除自身一項神喚使加持，獲得 10～50 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10～70 體力。",
+  "commonUses": [
+    "鐮刀精通 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+      "revision": 2684209,
+      "title": "Twin Moon Sweep",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_%28PvP%29",
+      "revision": 2656124,
+      "title": "Twin Moon Sweep (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33341"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33342,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除自身一項神喚使加持，獲得 %str1% 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

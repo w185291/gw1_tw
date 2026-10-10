@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "entangling-asp",
+  "name": {
+    "en": "Entangling Asp",
+    "zhTW": "蛇纏毒殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 784,
+  "icon": "/skills/entangling-asp.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Entangling Asp must follow a lead attack. Target foe is knocked down and becomes Poisoned for 5...17...20 seconds.",
+      "zhTW": "必須接續在「引導攻擊」之後。使目標敵人被擊倒並且遭受「中毒 」病症 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Entangling_Asp",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Entangling_Asp",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "必須接續在「引導攻擊」之後。使目標敵人被擊倒並且遭受「中毒 」病症 5～20 秒。",
+  "commonUses": [
+    "暗殺技巧 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Entangling_Asp",
+      "revision": 2683975,
+      "title": "Entangling Asp",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26448"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26449,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「引導攻擊」之後。使目標敵人被擊倒並且遭受「中毒 」病症 %str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

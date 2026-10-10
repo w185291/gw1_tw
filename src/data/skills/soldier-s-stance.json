@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "soldier-s-stance",
+  "name": {
+    "en": "Soldier's Stance",
+    "zhTW": "士兵態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 1698,
+  "icon": "/skills/soldier-s-stance.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 5...13...15 seconds, you have a 75% chance to block. You attack 33% faster while under the effects of a shout or chant.",
+      "zhTW": "持續 5～15 秒，你有 75% 機率格檔攻擊，若是你有戰嚎或者聖歌效果，則你的攻擊速度增加 33% 。"
+    },
+    "pvp": {
+      "en": "Elite Stance. For 4...9...10 seconds, you attack 33% faster while under the effects of a shout or chant.",
+      "zhTW": "持續 4～10 秒，若你擁有「聖歌」或「戰嚎」的效果，則你的攻擊速度加快 33% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Soldier's Stance (PvP)",
+      "description": {
+        "en": "Elite Stance. For 4...9...10 seconds, you attack 33% faster while under the effects of a shout or chant.",
+        "zhTW": "持續 4～10 秒，若你擁有「聖歌」或「戰嚎」的效果，則你的攻擊速度加快 33% 。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_%28PvP%29",
+        "revision": 2630045,
+        "title": "Soldier's Stance (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3156
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "avah-the-crafty",
+          "en": "Avah the Crafty",
+          "zhTW": "Avah the Crafty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-desolation",
+              "en": "Gate of Desolation",
+              "zhTW": "荒蕪之地入口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Avah the Crafty (Gate of Desolation)",
+        "source": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Avah_the_Crafty",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "keht-the-fierce",
+          "en": "Keht the Fierce",
+          "zhTW": "Keht the Fierce",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Keht the Fierce (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Keht_the_Fierce",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5～15 秒，你有 75% 機率格檔攻擊，若是你有戰嚎或者聖歌效果，則你的攻擊速度增加 33% 。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance",
+      "revision": 2739566,
+      "title": "Soldier's Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_%28PvP%29",
+      "revision": 2630045,
+      "title": "Soldier's Stance (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44039",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44040,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 %str2%%% 機率格檔攻擊，若是你有戰嚎或者聖歌效果，則你的攻擊速度增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

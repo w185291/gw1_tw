@@ -1,0 +1,200 @@
+{
+  "pvpOnly": false,
+  "id": "mirror-of-disenchantment",
+  "name": {
+    "en": "Mirror of Disenchantment",
+    "zhTW": "反加持之鏡",
+    "translationVerified": true
+  },
+  "clientSkillId": 1349,
+  "icon": "/skills/mirror-of-disenchantment.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
+      "zhTW": "移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。"
+    },
+    "pvp": {
+      "en": "Spell. Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
+      "zhTW": "移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mirror of Disenchantment (PvP)",
+      "description": {
+        "en": "Spell. Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
+        "zhTW": "移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_%28PvP%29",
+        "revision": 2738388,
+        "title": "Mirror of Disenchantment (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3194
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "mind-of-destruction",
+          "en": "Mind of Destruction",
+          "zhTW": "Mind of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Mind of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+        "url": "https://wiki.guildwars.com/wiki/Mind_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+      "revision": 2683814,
+      "title": "Mirror of Disenchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_%28PvP%29",
+      "revision": 2738388,
+      "title": "Mirror of Disenchantment (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/39833",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39834,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

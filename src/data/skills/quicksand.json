@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "quicksand",
+  "name": {
+    "en": "Quicksand",
+    "zhTW": "流沙",
+    "translationVerified": true
+  },
+  "clientSkillId": 1473,
+  "icon": "/skills/quicksand.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Nature Ritual. Create a level 1...8...10 spirit. All non-spirit creatures within its range lose 1 Energy each time they attack or use a skill. This spirit dies after 30...150...180 seconds.",
+      "zhTW": "創造一隻等級 1～10 的流沙精靈，範圍內非靈的生物在攻擊或使用技能時將失去 1 能量。流沙精靈在30～180 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "koahm-the-weary",
+          "en": "Koahm the Weary",
+          "zhTW": "Koahm the Weary",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-shattered-ravines",
+              "en": "The Shattered Ravines",
+              "zhTW": "碎裂溝谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Shattered_Ravines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Koahm the Weary (The Shattered Ravines)",
+        "source": "https://wiki.guildwars.com/wiki/Quicksand",
+        "url": "https://wiki.guildwars.com/wiki/Koahm_the_Weary",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "創造一隻等級 1～10 的流沙精靈，範圍內非靈的生物在攻擊或使用技能時將失去 1 能量。流沙精靈在30～180 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Quicksand",
+      "revision": 2731272,
+      "title": "Quicksand",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/36331"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36332,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的流沙精靈，範圍內非靈的生物在攻擊或使用技能時將失去 1 能量。流沙精靈在%str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

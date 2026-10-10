@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-battle-standard-of-honor",
+  "name": {
+    "en": "Ebon Battle Standard of Honor",
+    "zhTW": "黑檀戰鬥榮譽規範"
+  },
+  "clientSkillId": 2233,
+  "icon": "/skills/ebon-battle-standard-of-honor.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. You plant an Ebon Battle Standard of Honor at your current location. For 14...20 seconds, non-spirit allies in this area strike for +8...15 damage and an additional +7...10 vs. Charr.",
+      "zhTW": "在你的位置策畫黑檀戰鬥榮譽規範，持續14～20秒，範圍內的非靈盟友對敵人造成8～15的額外傷害，若對於夏爾則再增加7～10傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-smell-of-titan-in-the-morning",
+          "en": "The Smell of Titan in the Morning",
+          "zhTW": "晨曦中泰坦的氣息",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "captain-langmar",
+              "en": "Captain Langmar",
+              "zhTW": "隊長連瑪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Captain_Langmar"
+          },
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "晨曦中泰坦的氣息 (from 隊長連瑪 in Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor",
+        "url": "https://wiki.guildwars.com/wiki/The_Smell_of_Titan_in_the_Morning",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "在你的位置策畫黑檀戰鬥榮譽規範，持續14～20秒，範圍內的非靈盟友對敵人造成8～15的額外傷害，若對於夏爾則再增加7～10傷害。",
+  "commonUses": [
+    "Ebon Vanguard rank · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor",
+      "revision": 2732698,
+      "title": "Ebon Battle Standard of Honor",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69894"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69895,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在你的位置策畫黑檀戰鬥榮譽規範，持續%str3%秒，範圍內的非靈盟友對敵人造成%str1%的額外傷害，若對於夏爾則再增加%str2%傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

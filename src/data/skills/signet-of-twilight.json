@@ -1,0 +1,171 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-twilight",
+  "name": {
+    "en": "Signet of Twilight",
+    "zhTW": "薄暮紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1648,
+  "icon": "/skills/signet-of-twilight.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Signet. For each hex on target foe, that foe loses one enchantment.",
+      "zhTW": "依照目標敵人身上的「降咒」數量，使其失去同樣數量的「加持」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lucent-the-spectral",
+          "en": "Lucent the Spectral",
+          "zhTW": "Lucent the Spectral",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lucent the Spectral (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+        "url": "https://wiki.guildwars.com/wiki/Lucent_the_Spectral",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "依照目標敵人身上的「降咒」數量，使其失去同樣數量的「加持」。",
+  "commonUses": [
+    "無屬性 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+      "revision": 2739138,
+      "title": "Signet of Twilight",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/49967"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49968,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "依照目標敵人身上的「降咒」數量，使其失去同樣數量的「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

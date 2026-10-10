@@ -1,0 +1,216 @@
+{
+  "id": "gaze-of-fury",
+  "name": {
+    "en": "Gaze of Fury",
+    "zhTW": "狂暴凝視",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1734,
+  "icon": "/skills/gaze-of-fury.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Destroy target spirit and create a level 1...11...14 Spirit of Fury. This spirit's attacks deal 5...17...20 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "摧毀目標縛靈且創造一隻等級 1～14 狂暴縛靈，此靈攻擊造成 5～20 傷害。縛靈在 30～60 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Destroy target allied spirit and create a level 1...8...10 Spirit of Fury. This spirit's attacks deal 5...17...20 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "摧毀目標友方靈體，改召喚等級 1～10 的憤怒靈體，持續 30～60 秒；其攻擊造成 5～20 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Gaze of Fury (PvP)",
+      "description": {
+        "en": "Binding Ritual. Destroy target allied spirit and create a level 1...8...10 Spirit of Fury. This spirit's attacks deal 5...17...20 damage. This spirit dies after 30...54...60 seconds.",
+        "zhTW": "摧毀目標友方靈體，改召喚等級 1～10 的憤怒靈體，持續 30～60 秒；其攻擊造成 5～20 傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_%28PvP%29",
+        "revision": 2661326,
+        "title": "Gaze of Fury (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3022
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "degaz-the-cynical",
+          "en": "Degaz the Cynical",
+          "zhTW": "Degaz the Cynical",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Degaz the Cynical (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Degaz_the_Cynical",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "摧毀目標縛靈且創造一隻等級 1～14 狂暴縛靈，此靈攻擊造成 5～20 傷害。縛靈在 30～60 秒後消失。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+      "revision": 2732538,
+      "title": "Gaze of Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_%28PvP%29",
+      "revision": 2661326,
+      "title": "Gaze of Fury (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/50099"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50100,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "摧毀目標縛靈且創造一隻等級 %str1% 狂暴縛靈，此靈攻擊造成 %str2% 傷害。縛靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

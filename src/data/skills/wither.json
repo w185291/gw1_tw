@@ -1,0 +1,264 @@
+{
+  "pvpOnly": false,
+  "id": "wither",
+  "name": {
+    "en": "Wither",
+    "zhTW": "孱弱",
+    "translationVerified": true
+  },
+  "clientSkillId": 125,
+  "icon": "/skills/wither.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...29...35 seconds, target foe suffers -2...4...4 Health degeneration and -1 Energy degeneration. If target foe's Energy reaches 0, that foe takes 15...63...75 damage and Wither ends.",
+      "zhTW": "持續 5～35 秒，目標敵人受到體力衰減 2～4 和能量衰減 1。當目標敵人的能量成為 0 時，該目標受到 15～75 傷害而孱弱的效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ignis-effigia",
+          "en": "Ignis Effigia",
+          "zhTW": "Ignis Effigia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ignis Effigia (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Wither",
+        "url": "https://wiki.guildwars.com/wiki/Ignis_Effigia",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "evirso-sectus",
+          "en": "Evirso Sectus",
+          "zhTW": "Evirso Sectus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          },
+          {
+            "name": {
+              "id": "defend-droknar-s-forge",
+              "en": "Defend Droknar's Forge",
+              "zhTW": "Defend Droknar's Forge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Defend_Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Evirso Sectus (Mineral Springs, only during the quest Defend Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Wither",
+        "url": "https://wiki.guildwars.com/wiki/Evirso_Sectus",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "ludo-ossidi",
+          "en": "Ludo Ossidi",
+          "zhTW": "Ludo Ossidi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "the-titan-source",
+              "en": "The Titan Source",
+              "zhTW": "The Titan Source",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ludo Ossidi (Dragon's Gullet, only during the quest The Titan Source)",
+        "source": "https://wiki.guildwars.com/wiki/Wither",
+        "url": "https://wiki.guildwars.com/wiki/Ludo_Ossidi",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mentanl-arobo",
+          "en": "Mentanl Arobo",
+          "zhTW": "Mentanl Arobo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "defend-north-kryta-province",
+              "en": "Defend North Kryta Province",
+              "zhTW": "Defend North Kryta Province",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Defend_North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mentanl Arobo (North Kryta Province, only during the quest Defend North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Wither",
+        "url": "https://wiki.guildwars.com/wiki/Mentanl_Arobo",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "desnas-hubor",
+          "en": "Desnas Hubor",
+          "zhTW": "Desnas Hubor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tangle-root",
+              "en": "Tangle Root",
+              "zhTW": "糾結之根",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tangle_Root"
+          },
+          {
+            "name": {
+              "id": "defend-denravi",
+              "en": "Defend Denravi",
+              "zhTW": "Defend Denravi",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Defend_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Desnas Hubor (Tangle Root, only during the quest Defend Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Wither",
+        "url": "https://wiki.guildwars.com/wiki/Desnas_Hubor",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 5～35 秒，目標敵人受到體力衰減 2～4 和能量衰減 1。當目標敵人的能量成為 0 時，該目標受到 15～75 傷害而孱弱的效果終止。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wither",
+      "revision": 2731998,
+      "title": "Wither",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25070",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25071,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標敵人受到體力衰減 %str1% 和能量衰減 1。當目標敵人的能量成為 0 時，該目標受到 %str2% 傷害而孱弱的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

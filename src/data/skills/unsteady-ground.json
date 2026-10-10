@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "unsteady-ground",
+  "name": {
+    "en": "Unsteady Ground",
+    "zhTW": "地動山搖",
+    "translationVerified": true
+  },
+  "clientSkillId": 1083,
+  "icon": "/skills/unsteady-ground.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You create Unsteady Ground at target foe's location. For 5 seconds, nearby foes take 10...34...40 earth damage each second. Attacking foes struck by Unsteady Ground are knocked down.",
+      "zhTW": "在目標敵人處創造地動山搖。持續 5 秒，使該地點附近的敵人受到 10～40 土系傷害，攻擊中的敵人將受影響而被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "seacrash-elder-guardian",
+          "en": "Seacrash, Elder Guardian",
+          "zhTW": "Seacrash, Elder Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maishang-hills",
+              "en": "Maishang Hills",
+              "zhTW": "麥尚山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maishang_Hills"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seacrash, Elder Guardian (Maishang Hills)",
+        "source": "https://wiki.guildwars.com/wiki/Unsteady_Ground",
+        "url": "https://wiki.guildwars.com/wiki/Seacrash,_Elder_Guardian",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "在目標敵人處創造地動山搖。持續 5 秒，使該地點附近的敵人受到 10～40 土系傷害，攻擊中的敵人將受影響而被擊倒。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unsteady_Ground",
+      "revision": 2667441,
+      "title": "Unsteady Ground",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26680",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26681,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人處創造地動山搖。持續 %str3% 秒，使該地點附近的敵人受到 %str1% 土系傷害，攻擊中的敵人將受影響而被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

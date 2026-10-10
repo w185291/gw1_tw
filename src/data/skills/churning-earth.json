@@ -1,0 +1,164 @@
+{
+  "pvpOnly": false,
+  "id": "churning-earth",
+  "name": {
+    "en": "Churning Earth",
+    "zhTW": "渦流大地",
+    "translationVerified": true
+  },
+  "clientSkillId": 844,
+  "icon": "/skills/churning-earth.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create Churning Earth at target foe's location. For the next 5 seconds, Churning Earth strikes foes near that location for 10...34...40 earth damage each second. Any foe moving faster than normal when struck by Churning Earth is knocked down.",
+      "zhTW": "在目標敵人處創造渦流大地。在接下來的 5 秒內，渦流大地每秒對敵人造成 10～40 土系傷害。而任何移動速度比一般快的敵人將會受到影響而被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Churning_Earth",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ssissth-the-leviathan",
+          "en": "Ssissth the Leviathan",
+          "zhTW": "Ssissth the Leviathan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ssissth the Leviathan (Jaga Moraine, before completion of Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Churning_Earth",
+        "url": "https://wiki.guildwars.com/wiki/Ssissth_the_Leviathan",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "在目標敵人處創造渦流大地。在接下來的 5 秒內，渦流大地每秒對敵人造成 10～40 土系傷害。而任何移動速度比一般快的敵人將會受到影響而被擊倒。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Churning_Earth",
+      "revision": 2724541,
+      "title": "Churning Earth",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26690",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26691,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人處創造渦流大地。在接下來的 5 秒內，渦流大地每秒對敵人造成 %str1% 土系傷害。而任何移動速度比一般快的敵人將會受到影響而被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

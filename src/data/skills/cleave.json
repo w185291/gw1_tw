@@ -1,0 +1,372 @@
+{
+  "pvpOnly": false,
+  "id": "cleave",
+  "name": {
+    "en": "Cleave",
+    "zhTW": "劈擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 335,
+  "icon": "/skills/cleave.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Axe Attack. If this attack hits, you strike for +10...34...40 damage and hit 1...2...2 adjacent foe[s] for 10...34...40 slashing damage.",
+      "zhTW": "命中時造成額外 10～40 傷害，並對 1～2 名相鄰敵人造成 10～40 劈砍傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "arlak-stoneleaf",
+          "en": "Arlak Stoneleaf",
+          "zhTW": "Arlak Stoneleaf",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-caves-of-sorrow",
+              "en": "Ice Caves of Sorrow",
+              "zhTW": "悲傷冰谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Caves_of_Sorrow"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Arlak Stoneleaf (Ice Caves of Sorrow)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Arlak_Stoneleaf",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "virag-bladestone",
+          "en": "Virag Bladestone",
+          "zhTW": "Virag Bladestone",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Virag Bladestone (Ice Caves of Sorrow)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Virag_Bladestone",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "linka-goldensteel",
+          "en": "Linka Goldensteel",
+          "zhTW": "Linka Goldensteel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Linka Goldensteel (Frozen Forest)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Linka_Goldensteel",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "marika-granitehand",
+          "en": "Marika Granitehand",
+          "zhTW": "Marika Granitehand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Marika Granitehand (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Marika_Granitehand",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gornar-bellybreaker",
+          "en": "Gornar Bellybreaker",
+          "zhTW": "Gornar Bellybreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gornar Bellybreaker (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Gornar_Bellybreaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chkkr-ironclaw",
+          "en": "Chkkr Ironclaw",
+          "zhTW": "Chkkr Ironclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chkkr Ironclaw (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Chkkr_Ironclaw",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "razorfin-fleshrend",
+          "en": "Razorfin Fleshrend",
+          "zhTW": "Razorfin Fleshrend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Razorfin Fleshrend (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Razorfin_Fleshrend",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chor-the-bladed",
+          "en": "Chor the Bladed",
+          "zhTW": "Chor the Bladed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chor the Bladed (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Chor_the_Bladed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ranshek-carrion-eater",
+          "en": "Ranshek, Carrion Eater",
+          "zhTW": "Ranshek, Carrion Eater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "moddok-crevice",
+              "en": "Moddok Crevice",
+              "zhTW": "摩多克裂縫",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ranshek, Carrion Eater (Moddok Crevice)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Ranshek,_Carrion_Eater",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "dvalinn-stonebreaker",
+          "en": "Dvalinn Stonebreaker",
+          "zhTW": "Dvalinn Stonebreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "in-the-service-of-revenge",
+              "en": "In the Service of Revenge",
+              "zhTW": "In the Service of Revenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/In_the_Service_of_Revenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dvalinn Stonebreaker (Drakkar Lake, only before completion of In the Service of Revenge)",
+        "source": "https://wiki.guildwars.com/wiki/Cleave",
+        "url": "https://wiki.guildwars.com/wiki/Dvalinn_Stonebreaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成額外 10～40 傷害，並對 1～2 名相鄰敵人造成 10～40 劈砍傷害。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "galrath-slash",
+      "en": "Galrath Slash",
+      "zhTW": "加拉斯之斬",
+      "translationVerified": true
+    },
+    {
+      "id": "silverwing-slash",
+      "en": "Silverwing Slash",
+      "zhTW": "銀翼斬",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Cleave",
+      "revision": 2733878,
+      "title": "Cleave",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25882",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25885,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "If this attack hits, you strike for +%str1% damage and hit %str2% adjacent foe for %str1% slashing damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

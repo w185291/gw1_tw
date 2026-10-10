@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "finish-him",
+  "name": {
+    "en": "\"Finish Him!\"",
+    "zhTW": "\"結束他！\""
+  },
+  "clientSkillId": 2353,
+  "icon": "/skills/finish-him.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Shout. If target foe has less than 50% Health, that foe takes 44...80 damage and suffers from Cracked Armor and a Deep Wound for 12...20 seconds.",
+      "zhTW": "若目標敵人體力低於 50%，該目標將受到 44～80 傷害並遭受「碎甲」及「重傷」12～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "final-round-fight",
+          "en": "Final Round: Fight!",
+          "zhTW": "Final Round: Fight!",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Final Round: Fight! (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/%22Finish_Him%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Final_Round:_Fight!",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "若目標敵人體力低於 50%，該目標將受到 44～80 傷害並遭受「碎甲」及「重傷」12～20 秒。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Finish_Him%21%22",
+      "revision": 2633672,
+      "title": "\"Finish Him!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71908"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71909,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人體力低於 50%%，該目標將受到 %str1% 傷害並遭受「碎甲」及「重傷」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

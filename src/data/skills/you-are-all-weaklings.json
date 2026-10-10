@@ -1,0 +1,147 @@
+{
+  "pvpOnly": false,
+  "id": "you-are-all-weaklings",
+  "name": {
+    "en": "\"You Are All Weaklings!\"",
+    "zhTW": "\"懦弱的人們！\""
+  },
+  "clientSkillId": 2359,
+  "icon": "/skills/you-are-all-weaklings.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Target foe and foes adjacent to target are Weakened for 8...12 seconds.",
+      "zhTW": "目標敵人及其鄰近敵人遭受「虛弱」8～12 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "prenuptial-disagreement",
+          "en": "Prenuptial Disagreement",
+          "zhTW": "Prenuptial Disagreement",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "olaf-olafson",
+              "en": "Olaf Olafson",
+              "zhTW": "Olaf Olafson",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olaf_Olafson"
+          },
+          {
+            "name": {
+              "id": "olafstead",
+              "en": "Olafstead",
+              "zhTW": "歐拉夫之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olafstead"
+          },
+          {
+            "name": {
+              "id": "olrun-olafdottir",
+              "en": "Olrun Olafdottir",
+              "zhTW": "Olrun Olafdottir",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olrun_Olafdottir"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Prenuptial Disagreement (Olaf Olafson in Olafstead or Olrun Olafdottir in Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "目標敵人及其鄰近敵人遭受「虛弱」8～12 秒。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings%21%22",
+      "revision": 2719028,
+      "title": "\"You Are All Weaklings!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71913"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71914,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標敵人及其鄰近敵人遭受「虛弱」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

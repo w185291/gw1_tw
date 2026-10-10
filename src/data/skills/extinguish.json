@@ -1,0 +1,239 @@
+{
+  "pvpOnly": false,
+  "id": "extinguish",
+  "name": {
+    "en": "Extinguish",
+    "zhTW": "熄滅",
+    "translationVerified": true
+  },
+  "clientSkillId": 943,
+  "icon": "/skills/extinguish.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 12,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove one condition from each party member. Party members relieved of Burning are healed for 10...82...100 Health.",
+      "zhTW": "消除每位隊員身上的一項「病症」。若是正遭受「著火」病症而被消除的隊伍成員，被治癒 10～100 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Extinguish",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "straut-flamebourne",
+          "en": "Straut Flamebourne",
+          "zhTW": "Straut Flamebourne",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "fire-and-pain",
+              "en": "Fire and Pain",
+              "zhTW": "火與痛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fire_and_Pain"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Straut Flamebourne (Sacnoth Valley, only during 火與痛)",
+        "source": "https://wiki.guildwars.com/wiki/Extinguish",
+        "url": "https://wiki.guildwars.com/wiki/Straut_Flamebourne",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tyndir-flamecaller",
+          "en": "Tyndir Flamecaller",
+          "zhTW": "Tyndir Flamecaller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tyndir Flamecaller (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Extinguish",
+        "url": "https://wiki.guildwars.com/wiki/Tyndir_Flamecaller",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "smoke-kindlefist",
+          "en": "Smoke Kindlefist",
+          "zhTW": "Smoke Kindlefist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Smoke Kindlefist (Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Extinguish",
+        "url": "https://wiki.guildwars.com/wiki/Smoke_Kindlefist",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "hierophant-burntsoul",
+          "en": "Hierophant Burntsoul",
+          "zhTW": "Hierophant Burntsoul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "assault-on-the-stronghold",
+              "en": "Assault on the Stronghold",
+              "zhTW": "襲擊根據地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Assault_on_the_Stronghold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hierophant Burntsoul (Assault on the Stronghold)",
+        "source": "https://wiki.guildwars.com/wiki/Extinguish",
+        "url": "https://wiki.guildwars.com/wiki/Hierophant_Burntsoul",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "消除每位隊員身上的一項「病症」。若是正遭受「著火」病症而被消除的隊伍成員，被治癒 10～100 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Extinguish",
+      "revision": 2683905,
+      "title": "Extinguish",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26914"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26915,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除每位隊員身上的一項「病症」。若是正遭受「著火」病症而被消除的隊伍成員，被治癒 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

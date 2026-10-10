@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,21 @@
     {
       "id": "general-morgahn",
       "name": {
-        "zhTW": "摩根將軍 / General Morgahn",
+        "zhTW": "摩根將軍",
         "en": "General Morgahn"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/46819"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          46819
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -147,9 +158,35 @@
       "role": "boss_render"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Varesh Ossa",
+        "zhTW": "Varesh Ossa（繁中名稱待確認）"
+      },
+      "profession": "Paragon／Dervish",
+      "importantSkills": [
+        "Earth Vortex",
+        "Enchantment Collapse",
+        "Frost Vortex",
+        "Natural Resistance",
+        "Call of Sacrifice",
+        "Enemies Must Die!"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "Commander 與 Prophet 是兩階段，第一形態倒地不會完成。分散站位躲範圍攻擊，避免把召喚物鋪到巡邏路；第二階段先限制增援，防護被點名者再集火。不要以常駐加持作唯一防線，Enchantment Collapse 會拆加持。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Varesh_Ossa",
+      "revision": 2712706
+    }
+  ],
   "recommendedTeam": [
-    "General Morgahn、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
+    "摩根將軍、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
   ],
   "tips": [
     "想捕捉精英技能時，先擊殺目標Boss，避免最後一擊立即結束Mission。"
@@ -262,6 +299,13 @@
       "revision": 2646915,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Varesh Ossa",
+      "url": "https://wiki.guildwars.com/wiki/Varesh_Ossa",
+      "revision": 2712706,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -329,7 +373,7 @@
     {
       "name": "關鍵敵人與機制",
       "mechanism": "首形態倒地不算過關。別把召喚物鋪到巡邏路；中心站位替代法需無小兵／靈，否則容易額外引怪。原Wiki沒有玩家路線圖，頁面場景圖不能作導航。",
-      "counter": "General Morgahn、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
+      "counter": "摩根將軍、反近戰／施法、保護與Lightbringer；集中對付被點名目標的生存。"
     }
   ],
   "missionReward": {
@@ -344,5 +388,31 @@
       "expert": "10–14分鐘",
       "master": "少於10分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/35023",
+    "game-client://2026-10-09/string/39680"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      35023,
+      39680
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Ruins_of_Morah",
+    "revision": 2737900,
+    "heroes": [
+      "摩根將軍"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

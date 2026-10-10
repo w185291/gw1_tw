@@ -1,0 +1,379 @@
+{
+  "pvpOnly": false,
+  "id": "chain-lightning",
+  "name": {
+    "en": "Chain Lightning",
+    "zhTW": "連鎖閃電",
+    "translationVerified": true
+  },
+  "clientSkillId": 223,
+  "icon": "/skills/chain-lightning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe and up to two other foes near your target are struck for 10...70...85 lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "對目標及附近的兩個敵人造成10～85閃電傷害，若你身上不具有加持則會精疲力竭，此技能有25%防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "zeki-lament",
+          "en": "Zeki Lament",
+          "zhTW": "Zeki Lament",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zeki Lament (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Zeki_Lament",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lamaan-wickedwail",
+          "en": "Lamaan Wickedwail",
+          "zhTW": "Lamaan Wickedwail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lamaan Wickedwail (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "mursaat-elementalist-boss",
+          "en": "Mursaat Elementalist (boss)",
+          "zhTW": "Mursaat Elementalist (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mursaat Elementalist (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Mursaat_Elementalist_(boss)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "kratos-the-foul",
+          "en": "Kratos the Foul",
+          "zhTW": "Kratos the Foul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kratos the Foul (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Kratos_the_Foul",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-inquisitor",
+          "en": "The Inquisitor",
+          "zhTW": "The Inquisitor",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "The Inquisitor (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/The_Inquisitor",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chrysos-the-magnetic",
+          "en": "Chrysos the Magnetic",
+          "zhTW": "Chrysos the Magnetic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chrysos the Magnetic (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "talios-the-resplendent",
+          "en": "Talios the Resplendent",
+          "zhTW": "Talios the Resplendent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Talios the Resplendent (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Talios_the_Resplendent",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "shadow-spawn",
+          "en": "Shadow Spawn",
+          "zhTW": "Shadow Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          },
+          {
+            "name": {
+              "id": "shadows-in-the-night",
+              "en": "Shadows in the Night",
+              "zhTW": "Shadows in the Night",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadows_in_the_Night"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadow Spawn (Raven's Point, only during Shadows in the Night)",
+        "source": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Spawn",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "對目標及附近的兩個敵人造成10～85閃電傷害，若你身上不具有加持則會精疲力竭，此技能有25%防禦穿透效果。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+      "revision": 2695678,
+      "title": "Chain Lightning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25267",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25268,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標及附近的兩個敵人造成%str1%閃電傷害，若你身上不具有加持則會精疲力竭，此技能有25%%防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

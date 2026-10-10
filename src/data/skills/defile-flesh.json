@@ -1,0 +1,350 @@
+{
+  "pvpOnly": false,
+  "id": "defile-flesh",
+  "name": {
+    "en": "Defile Flesh",
+    "zhTW": "肉體敗壞",
+    "translationVerified": true
+  },
+  "clientSkillId": 129,
+  "icon": "/skills/defile-flesh.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...29...35 seconds, target foe gains only two-thirds Health from healing.",
+      "zhTW": "犧牲自己最大體力的 10% 。持續 5～35 秒，使目標敵人受到治療時的效果減少三分之一。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "renegade-necromancer",
+          "en": "Renegade Necromancer",
+          "zhTW": "Renegade Necromancer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Renegade Necromancer (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Renegade_Necromancer",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "kahli-the-stiched",
+          "en": "Kahli, the Stiched",
+          "zhTW": "Kahli, the Stiched",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "following-the-trail",
+              "en": "Following the Trail",
+              "zhTW": "Following the Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Following_the_Trail"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kahli, the Stiched (Cliffs of Dohjok, only during Following the Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Kahli,_the_Stiched",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "midshipman-beraidun",
+          "en": "Midshipman Beraidun",
+          "zhTW": "Midshipman Beraidun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Midshipman Beraidun (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Midshipman_Beraidun",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "commander-werishakul",
+          "en": "Commander Werishakul",
+          "zhTW": "Commander Werishakul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Werishakul (Mehtani Keys)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Werishakul",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "commander-sehden",
+          "en": "Commander Sehden",
+          "zhTW": "Commander Sehden",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Sehden (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Sehden",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 10% 。持續 5～35 秒，使目標敵人受到治療時的效果減少三分之一。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+      "revision": 2683638,
+      "title": "Defile Flesh",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25078",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25079,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 10%% 。持續 %str3% 秒，使目標敵人受到治療時的效果減少三分之一。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

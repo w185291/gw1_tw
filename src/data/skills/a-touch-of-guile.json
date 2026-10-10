@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "a-touch-of-guile",
+  "name": {
+    "en": "A Touch of Guile",
+    "zhTW": "狡詐之為"
+  },
+  "clientSkillId": 2357,
+  "icon": "/skills/a-touch-of-guile.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "touch-hex-spell",
+    "en": "Touch hex spell",
+    "zhTW": "碰觸降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. Target touched foe takes 44...80 damage. If target foe was knocked down, that foe cannot attack for 5...8 seconds.",
+      "zhTW": "碰觸目標敵人使其受到 44～80 傷害。若目標敵人已被擊倒，則於 5～8 秒內無法進行攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "final-round-fight",
+          "en": "Final Round: Fight!",
+          "zhTW": "Final Round: Fight!",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Final Round: Fight! (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile",
+        "url": "https://wiki.guildwars.com/wiki/Final_Round:_Fight!",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "碰觸目標敵人使其受到 44～80 傷害。若目標敵人已被擊倒，則於 5～8 秒內無法進行攻擊。",
+  "commonUses": [
+    "Norn rank · 碰觸降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile",
+      "revision": 2674048,
+      "title": "A Touch of Guile",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71911"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71912,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人使其受到 %str1% 傷害。若目標敵人已被擊倒，則於 %str3% 秒內無法進行攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

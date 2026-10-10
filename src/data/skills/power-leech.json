@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "power-leech",
+  "name": {
+    "en": "Power Leech",
+    "zhTW": "強力榨取",
+    "translationVerified": true
+  },
+  "clientSkillId": 803,
+  "icon": "/skills/power-leech.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to 5...13...15 Energy from that foe.",
+      "zhTW": "若目標敵人正在施展「魔法」或「聖歌」，該「魔法」被中斷。而且在 10 秒內，每當該名敵人施展「魔法」時，你偷取其最多 5～15 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "seaguard-hala",
+          "en": "Seaguard Hala",
+          "zhTW": "海洋守衛 哈蘭",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seaguard Hala (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Leech",
+        "url": "https://wiki.guildwars.com/wiki/Seaguard_Hala",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "若目標敵人正在施展「魔法」或「聖歌」，該「魔法」被中斷。而且在 10 秒內，每當該名敵人施展「魔法」時，你偷取其最多 5～15 能量。",
+  "commonUses": [
+    "靈感魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Power_Leech",
+      "revision": 2731694,
+      "title": "Power Leech",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26532",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26533,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人正在施展「魔法」或「聖歌」，該「魔法」被中斷。而且在 %str3% 秒內，每當該名敵人施展「魔法」時，你偷取其最多 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

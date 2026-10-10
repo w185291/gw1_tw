@@ -1,0 +1,279 @@
+{
+  "pvpOnly": false,
+  "id": "shock",
+  "name": {
+    "en": "Shock",
+    "zhTW": "電擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 231,
+  "icon": "/skills/shock.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 10.0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Target touched foe is knocked down and struck for 10...50...60 lightning damage. This skill has 25% armor penetration.",
+      "zhTW": "碰觸目標敵人，使其受到 10～60 閃電傷害並且被擊倒。此技能具有 25% 防禦穿透效果，但是會造成施法者精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "mazzim",
+          "en": "Mazzim",
+          "zhTW": "Mazzim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mazzim (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Mazzim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "edielh-shockhunter",
+          "en": "Edielh Shockhunter",
+          "zhTW": "Edielh Shockhunter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Edielh Shockhunter (Jaga Moraine, after completion of Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Edielh_Shockhunter",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "cursed-brigand",
+          "en": "Cursed Brigand",
+          "zhTW": "Cursed Brigand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shards-of-orr",
+              "en": "Shards of Orr",
+              "zhTW": "歐爾殘跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shards_of_Orr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cursed Brigand (Shards of Orr)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Cursed_Brigand",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Shock",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標敵人，使其受到 10～60 閃電傷害並且被擊倒。此技能具有 25% 防禦穿透效果，但是會造成施法者精疲力竭。",
+  "commonUses": [
+    "風系魔法 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shock",
+      "revision": 2711534,
+      "title": "Shock",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25284",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25285,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人，使其受到 %str1% 閃電傷害並且被擊倒。此技能具有 25%% 防禦穿透效果，但是會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

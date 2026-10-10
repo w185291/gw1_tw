@@ -1,0 +1,861 @@
+{
+  "pvpOnly": false,
+  "id": "endure-pain",
+  "name": {
+    "en": "Endure Pain",
+    "zhTW": "忍耐痛苦",
+    "translationVerified": true
+  },
+  "clientSkillId": 347,
+  "icon": "/skills/endure-pain.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30,
+  "description": {
+    "pve": {
+      "en": "Skill. For 7...16...18 seconds you have an additional 90...258...300 Health.",
+      "zhTW": "持續 7～18 秒，使你的體力最大值增加 90～300 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "into-the-breach",
+          "en": "Into the Breach",
+          "zhTW": "Into the Breach",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Into the Breach (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Into_the_Breach",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "minotaur-boss",
+          "en": "Minotaur (boss)",
+          "zhTW": "Minotaur (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "anvil-rock",
+              "en": "Anvil Rock",
+              "zhTW": "鐵砧石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Anvil_Rock"
+          },
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Minotaur (Anvil Rock and The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Minotaur_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "smuush-fatfist",
+          "en": "Smuush Fatfist",
+          "zhTW": "Smuush Fatfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Smuush Fatfist (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Smuush_Fatfist",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "glutt-wallop",
+          "en": "Glutt Wallop",
+          "zhTW": "Glutt Wallop",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Glutt Wallop (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Glutt_Wallop",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "droog-stoneclub",
+          "en": "Droog Stoneclub",
+          "zhTW": "Droog Stoneclub",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Droog Stoneclub (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Droog_Stoneclub",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "marrg-grummbool",
+          "en": "Marrg Grummbool",
+          "zhTW": "Marrg Grummbool",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tangle-root",
+              "en": "Tangle Root",
+              "zhTW": "糾結之根",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tangle_Root"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Marrg Grummbool (Tangle Root)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Marrg_Grummbool",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "kree-minotaur",
+          "en": "Kree Minotaur",
+          "zhTW": "Kree Minotaur",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "the-elementalist-s-path",
+              "en": "The Elementalist's Path",
+              "zhTW": "The Elementalist's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elementalist%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kree Minotaur (Prophet's Path, during The Elementalist's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Kree_Minotaur",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "stoofed-chargehoof",
+          "en": "Stoofed Chargehoof",
+          "zhTW": "Stoofed Chargehoof",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Stoofed Chargehoof (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Stoofed_Chargehoof",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "graf-wask-derg",
+          "en": "Graf Wask Derg",
+          "zhTW": "Graf Wask Derg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          },
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Graf Wask Derg (Diviner's Ascent, Salt Flats, The Arid Sea, The Scar, and Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Graf_Wask_Derg",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "monaru-chippedfang",
+          "en": "Monaru Chippedfang",
+          "zhTW": "Monaru Chippedfang",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Monaru Chippedfang (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Monaru_Chippedfang",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-dellus",
+          "en": "Custodian Dellus",
+          "zhTW": "Custodian Dellus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Dellus (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Dellus",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-fidius",
+          "en": "Custodian Fidius",
+          "zhTW": "Custodian Fidius",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Fidius (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Fidius",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-hulgar",
+          "en": "Custodian Hulgar",
+          "zhTW": "Custodian Hulgar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Hulgar (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Hulgar",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ehyal-longtooth",
+          "en": "Ehyal Longtooth",
+          "zhTW": "Ehyal Longtooth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lahtenda-bog",
+              "en": "Lahtenda Bog",
+              "zhTW": "洛天帝沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ehyal Longtooth (Lahtenda Bog)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Ehyal_Longtooth",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ursula-the-white",
+          "en": "Ursula the White",
+          "zhTW": "Ursula the White",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fahranur-the-first-city",
+              "en": "Fahranur, the First City",
+              "zhTW": "舊城．法蘭努爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fahranur,_the_First_City"
+          },
+          {
+            "name": {
+              "id": "how-the-grentches-stole-wintersday",
+              "en": "How the Grentches Stole Wintersday",
+              "zhTW": "How the Grentches Stole Wintersday",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/How_the_Grentches_Stole_Wintersday"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ursula the White (Fahranur, the First City, during How the Grentches Stole Wintersday)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Ursula_the_White",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "mahto-sharptooth",
+          "en": "Mahto Sharptooth",
+          "zhTW": "Mahto Sharptooth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mahto Sharptooth (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Mahto_Sharptooth",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lissah-the-packleader",
+          "en": "Lissah the Packleader",
+          "zhTW": "Lissah the Packleader",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lissah the Packleader (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Lissah_the_Packleader",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "molotov-rocktail",
+          "en": "Molotov Rocktail",
+          "zhTW": "Molotov Rocktail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Molotov Rocktail (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Molotov_Rocktail",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "taskmaster-durgon",
+          "en": "Taskmaster Durgon",
+          "zhTW": "Taskmaster Durgon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Durgon (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Durgon",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-ettin",
+          "en": "Inscribed Ettin",
+          "zhTW": "Inscribed Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "finding-gadd",
+              "en": "Finding Gadd",
+              "zhTW": "正在尋找蓋德",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_Gadd"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Ettin (Sparkfly Swamp, during 正在尋找蓋德)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-sentry",
+          "en": "Inscribed Sentry",
+          "zhTW": "Inscribed Sentry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Sentry (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Sentry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "marln-steelfist",
+          "en": "Marln Steelfist",
+          "zhTW": "Marln Steelfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Marln Steelfist (Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Marln_Steelfist",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Endure_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 7～18 秒，使你的體力最大值增加 90～300 。",
+  "commonUses": [
+    "力量 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Endure_Pain",
+      "revision": 2733106,
+      "title": "Endure Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25907",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25908,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你的體力最大值增加 %str1% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

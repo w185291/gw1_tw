@@ -1,0 +1,197 @@
+{
+  "pvpOnly": false,
+  "id": "whirling-charge",
+  "name": {
+    "en": "Whirling Charge",
+    "zhTW": "速度充能",
+    "translationVerified": true
+  },
+  "clientSkillId": 1544,
+  "icon": "/skills/whirling-charge.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. For 1...5...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...50...60 cold damage and this enchantment ends.",
+      "zhTW": "持續 1～6 秒，你的移動速度增加 33% ，下一次攻擊同時使附近敵人受到 10～60 冰凍傷害，且此加持終止。"
+    },
+    "pvp": {
+      "en": "Flash Enchantment Spell. For 1...5...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...42...50 cold damage and this enchantment ends.",
+      "zhTW": "持續 1～6 秒，你的移動速度增加 33% ，下一次攻擊同時使附近敵人受到 10～50 冰凍傷害，且此加持終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Whirling Charge (PvP)",
+      "description": {
+        "en": "Flash Enchantment Spell. For 1...5...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...42...50 cold damage and this enchantment ends.",
+        "zhTW": "持續 1～6 秒，你的移動速度增加 33% ，下一次攻擊同時使附近敵人受到 10～50 冰凍傷害，且此加持終止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Whirling_Charge_%28PvP%29",
+        "revision": 2738650,
+        "title": "Whirling Charge (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3472
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 1～6 秒，你的移動速度增加 33% ，下一次攻擊同時使附近敵人受到 10～60 冰凍傷害，且此加持終止。",
+  "commonUses": [
+    "風之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+      "revision": 2738615,
+      "title": "Whirling Charge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Whirling_Charge_%28PvP%29",
+      "revision": 2738650,
+      "title": "Whirling Charge (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33427",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33428,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度增加 %str1%%% ，下一次攻擊同時使附近敵人受到 %str2% 冰凍傷害，且此加持終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,27 @@
     {
       "id": "dunkoro",
       "name": {
-        "zhTW": "唐克羅 / Dunkoro",
+        "zhTW": "唐克羅",
         "en": "Dunkoro"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41881",
+        "game-client://2026-10-09/string/46263",
+        "game-client://2026-10-09/string/46762",
+        "game-client://2026-10-09/string/51066"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41881,
+          46263,
+          46762,
+          51066
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -149,63 +166,112 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Captain Kavaka",
+        "zhTW": "Captain Kavaka（繁中名稱待確認）",
         "en": "Captain Kavaka"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Magehunter Strike",
+        "Mighty Blow",
+        "Sprint",
+        "Staggering Blow"
+      ],
+      "eliteSkills": [
         "Magehunter Strike"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Consulate_Docks#Bosses",
-      "revision": 2742302
+      "source": "https://wiki.guildwars.com/wiki/Captain_Kavaka",
+      "revision": 2605151
     },
     {
       "name": {
-        "zhTW": "Captain Mwende",
+        "zhTW": "Captain Mwende（繁中名稱待確認）",
         "en": "Captain Mwende"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Aura of Restoration",
+        "Fireball",
+        "Master of Magic",
+        "Meteor"
+      ],
+      "eliteSkills": [
         "Master of Magic"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Consulate_Docks#Bosses",
-      "revision": 2742302
+      "source": "https://wiki.guildwars.com/wiki/Captain_Mwende",
+      "revision": 2291750
     },
     {
       "name": {
-        "zhTW": "Captain Lumanda",
+        "zhTW": "Captain Lumanda（繁中名稱待確認）",
         "en": "Captain Lumanda"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "\"Never Surrender!\"",
+        "\"Stand Your Ground!\"",
+        "Cautery Signet",
+        "Mighty Throw",
+        "Wild Throw"
+      ],
+      "eliteSkills": [
         "Cautery Signet"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Consulate_Docks#Bosses",
-      "revision": 2742302
+      "source": "https://wiki.guildwars.com/wiki/Captain_Lumanda",
+      "revision": 2737813
     },
     {
       "name": {
-        "zhTW": "Captain Denduru",
+        "zhTW": "Captain Denduru（繁中名稱待確認）",
         "en": "Captain Denduru"
       },
-      "profession": "神喚使",
+      "profession": "Dervish",
       "importantSkills": [
+        "Armor of Sanctity",
+        "Eremite's Attack",
+        "Pious Renewal",
+        "Veil of Thorns"
+      ],
+      "eliteSkills": [
         "Pious Renewal"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Consulate_Docks#Bosses",
-      "revision": 2742302
+      "source": "https://wiki.guildwars.com/wiki/Captain_Denduru",
+      "revision": 2605150
     }
   ],
   "recommendedTeam": [
@@ -321,6 +387,34 @@
       "title": "Consulate Docks (outpost)",
       "url": "https://wiki.guildwars.com/wiki/Consulate_Docks_%28outpost%29",
       "revision": 2693569,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Captain Kavaka",
+      "url": "https://wiki.guildwars.com/wiki/Captain_Kavaka",
+      "revision": 2605151,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Captain Mwende",
+      "url": "https://wiki.guildwars.com/wiki/Captain_Mwende",
+      "revision": 2291750,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Captain Lumanda",
+      "url": "https://wiki.guildwars.com/wiki/Captain_Lumanda",
+      "revision": 2737813,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Captain Denduru",
+      "url": "https://wiki.guildwars.com/wiki/Captain_Denduru",
+      "revision": 2605150,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
     }
@@ -442,7 +536,7 @@
     },
     {
       "name": {
-        "zhTW": "A Land of Heroes",
+        "zhTW": "英雄之地",
         "en": "A Land of Heroes"
       },
       "giver": "Quarrymaster Bohanna",
@@ -450,7 +544,17 @@
       "directions": "找Bohanna開始守Champion’s Dawn，Kormir必須活；守住後反攻登陸點與營地，回Puuba。",
       "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes",
       "revision": 2634031,
-      "translationStatus": "needs-review"
+      "translationStatus": "verified",
+      "translationVerified": true,
+      "translationSources": [
+        "game-client://2026-10-09/string/39166"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          39166
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "primaryQuestAfter": [
@@ -523,5 +627,31 @@
       "expert": "清兩群",
       "master": "清三群"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36152",
+    "game-client://2026-10-09/string/39672"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      36152,
+      39672
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Consulate_Docks",
+    "revision": 2742302,
+    "heroes": [
+      "Dunkoro"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

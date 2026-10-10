@@ -1,0 +1,212 @@
+{
+  "id": "painful-bond",
+  "name": {
+    "en": "Painful Bond",
+    "zhTW": "苦痛連結",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1237,
+  "icon": "/skills/painful-bond.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 12,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 10...18...20 seconds, target foe and all nearby foes are hexed with Painful Bond and take 8...18...20 damage whenever hit by a spirit's attack.",
+      "zhTW": "持續10～20秒，當目標敵人遭到縛靈攻擊命中時，該目標及其鄰近敵人遭受「降咒」苦痛連結以及受到 8～20 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Painful_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "locate-professor-gai",
+          "en": "Locate Professor Gai",
+          "zhTW": "Locate Professor Gai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate 蓋師範 (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Painful_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Professor_Gai",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "nehjab-the-parched",
+          "en": "Nehjab the Parched",
+          "zhTW": "Nehjab the Parched",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "poisoned-outcrops",
+              "en": "Poisoned Outcrops",
+              "zhTW": "劇毒地表",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Poisoned_Outcrops"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Nehjab the Parched (Poisoned Outcrops)",
+        "source": "https://wiki.guildwars.com/wiki/Painful_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Nehjab_the_Parched",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "jedeh-the-mighty",
+          "en": "Jedeh the Mighty",
+          "zhTW": "Jedeh the Mighty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Jedeh the Mighty (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Painful_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Jedeh_the_Mighty",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "先讓攻擊靈體就位，再對敵人群上苦痛連結，放大靈體造成的傷害；沒有攻擊靈體配合時收益有限。",
+  "commonUses": [
+    "靈體輸出",
+    "SoS 配套"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Painful_Bond",
+      "revision": 2730769,
+      "title": "Painful Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27321"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27322,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，當目標敵人遭到縛靈攻擊命中時，該目標及其鄰近敵人遭受「降咒」苦痛連結以及受到 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

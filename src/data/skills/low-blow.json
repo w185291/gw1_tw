@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "low-blow",
+  "name": {
+    "en": "Low Blow",
+    "zhTW": "低鳴"
+  },
+  "clientSkillId": 2214,
+  "icon": "/skills/low-blow.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Skill. Strike target foe for 45...70 damage. If target foe is knocked down, that foe takes an additional 30...50 damage and suffers from Cracked Armor for 14...20 seconds.",
+      "zhTW": "碰觸目標敵人造成45～70傷 害。若目標倒地，再增加30～50傷 害並引發碎甲14～20秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-throwdown-in-a-norn-town",
+          "en": "The Throwdown in a Norn Town",
+          "zhTW": "The Throwdown in a Norn Town",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Throwdown in a Norn Town (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Low_Blow",
+        "url": "https://wiki.guildwars.com/wiki/The_Throwdown_in_a_Norn_Town",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "碰觸目標敵人造成45～70傷 害。若目標倒地，再增加30～50傷 害並引發碎甲14～20秒。",
+  "commonUses": [
+    "Deldrimor rank · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Low_Blow",
+      "revision": 2657193,
+      "title": "Low Blow",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69869"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69870,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人造成%str1%傷 害。若目標倒地，再增加%str2%傷 害並引發碎甲%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

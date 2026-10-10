@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "strike-as-one",
+  "name": {
+    "en": "Strike as One",
+    "zhTW": "衝擊合一",
+    "translationVerified": true
+  },
+  "clientSkillId": 1468,
+  "icon": "/skills/strike-as-one.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. Your animal companion instantly moves to your target and causes Bleeding for 5...13...15 seconds with its next attack. The next time you hit with an attack, target foe is Crippled for 5...13...15 seconds.",
+      "zhTW": "你的寵物立即移動到目標敵人位置，下一次寵物攻擊時造成流血5～15秒，同時下一次你攻擊時造成殘廢5～15秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "sergeant-behnwa",
+          "en": "Sergeant Behnwa",
+          "zhTW": "Sergeant Behnwa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Sergeant Behnwa (Turai's Procession)",
+        "source": "https://wiki.guildwars.com/wiki/Strike_as_One",
+        "url": "https://wiki.guildwars.com/wiki/Sergeant_Behnwa",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "你的寵物立即移動到目標敵人位置，下一次寵物攻擊時造成流血5～15秒，同時下一次你攻擊時造成殘廢5～15秒。",
+  "commonUses": [
+    "野獸支配 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Strike_as_One",
+      "revision": 2684882,
+      "title": "Strike as One",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36335",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36336,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你的寵物立即移動到目標敵人位置，下一次寵物攻擊時造成流血%str2%秒，同時下一次你攻擊時造成殘廢%str1%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

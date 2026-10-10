@@ -1,0 +1,295 @@
+{
+  "pvpOnly": false,
+  "id": "mind-freeze",
+  "name": {
+    "en": "Mind Freeze",
+    "zhTW": "心靈凍結",
+    "translationVerified": true
+  },
+  "clientSkillId": 209,
+  "icon": "/skills/mind-freeze.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Target foe takes 10...50...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...50...60 cold damage and moves 90% slower for 1...4...5 second[s].",
+      "zhTW": "使目標敵人受到 10～60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10～60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1～5 秒。此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. Target foe takes 10...50...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...50...60 cold damage and moves 90% slower for 1...4...5 seconds.",
+      "zhTW": "使目標敵人受到 10～60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10～60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1～5 秒。此魔法會造成施法者精疲力竭。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mind Freeze (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. Target foe takes 10...50...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...50...60 cold damage and moves 90% slower for 1...4...5 seconds.",
+        "zhTW": "使目標敵人受到 10～60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10～60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1～5 秒。此魔法會造成施法者精疲力竭。"
+      },
+      "stats": {
+        "Overcast": 5.0,
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mind_Freeze_%28PvP%29",
+        "revision": 2733294,
+        "title": "Mind Freeze (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2803
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "skitt-skizzle",
+          "en": "Skitt Skizzle",
+          "zhTW": "Skitt Skizzle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skitt Skizzle (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Skitt_Skizzle",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "maak-frostfriend",
+          "en": "Maak Frostfriend",
+          "zhTW": "Maak Frostfriend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          },
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Maak Frostfriend (Spearhead Peak and Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Maak_Frostfriend",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "baubao-wavewrath",
+          "en": "Baubao Wavewrath",
+          "zhTW": "Baubao Wavewrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Baubao Wavewrath (The Undercity)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Baubao_Wavewrath",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "storm-of-anguish",
+          "en": "Storm of Anguish",
+          "zhTW": "Storm of Anguish",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Storm of Anguish (Domain of Fear)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Storm_of_Anguish",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "dazehl-brainfreezer",
+          "en": "Dazehl Brainfreezer",
+          "zhTW": "Dazehl Brainfreezer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dazehl Brainfreezer (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Dazehl_Brainfreezer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lord-glacius-the-eternal",
+          "en": "Lord Glacius the Eternal",
+          "zhTW": "Lord Glacius the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lord Glacius the Eternal (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Lord_Glacius_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 10～60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10～60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1～5 秒。此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+      "revision": 2733080,
+      "title": "Mind Freeze",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mind_Freeze_%28PvP%29",
+      "revision": 2733294,
+      "title": "Mind Freeze (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25239",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25240,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 %str1% 冰凍傷害，而且使其移動速度減慢 90%% 並持續 %str3% 秒。此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

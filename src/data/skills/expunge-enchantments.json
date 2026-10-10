@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "expunge-enchantments",
+  "name": {
+    "en": "Expunge Enchantments",
+    "zhTW": "抹除加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 990,
+  "icon": "/skills/expunge-enchantments.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 8...5...4 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
+      "zhTW": "目標敵人失去 1「加持」。你的所有非攻擊技能在 8～4 秒內無法使用。依照無法使用的技能數量，額外的使被碰觸的目標敵人失去相同數量的「加持」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "disenchantment-course",
+          "en": "Disenchantment Course",
+          "zhTW": "Disenchantment Course",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Disenchantment Course (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Disenchantment_Course",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "目標敵人失去 1「加持」。你的所有非攻擊技能在 8～4 秒內無法使用。依照無法使用的技能數量，額外的使被碰觸的目標敵人失去相同數量的「加持」。",
+  "commonUses": [
+    "暗殺技巧 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
+      "revision": 2738340,
+      "title": "Expunge Enchantments",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26496"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26497,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標敵人失去 1「加持」。你的所有非攻擊技能在 %str3% 秒內無法使用。依照無法使用的技能數量，額外的使被碰觸的目標敵人失去相同數量的「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

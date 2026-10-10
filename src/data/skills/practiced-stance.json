@@ -1,0 +1,131 @@
+{
+  "pvpOnly": false,
+  "id": "practiced-stance",
+  "name": {
+    "en": "Practiced Stance",
+    "zhTW": "熟練態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 449,
+  "icon": "/skills/practiced-stance.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 20...32...35 seconds, your Preparations recharge 50% faster and last 30...246...300% longer.",
+      "zhTW": "持續20～35秒，所有準備技能回覆速度增快50%且持續時間延長30～300%。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ryk-arrowwing",
+          "en": "Ryk Arrowwing",
+          "zhTW": "Ryk Arrowwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ryk Arrowwing (Mineral Springs)",
+        "source": "https://wiki.guildwars.com/wiki/Practiced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Ryk_Arrowwing",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續20～35秒，所有準備技能回覆速度增快50%且持續時間延長30～300%。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Practiced_Stance",
+      "revision": 2732830,
+      "title": "Practiced Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26256"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26257,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，所有準備技能回覆速度增快50%%且持續時間延長%str2%%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

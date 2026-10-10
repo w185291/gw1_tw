@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "vow-of-piety",
+  "name": {
+    "en": "Vow of Piety",
+    "zhTW": "虔誠誓言",
+    "translationVerified": true
+  },
+  "clientSkillId": 1505,
+  "icon": "/skills/vow-of-piety.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 20 seconds, you have +24 armor and +1...3...4 Health regeneration. Vow of Piety renews whenever an enchantment on you ends.",
+      "zhTW": "持續20秒，防禦增加24，而且體力再生1～4，若有一項加持在你身上終止，虔誠誓言回復到20秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "acolyte-of-dwayna",
+          "en": "Acolyte of Dwayna",
+          "zhTW": "Acolyte of Dwayna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Acolyte of Dwayna (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_of_Dwayna",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "zealot-sheoli",
+          "en": "Zealot Sheoli",
+          "zhTW": "Zealot Sheoli",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nundu-bay",
+              "en": "Nundu Bay",
+              "zhTW": "納度灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nundu_Bay"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zealot Sheoli (Nundu Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+        "url": "https://wiki.guildwars.com/wiki/Zealot_Sheoli",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續20秒，防禦增加24，而且體力再生1～4，若有一項加持在你身上終止，虔誠誓言回復到20秒。",
+  "commonUses": [
+    "風之祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+      "revision": 2733232,
+      "title": "Vow of Piety",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33371"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33372,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，防禦增加24，而且體力再生%str1%，若有一項加持在你身上終止，虔誠誓言回復到20秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

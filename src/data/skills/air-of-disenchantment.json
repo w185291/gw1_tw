@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "air-of-disenchantment",
+  "name": {
+    "en": "Air of Disenchantment",
+    "zhTW": "反加持氣息",
+    "translationVerified": true
+  },
+  "clientSkillId": 1656,
+  "icon": "/skills/air-of-disenchantment.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Remove one enchantment from target foe and all nearby foes. For 5...17...20 seconds, enchantments expire 150...270...300% faster on those foes.",
+      "zhTW": "使目標及目標附近敵人遭受此降咒(5～20秒)並移除一項加持，這些目標之後所施展的加持其維持時間加快150～300%結束。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hojanukun-mindstealer",
+          "en": "Hojanukun Mindstealer",
+          "zhTW": "Hojanukun Mindstealer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "garden-of-seborhin",
+              "en": "Garden of Seborhin",
+              "zhTW": "希伯欣花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Garden_of_Seborhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hojanukun Mindstealer (Garden of Seborhin)",
+        "source": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment",
+        "url": "https://wiki.guildwars.com/wiki/Hojanukun_Mindstealer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "使目標及目標附近敵人遭受此降咒(5～20秒)並移除一項加持，這些目標之後所施展的加持其維持時間加快150～300%結束。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment",
+      "revision": 2733062,
+      "title": "Air of Disenchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/44011"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44012,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標及目標附近敵人遭受此降咒(%str3%秒)並移除一項加持，這些目標之後所施展的加持其維持時間加快%str1%%%結束。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

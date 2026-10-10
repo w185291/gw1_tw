@@ -1,0 +1,203 @@
+{
+  "id": "soothing",
+  "name": {
+    "en": "Soothing",
+    "zhTW": "緩和",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1266,
+  "icon": "/skills/soothing.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit. All foes within its range take twice as long to build adrenaline. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "創造等級 1～12 的緩和縛靈。使範圍內的所有敵人必須花兩倍的時間累積怒氣值。縛靈在 15～45 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit. All foes within its range take twice as long to build adrenaline. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 15～45 秒。範圍內敵人累積怒氣所需時間加倍。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Soothing (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit. All foes within its range take twice as long to build adrenaline. This spirit dies after 15...39...45 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 15～45 秒。範圍內敵人累積怒氣所需時間加倍。"
+      },
+      "stats": {
+        "Energy": 25.0,
+        "Activation": 5.0,
+        "Recharge": 60.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Soothing_%28PvP%29",
+        "revision": 2720901,
+        "title": "Soothing (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3009
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "fozzy-yeoryios",
+          "en": "Fozzy Yeoryios",
+          "zhTW": "Fozzy Yeoryios",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Fozzy Yeoryios (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing",
+        "url": "https://wiki.guildwars.com/wiki/Fozzy_Yeoryios",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "創造等級 1～12 的緩和縛靈。使範圍內的所有敵人必須花兩倍的時間累積怒氣值。縛靈在 15～45 秒後消失。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "ancestor-s-visage",
+      "en": "Ancestor's Visage",
+      "zhTW": "先人容貌",
+      "translationVerified": true
+    },
+    {
+      "id": "sympathetic-visage",
+      "en": "Sympathetic Visage",
+      "zhTW": "感同身受",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soothing",
+      "revision": 2720900,
+      "title": "Soothing",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soothing_%28PvP%29",
+      "revision": 2720901,
+      "title": "Soothing (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27367"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27368,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的緩和縛靈。使範圍內的所有敵人必須花兩倍的時間累積怒氣值。縛靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

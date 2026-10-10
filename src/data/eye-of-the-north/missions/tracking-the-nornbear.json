@@ -1,0 +1,201 @@
+{
+  "id": "tracking-the-nornbear",
+  "order": 4,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Tracking the Nornbear",
+    "zhTW": "跟蹤可怕的熊"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Tracking the Nornbear"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 前導"
+  ],
+  "summary": "追蹤熊形敵人並開 Gunnar’s Hold、Sifhalla 據點；敵人前兩次逃走是正常劇情。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "從 Eye of the North 出 Ice Cliff Chasms，找門外的 Jora 接取，屬於 北方同盟 分支。",
+    "location": "Ice Cliff Chasms 的 Jora",
+    "requirements": [
+      "開始 北方同盟 分支。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 前導",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "追蹤熊形敵人並開 Gunnar’s Hold、Sifhalla 據點；敵人前兩次逃走是正常劇情。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "第一場遭遇",
+      "content": "向北進 Norrhart Domains，擊敗沿路出現的 Savage Nornbear；它會逃跑，不必原地追著等。"
+    },
+    {
+      "title": "找 Gunnar",
+      "content": "向東北進 Gunnar’s Hold，找 Gunnar Poundfist 對話。他會指示找 Sif Shadowhunter。"
+    },
+    {
+      "title": "第二場遭遇",
+      "content": "回 Norrhart Domains，這次向西北進 Drakkar Lake，再擊敗 Savage Nornbear；它再次逃走仍是正常進度。"
+    },
+    {
+      "title": "保衛 Sifhalla",
+      "content": "往北方、地圖東北角進 Sifhalla，向 Sif 說話後傳進據點探險版本。擊敗進攻的熊形敵人，看完過場返回一般據點。"
+    },
+    {
+      "title": "回報與下一步",
+      "content": "找 Sif Shadowhunter 領 2,000 經驗與 250 Norn 聲望；後續 Curse of the Nornbear 自動加入，準備在 Sifhalla 開始追獵。"
+    }
+  ],
+  "routeSummary": "從 Eye of the North 出 Ice Cliff Chasms，找門外的 Jora 接取，屬於 北方同盟 分支。",
+  "mapImage": null,
+  "mapNotes": [
+    "原 Wiki 此頁沒有單張完整行走圖；本段依據點與接任務 NPC 順序前進。"
+  ],
+  "maps": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Savage Nornbear",
+        "zhTW": "Savage Nornbear（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Charging Spirit",
+        "Spirit Roar",
+        "Spirit Senses",
+        "Spirit World Retreat"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "前兩場讓敵人進入撤退劇情，不要在原地等重生。它是近戰戰士型敵人，帶致盲、格擋與治療；技能依不同任務遭遇有所差異。",
+      "source": "https://wiki.guildwars.com/wiki/Nornbear",
+      "revision": 2571637,
+      "translationVerified": false
+    }
+  ],
+  "bossAbsenceVerified": false,
+  "bossAbsenceReason": "",
+  "recommendedTeam": [
+    "需要近戰壓制、治療與解除病症；帶遠距離拉怪，方便通過兩張探險區。"
+  ],
+  "tips": [],
+  "warnings": [
+    "熊前兩次逃走不是卡關；先前往指定據點找 NPC 更新目標。",
+    "若熊歸零又回到 25% 而不逃，先把英雄／傭兵旗標拉遠，讓戰鬥解除後再試。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "跨據點追蹤加一場防守，按前後 NPC 順序更新目標，不必清光每區敵人。"
+    ],
+    "hard": [
+      "路線與更新條件相同；在高等敵區保持隊伍一起行動，別為追熊穿過多隊巡邏。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2000,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "250 Norn 聲望。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Tracking_the_Nornbear",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Tracking the Nornbear",
+      "url": "https://wiki.guildwars.com/wiki/Tracking_the_Nornbear",
+      "revision": 2668645,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nornbear",
+      "url": "https://wiki.guildwars.com/wiki/Nornbear",
+      "revision": 2571637,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "against-the-destroyers",
+  "nextMission": "curse-of-the-nornbear",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "完成防守後返回 Sifhalla，向 Sif 領獎；後續 Curse of the Nornbear 自動加入日誌。"
+  ],
+  "storyStartVerified": false
+}

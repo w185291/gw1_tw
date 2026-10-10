@@ -1,0 +1,164 @@
+{
+  "pvpOnly": false,
+  "id": "burning-speed",
+  "name": {
+    "en": "Burning Speed",
+    "zhTW": "速度燃燒",
+    "translationVerified": true
+  },
+  "clientSkillId": 823,
+  "icon": "/skills/burning-speed.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 7 seconds, you are set on fire and move 30...42...45% faster. When Burning Speed ends, all adjacent foes are set on fire for 3...8...9 seconds.",
+      "zhTW": "持續 5 秒，你遭受「著火」病症並且提高移動速度 30～45% 。當速度燃燒結束時，所有鄰近你的敵人遭受「著火」病症 3～9 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Burning_Speed",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-kaichen",
+          "en": "Bound Kaichen",
+          "zhTW": "Bound Kaichen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Kaichen (Domain of Fear, only during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Burning_Speed",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kaichen",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 5 秒，你遭受「著火」病症並且提高移動速度 30～45% 。當速度燃燒結束時，所有鄰近你的敵人遭受「著火」病症 3～9 秒。",
+  "commonUses": [
+    "火系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Burning_Speed",
+      "revision": 2732836,
+      "title": "Burning Speed",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26698",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26699,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 5 秒，你遭受「著火」病症並且提高移動速度 %str1%%% 。當速度燃燒結束時，所有鄰近你的敵人遭受「著火」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

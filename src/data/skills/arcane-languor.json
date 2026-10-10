@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "arcane-languor",
+  "name": {
+    "en": "Arcane Languor",
+    "zhTW": "魔法耗盡",
+    "translationVerified": true
+  },
+  "clientSkillId": 804,
+  "icon": "/skills/arcane-languor.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fast-casting",
+    "en": "Fast Casting",
+    "zhTW": "快速施法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 1...8...10 second[s], all spells cast by the target foe cause 10 Overcast.",
+      "zhTW": "持續1～10秒，使目標敵人在施展「魔法」後造成其精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-kitah",
+          "en": "Bound Kitah",
+          "zhTW": "Bound Kitah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Kitah (Tahnnakai Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Languor",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kitah",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "arcane-ancient-phi",
+          "en": "Arcane Ancient Phi",
+          "zhTW": "Arcane Ancient Phi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          },
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Arcane Ancient Phi (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Languor",
+        "url": "https://wiki.guildwars.com/wiki/Arcane_Ancient_Phi",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續1～10秒，使目標敵人在施展「魔法」後造成其精疲力竭。",
+  "commonUses": [
+    "快速施法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Arcane_Languor",
+      "revision": 2661871,
+      "title": "Arcane Languor",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26554",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26555,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，使目標敵人在施展「魔法」後造成其精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

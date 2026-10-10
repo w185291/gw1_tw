@@ -1,0 +1,126 @@
+{
+  "pvpOnly": true,
+  "id": "charm-animal-codex",
+  "name": {
+    "en": "Charm Animal (Codex)",
+    "zhTW": "迷魅動物（Codex）"
+  },
+  "clientSkillId": 411,
+  "icon": "/skills/charm-animal-codex.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 10.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Skill. Your animal companion will travel with you whenever you have Charm Animal equipped and have at least 8 points in Beast Mastery.",
+      "zhTW": "只有在 Codex Arena 使用；裝備此技能且野獸控制至少 8 點時，動物夥伴才會隨行。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "codex-arena",
+          "en": "Codex Arena",
+          "zhTW": "Codex Arena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "codex-arena",
+              "en": "Codex Arena",
+              "zhTW": "Codex Arena",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Codex_Arena"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Codex Arena 提供的固定技能；並非一般 PvE 可學習的獨立版本。只能在該競技模式使用，需至少 8 點野獸控制才讓寵物隨行。",
+        "source": "https://wiki.guildwars.com/wiki/Charm_Animal_%28Codex%29",
+        "url": "https://wiki.guildwars.com/wiki/Codex_Arena",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core"
+  ],
+  "explanation": "只有在 Codex Arena 使用；裝備此技能且野獸控制至少 8 點時，動物夥伴才會隨行。",
+  "commonUses": [
+    "野獸支配 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Charm_Animal_%28Codex%29",
+      "revision": 2672259,
+      "title": "Charm Animal (Codex)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26180"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26181,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "迷魅目標動物。一旦迷魅成功，只要你裝備此技能時，你的寵物夥伴將會與你一同旅行。你無法迷魅任何比高於你4等級的動物。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

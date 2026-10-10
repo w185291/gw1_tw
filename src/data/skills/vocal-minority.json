@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "vocal-minority",
+  "name": {
+    "en": "Vocal Minority",
+    "zhTW": "沉靜",
+    "translationVerified": true
+  },
+  "clientSkillId": 883,
+  "icon": "/skills/vocal-minority.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...17...20 seconds, target foe and all nearby foes cannot use shouts or chants.",
+      "zhTW": "持續5～20秒，使目標敵人及附近的的所有敵人無法使用「戰嚎」或「聖歌」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Vocal_Minority",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Vocal_Minority",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續5～20秒，使目標敵人及附近的的所有敵人無法使用「戰嚎」或「聖歌」。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vocal_Minority",
+      "revision": 2697476,
+      "title": "Vocal Minority",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27459",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27460,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，使目標敵人及附近的的所有敵人無法使用「戰嚎」或「聖歌」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,299 @@
+{
+  "pvpOnly": false,
+  "id": "pin-down",
+  "name": {
+    "en": "Pin Down",
+    "zhTW": "射足",
+    "translationVerified": true
+  },
+  "clientSkillId": 392,
+  "icon": "/skills/pin-down.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If Pin Down hits, your target is Crippled for 3...13...15 seconds.",
+      "zhTW": "射足命中時，使目標遭受「殘廢」病症 3～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "hungry-devourer",
+          "en": "Hungry Devourer",
+          "zhTW": "Hungry Devourer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beacon-s-perch",
+              "en": "Beacon's Perch",
+              "zhTW": "畢肯高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beacon%27s_Perch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hungry Devourer (Beacon's Perch)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Hungry_Devourer",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "snaring-course",
+          "en": "Snaring Course",
+          "zhTW": "Snaring Course",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Snaring Course (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Snaring_Course",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Pin_Down",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "射足命中時，使目標遭受「殘廢」病症 3～15 秒。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pin_Down",
+      "revision": 2703802,
+      "title": "Pin Down",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26142",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26143,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射足命中時，使目標遭受「殘廢」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

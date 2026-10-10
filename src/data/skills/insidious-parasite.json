@@ -1,0 +1,305 @@
+{
+  "pvpOnly": false,
+  "id": "insidious-parasite",
+  "name": {
+    "en": "Insidious Parasite",
+    "zhTW": "狡猾寄生",
+    "translationVerified": true
+  },
+  "clientSkillId": 123,
+  "icon": "/skills/insidious-parasite.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...13...15 seconds, whenever target foe hits with an attack, you steal up to 15...39...45 Health from that foe.",
+      "zhTW": "持續 5～15 秒，每當目標敵人攻擊成功，你將從該目標偷取最多 15～45 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-stolen-artifact",
+          "en": "The Stolen Artifact",
+          "zhTW": "The Stolen Artifact",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sardelac-sanitarium",
+              "en": "Sardelac Sanitarium",
+              "zhTW": "薩德拉克療養院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sardelac_Sanitarium"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Stolen Artifact (Sardelac Sanitarium)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/The_Stolen_Artifact",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "mursaat-necromancer-boss",
+          "en": "Mursaat Necromancer (boss)",
+          "zhTW": "Mursaat Necromancer (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mursaat Necromancer (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Mursaat_Necromancer_(boss)",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "feodor-the-baneful",
+          "en": "Feodor the Baneful",
+          "zhTW": "Feodor the Baneful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Feodor the Baneful (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Feodor_the_Baneful",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "argyris-the-scoundrel",
+          "en": "Argyris the Scoundrel",
+          "zhTW": "Argyris the Scoundrel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Argyris the Scoundrel (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "en-fa-the-awakened",
+          "en": "En Fa the Awakened",
+          "zhTW": "En Fa the Awakened",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "En Fa the Awakened (The Undercity (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/En_Fa_the_Awakened",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "yinnai-qi",
+          "en": "Yinnai Qi",
+          "zhTW": "Yinnai Qi",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Yinnai Qi (The Undercity (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+        "url": "https://wiki.guildwars.com/wiki/Yinnai_Qi",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～15 秒，每當目標敵人攻擊成功，你將從該目標偷取最多 15～45 體力。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+      "revision": 2739037,
+      "title": "Insidious Parasite",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25066",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25067,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標敵人攻擊成功，你將從該目標偷取最多 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

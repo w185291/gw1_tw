@@ -1,0 +1,215 @@
+{
+  "id": "flesh-of-my-flesh",
+  "name": {
+    "en": "Flesh of My Flesh",
+    "zhTW": "生體犧牲",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 791,
+  "icon": "/skills/flesh-of-my-flesh.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 4.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Lose half your Health. Resurrect target party member with your current Health and 5...17...20% Energy.",
+      "zhTW": "你失去一半的體力復活目標隊友，使其擁有與你犧牲體力後同等的體力，並恢復其 5～20% 能量。"
+    },
+    "pvp": {
+      "en": "Spell. Lose half your Health. Resurrect target party member with your current Health and 5...17...20% Energy.",
+      "zhTW": "失去一半體力，復活目標隊友，給予與你目前相同的體力及 5～20% 能量。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Flesh of My Flesh (PvP)",
+      "description": {
+        "en": "Spell. Lose half your Health. Resurrect target party member with your current Health and 5...17...20% Energy.",
+        "zhTW": "失去一半體力，復活目標隊友，給予與你目前相同的體力及 5～20% 能量。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 4.0,
+        "Recharge": 6.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_%28PvP%29",
+        "revision": 2738861,
+        "title": "Flesh of My Flesh (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2866
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "reesou-the-wanderer",
+          "en": "Reesou the Wanderer",
+          "zhTW": "Reesou the Wanderer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reesou the Wanderer (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Reesou_the_Wanderer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "你失去一半的體力復活目標隊友，使其擁有與你犧牲體力後同等的體力，並恢復其 5～20% 能量。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
+      "revision": 2740920,
+      "title": "Flesh of My Flesh",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_%28PvP%29",
+      "revision": 2738861,
+      "title": "Flesh of My Flesh (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27339"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27340,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你失去一半的體力復活目標隊友，使其擁有與你犧牲體力後同等的體力，並恢復其 %str1%%% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

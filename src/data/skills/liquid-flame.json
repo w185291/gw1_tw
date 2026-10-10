@@ -1,0 +1,215 @@
+{
+  "pvpOnly": false,
+  "id": "liquid-flame",
+  "name": {
+    "en": "Liquid Flame",
+    "zhTW": "液態火焰",
+    "translationVerified": true
+  },
+  "clientSkillId": 845,
+  "icon": "/skills/liquid-flame.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 7...91...112 fire damage. If that foe is attacking or casting a spell, nearby foes are also struck for 7...91...112 fire damage.",
+      "zhTW": "對目標敵人造成 7～112 火焰傷害。若該目標正在攻擊或者施展「魔法」，則其附近的敵人也將遭受 7～112 火焰傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "eri-heart-of-fire",
+          "en": "Eri, Heart of Fire",
+          "zhTW": "Eri, Heart of Fire",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bukdek-byway-winds-of-change",
+              "en": "Bukdek Byway (Winds of Change)",
+              "zhTW": "Bukdek Byway (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "there-goes-the-neighborhood",
+              "en": "There Goes the Neighborhood",
+              "zhTW": "There Goes the Neighborhood",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/There_Goes_the_Neighborhood"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Eri, Heart of Fire (Bukdek Byway (Winds of Change), only during There Goes the Neighborhood)",
+        "source": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Eri,_Heart_of_Fire",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "magmus",
+          "en": "Magmus",
+          "zhTW": "Magmus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          },
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks-quest",
+              "en": "Heart of the Shiverpeaks (quest)",
+              "zhTW": "Heart of the Shiverpeaks (quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks_(quest)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Magmus (Heart of the Shiverpeaks, after completion of the quest Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Magmus",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "acolyte-sousuke",
+          "en": "Acolyte Sousuke",
+          "zhTW": "侍從 薩蘇克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Sousuke",
+        "source": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Sousuke",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "對目標敵人造成 7～112 火焰傷害。若該目標正在攻擊或者施展「魔法」，則其附近的敵人也將遭受 7～112 火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+      "revision": 2730076,
+      "title": "Liquid Flame",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27471",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27472,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成 %str1% 火焰傷害。若該目標正在攻擊或者施展「魔法」，則其附近的敵人也將遭受 %str1% 火焰傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,305 @@
+{
+  "pvpOnly": false,
+  "id": "vengeance",
+  "name": {
+    "en": "Vengeance",
+    "zhTW": "復仇意志",
+    "translationVerified": true
+  },
+  "clientSkillId": 315,
+  "icon": "/skills/vengeance.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 4.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. Bring target dead party member back to life at full Health and full Energy. For 30 seconds, that party member deals 25% more damage. When this enchantment ends, target party member dies. Deaths while under the effects of this enchantment do not incur a death penalty.",
+      "zhTW": "使目標死亡隊友復活並且完全回復其體力和能量。持續30秒，該隊友造成的攻擊傷害增加25%。當此加持效果終止時，該隊友死亡。在此加持效果下死亡的隊員，不會受到死亡懲罰。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-forgotten-ones",
+          "en": "The Forgotten Ones",
+          "zhTW": "The Forgotten Ones",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destiny-s-gorge",
+              "en": "Destiny's Gorge",
+              "zhTW": "命運峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Forgotten Ones (Destiny's Gorge)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/The_Forgotten_Ones",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ijan-the-cursed",
+          "en": "Ijan the Cursed",
+          "zhTW": "Ijan the Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ijan the Cursed (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kemal-the-deadened",
+          "en": "Kemal the Deadened",
+          "zhTW": "Kemal the Deadened",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kemal the Deadened (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Kemal_the_Deadened",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "boulad-the-perverse",
+          "en": "Boulad the Perverse",
+          "zhTW": "Boulad the Perverse",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Boulad the Perverse (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Boulad_the_Perverse",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "raja-crux",
+          "en": "Raja Crux",
+          "zhTW": "Raja Crux",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Raja Crux (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Raja_Crux",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "harth-mendbranch",
+          "en": "Harth Mendbranch",
+          "zhTW": "Harth Mendbranch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "majesty-s-rest",
+              "en": "Majesty's Rest",
+              "zhTW": "王者安息處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Majesty%27s_Rest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harth Mendbranch (Majesty's Rest)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeance",
+        "url": "https://wiki.guildwars.com/wiki/Harth_Mendbranch",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "使目標死亡隊友復活並且完全回復其體力和能量。持續30秒，該隊友造成的攻擊傷害增加25%。當此加持效果終止時，該隊友死亡。在此加持效果下死亡的隊員，不會受到死亡懲罰。",
+  "commonUses": [
+    "無屬性 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vengeance",
+      "revision": 2712724,
+      "title": "Vengeance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25840",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25841,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標死亡隊友復活並且完全回復其體力和能量。持續30秒，該隊友造成的攻擊傷害增加25%%。當此加持效果終止時，該隊友死亡。在此加持效果下死亡的隊員，不會受到死亡懲罰。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

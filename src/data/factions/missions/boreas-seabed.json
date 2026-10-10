@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -87,16 +87,20 @@
   },
   "walkthrough": [
     {
-      "title": "依順序擊敗三氏族",
-      "content": "蟹族由東南、蛇族由西南、龜族由西北進場；上一組死亡下一組就出現。利用出場狹道集中敵人，龜族 Argo 的 Argo’s Cry 要打斷。"
+      "title": "蟹族與蛇族",
+      "content": "先抵擋東南進場的 Crab Clan，再打西南進場的 Serpent Clan；上一組全死下一組立刻出現。利用狹道集中敵人，後排分散躲範圍傷害。"
     },
     {
-      "title": "取得並充能聖矛",
-      "content": "比賽後可拿 Spear of Archemorus，為可選但有幫助的束物。附近生物死亡可充能，滿層丟下造成高傷害。"
+      "title": "龜族與 Argo",
+      "content": "最後 Turtle Clan 由西北進場，保留打斷應付 Argo 的 Argo’s Cry，避免詠唱後的大範圍傷害。"
     },
     {
-      "title": "打斷海怪",
-      "content": "前往 Zhu Hanuku，避免同時引旁邊敵群。Jade Fury 和復活招式施法較長，用打斷／暈眩控制，清除 Kraken Spawns。擊敗海怪後到 Zos Shivros Channel。"
+      "title": "聖矛充能",
+      "content": "競賽後可取 Spear of Archemorus，這是可選的束物。附近生物死亡會充能，充滿後在海怪附近放下造成傷害；不用矛也能完成任務。"
+    },
+    {
+      "title": "Zhu Hanuku",
+      "content": "往海怪推進時不要同時拉旁邊敵群。用打斷或暈眩阻止 Jade Fury 與復活招式，清 Kraken Spawn，集中輸出海怪。擊敗後到 Zos Shivros Channel。"
     }
   ],
   "routeSummary": "亭石 → 風神海床 → 孫江行政區",
@@ -123,106 +127,265 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Seaguard Eli",
+        "zhTW": "Seaguard Eli（繁中名稱待確認）",
         "en": "Seaguard Eli"
       },
       "profession": "戰士",
       "importantSkills": [
+        "\"Coward!\"",
+        "\"Shields Up!\"",
+        "\"Watch Yourself!\"",
+        "Healing Signet",
+        "Leviathan's Sweep",
+        "Sprint",
+        "Standing Slash",
+        "Resurrection Signet",
+        "Dragon Slash",
+        "Hamstring",
+        "Protector's Defense"
+      ],
+      "eliteSkills": [
+        "\"Coward!\"",
         "Dragon Slash"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Seaguard_Eli"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Seaguard_Eli",
+      "revision": 2708753
     },
     {
       "name": {
-        "zhTW": "Aurora",
+        "zhTW": "Aurora（繁中名稱待確認）",
         "en": "Aurora"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Bestial Mauling",
+        "Call of Haste",
+        "Heal as One",
+        "Pounce",
+        "Savage Pounce",
+        "Resurrection Signet",
+        "Charm Animal (Beast Sworn Heket)",
+        "Barrage",
+        "Dual Shot",
+        "Favorable Winds",
+        "Hunter's Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Heal as One",
         "Barrage"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Barrage",
+          "counter": "隊伍拉開距離，防止箭矢一次打中多個後排。",
+          "source": "https://wiki.guildwars.com/wiki/Aurora"
+        },
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Aurora"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Aurora",
+      "revision": 2725791
     },
     {
       "name": {
-        "zhTW": "Daeman",
+        "zhTW": "Daeman（繁中名稱待確認）",
         "en": "Daeman"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Broad Head Arrow",
+        "Determined Shot",
+        "Distracting Shot",
+        "Read the Wind",
+        "Savage Shot",
+        "Troll Unguent",
+        "Resurrection Signet",
+        "Celestial Stance",
+        "Choking Gas"
+      ],
+      "eliteSkills": [
         "Broad Head Arrow"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Daeman"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Daeman",
+      "revision": 2708755
     },
     {
       "name": {
-        "zhTW": "Seaguard Gita",
+        "zhTW": "Seaguard Gita（繁中名稱待確認）",
         "en": "Seaguard Gita"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Life Sheath",
+        "Remove Hex",
+        "Resurrection Chant",
+        "Shielding Hands",
+        "Spirit Bond",
+        "Draw Conditions",
+        "Rebirth",
+        "Reversal of Fortune",
+        "Resurrection Signet"
+      ],
+      "eliteSkills": [
         "Life Sheath"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Seaguard_Gita",
+      "revision": 2727770
     },
     {
       "name": {
-        "zhTW": "Seaguard Hala",
-        "en": "Seaguard Hala"
+        "en": "Seaguard Hala",
+        "zhTW": "海洋守衛 哈蘭"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Accumulated Pain",
+        "Conjure Phantasm",
+        "Ether Feast",
+        "Images of Remorse",
+        "Power Drain",
+        "Shared Burden",
+        "Celestial Haste",
+        "Resurrection Signet",
+        "Clumsiness",
+        "Hex Eater Signet",
         "Power Leech"
       ],
+      "eliteSkills": [
+        "Shared Burden",
+        "Power Leech"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": true,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Seaguard_Hala",
+      "revision": 2708771
     },
     {
       "name": {
-        "zhTW": "Argo",
-        "en": "Argo"
+        "en": "Argo",
+        "zhTW": "艾高"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
-        "Mind Burn"
+        "Aura of Restoration",
+        "Fire Attunement",
+        "Fireball",
+        "Lava Arrows",
+        "Meteor",
+        "Mind Burn",
+        "Smoldering Embers",
+        "Resurrection Signet",
+        "Bed of Coals",
+        "Argo's Cry",
+        "Armor of Earth",
+        "Earth Attunement",
+        "Sandstorm",
+        "Sliver Armor",
+        "Stoneflesh Aura",
+        "Stone Daggers",
+        "Mystic Regeneration"
       ],
+      "eliteSkills": [
+        "Mind Burn",
+        "Sandstorm"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": true,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Argo",
+      "revision": 2708772
     },
     {
       "name": {
-        "zhTW": "Zhu Hanuku",
+        "zhTW": "Zhu Hanuku（繁中名稱待確認）",
         "en": "Zhu Hanuku"
       },
-      "profession": "幻術師",
-      "importantSkills": [],
+      "profession": "僧侶／Mesmer",
+      "importantSkills": [
+        "Light of Dwayna",
+        "Jade Fury",
+        "Resurrect (monster skill)",
+        "Stun Immunity",
+        "Stun on Critical Hit",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Boreas_Seabed#Bosses",
-      "revision": 2735399
+      "source": "https://wiki.guildwars.com/wiki/Zhu_Hanuku",
+      "revision": 2678456
     }
   ],
   "recommendedTeam": [
@@ -332,6 +495,55 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Seaguard Eli",
+      "url": "https://wiki.guildwars.com/wiki/Seaguard_Eli",
+      "revision": 2708753,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Aurora",
+      "url": "https://wiki.guildwars.com/wiki/Aurora",
+      "revision": 2725791,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Daeman",
+      "url": "https://wiki.guildwars.com/wiki/Daeman",
+      "revision": 2708755,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Seaguard Gita",
+      "url": "https://wiki.guildwars.com/wiki/Seaguard_Gita",
+      "revision": 2727770,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Seaguard Hala",
+      "url": "https://wiki.guildwars.com/wiki/Seaguard_Hala",
+      "revision": 2708771,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Argo",
+      "url": "https://wiki.guildwars.com/wiki/Argo",
+      "revision": 2708772,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Zhu Hanuku",
+      "url": "https://wiki.guildwars.com/wiki/Zhu_Hanuku",
+      "revision": 2678456,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -360,7 +572,7 @@
       },
       "giver": "Headmaster Amara",
       "location": "Altrumm  Ruins",
-      "directions": "會合Togo，前往風神海床尋求入場，找Elder Rhea交任務。",
+      "directions": "會合Togo，前往風神海床尋求入場，找席亞長老交任務。",
       "url": "https://wiki.guildwars.com/wiki/The_Convocation",
       "revision": 2607120,
       "translationStatus": "needs-review"
@@ -384,7 +596,7 @@
         "zhTW": "Battle in the Sewers",
         "en": "Battle in the Sewers"
       },
-      "giver": "Emperor's Hand",
+      "giver": "皇帝之手",
       "location": "Raisu Pavilion",
       "directions": "在Shenzun Tunnels會合皇家衛隊，護送到Jafai，找Kazuya交任務開孫江入口。",
       "url": "https://wiki.guildwars.com/wiki/Battle_in_the_Sewers",
@@ -414,5 +626,24 @@
       "expert": "20–25分鐘",
       "master": "少於20分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22236",
+    "game-client://2026-10-09/string/22237",
+    "game-client://2026-10-09/string/22264"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22236,
+      22237,
+      22264
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

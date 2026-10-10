@@ -1,0 +1,297 @@
+{
+  "pvpOnly": false,
+  "id": "jagged-bones",
+  "name": {
+    "en": "Jagged Bones",
+    "zhTW": "鋸齒骸骨",
+    "translationVerified": true
+  },
+  "clientSkillId": 1355,
+  "icon": "/skills/jagged-bones.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 10,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 60 seconds, whenever target undead servant dies, it is replaced by a level 0...12...15 jagged horror that causes Bleeding with each of its attacks.",
+      "zhTW": "持續 60 秒，每當目標不死爪牙死亡時，將會由一隻等級 0～15 的鋸齒骸骨取代，在攻擊命中時使敵人遭受「流血」病症。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "master-of-misery",
+          "en": "Master of Misery",
+          "zhTW": "Master of Misery",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "depths-of-madness",
+              "en": "Depths of Madness",
+              "zhTW": "Depths of Madness",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Depths_of_Madness"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Master of Misery (Depths of Madness)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Master_of_Misery",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "shadow-of-fear-boss",
+          "en": "Shadow of Fear (boss)",
+          "zhTW": "Shadow of Fear (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          },
+          {
+            "name": {
+              "id": "breaking-the-broken",
+              "en": "Breaking the Broken",
+              "zhTW": "破壞已損壞者",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Breaking_the_Broken"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shadow of Fear (boss) (Nightfallen Jahai, only during 破壞已損壞者)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_of_Fear_(boss)",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "emissary-of-dhuum-necromancer",
+          "en": "Emissary of Dhuum (necromancer)",
+          "zhTW": "Emissary of Dhuum (necromancer)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dark-gateway",
+              "en": "Dark Gateway",
+              "zhTW": "Dark Gateway",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dark_Gateway"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Emissary of Dhuum (Nightfallen Jahai, only during Dark Gateway)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Emissary_of_Dhuum_(necromancer)",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "avarr-the-fallen",
+          "en": "Avarr the Fallen",
+          "zhTW": "Avarr the Fallen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avarr the Fallen (Jaga Moraine)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Avarr_the_Fallen",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-bellok",
+          "en": "Taskmaster Bellok",
+          "zhTW": "Taskmaster Bellok",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Bellok (Vloxen Excavations, level 2)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Bellok",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-nard",
+          "en": "Taskmaster Nard",
+          "zhTW": "Taskmaster Nard",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          },
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Nard (Battledepths, only during Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Nard",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "the-master",
+          "en": "The Master",
+          "zhTW": "The Master",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Master (Cathedral of Flames, level 2)",
+        "source": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+        "url": "https://wiki.guildwars.com/wiki/The_Master",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "持續 60 秒，每當目標不死爪牙死亡時，將會由一隻等級 0～15 的鋸齒骸骨取代，在攻擊命中時使敵人遭受「流血」病症。",
+  "commonUses": [
+    "死亡魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+      "revision": 2734456,
+      "title": "Jagged Bones",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36966",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36967,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標不死爪牙死亡時，將會由一隻等級 %str1% 的鋸齒骸骨取代，在攻擊命中時使敵人遭受「流血」病症。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

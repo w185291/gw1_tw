@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "furious-axe",
+  "name": {
+    "en": "Furious Axe",
+    "zhTW": "狂怒之斧",
+    "translationVerified": true
+  },
+  "clientSkillId": 904,
+  "icon": "/skills/furious-axe.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "Axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Axe Attack. If Furious Axe hits, you strike for +5...29...35 damage. If it is blocked you gain 3 strikes worth of adrenaline.",
+      "zhTW": "命中時對目標造成 5～35 額外傷害。若此技能遭「格檔」，你獲得等同 3 次攻擊成功累積的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Furious_Axe",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Furious_Axe",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "命中時對目標造成 5～35 額外傷害。若此技能遭「格檔」，你獲得等同 3 次攻擊成功累積的怒氣值。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Furious_Axe",
+      "revision": 2733166,
+      "title": "Furious Axe",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26942",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26943,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若此技能遭「格檔」，你獲得等同 3 次攻擊成功累積的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

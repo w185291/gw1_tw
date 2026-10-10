@@ -1,0 +1,144 @@
+{
+  "pvpOnly": false,
+  "id": "stone-striker",
+  "name": {
+    "en": "Stone Striker",
+    "zhTW": "石之打擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1371,
+  "icon": "/skills/stone-striker.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...25...30 seconds, whenever you take or deal elemental or physical damage, that damage is converted to earth damage.",
+      "zhTW": "持續 5～30 秒，使你遭受或造成的元素或物理傷害轉換為土系傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Stone_Striker",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Stone_Striker",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5～30 秒，使你遭受或造成的元素或物理傷害轉換為土系傷害。",
+  "commonUses": [
+    "土系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Stone_Striker",
+      "revision": 2742160,
+      "title": "Stone Striker",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33292",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33293,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你遭受或造成的元素或物理傷害轉換為土系傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

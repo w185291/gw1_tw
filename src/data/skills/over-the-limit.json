@@ -1,0 +1,136 @@
+{
+  "pvpOnly": false,
+  "id": "over-the-limit",
+  "name": {
+    "en": "Over the Limit",
+    "zhTW": "Over the Limit"
+  },
+  "clientSkillId": 3424,
+  "icon": "/skills/over-the-limit.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. While you maintain this enchantment, your spells cast 20...44...50% faster, and recharge 40...72...80% faster, but you continuously gain Overcast. PvE Skill",
+      "zhTW": "維持此加持時，施法速度提高 20～50，技能冷卻速度提高 40～80，但你會持續累積超載。PvE 技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "abaddon-s-cursed",
+          "en": "Abaddon's Cursed",
+          "zhTW": "Abaddon's Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          },
+          {
+            "name": {
+              "id": "proof-of-triumph",
+              "en": "Proof of Triumph",
+              "zhTW": "Proof of Triumph",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abaddon's Cursed (Perdition Rock) (requires a party member to be carrying a Proof of Triumph)",
+        "source": "https://wiki.guildwars.com/wiki/Over_the_Limit",
+        "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Cursed",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "維持此加持時，施法速度提高 20～50，技能冷卻速度提高 40～80，但你會持續累積超載。PvE 技能。",
+  "commonUses": [
+    "能量儲存 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Over_the_Limit",
+      "revision": 2740788,
+      "title": "Over the Limit",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/79238"
+  ],
+  "descriptionEvidence": {
+    "stringId": 79239,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "While you maintain this enchantment, your spells cast %str1%%% faster and recharge %str2%%% faster, but you continuously gain Overcast. PvE Skill"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

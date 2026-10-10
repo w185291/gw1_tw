@@ -1,0 +1,639 @@
+{
+  "pvpOnly": false,
+  "id": "mend-ailment",
+  "name": {
+    "en": "Mend Ailment",
+    "zhTW": "治療病痛",
+    "translationVerified": true
+  },
+  "clientSkillId": 277,
+  "icon": "/skills/mend-ailment.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove one condition (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, or Deep Wound) from target ally. For each remaining Condition, that ally is healed for 5...57...70 Health.",
+      "zhTW": "消除目標盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每剩餘一項「病症」，該盟友回復 5～70 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-hot-springs-murders",
+          "en": "The Hot Springs Murders",
+          "zhTW": "The Hot Springs Murders",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Hot Springs Murders (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/The_Hot_Springs_Murders",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "condition-removal",
+          "en": "Condition Removal",
+          "zhTW": "Condition Removal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Condition Removal (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Condition_Removal",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "jolo-lighthaunch",
+          "en": "Jolo Lighthaunch",
+          "zhTW": "Jolo Lighthaunch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "deldrimor-bowl",
+              "en": "Deldrimor Bowl",
+              "zhTW": "戴爾狄摩盆地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jolo Lighthaunch (Deldrimor Bowl)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Jolo_Lighthaunch",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "swoop-needlegrip",
+          "en": "Swoop Needlegrip",
+          "zhTW": "Swoop Needlegrip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Swoop Needlegrip (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Swoop_Needlegrip",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "wyng-soothingclaw",
+          "en": "Wyng Soothingclaw",
+          "zhTW": "Wyng Soothingclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wyng Soothingclaw (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Wyng_Soothingclaw",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "zyd-pointedbeak",
+          "en": "Zyd Pointedbeak",
+          "zhTW": "Zyd Pointedbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zyd Pointedbeak (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Zyd_Pointedbeak",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "darda-goldenchief",
+          "en": "Darda Goldenchief",
+          "zhTW": "Darda Goldenchief",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-caves-of-sorrow",
+              "en": "Ice Caves of Sorrow",
+              "zhTW": "悲傷冰谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Caves_of_Sorrow"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Darda Goldenchief (Ice Caves of Sorrow)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Darda_Goldenchief",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "lokar-icemender",
+          "en": "Lokar Icemender",
+          "zhTW": "Lokar Icemender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lokar Icemender (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Lokar_Icemender",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "bolis-hillshaker",
+          "en": "Bolis Hillshaker",
+          "zhTW": "Bolis Hillshaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bolis Hillshaker (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Bolis_Hillshaker",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "wroth-yakslapper",
+          "en": "Wroth Yakslapper",
+          "zhTW": "Wroth Yakslapper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grenth-s-footprint",
+              "en": "Grenth's Footprint",
+              "zhTW": "古蘭斯的足跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Footprint"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wroth Yakslapper (Grenth's Footprint)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Wroth_Yakslapper",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "mesqul-ironhealer",
+          "en": "Mesqul Ironhealer",
+          "zhTW": "Mesqul Ironhealer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mesqul Ironhealer (Frozen Forest)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Mesqul_Ironhealer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "brohn-stoneheart",
+          "en": "Brohn Stoneheart",
+          "zhTW": "Brohn Stoneheart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Brohn Stoneheart (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Brohn_Stoneheart",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gulnar-irontoe",
+          "en": "Gulnar Irontoe",
+          "zhTW": "Gulnar Irontoe",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kilroy-stonekin-quest",
+              "en": "Kilroy Stonekin (quest)",
+              "zhTW": "Kilroy Stonekin (quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kilroy_Stonekin_(quest)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gulnar Irontoe (Sorrow's Furnace, during Kilroy Stonekin)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Gulnar_Irontoe",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ivor-helmhewer",
+          "en": "Ivor Helmhewer",
+          "zhTW": "Ivor Helmhewer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-forge-heart",
+              "en": "The Forge Heart",
+              "zhTW": "The Forge Heart",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Forge_Heart"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ivor Helmhewer (Sorrow's Furnace, during The Forge Heart)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Ivor_Helmhewer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "tahlkora",
+          "en": "Tahlkora",
+          "zhTW": "塔蔻菈",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Core",
+        "details": "Unlocking Tahlkora",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+        "url": "https://wiki.guildwars.com/wiki/Tahlkora",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "消除目標盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每剩餘一項「病症」，該盟友回復 5～70 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+      "revision": 2723175,
+      "title": "Mend Ailment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25764"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25765,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每剩餘一項「病症」，該盟友回復 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

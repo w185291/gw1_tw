@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "silverwing-slash",
+  "name": {
+    "en": "Silverwing Slash",
+    "zhTW": "銀翼斬",
+    "translationVerified": true
+  },
+  "clientSkillId": 1144,
+  "icon": "/skills/silverwing-slash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "sword-attack",
+    "en": "Sword attack",
+    "zhTW": "劍術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Sword Attack. This attack strikes for +1...32...40 damage if it hits.",
+      "zhTW": "命中時對目標造成 1～40 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "命中時對目標造成 1～40 額外傷害。",
+  "commonUses": [
+    "精通劍術 · 劍術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
+      "revision": 2738484,
+      "title": "Silverwing Slash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26997",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26998,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "symbiotic-bond",
+  "name": {
+    "en": "Symbiotic Bond",
+    "zhTW": "共生連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 423,
+  "icon": "/skills/symbiotic-bond.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 55.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 120...264...300 seconds, your animal companion gains 1...3...3 Health regeneration, and half of all damage dealt to your animal companion is redirected to you.",
+      "zhTW": "持續 120～300 秒，你的寵物獲得體力再生 1～3 ，同時牠受到的傷害有一半轉移到主人身上。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "steig",
+          "en": "Steig",
+          "zhTW": "Steig",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "camp-rankor",
+              "en": "Camp Rankor",
+              "zhTW": "藍口營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Camp_Rankor"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Steig (Camp Rankor)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiotic_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Steig",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiotic_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 120～300 秒，你的寵物獲得體力再生 1～3 ，同時牠受到的傷害有一半轉移到主人身上。",
+  "commonUses": [
+    "野獸支配 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Symbiotic_Bond",
+      "revision": 2733126,
+      "title": "Symbiotic Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26204"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26205,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的寵物獲得體力再生 %str1% ，同時牠受到的傷害有一半轉移到主人身上。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

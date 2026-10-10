@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "song-of-purification",
+  "name": {
+    "en": "Song of Purification",
+    "zhTW": "淨化之歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1570,
+  "icon": "/skills/song-of-purification.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 3.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Chant. For 20 seconds, the next 1...5...6 skill[s] used by each ally within earshot remove 1 condition from that ally.",
+      "zhTW": "持續 20 秒，使音量所及範圍內的盟友在接下來的 1～6 次使用技能時，消除自身的一項「病症」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jishol-darksong",
+          "en": "Jishol Darksong",
+          "zhTW": "Jishol Darksong",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "resplendent-makuun",
+              "en": "Resplendent Makuun",
+              "zhTW": "奢華之城．莫肯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Resplendent_Makuun"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Jishol Darksong (Resplendent Makuun)",
+        "source": "https://wiki.guildwars.com/wiki/Song_of_Purification",
+        "url": "https://wiki.guildwars.com/wiki/Jishol_Darksong",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "pehnsed-the-loudmouth",
+          "en": "Pehnsed the Loudmouth",
+          "zhTW": "Pehnsed the Loudmouth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Pehnsed the Loudmouth (Vehjin Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Song_of_Purification",
+        "url": "https://wiki.guildwars.com/wiki/Pehnsed_the_Loudmouth",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 20 秒，使音量所及範圍內的盟友在接下來的 1～6 次使用技能時，消除自身的一項「病症」。",
+  "commonUses": [
+    "激勵 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Song_of_Purification",
+      "revision": 2730269,
+      "title": "Song of Purification",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36347",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36348,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的盟友在接下來的 %str1% 次使用技能時，消除自身的一項「病症」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

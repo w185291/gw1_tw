@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "gust",
+  "name": {
+    "en": "Gust",
+    "zhTW": "噴發",
+    "translationVerified": true
+  },
+  "clientSkillId": 843,
+  "icon": "/skills/gust.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...10...11 seconds, both you and target ally move 33% faster. When you cast this spell, all foes adjacent to you and your target take 15...59...70 cold damage. Foes struck by Gust while attacking or moving are knocked down.",
+      "zhTW": "持續 5～11 秒，你與目標友軍移動速度提高 33。施放時對兩者相鄰的敵人造成 15～70 冰冷傷害；命中正在攻擊或移動的敵人時擊倒對方。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rahse-windcatcher",
+          "en": "Rahse Windcatcher",
+          "zhTW": "Rahse Windcatcher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rahse Windcatcher (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Gust",
+        "url": "https://wiki.guildwars.com/wiki/Rahse_Windcatcher",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "amadis-wind-of-the-sea",
+          "en": "Amadis, Wind of the Sea",
+          "zhTW": "Amadis, Wind of the Sea",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Amadis, Wind of the Sea (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Gust",
+        "url": "https://wiki.guildwars.com/wiki/Amadis,_Wind_of_the_Sea",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 5～11 秒，你與目標友軍移動速度提高 33。施放時對兩者相鄰的敵人造成 15～70 冰冷傷害；命中正在攻擊或移動的敵人時擊倒對方。",
+  "commonUses": [
+    "風系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Gust",
+      "revision": 2732015,
+      "title": "Gust",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26666",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26667,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, both you and target ally move %str2%%% faster. When you cast this spell, all foes adjacent to you and your target take %str1% cold damage. Foes struck by Gust while attacking or moving are knocked down."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

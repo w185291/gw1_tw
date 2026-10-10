@@ -1,0 +1,217 @@
+{
+  "pvpOnly": false,
+  "id": "inspired-enchantment",
+  "name": {
+    "en": "Inspired Enchantment",
+    "zhTW": "靈感加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 21,
+  "icon": "/skills/inspired-enchantment.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Removes an enchantment from target foe and gain 3...13...15 Energy. For 20 seconds, Inspired Enchantment is replaced with the enchantment removed from target foe.",
+      "zhTW": "移除目標敵人身上的某項「加持」並且獲得 3～15 能量。同時靈感加持被該項「加持」取代 20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-undead-hordes",
+          "en": "The Undead Hordes",
+          "zhTW": "The Undead Hordes",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Undead Hordes (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/The_Undead_Hordes",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "移除目標敵人身上的某項「加持」並且獲得 3～15 能量。同時靈感加持被該項「加持」取代 20 秒。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "inspired-hex",
+      "en": "Inspired Hex",
+      "zhTW": "靈感降咒",
+      "translationVerified": true
+    },
+    {
+      "id": "revealed-hex",
+      "en": "Revealed Hex",
+      "zhTW": "降咒顯露",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+      "revision": 2712896,
+      "title": "Inspired Enchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24837",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24838,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標敵人身上的某項「加持」並且獲得 %str1% 能量。同時靈感加持被該項「加持」取代 20 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

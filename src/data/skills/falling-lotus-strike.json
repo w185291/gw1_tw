@@ -1,0 +1,176 @@
+{
+  "pvpOnly": false,
+  "id": "falling-lotus-strike",
+  "name": {
+    "en": "Falling Lotus Strike",
+    "zhTW": "墜蓮狙殺"
+  },
+  "clientSkillId": 1990,
+  "icon": "/skills/falling-lotus-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "off-hand-attack",
+    "en": "Off-hand attack",
+    "zhTW": "即刻攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Off-Hand Attack. Must strike a knocked-down foe. If it hits, you strike for +15...31...35 damage and gain 1...10...12 Energy.",
+      "zhTW": "必須以被「擊倒」的敵人為目標。命中時此攻擊將 +15～35 傷害，你獲得 1～12 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "必須以被「擊倒」的敵人為目標。命中時此攻擊將 +15～35 傷害，你獲得 1～12 能量。",
+  "commonUses": [
+    "匕首精通 · 即刻攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+      "revision": 2733277,
+      "title": "Falling Lotus Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/58940"
+  ],
+  "descriptionEvidence": {
+    "stringId": 58941,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須以被「擊倒」的敵人為目標。命中時此攻擊將 +%str1% 傷害，你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

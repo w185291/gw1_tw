@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "radiation-field",
+  "name": {
+    "en": "Radiation Field",
+    "zhTW": "輻射之層"
+  },
+  "clientSkillId": 2414,
+  "icon": "/skills/radiation-field.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. For 5 seconds, foes in the area have -4...6 Health degeneration. When the portal ends, foes in the area are Diseased for 12...20 seconds.",
+      "zhTW": "持續 5 秒，區域內的敵人會遭受 -4～6 體力衰退。當入口關閉時，區域內的敵人也將遭受「疫病」12～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-cipher-of-dwayna",
+          "en": "The Cipher of Dwayna",
+          "zhTW": "The Cipher of Dwayna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Cipher of Dwayna (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Radiation_Field",
+        "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Dwayna",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 5 秒，區域內的敵人會遭受 -4～6 體力衰退。當入口關閉時，區域內的敵人也將遭受「疫病」12～20 秒。",
+  "commonUses": [
+    "Asura rank · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Radiation_Field",
+      "revision": 2734338,
+      "title": "Radiation Field",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72863"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72864,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 5 秒，區域內的敵人會遭受 -%str1% 體力衰退。當入口關閉時，區域內的敵人也將遭受「疫病」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

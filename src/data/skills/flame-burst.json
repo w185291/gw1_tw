@@ -1,0 +1,350 @@
+{
+  "pvpOnly": false,
+  "id": "flame-burst",
+  "name": {
+    "en": "Flame Burst",
+    "zhTW": "火焰爆裂",
+    "translationVerified": true
+  },
+  "clientSkillId": 188,
+  "icon": "/skills/flame-burst.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. All nearby foes are struck for 15...99...120 fire damage.",
+      "zhTW": "使你附近的所有敵人受到 15～120 火焰傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-misplaced-sword",
+          "en": "The Misplaced Sword",
+          "zhTW": "The Misplaced Sword",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heroes-audience",
+              "en": "Heroes' Audience",
+              "zhTW": "英雄之痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Misplaced Sword (Heroes' Audience)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/The_Misplaced_Sword",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "chuff-quickbeak",
+          "en": "Chuff Quickbeak",
+          "zhTW": "Chuff Quickbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chuff Quickbeak (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Chuff_Quickbeak",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flyt-stormbeak",
+          "en": "Flyt Stormbeak",
+          "zhTW": "Flyt Stormbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Flyt Stormbeak (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Flyt_Stormbeak",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "qik-sharpclaw",
+          "en": "Qik Sharpclaw",
+          "zhTW": "Qik Sharpclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Qik Sharpclaw (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Qik_Sharpclaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "high-inquisitor-toriimo",
+          "en": "High Inquisitor Toriimo",
+          "zhTW": "High Inquisitor Toriimo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "High Inquisitor Toriimo (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/High_Inquisitor_Toriimo",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chow-zhong-the-inferno",
+          "en": "Chow Zhong the Inferno",
+          "zhTW": "Chow Zhong the Inferno",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "redemption-for-the-lost",
+              "en": "Redemption for the Lost",
+              "zhTW": "Redemption for the Lost",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Redemption_for_the_Lost"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chow Zhong the Inferno (Sunjiang District (Winds of Change), only during Redemption for the Lost)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Chow_Zhong_the_Inferno",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "magmus",
+          "en": "Magmus",
+          "zhTW": "Magmus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          },
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks-quest",
+              "en": "Heart of the Shiverpeaks (quest)",
+              "zhTW": "Heart of the Shiverpeaks (quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks_(quest)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Magmus (Heart of the Shiverpeaks, after completing the quest Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Flame_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Magmus",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "使你附近的所有敵人受到 15～120 火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flame_Burst",
+      "revision": 2695860,
+      "title": "Flame Burst",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/25198"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25199,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使你附近的所有敵人受到 %str1% 火焰傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

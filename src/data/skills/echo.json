@@ -1,0 +1,205 @@
+{
+  "pvpOnly": false,
+  "id": "echo",
+  "name": {
+    "en": "Echo",
+    "zhTW": "回音",
+    "translationVerified": true
+  },
+  "clientSkillId": 74,
+  "icon": "/skills/echo.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 30 seconds, Echo is replaced with the next skill you use. Echo acts as this skill for 30 seconds.",
+      "zhTW": "持續 30 秒，回音將會被你下一個使用的技能取代 30 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rwek-khawl-mawl",
+          "en": "Rwek Khawl Mawl",
+          "zhTW": "Rwek Khawl Mawl",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rwek Khawl Mawl (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Echo",
+        "url": "https://wiki.guildwars.com/wiki/Rwek_Khawl_Mawl",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "mohby-windbeak",
+          "en": "Mohby Windbeak",
+          "zhTW": "Mohby Windbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mohby Windbeak (Gyala Hatchery (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Echo",
+        "url": "https://wiki.guildwars.com/wiki/Mohby_Windbeak",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "the-time-eater-boss",
+          "en": "The Time Eater (boss)",
+          "zhTW": "The Time Eater (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Time Eater (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Echo",
+        "url": "https://wiki.guildwars.com/wiki/The_Time_Eater_(boss)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "eshwe-the-insane",
+          "en": "Eshwe the Insane",
+          "zhTW": "Eshwe the Insane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Eshwe the Insane (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/Echo",
+        "url": "https://wiki.guildwars.com/wiki/Eshwe_the_Insane",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，回音將會被你下一個使用的技能取代 30 秒。",
+  "commonUses": [
+    "無屬性 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Echo",
+      "revision": 2725892,
+      "title": "Echo",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24944",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24945,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，回音將會被你下一個使用的技能取代 30 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

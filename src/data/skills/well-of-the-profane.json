@@ -1,0 +1,419 @@
+{
+  "pvpOnly": false,
+  "id": "well-of-the-profane",
+  "name": {
+    "en": "Well of the Profane",
+    "zhTW": "褻瀆之池",
+    "translationVerified": true
+  },
+  "clientSkillId": 94,
+  "icon": "/skills/well-of-the-profane.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "well-spell",
+    "en": "Well spell",
+    "zhTW": "湧泉魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of the Profane at its location. For 8...18...20 seconds, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50% failure chance with Death Magic 4 or less.)",
+      "zhTW": "利用最近屍體，或犧牲 66% 體力，建立泉井。持續 8～20 秒，區域內敵人失去所有加持，且不能成為新加持的目標。死亡魔法 4 點以下有 50% 失敗率。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-misplaced-sword",
+          "en": "The Misplaced Sword",
+          "zhTW": "The Misplaced Sword",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heroes-audience",
+              "en": "Heroes' Audience",
+              "zhTW": "英雄之痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Misplaced Sword (Heroes' Audience)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/The_Misplaced_Sword",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "brogan-the-punisher",
+          "en": "Brogan the Punisher",
+          "zhTW": "Brogan the Punisher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Brogan the Punisher (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Brogan_the_Punisher",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "oswald-the-amiable",
+          "en": "Oswald the Amiable",
+          "zhTW": "Oswald the Amiable",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Oswald the Amiable (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Oswald_the_Amiable",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "kenric-the-believer",
+          "en": "Kenric the Believer",
+          "zhTW": "Kenric the Believer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kenric the Believer (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Kenric_the_Believer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "bearn-the-implacable",
+          "en": "Bearn the Implacable",
+          "zhTW": "Bearn the Implacable",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bearn the Implacable (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Bearn_the_Implacable",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "justiciar-marron",
+          "en": "Justiciar Marron",
+          "zhTW": "Justiciar Marron",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Marron (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Marron",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "erulai-the-inimical",
+          "en": "Erulai the Inimical",
+          "zhTW": "Erulai the Inimical",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen-explorable-area",
+              "en": "Bloodstone Fen (explorable area)",
+              "zhTW": "Bloodstone Fen (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "all-for-one-and-one-for-justice",
+              "en": "All for One and One for Justice",
+              "zhTW": "All for One and One for Justice",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/All_for_One_and_One_for_Justice"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Erulai the Inimical (Bloodstone Fen (explorable area), during All for One and One for Justice)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Erulai_the_Inimical",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "利用最近屍體，或犧牲 66% 體力，建立泉井。持續 8～20 秒，區域內敵人失去所有加持，且不能成為新加持的目標。死亡魔法 4 點以下有 50% 失敗率。",
+  "commonUses": [
+    "死亡魔法 · 湧泉魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+      "revision": 2726500,
+      "title": "Well of the Profane",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25008",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25009,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Exploit nearest corpse or sacrifice 66%% health to create a Well of the Profane at its location. For %str3% second, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50%% failure chance with Death Magic 4 or less.)"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

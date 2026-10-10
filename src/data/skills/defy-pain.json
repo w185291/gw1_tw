@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "defy-pain",
+  "name": {
+    "en": "Defy Pain",
+    "zhTW": "無視痛苦",
+    "translationVerified": true
+  },
+  "clientSkillId": 318,
+  "icon": "/skills/defy-pain.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 20 seconds you have an additional 90...258...300 Health, an additional 20 armor, and you take -1...8...10 less damage.",
+      "zhTW": "持續20秒，體力最大值增加90～300，防禦增加20，受到傷害減少1～10。"
+    },
+    "pvp": {
+      "en": "Elite Stance. For 20 seconds you have an additional 90...258...300 Health and an additional 20 armor.",
+      "zhTW": "持續20秒，體力最大值增加90～300，防禦增加20。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Defy Pain (PvP)",
+      "description": {
+        "en": "Elite Stance. For 20 seconds you have an additional 90...258...300 Health and an additional 20 armor.",
+        "zhTW": "持續20秒，體力最大值增加90～300，防禦增加20。"
+      },
+      "stats": {
+        "Adrenaline": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Defy_Pain_%28PvP%29",
+        "revision": 2733316,
+        "title": "Defy Pain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3204
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "obrhit-barkwood",
+          "en": "Obrhit Barkwood",
+          "zhTW": "Obrhit Barkwood",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Obrhit Barkwood (Frozen Forest)",
+        "source": "https://wiki.guildwars.com/wiki/Defy_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Obrhit_Barkwood",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "clobberhusk",
+          "en": "Clobberhusk",
+          "zhTW": "Clobberhusk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lornar-s-pass",
+              "en": "Lornar's Pass",
+              "zhTW": "洛拿斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lornar%27s_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Clobberhusk (Lornar's Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Defy_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Clobberhusk",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續20秒，體力最大值增加90～300，防禦增加20，受到傷害減少1～10。",
+  "commonUses": [
+    "力量 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defy_Pain",
+      "revision": 2733091,
+      "title": "Defy Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defy_Pain_%28PvP%29",
+      "revision": 2733316,
+      "title": "Defy Pain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25847",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25848,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，體力最大值增加%str1%，防禦增加20，受到傷害減少%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

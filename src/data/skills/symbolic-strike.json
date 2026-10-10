@@ -1,0 +1,176 @@
+{
+  "pvpOnly": false,
+  "id": "symbolic-strike",
+  "name": {
+    "en": "Symbolic Strike",
+    "zhTW": "象徵之斬"
+  },
+  "clientSkillId": 2195,
+  "icon": "/skills/symbolic-strike.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, you deal +12 damage for each signet you have equipped (maximum 70 damage).",
+      "zhTW": "此攻擊命中時，每一個你所裝備的紋章型技能，將使你的攻擊造成 +12 傷害。(最大 70 傷害)。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "此攻擊命中時，每一個你所裝備的紋章型技能，將使你的攻擊造成 +12 傷害。(最大 70 傷害)。",
+  "commonUses": [
+    "無屬性 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+      "revision": 2728021,
+      "title": "Symbolic Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/70003"
+  ],
+  "descriptionEvidence": {
+    "stringId": 70004,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，每一個你所裝備的紋章型技能，將使你的攻擊造成 +%str1% 傷害。(最大 %str2% 傷害)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

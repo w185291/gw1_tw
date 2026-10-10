@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-infection",
+  "name": {
+    "en": "Signet of Infection",
+    "zhTW": "侵染紋章"
+  },
+  "clientSkillId": 2229,
+  "icon": "/skills/signet-of-infection.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Signet. If target foe is Bleeding, that foe is Diseased for 13...20 seconds.",
+      "zhTW": "如果敵人正在「流血」，該名敵人將遭受「疫病」13～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "the-hunting-of-the-charr",
+          "en": "The Hunting of the Charr",
+          "zhTW": "The Hunting of the Charr",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Hunting of the Charr (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Infection",
+        "url": "https://wiki.guildwars.com/wiki/The_Hunting_of_the_Charr",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "如果敵人正在「流血」，該名敵人將遭受「疫病」13～20 秒。",
+  "commonUses": [
+    "Ebon Vanguard rank · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Infection",
+      "revision": 2645617,
+      "title": "Signet of Infection",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69912"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69913,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "如果敵人正在「流血」，該名敵人將遭受「疫病」%str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

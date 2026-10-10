@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "channeling",
+  "name": {
+    "en": "Channeling",
+    "zhTW": "聚集能量",
+    "translationVerified": true
+  },
+  "clientSkillId": 38,
+  "icon": "/skills/channeling.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 8...46...56 seconds, whenever you cast a spell, you gain 1 Energy for each foe in the area.",
+      "zhTW": "持續 8～56 秒，每當施展「魔法」時，依照範圍內的敵人數量，每個敵人使你獲得 1 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Channeling",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Channeling",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-stone-summit-champion",
+          "en": "The Stone Summit Champion",
+          "zhTW": "The Stone Summit Champion",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Stone Summit Champion (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Channeling",
+        "url": "https://wiki.guildwars.com/wiki/The_Stone_Summit_Champion",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 8～56 秒，每當施展「魔法」時，依照範圍內的敵人數量，每個敵人使你獲得 1 能量。",
+  "commonUses": [
+    "靈感魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Channeling",
+      "revision": 2738366,
+      "title": "Channeling",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24871",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24872,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當施展「魔法」時，依照範圍內的敵人數量，每個敵人使你獲得 1 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

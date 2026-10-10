@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "pestilence",
+  "name": {
+    "en": "Pestilence",
+    "zhTW": "瘟疫",
+    "translationVerified": true
+  },
+  "clientSkillId": 870,
+  "icon": "/skills/pestilence.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "Nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Nature Ritual. Create a level 1...8...10 spirit. When any creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after 30...150...180 seconds.",
+      "zhTW": "創造一隻等級 1～10 的瘟疫精靈。當區域內有非靈生物死亡時，該生物遭受的所有「病症」將會傳染給範圍內所有正遭受「病症」的生物。瘟疫精靈將在 30～180 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Pestilence",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "beastmaster-korg",
+          "en": "Beastmaster Korg",
+          "zhTW": "Beastmaster Korg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Beastmaster Korg (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Pestilence",
+        "url": "https://wiki.guildwars.com/wiki/Beastmaster_Korg",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Pestilence",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "創造一隻等級 1～10 的瘟疫精靈。當區域內有非靈生物死亡時，該生物遭受的所有「病症」將會傳染給範圍內所有正遭受「病症」的生物。瘟疫精靈將在 30～180 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pestilence",
+      "revision": 2731268,
+      "title": "Pestilence",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27498",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27499,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的瘟疫精靈。當區域內有非靈生物死亡時，該生物遭受的所有「病症」將會傳染給範圍內所有正遭受「病症」的生物。瘟疫精靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

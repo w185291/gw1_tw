@@ -1,0 +1,206 @@
+{
+  "pvpOnly": false,
+  "id": "vile-miasma",
+  "name": {
+    "en": "Vile Miasma",
+    "zhTW": "惡劣毒氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 828,
+  "icon": "/skills/vile-miasma.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. Target foe is struck for 10...54...65 cold damage. If suffering from a condition, that foe is hexed with Vile Miasma and suffers -1...4...5 Health degeneration for 10 seconds.",
+      "zhTW": "使目標敵人受到 10～65 冰凍傷害。若該目標正遭受「病症」，則其受到此「降咒」的影響並遭受體力衰減 1～5 ，持續 10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cerris",
+          "en": "Cerris",
+          "zhTW": "Cerris",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cerris (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+        "url": "https://wiki.guildwars.com/wiki/Cerris",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "justiciar-marron",
+          "en": "Justiciar Marron",
+          "zhTW": "Justiciar Marron",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Marron (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Marron",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "jacado-the-putrid",
+          "en": "Jacado the Putrid",
+          "zhTW": "Jacado the Putrid",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Jacado the Putrid (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+        "url": "https://wiki.guildwars.com/wiki/Jacado_the_Putrid",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 10～65 冰凍傷害。若該目標正遭受「病症」，則其受到此「降咒」的影響並遭受體力衰減 1～5 ，持續 10 秒。",
+  "commonUses": [
+    "死亡魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+      "revision": 2683698,
+      "title": "Vile Miasma",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/26640"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26641,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 冰凍傷害。若該目標正遭受「病症」，則其受到此「降咒」的影響並遭受體力衰減 %str2% ，持續 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

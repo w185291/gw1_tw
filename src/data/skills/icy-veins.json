@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "icy-veins",
+  "name": {
+    "en": "Icy Veins",
+    "zhTW": "冰冷紋理",
+    "translationVerified": true
+  },
+  "clientSkillId": 821,
+  "icon": "/skills/icy-veins.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "soul-reaping",
+    "en": "Soul Reaping",
+    "zhTW": "靈魂吸取",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Target foe is struck for 10...74...90 cold damage. For 10...30...35 seconds, if target foe dies all nearby foes are struck for 20...92...110 cold damage.",
+      "zhTW": "使目標敵人受到 10～90 冰凍傷害。在 10～35 秒內，若目標敵人死亡，該目標附近的所有敵人受到 20～110 冰凍傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bazzr-icewing",
+          "en": "Bazzr Icewing",
+          "zhTW": "Bazzr Icewing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drazach-thicket",
+              "en": "Drazach Thicket",
+              "zhTW": "德瑞札灌木林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bazzr Icewing (Drazach Thicket)",
+        "source": "https://wiki.guildwars.com/wiki/Icy_Veins",
+        "url": "https://wiki.guildwars.com/wiki/Bazzr_Icewing",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "使目標敵人受到 10～90 冰凍傷害。在 10～35 秒內，若目標敵人死亡，該目標附近的所有敵人受到 20～110 冰凍傷害。",
+  "commonUses": [
+    "靈魂吸取 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Icy_Veins",
+      "revision": 2680396,
+      "title": "Icy Veins",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26636",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26637,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 冰凍傷害。在 %str3% 秒內，若目標敵人死亡，該目標附近的所有敵人受到 %str2% 冰凍傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

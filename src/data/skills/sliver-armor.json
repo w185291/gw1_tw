@@ -1,0 +1,215 @@
+{
+  "pvpOnly": false,
+  "id": "sliver-armor",
+  "name": {
+    "en": "Sliver Armor",
+    "zhTW": "裂片護甲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1084,
+  "icon": "/skills/sliver-armor.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 30,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...10...11 seconds, you have 25...45...50% chance to block attacks and whenever you are the target of a hostile spell or attack one nearby foe is struck for 5...29...35 earth damage.",
+      "zhTW": "持續 5～11 秒，你有 25～50% 機率「格擋」攻擊，而且每當敵人以你為負面「魔法」或攻擊的目標時，你附近的一名敵人受到 5～35 土系傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-kaichen",
+          "en": "Bound Kaichen",
+          "zhTW": "Bound Kaichen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Kaichen (Domain of Fear, only during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kaichen",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "joffs-the-mitigator",
+          "en": "Joffs the Mitigator",
+          "zhTW": "Joffs the Mitigator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Joffs the Mitigator (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Joffs_the_Mitigator",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 5～11 秒，你有 25～50% 機率「格擋」攻擊，而且每當敵人以你為負面「魔法」或攻擊的目標時，你附近的一名敵人受到 5～35 土系傷害。",
+  "commonUses": [
+    "土系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+      "revision": 2732783,
+      "title": "Sliver Armor",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26682",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26683,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 %str1%%% 機率「格擋」攻擊，而且每當敵人以你為負面「魔法」或攻擊的目標時，你附近的一名敵人受到 %str2% 土系傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

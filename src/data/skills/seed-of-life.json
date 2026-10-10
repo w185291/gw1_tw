@@ -1,0 +1,176 @@
+{
+  "pvpOnly": false,
+  "id": "seed-of-life",
+  "name": {
+    "en": "Seed of Life",
+    "zhTW": "生命種子"
+  },
+  "clientSkillId": 2105,
+  "icon": "/skills/seed-of-life.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "sunspear-rank",
+    "en": "Sunspear rank",
+    "zhTW": "日戟稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 2...5 seconds, whenever target other ally takes damage, all party members are healed for 2 Health for each rank in Divine Favor.",
+      "zhTW": "持續 2～5 秒，每當目標其他盟友受到傷害，所有隊伍成員將依照你每 1神恩屬性等級將獲得 2 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 2～5 秒，每當目標其他盟友受到傷害，所有隊伍成員將依照你每 1神恩屬性等級將獲得 2 體力。",
+  "commonUses": [
+    "Sunspear rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+      "revision": 2665972,
+      "title": "Seed of Life",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/64795"
+  ],
+  "descriptionEvidence": {
+    "stringId": 65825,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標其他盟友受到傷害，所有隊伍成員將依照你每 1神恩屬性等級將獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

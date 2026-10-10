@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "selfless-spirit",
+  "name": {
+    "en": "Selfless Spirit",
+    "zhTW": "狂熱精神"
+  },
+  "clientSkillId": 2095,
+  "icon": "/skills/selfless-spirit.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "allegiance-rank",
+    "en": "Allegiance rank",
+    "zhTW": "陣營稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 15...20 seconds, spells you cast that target another ally cost 3 less energy.",
+      "zhTW": "持續15～20秒，你施展在其他盟友身上的魔法，能量消耗減少3。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "kurzick-bureaucrat",
+          "en": "Kurzick Bureaucrat",
+          "zhTW": "Kurzick Bureaucrat",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "house-zu-heltzer",
+              "en": "House zu Heltzer",
+              "zhTW": "鳳荷議院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/House_zu_Heltzer"
+          },
+          {
+            "name": {
+              "id": "kurzick",
+              "en": "Kurzick",
+              "zhTW": "庫茲柯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kurzick"
+          },
+          {
+            "name": {
+              "id": "guild-hall",
+              "en": "Guild hall",
+              "zhTW": "公會大廳",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Guild_hall"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kurzick Bureaucrat (House zu Heltzer and Kurzick-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Selfless_Spirit",
+        "url": "https://wiki.guildwars.com/wiki/Kurzick_Bureaucrat",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "luxon-scavenger",
+          "en": "Luxon Scavenger",
+          "zhTW": "Luxon Scavenger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cavalon",
+              "en": "Cavalon",
+              "zhTW": "卡瓦隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cavalon"
+          },
+          {
+            "name": {
+              "id": "luxon",
+              "en": "Luxon",
+              "zhTW": "勒克森",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Luxon"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Luxon Scavenger (Cavalon and Luxon-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Selfless_Spirit",
+        "url": "https://wiki.guildwars.com/wiki/Luxon_Scavenger",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續15～20秒，你施展在其他盟友身上的魔法，能量消耗減少3。",
+  "commonUses": [
+    "Allegiance rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Selfless_Spirit",
+      "revision": 2645390,
+      "title": "Selfless Spirit",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/64746"
+  ],
+  "descriptionEvidence": {
+    "stringId": 64747,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你施展在其他盟友身上的魔法，能量消耗減少%str1%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

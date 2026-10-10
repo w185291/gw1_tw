@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "southern-shiverpeaks",
   "name": {
-    "zhTW": "悲傷冰窟",
+    "zhTW": "悲傷冰谷",
     "en": "Ice Caves of Sorrow"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "悲傷冰窟",
+    "悲傷冰谷",
     "Ice Caves of Sorrow",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "救出 Evennia，護送她登上冰船。",
+  "summary": "傳遞 Rornak 的消息給 Hamdor；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "悲傷冰窟據點",
+    "description": "從 Talus Chute 進入 Ice Caves of Sorrow 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Ice Caves of Sorrow 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,24 +50,53 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "傳遞 Rornak 的消息給 Hamdor",
+    "summary": "傳遞 Rornak 的消息給 Hamdor",
+    "trigger": "先炸開原圖 Rornak Stonesledge 囚室，交談取得訊息，再到 Hamdor Grandaxe 處回報；兩者可以逆序開始。",
+    "steps": [
+      "先炸開原圖 Rornak Stonesledge 囚室，交談取得訊息，再到 Hamdor Grandaxe 處回報；兩者可以逆序開始。",
+      "通往 Rornak 的 Jade Constructs 無法全部迴避，未 infusion 者以英雄／寵物承受 Spectral Agony，逐隻擊殺。",
+      "Hamdor 洞口前的 Mursaat 可等巡邏走過再接近。首次能力不足可先過主線，下一關 infusion 後回來補 Bonus。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "Hamdor 洞口前的 Mursaat 可等巡邏走過再接近。首次能力不足可先過主線，下一關 infusion 後回來補 Bonus。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "先停投石機",
+      "content": "開始沿冰河處理投石機工程師，殺工程師可停止炮擊並獲士氣。第二座投石機的發射桿可觸發 Dolyak 衝撞，破壞橋對面的弩炮與敵群。"
+    },
+    {
+      "title": "炸門進洞與 Bonus",
+      "content": "往北拿 Dwarven Powder Keg，放在封門旁炸開。洞穴西南出口通 Bonus 支路，需額外兩桶火藥，炸開 Rornak Stonesledge 的囚室並聽取訊息；按原圖核對，附近另一扇門不是目標。"
+    },
+    {
+      "title": "先清救援與撤退路",
+      "content": "從東或東南出口到 Mursaat 巡邏區，囚室在南邊。未完成護甲 infusion 的玩家避免正面硬吃 Spectral Agony；可用英雄或寵物承受。HM 建議在放出 Evennia 前清好撤退路並炸開後門。"
+    },
+    {
+      "title": "救出 Evennia",
+      "content": "用火藥炸開 Evennia／Saidra 囚室。Saidra 依劇情犧牲，無法挽救；任務後半必須保住 Evennia，再取火藥炸開逃生門，穿短洞到冰湖。"
+    },
+    {
+      "title": "處理追兵與第二個 Bonus NPC",
+      "content": "出洞會啟動兩隊 Mursaat Elementalists 追來。安全做法可先退回洞口，讓其通過並清道路敵人，保持安全距離；利用投石機炮擊區削弱它們。避免 Evennia 的跟隨對象負責拉怪。把 Rornak 的訊息傳給 Hamdor Grandaxe 完成 Bonus。"
+    },
+    {
+      "title": "護送登船",
+      "content": "沿彎曲冰湖道路逐群處理剩餘阻路敵人及 Mursaat，不要留下會威脅 Evennia 的追兵。到 Deldrimor 的冰船，Evennia 上船後任務完成。"
+    }
+  ],
+  "routeSummary": "先停投石機 → 炸門進洞與 Bonus → 先清救援與撤退路 → 救出 Evennia → 處理追兵與第二個 Bonus NPC → 護送登船",
   "mapImage": "/maps/Ice_Caves_of_Sorrow_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Ice_Caves_of_Sorrow_map.jpg",
       "title": "主線路線圖",
-      "alt": "悲傷冰窟・主線路線圖",
+      "alt": "悲傷冰谷・主線路線圖",
       "width": 736,
       "height": 561,
       "filePage": "https://wiki.guildwars.com/wiki/File:Ice_Caves_of_Sorrow_map.jpg",
@@ -78,13 +107,205 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Arlak Stoneleaf",
+        "zhTW": "Arlak Stoneleaf（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"For Great Justice!\"",
+        "Cleave",
+        "Disrupting Chop",
+        "Healing Signet"
+      ],
+      "eliteSkills": [
+        "Cleave"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Arlak_Stoneleaf",
+      "revision": 2605231,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Arlak_Stoneleaf"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Virag Bladestone",
+        "zhTW": "Virag Bladestone（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"For Great Justice!\"",
+        "Cleave",
+        "Disrupting Chop",
+        "Healing Signet"
+      ],
+      "eliteSkills": [
+        "Cleave"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Virag_Bladestone",
+      "revision": 2484146,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Virag_Bladestone"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Darda Goldenchief",
+        "zhTW": "Darda Goldenchief（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Life Attunement",
+        "Mark of Protection",
+        "Mend Ailment",
+        "Orison of Healing"
+      ],
+      "eliteSkills": [
+        "Mark of Protection"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Darda_Goldenchief",
+      "revision": 2598617,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Hormak Ironcurse",
+        "zhTW": "Hormak Ironcurse（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Fiend",
+        "Life Siphon",
+        "Offering of Blood",
+        "Plague Touch",
+        "Taste of Death"
+      ],
+      "eliteSkills": [
+        "Offering of Blood"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Hormak_Ironcurse",
+      "revision": 2447373,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Hormak_Ironcurse"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jonar Stonebender",
+        "zhTW": "Jonar Stonebender（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Conjure Phantasm",
+        "Crippling Anguish",
+        "Ether Feast",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Jonar_Stonebender",
+      "revision": 2728300,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Berg Frozenfist",
+        "zhTW": "Berg Frozenfist（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Deep Freeze",
+        "Rust",
+        "Water Trident"
+      ],
+      "eliteSkills": [
+        "Water Trident"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Berg_Frozenfist",
+      "revision": 2605226,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶可治療友軍的治療者及反施法控制；英雄與寵物可協助承受 Spectral Agony。",
+    "範圍控制、靈體或召喚物能分擔追兵壓力，搬火藥時由其餘隊員清路。"
+  ],
+  "tips": [
+    "完成後傳送至 Iron Mines of Moladune（莫拉登礦山）。下一關可透過 Ancient Seer 為當前穿著護甲 infusion。"
+  ],
+  "warnings": [
+    "Evennia 死亡立即失敗；Saidra 的劇情死亡不是可避免的失敗點。",
+    "不要把十二名 Mursaat 同時拉進來；利用巡邏分隊與炮擊區。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "在救 Evennia 前先炸後門、清冰湖撤退線，雖需折返但更能保護她。不要讓護送 NPC 承受 Mursaat 的 Spectral Agony。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +325,108 @@
       "revision": 2733643,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Arlak Stoneleaf",
+      "url": "https://wiki.guildwars.com/wiki/Arlak_Stoneleaf",
+      "revision": 2605231,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Virag Bladestone",
+      "url": "https://wiki.guildwars.com/wiki/Virag_Bladestone",
+      "revision": 2484146,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Darda Goldenchief",
+      "url": "https://wiki.guildwars.com/wiki/Darda_Goldenchief",
+      "revision": 2598617,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hormak Ironcurse",
+      "url": "https://wiki.guildwars.com/wiki/Hormak_Ironcurse",
+      "revision": 2447373,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Jonar Stonebender",
+      "url": "https://wiki.guildwars.com/wiki/Jonar_Stonebender",
+      "revision": 2728300,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Berg Frozenfist",
+      "url": "https://wiki.guildwars.com/wiki/Berg_Frozenfist",
+      "revision": 2605226,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Seeking The Seer",
+      "url": "https://wiki.guildwars.com/wiki/Seeking_The_Seer",
+      "revision": 2721383,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "the-dragons-lair",
   "nextMission": "iron-mines-of-moladune",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10585"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後傳送至 Iron Mines of Moladune（莫拉登礦山）。下一關可透過 Ancient Seer 為當前穿著護甲 infusion。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10585
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Seeking The Seer",
+        "zhTW": "Seeking The Seer（繁中名稱待確認）"
+      },
+      "giver": "Captain Hugo Bronzebeard",
+      "location": "Droknar's Forge",
+      "directions": "在 Droknar's Forge 找 Captain Hugo Bronzebeard 接取次要任務，出 Talus Chute 沿箭頭找 Korg Snowfoot。靠近時 Stone Summit 會攻擊他，先救人再對話；在找到下一位偵察兵前換區會重設這段進度。依新箭頭找 Onar Ironblood，再抵達 Ice Caves of Sorrow 據點，向 Blade Scout Shelby 回報。",
+      "url": "https://wiki.guildwars.com/wiki/Seeking_The_Seer",
+      "revision": 2721383,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "secondary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

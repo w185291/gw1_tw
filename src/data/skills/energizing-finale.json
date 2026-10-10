@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "energizing-finale",
+  "name": {
+    "en": "Energizing Finale",
+    "zhTW": "能量樂章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1775,
+  "icon": "/skills/energizing-finale.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "echo",
+    "en": "Echo",
+    "zhTW": "Echo",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Echo. For 10...30...35 seconds, whenever a shout or chant ends on target non-spirit ally, that ally gains 1...2...2 Energy.",
+      "zhTW": "持續 10～35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，該盟友獲得 1～2 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Energizing_Finale",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10～35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，該盟友獲得 1～2 能量。",
+  "commonUses": [
+    "激勵 · Echo"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Energizing_Finale",
+      "revision": 2740742,
+      "title": "Energizing Finale",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50119",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50120,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，該盟友獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

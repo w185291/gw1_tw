@@ -1,0 +1,317 @@
+{
+  "pvpOnly": false,
+  "id": "hundred-blades",
+  "name": {
+    "en": "Hundred Blades",
+    "zhTW": "快速劍",
+    "translationVerified": true
+  },
+  "clientSkillId": 381,
+  "icon": "/skills/hundred-blades.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...30...35 slashing damage.",
+      "zhTW": "持續15秒，每當使用劍攻擊時，對所有鄰近敵人造成10～35砍擊傷害。"
+    },
+    "pvp": {
+      "en": "Elite Skill. For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...26...30 slashing damage.",
+      "zhTW": "持續15秒，每當使用劍攻擊時，對所有鄰近敵人造成10～30砍擊傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Hundred Blades (PvP)",
+      "description": {
+        "en": "Elite Skill. For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...26...30 slashing damage.",
+        "zhTW": "持續15秒，每當使用劍攻擊時，對所有鄰近敵人造成10～30砍擊傷害。"
+      },
+      "stats": {
+        "Energy": 5,
+        "Recharge": 20
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Hundred_Blades_%28PvP%29",
+        "revision": 2738536,
+        "title": "Hundred Blades (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3444
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "spoiler-related-boss",
+          "en": "Spoiler-related boss",
+          "zhTW": "Spoiler-related boss",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hell-s-precipice",
+              "en": "Hell's Precipice",
+              "zhTW": "地獄懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice"
+          }
+        ],
+        "campaign": "Core",
+        "details": "\"Spoiler-related boss\" (Hell's Precipice)",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Spoiler-related_boss",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "galrath",
+          "en": "Galrath",
+          "zhTW": "Galrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          },
+          {
+            "name": {
+              "id": "the-villainy-of-galrath-hard-mode",
+              "en": "The Villainy of Galrath (Hard mode)",
+              "zhTW": "The Villainy of Galrath (Hard mode)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Villainy_of_Galrath_(Hard_mode)"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Galrath (Kessex Peak, only during The Villainy of Galrath (Hard mode))",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Galrath",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "warrior-s-construct",
+          "en": "Warrior's Construct",
+          "zhTW": "Warrior's Construct",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district",
+              "en": "Sunjiang District",
+              "zhTW": "孫江行政區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Warrior's Construct (Sunjiang District mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Warrior%27s_Construct",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "commander-chui-kantu",
+          "en": "Commander Chui Kantu",
+          "zhTW": "Commander Chui Kantu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaya-bluffs",
+              "en": "Jaya Bluffs",
+              "zhTW": "蛇野斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaya_Bluffs"
+          },
+          {
+            "name": {
+              "id": "honorable-combat",
+              "en": "Honorable Combat",
+              "zhTW": "Honorable Combat",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Honorable_Combat"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Commander Chui Kantu (Jaya Bluffs, only during Honorable Combat)",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Chui_Kantu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "reaper-of-agony",
+          "en": "Reaper of Agony",
+          "zhTW": "Reaper of Agony",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "depths-of-madness",
+              "en": "Depths of Madness",
+              "zhTW": "Depths of Madness",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Depths_of_Madness"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Reaper of Agony (Depths of Madness)",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Reaper_of_Agony",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "blade-of-corruption-boss",
+          "en": "Blade of Corruption (boss)",
+          "zhTW": "Blade of Corruption (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          },
+          {
+            "name": {
+              "id": "breaking-the-broken",
+              "en": "Breaking the Broken",
+              "zhTW": "破壞已損壞者",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Breaking_the_Broken"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Blade of Corruption (Nightfallen Jahai, only during 破壞已損壞者)",
+        "source": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+        "url": "https://wiki.guildwars.com/wiki/Blade_of_Corruption_(boss)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core"
+  ],
+  "explanation": "持續15秒，每當使用劍攻擊時，對所有鄰近敵人造成10～35砍擊傷害。",
+  "commonUses": [
+    "精通劍術 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+      "revision": 2738456,
+      "title": "Hundred Blades",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hundred_Blades_%28PvP%29",
+      "revision": 2738536,
+      "title": "Hundred Blades (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25981",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25982,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，每當使用劍攻擊時，對所有鄰近敵人造成%str1%砍擊傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

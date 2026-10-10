@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -287,19 +287,19 @@
       },
       "giver": "Jamei",
       "location": "Maatu Keep",
-      "directions": "前往Zos Shivros Channel找Watchman Bencis，再至Cavalon回報Elder Rhea。",
+      "directions": "前往Zos Shivros Channel找Watchman Bencis，再至Cavalon回報席亞長老。",
       "url": "https://wiki.guildwars.com/wiki/Journey_to_Cavalon",
       "revision": 2393979,
       "translationStatus": "needs-review"
     },
     {
       "name": {
-        "zhTW": "Befriending the Luxons",
+        "zhTW": "與勒克森人成為朋友",
         "en": "Befriending the Luxons"
       },
-      "giver": "Elder Rhea",
+      "giver": "席亞長老",
       "location": "Cavalon",
-      "directions": "累積一萬點尚未花費的Luxon陣營點，向Elder Rhea交任務。不要先花掉。",
+      "directions": "累積一萬點尚未花費的Luxon陣營點，向席亞長老交任務。不要先花掉。",
       "url": "https://wiki.guildwars.com/wiki/Befriending_the_Luxons",
       "revision": 2677366,
       "translationStatus": "needs-review"
@@ -309,7 +309,7 @@
         "zhTW": "Stolen Eggs",
         "en": "Stolen Eggs"
       },
-      "giver": "Elder Rhea",
+      "giver": "席亞長老",
       "location": "Cavalon",
       "directions": "取回偷走的幼龜蛋箱，交給Gratian，再找Endre開孵化所。",
       "url": "https://wiki.guildwars.com/wiki/Stolen_Eggs",
@@ -381,5 +381,26 @@
       "expert": "2–4隻幼龜存活",
       "master": "五隻幼龜全存活"
     }
-  }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22212",
+    "game-client://2026-10-09/string/22213",
+    "game-client://2026-10-09/string/22216"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22212,
+      22213,
+      22216
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "bossAbsenceVerified": true,
+  "bossAbsenceReason": "本關沒有獨立固定 Boss 戰，重點是保護五隻幼龜並清各階段 Kurzick 部隊。普通敵兵也可能攜帶菁英技能，不等於可捕捉 Boss。"
 }

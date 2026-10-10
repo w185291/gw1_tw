@@ -1,0 +1,377 @@
+{
+  "pvpOnly": false,
+  "id": "obsidian-flame",
+  "name": {
+    "en": "Obsidian Flame",
+    "zhTW": "黑曜石火焰",
+    "translationVerified": true
+  },
+  "clientSkillId": 219,
+  "icon": "/skills/obsidian-flame.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Deal 22...94...112 damage to target foe. This spell ignores armor.",
+      "zhTW": "對目標敵人造成 22～112 傷害。此魔法的傷害效果無視目標的防禦力，但是會造成施法者精疲力竭。"
+    },
+    "pvp": {
+      "en": "Spell. Deal 22...78...92 damage to target foe. This spell ignores armor.",
+      "zhTW": "對目標敵人造成 22～92 傷害。此魔法的傷害效果無視目標的防禦力，但是會造成施法者精疲力竭。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Obsidian Flame (PvP)",
+      "description": {
+        "en": "Spell. Deal 22...78...92 damage to target foe. This spell ignores armor.",
+        "zhTW": "對目標敵人造成 22～92 傷害。此魔法的傷害效果無視目標的防禦力，但是會造成施法者精疲力竭。"
+      },
+      "stats": {
+        "Overcast": 5.0,
+        "Energy": 5.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_%28PvP%29",
+        "revision": 2629756,
+        "title": "Obsidian Flame (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2809
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "ghostly-vengeance",
+          "en": "Ghostly Vengeance",
+          "zhTW": "Ghostly Vengeance",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "augury-rock-outpost",
+              "en": "Augury Rock (outpost)",
+              "zhTW": "Augury Rock (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghostly Vengeance (Augury Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Ghostly_Vengeance",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North (outpost))",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "對目標敵人造成 22～112 傷害。此魔法的傷害效果無視目標的防禦力，但是會造成施法者精疲力竭。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+      "revision": 2717091,
+      "title": "Obsidian Flame",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_%28PvP%29",
+      "revision": 2629756,
+      "title": "Obsidian Flame (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25260",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25261,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成 %str1% 傷害。此魔法的傷害效果無視目標的防禦力，但是會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "deft-strike",
+  "name": {
+    "en": "Deft Strike",
+    "zhTW": "靈巧之擊"
+  },
+  "clientSkillId": 2228,
+  "icon": "/skills/deft-strike.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ranged-attack",
+    "en": "Ranged attack",
+    "zhTW": "區域攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Ranged Attack. If this attack hits, target foe takes 18...30 damage. If that foe has Cracked Armor, it begins Bleeding for 18...30 seconds.",
+      "zhTW": "此攻擊命中時，目標敵人受到18～30 傷害。若該敵人正遭受「碎甲」，則同時將造成「流血」18～30 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "mano-a-norn-o",
+          "en": "Mano a Norn-o",
+          "zhTW": "人類的尊嚴",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Mano a Norn-o (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Deft_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Mano_a_Norn-o",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "此攻擊命中時，目標敵人受到18～30 傷害。若該敵人正遭受「碎甲」，則同時將造成「流血」18～30 秒。",
+  "commonUses": [
+    "Ebon Vanguard rank · 區域攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Deft_Strike",
+      "revision": 2740687,
+      "title": "Deft Strike",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69875"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69876,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，目標敵人受到%str2% 傷害。若該敵人正遭受「碎甲」，則同時將造成「流血」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

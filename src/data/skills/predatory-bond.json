@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "predatory-bond",
+  "name": {
+    "en": "Predatory Bond",
+    "zhTW": "獵殺連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 1194,
+  "icon": "/skills/predatory-bond.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 5...17...20 seconds, your animal companion attacks 25% faster and heals you for 1...25...31 Health with each successful attack.",
+      "zhTW": "持續5～20秒，寵物攻擊速度增加25%，每當寵物攻擊成功時你獲得1～31體力。"
+    },
+    "pvp": {
+      "en": "Shout. For 5...17...20 seconds, attacks by your animal companion heal you for 1...25...31 Health.",
+      "zhTW": "持續5～20秒，每當寵物攻擊成功時你獲得1～31體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Predatory Bond (PvP)",
+      "description": {
+        "en": "Shout. For 5...17...20 seconds, attacks by your animal companion heal you for 1...25...31 Health.",
+        "zhTW": "持續5～20秒，每當寵物攻擊成功時你獲得1～31體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Predatory_Bond_%28PvP%29",
+        "revision": 2655975,
+        "title": "Predatory Bond (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3050
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Predatory_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Predatory_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續5～20秒，寵物攻擊速度增加25%，每當寵物攻擊成功時你獲得1～31體力。",
+  "commonUses": [
+    "野獸支配 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Predatory_Bond",
+      "revision": 2683480,
+      "title": "Predatory Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Predatory_Bond_%28PvP%29",
+      "revision": 2655975,
+      "title": "Predatory Bond (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27183"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27184,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，寵物攻擊速度增加25%%，每當寵物攻擊成功時你獲得%str1%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

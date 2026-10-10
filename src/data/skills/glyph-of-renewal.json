@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "glyph-of-renewal",
+  "name": {
+    "en": "Glyph of Renewal",
+    "zhTW": "再生符號",
+    "translationVerified": true
+  },
+  "clientSkillId": 203,
+  "icon": "/skills/glyph-of-renewal.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "glyph",
+    "en": "glyph",
+    "zhTW": "符號",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Glyph. For 15 seconds, your next spell instantly recharges.",
+      "zhTW": "持續 15 秒，你下一個施展的「魔法」不需要回復時間，可以立刻再次使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nayl-klaw-tuthan",
+          "en": "Nayl Klaw Tuthan",
+          "zhTW": "Nayl Klaw Tuthan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Nayl Klaw Tuthan (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal",
+        "url": "https://wiki.guildwars.com/wiki/Nayl_Klaw_Tuthan",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 15 秒，你下一個施展的「魔法」不需要回復時間，可以立刻再次使用。",
+  "commonUses": [
+    "無屬性 · 符號"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal",
+      "revision": 2737743,
+      "title": "Glyph of Renewal",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25228",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25229,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 15 秒，你下一個施展的「魔法」不需要回復時間，可以立刻再次使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

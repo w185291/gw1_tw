@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "headbutt",
+  "name": {
+    "en": "Headbutt",
+    "zhTW": "頭鎚",
+    "translationVerified": true
+  },
+  "clientSkillId": 1406,
+  "icon": "/skills/headbutt.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. Target touched foe takes 40...88...100 damage. You are Dazed for 10 seconds.",
+      "zhTW": "碰觸目標敵人對其造成 40～100 傷害，同時你將遭受「暈眩」病症 10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "enadiz-the-hardheaded",
+          "en": "Enadiz the Hardheaded",
+          "zhTW": "Enadiz the Hardheaded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Enadiz the Hardheaded (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Headbutt",
+        "url": "https://wiki.guildwars.com/wiki/Enadiz_the_Hardheaded",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "molotov-rocktail",
+          "en": "Molotov Rocktail",
+          "zhTW": "Molotov Rocktail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Molotov Rocktail (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Headbutt",
+        "url": "https://wiki.guildwars.com/wiki/Molotov_Rocktail",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ancient-ooze",
+          "en": "Ancient Ooze",
+          "zhTW": "Ancient Ooze",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Ooze (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Headbutt",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Ooze",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "碰觸目標敵人對其造成 40～100 傷害，同時你將遭受「暈眩」病症 10 秒。",
+  "commonUses": [
+    "力量 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Headbutt",
+      "revision": 2740391,
+      "title": "Headbutt",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/39845"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39846,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人對其造成 %str1% 傷害，同時你將遭受「暈眩」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

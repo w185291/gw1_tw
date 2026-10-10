@@ -1,0 +1,190 @@
+{
+  "id": "ancestors-rage",
+  "name": {
+    "en": "Ancestors' Rage",
+    "zhTW": "先人的盛怒",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1246,
+  "icon": "/skills/ancestors-rage.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For 1 second, nothing happens. When this skill ends, all foes adjacent to target ally are struck for 5...89...110 lightning damage.",
+      "zhTW": "持續 1 秒，並無特別效果，但是結束時對鄰近目標盟友的敵人造成 5～110 閃電傷害。"
+    },
+    "pvp": {
+      "en": "Skill. For 3 seconds all foes adjacent to target ally are struck for 4...41...50 lightning damage each second.",
+      "zhTW": "持續 3 秒，每秒對目標友軍身旁的敵人造成 4～50 閃電傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Ancestors' Rage (PvP)",
+      "description": {
+        "en": "Skill. For 3 seconds all foes adjacent to target ally are struck for 4...41...50 lightning damage each second.",
+        "zhTW": "持續 3 秒，每秒對目標友軍身旁的敵人造成 4～50 閃電傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_%28PvP%29",
+        "revision": 2738853,
+        "title": "Ancestors' Rage (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2867
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "dark-watcher",
+          "en": "Dark Watcher",
+          "zhTW": "Dark Watcher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "slavers-exile",
+              "en": "Slavers' Exile",
+              "zhTW": "奴隸商人放逐地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Slavers%27_Exile"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dark Watcher (Slavers' Exile)",
+        "source": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Dark_Watcher",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 1 秒，並無特別效果，但是結束時對鄰近目標盟友的敵人造成 5～110 閃電傷害。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage",
+      "revision": 2686490,
+      "title": "Ancestors' Rage",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_%28PvP%29",
+      "revision": 2738853,
+      "title": "Ancestors' Rage (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27355"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27356,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，並無特別效果，但是結束時對鄰近目標盟友的敵人造成 %str1% 閃電傷害。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

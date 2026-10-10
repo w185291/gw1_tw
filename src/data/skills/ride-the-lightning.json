@@ -1,0 +1,184 @@
+{
+  "pvpOnly": false,
+  "id": "ride-the-lightning",
+  "name": {
+    "en": "Ride the Lightning",
+    "zhTW": "閃電傳送",
+    "translationVerified": true
+  },
+  "clientSkillId": 836,
+  "icon": "/skills/ride-the-lightning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You Ride the Lightning to target. All adjacent foes are Blinded for 1...4...5 second[s]. If your target is a foe, it is struck for 10...58...70 lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "你搭乘閃電飛向目標敵人，對其造成 10～70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": {
+      "en": "Elite Spell. You Ride the Lightning to target. All adjacent foes are Blinded for 1...4...5 second[s]. If your target is a foe, it is struck for 10...58...70 lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "你搭乘閃電飛向目標敵人，對其造成 10～70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Ride the Lightning (PvP)",
+      "description": {
+        "en": "Elite Spell. You Ride the Lightning to target. All adjacent foes are Blinded for 1...4...5 second[s]. If your target is a foe, it is struck for 10...58...70 lightning damage. This spell has 25% armor penetration.",
+        "zhTW": "你搭乘閃電飛向目標敵人，對其造成 10～70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。"
+      },
+      "stats": {
+        "Overcast": 5.0,
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_%28PvP%29",
+        "revision": 2738721,
+        "title": "Ride the Lightning (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2807
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kunvie-firewing",
+          "en": "Kunvie Firewing",
+          "zhTW": "Kunvie Firewing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters-explorable-area",
+              "en": "Unwaking Waters (explorable area)",
+              "zhTW": "Unwaking Waters (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kunvie Firewing (Unwaking Waters (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Kunvie_Firewing",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "thraexis-thundermaw",
+          "en": "Thraexis Thundermaw",
+          "zhTW": "Thraexis Thundermaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Thraexis Thundermaw (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Thraexis_Thundermaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "你搭乘閃電飛向目標敵人，對其造成 10～70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
+      "revision": 2740379,
+      "title": "Ride the Lightning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_%28PvP%29",
+      "revision": 2738721,
+      "title": "Ride the Lightning (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26676",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26677,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你搭乘閃電飛向目標敵人，對其造成 %str1% 閃電傷害以及有 25%% 的防禦穿透。另外此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,348 @@
+{
+  "pvpOnly": false,
+  "id": "phoenix",
+  "name": {
+    "en": "Phoenix",
+    "zhTW": "火鳳凰",
+    "translationVerified": true
+  },
+  "clientSkillId": 193,
+  "icon": "/skills/phoenix.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. A fiery Phoenix rises at your location and flies out to your target, exploding on impact. This explosion strikes your target and nearby foes for 10...50...60 fire damage. If you are Overcast, allies in the blast radius are healed for 20...68...80 Health.",
+      "zhTW": "火鳳凰從你的位置升起，對鄰近的敵人造成 20～80 火焰傷害，同時火鳳凰飛向目標並且在接觸時爆炸，對目標造成 10～60 火焰傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "taltosh",
+          "en": "Taltosh",
+          "zhTW": "Taltosh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grendich-courthouse",
+              "en": "Grendich Courthouse",
+              "zhTW": "葛蘭迪法院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Taltosh (Grendich Courthouse)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Taltosh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "frash-the-cold",
+          "en": "Frash the Cold",
+          "zhTW": "Frash the Cold",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Frash the Cold (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Frash_the_Cold",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "hops-flameinator",
+          "en": "Hops Flameinator",
+          "zhTW": "Hops Flameinator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talmark-wilderness",
+              "en": "Talmark Wilderness",
+              "zhTW": "突馬克荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hops Flameinator (Talmark Wilderness)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Hops_Flameinator",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "xi-lin-of-the-flames",
+          "en": "Xi Lin of the Flames",
+          "zhTW": "Xi Lin of the Flames",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels-winds-of-change",
+              "en": "Shenzun Tunnels (Winds of Change)",
+              "zhTW": "Shenzun Tunnels (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xi Lin of the Flames (Shenzun Tunnels (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Xi_Lin_of_the_Flames",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "leijun-ano",
+          "en": "Leijun Ano",
+          "zhTW": "Leijun Ano",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Leijun Ano (Shenzun Tunnels (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Leijun_Ano",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "reisen-the-phoenix",
+          "en": "Reisen the Phoenix",
+          "zhTW": "Reisen the Phoenix",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center-explorable-area",
+              "en": "Kaineng Center (explorable area)",
+              "zhTW": "Kaineng Center (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "raid-on-kaineng-center",
+              "en": "Raid on Kaineng Center",
+              "zhTW": "Raid on Kaineng Center",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raid_on_Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Reisen the Phoenix (Kaineng Center (explorable area), during Raid on Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Reisen_the_Phoenix",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "magmus",
+          "en": "Magmus",
+          "zhTW": "Magmus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          },
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks-quest",
+              "en": "Heart of the Shiverpeaks (quest)",
+              "zhTW": "Heart of the Shiverpeaks (quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks_(quest)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Magmus (Heart of the Shiverpeaks, after completing the quest Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Phoenix",
+        "url": "https://wiki.guildwars.com/wiki/Magmus",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "火鳳凰從你的位置升起，對鄰近的敵人造成 20～80 火焰傷害，同時火鳳凰飛向目標並且在接觸時爆炸，對目標造成 10～60 火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Phoenix",
+      "revision": 2709858,
+      "title": "Phoenix",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25208",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25209,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "火鳳凰從你的位置升起，對鄰近的敵人造成 %str1% 火焰傷害，同時火鳳凰飛向目標並且在接觸時爆炸，對目標造成 %str2% 火焰傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

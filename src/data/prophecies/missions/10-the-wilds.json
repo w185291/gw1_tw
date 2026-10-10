@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "穿過叢林，從蜘蛛手中救出天選者。",
+  "summary": "循閃刃斥候的方向穿越叢林，最後擊退蜘蛛救出天選者。Bonus 的半人馬對話必須完整聽完。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "荒原據點",
+    "description": "從 Sage Lands 進入 The Wilds 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "The Wilds 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,47 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "擊殺兩名指定半人馬酋長",
+    "summary": "擊殺兩名指定半人馬酋長",
+    "trigger": "完整聽完原圖 1 的半人馬對話，才殺他們取藤蔓種子。提前擊殺會使 Bonus 無法完成。",
+    "steps": [
+      "完整聽完原圖 1 的半人馬對話，才殺他們取藤蔓種子。提前擊殺會使 Bonus 無法完成。",
+      "在原圖 2 的圓形標记放種子造橋，向南到 3 擊殺 Ramtha Brokenhoof 與 Horm Frostrider。",
+      "附近另有兩名半人馬頭目，不要以為殺了任意兩個頭目就算。可在入口斜坡用高地拉怪。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "附近另有兩名半人馬頭目，不要以為殺了任意兩個頭目就算。可在入口斜坡用高地拉怪。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "小心藤門封路",
+      "content": "起點向北跟白斗篷到第一個 Entangling Roots。靠近會封住空地入口，並冒出生靈與其他怪；全隊集合再入場，殺樹根才會開門。"
+    },
+    {
+      "title": "先觸發半人馬 Bonus",
+      "content": "過第一個樹根後轉南，在原圖 1 偷聽兩名半人馬。不要先攻擊，等他們說完保護兩名酋長的台詞，任務目標出現後再擊殺並撿 Vine Seed。"
+    },
+    {
+      "title": "回西側中路",
+      "content": "折回主路，從往西的三條路中走中間一條。看見逃跑的閃刃斥候表示方向正確，不需要真的追到他。過頭目後看見藤橋過場。"
+    },
+    {
+      "title": "北上穿過半人馬區",
+      "content": "繼續北走，注意快速巡邏、火焰陷阱與共生生靈。想做 Bonus 可先往東支路造橋；不做則依斥候方向往西到藤橋。"
+    },
+    {
+      "title": "過橋後走右路",
+      "content": "敵人改為風騎士與叢林巨魔。下一個分岔前方走右側到最後一個樹根，先把可見怪引出空地再打樹根。"
+    },
+    {
+      "title": "沿河道到終點",
+      "content": "轉東北到水邊，沿向南轉折的河道跟斥候，遭遇隱藏蜘蛛。過最後隨機頭目後向西，打完救援區蜘蛛波次及 Kezra Spindleweb 完成。"
+    }
+  ],
+  "routeSummary": "第一個樹根 → 南側偷聽與取種子 → 西側中路 → 藤橋 → 東側酋長支路 → 東北河道 → 蜘蛛戰",
   "mapImage": "/maps/The_Wilds_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +107,417 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Kezra Spindleweb",
+        "zhTW": "Kezra Spindleweb（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Apply Poison",
+        "Pin Down",
+        "Storm Chaser",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Kezra_Spindleweb",
+      "revision": 2437134,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Kezra_Spindleweb"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rapa Ironhaunch",
+        "zhTW": "Rapa Ironhaunch（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Executioner's Strike",
+        "Galrath Slash",
+        "Healing Signet"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Rapa_Ironhaunch",
+      "revision": 2693195,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Rapa_Ironhaunch"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Malla Arrowmane",
+        "zhTW": "Malla Arrowmane（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Flame Trap",
+        "Healing Spring",
+        "Hunter's Shot",
+        "Symbiosis"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Malla_Arrowmane",
+      "revision": 2693194,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Tama Blessedhoof",
+        "zhTW": "Tama Blessedhoof（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Life Bond",
+        "Orison of Healing",
+        "Restore Life",
+        "Succor",
+        "Watchful Spirit"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tama_Blessedhoof",
+      "revision": 2693193,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Kara Bloodtail",
+        "zhTW": "Kara Bloodtail（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Order of Pain",
+        "Parasitic Bond"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Kara_Bloodtail",
+      "revision": 2693197,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Kara_Bloodtail"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Paka Blackhoof",
+        "zhTW": "Paka Blackhoof（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Burn",
+        "Ether Feast",
+        "Leech Signet",
+        "Mantra of Earth"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Paka_Blackhoof",
+      "revision": 2693198,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Fawa Torncalf",
+        "zhTW": "Fawa Torncalf（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Ice Prison",
+        "Rust",
+        "Shard Storm"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fawa_Torncalf",
+      "revision": 2693199,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Horm Frostrider",
+        "zhTW": "Horm Frostrider（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Earth Attunement",
+        "Ice Spear",
+        "Magnetic Aura",
+        "Ward Against Foes"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Horm_Frostrider",
+      "revision": 2632195,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ramtha Brokenhoof",
+        "zhTW": "Ramtha Brokenhoof（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Ice Prison",
+        "Rust",
+        "Shard Storm"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ramtha_Brokenhoof",
+      "revision": 2635608,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Tree of Vitality",
+        "zhTW": "Tree of Vitality（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Blessed Signet",
+        "Guardian",
+        "Orison of Healing",
+        "Protective Bond",
+        "Restore Life"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tree_of_Vitality",
+      "revision": 2361875,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Chott Stormsinger",
+        "zhTW": "Chott Stormsinger（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Cry of Frustration",
+        "Empathy",
+        "Ether Feast",
+        "Hex Breaker",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Chott_Stormsinger",
+      "revision": 2709827,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Chott_Stormsinger"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Wydd Kindlerun",
+        "zhTW": "Wydd Kindlerun（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Glyph of Lesser Energy",
+        "Ice Spikes",
+        "Maelstrom"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Wydd_Kindlerun",
+      "revision": 2426853,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Grech Trundle",
+        "zhTW": "Grech Trundle（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Deathly Swarm",
+        "Life Siphon",
+        "Mark of Subversion",
+        "Soul Feast"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Grech_Trundle",
+      "revision": 1994920,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Grech_Trundle"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Grook Plugalug",
+        "zhTW": "Grook Plugalug（繁中名稱待確認）"
+      },
+      "profession": "戰士／遊俠",
+      "importantSkills": [
+        "Gash",
+        "Seeking Blade",
+        "Sever Artery",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "具有戰士與遊俠技能：用致盲／格擋限制 Sever Artery、Gash 等近戰，保留解除病症清流血與深度創傷；Troll Unguent 開始施放就打斷，別让它長時間回血。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Grook_Plugalug",
+      "revision": 2218921,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Grook_Plugalug"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "生命莢會互補，帶反施法與火焰／斬擊傷害；半人馬抗冰，避免只靠冰傷。"
+  ],
+  "tips": [
+    "藤門不擋視線，門外角色仍可用非投射法術支援，但不能直接走入。",
+    "藤種子戰鬥中放下會擊倒近旁敵人，隨後恢復可拾取狀態。",
+    "通關後到血石沼澤。"
+  ],
+  "warnings": [
+    "完整聽完原圖 1 的半人馬對話，才殺他們取藤蔓種子。提前擊殺會使 Bonus 無法完成。",
+    "苔蘚甲蟲會偷召喚物，前段召喚師需留意；風騎士有粉碎加持，蜘蛛有懲罰之箭。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "苔蘚甲蟲會偷召喚物，前段召喚師需留意；風騎士有粉碎加持，蜘蛛有懲罰之箭。",
+      "生命莢會互補，帶反施法與火焰／斬擊傷害；半人馬抗冰，避免只靠冰傷。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +537,164 @@
       "revision": 2724866,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Kezra Spindleweb",
+      "url": "https://wiki.guildwars.com/wiki/Kezra_Spindleweb",
+      "revision": 2437134,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Rapa Ironhaunch",
+      "url": "https://wiki.guildwars.com/wiki/Rapa_Ironhaunch",
+      "revision": 2693195,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Malla Arrowmane",
+      "url": "https://wiki.guildwars.com/wiki/Malla_Arrowmane",
+      "revision": 2693194,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tama Blessedhoof",
+      "url": "https://wiki.guildwars.com/wiki/Tama_Blessedhoof",
+      "revision": 2693193,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kara Bloodtail",
+      "url": "https://wiki.guildwars.com/wiki/Kara_Bloodtail",
+      "revision": 2693197,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Paka Blackhoof",
+      "url": "https://wiki.guildwars.com/wiki/Paka_Blackhoof",
+      "revision": 2693198,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fawa Torncalf",
+      "url": "https://wiki.guildwars.com/wiki/Fawa_Torncalf",
+      "revision": 2693199,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Horm Frostrider",
+      "url": "https://wiki.guildwars.com/wiki/Horm_Frostrider",
+      "revision": 2632195,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ramtha Brokenhoof",
+      "url": "https://wiki.guildwars.com/wiki/Ramtha_Brokenhoof",
+      "revision": 2635608,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tree of Vitality",
+      "url": "https://wiki.guildwars.com/wiki/Tree_of_Vitality",
+      "revision": 2361875,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Chott Stormsinger",
+      "url": "https://wiki.guildwars.com/wiki/Chott_Stormsinger",
+      "revision": 2709827,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Wydd Kindlerun",
+      "url": "https://wiki.guildwars.com/wiki/Wydd_Kindlerun",
+      "revision": 2426853,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Grech Trundle",
+      "url": "https://wiki.guildwars.com/wiki/Grech_Trundle",
+      "revision": 1994920,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Grook Plugalug",
+      "url": "https://wiki.guildwars.com/wiki/Grook_Plugalug",
+      "revision": 2218921,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：A Brother's Fury",
+      "url": "https://wiki.guildwars.com/wiki/A_Brother%27s_Fury",
+      "revision": 2733705,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "divinity-coast",
   "nextMission": "bloodstone-fen",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10510"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到血石沼澤。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10510
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "A Brother's Fury",
+        "zhTW": "A Brother's Fury（繁中名稱待確認）"
+      },
+      "giver": "Trader Versai",
+      "location": "Druid's Overlook (Maguuma Jungle)",
+      "directions": "在 Druid's Overlook 找 Trader Versai 接取，出 Sage Lands 先與 Justiciar Thommis 說話。沿箭頭向西北，逐一和 House Ranger 對話更新目標；與 Rionel 對話後往 The Wilds。接近據點時跟 Saidra 與 Chosen Villager 入內，找 Witness Giselle 回報；據點已開的角色完成 Rionel 對話後可直接傳送。",
+      "url": "https://wiki.guildwars.com/wiki/A_Brother%27s_Fury",
+      "revision": 2733705,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

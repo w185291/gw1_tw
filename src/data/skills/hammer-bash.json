@@ -1,0 +1,309 @@
+{
+  "pvpOnly": false,
+  "id": "hammer-bash",
+  "name": {
+    "en": "Hammer Bash",
+    "zhTW": "鎚子重擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 331,
+  "icon": "/skills/hammer-bash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. Lose all adrenaline. If Hammer Bash hits, your target is knocked down.",
+      "zhTW": "若鎚子重擊擊中目標，該目標被擊倒。此技能消耗所有怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "warrior-s-challenge",
+          "en": "Warrior's Challenge",
+          "zhTW": "Warrior's Challenge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-barradin-estate",
+              "en": "The Barradin Estate",
+              "zhTW": "巴拉丁領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Barradin_Estate"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Warrior's Challenge (The Barradin Estate - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Warrior%27s_Challenge",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "若鎚子重擊擊中目標，該目標被擊倒。此技能消耗所有怒氣值。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+      "revision": 2713590,
+      "title": "Hammer Bash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25873",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25874,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若鎚子重擊擊中目標，該目標被擊倒。此技能消耗所有怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "tripwire",
+  "name": {
+    "en": "Tripwire",
+    "zhTW": "絆網",
+    "translationVerified": true
+  },
+  "clientSkillId": 1476,
+  "icon": "/skills/tripwire.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "trap",
+    "en": "Trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Trap. When Tripwire is triggered, all nearby foes are struck for 5...17...20 piercing damage. Any Crippled foes are knocked down. Tripwire ends after 90 seconds. While activating this skill, you are easily interrupted.",
+      "zhTW": "當此陷阱被觸發時，對附近的所有敵人造成 5～20 穿刺傷害；任何已遭受「殘廢」病症的敵人將被擊倒。此陷阱在 90 秒後消失，但在發動此技能時，動作容易被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Tripwire",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vah-the-crafty",
+          "en": "Vah the Crafty",
+          "zhTW": "Vah the Crafty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Vah the Crafty (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Tripwire",
+        "url": "https://wiki.guildwars.com/wiki/Vah_the_Crafty",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Tripwire",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "當此陷阱被觸發時，對附近的所有敵人造成 5～20 穿刺傷害；任何已遭受「殘廢」病症的敵人將被擊倒。此陷阱在 90 秒後消失，但在發動此技能時，動作容易被中斷。",
+  "commonUses": [
+    "求生 · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tripwire",
+      "revision": 2683505,
+      "title": "Tripwire",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/34811"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34812,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當此陷阱被觸發時，對附近的所有敵人造成 %str1% 穿刺傷害；任何已遭受「殘廢」病症的敵人將被擊倒。此陷阱在 90 秒後消失，但在發動此技能時，動作容易被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

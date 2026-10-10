@@ -1,0 +1,449 @@
+{
+  "pvpOnly": false,
+  "id": "demonic-flesh",
+  "name": {
+    "en": "Demonic Flesh",
+    "zhTW": "惡魔肉體",
+    "translationVerified": true
+  },
+  "clientSkillId": 130,
+  "icon": "/skills/demonic-flesh.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 30...54...60 seconds, whenever you use a skill that targets a foe, you deal 5...17...20 shadow damage to all other foes adjacent to you.",
+      "zhTW": "持續 30～60 秒，每當你對敵人使用技能時，對鄰近所有敵人造成 5～20 暗影傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-false-gods",
+          "en": "The False Gods",
+          "zhTW": "The False Gods",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "temple-of-the-ages",
+              "en": "Temple of the Ages",
+              "zhTW": "世紀神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Ages"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The False Gods (Temple of the Ages)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/The_False_Gods",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "geck-the-coldblooded",
+          "en": "Geck the Coldblooded",
+          "zhTW": "Geck the Coldblooded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Geck the Coldblooded (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Geck_the_Coldblooded",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "skigg-the-tongue",
+          "en": "Skigg the Tongue",
+          "zhTW": "Skigg the Tongue",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skigg the Tongue (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "gambol-the-headrainer",
+          "en": "Gambol the Headrainer",
+          "zhTW": "Gambol the Headrainer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gambol the Headrainer (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Gambol_the_Headrainer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "eepeep-the-mindrain",
+          "en": "Eepeep the Mindrain",
+          "zhTW": "Eepeep the Mindrain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eepeep the Mindrain (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Eepeep_the_Mindrain",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 30～60 秒，每當你對敵人使用技能時，對鄰近所有敵人造成 5～20 暗影傷害。",
+  "commonUses": [
+    "血魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+      "revision": 2742084,
+      "title": "Demonic Flesh",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25080",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25081,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你對敵人使用技能時，對鄰近所有敵人造成 %str1% 暗影傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

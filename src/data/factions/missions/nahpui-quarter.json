@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -87,16 +87,20 @@
   },
   "walkthrough": [
     {
-      "title": "選左側入口",
-      "content": "四 Boss 在地圖綠星固定位置，擊殺順序不限；Wiki 建議從最左傳送門開始，後續精華較易處理。"
+      "title": "選入口",
+      "content": "四名天界 Boss 在地圖綠星位置，順序不限；選最左傳送門可讓後續產生的精華較易處理。計時從開始任務就進行，別在入口長時間整備。"
     },
     {
-      "title": "逐區向前",
-      "content": "先清不會重生的 Star Tengu，再打 Boss。Boss 死後會生成較弱天界精華；精華被擊殺約三分鐘後再生，所以穩定推進，不反覆停留原地。"
+      "title": "先清 Star Tengu",
+      "content": "每區先拉掉不會重生的 Star Tengu，再接近天界 Boss，避免把一般敵人和頭目同時拉到後排。"
     },
     {
-      "title": "處理最後 Boss",
-      "content": "保留要捕捉的精英技能到前三個 Boss。第四個 Boss 死後立即結束，傳送到 Senji’s Corner，接 To Tahnnakai Temple。"
+      "title": "持續向下一區推進",
+      "content": "Boss 死亡後會生成較弱的天界精華；精華被殺約三分鐘後重生。穩定往下一區，不在已清區域反覆停留與無限刷精華。"
+    },
+    {
+      "title": "最後擊殺與捕捉",
+      "content": "要捕捉菁英的人先在前三名 Boss 死亡後完成捕捉；第四名死亡立即結束，來不及捕捉。任務完成傳送 Senji’s Corner，接 To Tahnnakai Temple。"
     }
   ],
   "routeSummary": "薇茹廣場 → 納普區 → 譚納凱神殿",
@@ -136,63 +140,118 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Kaijun Don",
+        "zhTW": "Kaijun Don（繁中名稱待確認）",
         "en": "Kaijun Don"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Reversal of Fortune",
+        "Reverse Hex",
+        "Signet of Judgment",
+        "Zealot's Fire"
+      ],
+      "eliteSkills": [
         "Signet of Judgment"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
-      "revision": 2709901
+      "source": "https://wiki.guildwars.com/wiki/Kaijun_Don",
+      "revision": 2606235
     },
     {
       "name": {
-        "zhTW": "Kuonghsang",
+        "zhTW": "Kuonghsang（繁中名稱待確認）",
         "en": "Kuonghsang"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Gaze of Contempt",
+        "Grenth's Balance",
+        "Life Siphon",
+        "Vampiric Swarm",
+        "Well of Weariness"
+      ],
+      "eliteSkills": [
         "Grenth's Balance"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Kuonghsang"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
-      "revision": 2709901
+      "source": "https://wiki.guildwars.com/wiki/Kuonghsang",
+      "revision": 2606242
     },
     {
       "name": {
-        "zhTW": "Hai Jii",
+        "zhTW": "Hai Jii（繁中名稱待確認）",
         "en": "Hai Jii"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Conjure Phantasm",
+        "Ether Feast",
+        "Leech Signet",
         "Lyssa's Aura"
       ],
+      "eliteSkills": [
+        "Lyssa's Aura"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
-      "revision": 2709901
+      "source": "https://wiki.guildwars.com/wiki/Hai_Jii",
+      "revision": 2621970
     },
     {
       "name": {
-        "zhTW": "Tahmu",
+        "zhTW": "Tahmu（繁中名稱待確認）",
         "en": "Tahmu"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Aura of Restoration",
+        "Enervating Charge",
+        "Lightning Strike",
         "Lightning Surge"
       ],
+      "eliteSkills": [
+        "Lightning Surge"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nahpui_Quarter#Bosses",
-      "revision": 2709901
+      "source": "https://wiki.guildwars.com/wiki/Tahmu",
+      "revision": 2640610
     }
   ],
   "recommendedTeam": [
@@ -302,6 +361,34 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Kaijun Don",
+      "url": "https://wiki.guildwars.com/wiki/Kaijun_Don",
+      "revision": 2606235,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kuonghsang",
+      "url": "https://wiki.guildwars.com/wiki/Kuonghsang",
+      "revision": 2606242,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hai Jii",
+      "url": "https://wiki.guildwars.com/wiki/Hai_Jii",
+      "revision": 2621970,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tahmu",
+      "url": "https://wiki.guildwars.com/wiki/Tahmu",
+      "revision": 2640610,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -384,5 +471,24 @@
       "expert": "40–45分鐘",
       "master": "少於40分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22290",
+    "game-client://2026-10-09/string/22291",
+    "game-client://2026-10-09/string/22316"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22290,
+      22291,
+      22316
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

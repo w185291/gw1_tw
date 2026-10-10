@@ -1,0 +1,137 @@
+{
+  "pvpOnly": false,
+  "id": "equinox",
+  "name": {
+    "en": "Equinox",
+    "zhTW": "晝夜",
+    "translationVerified": true
+  },
+  "clientSkillId": 1212,
+  "icon": "/skills/equinox.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Nature Ritual. Create a level 1...8...10 spirit. Spells cast within its range that cause Overcast cause an additional 10 Overcast. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的晝夜精靈。若在區域內使用會導致施法者精疲力竭的「魔法」，則其受到的精疲力竭效果加倍。晝夜精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ranger-s-construct",
+          "en": "Ranger's Construct",
+          "zhTW": "Ranger's Construct",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district",
+              "en": "Sunjiang District",
+              "zhTW": "孫江行政區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ranger's Construct (Sunjiang District mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Equinox",
+        "url": "https://wiki.guildwars.com/wiki/Ranger%27s_Construct",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "創造一隻等級 1～10 的晝夜精靈。若在區域內使用會導致施法者精疲力竭的「魔法」，則其受到的精疲力竭效果加倍。晝夜精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Equinox",
+      "revision": 2731258,
+      "title": "Equinox",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27239",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27240,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的晝夜精靈。若在區域內使用會導致施法者精疲力竭的「魔法」，則其受到的精疲力竭效果加倍。晝夜精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

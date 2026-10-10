@@ -1,0 +1,435 @@
+{
+  "pvpOnly": false,
+  "id": "gale",
+  "name": {
+    "en": "Gale",
+    "zhTW": "狂風",
+    "translationVerified": true
+  },
+  "clientSkillId": 162,
+  "icon": "/skills/gale.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 10.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Knock down target foe for 2 seconds. (50% failure chance with Air Magic 4 or less.)",
+      "zhTW": "擊倒目標敵人 2 秒，此魔法會造成施法者精疲力竭。（風系魔法 4 以下，有 50% 失敗機率）"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "helping-the-dwarves",
+          "en": "Helping the Dwarves",
+          "zhTW": "Helping the Dwarves",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Helping the Dwarves (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Helping_the_Dwarves",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "the-last-hog",
+          "en": "The Last Hog",
+          "zhTW": "The Last Hog",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Last Hog (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/The_Last_Hog",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "disruption",
+          "en": "Disruption",
+          "zhTW": "Disruption",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Disruption (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Disruption",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "shekoss-the-stony",
+          "en": "Shekoss the Stony",
+          "zhTW": "Shekoss the Stony",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shekoss the Stony (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Shekoss_the_Stony",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Gale",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "擊倒目標敵人 2 秒，此魔法會造成施法者精疲力竭。（風系魔法 4 以下，有 50% 失敗機率）",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Gale",
+      "revision": 2695854,
+      "title": "Gale",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/25146"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25149,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "擊倒目標敵人 2 秒，此魔法會造成施法者精疲力竭。（風系魔法 4 以下，有 50%% 失敗機率）"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

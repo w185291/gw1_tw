@@ -1,0 +1,332 @@
+{
+  "pvpOnly": false,
+  "id": "spell-breaker",
+  "name": {
+    "en": "Spell Breaker",
+    "zhTW": "魔法粉碎",
+    "translationVerified": true
+  },
+  "clientSkillId": 273,
+  "icon": "/skills/spell-breaker.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...15...17 seconds, target ally cannot be the target of enemy spells.",
+      "zhTW": "持續 5～17 秒，使敵人對目標盟友施展的「魔法」失敗。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "raptorhawk",
+          "en": "Raptorhawk",
+          "zhTW": "Raptorhawk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Raptorhawk (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Raptorhawk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "bound-karei",
+          "en": "Bound Karei",
+          "zhTW": "Bound Karei",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Karei (Tahnnakai Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Karei",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "untouched-ancient-ky",
+          "en": "Untouched Ancient Ky",
+          "zhTW": "Untouched Ancient Ky",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          },
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Untouched Ancient Ky (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Untouched_Ancient_Ky",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "priest-zein-zuu",
+          "en": "Priest Zein Zuu",
+          "zhTW": "Priest Zein Zuu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nundu-bay",
+              "en": "Nundu Bay",
+              "zhTW": "納度灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nundu_Bay"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Priest Zein Zuu (Nundu Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Priest_Zein_Zuu",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "preceptor-zunark",
+          "en": "Preceptor Zunark",
+          "zhTW": "Preceptor Zunark",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          },
+          {
+            "name": {
+              "id": "to-the-rescue-nightfall-quest",
+              "en": "To the Rescue (Nightfall quest)",
+              "zhTW": "To the Rescue (Nightfall quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/To_the_Rescue_(Nightfall_quest)"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Preceptor Zunark (Vehjin Mines, during To the Rescue)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Preceptor_Zunark",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "topo-the-protector",
+          "en": "Topo the Protector",
+          "zhTW": "Topo the Protector",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "depths-of-madness",
+              "en": "Depths of Madness",
+              "zhTW": "Depths of Madness",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Depths_of_Madness"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Topo the Protector (Depths of Madness)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Topo_the_Protector",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "general-nimtak",
+          "en": "General Nimtak",
+          "zhTW": "General Nimtak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dzagonur-bastion",
+              "en": "Dzagonur Bastion",
+              "zhTW": "薩崗諾稜堡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "General Nimtak (Dzagonur Bastion)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/General_Nimtak",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "zadukar-the-blessed",
+          "en": "Zadukar the Blessed",
+          "zhTW": "Zadukar the Blessed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          },
+          {
+            "name": {
+              "id": "a-deal-s-a-deal",
+              "en": "A Deal's a Deal",
+              "zhTW": "A Deal's a Deal",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Deal%27s_a_Deal"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zadukar the Blessed (Joko's Domain, during A Deal's a Deal)",
+        "source": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Zadukar_the_Blessed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～17 秒，使敵人對目標盟友施展的「魔法」失敗。",
+  "commonUses": [
+    "神恩 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+      "revision": 2672556,
+      "title": "Spell Breaker",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25756"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25757,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使敵人對目標盟友施展的「魔法」失敗。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

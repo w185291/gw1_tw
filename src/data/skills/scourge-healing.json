@@ -1,0 +1,499 @@
+{
+  "pvpOnly": false,
+  "id": "scourge-healing",
+  "name": {
+    "en": "Scourge Healing",
+    "zhTW": "災禍治癒",
+    "translationVerified": true
+  },
+  "clientSkillId": 251,
+  "icon": "/skills/scourge-healing.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 30 seconds, every time target foe is healed, the healer takes 15...67...80 holy damage.",
+      "zhTW": "持續 30 秒，每一次目標敵人被治療時，治療者將受到 15～80 神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-royal-papers",
+          "en": "The Royal Papers",
+          "zhTW": "The Royal Papers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Royal Papers (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/The_Royal_Papers",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ijan-the-cursed",
+          "en": "Ijan the Cursed",
+          "zhTW": "Ijan the Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ijan the Cursed (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-judgment",
+          "en": "Tree of Judgment",
+          "zhTW": "Tree of Judgment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Judgment (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Judgment",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "raja-crux",
+          "en": "Raja Crux",
+          "zhTW": "Raja Crux",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Raja Crux (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Raja_Crux",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "sul-sandstorm",
+          "en": "Sul SandStorm",
+          "zhTW": "Sul SandStorm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sul SandStorm (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Sul_SandStorm",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "hamlen-the-fallen",
+          "en": "Hamlen the Fallen",
+          "zhTW": "Hamlen the Fallen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hamlen the Fallen (The Ruptured Heart)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Hamlen_the_Fallen",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kaykitt-hidemender",
+          "en": "Kaykitt Hidemender",
+          "zhTW": "Kaykitt Hidemender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kaykitt Hidemender (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Kaykitt_Hidemender",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gorlos-skinflayer",
+          "en": "Gorlos Skinflayer",
+          "zhTW": "Gorlos Skinflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorlos Skinflayer (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Gorlos_Skinflayer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North (outpost))",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，每一次目標敵人被治療時，治療者將受到 15～80 神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+      "revision": 2683533,
+      "title": "Scourge Healing",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25710"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25711,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 30 秒，每一次目標敵人被治療時，治療者將受到 %str1% 神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

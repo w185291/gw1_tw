@@ -1,0 +1,220 @@
+{
+  "pvpOnly": false,
+  "id": "blood-is-power",
+  "name": {
+    "en": "Blood is Power",
+    "zhTW": "血之權能",
+    "translationVerified": true
+  },
+  "clientSkillId": 119,
+  "icon": "/skills/blood-is-power.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 1.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10 seconds, target other ally gains +3...5...6 Energy regeneration.",
+      "zhTW": "犧牲自己最大體力的 33% ，使目標其他盟友的能量再生增加 3～6 ，持續 10 秒 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cry-darkday",
+          "en": "Cry Darkday",
+          "zhTW": "Cry Darkday",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cry Darkday (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+        "url": "https://wiki.guildwars.com/wiki/Cry_Darkday",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "chan-the-dragon-s-blood",
+          "en": "Chan the Dragon's Blood",
+          "zhTW": "Chan the Dragon's Blood",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chan the Dragon's Blood (The Undercity)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+        "url": "https://wiki.guildwars.com/wiki/Chan_the_Dragon%27s_Blood",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "overseer-haubeh",
+          "en": "Overseer Haubeh",
+          "zhTW": "Overseer Haubeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodonur-crossroads",
+              "en": "Kodonur Crossroads",
+              "zhTW": "科登諾路口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Overseer Haubeh (Kodonur Crossroads)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+        "url": "https://wiki.guildwars.com/wiki/Overseer_Haubeh",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-vanahk",
+          "en": "Taskmaster Vanahk",
+          "zhTW": "Taskmaster Vanahk",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Taskmaster Vanahk (Kodonur Crossroads)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Vanahk",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "lieutenant-vanahk",
+          "en": "Lieutenant Vanahk",
+          "zhTW": "Lieutenant Vanahk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yatendi-canyons",
+              "en": "Yatendi Canyons",
+              "zhTW": "亞天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yatendi_Canyons"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Vanahk (Yatendi Canyons)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Vanahk",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 33% ，使目標其他盟友的能量再生增加 3～6 ，持續 10 秒 。",
+  "commonUses": [
+    "血魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+      "revision": 2733073,
+      "title": "Blood is Power",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25058"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25059,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 33%% ，使目標其他盟友的能量再生增加 %str2% ，持續 10 秒 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

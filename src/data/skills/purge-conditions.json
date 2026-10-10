@@ -1,0 +1,348 @@
+{
+  "pvpOnly": false,
+  "id": "purge-conditions",
+  "name": {
+    "en": "Purge Conditions",
+    "zhTW": "淨化病症",
+    "translationVerified": true
+  },
+  "clientSkillId": 278,
+  "icon": "/skills/purge-conditions.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target ally.",
+      "zhTW": "消除目標盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "supplies-for-the-duke",
+          "en": "Supplies for the Duke",
+          "zhTW": "Supplies for the Duke",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Supplies for the Duke (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Supplies_for_the_Duke",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "swoop-needlegrip",
+          "en": "Swoop Needlegrip",
+          "zhTW": "Swoop Needlegrip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Swoop Needlegrip (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Swoop_Needlegrip",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "wyng-soothingclaw",
+          "en": "Wyng Soothingclaw",
+          "zhTW": "Wyng Soothingclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wyng Soothingclaw (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Wyng_Soothingclaw",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "zyd-pointedbeak",
+          "en": "Zyd Pointedbeak",
+          "zhTW": "Zyd Pointedbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zyd Pointedbeak (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Zyd_Pointedbeak",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "消除目標盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+      "revision": 2732655,
+      "title": "Purge Conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25766"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25767,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

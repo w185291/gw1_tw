@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,27 @@
     {
       "id": "koss",
       "name": {
-        "zhTW": "寇斯 / Koss",
+        "zhTW": "寇斯",
         "en": "Koss"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41872",
+        "game-client://2026-10-09/string/46760",
+        "game-client://2026-10-09/string/51065",
+        "game-client://2026-10-09/string/55344"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41872,
+          46760,
+          51065,
+          55344
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -96,16 +113,20 @@
   },
   "walkthrough": [
     {
-      "title": "清村口",
-      "content": "帶 Koss 四人隊進場，跟 Kormir 逐群清海盜；先擊沉船可減少威脅。"
+      "title": "組隊與進村",
+      "content": "帶 Koss 與治療進四人隊，跟 Kormir 清村口海盜，保護三名 Sunspear Recruit，想拿大師就不能讓任何一名新兵死亡。"
     },
     {
-      "title": "裝填兩座投石車",
-      "content": "取 Istani Fire Oil，搬到投石車點一下裝填、再點一下發射。南北兩船各擊沉一次，每艘帶來士氣提升。也可用遠距離殺船上海盜。"
+      "title": "搬運火油",
+      "content": "拿 Istani Fire Oil 到南北兩座投石車；搬運者不用同時衝前排，隊友先清路，避免新兵落在後方被海盜攻擊。"
     },
     {
-      "title": "清 Boss 與餘兵",
-      "content": "先處理 Midshipman Bennis，再逐群清右上多群海盜；保持新兵在治療範圍。全村威脅與船解決後完成。"
+      "title": "擊沉兩船",
+      "content": "點投石車一次裝填，再點一次發射，南北船各擊沉一次，每艘提供士氣提升。也可先從遠處清船上海盜，減少射擊威脅。"
+    },
+    {
+      "title": "收尾與新兵存活",
+      "content": "處理 Midshipman Bennis，再逐群清右上方海盜，保持新兵在治療範圍。清光任務要求的海盜與兩船後完成；結束時才判定存活新兵數。"
     }
   ],
   "routeSummary": "本章起點／外來角色入口 → 夏貝克村莊 → 卓坎諾挖掘點",
@@ -132,16 +153,26 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Midshipman Bennis",
+        "zhTW": "Midshipman Bennis（繁中名稱待確認）",
         "en": "Midshipman Bennis"
       },
-      "profession": "聖言者",
-      "importantSkills": [],
+      "profession": "Paragon",
+      "importantSkills": [
+        "Harrier's Toss",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Chahbek_Village#Bosses",
-      "revision": 2726169
+      "source": "https://wiki.guildwars.com/wiki/Midshipman_Bennis",
+      "revision": 2717271
     }
   ],
   "recommendedTeam": [
@@ -258,6 +289,13 @@
       "revision": 2723647,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Midshipman Bennis",
+      "url": "https://wiki.guildwars.com/wiki/Midshipman_Bennis",
+      "revision": 2717271,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -356,7 +394,7 @@
       },
       "giver": "Digmaster Gatah",
       "location": "Jokanur Diggings",
-      "directions": "達First Spear或等級12，與Morgahn會面並擊敗庫爾納隊，回Dajmir。",
+      "directions": "達First Spear或等級12，與摩根會面並擊敗庫爾納隊，回Dajmir。",
       "url": "https://wiki.guildwars.com/wiki/The_Honorable_General",
       "revision": 2713273,
       "translationStatus": "needs-review"
@@ -396,5 +434,32 @@
       "expert": "存活兩名新兵",
       "master": "三名新兵全存活"
     }
-  }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/41154",
+    "game-client://2026-10-09/string/48819"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      41154,
+      48819
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Chahbek_Village",
+    "revision": 2726169,
+    "heroes": [
+      "Koss"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
+  },
+  "storyStartVerified": true
 }

@@ -1,0 +1,390 @@
+{
+  "pvpOnly": false,
+  "id": "death-blossom",
+  "name": {
+    "en": "Death Blossom",
+    "zhTW": "死神之花",
+    "translationVerified": true
+  },
+  "clientSkillId": 775,
+  "icon": "/skills/death-blossom.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "dual-attack",
+    "en": "Dual attack",
+    "zhTW": "雙重攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Dual Attack. Must follow an off-hand attack. If it hits, Death Blossom strikes target foe for +20...40...45 damage and all adjacent foes take 20...40...45 damage.",
+      "zhTW": "必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20～45 額外傷害，同時對所有鄰近目標的敵人造成 20～45 傷害。"
+    },
+    "pvp": {
+      "en": "Dual Attack. Must follow an off-hand attack. If it hits, Death Blossom strikes target foe for +20...40...45 damage and all adjacent foes take 20...40...45 damage.",
+      "zhTW": "必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20～45 額外傷害，同時對所有鄰近目標的敵人造成 20～45 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Death Blossom (PvP)",
+      "description": {
+        "en": "Dual Attack. Must follow an off-hand attack. If it hits, Death Blossom strikes target foe for +20...40...45 damage and all adjacent foes take 20...40...45 damage.",
+        "zhTW": "必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20～45 額外傷害，同時對所有鄰近目標的敵人造成 20～45 傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 6.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Death_Blossom_%28PvP%29",
+        "revision": 2733310,
+        "title": "Death Blossom (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3061
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lunto-sharpfoot",
+          "en": "Lunto Sharpfoot",
+          "zhTW": "Lunto Sharpfoot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lunto Sharpfoot (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Lunto_Sharpfoot",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "major-jeahr",
+          "en": "Major Jeahr",
+          "zhTW": "Major Jeahr",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Major Jeahr (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Major_Jeahr",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "admiral-kaya",
+          "en": "Admiral Kaya",
+          "zhTW": "Admiral Kaya",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Admiral Kaya (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Admiral_Kaya",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "hanchor-trueblade",
+          "en": "Hanchor Trueblade",
+          "zhTW": "Hanchor Trueblade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hanchor Trueblade (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Hanchor_Trueblade",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "faveo-aggredior",
+          "en": "Faveo Aggredior",
+          "zhTW": "Faveo Aggredior",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Faveo Aggredior (Nightfallen Jahai)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Faveo_Aggredior",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "rekoff-broodmother",
+          "en": "Rekoff Broodmother",
+          "zhTW": "Rekoff Broodmother",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rekoff Broodmother (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Rekoff_Broodmother",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "pywatt-the-swift",
+          "en": "Pywatt the Swift",
+          "zhTW": "Pywatt the Swift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Pywatt the Swift (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Pywatt_the_Swift",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "zenmai",
+          "en": "Zenmai",
+          "zhTW": "刃瑪伊",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Unlocking Zenmai",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Zenmai",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "anton",
+          "en": "Anton",
+          "zhTW": "安托",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Anton",
+        "source": "https://wiki.guildwars.com/wiki/Death_Blossom",
+        "url": "https://wiki.guildwars.com/wiki/Anton",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20～45 額外傷害，同時對所有鄰近目標的敵人造成 20～45 傷害。",
+  "commonUses": [
+    "匕首精通 · 雙重攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Death_Blossom",
+      "revision": 2733145,
+      "title": "Death Blossom",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Death_Blossom_%28PvP%29",
+      "revision": 2733310,
+      "title": "Death Blossom (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26380"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26381,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 %str1% 額外傷害，同時對所有鄰近目標的敵人造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

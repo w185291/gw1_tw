@@ -1,0 +1,222 @@
+{
+  "pvpOnly": false,
+  "id": "mystic-healing",
+  "name": {
+    "en": "Mystic Healing",
+    "zhTW": "治癒秘法",
+    "translationVerified": true
+  },
+  "clientSkillId": 1527,
+  "icon": "/skills/mystic-healing.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Spell. You are healed for 5...53...65 Health. Also heals all enchanted party members for 5...53...65 Health.",
+      "zhTW": "治療自己 5～65 體力，也同時治療有加持效果的隊友 5～65 體力。"
+    },
+    "pvp": {
+      "en": "Spell. You are healed for 5...53...65 Health. Also heals all enchanted party members for 5...53...65 Health.",
+      "zhTW": "治療自己 5～65 體力，也同時治療有加持效果的隊友 5～65 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mystic Healing (PvP)",
+      "description": {
+        "en": "Spell. You are healed for 5...53...65 Health. Also heals all enchanted party members for 5...53...65 Health.",
+        "zhTW": "治療自己 5～65 體力，也同時治療有加持效果的隊友 5～65 體力。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mystic_Healing_%28PvP%29",
+        "revision": 2726551,
+        "title": "Mystic Healing (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3272
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "acolyte-of-dwayna",
+          "en": "Acolyte of Dwayna",
+          "zhTW": "Acolyte of Dwayna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Acolyte of Dwayna (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_of_Dwayna",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "治療自己 5～65 體力，也同時治療有加持效果的隊友 5～65 體力。",
+  "commonUses": [
+    "風之祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+      "revision": 2726130,
+      "title": "Mystic Healing",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Healing_%28PvP%29",
+      "revision": 2726551,
+      "title": "Mystic Healing (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33399"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33400,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療自己 %str1% 體力，也同時治療有加持效果的隊友 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

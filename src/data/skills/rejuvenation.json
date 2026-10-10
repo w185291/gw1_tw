@@ -1,0 +1,305 @@
+{
+  "id": "rejuvenation",
+  "name": {
+    "en": "Rejuvenation",
+    "zhTW": "回春"
+  },
+  "clientSkillId": 2204,
+  "icon": "/skills/rejuvenation.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...16...20 spirit. This spirit heals all party members within earshot for 3...9...10 Health each second. This spirit loses 3...9...10 Health for each party member healed in this way. This spirit dies after 30...78...90 seconds.",
+      "zhTW": "創造一隻等級 1～20 的回春縛靈。此縛靈每秒治癒音量所及範圍的盟友 3～10 體力。此縛靈也將依照因此被治癒的每一盟友而失去 3～10 體力。回春縛靈在 30～90 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...13...16 spirit. This spirit heals all party members within earshot for 3...9...10 Health each second. This spirit loses 3...9...10 Health for each party member healed in this way. This spirit dies after 30...78...90 seconds.",
+      "zhTW": "召喚等級 1～16 的靈體，持續 30～90 秒。每秒為聽距內所有隊友治療 3～10 體力；每治療一名隊友，靈體就失去同量體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Rejuvenation (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...13...16 spirit. This spirit heals all party members within earshot for 3...9...10 Health each second. This spirit loses 3...9...10 Health for each party member healed in this way. This spirit dies after 30...78...90 seconds.",
+        "zhTW": "召喚等級 1～16 的靈體，持續 30～90 秒。每秒為聽距內所有隊友治療 3～10 體力；每治療一名隊友，靈體就失去同量體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 3.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Rejuvenation_%28PvP%29",
+        "revision": 2675909,
+        "title": "Rejuvenation (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3039
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jeijou-shadow-whispered",
+          "en": "Jeijou, Shadow Whispered",
+          "zhTW": "Jeijou, Shadow Whispered",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter-explorable-area",
+              "en": "Nahpui Quarter (explorable area)",
+              "zhTW": "Nahpui Quarter (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "architect-of-corruption",
+              "en": "Architect of Corruption",
+              "zhTW": "Architect of Corruption",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Architect_of_Corruption"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jeijou, Shadow Whispered (Nahpui Quarter (explorable area), only during Architect of Corruption)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Jeijou,_Shadow_Whispered",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "創造一隻等級 1～20 的回春縛靈。此縛靈每秒治癒音量所及範圍的盟友 3～10 體力。此縛靈也將依照因此被治癒的每一盟友而失去 3～10 體力。回春縛靈在 30～90 秒後消失。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Rejuvenation",
+      "revision": 2686655,
+      "title": "Rejuvenation",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Rejuvenation_%28PvP%29",
+      "revision": 2675909,
+      "title": "Rejuvenation (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/70019"
+  ],
+  "descriptionEvidence": {
+    "stringId": 70020,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的回春縛靈。此縛靈每秒治癒音量所及範圍的盟友 %str2% 體力。此縛靈也將依照因此被治癒的每一盟友而失去 %str2% 體力。回春縛靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

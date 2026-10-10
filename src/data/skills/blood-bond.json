@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "blood-bond",
+  "name": {
+    "en": "Blood Bond",
+    "zhTW": "血之連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 835,
+  "icon": "/skills/blood-bond.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 3...10...12 seconds, target foe and all adjacent foes are hexed with Blood Bond. Whenever an ally hits one of them with an attack, that ally gains 5...17...20 Health. If one of these foes dies while hexed, all allies adjacent to that foe are healed for 20...84...100 Health.",
+      "zhTW": "持續 3～12 秒，同時降咒目標及其鄰近敵人，每當盟友擊中他們時獲得 5～20 體力。若目標被降咒時死亡，鄰近目標的盟友被治療 20～100 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Blood_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cerris",
+          "en": "Cerris",
+          "zhTW": "Cerris",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cerris (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Blood_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Cerris",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 3～12 秒，同時降咒目標及其鄰近敵人，每當盟友擊中他們時獲得 5～20 體力。若目標被降咒時死亡，鄰近目標的盟友被治療 20～100 體力。",
+  "commonUses": [
+    "血魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Blood_Bond",
+      "revision": 2683683,
+      "title": "Blood Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26624",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26625,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，同時降咒目標及其鄰近敵人，每當盟友擊中他們時獲得 %str1% 體力。若目標被降咒時死亡，鄰近目標的盟友被治療 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "putrid-flesh",
+  "name": {
+    "en": "Putrid Flesh",
+    "zhTW": "惡臭肉體",
+    "translationVerified": true
+  },
+  "clientSkillId": 1353,
+  "icon": "/skills/putrid-flesh.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Destroy one of your target animated undead minions. All foes near that creature are Diseased for 5...13...15 seconds.",
+      "zhTW": "消滅目標我方不死爪牙，使其附近的所有敵人遭受「疾病」病症 5～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "消滅目標我方不死爪牙，使其附近的所有敵人遭受「疾病」病症 5～15 秒。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
+      "revision": 2689963,
+      "title": "Putrid Flesh",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33284",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33285,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消滅目標我方不死爪牙，使其附近的所有敵人遭受「疾病」病症 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

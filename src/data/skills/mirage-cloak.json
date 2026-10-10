@@ -1,0 +1,209 @@
+{
+  "pvpOnly": false,
+  "id": "mirage-cloak",
+  "name": {
+    "en": "Mirage Cloak",
+    "zhTW": "魔幻掩蔽",
+    "translationVerified": true
+  },
+  "clientSkillId": 1500,
+  "icon": "/skills/mirage-cloak.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-prayers",
+    "en": "Earth Prayers",
+    "zhTW": "地之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 24.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. For 20 second[s], you have a 40% chance to block and an extra 4...9...10% for each additional enchantment (max 80%). All nearby foes are struck for 10...34...40 earth damage each time a Dervish enchantment is removed from you.",
+      "zhTW": "持續 20 秒，獲得 40% 格擋率，每項額外加持再增加 4～10，最高 80%。每次一項神喚加持被移除，對附近敵人造成 10～40 大地傷害。"
+    },
+    "pvp": {
+      "en": "Flash Enchantment Spell. For 1...6...7 second[s], you have a 30...54...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...34...40 earth damage.",
+      "zhTW": "持續 1～7 秒，你有 30～60% 機率格檔攻擊。施展此加持時，對附近敵人造成 10～40 土系傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mirage Cloak (PvP)",
+      "description": {
+        "en": "Flash Enchantment Spell. For 1...6...7 second[s], you have a 30...54...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...34...40 earth damage.",
+        "zhTW": "持續 1～7 秒，你有 30～60% 機率格檔攻擊。施展此加持時，對附近敵人造成 10～40 土系傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mirage_Cloak_%28PvP%29",
+        "revision": 2738649,
+        "title": "Mirage Cloak (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3469
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "general-kahyet",
+          "en": "General Kahyet",
+          "zhTW": "General Kahyet",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blacktide-den",
+              "en": "Blacktide Den",
+              "zhTW": "黑潮之穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blacktide_Den"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "General Kahyet (Blacktide Den)",
+        "source": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+        "url": "https://wiki.guildwars.com/wiki/General_Kahyet",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 20 秒，獲得 40% 格擋率，每項額外加持再增加 4～10，最高 80%。每次一項神喚加持被移除，對附近敵人造成 10～40 大地傷害。",
+  "commonUses": [
+    "地之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+      "revision": 2739489,
+      "title": "Mirage Cloak",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mirage_Cloak_%28PvP%29",
+      "revision": 2738649,
+      "title": "Mirage Cloak (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33363"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33364,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% seconds, you have a 40%% chance to block and an extra %str1%%% for each additional enchantment (max 80%%). All nearby foes are struck for %str2% earth damage each time a Dervish enchantment is removed from you."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

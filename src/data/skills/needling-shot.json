@@ -1,0 +1,268 @@
+{
+  "pvpOnly": false,
+  "id": "needling-shot",
+  "name": {
+    "en": "Needling Shot",
+    "zhTW": "刺針射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1197,
+  "icon": "/skills/needling-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. Needling Shot strikes for only 10...26...30 damage and moves faster than normal. If Needling Shot strikes a foe below 50% Health, Needling Shot recharges instantly. Your other attack skills are disabled for 2 seconds.",
+      "zhTW": "射出飛行快速的箭，命中時造成10～30傷 害，若命中體力低於50%的敵人則此技能立即回復，但是其他攻擊技能在2秒內無法使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ziinyingmao-kaga",
+          "en": "Ziinyingmao Kaga",
+          "zhTW": "Ziinyingmao Kaga",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ziinyingmao Kaga (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ziinyingmao_Kaga",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "confessor-isaiah",
+          "en": "Confessor Isaiah",
+          "zhTW": "Confessor Isaiah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Confessor Isaiah (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Confessor_Isaiah",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "chieftain-windswept",
+          "en": "Chieftain Windswept",
+          "zhTW": "Chieftain Windswept",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          },
+          {
+            "name": {
+              "id": "service-in-defense-of-the-eye",
+              "en": "Service: In Defense of the Eye",
+              "zhTW": "義勇軍：防禦極地之眼",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Service:_In_Defense_of_the_Eye"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chieftain Windswept (Ice Cliff Chasms, during Service: In Defense of the Eye)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Chieftain_Windswept",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "koren-wildrunner",
+          "en": "Koren Wildrunner",
+          "zhTW": "Koren Wildrunner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Koren Wildrunner (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Koren_Wildrunner",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "zalnax",
+          "en": "Zalnax",
+          "zhTW": "Zalnax",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Zalnax (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Needling_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Zalnax",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "射出飛行快速的箭，命中時造成10～30傷 害，若命中體力低於50%的敵人則此技能立即回復，但是其他攻擊技能在2秒內無法使用。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Needling_Shot",
+      "revision": 2715100,
+      "title": "Needling Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27199"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27200,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射出飛行快速的箭，命中時造成%str2%傷 害，若命中體力低於50%%的敵人則此技能立即回復，但是其他攻擊技能在2秒內無法使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

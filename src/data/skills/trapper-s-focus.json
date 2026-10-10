@@ -1,0 +1,131 @@
+{
+  "pvpOnly": false,
+  "id": "trapper-s-focus",
+  "name": {
+    "en": "Trapper's Focus",
+    "zhTW": "設陷者的專注",
+    "translationVerified": true
+  },
+  "clientSkillId": 946,
+  "icon": "/skills/trapper-s-focus.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "preparation",
+    "en": "preparation",
+    "zhTW": "preparation",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Preparation. For 12...31...36 seconds, your trap skills are not easily interruptible and your Wilderness Survival attribute is increased by +0...3...4.",
+      "zhTW": "持續12～36秒，施展陷阱時不容易被中斷，同時求生屬性+0～4。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chehbaba-roottripper",
+          "en": "Chehbaba Roottripper",
+          "zhTW": "Chehbaba Roottripper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mount-qinkai",
+              "en": "Mount Qinkai",
+              "zhTW": "今凱山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mount_Qinkai"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chehbaba Roottripper (Mount Qinkai)",
+        "source": "https://wiki.guildwars.com/wiki/Trapper%27s_Focus",
+        "url": "https://wiki.guildwars.com/wiki/Chehbaba_Roottripper",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續12～36秒，施展陷阱時不容易被中斷，同時求生屬性+0～4。",
+  "commonUses": [
+    "Expertise · preparation"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Trapper%27s_Focus",
+      "revision": 2733174,
+      "title": "Trapper's Focus",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27207"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27208,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，施展陷阱時不容易被中斷，同時求生屬性+%str1%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

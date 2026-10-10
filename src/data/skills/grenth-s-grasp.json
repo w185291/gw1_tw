@@ -1,0 +1,163 @@
+{
+  "pvpOnly": false,
+  "id": "grenth-s-grasp",
+  "name": {
+    "en": "Grenth's Grasp",
+    "zhTW": "古蘭斯之爪",
+    "translationVerified": true
+  },
+  "clientSkillId": 1756,
+  "icon": "/skills/grenth-s-grasp.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Flash Enchantment Spell. For 20 seconds, your attack skills also Cripple that [sic] foe for 1...9...11 second[s] and you transfer 1...3...3 condition[s] from yourself to that foe.",
+      "zhTW": "持續 20 秒，你的攻擊技能使敵人殘廢 1～11 秒，並把自身 1～3 項病症轉移給敵人。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bubahl-icehands",
+          "en": "Bubahl Icehands",
+          "zhTW": "Bubahl Icehands",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bubahl Icehands (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp",
+        "url": "https://wiki.guildwars.com/wiki/Bubahl_Icehands",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "lord-yama-the-vengeful",
+          "en": "Lord Yama the Vengeful",
+          "zhTW": "Lord Yama the Vengeful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          },
+          {
+            "name": {
+              "id": "drakes-on-the-plain",
+              "en": "Drakes on the Plain",
+              "zhTW": "Drakes on the Plain",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakes_on_the_Plain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lord Yama the Vengeful (The Floodplain of Mahnkelon, only during Drakes on the Plain)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp",
+        "url": "https://wiki.guildwars.com/wiki/Lord_Yama_the_Vengeful",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 20 秒，你的攻擊技能使敵人殘廢 1～11 秒，並把自身 1～3 項病症轉移給敵人。",
+  "commonUses": [
+    "風之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp",
+      "revision": 2738881,
+      "title": "Grenth's Grasp",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44079"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44080,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, your attack skills also Cripple that foe for %str2% second and you transfer %str1% condition from yourself to that foe."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

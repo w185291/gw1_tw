@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "conflagration",
+  "name": {
+    "en": "Conflagration",
+    "zhTW": "火靈",
+    "translationVerified": true
+  },
+  "clientSkillId": 466,
+  "icon": "/skills/conflagration.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "Nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Nature Ritual. Create a level 1...8...10 spirit. For non-spirit creatures within its range, all arrows that hit strike for fire damage. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的火箭精靈。使區域內的生物在被你射出的箭命中時受到火焰傷害。火箭精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Conflagration",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "創造一隻等級 1～10 的火箭精靈。使區域內的生物在被你射出的箭命中時受到火焰傷害。火箭精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Conflagration",
+      "revision": 2739628,
+      "title": "Conflagration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27243"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27244,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的火箭精靈。使區域內的生物在被你射出的箭命中時受到火焰傷害。火箭精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

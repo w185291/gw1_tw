@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "divert-hexes",
+  "name": {
+    "en": "Divert Hexes",
+    "zhTW": "降咒轉向",
+    "translationVerified": true
+  },
+  "clientSkillId": 1692,
+  "icon": "/skills/divert-hexes.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Remove up to 1...3...3 hex[es] from target ally. For each hex removed in this way, that ally loses one condition and gains 15...63...75 Health.",
+      "zhTW": "為目標盟友移除最多 1～3 項「降咒」。每利用此方式為盟友消去一項「降咒」，同時也會為該盟友消去一項「病症」並治療其 15～75 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "amiresh-the-pious",
+          "en": "Amiresh the Pious",
+          "zhTW": "Amiresh the Pious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Amiresh the Pious (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Divert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Amiresh_the_Pious",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "為目標盟友移除最多 1～3 項「降咒」。每利用此方式為盟友消去一項「降咒」，同時也會為該盟友消去一項「病症」並治療其 15～75 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Divert_Hexes",
+      "revision": 2731209,
+      "title": "Divert Hexes",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/44019"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44020,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "為目標盟友移除最多 %str1% 項「降咒」。每利用此方式為盟友消去一項「降咒」，同時也會為該盟友消去一項「病症」並治療其 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

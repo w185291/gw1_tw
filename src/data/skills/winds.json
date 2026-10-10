@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "winds",
+  "name": {
+    "en": "Winds",
+    "zhTW": "風"
+  },
+  "clientSkillId": 2422,
+  "icon": "/skills/winds.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ebon-vanguard-ritual",
+    "en": "Ebon vanguard ritual",
+    "zhTW": "黑檀先鋒隊儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 5,
+  "recharge": 30,
+  "description": {
+    "pve": {
+      "en": "Ebon Vanguard Ritual. Create a level 4...10 Spirit. All foes within its range have 15% chance to miss with ranged attacks. This spirit dies after 54...90 seconds.",
+      "zhTW": "創造一隻等級 4～10 的靈。於靈範圍內的所有敵人，其範圍攻擊有 15% 的失誤機率。靈在 54～90 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "charr-invaders",
+          "en": "Charr Invaders",
+          "zhTW": "夏爾入侵的危機",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "artificer-mullenix",
+              "en": "Artificer Mullenix",
+              "zhTW": "巧匠 穆勒尼斯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Artificer_Mullenix"
+          },
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "夏爾入侵的危機 (from 巧匠 穆勒尼斯 in Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Winds",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Invaders",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "創造一隻等級 4～10 的靈。於靈範圍內的所有敵人，其範圍攻擊有 15% 的失誤機率。靈在 54～90 秒後消失。",
+  "commonUses": [
+    "Ebon Vanguard rank · 黑檀先鋒隊儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Winds",
+      "revision": 2720905,
+      "title": "Winds",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72892"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72893,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的靈。於靈範圍內的所有敵人，其範圍攻擊有 %str2%%% 的失誤機率。靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

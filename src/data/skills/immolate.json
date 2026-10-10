@@ -1,0 +1,559 @@
+{
+  "pvpOnly": false,
+  "id": "immolate",
+  "name": {
+    "en": "Immolate",
+    "zhTW": "火焰焚身",
+    "translationVerified": true
+  },
+  "clientSkillId": 191,
+  "icon": "/skills/immolate.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 20...64...75 fire damage and is set on fire for 1...3...3 second[s].",
+      "zhTW": "使目標敵人受到 20～75 火焰傷害並且遭受「著火」病症 1～3 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "taltosh",
+          "en": "Taltosh",
+          "zhTW": "Taltosh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grendich-courthouse",
+              "en": "Grendich Courthouse",
+              "zhTW": "葛蘭迪法院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Taltosh (Grendich Courthouse)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Taltosh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chuff-quickbeak",
+          "en": "Chuff Quickbeak",
+          "zhTW": "Chuff Quickbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chuff Quickbeak (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Chuff_Quickbeak",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flyt-stormbeak",
+          "en": "Flyt Stormbeak",
+          "zhTW": "Flyt Stormbeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Flyt Stormbeak (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Flyt_Stormbeak",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "qik-sharpclaw",
+          "en": "Qik Sharpclaw",
+          "zhTW": "Qik Sharpclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Qik Sharpclaw (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Qik_Sharpclaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "inquisitor-lovisa",
+          "en": "Inquisitor Lovisa",
+          "zhTW": "Inquisitor Lovisa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "wanted-inquisitor-lovisa",
+              "en": "Wanted: Inquisitor Lovisa",
+              "zhTW": "Wanted: Inquisitor Lovisa",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wanted:_Inquisitor_Lovisa"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lovisa (Watchtower Coast (War in Kryta), only during Wanted: Inquisitor Lovisa)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lovisa",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bosun-mohrti",
+          "en": "Bosun Mohrti",
+          "zhTW": "Bosun Mohrti",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bosun Mohrti (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Bosun_Mohrti",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "korr-living-flame",
+          "en": "Korr, Living Flame",
+          "zhTW": "Korr, Living Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Korr, Living Flame (Turai's Procession)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Korr,_Living_Flame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "corsair-commander-elementalist",
+          "en": "Corsair Commander (elementalist)",
+          "zhTW": "Corsair Commander (elementalist)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dajkah-inlet",
+              "en": "Dajkah Inlet",
+              "zhTW": "達卡港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corsair Commander (Dajkah Inlet)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Corsair_Commander_(elementalist)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "korshek-the-immolated",
+          "en": "Korshek the Immolated",
+          "zhTW": "Korshek the Immolated",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forum-highlands",
+              "en": "Forum Highlands",
+              "zhTW": "高地廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forum_Highlands"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Korshek the Immolated (Forum Highlands)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Korshek_the_Immolated",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "kormab-burning-heart",
+          "en": "Kormab, Burning Heart",
+          "zhTW": "Kormab, Burning Heart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "resplendent-makuun",
+              "en": "Resplendent Makuun",
+              "zhTW": "奢華之城．莫肯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Resplendent_Makuun"
+          },
+          {
+            "name": {
+              "id": "dasha-vestibule",
+              "en": "Dasha Vestibule",
+              "zhTW": "達沙走廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kormab, Burning Heart (Resplendent Makuun, Dasha Vestibule)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Kormab,_Burning_Heart",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fire-lord",
+          "en": "Fire Lord",
+          "zhTW": "Fire Lord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          },
+          {
+            "name": {
+              "id": "gift-of-the-djinn",
+              "en": "Gift of the Djinn",
+              "zhTW": "Gift of the Djinn",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gift_of_the_Djinn"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Fire Lord (The Hidden City of Ahdashim, only during Gift of the Djinn)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Fire_Lord",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "hajkor-mystic-flame",
+          "en": "Hajkor, Mystic Flame",
+          "zhTW": "Hajkor, Mystic Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hajkor, Mystic Flame (The Sulfurous Wastes)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Hajkor,_Mystic_Flame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Immolate",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 20～75 火焰傷害並且遭受「著火」病症 1～3 秒。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Immolate",
+      "revision": 2683867,
+      "title": "Immolate",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25204",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25205,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 火焰傷害並且遭受「著火」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "glowstone",
+  "name": {
+    "en": "Glowstone",
+    "zhTW": "灼熱之石",
+    "translationVerified": true
+  },
+  "clientSkillId": 1661,
+  "icon": "/skills/glowstone.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Send a projectile that strikes for 5...41...50 earth damage if it hits. If this spell hits a weakened [sic] foe, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
+      "zhTW": "此技能為投射性攻擊，對目標敵人造成5～50土系傷害。若該目標遭受虛弱，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Glowstone",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Glowstone",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "此技能為投射性攻擊，對目標敵人造成5～50土系傷害。若該目標遭受虛弱，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glowstone",
+      "revision": 2683945,
+      "title": "Glowstone",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/49985",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49986,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此技能為投射性攻擊，對目標敵人造成%str1%土系傷害。若該目標遭受虛弱，你獲得%str2%能量，同時依照能量儲存等級，每2級讓你額外獲得1能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

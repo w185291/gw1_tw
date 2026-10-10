@@ -20,7 +20,7 @@
     "飛昇試煉",
     "可自由排序"
   ],
-  "summary": "幫幽魂英雄奪回王座並守住十分鐘。",
+  "summary": "時限內擊敗南方三名將軍；詳見下方分段路線與主線完成條件。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -38,8 +38,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "絕望沙丘據點",
+    "description": "從 Vulture Drifts 進入 Dunes of Despair 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Dunes of Despair 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -52,18 +52,47 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "時限內擊敗南方三名將軍",
+    "summary": "時限內擊敗南方三名將軍",
+    "trigger": "佔領王座後才開始 10 分鐘窗口；三名將軍在南方堡壘，第一名在吊橋後，另兩名在其後建物。",
+    "steps": [
+      "佔領王座後才開始 10 分鐘窗口；三名將軍在南方堡壘，第一名在吊橋後，另兩名在其後建物。",
+      "殺將軍會產生前往王座的增援，不能只看自己身邊已清空。先清主線西門頭目隊，可留下約五分鐘專心進攻。",
+      "三名將軍擊殺即取得 Bonus；之後 NPC 死亡仍會使主線失敗。若需主線與 Bonus 同次完成，必須守到計時結束。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "三名將軍擊殺即取得 Bonus；之後 NPC 死亡仍會使主線失敗。若需主線與 Bonus 同次完成，必須守到計時結束。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "護送到第一座吊橋",
+      "content": "與 Ghostly Hero 交談讓他跟隨；再次交談可叫他停下。讓他用 Claim Resource 放下吊橋，過橋往南。西側的 Slow Totem 是可選輔助物，放地上能減慢範圍內敵人，並非必要道具。"
+    },
+    {
+      "title": "擊敗入口頭目",
+      "content": "擊殺 Goss Aleessh 及同伴後觸發過場，再讓 Ghostly Hero 打開下一座吊橋。把他留在橋後方，用窄入口把衝出的 Enchanted 敵人分批擊殺，避免他先被包圍。"
+    },
+    {
+      "title": "先準備再佔王座",
+      "content": "打敗王座上的 Enemy Ghostly Hero，確認補師能治療任務友軍後，才帶己方 Ghostly Hero 接近王座。佔領後開始 10 分鐘防守，期間他死亡即失敗。"
+    },
+    {
+      "title": "清除第一批進攻",
+      "content": "先處理由東、西、南再東側出現的 Forgotten Arcanists，打斷施法。後續還有弓手及帶頭目的隊伍；Siege Wurms 從外圍攻擊時，補住 NPC，別為追蟲把防線全部撤空。"
+    },
+    {
+      "title": "利用最後約五分鐘做 Bonus",
+      "content": "穩健做法是等西門的 Forgotten 頭目隊進攻並將其清掉，再帶進攻隊往南方堡壘。依圖先殺吊橋後的將軍，再進後方建物殺另外兩名；保留能治療 Ghostly Hero 的防守者或召喚防線。"
+    },
+    {
+      "title": "攔截援軍並守到結束",
+      "content": "每殺一名將軍會有新敵人奔向王座。進攻隊攔住能攔截的增援，三名將軍及其隊伍處理完確認 Bonus，再回王座保護 Ghostly Hero，倒數歸零才算主線完成。"
+    }
+  ],
+  "routeSummary": "護送到第一座吊橋 → 擊敗入口頭目 → 先準備再佔王座 → 清除第一批進攻 → 利用最後約五分鐘做 Bonus → 攔截援軍並守到結束",
   "mapImage": "/maps/Dunes_of_Despair_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -93,13 +122,235 @@
       "role": "bonus_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Custodian Fidius",
+        "zhTW": "Custodian Fidius（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Endure Pain",
+        "Hamstring",
+        "Thrill of Victory",
+        "Warrior's Endurance"
+      ],
+      "eliteSkills": [
+        "Warrior's Endurance"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Custodian_Fidius",
+      "revision": 2362585,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Custodian Kora",
+        "zhTW": "Custodian Kora（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Marksman's Wager",
+        "Penetrating Attack",
+        "Throw Dirt",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Custodian_Kora",
+      "revision": 2362612,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Custodian_Kora"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dassk Arossyss",
+        "zhTW": "Dassk Arossyss（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Aegis",
+        "Orison of Healing",
+        "Vigorous Spirit",
+        "Word of Healing"
+      ],
+      "eliteSkills": [
+        "Word of Healing"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Dassk_Arossyss",
+      "revision": 2256774,
+      "dangerousSkills": [
+        {
+          "name": "Word of Healing",
+          "counter": "留打斷給這個低血量強補，避免分散輸出。",
+          "source": "https://wiki.guildwars.com/wiki/Dassk_Arossyss"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Byssha Hisst",
+        "zhTW": "Byssha Hisst（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Consume Corpse",
+        "Deathly Chill",
+        "Life Siphon",
+        "Order of the Vampire"
+      ],
+      "eliteSkills": [
+        "Order of the Vampire"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Byssha_Hisst",
+      "revision": 2253972,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Byssha_Hisst"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Goss Aleessh",
+        "zhTW": "Goss Aleessh（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Chaos Storm",
+        "Energy Burn",
+        "Ether Feast",
+        "Mantra of Recovery",
+        "Ethereal Burden"
+      ],
+      "eliteSkills": [
+        "Mantra of Recovery"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Goss_Aleessh",
+      "revision": 2710228,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ayassah Hess",
+        "zhTW": "Ayassah Hess（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Chaos Storm",
+        "Energy Burn",
+        "Ether Feast",
+        "Ethereal Burden",
+        "Mantra of Recovery"
+      ],
+      "eliteSkills": [
+        "Mantra of Recovery"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ayassah_Hess",
+      "revision": 1949697,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cyss Gresshla",
+        "zhTW": "Cyss Gresshla（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Earthquake",
+        "Ether Renewal",
+        "Kinetic Armor",
+        "Stoning"
+      ],
+      "eliteSkills": [
+        "Ether Renewal"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cyss_Gresshla",
+      "revision": 2256655,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "需要能指定任務友軍的治療、防護及打斷；前者保護王座，後者限制 Arcanists。",
+    "準備解致盲、加速與持續輸出，縮短南方三隊的處理時間。"
+  ],
+  "tips": [
+    "完成後傳送至 Augury Rock（占卜之石）據點。若另兩項試煉尚未完成，先補乾枯河流與伊洛那流域；三試煉先後不限。"
+  ],
+  "warnings": [
+    "一旦佔領王座就開始倒數，先整理能量與隊伍位置。",
+    "Bonus 援軍會奔向 NPC；把所有六人帶走容易讓主線失敗。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "任務與 Bonus 時限相同；敵方壓力更高，防守 NPC 的治療與防護不能全跟進攻隊離開。Forgotten Cursebearers 能拆加持，不能只靠一個常駐防護。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -119,13 +370,115 @@
       "revision": 2711777,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Custodian Fidius",
+      "url": "https://wiki.guildwars.com/wiki/Custodian_Fidius",
+      "revision": 2362585,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Custodian Kora",
+      "url": "https://wiki.guildwars.com/wiki/Custodian_Kora",
+      "revision": 2362612,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Dassk Arossyss",
+      "url": "https://wiki.guildwars.com/wiki/Dassk_Arossyss",
+      "revision": 2256774,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Byssha Hisst",
+      "url": "https://wiki.guildwars.com/wiki/Byssha_Hisst",
+      "revision": 2253972,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Goss Aleessh",
+      "url": "https://wiki.guildwars.com/wiki/Goss_Aleessh",
+      "revision": 2710228,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ayassah Hess",
+      "url": "https://wiki.guildwars.com/wiki/Ayassah_Hess",
+      "revision": 1949697,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cyss Gresshla",
+      "url": "https://wiki.guildwars.com/wiki/Cyss_Gresshla",
+      "revision": 2256655,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Sands Of Souls",
+      "url": "https://wiki.guildwars.com/wiki/Sands_Of_Souls",
+      "revision": 2725466,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "sanctum-cay",
   "nextMission": "thirsty-river",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10410"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後傳送至 Augury Rock（占卜之石）據點。若另兩項試煉尚未完成，先補乾枯河流與伊洛那流域；三試煉先後不限。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10410
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Sands Of Souls",
+        "zhTW": "Sands Of Souls（繁中名稱待確認）"
+      },
+      "giver": "Ghostly Hero",
+      "location": "The Amnoon Oasis",
+      "directions": "在 The Amnoon Oasis 找 Ghostly Hero 接取次要任務。步行往東南的傳送器，站進圓圈，轉身觀察開關亮起順序，依同一順序觸碰開關後傳送過峽谷。接著沿石柱到 Augury Rock 找 Great Ritual Priest Zahmut 回報。三個試煉據點要另外走到，完成順序不限；這份 Quest 是引導，不是試煉的必要前置。",
+      "url": "https://wiki.guildwars.com/wiki/Sands_Of_Souls",
+      "revision": 2725466,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "secondary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

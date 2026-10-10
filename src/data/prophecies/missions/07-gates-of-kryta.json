@@ -4,18 +4,18 @@
   "campaign": "prophecies",
   "region": "kryta",
   "name": {
-    "zhTW": "柯瑞塔關所",
+    "zhTW": "科瑞塔關所",
     "en": "Gates of Kryta"
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "aliases": [
     "科瑞塔關所",
     "Kryta Gates"
   ],
   "tags": [
-    "柯瑞塔關所",
+    "科瑞塔之門",
     "Gates of Kryta",
     "Prophecies",
     "第一章",
@@ -40,7 +40,7 @@
   "entryMethod": {
     "type": "enter-mission",
     "description": "由 Scoundrel’s Rise 進入 Gates of Kryta 任務據點，按 Enter Mission。",
-    "location": "柯瑞塔關所據點",
+    "location": "科瑞塔之門據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -92,13 +92,13 @@
   "routeSummary": "南側村落 → 小豬與主人 → 海灘向北水道取文字 → 村中交書 → 東側海岸 → 沼澤亡靈",
   "mapImage": "/maps/Gates_of_Kryta_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Gates_of_Kryta_map.jpg",
       "title": "主線路線圖",
-      "alt": "柯瑞塔關所・主線路線圖",
+      "alt": "科瑞塔之門・主線路線圖",
       "width": 436,
       "height": 627,
       "filePage": "https://wiki.guildwars.com/wiki/File:Gates_of_Kryta_map.jpg",
@@ -112,8 +112,8 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Sayad the Bloodless",
-        "en": "Sayad the Bloodless"
+        "en": "Sayad the Bloodless",
+        "zhTW": "Sayad the Bloodless（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
@@ -122,16 +122,29 @@
         "Edge of Extinction",
         "Troll Unguent"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless",
-      "revision": 2398388
+      "revision": 2398388,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Ijan the Cursed",
-        "en": "Ijan the Cursed"
+        "en": "Ijan the Cursed",
+        "zhTW": "Ijan the Cursed（繁中名稱待確認）"
       },
       "profession": "僧侶",
       "importantSkills": [
@@ -140,16 +153,23 @@
         "Smite Hex",
         "Vengeance"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
-      "revision": 1808601
+      "revision": 1808601,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Onan the Spiritless",
-        "en": "Onan the Spiritless"
+        "en": "Onan the Spiritless",
+        "zhTW": "Onan the Spiritless（繁中名稱待確認）"
       },
       "profession": "幻術師",
       "importantSkills": [
@@ -158,16 +178,23 @@
         "Phantom Pain",
         "Spirit of Failure"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Onan_the_Spiritless",
-      "revision": 1807505
+      "revision": 1807505,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Nazeem the Damned",
-        "en": "Nazeem the Damned"
+        "en": "Nazeem the Damned",
+        "zhTW": "Nazeem the Damned（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -176,16 +203,23 @@
         "Earthquake",
         "Lightning Touch"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Nazeem_the_Damned",
-      "revision": 2283190
+      "revision": 2283190,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Haja Bloodwail",
-        "en": "Haja Bloodwail"
+        "en": "Haja Bloodwail",
+        "zhTW": "Haja Bloodwail（繁中名稱待確認）"
       },
       "profession": "戰士",
       "importantSkills": [
@@ -194,16 +228,29 @@
         "Healing Signet",
         "Sever Artery"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Haja_Bloodwail",
-      "revision": 2134774
+      "revision": 2134774,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Haja_Bloodwail"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Bakkir the Forsaken",
-        "en": "Bakkir the Forsaken"
+        "en": "Bakkir the Forsaken",
+        "zhTW": "Bakkir the Forsaken（繁中名稱待確認）"
       },
       "profession": "死靈法師",
       "importantSkills": [
@@ -212,11 +259,24 @@
         "Death Nova",
         "Life Siphon"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Bakkir_the_Forsaken",
-      "revision": 2605158
+      "revision": 2605158,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Bakkir_the_Forsaken"
+        }
+      ]
     }
   ],
   "recommendedTeam": [
@@ -357,13 +417,165 @@
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Sayad the Bloodless",
+      "url": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless",
+      "revision": 2398388,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ijan the Cursed",
+      "url": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
+      "revision": 1808601,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Onan the Spiritless",
+      "url": "https://wiki.guildwars.com/wiki/Onan_the_Spiritless",
+      "revision": 1807505,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nazeem the Damned",
+      "url": "https://wiki.guildwars.com/wiki/Nazeem_the_Damned",
+      "revision": 2283190,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Haja Bloodwail",
+      "url": "https://wiki.guildwars.com/wiki/Haja_Bloodwail",
+      "revision": 2134774,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bakkir the Forsaken",
+      "url": "https://wiki.guildwars.com/wiki/Bakkir_the_Forsaken",
+      "revision": 2605158,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：To Kryta: Refugees",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Refugees",
+      "revision": 2723076,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：To Kryta: The Ice Cave",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_The_Ice_Cave",
+      "revision": 2723077,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：To Kryta: Journey's End",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Journey%27s_End",
+      "revision": 2723084,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "the-frost-gate",
   "nextMission": "dalessio-seaboard",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10368"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關到獅子拱門；小豬屋後另有製圖支路。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10368
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "To Kryta: Refugees",
+        "zhTW": "To Kryta: Refugees（繁中名稱待確認）"
+      },
+      "giver": "Master Saberlin",
+      "location": "Beacon's Perch (Northern Shiverpeaks)",
+      "directions": "在 Beacon's Perch 找 Master Saberlin 接取。出 Deldrimor Bowl，沿南側道路向西清掉箭頭附近的六隊 Centaur；難民死亡不會失敗。到 Griffon's Mouth 前的 Ranger Olson 回報；下一份任務要進洞找 Master Seeker Nathaniel，不是向 Olson 接。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Refugees",
+      "revision": 2723076,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "To Kryta: The Ice Cave",
+        "zhTW": "To Kryta: The Ice Cave（繁中名稱待確認）"
+      },
+      "giver": "Master Seeker Nathaniel",
+      "location": "Griffon's Mouth (Northern Shiverpeaks)",
+      "directions": "在 Griffon's Mouth 找 Master Seeker Nathaniel 接取。跟 Snow 與 Mark of Aidan 穿過冰洞，迷路時貼右牆前進；不必保護 Snow，也不用撿路標。Snow Ettin 有虛弱及高物理傷害，分批拉怪。到另一端找 Aidan 回報。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_The_Ice_Cave",
+      "revision": 2723077,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "To Kryta: Journey's End",
+        "zhTW": "To Kryta: Journey's End（繁中名稱待確認）"
+      },
+      "giver": "Aidan",
+      "location": "Griffon's Mouth (Northern Shiverpeaks)",
+      "directions": "向冰洞出口的 Aidan 接取，進 Scoundrel's Rise，把信交給入口的 Ambassador Braun。沿地圖東南側往 Gates of Kryta，先殺 Zombie Warlock，再清會伏擊並致殘的 Grasping Ghoul；到據點找 Witness Casori 回報。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Journey%27s_End",
+      "revision": 2723084,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "Report to the White Mantle",
+        "zhTW": "Report to the White Mantle（繁中名稱待確認）"
+      },
+      "giver": "Armen the Guide",
+      "location": "Lion's Arch (Kryta)",
+      "directions": "在 Lion's Arch 找 Armen the Guide 接取。出 North Kryta Province 向西，注意 Fire Imp，抵達 D'Alessio Seaboard 據點後向 Mantle Knight Karriya 回報。Factions／Nightfall 角色完成赴 Tyria 任務後，也從這裡接入第一章主線。",
+      "url": "https://wiki.guildwars.com/wiki/Report_to_the_White_Mantle",
+      "revision": 2723440,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

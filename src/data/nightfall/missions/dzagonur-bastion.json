@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -20,7 +20,7 @@
   "tags": [
     "nightfall",
     "大師獎勵",
-    "Master of Whispers 路線"
+    "喚言大師 路線"
   ],
   "summary": "防守三門與三炮，擊敗四位將軍，保護Ahmtur。",
   "partySize": 8,
@@ -52,10 +52,25 @@
     {
       "id": "master-of-whispers",
       "name": {
-        "zhTW": "喚言大師 / Master of Whispers",
+        "zhTW": "喚言大師",
         "en": "Master of Whispers"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/46813",
+        "game-client://2026-10-09/string/51064",
+        "game-client://2026-10-09/string/55342"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          46813,
+          51064,
+          55342
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -139,63 +154,121 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "General Doriah",
+        "zhTW": "General Doriah（繁中名稱待確認）",
         "en": "General Doriah"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Healing Signet",
+        "Heavy Blow",
+        "Magehunter's Smash",
+        "Overbearing Smash",
+        "Staggering Blow"
+      ],
+      "eliteSkills": [
         "Magehunter's Smash"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/General_Doriah"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
-      "revision": 2741865
+      "source": "https://wiki.guildwars.com/wiki/General_Doriah",
+      "revision": 2466497
     },
     {
       "name": {
-        "zhTW": "General Nimtak",
+        "zhTW": "General Nimtak（繁中名稱待確認）",
         "en": "General Nimtak"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Dismiss Condition",
+        "Divine Intervention",
+        "Spell Breaker",
+        "Watchful Healing"
+      ],
+      "eliteSkills": [
         "Spell Breaker"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
-      "revision": 2741865
+      "source": "https://wiki.guildwars.com/wiki/General_Nimtak",
+      "revision": 2466500
     },
     {
       "name": {
-        "zhTW": "General Tirraj",
+        "zhTW": "General Tirraj（繁中名稱待確認）",
         "en": "General Tirraj"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Air Attunement",
+        "Aura of Restoration",
+        "Chilling Winds",
+        "Freezing Gust",
         "Invoke Lightning"
       ],
+      "eliteSkills": [
+        "Invoke Lightning"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
-      "revision": 2741865
+      "source": "https://wiki.guildwars.com/wiki/General_Tirraj",
+      "revision": 2466501
     },
     {
       "name": {
-        "zhTW": "General Kumtash",
+        "zhTW": "General Kumtash（繁中名稱待確認）",
         "en": "General Kumtash"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "\"Can't Touch This!\"",
+        "\"Go for the Eyes!\"",
+        "Anthem of Guidance",
+        "Leader's Comfort",
+        "Swift Javelin"
+      ],
+      "eliteSkills": [
         "Anthem of Guidance"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion#Bosses",
-      "revision": 2741865
+      "source": "https://wiki.guildwars.com/wiki/General_Kumtash",
+      "revision": 2466498
     }
   ],
   "recommendedTeam": [
@@ -312,6 +385,34 @@
       "revision": 2697484,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Doriah",
+      "url": "https://wiki.guildwars.com/wiki/General_Doriah",
+      "revision": 2466497,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Nimtak",
+      "url": "https://wiki.guildwars.com/wiki/General_Nimtak",
+      "revision": 2466500,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Tirraj",
+      "url": "https://wiki.guildwars.com/wiki/General_Tirraj",
+      "revision": 2466501,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Kumtash",
+      "url": "https://wiki.guildwars.com/wiki/General_Kumtash",
+      "revision": 2466498,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -330,7 +431,7 @@
   "prerequisites": [
     "tihark-orchard"
   ],
-  "branch": "Master of Whispers 路線",
+  "branch": "喚言大師 路線",
   "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
   "primaryQuestBefore": [
     {
@@ -378,7 +479,7 @@
       },
       "giver": "Zerai the Learner",
       "location": "the Kodash Bazaar",
-      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽摩根說明回Vahmani。",
       "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
       "revision": 2621044,
       "translationStatus": "needs-review"
@@ -424,5 +525,31 @@
       "expert": "保留1–4座",
       "master": "保留5–6座防禦設施"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33095",
+    "game-client://2026-10-09/string/39674"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33095,
+      39674
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion",
+    "revision": 2741865,
+    "heroes": [
+      "喚言大師"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

@@ -1,0 +1,268 @@
+{
+  "pvpOnly": false,
+  "id": "overbearing-smash",
+  "name": {
+    "en": "Overbearing Smash",
+    "zhTW": "傲慢猛擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1410,
+  "icon": "/skills/overbearing-smash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If this attack hits, you deal +1...16...20 damage. If target foe is knocked down, that foe is Dazed for 1...7...8 second[s].",
+      "zhTW": "命中時造成 1～20 額外傷害，若是目標被擊倒，造成該敵人暈眩 1～8 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "candy-corn-tyrant",
+          "en": "Candy Corn Tyrant",
+          "zhTW": "Candy Corn Tyrant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Candy Corn Tyrant (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Candy_Corn_Tyrant",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cairn-the-grave",
+          "en": "Cairn the Grave",
+          "zhTW": "Cairn the Grave",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Grave (D'Alessio Seaboard (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Grave",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "selenas-the-blunt",
+          "en": "Selenas the Blunt",
+          "zhTW": "Selenas the Blunt",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes-war-in-kryta",
+              "en": "Twin Serpent Lakes (War in Kryta)",
+              "zhTW": "Twin Serpent Lakes (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Selenas the Blunt (Twin Serpent Lakes (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Selenas_the_Blunt",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cobleri-arronn",
+          "en": "Cobleri Arronn",
+          "zhTW": "Cobleri Arronn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cobleri Arronn (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Cobleri_Arronn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 1～20 額外傷害，若是目標被擊倒，造成該敵人暈眩 1～8 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+      "revision": 2733216,
+      "title": "Overbearing Smash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/34793",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34794,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，若是目標被擊倒，造成該敵人暈眩 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

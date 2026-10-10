@@ -1,0 +1,228 @@
+{
+  "id": "dissonance",
+  "name": {
+    "en": "Dissonance",
+    "zhTW": "不和諧",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 921,
+  "icon": "/skills/dissonance.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit. This spirit deals 5...17...20 damage and anyone struck by its attack is interrupted. This spirit dies after 10...22...25 seconds.",
+      "zhTW": "創造等級 1～12 的失調縛靈。縛靈的攻擊對敵人造成 5～20 傷害並且中斷其行動。縛靈將在 10～25 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit. This spirit deals 5...17...20 damage and anyone struck by its attack is interrupted. This spirit dies after 10...22...25 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 10～25 秒。攻擊造成 5～20 傷害，並打斷被命中的敵人。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Dissonance (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit. This spirit deals 5...17...20 damage and anyone struck by its attack is interrupted. This spirit dies after 10...22...25 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 10～25 秒。攻擊造成 5～20 傷害，並打斷被命中的敵人。"
+      },
+      "stats": {
+        "Energy": 25.0,
+        "Activation": 2.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Dissonance_%28PvP%29",
+        "revision": 2731220,
+        "title": "Dissonance (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3014
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dissonance",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "disruption",
+          "en": "Disruption",
+          "zhTW": "Disruption",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Disruption (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Dissonance",
+        "url": "https://wiki.guildwars.com/wiki/Disruption",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "glacial-griffon",
+          "en": "Glacial Griffon",
+          "zhTW": "Glacial Griffon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          },
+          {
+            "name": {
+              "id": "cold-as-ice",
+              "en": "Cold as Ice",
+              "zhTW": "冷冰冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cold_as_Ice"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Glacial Griffon (Sifhalla, only during Cold as Ice)",
+        "source": "https://wiki.guildwars.com/wiki/Dissonance",
+        "url": "https://wiki.guildwars.com/wiki/Glacial_Griffon",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "攻擊靈體會打斷目標行動；能量成本高，位置和存活很重要。別假設它一定會選到你希望打斷的法術。",
+  "commonUses": [
+    "靈體干擾",
+    "祭祀控制"
+  ],
+  "aliases": [
+    "失調"
+  ],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dissonance",
+      "revision": 2684046,
+      "title": "Dissonance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dissonance_%28PvP%29",
+      "revision": 2731220,
+      "title": "Dissonance (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27379"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27380,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的失調縛靈。縛靈的攻擊對敵人造成 %str2% 傷害並且中斷其行動。縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

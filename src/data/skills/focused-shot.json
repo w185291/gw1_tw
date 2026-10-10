@@ -1,0 +1,132 @@
+{
+  "pvpOnly": false,
+  "id": "focused-shot",
+  "name": {
+    "en": "Focused Shot",
+    "zhTW": "專注射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 909,
+  "icon": "/skills/focused-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. This shot moves three times faster, cannot be blocked, and strikes for +10...34...40 damage but all of your other attack skills are disabled for 8...5...4 seconds.",
+      "zhTW": "箭矢速度為三倍，不能被格擋，額外造成 10～40 傷害；其他攻擊技能停用 8～4 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Focused_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "箭矢速度為三倍，不能被格擋，額外造成 10～40 傷害；其他攻擊技能停用 8～4 秒。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Focused_Shot",
+      "revision": 2740766,
+      "title": "Focused Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27197"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27198,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "This shot moves three times faster, cannot be blocked, and strikes for +%str1% damage but all of your other attack skills are disabled for %str2% second."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

@@ -1,0 +1,325 @@
+{
+  "pvpOnly": false,
+  "id": "go-for-the-eyes",
+  "name": {
+    "en": "\"Go for the Eyes!\"",
+    "zhTW": "「攻擊要害！」"
+  },
+  "clientSkillId": 1558,
+  "icon": "/skills/go-for-the-eyes.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 10 seconds, the next time each ally within earshot makes an attack, that attack has an additional 30...86...100% chance to critical.",
+      "zhTW": "持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30～100% 。"
+    },
+    "pvp": {
+      "en": "Shout. For 10 seconds, the next time each ally within earshot makes an attack, that attack has an additional 30...66...75% chance to critical.",
+      "zhTW": "持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30～75% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"Go for the Eyes!\" (PvP)",
+      "description": {
+        "en": "Shout. For 10 seconds, the next time each ally within earshot makes an attack, that attack has an additional 30...66...75% chance to critical.",
+        "zhTW": "持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30～75% 。"
+      },
+      "stats": {
+        "Adrenaline": 4.0,
+        "Recharge": 4.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22_%28PvP%29",
+        "revision": 2732858,
+        "title": "\"Go for the Eyes!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3026
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jang-wen",
+          "en": "Jang Wen",
+          "zhTW": "Jang Wen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jang Wen (What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Jang_Wen",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "initiate-jeng-sunjoo",
+          "en": "Initiate Jeng Sunjoo",
+          "zhTW": "Initiate Jeng Sunjoo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "ever-closer-to-the-edge",
+              "en": "Ever Closer to the Edge",
+              "zhTW": "Ever Closer to the Edge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ever_Closer_to_the_Edge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Initiate Jeng Sunjoo (Gyala Hatchery (explorable area), only during Ever Closer to the Edge)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Initiate_Jeng_Sunjoo",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "commander-chui-kantu",
+          "en": "Commander Chui Kantu",
+          "zhTW": "Commander Chui Kantu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaya-bluffs",
+              "en": "Jaya Bluffs",
+              "zhTW": "蛇野斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaya_Bluffs"
+          },
+          {
+            "name": {
+              "id": "honorable-combat",
+              "en": "Honorable Combat",
+              "zhTW": "Honorable Combat",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Honorable_Combat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Commander Chui Kantu (Jaya Bluffs, only during Honorable Combat)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Chui_Kantu",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "sotanaht-the-tomb-guardian",
+          "en": "Sotanaht the Tomb Guardian",
+          "zhTW": "Sotanaht the Tomb Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sotanaht the Tomb Guardian (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Sotanaht_the_Tomb_Guardian",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "vraxx-the-condemned",
+          "en": "Vraxx the Condemned",
+          "zhTW": "Vraxx the Condemned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Vraxx the Condemned (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Vraxx_the_Condemned",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "elder-nephilim",
+          "en": "Elder Nephilim",
+          "zhTW": "Elder Nephilim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Elder Nephilim (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Elder_Nephilim",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30～100% 。",
+  "commonUses": [
+    "命令 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22",
+      "revision": 2732889,
+      "title": "\"Go for the Eyes!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes%21%22_%28PvP%29",
+      "revision": 2732858,
+      "title": "\"Go for the Eyes!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/34819"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34820,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

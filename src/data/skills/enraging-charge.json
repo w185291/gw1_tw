@@ -1,0 +1,431 @@
+{
+  "pvpOnly": false,
+  "id": "enraging-charge",
+  "name": {
+    "en": "Enraging Charge",
+    "zhTW": "怒氣急聚",
+    "translationVerified": true
+  },
+  "clientSkillId": 1414,
+  "icon": "/skills/enraging-charge.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...13...15 seconds, you move 25% faster. Enraging Charge ends when you successfully strike a target, at which point you gain 0...2...3 strike[s] of adrenaline if you hit with a melee attack.",
+      "zhTW": "持續 5～15 秒，移動速度增加 25%，當你下一次以近身攻擊擊中敵人時，此態勢終止且你獲得等同於 0～3 次攻擊的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "joh-the-hostile",
+          "en": "Joh the Hostile",
+          "zhTW": "Joh the Hostile",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "scoundrel-s-rise-war-in-kryta",
+              "en": "Scoundrel's Rise (War in Kryta)",
+              "zhTW": "Scoundrel's Rise (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Scoundrel%27s_Rise_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Joh the Hostile (Scoundrel's Rise (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Joh_the_Hostile",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bloodback-morrob",
+          "en": "Bloodback Morrob",
+          "zhTW": "Bloodback Morrob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bloodback Morrob (Mehtani Keys)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Bloodback_Morrob",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "robah-hardback",
+          "en": "Robah Hardback",
+          "zhTW": "Robah Hardback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Robah Hardback (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Robah_Hardback",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "molotov-rocktail",
+          "en": "Molotov Rocktail",
+          "zhTW": "Molotov Rocktail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Molotov Rocktail (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Molotov_Rocktail",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lissah-the-packleader",
+          "en": "Lissah the Packleader",
+          "zhTW": "Lissah the Packleader",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lissah the Packleader (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Lissah_the_Packleader",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "taskmaster-durgon",
+          "en": "Taskmaster Durgon",
+          "zhTW": "Taskmaster Durgon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Durgon (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Durgon",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "mobrin-lord-of-the-marsh",
+          "en": "Mobrin, Lord of the Marsh",
+          "zhTW": "Mobrin, Lord of the Marsh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Mobrin, Lord of the Marsh (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Mobrin,_Lord_of_the_Marsh",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-ettin",
+          "en": "Inscribed Ettin",
+          "zhTW": "Inscribed Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "finding-gadd",
+              "en": "Finding Gadd",
+              "zhTW": "正在尋找蓋德",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_Gadd"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Ettin (Sparkfly Swamp, during 正在尋找蓋德)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-sentry",
+          "en": "Inscribed Sentry",
+          "zhTW": "Inscribed Sentry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Sentry (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Sentry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-shield-golem",
+          "en": "Malfunctioning Shield Golem",
+          "zhTW": "Malfunctioning Shield Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Shield Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Shield_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "marln-steelfist",
+          "en": "Marln Steelfist",
+          "zhTW": "Marln Steelfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Marln Steelfist (Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Marln_Steelfist",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～15 秒，移動速度增加 25%，當你下一次以近身攻擊擊中敵人時，此態勢終止且你獲得等同於 0～3 次攻擊的怒氣值。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+      "revision": 2733218,
+      "title": "Enraging Charge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/34799"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34800,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，移動速度增加 %str1%%%，當你下一次以近身攻擊擊中敵人時，此態勢終止且你獲得等同於 %str2% 次攻擊的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,391 @@
+{
+  "pvpOnly": false,
+  "id": "for-great-justice",
+  "name": {
+    "en": "\"For Great Justice!\"",
+    "zhTW": "「為了正義！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 343,
+  "icon": "/skills/for-great-justice.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 20 seconds, whenever you gain adrenaline, you gain 100% more.",
+      "zhTW": "持續 20 秒，每次你獲得怒氣值時，另額外獲得 100% 。"
+    },
+    "pvp": {
+      "en": "Shout. For 8 seconds, when you hit with an attack, you gain 1 additional strike of adrenaline.",
+      "zhTW": "持續8秒，每次攻擊成功時額外獲得1怒氣。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"For Great Justice!\" (PvP)",
+      "description": {
+        "en": "Shout. For 8 seconds, when you hit with an attack, you gain 1 additional strike of adrenaline.",
+        "zhTW": "持續8秒，每次攻擊成功時額外獲得1怒氣。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22_%28PvP%29",
+        "revision": 2628437,
+        "title": "\"For Great Justice!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2883
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "helping-the-people-of-ascalon",
+          "en": "Helping the People of Ascalon",
+          "zhTW": "Helping the People of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Helping the People of Ascalon (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Helping_the_People_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 20 秒，每次你獲得怒氣值時，另額外獲得 100% 。",
+  "commonUses": [
+    "無屬性 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22",
+      "revision": 2739322,
+      "title": "\"For Great Justice!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice%21%22_%28PvP%29",
+      "revision": 2628437,
+      "title": "\"For Great Justice!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25898",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25899,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 20 秒，每次你獲得怒氣值時，另額外獲得 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

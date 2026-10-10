@@ -1,0 +1,312 @@
+{
+  "pvpOnly": false,
+  "id": "smite-condition",
+  "name": {
+    "en": "Smite Condition",
+    "zhTW": "擊敗病症"
+  },
+  "clientSkillId": 2004,
+  "icon": "/skills/smite-condition.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove one condition from target ally. If a condition was removed, foes in the area take 10...50...60 holy damage.",
+      "zhTW": "移除目標盟友一項病症。每移除一項病症，附近敵人將受到 10～60 神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "amalek-the-unmerciful",
+          "en": "Amalek the Unmerciful",
+          "zhTW": "Amalek the Unmerciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Amalek the Unmerciful (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Amalek_the_Unmerciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ming-the-judgment",
+          "en": "Ming the Judgment",
+          "zhTW": "Ming the Judgment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ming the Judgment (The Undercity (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Ming_the_Judgment",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dimsur-cheefai",
+          "en": "Dimsur Cheefai",
+          "zhTW": "Dimsur Cheefai",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Dimsur Cheefai (The Undercity (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Dimsur_Cheefai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-monk",
+          "en": "Monstrous Afflicted Monk",
+          "zhTW": "Monstrous Afflicted Monk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Monk (Morostav Trail, during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Monk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "rei-bi",
+          "en": "Rei Bi",
+          "zhTW": "Rei Bi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rei Bi (What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Rei_Bi",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "移除目標盟友一項病症。每移除一項病症，附近敵人將受到 10～60 神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Smite_Condition",
+      "revision": 2686607,
+      "title": "Smite Condition",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/58968"
+  ],
+  "descriptionEvidence": {
+    "stringId": 58969,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標盟友一項病症。每移除一項病症，附近敵人將受到 %str1% 神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

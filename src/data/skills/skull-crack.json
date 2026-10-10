@@ -1,0 +1,303 @@
+{
+  "pvpOnly": false,
+  "id": "skull-crack",
+  "name": {
+    "en": "Skull Crack",
+    "zhTW": "碎顎",
+    "translationVerified": true
+  },
+  "clientSkillId": 329,
+  "icon": "/skills/skull-crack.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Melee Attack. If it hits, this attack interrupts the target's current action. If that foe was casting a spell, that foe is Dazed for 15 seconds.",
+      "zhTW": "命中时，该攻击将打断目标当前的动作。若目标当时正施法，将陷入晕眩15秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hail-blackice",
+          "en": "Hail Blackice",
+          "zhTW": "Hail Blackice",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hail Blackice (Spearhead Peak)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Hail_Blackice",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "baglorag-grumblesnort",
+          "en": "Baglorag Grumblesnort",
+          "zhTW": "Baglorag Grumblesnort",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "norrhart-domains",
+              "en": "Norrhart Domains",
+              "zhTW": "諾恩之心領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Baglorag Grumblesnort (Norrhart Domains)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Baglorag_Grumblesnort",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chieftain-ulgrimar-gnash",
+          "en": "Chieftain Ulgrimar Gnash",
+          "zhTW": "Chieftain Ulgrimar Gnash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "the-big-unfriendly-jotun",
+              "en": "The Big Unfriendly Jotun",
+              "zhTW": "The Big Unfriendly Jotun",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Big_Unfriendly_Jotun"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chieftain Ulgrimar Gnash (Drakkar Lake, during The Big Unfriendly Jotun)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Chieftain_Ulgrimar_Gnash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lann-browsmasher",
+          "en": "Lann Browsmasher",
+          "zhTW": "Lann Browsmasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nornhood",
+              "en": "Nornhood",
+              "zhTW": "Nornhood",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nornhood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lann Browsmasher (Drakkar Lake, during Nornhood)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Lann_Browsmasher",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "grelk-icelash",
+          "en": "Grelk Icelash",
+          "zhTW": "Grelk Icelash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "darkrime-delves",
+              "en": "Darkrime Delves",
+              "zhTW": "黑霜洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Darkrime_Delves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Grelk Icelash (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Grelk_Icelash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "havok-kin",
+          "en": "Havok-kin",
+          "zhTW": "Havok-kin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Havok-kin (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Havok-kin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bringer-of-destruction",
+          "en": "Bringer of Destruction",
+          "zhTW": "Bringer of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "genius-operated-living-enchanted-manifestation",
+              "en": "Genius Operated Living Enchanted Manifestation",
+              "zhTW": "天才操控而讓生活豐富迷人的表現",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Genius_Operated_Living_Enchanted_Manifestation"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bringer of Destruction (Genius Operated Living Enchanted Manifestation)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Bringer_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "heart-of-destruction",
+          "en": "Heart of Destruction",
+          "zhTW": "Heart of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Heart of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Skull_Crack",
+        "url": "https://wiki.guildwars.com/wiki/Heart_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "命中时，该攻击将打断目标当前的动作。若目标当时正施法，将陷入晕眩15秒。",
+  "commonUses": [
+    "無屬性 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Skull_Crack",
+      "revision": 2728735,
+      "title": "Skull Crack",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25869"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25870,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中时，该攻击将打断目标当前的动作。若目标当时正施法，将陷入晕眩15秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

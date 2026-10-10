@@ -1,0 +1,136 @@
+{
+  "pvpOnly": false,
+  "id": "heroic-refrain",
+  "name": {
+    "en": "Heroic Refrain",
+    "zhTW": "Heroic Refrain"
+  },
+  "clientSkillId": 3431,
+  "icon": "/skills/heroic-refrain.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "echo",
+    "en": "echo",
+    "zhTW": "echo",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Echo. For 3...13...15 seconds, target non-spirit ally gains +1...3...3 to all attributes. This echo is reapplied every time a chant or shout ends on that ally. PvE Skill",
+      "zhTW": "持續 3～15 秒，目標非靈體友軍所有屬性提高 1～3 點。每當該友軍身上的聖歌或喊話結束，此迴響重新套用。PvE 技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "yoannh-the-rebuilder",
+          "en": "Yoannh the Rebuilder",
+          "zhTW": "Yoannh the Rebuilder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          },
+          {
+            "name": {
+              "id": "proof-of-triumph",
+              "en": "Proof of Triumph",
+              "zhTW": "Proof of Triumph",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yoannh the Rebuilder (The Ruptured Heart) (requires a party member to be carrying a Proof of Triumph)",
+        "source": "https://wiki.guildwars.com/wiki/Heroic_Refrain",
+        "url": "https://wiki.guildwars.com/wiki/Yoannh_the_Rebuilder",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 3～15 秒，目標非靈體友軍所有屬性提高 1～3 點。每當該友軍身上的聖歌或喊話結束，此迴響重新套用。PvE 技能。",
+  "commonUses": [
+    "領導 · echo"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heroic_Refrain",
+      "revision": 2740457,
+      "title": "Heroic Refrain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/79261"
+  ],
+  "descriptionEvidence": {
+    "stringId": 79262,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, target non-spirit ally gains +%str1% to all attributes. This echo is reapplied every time a chant or shout ends on that ally. PvE Skill"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

@@ -1,0 +1,333 @@
+{
+  "pvpOnly": false,
+  "id": "price-of-failure",
+  "name": {
+    "en": "Price of Failure",
+    "zhTW": "失敗的代價",
+    "translationVerified": true
+  },
+  "clientSkillId": 103,
+  "icon": "/skills/price-of-failure.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 30 seconds, target foe has a 25% chance to miss with attacks and takes 1...37...46 damage whenever that foe fails to hit in combat.",
+      "zhTW": "持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」，而且每次該目標攻擊「失敗」時將受到 1～46 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-lost-princess",
+          "en": "The Lost Princess",
+          "zhTW": "The Lost Princess",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Lost Princess (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/The_Lost_Princess",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "geck-the-coldblooded",
+          "en": "Geck the Coldblooded",
+          "zhTW": "Geck the Coldblooded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Geck the Coldblooded (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Geck_the_Coldblooded",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "gambol-the-headrainer",
+          "en": "Gambol the Headrainer",
+          "zhTW": "Gambol the Headrainer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gambol the Headrainer (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Gambol_the_Headrainer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "skigg-the-tongue",
+          "en": "Skigg the Tongue",
+          "zhTW": "Skigg the Tongue",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skigg the Tongue (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "eepeep-the-mindrain",
+          "en": "Eepeep the Mindrain",
+          "zhTW": "Eepeep the Mindrain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eepeep the Mindrain (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Eepeep_the_Mindrain",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "facet-of-death",
+          "en": "Facet of Death",
+          "zhTW": "Facet of Death",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-grenth",
+              "en": "The Cipher of Grenth",
+              "zhTW": "The Cipher of Grenth",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Grenth"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Death (Sparkfly Swamp during The Cipher of Grenth, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Death",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」，而且每次該目標攻擊「失敗」時將受到 1～46 傷害。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+      "revision": 2683670,
+      "title": "Price of Failure",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25026",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25027,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 30 秒，使目標敵人有 25%% 的機率發生攻擊「失誤」，而且每次該目標攻擊「失敗」時將受到 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,381 @@
+{
+  "pvpOnly": false,
+  "id": "mind-burn",
+  "name": {
+    "en": "Mind Burn",
+    "zhTW": "心靈燃燒",
+    "translationVerified": true
+  },
+  "clientSkillId": 185,
+  "icon": "/skills/mind-burn.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 5,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe and all adjacent foes take 15...51...60 fire damage. If you have more Energy than target foe, that foe and all adjacent foes take an additional 15...51...60 fire damage and are set on fire for 1...8...10 second[s].",
+      "zhTW": "使目標敵人受到 15～60 火焰傷害。若你比目標擁有更多的能量，則該目標將額外受到 15～60 火焰傷害，並且遭受「著火」病症 1～10 秒。此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "scelus-prosum",
+          "en": "Scelus Prosum",
+          "zhTW": "Scelus Prosum",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hell-s-precipice",
+              "en": "Hell's Precipice",
+              "zhTW": "地獄懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Scelus Prosum (Hell's Precipice)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Scelus_Prosum",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-kam",
+          "en": "The Afflicted Kam",
+          "zhTW": "The Afflicted Kam",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vizunah-square",
+              "en": "Vizunah Square",
+              "zhTW": "薇茹廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vizunah_Square"
+          },
+          {
+            "name": {
+              "id": "shenzun-tunnels",
+              "en": "Shenzun Tunnels",
+              "zhTW": "申贊通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Kam (Vizunah Square; Shenzun Tunnels)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Kam",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-rasa",
+          "en": "The Afflicted Rasa",
+          "zhTW": "The Afflicted Rasa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Rasa (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Rasa",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "argo",
+          "en": "Argo",
+          "zhTW": "艾高",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Argo (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Argo",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-shen",
+          "en": "The Afflicted Shen",
+          "zhTW": "The Afflicted Shen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters",
+              "en": "Unwaking Waters",
+              "zhTW": "沉睡之水",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Shen (Unwaking Waters)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Shen",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "xi-lin-of-the-flames",
+          "en": "Xi Lin of the Flames",
+          "zhTW": "Xi Lin of the Flames",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels-winds-of-change",
+              "en": "Shenzun Tunnels (Winds of Change)",
+              "zhTW": "Shenzun Tunnels (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xi Lin of the Flames (Shenzun Tunnels (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Xi_Lin_of_the_Flames",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "leijun-ano",
+          "en": "Leijun Ano",
+          "zhTW": "Leijun Ano",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Leijun Ano (Shenzun Tunnels (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Leijun_Ano",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "kormab-burning-heart",
+          "en": "Kormab, Burning Heart",
+          "zhTW": "Kormab, Burning Heart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "resplendent-makuun",
+              "en": "Resplendent Makuun",
+              "zhTW": "奢華之城．莫肯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Resplendent_Makuun"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kormab, Burning Heart (Resplendent Makuun)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Kormab,_Burning_Heart",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fire-lord",
+          "en": "Fire Lord",
+          "zhTW": "Fire Lord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          },
+          {
+            "name": {
+              "id": "gift-of-the-djinn",
+              "en": "Gift of the Djinn",
+              "zhTW": "Gift of the Djinn",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gift_of_the_Djinn"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Fire Lord (The Hidden City of Ahdashim, during Gift of the Djinn)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Fire_Lord",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ignis-cruor",
+          "en": "Ignis Cruor",
+          "zhTW": "Ignis Cruor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          },
+          {
+            "name": {
+              "id": "a-flickering-flame",
+              "en": "A Flickering Flame",
+              "zhTW": "若隱若現的火焰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Flickering_Flame"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ignis Cruor (Domain of Secrets, during 若隱若現的火焰)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Burn",
+        "url": "https://wiki.guildwars.com/wiki/Ignis_Cruor",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 15～60 火焰傷害。若你比目標擁有更多的能量，則該目標將額外受到 15～60 火焰傷害，並且遭受「著火」病症 1～10 秒。此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mind_Burn",
+      "revision": 2688422,
+      "title": "Mind Burn",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25191",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25192,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 火焰傷害。若你比目標擁有更多的能量，則該目標將額外受到 %str1% 火焰傷害，並且遭受「著火」病症 %str2% 秒。此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

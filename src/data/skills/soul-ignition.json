@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "soul-ignition",
+  "name": {
+    "en": "Soul Ignition",
+    "zhTW": "Soul Ignition"
+  },
+  "clientSkillId": 3446,
+  "icon": "/skills/soul-ignition.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. While you maintain this enchantment, reduce overcast at a rate of 1...2...2 per second. You and all adjacent foes are afflicted with burning while this enchantment is active.",
+      "zhTW": "維持此加持時，每秒減少 1～2 超載；你與所有相鄰敵人在加持期間持續燃燒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Ignition",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Ignition",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zenaida",
+          "en": "Zenaida",
+          "zhTW": "Zenaida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "harvest-temple",
+              "en": "Harvest Temple",
+              "zhTW": "豐收神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Harvest_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zenaida (Harvest Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Ignition",
+        "url": "https://wiki.guildwars.com/wiki/Zenaida",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "維持此加持時，每秒減少 1～2 超載；你與所有相鄰敵人在加持期間持續燃燒。",
+  "commonUses": [
+    "能量儲存 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soul_Ignition",
+      "revision": 2741885,
+      "title": "Soul Ignition",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/81246"
+  ],
+  "descriptionEvidence": {
+    "stringId": 81247,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "While you maintain this enchantment, reduce Overcast at a rate of %str1% per second. You and all adjacent foes are afflicted with burning while this enchantment is active."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

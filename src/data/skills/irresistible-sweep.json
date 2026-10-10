@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "irresistible-sweep",
+  "name": {
+    "en": "Irresistible Sweep",
+    "zhTW": "神能掃蕩",
+    "translationVerified": true
+  },
+  "clientSkillId": 1489,
+  "icon": "/skills/irresistible-sweep.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "scythe-attack",
+    "en": "Scythe attack",
+    "zhTW": "鐮刀攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Scythe Attack. Deal +3...13...15 damage and lose 1 Dervish enchantment. If you lose an enchantment in this way, Irresistible Sweep cannot be blocked, removes a stance, and deals +3...13...15 additional damage.",
+      "zhTW": "命中時造成 3～15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢，再造成 3～15 額外傷害。"
+    },
+    "pvp": {
+      "en": "Scythe Attack. Deal +3...13...15 damage and lose 1 Dervish enchantment. If you lose an enchantment in this way, Irresistible Sweep cannot be blocked and removes a stance.",
+      "zhTW": "命中時造成 3～15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Irresistible Sweep (PvP)",
+      "description": {
+        "en": "Scythe Attack. Deal +3...13...15 damage and lose 1 Dervish enchantment. If you lose an enchantment in this way, Irresistible Sweep cannot be blocked and removes a stance.",
+        "zhTW": "命中時造成 3～15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢。"
+      },
+      "stats": {
+        "Adrenaline": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_%28PvP%29",
+        "revision": 2733319,
+        "title": "Irresistible Sweep (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3265
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "命中時造成 3～15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢，再造成 3～15 額外傷害。",
+  "commonUses": [
+    "鐮刀精通 · 鐮刀攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep",
+      "revision": 2733229,
+      "title": "Irresistible Sweep",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_%28PvP%29",
+      "revision": 2733319,
+      "title": "Irresistible Sweep (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33345"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33346,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢，再造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

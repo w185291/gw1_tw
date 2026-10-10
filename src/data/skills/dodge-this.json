@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "dodge-this",
+  "name": {
+    "en": "\"Dodge This!\"",
+    "zhTW": "\"躲過這個吧！\""
+  },
+  "clientSkillId": 2354,
+  "icon": "/skills/dodge-this.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 16...20 seconds, your next attack cannot be blocked and does +14...20 damage.",
+      "zhTW": "持續 16～20 秒，你的下一次攻擊將無法被格擋並可造成 +14～20 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "final-round-fight",
+          "en": "Final Round: Fight!",
+          "zhTW": "Final Round: Fight!",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Final Round: Fight! (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/%22Dodge_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Final_Round:_Fight!",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 16～20 秒，你的下一次攻擊將無法被格擋並可造成 +14～20 傷害。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Dodge_This%21%22",
+      "revision": 2732700,
+      "title": "\"Dodge This!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71899"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71900,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的下一次攻擊將無法被格擋並可造成 +%str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

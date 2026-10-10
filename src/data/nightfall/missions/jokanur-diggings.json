@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,29 @@
     {
       "id": "melonni",
       "name": {
-        "zhTW": "梅隆妮 / Melonni",
+        "zhTW": "梅隆妮",
         "en": "Melonni"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41877",
+        "game-client://2026-10-09/string/46764",
+        "game-client://2026-10-09/string/51067",
+        "game-client://2026-10-09/string/55346",
+        "game-client://2026-10-09/string/78405"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41877,
+          46764,
+          51067,
+          55346,
+          78405
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -146,7 +165,45 @@
       "role": "mission_scene"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Apocrypha",
+        "zhTW": "Apocrypha（繁中名稱待確認）"
+      },
+      "profession": "Mesmer／Paragon／Dervish",
+      "importantSkills": [
+        "Reform Carvings",
+        "Clumsiness",
+        "Conjure Phantasm",
+        "Crippling Anguish",
+        "Ether Feast",
+        "Signet of Humility",
+        "Aura of Thorns",
+        "Dust Cloak",
+        "Eremite's Attack",
+        "Mystic Vigor",
+        "Rending Sweep",
+        "Anthem of Guidance",
+        "Ballad of Restoration",
+        "Mending Refrain",
+        "Mighty Throw"
+      ],
+      "eliteSkills": [
+        "Crippling Anguish",
+        "Anthem of Guidance"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "會以 Reform Carvings 改變職業。把它與需要保護的 Sunspear Ghost 分開，控制英雄範圍技避免誤殺鬼魂；幻術型態準備解降咒，神喚型態不圍站，聖言型態用致盲／格擋。它不是血肉目標，不以流血或毒作主要輸出。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Apocrypha",
+      "revision": 2615526
+    }
+  ],
   "recommendedTeam": [
     "帶神聖傷害、解咒與NPC治療；HM 地形傷害壓力高，跑石板者要有支援。"
   ],
@@ -261,6 +318,13 @@
       "revision": 2730655,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Apocrypha",
+      "url": "https://wiki.guildwars.com/wiki/Apocrypha",
+      "revision": 2615526,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -349,7 +413,7 @@
       },
       "giver": "Digmaster Gatah",
       "location": "Jokanur Diggings",
-      "directions": "達First Spear或等級12，與Morgahn會面並擊敗庫爾納隊，回Dajmir。",
+      "directions": "達First Spear或等級12，與摩根會面並擊敗庫爾納隊，回Dajmir。",
       "url": "https://wiki.guildwars.com/wiki/The_Honorable_General",
       "revision": 2713273,
       "translationStatus": "needs-review"
@@ -370,7 +434,7 @@
   "primaryQuestAfter": [
     {
       "name": {
-        "zhTW": "Isle of the Dead",
+        "zhTW": "死亡之島",
         "en": "Isle of the Dead"
       },
       "giver": "First Spear Dehvad",
@@ -378,7 +442,21 @@
       "directions": "從Champion’s Dawn向西南到Cliffs of Dohjok救Nerashi小隊，與她談後經Beknur Harbor到Issnur Isles清四群不死族，再到Mehtani Keys清三群，回Kamadan的Dehvad。",
       "url": "https://wiki.guildwars.com/wiki/Isle_of_the_Dead_%28quest%29",
       "revision": 2682989,
-      "translationStatus": "needs-review"
+      "translationStatus": "verified",
+      "translationVerified": true,
+      "translationSources": [
+        "game-client://2026-10-09/string/10702",
+        "game-client://2026-10-09/string/10704",
+        "game-client://2026-10-09/string/10706"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          10702,
+          10704,
+          10706
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     },
     {
       "name": {
@@ -451,5 +529,31 @@
       "expert": "一名鬼魂死亡",
       "master": "零鬼魂死亡，包含Kahdash"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36148",
+    "game-client://2026-10-09/string/39670"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      36148,
+      39670
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Jokanur_Diggings",
+    "revision": 2708009,
+    "heroes": [
+      "Melonni"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

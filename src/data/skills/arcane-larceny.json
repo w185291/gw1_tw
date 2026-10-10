@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "arcane-larceny",
+  "name": {
+    "en": "Arcane Larceny",
+    "zhTW": "盜竊魔法",
+    "translationVerified": true
+  },
+  "clientSkillId": 1062,
+  "icon": "/skills/arcane-larceny.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. For 5...29...35 seconds, one random spell is disabled for target foe and Arcane Larceny is replaced by that spell.",
+      "zhTW": "持續 5～35 秒，隨機使目標敵人身上的一項「魔法」無法使用，同時盜竊魔法被該「魔法」取代。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Larceny",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 5～35 秒，隨機使目標敵人身上的一項「魔法」無法使用，同時盜竊魔法被該「魔法」取代。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Arcane_Larceny",
+      "revision": 2710841,
+      "title": "Arcane Larceny",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/26590"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26591,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，隨機使目標敵人身上的一項「魔法」無法使用，同時盜竊魔法被該「魔法」取代。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

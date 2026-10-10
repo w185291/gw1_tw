@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "保護魯瑞克，救出夏爾囚禁計程車兵。",
+  "summary": "護送Prince Rurik、救出俘虜並打開吊橋。Bonus 必須跟隨搬運聖火的夏爾，不能提前擊殺。",
   "partySize": 4,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,32 +36,61 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "蘇米亞廢墟據點",
+    "description": "從 Eastern Frontier 進入 Ruins of Surmia 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Ruins of Surmia 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "保護魯瑞克，救出夏爾囚禁計程車兵。"
+      "text": "保護Prince Rurik，救出夏爾囚禁計程車兵。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "進入神殿並消滅四名 Flame Keepers",
+    "summary": "進入神殿並消滅四名 Flame Keepers",
+    "trigger": "Breena 的提示開啟聖火支線；不可在夏爾開門前攻擊搬運者。",
+    "steps": [
+      "Breena 的提示開啟聖火支線；不可在夏爾開門前攻擊搬運者。",
+      "保持他們在雷達內。門開後可擊殺搬運者，再到神殿殺四名 Flame Keepers，完成 Bonus。",
+      "完成後從神殿後門順時針繞回主路更快。途中召喚的攻擊靈若先打到搬運者，可能把他們引走；接任務前先等生靈消失。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "完成後從神殿後門順時針繞回主路更快。途中召喚的攻擊靈若先打到搬運者，可能把他們引走；接任務前先等生靈消失。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "控制護送節奏",
+      "content": "跟隨Prince Rurik（Prince Rurik）救人。道路有隱藏吞噬者，慢慢推進；他死亡即失敗。救出 Erol 的劇情後，Erol 會協助施法，但他的生存不影響通關或 Bonus。"
+    },
+    {
+      "title": "繞到吊橋另一端",
+      "content": "Prince Rurik與 Erol 在橋旁等候。沿焦油河逆時針繞行，從橋下往北走進夏爾區，越過牆段後往南到拉桿。先不要急著讓護送 NPC 進入密集敵區。"
+    },
+    {
+      "title": "預清橋後敵軍",
+      "content": "穩妥做法是開橋之前清掉後半段夏爾，尤其終點廢墟中的敵群；也可從逆時針方向繞到結尾，再回東側救出法師。"
+    },
+    {
+      "title": "處理 Bonus 支路",
+      "content": "與地圖 2 的 Breena Stavinson 交談。保持搬運聖火者在雷達視線內並跟隨，等他們把地圖 4 的門打開，才動手。"
+    },
+    {
+      "title": "開橋會合",
+      "content": "使用拉桿讓Prince Rurik、Erol 會合。往北沿東側推進；Prince Rurik可能偏左繞路，引到你以為不會碰到的敵群。"
+    },
+    {
+      "title": "救出法師並防守",
+      "content": "到頭目位置後，西南會跑來四名夏爾。清除後三名法師奔向廢墟方尖碑；與法師交談可讓他們留在附近。守住Prince Rurik，擊退全部波次，直到他的 Knock 開門完成。"
+    }
+  ],
+  "routeSummary": "Prince Rurik與俘虜 → 焦油河逆時針繞路 → 吊橋拉桿 → 聖火神殿支路 → 廢墟方尖碑防守",
   "mapImage": "/maps/Ruins_of_Surmia_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +107,276 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Puugh the Slasher",
+        "zhTW": "Puugh the Slasher（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Cyclone Axe",
+        "Healing Signet",
+        "Penetrating Blow",
+        "Shield Stance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher",
+      "revision": 2737420,
+      "dangerousSkills": [
+        {
+          "name": "Cyclone Axe",
+          "counter": "前排以外保持距離，避免多名隊員同吃近身範圍攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher"
+        },
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher"
+        },
+        {
+          "name": "Shield Stance",
+          "counter": "姿態期間使用非攻擊傷害，或先拆姿態再集火。",
+          "source": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fling Bloodpelt",
+        "zhTW": "Fling Bloodpelt（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Favorable Winds",
+        "Ignite Arrows",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fling_Bloodpelt",
+      "revision": 2413704,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Fling_Bloodpelt"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Scaar Sternclaw",
+        "zhTW": "Scaar Sternclaw（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Banish",
+        "Heal Area"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Scaar_Sternclaw",
+      "revision": 2138892,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Burr Mankiller",
+        "zhTW": "Burr Mankiller（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Faintheartedness",
+        "Life Siphon",
+        "Mark of Pain"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Burr_Mankiller",
+      "revision": 2660795,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Burr_Mankiller"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Scint the Malign",
+        "zhTW": "Scint the Malign（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Burn",
+        "Ether Feast",
+        "Illusion of Haste",
+        "Mantra of Flame"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Scint_the_Malign",
+      "revision": 2413715,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Slaug Firehide",
+        "zhTW": "Slaug Firehide（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare",
+        "Lava Font"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Slaug_Firehide",
+      "revision": 2635197,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Gnash Underfoot",
+        "zhTW": "Gnash Underfoot（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Gnash_Underfoot",
+      "revision": 2554937,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Hurl Foulspine",
+        "zhTW": "Hurl Foulspine（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Hurl_Foulspine",
+      "revision": 2622305,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Fester Fang",
+        "zhTW": "Fester Fang（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Parasitic Bond",
+        "Putrid Explosion",
+        "Weaken Armor"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fester_Fang",
+      "revision": 2579198,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Fester_Fang"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "最重要的是先清廢墟，避免Prince Rurik衝入尚未處理的多隊敵人。"
+  ],
+  "tips": [
+    "搬運者離雷達太遠可能把聖火遺留，使門無法開啟；若發生通常需重開 Bonus。",
+    "「阿斯卡隆的城市」支線可在途中檢查蘇米亞歷史紀念碑。",
+    "通關後到若拉尼學院。"
+  ],
+  "warnings": [
+    "Breena 的提示開啟聖火支線；不可在夏爾開門前攻擊搬運者。",
+    "元素夏爾連放隕石雨，幻術夏爾有強力封鎖；帶打斷並分散站位。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "元素夏爾連放隕石雨，幻術夏爾有強力封鎖；帶打斷並分散站位。",
+      "最重要的是先清廢墟，避免Prince Rurik衝入尚未處理的多隊敵人。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +396,129 @@
       "revision": 2729714,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Puugh the Slasher",
+      "url": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher",
+      "revision": 2737420,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fling Bloodpelt",
+      "url": "https://wiki.guildwars.com/wiki/Fling_Bloodpelt",
+      "revision": 2413704,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Scaar Sternclaw",
+      "url": "https://wiki.guildwars.com/wiki/Scaar_Sternclaw",
+      "revision": 2138892,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Burr Mankiller",
+      "url": "https://wiki.guildwars.com/wiki/Burr_Mankiller",
+      "revision": 2660795,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Scint the Malign",
+      "url": "https://wiki.guildwars.com/wiki/Scint_the_Malign",
+      "revision": 2413715,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Slaug Firehide",
+      "url": "https://wiki.guildwars.com/wiki/Slaug_Firehide",
+      "revision": 2635197,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Gnash Underfoot",
+      "url": "https://wiki.guildwars.com/wiki/Gnash_Underfoot",
+      "revision": 2554937,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hurl Foulspine",
+      "url": "https://wiki.guildwars.com/wiki/Hurl_Foulspine",
+      "revision": 2622305,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fester Fang",
+      "url": "https://wiki.guildwars.com/wiki/Fester_Fang",
+      "revision": 2579198,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ruins of Surmia (quest)",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia_%28quest%29",
+      "revision": 2719506,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "fort-ranik",
   "nextMission": "nolani-academy",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10547"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到若拉尼學院。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10547
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Ruins of Surmia (quest)",
+        "zhTW": "Ruins of Surmia (quest)（繁中名稱待確認）"
+      },
+      "giver": "Warmaster Riga",
+      "location": "Frontier Gate (Ascalon)",
+      "directions": "從 Frontier Gate 找 Warmaster Riga 接取，出 Eastern Frontier 往北沿道路前進，抵達 Ruins of Surmia 後向 Captain Miken 回報。",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia_%28quest%29",
+      "revision": 2719506,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

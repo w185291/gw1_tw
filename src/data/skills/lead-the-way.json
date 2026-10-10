@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "lead-the-way",
+  "name": {
+    "en": "\"Lead the Way!\"",
+    "zhTW": "「由你帶路！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 1590,
+  "icon": "/skills/lead-the-way.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Target ally moves 25% faster for 1...4...5 seconds for each ally within earshot (maximum of 30 seconds).",
+      "zhTW": "使目標盟友移動速度加快 25% ，而依照戰嚎音量所及範圍內的盟友人數，每一名盟友讓持續時間增加 1～5 秒。(最多增加 30 秒)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/%22Lead_the_Way%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "使目標盟友移動速度加快 25% ，而依照戰嚎音量所及範圍內的盟友人數，每一名盟友讓持續時間增加 1～5 秒。(最多增加 30 秒)",
+  "commonUses": [
+    "領導 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Lead_the_Way%21%22",
+      "revision": 2726476,
+      "title": "\"Lead the Way!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/18432"
+  ],
+  "descriptionEvidence": {
+    "stringId": 18433,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標盟友移動速度加快 25%% ，而依照戰嚎音量所及範圍內的盟友人數，每一名盟友讓持續時間增加 %str3% 秒。(最多增加 %str1% 秒)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "shadowy-burden",
+  "name": {
+    "en": "Shadowy Burden",
+    "zhTW": "暗影負荷",
+    "translationVerified": true
+  },
+  "clientSkillId": 950,
+  "icon": "/skills/shadowy-burden.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 3...13...15 seconds, target foe moves 25% slower and while target foe has no other hexes, that foe has 20...28...30 less armor against your attacks.",
+      "zhTW": "持續 3～15 秒，使目標敵人的移動速度降低 25% 。若該目標沒有受到其他「降咒」，此目標對你的攻擊降低 20～30 防禦力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lunto-sharpfoot",
+          "en": "Lunto Sharpfoot",
+          "zhTW": "Lunto Sharpfoot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lunto Sharpfoot (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
+        "url": "https://wiki.guildwars.com/wiki/Lunto_Sharpfoot",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 3～15 秒，使目標敵人的移動速度降低 25% 。若該目標沒有受到其他「降咒」，此目標對你的攻擊降低 20～30 防禦力。",
+  "commonUses": [
+    "暗影技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
+      "revision": 2733055,
+      "title": "Shadowy Burden",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26474"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26475,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標敵人的移動速度降低 %str1%%% 。若該目標沒有受到其他「降咒」，此目標對你的攻擊降低 %str2% 防禦力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

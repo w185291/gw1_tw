@@ -1,0 +1,137 @@
+{
+  "pvpOnly": false,
+  "id": "angelic-bond",
+  "name": {
+    "en": "Angelic Bond",
+    "zhTW": "天使連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 1587,
+  "icon": "/skills/angelic-bond.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 10 seconds, the next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for 20...164...200 Health. Angelic Bond ends on all other allies.",
+      "zhTW": "持續10秒，若有一個盟友會遭受致死的傷害時，該傷害無效且治療其20～200體力，同時其他盟友身上的天使連結終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shakor-firespear",
+          "en": "Shakor Firespear",
+          "zhTW": "Shakor Firespear",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dasha-vestibule",
+              "en": "Dasha Vestibule",
+              "zhTW": "達沙走廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule"
+          },
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shakor Firespear (Dasha Vestibule and The Hidden City of Ahdashim)",
+        "source": "https://wiki.guildwars.com/wiki/Angelic_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Shakor_Firespear",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續10秒，若有一個盟友會遭受致死的傷害時，該傷害無效且治療其20～200體力，同時其他盟友身上的天使連結終止。",
+  "commonUses": [
+    "領導 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Angelic_Bond",
+      "revision": 2739144,
+      "title": "Angelic Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/34001",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34002,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，若有一個盟友會遭受致死的傷害時，該傷害無效且治療其%str1%體力，同時其他盟友身上的天使連結終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

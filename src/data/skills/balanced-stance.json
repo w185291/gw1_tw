@@ -1,0 +1,424 @@
+{
+  "pvpOnly": false,
+  "id": "balanced-stance",
+  "name": {
+    "en": "Balanced Stance",
+    "zhTW": "平衡態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 371,
+  "icon": "/skills/balanced-stance.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 8...18...20 seconds, you cannot be knocked down and you do not suffer extra damage from a critical attack.",
+      "zhTW": "持續 8～20 秒，你不會被擊倒，而且敵人的致命攻擊也不會對你造成額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-lost-princess",
+          "en": "The Lost Princess",
+          "zhTW": "The Lost Princess",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Lost Princess (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/The_Lost_Princess",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "skill-chaining",
+          "en": "Skill Chaining",
+          "zhTW": "Skill Chaining",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Skill Chaining (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Skill_Chaining",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "snow-ettin-warrior-boss",
+          "en": "Snow Ettin (warrior boss)",
+          "zhTW": "Snow Ettin (warrior boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "griffon-s-mouth",
+              "en": "Griffon's Mouth",
+              "zhTW": "獅鷲獸隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Griffon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Snow Ettin (Griffon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Snow_Ettin_(warrior_boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "smuush-fatfist",
+          "en": "Smuush Fatfist",
+          "zhTW": "Smuush Fatfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Smuush Fatfist (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Smuush_Fatfist",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "droog-stoneclub",
+          "en": "Droog Stoneclub",
+          "zhTW": "Droog Stoneclub",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Droog Stoneclub (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Droog_Stoneclub",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "glutt-wallop",
+          "en": "Glutt Wallop",
+          "zhTW": "Glutt Wallop",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Glutt Wallop (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Glutt_Wallop",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ancient-ooze",
+          "en": "Ancient Ooze",
+          "zhTW": "Ancient Ooze",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Ooze (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Ooze",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "devona",
+          "en": "Devona",
+          "zhTW": "德佛娜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking Devona",
+        "source": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Devona",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～20 秒，你不會被擊倒，而且敵人的致命攻擊也不會對你造成額外傷害。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+      "revision": 2723750,
+      "title": "Balanced Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25961",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25962,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你不會被擊倒，而且敵人的致命攻擊也不會對你造成額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "siphon-speed",
+  "name": {
+    "en": "Siphon Speed",
+    "zhTW": "吸取速度",
+    "translationVerified": true
+  },
+  "clientSkillId": 951,
+  "icon": "/skills/siphon-speed.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...13...15 seconds, target foe moves 33% slower and you move 33% faster. This spell recharges 50% faster if cast on a moving foe.",
+      "zhTW": "持續 5～15 秒，目標移動速度降低 33，你的移動速度提高 33。對移動中的敵人施放，冷卻速度提高 50。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Siphon_Speed",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "achor-the-bladed",
+          "en": "Achor the Bladed",
+          "zhTW": "Achor the Bladed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Achor the Bladed (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Siphon_Speed",
+        "url": "https://wiki.guildwars.com/wiki/Achor_the_Bladed",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 5～15 秒，目標移動速度降低 33，你的移動速度提高 33。對移動中的敵人施放，冷卻速度提高 50。",
+  "commonUses": [
+    "暗殺技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Siphon_Speed",
+      "revision": 2733056,
+      "title": "Siphon Speed",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26478"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26479,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, target foe moves %str1%%% slower and you move %str1%%% faster. This spell recharges %str2%%% faster if cast on a moving foe."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

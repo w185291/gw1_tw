@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "arcane-thievery",
+  "name": {
+    "en": "Arcane Thievery",
+    "zhTW": "魔法竊取",
+    "translationVerified": true
+  },
+  "clientSkillId": 81,
+  "icon": "/skills/arcane-thievery.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. For 5...29...35 seconds, one random spell is disabled for target foe, and Arcane Thievery is replaced by that spell.",
+      "zhTW": "隨機使目標敵人身上的一項「魔法」無法使用，同時此項技能被該「魔法」技能取代 5～35 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-price-of-steel",
+          "en": "The Price of Steel",
+          "zhTW": "The Price of Steel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Price of Steel (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+        "url": "https://wiki.guildwars.com/wiki/The_Price_of_Steel",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "隨機使目標敵人身上的一項「魔法」無法使用，同時此項技能被該「魔法」技能取代 5～35 秒。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+      "revision": 2710840,
+      "title": "Arcane Thievery",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24958",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24959,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "隨機使目標敵人身上的一項「魔法」無法使用，同時此項技能被該「魔法」技能取代 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,162 @@
+{
+  "id": "signet-of-ghostly-might",
+  "name": {
+    "en": "Signet of Ghostly Might",
+    "zhTW": "生靈神力紋章",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1742,
+  "icon": "/skills/signet-of-ghostly-might.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. For 5...17...20 seconds, all spirits you control within earshot attack 33% faster and deal 5...9...10 additional damage.",
+      "zhTW": "持續5～20秒，在音量所及範圍內，所有你控制的靈，造成5～10額外傷害，且攻擊速度增加33%。"
+    },
+    "pvp": {
+      "en": "Elite Signet. Target allied summoned creature's attacks deal 5...29...35 more damage. After 10 seconds, that creature is destroyed.",
+      "zhTW": "目標友方召喚生物的攻擊增加 5～35 傷害；10 秒後該生物被摧毀。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Ghostly Might (PvP)",
+      "description": {
+        "en": "Elite Signet. Target allied summoned creature's attacks deal 5...29...35 more damage. After 10 seconds, that creature is destroyed.",
+        "zhTW": "目標友方召喚生物的攻擊增加 5～35 傷害；10 秒後該生物被摧毀。"
+      },
+      "stats": {
+        "Activation": 1.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_%28PvP%29",
+        "revision": 2733305,
+        "title": "Signet of Ghostly Might (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2966
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jedeh-the-mighty",
+          "en": "Jedeh the Mighty",
+          "zhTW": "Jedeh the Mighty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Jedeh the Mighty (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might",
+        "url": "https://wiki.guildwars.com/wiki/Jedeh_the_Mighty",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續5～20秒，在音量所及範圍內，所有你控制的靈，造成5～10額外傷害，且攻擊速度增加33%。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might",
+      "revision": 2733269,
+      "title": "Signet of Ghostly Might",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_%28PvP%29",
+      "revision": 2733305,
+      "title": "Signet of Ghostly Might (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44107",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44108,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，在音量所及範圍內，所有你控制的靈，造成%str2%額外傷害，且攻擊速度增加%str1%%%。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

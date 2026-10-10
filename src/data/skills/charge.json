@@ -1,0 +1,265 @@
+{
+  "pvpOnly": false,
+  "id": "charge",
+  "name": {
+    "en": "\"Charge!\"",
+    "zhTW": "「突擊！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 364,
+  "icon": "/skills/charge.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. Allies in earshot lose the Crippled condition. For 5...11...13 seconds, these allies move 33% faster.",
+      "zhTW": "音量所及範圍內的盟友失去殘廢病症，同時在 5～13 秒內移動速度增加 33% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "balthazaar-s-cursed",
+          "en": "Balthazaar's Cursed",
+          "zhTW": "Balthazaar's Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Balthazaar's Cursed (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Balthazaar%27s_Cursed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "dahgar-the-eye-of-flame",
+          "en": "Dahgar, the Eye of Flame",
+          "zhTW": "Dahgar, the Eye of Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          },
+          {
+            "name": {
+              "id": "then-and-now-here-and-there",
+              "en": "Then and Now, Here and There",
+              "zhTW": "Then and Now, Here and There",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Then_and_Now,_Here_and_There"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dahgar, the Eye of Flame (Old Ascalon, only during Then and Now, Here and There)",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dahgar,_the_Eye_of_Flame",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "jacqui-the-reaver",
+          "en": "Jacqui The Reaver",
+          "zhTW": "Jacqui The Reaver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jacqui The Reaver (Gyala Hatchery (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Jacqui_The_Reaver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "merki-the-reaver",
+          "en": "Merki The Reaver",
+          "zhTW": "Merki The Reaver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters-explorable-area",
+              "en": "Unwaking Waters (explorable area)",
+              "zhTW": "Unwaking Waters (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Merki The Reaver (Unwaking Waters (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Merki_The_Reaver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sunreach-warmaker",
+          "en": "Sunreach Warmaker",
+          "zhTW": "Sunreach Warmaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sunreach Warmaker (Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Sunreach_Warmaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "shak-jarin-the-justicebringer",
+          "en": "Shak-Jarin the Justicebringer",
+          "zhTW": "Shak-Jarin the Justicebringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shak-Jarin the Justicebringer (Vehjin Mines)",
+        "source": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Shak-Jarin_the_Justicebringer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "音量所及範圍內的盟友失去殘廢病症，同時在 5～13 秒內移動速度增加 33% 。",
+  "commonUses": [
+    "戰術 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Charge%21%22",
+      "revision": 2725606,
+      "title": "\"Charge!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25942",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25943,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "音量所及範圍內的盟友失去殘廢病症，同時在 %str3% 秒內移動速度增加 33%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

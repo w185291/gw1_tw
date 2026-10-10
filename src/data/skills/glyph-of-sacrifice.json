@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "glyph-of-sacrifice",
+  "name": {
+    "en": "Glyph of Sacrifice",
+    "zhTW": "犧牲符號",
+    "translationVerified": true
+  },
+  "clientSkillId": 202,
+  "icon": "/skills/glyph-of-sacrifice.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "glyph",
+    "en": "Glyph",
+    "zhTW": "符號",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Glyph. For 15 seconds, your next spell casts instantly, but it takes an additional 30 seconds to recharge. Ends prematurely if you use a non-spell skill.",
+      "zhTW": "持續 15 秒，你下一個使用的「魔法」可以立即施放，但此魔法的回復時間增加 30 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "steig",
+          "en": "Steig",
+          "zhTW": "Steig",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "camp-rankor",
+              "en": "Camp Rankor",
+              "zhTW": "藍口營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Camp_Rankor"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Steig (Camp Rankor)",
+        "source": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
+        "url": "https://wiki.guildwars.com/wiki/Steig",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 15 秒，你下一個使用的「魔法」可以立即施放，但此魔法的回復時間增加 30 秒。",
+  "commonUses": [
+    "無屬性 · 符號"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
+      "revision": 2695679,
+      "title": "Glyph of Sacrifice",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25226",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25227,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 15 秒，你下一個使用的「魔法」可以立即施放，但此魔法的回復時間增加 30 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

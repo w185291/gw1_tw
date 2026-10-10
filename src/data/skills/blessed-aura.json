@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "blessed-aura",
+  "name": {
+    "en": "Blessed Aura",
+    "zhTW": "祝福靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 256,
+  "icon": "/skills/blessed-aura.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 2.0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. While you maintain this enchantment, Monk enchantments you cast last 10...30...35% longer.",
+      "zhTW": "當你維持此「加持」時，你所施展的「僧侶」加持魔法，其持續時間增加 10～35% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Blessed_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Blessed_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "ghostly-vengeance",
+          "en": "Ghostly Vengeance",
+          "zhTW": "Ghostly Vengeance",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "augury-rock-outpost",
+              "en": "Augury Rock (outpost)",
+              "zhTW": "Augury Rock (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghostly Vengeance (Augury Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Blessed_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Ghostly_Vengeance",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "當你維持此「加持」時，你所施展的「僧侶」加持魔法，其持續時間增加 10～35% 。",
+  "commonUses": [
+    "神恩 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Blessed_Aura",
+      "revision": 2742449,
+      "title": "Blessed Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25720"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25721,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當你維持此「加持」時，你所施展的「僧侶」加持魔法，其持續時間增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

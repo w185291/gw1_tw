@@ -1,0 +1,356 @@
+{
+  "pvpOnly": false,
+  "id": "guilt",
+  "name": {
+    "en": "Guilt",
+    "zhTW": "內疚",
+    "translationVerified": true
+  },
+  "clientSkillId": 46,
+  "icon": "/skills/guilt.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 6 seconds, the next time target foe casts a spell that targets a foe, the spell fails and you steal up to 5...12...14 Energy from that foe.",
+      "zhTW": "持續 6 秒，使目標敵人下一次對其敵人施展的「魔法」失敗，而且你從該目標偷取最多 5～14 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-misplaced-sword",
+          "en": "The Misplaced Sword",
+          "zhTW": "The Misplaced Sword",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heroes-audience",
+              "en": "Heroes' Audience",
+              "zhTW": "英雄之痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Misplaced Sword (Heroes' Audience)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/The_Misplaced_Sword",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "nyle-the-compassionate",
+          "en": "Nyle the Compassionate",
+          "zhTW": "Nyle the Compassionate",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Nyle the Compassionate (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Nyle_the_Compassionate",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lars-the-obeisant",
+          "en": "Lars the Obeisant",
+          "zhTW": "Lars the Obeisant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lars the Obeisant (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Lars_the_Obeisant",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "edred-the-bruiser",
+          "en": "Edred the Bruiser",
+          "zhTW": "Edred the Bruiser",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Edred the Bruiser (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Edred_the_Bruiser",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "bairn-the-sinless",
+          "en": "Bairn the Sinless",
+          "zhTW": "Bairn the Sinless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bairn the Sinless (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Bairn_the_Sinless",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "irwyn-the-severe",
+          "en": "Irwyn the Severe",
+          "zhTW": "Irwyn the Severe",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Irwyn the Severe (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Irwyn_the_Severe",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "maximilian-the-meticulous",
+          "en": "Maximilian the Meticulous",
+          "zhTW": "Maximilian the Meticulous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Maximilian the Meticulous (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Maximilian_the_Meticulous",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "mind-of-destruction",
+          "en": "Mind of Destruction",
+          "zhTW": "Mind of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Mind of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Guilt",
+        "url": "https://wiki.guildwars.com/wiki/Mind_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "持續 6 秒，使目標敵人下一次對其敵人施展的「魔法」失敗，而且你從該目標偷取最多 5～14 能量。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guilt",
+      "revision": 2695727,
+      "title": "Guilt",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24887",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24888,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標敵人下一次對其敵人施展的「魔法」失敗，而且你從該目標偷取最多 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

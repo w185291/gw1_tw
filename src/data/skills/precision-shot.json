@@ -1,0 +1,364 @@
+{
+  "pvpOnly": false,
+  "id": "precision-shot",
+  "name": {
+    "en": "Precision Shot",
+    "zhTW": "精準之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 400,
+  "icon": "/skills/precision-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If Precision Shot hits, you strike for +3...9...10 damage. Precision Shot cannot be blocked. This action is easily interrupted.",
+      "zhTW": "精準之箭命中時，對目標造成 3～10 額外傷害。精準之箭無法被「格擋」，但發動時容易被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-forgotten-ones",
+          "en": "The Forgotten Ones",
+          "zhTW": "The Forgotten Ones",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destiny-s-gorge",
+              "en": "Destiny's Gorge",
+              "zhTW": "命運峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Forgotten Ones (Destiny's Gorge)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/The_Forgotten_Ones",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ulhar-stonehound",
+          "en": "Ulhar Stonehound",
+          "zhTW": "Ulhar Stonehound",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          },
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ulhar Stonehound (Traveler's Vale, Borlis Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "garris-nightwatch",
+          "en": "Garris Nightwatch",
+          "zhTW": "Garris Nightwatch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          },
+          {
+            "name": {
+              "id": "iron-horse-mine",
+              "en": "Iron Horse Mine",
+              "zhTW": "鐵馬礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garris Nightwatch (The Frost Gate, Iron Horse Mine)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Garris_Nightwatch",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "chieftain-windswept",
+          "en": "Chieftain Windswept",
+          "zhTW": "Chieftain Windswept",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          },
+          {
+            "name": {
+              "id": "service-in-defense-of-the-eye",
+              "en": "Service: In Defense of the Eye",
+              "zhTW": "義勇軍：防禦極地之眼",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Service:_In_Defense_of_the_Eye"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chieftain Windswept (Ice Cliff Chasms, during Service: In Defense of the Eye)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Chieftain_Windswept",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Precision_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "精準之箭命中時，對目標造成 3～10 額外傷害。精準之箭無法被「格擋」，但發動時容易被中斷。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Precision_Shot",
+      "revision": 2733122,
+      "title": "Precision Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26158"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26159,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "精準之箭命中時，對目標造成 %str1% 額外傷害。精準之箭無法被「格擋」，但發動時容易被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

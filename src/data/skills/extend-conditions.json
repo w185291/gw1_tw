@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "extend-conditions",
+  "name": {
+    "en": "Extend Conditions",
+    "zhTW": "病症延長",
+    "translationVerified": true
+  },
+  "clientSkillId": 1333,
+  "icon": "/skills/extend-conditions.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Spread all conditions from target foe to foes near your target. The durations of those conditions are increased by 5...81...100% (maximum 30 seconds).",
+      "zhTW": "散佈目標敵人身上所有的病症到其附近的敵人身上，並且病症持續時間增加5～100%(最多30秒)。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "neoli-the-contagious",
+          "en": "Neoli the Contagious",
+          "zhTW": "Neoli the Contagious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Neoli the Contagious (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Extend_Conditions",
+        "url": "https://wiki.guildwars.com/wiki/Neoli_the_Contagious",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "散佈目標敵人身上所有的病症到其附近的敵人身上，並且病症持續時間增加5～100%(最多30秒)。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Extend_Conditions",
+      "revision": 2732798,
+      "title": "Extend Conditions",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33274",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33275,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "散佈目標敵人身上所有的病症到其附近的敵人身上，並且病症持續時間增加%str1%%%(最多30秒)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

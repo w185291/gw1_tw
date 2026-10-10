@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "sneak-attack",
+  "name": {
+    "en": "Sneak Attack",
+    "zhTW": "偷襲"
+  },
+  "clientSkillId": 2116,
+  "icon": "/skills/sneak-attack.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, target foe is Blinded for 5...8 seconds. This attack counts as a lead attack.",
+      "zhTW": "此攻擊命中時，目標敵人遭受「盲目」5～8 秒。此攻擊為「引導攻擊」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "plan-a",
+          "en": "Plan A",
+          "zhTW": "Plan A",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Plan A (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Sneak_Attack",
+        "url": "https://wiki.guildwars.com/wiki/Plan_A",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "此攻擊命中時，目標敵人遭受「盲目」5～8 秒。此攻擊為「引導攻擊」。",
+  "commonUses": [
+    "Ebon Vanguard rank · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sneak_Attack",
+      "revision": 2667609,
+      "title": "Sneak Attack",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72768"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72769,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，目標敵人遭受「盲目」%str3% 秒。此攻擊為「引導攻擊」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

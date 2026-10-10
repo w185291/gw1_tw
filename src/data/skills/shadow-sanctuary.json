@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-sanctuary",
+  "name": {
+    "en": "Shadow Sanctuary",
+    "zhTW": "暗影慰藉"
+  },
+  "clientSkillId": 2091,
+  "icon": "/skills/shadow-sanctuary.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "allegiance-rank",
+    "en": "Allegiance rank",
+    "zhTW": "陣營稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. You are Blinded for 5 seconds. For 10 seconds, you gain +7...10 Health regeneration and +40 armor.",
+      "zhTW": "持續10秒，你的體力再生增加7～10，防禦增加40，遭受盲目5秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "kurzick-bureaucrat",
+          "en": "Kurzick Bureaucrat",
+          "zhTW": "Kurzick Bureaucrat",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "house-zu-heltzer",
+              "en": "House zu Heltzer",
+              "zhTW": "鳳荷議院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/House_zu_Heltzer"
+          },
+          {
+            "name": {
+              "id": "kurzick",
+              "en": "Kurzick",
+              "zhTW": "庫茲柯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kurzick"
+          },
+          {
+            "name": {
+              "id": "guild-hall",
+              "en": "Guild hall",
+              "zhTW": "公會大廳",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Guild_hall"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kurzick Bureaucrat (House zu Heltzer and Kurzick-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+        "url": "https://wiki.guildwars.com/wiki/Kurzick_Bureaucrat",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "luxon-scavenger",
+          "en": "Luxon Scavenger",
+          "zhTW": "Luxon Scavenger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cavalon",
+              "en": "Cavalon",
+              "zhTW": "卡瓦隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cavalon"
+          },
+          {
+            "name": {
+              "id": "luxon",
+              "en": "Luxon",
+              "zhTW": "勒克森",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Luxon"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Luxon Scavenger (Cavalon and Luxon-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+        "url": "https://wiki.guildwars.com/wiki/Luxon_Scavenger",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續10秒，你的體力再生增加7～10，防禦增加40，遭受盲目5秒。",
+  "commonUses": [
+    "Allegiance rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+      "revision": 2732691,
+      "title": "Shadow Sanctuary",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/64722"
+  ],
+  "descriptionEvidence": {
+    "stringId": 64723,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你的體力再生增加%str1%，防禦增加40，遭受盲目%str2%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

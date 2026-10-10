@@ -1,0 +1,221 @@
+{
+  "pvpOnly": false,
+  "id": "renewing-smash",
+  "name": {
+    "en": "Renewing Smash",
+    "zhTW": "復原猛擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 994,
+  "icon": "/skills/renewing-smash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If Renewing Smash hits, it deals +10...34...40 damage. If you hit a knocked-down foe, you gain 3 Energy and this attack recharges instantly.",
+      "zhTW": "命中時造成 10～40 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。"
+    },
+    "pvp": {
+      "en": "Hammer Attack. If Renewing Smash hits, it deals +5...17...20 damage. If it hits a knocked-down foe, you gain 3 Energy and this attack recharges instantly.",
+      "zhTW": "命中時造成 5～20 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Renewing Smash (PvP)",
+      "description": {
+        "en": "Hammer Attack. If Renewing Smash hits, it deals +5...17...20 damage. If it hits a knocked-down foe, you gain 3 Energy and this attack recharges instantly.",
+        "zhTW": "命中時造成 5～20 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Renewing_Smash_%28PvP%29",
+        "revision": 2733311,
+        "title": "Renewing Smash (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3143
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ingenious-ettin",
+          "en": "Ingenious Ettin",
+          "zhTW": "Ingenious Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          },
+          {
+            "name": {
+              "id": "an-ingenious-plan",
+              "en": "An Ingenious Plan",
+              "zhTW": "An Ingenious Plan",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/An_Ingenious_Plan"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ingenious Ettin (Perdition Rock, during An Ingenious Plan)",
+        "source": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Ingenious_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "hand-of-destruction",
+          "en": "Hand of Destruction",
+          "zhTW": "Hand of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hand of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Hand_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 10～40 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+      "revision": 2733181,
+      "title": "Renewing Smash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Renewing_Smash_%28PvP%29",
+      "revision": 2733311,
+      "title": "Renewing Smash (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26962",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26963,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，若是目標被擊倒，則你獲得 %str2% 能量且復原猛擊立即回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

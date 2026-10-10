@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "leader-s-zeal",
+  "name": {
+    "en": "Leader's Zeal",
+    "zhTW": "領導者的熱誠",
+    "translationVerified": true
+  },
+  "clientSkillId": 1583,
+  "icon": "/skills/leader-s-zeal.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For each nearby ally, you gain 2...4...4 Energy (maximum 8...11...12 Energy).",
+      "zhTW": "依照附近的盟友數量，每一位讓你獲得 2～4 能量。(一次最多獲得 8～12 能量)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Leader%27s_Zeal",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chaelse-flameshielder",
+          "en": "Chaelse Flameshielder",
+          "zhTW": "Chaelse Flameshielder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chaelse Flameshielder (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Leader%27s_Zeal",
+        "url": "https://wiki.guildwars.com/wiki/Chaelse_Flameshielder",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "依照附近的盟友數量，每一位讓你獲得 2～4 能量。(一次最多獲得 8～12 能量)",
+  "commonUses": [
+    "激勵 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Leader%27s_Zeal",
+      "revision": 2721041,
+      "title": "Leader's Zeal",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/37014",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 37015,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "依照附近的盟友數量，每一位讓你獲得 %str1% 能量。(一次最多獲得 %str2% 能量)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

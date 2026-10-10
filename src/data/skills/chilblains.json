@@ -1,0 +1,475 @@
+{
+  "pvpOnly": false,
+  "id": "chilblains",
+  "name": {
+    "en": "Chilblains",
+    "zhTW": "凍傷",
+    "translationVerified": true
+  },
+  "clientSkillId": 144,
+  "icon": "/skills/chilblains.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. You become Poisoned for 10 seconds. Foes in the area of your target are struck for 10...37...44 cold damage and lose 1...2...2 enchantment[s].",
+      "zhTW": "對目標及其範圍內的敵人造成10～44冰凍傷害，並移除他們1～2個加持，但你遭受中毒10秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "into-the-unknown",
+          "en": "Into the Unknown",
+          "zhTW": "Into the Unknown",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "augury-rock-outpost",
+              "en": "Augury Rock (outpost)",
+              "zhTW": "Augury Rock (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Into the Unknown (Augury Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Into_the_Unknown",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "eater-of-souls",
+          "en": "Eater of Souls",
+          "zhTW": "Eater of Souls",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "the-monk-s-path",
+              "en": "The Monk's Path",
+              "zhTW": "The Monk's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Monk%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eater of Souls (Prophet's Path, during The Monk's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Eater_of_Souls",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "jonk-shuffle",
+          "en": "Jonk Shuffle",
+          "zhTW": "Jonk Shuffle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jonk Shuffle (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Jonk_Shuffle",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "plunk-trudge",
+          "en": "Plunk Trudge",
+          "zhTW": "Plunk Trudge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Plunk Trudge (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Plunk_Trudge",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "krunk-waddle",
+          "en": "Krunk Waddle",
+          "zhTW": "Krunk Waddle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Krunk Waddle (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Krunk_Waddle",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mandragor-queen",
+          "en": "Mandragor Queen",
+          "zhTW": "Mandragor Queen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "queen-of-the-quarry",
+              "en": "Queen of the Quarry",
+              "zhTW": "Queen of the Quarry",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Queen_of_the_Quarry"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mandragor Queen (Cliffs of Dohjok, during Queen of the Quarry)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Mandragor_Queen",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "najab-lifedrinker",
+          "en": "Najab Lifedrinker",
+          "zhTW": "Najab Lifedrinker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lahtenda-bog",
+              "en": "Lahtenda Bog",
+              "zhTW": "洛天帝沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Najab Lifedrinker (Lahtenda Bog)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Najab_Lifedrinker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "shelboh-the-ravenous",
+          "en": "Shelboh the Ravenous",
+          "zhTW": "Shelboh the Ravenous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shelboh the Ravenous (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Shelboh_the_Ravenous",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "wioli-the-infectious",
+          "en": "Wioli the Infectious",
+          "zhTW": "Wioli the Infectious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Wioli the Infectious (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Chilblains",
+        "url": "https://wiki.guildwars.com/wiki/Wioli_the_Infectious",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "對目標及其範圍內的敵人造成10～44冰凍傷害，並移除他們1～2個加持，但你遭受中毒10秒。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Chilblains",
+      "revision": 2695847,
+      "title": "Chilblains",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25107",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25108,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標及其範圍內的敵人造成%str1%冰凍傷害，並移除他們%str2%個加持，但你遭受中毒10秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

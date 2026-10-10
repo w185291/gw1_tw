@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "lift-enchantment",
+  "name": {
+    "en": "Lift Enchantment",
+    "zhTW": "加持拔除",
+    "translationVerified": true
+  },
+  "clientSkillId": 1645,
+  "icon": "/skills/lift-enchantment.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Touch Skill. If target touched foe is knocked down, that foe loses one enchantment.",
+      "zhTW": "碰觸目標敵人，若是該敵人被擊倒，則使其失去一項加持。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "碰觸目標敵人，若是該敵人被擊倒，則使其失去一項加持。",
+  "commonUses": [
+    "無屬性 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
+      "revision": 2697389,
+      "title": "Lift Enchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/44001"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44002,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人，若是該敵人被擊倒，則使其失去一項加持。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

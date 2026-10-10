@@ -1,0 +1,163 @@
+{
+  "pvpOnly": false,
+  "id": "glimmer-of-light",
+  "name": {
+    "en": "Glimmer of Light",
+    "zhTW": "爍光",
+    "translationVerified": true
+  },
+  "clientSkillId": 1686,
+  "icon": "/skills/glimmer-of-light.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 1.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Heal target ally for 10...94...115 Health.",
+      "zhTW": "治癒目標盟友 10～115 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ambrillus-the-guardian",
+          "en": "Ambrillus the Guardian",
+          "zhTW": "Ambrillus the Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ambrillus the Guardian (The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Glimmer_of_Light",
+        "url": "https://wiki.guildwars.com/wiki/Ambrillus_the_Guardian",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "chiossen-soothing-breeze",
+          "en": "Chiossen, Soothing Breeze",
+          "zhTW": "Chiossen, Soothing Breeze",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chiossen, Soothing Breeze (Turai's Procession)",
+        "source": "https://wiki.guildwars.com/wiki/Glimmer_of_Light",
+        "url": "https://wiki.guildwars.com/wiki/Chiossen,_Soothing_Breeze",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "治癒目標盟友 10～115 體力。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glimmer_of_Light",
+      "revision": 2657831,
+      "title": "Glimmer of Light",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/44023"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44024,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標盟友 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

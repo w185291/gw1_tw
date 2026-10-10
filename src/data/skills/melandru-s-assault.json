@@ -1,0 +1,206 @@
+{
+  "pvpOnly": false,
+  "id": "melandru-s-assault",
+  "name": {
+    "en": "Melandru's Assault",
+    "zhTW": "梅蘭朵的突擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 441,
+  "icon": "/skills/melandru-s-assault.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "pet-attack",
+    "en": "Pet attack",
+    "zhTW": "寵物攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Pet Attack. Your animal companion attempts a Melandru's Assault that deals +5...17...20 damage to all nearby foes.",
+      "zhTW": "對所有附近敵人造成5～20傷害。"
+    },
+    "pvp": {
+      "en": "Pet Attack. Your animal companion attempts a Melandru's Assault that deals +5...17...20 damage. If that attack strikes a foe with an enchantment, that foe and all adjacent foes take +5...29...35 additional damage.",
+      "zhTW": "造成額外5～20傷害，若目標敵人有加持，則對所有附近敵人造成5～35傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Melandru's Assault (PvP)",
+      "description": {
+        "en": "Pet Attack. Your animal companion attempts a Melandru's Assault that deals +5...17...20 damage. If that attack strikes a foe with an enchantment, that foe and all adjacent foes take +5...29...35 additional damage.",
+        "zhTW": "造成額外5～20傷害，若目標敵人有加持，則對所有附近敵人造成5～35傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault_%28PvP%29",
+        "revision": 2733308,
+        "title": "Melandru's Assault (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3047
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "marna",
+          "en": "Marna",
+          "zhTW": "Marna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-tooth-cave",
+              "en": "Ice Tooth Cave",
+              "zhTW": "冰牙洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Tooth_Cave"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Marna (Ice Tooth Cave)",
+        "source": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault",
+        "url": "https://wiki.guildwars.com/wiki/Marna",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "對所有附近敵人造成5～20傷害。",
+  "commonUses": [
+    "野獸支配 · 寵物攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault",
+      "revision": 2733135,
+      "title": "Melandru's Assault",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault_%28PvP%29",
+      "revision": 2733308,
+      "title": "Melandru's Assault (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26240",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26241,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對所有附近敵人造成%str1%傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

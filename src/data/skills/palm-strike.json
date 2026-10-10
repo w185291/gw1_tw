@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "palm-strike",
+  "name": {
+    "en": "Palm Strike",
+    "zhTW": "劫殺掌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1045,
+  "icon": "/skills/palm-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. Target touched foe takes 10...54...65 damage and is Crippled for 1...4...5 second[s]. This skill counts as an off-hand attack.",
+      "zhTW": "碰觸目標敵人，造成10～65傷害，且殘廢1～5秒。此技能可視為即刻攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kenshi-steelhand",
+          "en": "Kenshi Steelhand",
+          "zhTW": "Kenshi Steelhand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bukdek-byway",
+              "en": "Bukdek Byway",
+              "zhTW": "巴德克小徑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kenshi Steelhand (Bukdek Byway)",
+        "source": "https://wiki.guildwars.com/wiki/Palm_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Kenshi_Steelhand",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "碰觸目標敵人，造成10～65傷害，且殘廢1～5秒。此技能可視為即刻攻擊。",
+  "commonUses": [
+    "致命攻擊 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Palm_Strike",
+      "revision": 2629776,
+      "title": "Palm Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26518"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26519,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人，造成%str1%傷害，且殘廢%str2%秒。此技能可視為即刻攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

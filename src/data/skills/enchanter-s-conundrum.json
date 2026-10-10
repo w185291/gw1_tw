@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "enchanter-s-conundrum",
+  "name": {
+    "en": "Enchanter's Conundrum",
+    "zhTW": "附魔者之謎",
+    "translationVerified": true
+  },
+  "clientSkillId": 1345,
+  "icon": "/skills/enchanter-s-conundrum.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 10 seconds, target foe casts enchantments 100...180...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...82...100 damage and all adjacent foes take 75% of that damage.",
+      "zhTW": "持續 10 秒，目標施放加持速度降低 100～200。套用降咒時若目標無加持，對其造成 10～100 傷害，相鄰敵人受到該數值 75% 的傷害。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 10 seconds, target foe casts enchantments 100...180...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...82...100 damage and all adjacent foes take 75% of that damage.",
+      "zhTW": "持續 10 秒，目標施放加持速度降低 100～200。套用降咒時若目標無加持，對其造成 10～100 傷害，相鄰敵人受到該數值 75% 的傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Enchanter's Conundrum (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 10 seconds, target foe casts enchantments 100...180...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...82...100 damage and all adjacent foes take 75% of that damage.",
+        "zhTW": "持續 10 秒，目標施放加持速度降低 100～200。套用降咒時若目標無加持，對其造成 10～100 傷害，相鄰敵人受到該數值 75% 的傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_%28PvP%29",
+        "revision": 2732854,
+        "title": "Enchanter's Conundrum (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3192
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "captain-chichor",
+          "en": "Captain Chichor",
+          "zhTW": "Captain Chichor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Chichor (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Chichor",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lieutenant-nali",
+          "en": "Lieutenant Nali",
+          "zhTW": "Lieutenant Nali",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pogahn-passage",
+              "en": "Pogahn Passage",
+              "zhTW": "波甘驛站",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pogahn_Passage"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Nali (Pogahn Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Nali",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，目標施放加持速度降低 100～200。套用降咒時若目標無加持，對其造成 10～100 傷害，相鄰敵人受到該數值 75% 的傷害。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum",
+      "revision": 2732799,
+      "title": "Enchanter's Conundrum",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_%28PvP%29",
+      "revision": 2732854,
+      "title": "Enchanter's Conundrum (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33972",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33973,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, target foe casts enchantments %str2%%% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes %str1% damage and all adjacent foes take 75%% of that damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

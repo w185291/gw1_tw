@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "help",
+  "name": {
+    "en": "\"Help!\"",
+    "zhTW": "\"救命！\""
+  },
+  "clientSkillId": 1594,
+  "icon": "/skills/help.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Target non-spirit ally gains 15...75...90 Health. For 1...8...10 seconds, other allies' spells targeting that ally cast 50% faster.",
+      "zhTW": "目标非灵体盟友恢复15～90生命。持续1～10秒，其他盟友对该盟友施放的法术加速50%。"
+    },
+    "pvp": {
+      "en": "Shout. Target non-spirit ally gains 5...41...50 Health. For 1...8...10 seconds, other allies' spells targeting that ally cast 50% faster.",
+      "zhTW": "目标非灵体盟友恢复5～50生命。持续1～10秒，其他盟友对该盟友施放的法术加速50%。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"Help!\" (PvP)",
+      "description": {
+        "en": "Shout. Target non-spirit ally gains 5...41...50 Health. For 1...8...10 seconds, other allies' spells targeting that ally cast 50% faster.",
+        "zhTW": "目标非灵体盟友恢复5～50生命。持续1～10秒，其他盟友对该盟友施放的法术加速50%。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22Help%21%22_%28PvP%29",
+        "revision": 2726866,
+        "title": "\"Help!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3036
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/%22Help%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/%22Help%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "目标非灵体盟友恢复15～90生命。持续1～10秒，其他盟友对该盟友施放的法术加速50%。",
+  "commonUses": [
+    "命令 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Help%21%22",
+      "revision": 2735749,
+      "title": "\"Help!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Help%21%22_%28PvP%29",
+      "revision": 2726866,
+      "title": "\"Help!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/39894"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39895,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目标非灵体盟友恢复%str2%生命。持续%str3%秒，其他盟友对该盟友施放的法术加速%str1%%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

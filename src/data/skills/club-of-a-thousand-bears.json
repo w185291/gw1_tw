@@ -1,0 +1,145 @@
+{
+  "pvpOnly": false,
+  "id": "club-of-a-thousand-bears",
+  "name": {
+    "en": "Club of a Thousand Bears",
+    "zhTW": "千熊之鎚"
+  },
+  "clientSkillId": 2361,
+  "icon": "/skills/club-of-a-thousand-bears.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, it deals +6...9 damage for each adjacent foe (maximum 60 damage). If target foe is non-human it is knocked down.",
+      "zhTW": "此攻擊命中時，對每個鄰近敵人造成 +6～9 傷害 (最多 60 傷害值)。若目標敵人為非人類，則被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "bear-club-for-men",
+          "en": "Bear Club for Men",
+          "zhTW": "Bear Club for Men",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bear Club for Men (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears",
+        "url": "https://wiki.guildwars.com/wiki/Bear_Club_for_Men",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "bear-club-for-women",
+          "en": "Bear Club for Women",
+          "zhTW": "Bear Club for Women",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "olafstead",
+              "en": "Olafstead",
+              "zhTW": "歐拉夫之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olafstead"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bear Club for Women (Olafstead)",
+        "source": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears",
+        "url": "https://wiki.guildwars.com/wiki/Bear_Club_for_Women",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "此攻擊命中時，對每個鄰近敵人造成 +6～9 傷害 (最多 60 傷害值)。若目標敵人為非人類，則被擊倒。",
+  "commonUses": [
+    "Norn rank · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears",
+      "revision": 2732703,
+      "title": "Club of a Thousand Bears",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69979"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69980,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，對每個鄰近敵人造成 +%str1% 傷害 (最多 60 傷害值)。若目標敵人為非人類，則被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

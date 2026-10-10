@@ -1,0 +1,172 @@
+{
+  "id": "northern-allies",
+  "order": 3,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Northern Allies",
+    "zhTW": "北方同盟"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Northern Allies"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 總覽"
+  ],
+  "summary": "Norn 整條主線的進度追蹤任務；完成熊、鴉兩路後，必須找 Jalis Ironhammer 回報領獎。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": false,
+    "hard": false
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "對抗破壞者 的 First Vision 會引導 Norn 分支；到 Hall of Monuments 和 Ogden Stonehealer 對話，再到 Eye of the North 外的 Ice Cliff Chasms 找 Jora，接受追蹤 Nornbear 的任務。",
+    "location": "Hall of Monuments → Ice Cliff Chasms，Jora",
+    "requirements": [
+      "已進入極地之眼，完成 對抗破壞者 的 First Vision 引導。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 總覽",
+  "routeChoice": "熊與鴉兩條都要完成，先後不限。",
+  "objectives": [
+    {
+      "text": "完成 Curse of the Nornbear、Blood Washes Blood 與 A Gate Too Far，取得 Norn 的援助，再向 Jalis Ironhammer 領獎。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "先找 Ogden 與 Jora",
+      "content": "依日誌在 Hall of Monuments 找 Ogden Stonehealer，再出 Eye of the North 到 Ice Cliff Chasms 找 Jora。向她接 跟蹤可怕的熊，這份總覽會持續追蹤整條 Norn 主線。"
+    },
+    {
+      "title": "追蹤與解除詛咒",
+      "content": "沿 跟蹤可怕的熊 路線經 Gunnar’s Hold 到 Sifhalla，完成防守並領獎，再進行 Curse of the Nornbear。完成後招募 Jora，開啟熊與鴉兩條後續。"
+    },
+    {
+      "title": "熊分支恢復榮譽",
+      "content": "到 Jaga Moraine 中央找 Egil Fireteller，完成 Flames of the Bear Spirit 並領獎，再完成 Blood Washes Blood。先做熊或先做鴉皆可，但不能只做一條。"
+    },
+    {
+      "title": "鴉分支取得盟友",
+      "content": "到 Olafstead 找 Olaf Olafson，完成 Vision of the Raven Spirit 並領獎，再由他進入 A Gate Too Far。Sif 提供 Olaf／Egil 位置的詢問是可選步驟，不能把兩份故事副本當作擇一。"
+    },
+    {
+      "title": "向 Jalis 領總覽獎勵",
+      "content": "熊與鴉兩條都完成後，依日誌前往矮人區域找 Jalis Ironhammer；接近他會播放 Audience with the King，再向他領 北方同盟 獎勵。換區後會出現 Call of the Eye；回 Hall of Monuments 推進 對抗破壞者。三方總覽都完成後才有 Final Vision。"
+    }
+  ],
+  "routeSummary": "對抗破壞者 的 First Vision 會引導 Norn 分支；到 Hall of Monuments 和 Ogden Stonehealer 對話，再到 Eye of the North 外的 Ice Cliff Chasms 找 Jora，接受追蹤 Nornbear 的任務。",
+  "mapImage": null,
+  "mapNotes": [
+    "Wiki 本頁沒有獨立行走圖；行走路線請參閱各子任務原圖。"
+  ],
+  "maps": [],
+  "bosses": [],
+  "bossAbsenceVerified": true,
+  "bossAbsenceReason": "本任務是 Norn 分支總覽，沒有獨立 Boss 戰；戰鬥請依三份故事副本攻略。",
+  "recommendedTeam": [
+    "旅途中可攜英雄與傭兵；各分支與最後決戰另有戰術需求。"
+  ],
+  "tips": [],
+  "warnings": [
+    "兩條分支皆須完成，不能把它們當成替代路線。",
+    "個別副本通關與 北方同盟 領獎是不同步驟；兩路完成後仍要找 Jalis 回報。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "進度追蹤任務沒有獨立 NM 入口；子任務按各自方式開始。"
+    ],
+    "hard": [
+      "總覽沒有獨立 HM 入口，只有可重玩的故事副本另外選 HM。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "總覽任務獎勵",
+        "experience": 10000,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "1,000 Norn 聲望、Monumental Tapestry；由 Jalis Ironhammer 發給。"
+        ]
+      }
+    ],
+    "hard": [],
+    "bonus": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Northern_Allies",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Northern Allies",
+      "url": "https://wiki.guildwars.com/wiki/Northern_Allies",
+      "revision": 2670760,
+      "checkedAt": "2026-10-10",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "against-the-destroyers",
+  "nextMission": "tracking-the-nornbear",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "向 Jalis Ironhammer 領取 10,000 經驗、1,000 Norn 聲望與 Monumental Tapestry。",
+    "換區後出現 Call of the Eye；回 Hall of Monuments 更新 對抗破壞者。Asura、Ebon Vanguard 若尚未完成，仍須補完。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false
+}

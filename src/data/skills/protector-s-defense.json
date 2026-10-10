@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "protector-s-defense",
+  "name": {
+    "en": "Protector's Defense",
+    "zhTW": "保護者態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 810,
+  "icon": "/skills/protector-s-defense.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For 5...10...11 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
+      "zhTW": "持續 5～11 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。"
+    },
+    "pvp": {
+      "en": "Skill. For 4...7...8 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
+      "zhTW": "持續 4～8 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Protector's Defense (PvP)",
+      "description": {
+        "en": "Skill. For 4...7...8 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
+        "zhTW": "持續 4～8 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense_%28PvP%29",
+        "revision": 2738537,
+        "title": "Protector's Defense (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3457
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Protector%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "byndliss-flamecrown",
+          "en": "Byndliss Flamecrown",
+          "zhTW": "Byndliss Flamecrown",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Byndliss Flamecrown (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Protector%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Byndliss_Flamecrown",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 5～11 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。",
+  "commonUses": [
+    "戰術 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense",
+      "revision": 2738466,
+      "title": "Protector's Defense",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense_%28PvP%29",
+      "revision": 2738537,
+      "title": "Protector's Defense (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26985",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26986,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使鄰近的盟友有 75%% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

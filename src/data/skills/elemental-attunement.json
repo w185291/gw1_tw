@@ -1,0 +1,290 @@
+{
+  "pvpOnly": false,
+  "id": "elemental-attunement",
+  "name": {
+    "en": "Elemental Attunement",
+    "zhTW": "元素調和",
+    "translationVerified": true
+  },
+  "clientSkillId": 164,
+  "icon": "/skills/elemental-attunement.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 25...53...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2...2 to these attributes. You gain 1 Energy plus 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
+      "zhTW": "持續 25～60 秒，氣、火、水、地屬性提高 1～2 點。每次使用這四種元素的魔法，獲得 1 點能量及該技能基礎能量消耗的 50。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "geckokaru-earthwind",
+          "en": "Geckokaru Earthwind",
+          "zhTW": "Geckokaru Earthwind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Geckokaru Earthwind (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Geckokaru_Earthwind",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "vess-the-disputant",
+          "en": "Vess the Disputant",
+          "zhTW": "Vess the Disputant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vess the Disputant (Divinity Coast (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Vess_the_Disputant",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chung-the-attuned",
+          "en": "Chung, the Attuned",
+          "zhTW": "Chung, the Attuned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          },
+          {
+            "name": {
+              "id": "bukdek-byway",
+              "en": "Bukdek Byway",
+              "zhTW": "巴德克小徑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway"
+          },
+          {
+            "name": {
+              "id": "eliminate-the-am-fah",
+              "en": "Eliminate the Am Fah",
+              "zhTW": "Eliminate the Am Fah",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eliminate_the_Am_Fah"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chung, the Attuned (The Undercity; Bukdek Byway, only during Eliminate the Am Fah)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Chung,_the_Attuned",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bosun-mohrti",
+          "en": "Bosun Mohrti",
+          "zhTW": "Bosun Mohrti",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bosun Mohrti (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Bosun_Mohrti",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "corsair-commander-elementalist",
+          "en": "Corsair Commander (elementalist)",
+          "zhTW": "Corsair Commander (elementalist)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dajkah-inlet",
+              "en": "Dajkah Inlet",
+              "zhTW": "達卡港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corsair Commander (Dajkah Inlet)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Corsair_Commander_(elementalist)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (golem) (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 25～60 秒，氣、火、水、地屬性提高 1～2 點。每次使用這四種元素的魔法，獲得 1 點能量及該技能基礎能量消耗的 50。",
+  "commonUses": [
+    "能量儲存 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+      "revision": 2740296,
+      "title": "Elemental Attunement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25150",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25151,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, you are attuned to Air, Fire, Water, and Earth and gain +%str2% to these attributes. You gain 1 Energy plus %str1%%% of the base Energy cost of the skill each time you use magic associated with any of these elements."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

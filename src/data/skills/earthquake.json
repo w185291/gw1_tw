@@ -1,0 +1,499 @@
+{
+  "pvpOnly": false,
+  "id": "earthquake",
+  "name": {
+    "en": "Earthquake",
+    "zhTW": "地震",
+    "translationVerified": true
+  },
+  "clientSkillId": 170,
+  "icon": "/skills/earthquake.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 10.0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. You invoke an Earthquake at target foe's location. All foes near this location are knocked down and are struck for 26...85...100 earth damage.",
+      "zhTW": "在目標敵人處引發地震。使接近地震發生地點的所有敵人受到 26～100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-lost-princess",
+          "en": "The Lost Princess",
+          "zhTW": "The Lost Princess",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Lost Princess (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/The_Lost_Princess",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "nazeem-the-damned",
+          "en": "Nazeem the Damned",
+          "zhTW": "Nazeem the Damned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Nazeem the Damned (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Nazeem_the_Damned",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "gezna-shadowstalker",
+          "en": "Gezna Shadowstalker",
+          "zhTW": "Gezna Shadowstalker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gezna Shadowstalker (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Gezna_Shadowstalker",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "najja-doombringer",
+          "en": "Najja Doombringer",
+          "zhTW": "Najja Doombringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          },
+          {
+            "name": {
+              "id": "majesty-s-rest",
+              "en": "Majesty's Rest",
+              "zhTW": "王者安息處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Majesty%27s_Rest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Najja Doombringer (Divinity Coast, Majesty's Rest)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Najja_Doombringer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "aziz-rottenscalp",
+          "en": "Aziz Rottenscalp",
+          "zhTW": "Aziz Rottenscalp",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Aziz Rottenscalp (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Aziz_Rottenscalp",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "splinterquake",
+          "en": "Splinterquake",
+          "zhTW": "Splinterquake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Splinterquake (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Splinterquake",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "thornwrath",
+          "en": "Thornwrath",
+          "zhTW": "Thornwrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thornwrath (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Thornwrath",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bristlefire",
+          "en": "Bristlefire",
+          "zhTW": "Bristlefire",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bristlefire (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Bristlefire",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ghilaparu-stormstone",
+          "en": "Ghilaparu Stormstone",
+          "zhTW": "Ghilaparu Stormstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghilaparu Stormstone (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Ghilaparu_Stormstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "cyss-gresshla",
+          "en": "Cyss Gresshla",
+          "zhTW": "Cyss Gresshla",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cyss Gresshla (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Cyss_Gresshla",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "issah-sshay",
+          "en": "Issah Sshay",
+          "zhTW": "Issah Sshay",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Issah Sshay (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Issah_Sshay",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "vassa-ssiss",
+          "en": "Vassa Ssiss",
+          "zhTW": "Vassa Ssiss",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vassa Ssiss (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Vassa_Ssiss",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ssissth-the-leviathan",
+          "en": "Ssissth the Leviathan",
+          "zhTW": "Ssissth the Leviathan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ssissth the Leviathan (Jaga Moraine, before completion of Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Earthquake",
+        "url": "https://wiki.guildwars.com/wiki/Ssissth_the_Leviathan",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人處引發地震。使接近地震發生地點的所有敵人受到 26～100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Earthquake",
+      "revision": 2686534,
+      "title": "Earthquake",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25162",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25163,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人處引發地震。使接近地震發生地點的所有敵人受到 %str1% 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

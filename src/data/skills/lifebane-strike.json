@@ -1,0 +1,207 @@
+{
+  "pvpOnly": false,
+  "id": "lifebane-strike",
+  "name": {
+    "en": "Lifebane Strike",
+    "zhTW": "滅絕衝擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1067,
+  "icon": "/skills/lifebane-strike.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe takes 12...41...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...41...48 Health.",
+      "zhTW": "使目標敵人受到 12～48 暗影傷害。若該目標體力高於 50% ，你偷取其最多 12～48 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "facet-of-death",
+          "en": "Facet of Death",
+          "zhTW": "Facet of Death",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-grenth",
+              "en": "The Cipher of Grenth",
+              "zhTW": "The Cipher of Grenth",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Grenth"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Death (Sparkfly Swamp during The Cipher of Grenth, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Death",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "使目標敵人受到 12～48 暗影傷害。若該目標體力高於 50% ，你偷取其最多 12～48 體力。",
+  "commonUses": [
+    "血魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+      "revision": 2683690,
+      "title": "Lifebane Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26614",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26615,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 暗影傷害。若該目標體力高於 50%% ，你偷取其最多 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

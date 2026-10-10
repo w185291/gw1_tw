@@ -1,0 +1,264 @@
+{
+  "pvpOnly": false,
+  "id": "heal-other",
+  "name": {
+    "en": "Heal Other",
+    "zhTW": "治癒他人",
+    "translationVerified": true
+  },
+  "clientSkillId": 286,
+  "icon": "/skills/heal-other.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Heal target other ally for 35...151...180 Health.",
+      "zhTW": "治癒目標其他盟友 35～180 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-ascalon-settlement",
+          "en": "The Ascalon Settlement",
+          "zhTW": "The Ascalon Settlement",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Ascalon Settlement (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/The_Ascalon_Settlement",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "hussar-ironfeast",
+          "en": "Hussar Ironfeast",
+          "zhTW": "Hussar Ironfeast",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hussar Ironfeast (Traveler's Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/Hussar_Ironfeast",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "shalis-ironmantle",
+          "en": "Shalis Ironmantle",
+          "zhTW": "Shalis Ironmantle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-horse-mine",
+              "en": "Iron Horse Mine",
+              "zhTW": "鐵馬礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine"
+          },
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Shalis Ironmantle (Iron Horse Mine, The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_Other",
+        "url": "https://wiki.guildwars.com/wiki/Shalis_Ironmantle",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "治癒目標其他盟友 35～180 體力。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heal_Other",
+      "revision": 2684781,
+      "title": "Heal Other",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25782",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25783,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標其他盟友 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

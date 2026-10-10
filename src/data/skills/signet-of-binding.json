@@ -1,0 +1,163 @@
+{
+  "id": "signet-of-binding",
+  "name": {
+    "en": "Signet of Binding",
+    "zhTW": "束縛紋章",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1743,
+  "icon": "/skills/signet-of-binding.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Signet. You lose 200...80...50 Health and take control of target enemy-controlled spirit. (50% failure chance with Spawning Power 4 or less.)",
+      "zhTW": "你失去 200～50 體力，控制目標靈，當召喚屬性為 4 或以下時有 50% 失敗機率。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Binding",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "justiciar-marron",
+          "en": "Justiciar Marron",
+          "zhTW": "Justiciar Marron",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Marron (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Binding",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Marron",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "你失去 200～50 體力，控制目標靈，當召喚屬性為 4 或以下時有 50% 失敗機率。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Binding",
+      "revision": 2686599,
+      "title": "Signet of Binding",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/44105"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44106,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你失去 %str1% 體力，控制目標靈，當召喚屬性為 4 或以下時有 50%% 失敗機率。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

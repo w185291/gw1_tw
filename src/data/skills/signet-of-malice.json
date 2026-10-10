@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-malice",
+  "name": {
+    "en": "Signet of Malice",
+    "zhTW": "怨恨紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1036,
+  "icon": "/skills/signet-of-malice.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Signet. For each condition suffered by target foe, you lose one condition.",
+      "zhTW": "目標敵人每遭受一項「病症」時，你減少一項「病症」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "valis-the-rampant",
+          "en": "Valis the Rampant",
+          "zhTW": "Valis the Rampant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes-war-in-kryta",
+              "en": "Twin Serpent Lakes (War in Kryta)",
+              "zhTW": "Twin Serpent Lakes (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Valis the Rampant (Twin Serpent Lakes (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
+        "url": "https://wiki.guildwars.com/wiki/Valis_the_Rampant",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "目標敵人每遭受一項「病症」時，你減少一項「病症」。",
+  "commonUses": [
+    "無屬性 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
+      "revision": 2686686,
+      "title": "Signet of Malice",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26484",
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26485,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標敵人每遭受一項「病症」時，你減少一項「病症」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

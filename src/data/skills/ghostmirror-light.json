@@ -1,0 +1,159 @@
+{
+  "id": "ghostmirror-light",
+  "name": {
+    "en": "Ghostmirror Light",
+    "zhTW": "靈鏡之光",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1741,
+  "icon": "/skills/ghostmirror-light.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target other ally is healed for 15...75...90 Health. If you are within earshot of a spirit, you are also healed for 15...75...90 Health.",
+      "zhTW": "治癒目標其他盟友 15～90 體力。若你的音量所及範圍內有「靈」存在，則你也同時獲得 15～90 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Ghostmirror_Light",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Ghostmirror_Light",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "治癒目標其他盟友 15～90 體力。若你的音量所及範圍內有「靈」存在，則你也同時獲得 15～90 體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ghostmirror_Light",
+      "revision": 2679967,
+      "title": "Ghostmirror Light",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/50107"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50108,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標其他盟友 %str1% 體力。若你的音量所及範圍內有「靈」存在，則你也同時獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

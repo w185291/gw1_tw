@@ -1,0 +1,210 @@
+{
+  "pvpOnly": false,
+  "id": "spirit-bond",
+  "name": {
+    "en": "Spirit Bond",
+    "zhTW": "精神連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 1114,
+  "icon": "/skills/spirit-bond.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...78...90 Health.",
+      "zhTW": "持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30～90 體力。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...78...90 Health.",
+      "zhTW": "持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30～90 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Spirit Bond (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...78...90 Health.",
+        "zhTW": "持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30～90 體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Spirit_Bond_%28PvP%29",
+        "revision": 2719987,
+        "title": "Spirit Bond (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2892
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "facet-of-existence",
+          "en": "Facet of Existence",
+          "zhTW": "Facet of Existence",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-dwayna",
+              "en": "The Cipher of Dwayna",
+              "zhTW": "The Cipher of Dwayna",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Dwayna"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Existence (Riven Earth during The Cipher of Dwayna, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Existence",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30～90 體力。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spirit_Bond",
+      "revision": 2719986,
+      "title": "Spirit Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spirit_Bond_%28PvP%29",
+      "revision": 2719987,
+      "title": "Spirit Bond (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26872"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26873,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 %str1%時，該盟友被治癒 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

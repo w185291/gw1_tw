@@ -1,0 +1,586 @@
+{
+  "pvpOnly": false,
+  "id": "flail",
+  "name": {
+    "en": "Flail",
+    "zhTW": "連枷",
+    "translationVerified": true
+  },
+  "clientSkillId": 1404,
+  "icon": "/skills/flail.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 1...12...15 second[s], you attack 33% faster but move 33% slower.",
+      "zhTW": "持續 1～15 秒，你的攻擊速度加快 33% ，但是移動速度減慢 33% 。"
+    },
+    "pvp": {
+      "en": "Stance. For 1...12...15 second[s], you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
+      "zhTW": "持續 1～15 秒，攻擊速度提高 33，移動速度降低 33。使用遠程攻擊技能時結束。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Flail (PvP)",
+      "description": {
+        "en": "Stance. For 1...12...15 second[s], you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
+        "zhTW": "持續 1～15 秒，攻擊速度提高 33，移動速度降低 33。使用遠程攻擊技能時結束。"
+      },
+      "stats": {
+        "Adrenaline": 4.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Flail_%28PvP%29",
+        "revision": 2738943,
+        "title": "Flail (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3464
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ingenious-ettin",
+          "en": "Ingenious Ettin",
+          "zhTW": "Ingenious Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          },
+          {
+            "name": {
+              "id": "an-ingenious-plan",
+              "en": "An Ingenious Plan",
+              "zhTW": "An Ingenious Plan",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/An_Ingenious_Plan"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ingenious Ettin (Perdition Rock, only during An Ingenious Plan)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Ingenious_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tuila-the-club",
+          "en": "Tuila the Club",
+          "zhTW": "Tuila the Club",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shadow-s-passage-winds-of-change",
+              "en": "Shadow's Passage (Winds of Change)",
+              "zhTW": "Shadow's Passage (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadow%27s_Passage_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tuila the Club (Shadow's Passage (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Tuila_the_Club",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gowan-chobak",
+          "en": "Gowan Chobak",
+          "zhTW": "Gowan Chobak",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Gowan Chobak (Shadow's Passage (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Gowan_Chobak",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "onwan-lord-of-the-ntouka",
+          "en": "Onwan, Lord of the Ntouka",
+          "zhTW": "Onwan, Lord of the Ntouka",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Onwan, Lord of the Ntouka (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Onwan,_Lord_of_the_Ntouka",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "churrta-the-rock",
+          "en": "Churrta the Rock",
+          "zhTW": "Churrta the Rock",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Churrta the Rock (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Churrta_the_Rock",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "molotov-rocktail",
+          "en": "Molotov Rocktail",
+          "zhTW": "Molotov Rocktail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Molotov Rocktail (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Molotov_Rocktail",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "jormungand",
+          "en": "Jormungand",
+          "zhTW": "Jormungand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Jormungand (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Jormungand",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tenagg-flametroller",
+          "en": "Tenagg Flametroller",
+          "zhTW": "Tenagg Flametroller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tenagg Flametroller (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Tenagg_Flametroller",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gordam-griefgiver",
+          "en": "Gordam Griefgiver",
+          "zhTW": "Gordam Griefgiver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gordam Griefgiver (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Gordam_Griefgiver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "charr-prison-guard-boss",
+          "en": "Charr Prison Guard (boss)",
+          "zhTW": "Charr Prison Guard (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "warband-of-brothers",
+              "en": "Warband of Brothers",
+              "zhTW": "戰爭軍團之友",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Prison Guard (Warband of Brothers)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Prison_Guard_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "shons-the-pretender",
+          "en": "Shons the Pretender",
+          "zhTW": "Shons the Pretender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shons the Pretender (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Shons_the_Pretender",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gharaz-the-glutton",
+          "en": "Gharaz the Glutton",
+          "zhTW": "Gharaz the Glutton",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "forbidden-fruit",
+              "en": "Forbidden Fruit",
+              "zhTW": "Forbidden Fruit",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forbidden_Fruit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gharaz the Glutton (Sacnoth Valley, during Forbidden Fruit)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Gharaz_the_Glutton",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gorgaan-hatemonger",
+          "en": "Gorgaan Hatemonger",
+          "zhTW": "Gorgaan Hatemonger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorgaan Hatemonger (Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Gorgaan_Hatemonger",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-enforcer",
+          "en": "The Enforcer",
+          "zhTW": "The Enforcer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          },
+          {
+            "name": {
+              "id": "the-hunting-of-the-charr",
+              "en": "The Hunting of the Charr",
+              "zhTW": "The Hunting of the Charr",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hunting_of_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Enforcer (Rragar's Menagerie, during The Hunting of the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/The_Enforcer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-shield-golem",
+          "en": "Malfunctioning Shield Golem",
+          "zhTW": "Malfunctioning Shield Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Shield Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Shield_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Flail",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 1～15 秒，你的攻擊速度加快 33% ，但是移動速度減慢 33% 。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flail",
+      "revision": 2738494,
+      "title": "Flail",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flail_%28PvP%29",
+      "revision": 2738943,
+      "title": "Flail (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/39839"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39840,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的攻擊速度加快 %str1%%% ，但是移動速度減慢 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

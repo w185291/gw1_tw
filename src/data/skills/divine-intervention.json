@@ -1,0 +1,466 @@
+{
+  "pvpOnly": false,
+  "id": "divine-intervention",
+  "name": {
+    "en": "Divine Intervention",
+    "zhTW": "神之干預",
+    "translationVerified": true
+  },
+  "clientSkillId": 246,
+  "icon": "/skills/divine-intervention.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and that ally is healed for 26...197...240 Health.",
+      "zhTW": "持續 10 秒，下一次目標盟友受到致死的傷害時，傷害無效而且該盟友得到 26～240 體力治癒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "gammel",
+          "en": "Gammel",
+          "zhTW": "Gammel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "copperhammer-mines",
+              "en": "Copperhammer Mines",
+              "zhTW": "銅錘礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Copperhammer_Mines"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gammel (Copperhammer Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Gammel",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "abbot-ramoth",
+          "en": "Abbot Ramoth",
+          "zhTW": "Abbot Ramoth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          },
+          {
+            "name": {
+              "id": "the-false-gods",
+              "en": "The False Gods",
+              "zhTW": "The False Gods",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_False_Gods"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abbot Ramoth (The Black Curtain, only during The False Gods)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Abbot_Ramoth",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ramm-the-benevolent",
+          "en": "Ramm the Benevolent",
+          "zhTW": "Ramm the Benevolent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ramm the Benevolent (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "garr-the-merciful",
+          "en": "Garr the Merciful",
+          "zhTW": "Garr the Merciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garr the Merciful (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Garr_the_Merciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gilroy-the-stoic",
+          "en": "Gilroy the Stoic",
+          "zhTW": "Gilroy the Stoic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gilroy the Stoic (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Gilroy_the_Stoic",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "corbin-the-upright",
+          "en": "Corbin the Upright",
+          "zhTW": "Corbin the Upright",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Corbin the Upright (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "selwin-the-fervent",
+          "en": "Selwin the Fervent",
+          "zhTW": "Selwin the Fervent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Selwin the Fervent (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kepkhet-marrowfeast",
+          "en": "Kepkhet Marrowfeast",
+          "zhTW": "Kepkhet Marrowfeast",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kepkhet Marrowfeast (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Kepkhet_Marrowfeast",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "barthimus-the-provident",
+          "en": "Barthimus the Provident",
+          "zhTW": "Barthimus the Provident",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cursed-lands-war-in-kryta",
+              "en": "Cursed Lands (War in Kryta)",
+              "zhTW": "Cursed Lands (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cursed_Lands_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Barthimus the Provident (Cursed Lands (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Barthimus_the_Provident",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ambrillus-the-guardian",
+          "en": "Ambrillus the Guardian",
+          "zhTW": "Ambrillus the Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ambrillus the Guardian (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Ambrillus_the_Guardian",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 10 秒，下一次目標盟友受到致死的傷害時，傷害無效而且該盟友得到 26～240 體力治癒。",
+  "commonUses": [
+    "神恩 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+      "revision": 2695791,
+      "title": "Divine Intervention",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25700",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25701,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 10 秒，下一次目標盟友受到致死的傷害時，傷害無效而且該盟友得到 %str1% 體力治癒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

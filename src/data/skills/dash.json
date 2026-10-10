@@ -1,0 +1,275 @@
+{
+  "pvpOnly": false,
+  "id": "dash",
+  "name": {
+    "en": "Dash",
+    "zhTW": "急衝",
+    "translationVerified": true
+  },
+  "clientSkillId": 1043,
+  "icon": "/skills/dash.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 3 seconds, you run 50% faster.",
+      "zhTW": "持續 3 秒，使你的移動速度增加 50% 。"
+    },
+    "pvp": {
+      "en": "Stance. For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).",
+      "zhTW": "持續 3 秒，移動速度提高 50。每 2 點暗影術降低冷卻 1 秒，最多降低 6 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Dash (PvP)",
+      "description": {
+        "en": "Stance. For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).",
+        "zhTW": "持續 3 秒，移動速度提高 50。每 2 點暗影術降低冷卻 1 秒，最多降低 6 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Dash_%28PvP%29",
+        "revision": 2739034,
+        "title": "Dash (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3453
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "zenmai",
+          "en": "Zenmai",
+          "zhTW": "刃瑪伊",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Unlocking Zenmai",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Zenmai",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Dash",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 3 秒，使你的移動速度增加 50% 。",
+  "commonUses": [
+    "暗影技巧 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dash",
+      "revision": 2739056,
+      "title": "Dash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dash_%28PvP%29",
+      "revision": 2739034,
+      "title": "Dash (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26504"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26505,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你的移動速度增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

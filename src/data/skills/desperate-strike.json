@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "desperate-strike",
+  "name": {
+    "en": "Desperate Strike",
+    "zhTW": "末路狙殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 948,
+  "icon": "/skills/desperate-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "lead-attack",
+    "en": "Lead attack",
+    "zhTW": "引導攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Lead Attack. If you have less than 50...74...80% Health, you deal +15...51...60 damage.",
+      "zhTW": "若你的體力值低於 50～80%，當你擊中目標時，對其造成 15～60 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Desperate_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "若你的體力值低於 50～80%，當你擊中目標時，對其造成 15～60 額外傷害。",
+  "commonUses": [
+    "匕首精通 · 引導攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Desperate_Strike",
+      "revision": 2732841,
+      "title": "Desperate Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26378"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26379,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若你的體力值低於 %str1%%%，當你擊中目標時，對其造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

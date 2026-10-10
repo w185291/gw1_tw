@@ -1,0 +1,231 @@
+{
+  "pvpOnly": false,
+  "id": "star-burst",
+  "name": {
+    "en": "Star Burst",
+    "zhTW": "星爆",
+    "translationVerified": true
+  },
+  "clientSkillId": 1095,
+  "icon": "/skills/star-burst.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-spell",
+    "en": "touch spell",
+    "zhTW": "碰觸魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target touched foe and all foes in the area are struck for 7...91...112 fire damage and set on fire for 1...3...4 second[s]. For each foe you hit, gain 2 Energy.",
+      "zhTW": "碰觸目標敵人，使其與所有附近的敵人受到 7～112 火焰傷害。若你使用此技能造成一個以上的敵人受到傷害，則你額外損失 5 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-teinai",
+          "en": "Bound Teinai",
+          "zhTW": "Bound Teinai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Teinai (Tahnnakai Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Star_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Teinai",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "star-ancient-koosun",
+          "en": "Star Ancient Koosun",
+          "zhTW": "Star Ancient Koosun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          },
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Star Ancient Koosun (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Star_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Star_Ancient_Koosun",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chow-zhong-the-inferno",
+          "en": "Chow Zhong the Inferno",
+          "zhTW": "Chow Zhong the Inferno",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "redemption-for-the-lost",
+              "en": "Redemption for the Lost",
+              "zhTW": "Redemption for the Lost",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Redemption_for_the_Lost"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chow Zhong the Inferno (Sunjiang District (Winds of Change), only during Redemption for the Lost)",
+        "source": "https://wiki.guildwars.com/wiki/Star_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Chow_Zhong_the_Inferno",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bound-kaichen",
+          "en": "Bound Kaichen",
+          "zhTW": "Bound Kaichen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Kaichen (Domain of Fear, during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Star_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kaichen",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "碰觸目標敵人，使其與所有附近的敵人受到 7～112 火焰傷害。若你使用此技能造成一個以上的敵人受到傷害，則你額外損失 5 能量。",
+  "commonUses": [
+    "火系魔法 · 碰觸魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Star_Burst",
+      "revision": 2680193,
+      "title": "Star Burst",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26716",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26717,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人，使其與所有附近的敵人受到 %str1% 火焰傷害。若你使用此技能造成一個以上的敵人受到傷害，則你額外損失 5 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

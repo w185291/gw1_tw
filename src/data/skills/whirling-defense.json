@@ -1,0 +1,376 @@
+{
+  "pvpOnly": false,
+  "id": "whirling-defense",
+  "name": {
+    "en": "Whirling Defense",
+    "zhTW": "旋風防禦",
+    "translationVerified": true
+  },
+  "clientSkillId": 450,
+  "icon": "/skills/whirling-defense.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 8...18...20 seconds, you have 75% chance to block attacks. Whenever you block a projectile in this way, adjacent foes take 5...10...11 damage.",
+      "zhTW": "持續 8～20 秒，你有 75% 的機會「格擋」攻擊。每當你成功「格擋」投射性的攻擊時，對鄰近的敵人造成 5～11 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "stone-summit-beastmasters",
+          "en": "Stone Summit Beastmasters",
+          "zhTW": "Stone Summit Beastmasters",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Stone Summit Beastmasters (Traveler's Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Stone_Summit_Beastmasters",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "free-the-fur",
+          "en": "Free the Fur",
+          "zhTW": "Free the Fur",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Free the Fur (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Free_the_Fur",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～20 秒，你有 75% 的機會「格擋」攻擊。每當你成功「格擋」投射性的攻擊時，對鄰近的敵人造成 5～11 傷害。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+      "revision": 2667536,
+      "title": "Whirling Defense",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26258"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26259,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 75%% 的機會「格擋」攻擊。每當你成功「格擋」投射性的攻擊時，對鄰近的敵人造成 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

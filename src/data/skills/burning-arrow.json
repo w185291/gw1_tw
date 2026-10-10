@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "burning-arrow",
+  "name": {
+    "en": "Burning Arrow",
+    "zhTW": "燃燒箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 1466,
+  "icon": "/skills/burning-arrow.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. If this attack hits, you strike for +10...26...30 damage and cause Burning for 2...7...8 seconds.",
+      "zhTW": "命中時對目標造成 10～30 額外傷害並使其遭受「燃燒」病症 2～8 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "inquisitor-lashona",
+          "en": "Inquisitor Lashona",
+          "zhTW": "Inquisitor Lashona",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "wanted-inquisitor-lashona",
+              "en": "Wanted: Inquisitor Lashona",
+              "zhTW": "Wanted: Inquisitor Lashona",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wanted:_Inquisitor_Lashona"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lashona (North Kryta Province (War in Kryta), only during Wanted: Inquisitor Lashona)",
+        "source": "https://wiki.guildwars.com/wiki/Burning_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lashona",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "admiral-chiggen",
+          "en": "Admiral Chiggen",
+          "zhTW": "Admiral Chiggen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Admiral Chiggen (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Burning_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Admiral_Chiggen",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "charr-warden",
+          "en": "Charr Warden",
+          "zhTW": "Charr Warden",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Warden (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Burning_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Warden",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 10～30 額外傷害並使其遭受「燃燒」病症 2～8 秒。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Burning_Arrow",
+      "revision": 2739057,
+      "title": "Burning Arrow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/36339"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36340,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害並使其遭受「燃燒」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

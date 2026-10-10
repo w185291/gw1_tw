@@ -1,0 +1,126 @@
+{
+  "pvpOnly": false,
+  "id": "slayer-s-spear",
+  "name": {
+    "en": "Slayer's Spear",
+    "zhTW": "殺戮者之矛"
+  },
+  "clientSkillId": 1783,
+  "icon": "/skills/slayer-s-spear.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "spear-mastery",
+    "en": "Spear Mastery",
+    "zhTW": "矛術精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spear-attack",
+    "en": "Spear attack",
+    "zhTW": "矛術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Spear Attack. If this attack hits, you deal +5...21...25 damage. If that foe has more Health than you, that foe suffers from a Deep Wound for 5...17...20 seconds.",
+      "zhTW": "命中時對目標造成 5～25 傷害，若該目標的體力高於你，則該目標將遭受「重傷」病症 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Slayer%27s_Spear",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "命中時對目標造成 5～25 傷害，若該目標的體力高於你，則該目標將遭受「重傷」病症 5～20 秒。",
+  "commonUses": [
+    "矛術精通 · 矛術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Slayer%27s_Spear",
+      "revision": 2733274,
+      "title": "Slayer's Spear",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50125"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50126,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 傷害，若該目標的體力高於你，則該目標將遭受「重傷」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

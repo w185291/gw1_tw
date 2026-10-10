@@ -1,0 +1,174 @@
+{
+  "pvpOnly": false,
+  "id": "screaming-shot",
+  "name": {
+    "en": "Screaming Shot",
+    "zhTW": "咆哮射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1719,
+  "icon": "/skills/screaming-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If this attack hits, you deal +10...22...25 damage. If your target is within earshot, that foe begins Bleeding for 5...17...20 seconds.",
+      "zhTW": "命中時對目標造成 10～25 額外傷害，若目標在音量所及範圍內，則使其遭受「流血」病症 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Screaming_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-cunning",
+          "en": "Cairn the Cunning",
+          "zhTW": "Cairn the Cunning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Cunning (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Screaming_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Cunning",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Screaming_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 10～25 額外傷害，若目標在音量所及範圍內，則使其遭受「流血」病症 5～20 秒。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Screaming_Shot",
+      "revision": 2733266,
+      "title": "Screaming Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50083",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50084,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害，若目標在音量所及範圍內，則使其遭受「流血」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

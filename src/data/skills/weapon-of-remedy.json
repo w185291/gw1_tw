@@ -1,0 +1,133 @@
+{
+  "id": "weapon-of-remedy",
+  "name": {
+    "en": "Weapon of Remedy",
+    "zhTW": "治療武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1752,
+  "icon": "/skills/weapon-of-remedy.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 3.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Weapon Spell. For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 20...68...80 Health from that foe and loses 2 conditions.",
+      "zhTW": "持续8秒，目标盟友下次承受敌人伤害或生命吸取时，从该敌人处窃取20～80生命并移除2个状态。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "alem-the-unclean",
+          "en": "Alem the Unclean",
+          "zhTW": "Alem the Unclean",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Alem the Unclean (The Sulfurous Wastes)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy",
+        "url": "https://wiki.guildwars.com/wiki/Alem_the_Unclean",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持续8秒，目标盟友下次承受敵人伤害或生命吸取时，从该敵人处窃取20～80生命并移除2个状态。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy",
+      "revision": 2740841,
+      "title": "Weapon of Remedy",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/50115"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50116,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持续%str3%秒，目标盟友下次承受敌人伤害或生命吸取时，从该敌人处窃取%str1%生命并移除2个状态。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

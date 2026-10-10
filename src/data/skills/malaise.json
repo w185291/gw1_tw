@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "malaise",
+  "name": {
+    "en": "Malaise",
+    "zhTW": "萎靡不振",
+    "translationVerified": true
+  },
+  "clientSkillId": 140,
+  "icon": "/skills/malaise.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...29...35 seconds, target foe suffers -1 Energy degeneration and you suffer -1 Health degeneration. If target foe's Energy reaches 0, that foe takes 5...41...50 damage and Malaise ends.",
+      "zhTW": "持續 5～35 秒，目標敵人遭受能量衰減 1，而你遭受體力衰減 1。 當目標敵人能量成為 0 時，該目標受到 5～50 傷害而萎靡不振的效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Malaise",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Malaise",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "ghostly-vengeance",
+          "en": "Ghostly Vengeance",
+          "zhTW": "Ghostly Vengeance",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "augury-rock-outpost",
+              "en": "Augury Rock (outpost)",
+              "zhTW": "Augury Rock (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghostly Vengeance (Augury Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Malaise",
+        "url": "https://wiki.guildwars.com/wiki/Ghostly_Vengeance",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 5～35 秒，目標敵人遭受能量衰減 1，而你遭受體力衰減 1。 當目標敵人能量成為 0 時，該目標受到 5～50 傷害而萎靡不振的效果終止。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Malaise",
+      "revision": 2608713,
+      "title": "Malaise",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25100",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25101,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標敵人遭受能量衰減 1，而你遭受體力衰減 1。 當目標敵人能量成為 0 時，該目標受到 %str2% 傷害而萎靡不振的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

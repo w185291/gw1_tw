@@ -1,0 +1,200 @@
+{
+  "pvpOnly": false,
+  "id": "healing-burst",
+  "name": {
+    "en": "Healing Burst",
+    "zhTW": "爆發治癒",
+    "translationVerified": true
+  },
+  "clientSkillId": 1118,
+  "icon": "/skills/healing-burst.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target ally is healed for 20...100...120. All party members in earshot of your target gain Health equal to the Divine Favor bonus from this spell. Your Smiting Prayers are disabled for 20 seconds.",
+      "zhTW": "治療目標盟友 20～120 體力，同時音量所及範圍內的隊伍成員也獲得你神恩屬性的加成治療，懲戒祈禱技能在 20 秒內無法使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-scar-eater-boss",
+          "en": "The Scar Eater (boss)",
+          "zhTW": "The Scar Eater (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Scar Eater (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Burst",
+        "url": "https://wiki.guildwars.com/wiki/The_Scar_Eater_(boss)",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "incetol-devout-of-depths",
+          "en": "Incetol, Devout of Depths",
+          "zhTW": "Incetol, Devout of Depths",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Incetol, Devout of Depths (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Incetol,_Devout_of_Depths",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "copernicus",
+          "en": "Copernicus",
+          "zhTW": "Copernicus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Copernicus (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Burst",
+        "url": "https://wiki.guildwars.com/wiki/Copernicus",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "治療目標盟友 20～120 體力，同時音量所及範圍內的隊伍成員也獲得你神恩屬性的加成治療，懲戒祈禱技能在 20 秒內無法使用。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healing_Burst",
+      "revision": 2731300,
+      "title": "Healing Burst",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26880"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26881,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療目標盟友 %str1% 體力，同時音量所及範圍內的隊伍成員也獲得你神恩屬性的加成治療，懲戒祈禱技能在 20 秒內無法使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

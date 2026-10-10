@@ -1,0 +1,582 @@
+{
+  "pvpOnly": false,
+  "id": "order-of-pain",
+  "name": {
+    "en": "Order of Pain",
+    "zhTW": "痛苦命令",
+    "translationVerified": true
+  },
+  "clientSkillId": 134,
+  "icon": "/skills/order-of-pain.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5 seconds, whenever a party member hits a foe with physical damage, that party member does +3...13...16 damage.",
+      "zhTW": "犧牲自己最大體力的 17% 。使我方的所有隊伍成員在 5 秒內利用物理攻擊命中敵人時，造成 3～16 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "thengen",
+          "en": "Thengen",
+          "zhTW": "Thengen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "port-sledge",
+              "en": "Port Sledge",
+              "zhTW": "雪橇港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Port_Sledge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thengen (Port Sledge)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Thengen",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kara-bloodtail",
+          "en": "Kara Bloodtail",
+          "zhTW": "Kara Bloodtail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kara Bloodtail (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Kara_Bloodtail",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "oswald-the-amiable",
+          "en": "Oswald the Amiable",
+          "zhTW": "Oswald the Amiable",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Oswald the Amiable (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Oswald_the_Amiable",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "numa-plaguemane",
+          "en": "Numa Plaguemane",
+          "zhTW": "Numa Plaguemane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Numa Plaguemane (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Numa_Plaguemane",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "kenric-the-believer",
+          "en": "Kenric the Believer",
+          "zhTW": "Kenric the Believer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kenric the Believer (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Kenric_the_Believer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "brogan-the-punisher",
+          "en": "Brogan the Punisher",
+          "zhTW": "Brogan the Punisher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Brogan the Punisher (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Brogan_the_Punisher",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "bearn-the-implacable",
+          "en": "Bearn the Implacable",
+          "zhTW": "Bearn the Implacable",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bearn the Implacable (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Bearn_the_Implacable",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "terob-roundback",
+          "en": "Terob Roundback",
+          "zhTW": "Terob Roundback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Terob Roundback (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Terob_Roundback",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mabah-heardheart",
+          "en": "Mabah Heardheart",
+          "zhTW": "Mabah Heardheart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "garden-of-seborhin",
+              "en": "Garden of Seborhin",
+              "zhTW": "希伯欣花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Garden_of_Seborhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mabah Heardheart (Garden of Seborhin)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Mabah_Heardheart",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "brokk-ripsnort",
+          "en": "Brokk Ripsnort",
+          "zhTW": "Brokk Ripsnort",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wilderness-of-bahdza",
+              "en": "Wilderness of Bahdza",
+              "zhTW": "巴薩荒野",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wilderness_of_Bahdza"
+          },
+          {
+            "name": {
+              "id": "extinction",
+              "en": "Extinction",
+              "zhTW": "Extinction",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Extinction"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Brokk Ripsnort (Wilderness of Bahdza, before completion of Extinction)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Brokk_Ripsnort",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "flesh-of-destruction",
+          "en": "Flesh of Destruction",
+          "zhTW": "Flesh of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flesh of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Flesh_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 17% 。使我方的所有隊伍成員在 5 秒內利用物理攻擊命中敵人時，造成 3～16 額外傷害。",
+  "commonUses": [
+    "血魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+      "revision": 2733075,
+      "title": "Order of Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25088",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25089,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 17%% 。使我方的所有隊伍成員在 5 秒內利用物理攻擊命中敵人時，造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

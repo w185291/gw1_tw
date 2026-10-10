@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "summon-naga-shaman",
+  "name": {
+    "en": "Summon Naga Shaman",
+    "zhTW": "召喚納迦巫醫"
+  },
+  "clientSkillId": 2227,
+  "icon": "/skills/summon-naga-shaman.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Summon a level 14...20 Naga Shaman that lives for 40...60 seconds and has Stoning. Only 1 Asura Summon can be active a time.",
+      "zhTW": "召喚一個等級14～20的那迦巫醫(可存活40～60秒)並擁有「石箭」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "polymock-defeat-dune-teardrinker",
+          "en": "Polymock: Defeat Dune Teardrinker",
+          "zhTW": "Polymock: Defeat Dune Teardrinker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Polymock: Defeat Dune Teardrinker (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman",
+        "url": "https://wiki.guildwars.com/wiki/Polymock:_Defeat_Dune_Teardrinker",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "召喚一個等級14～20的那迦巫醫(可存活40～60秒)並擁有「石箭」技能。同一時間只能發動一個阿蘇拉召喚技能。",
+  "commonUses": [
+    "Asura rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman",
+      "revision": 2680293,
+      "title": "Summon Naga Shaman",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69831"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69832,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "召喚一個等級%str1%的那迦巫醫(可存活%str3%秒)並擁有「石箭」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,293 @@
+{
+  "pvpOnly": false,
+  "id": "deathly-chill",
+  "name": {
+    "en": "Deathly Chill",
+    "zhTW": "致命嚴寒",
+    "translationVerified": true
+  },
+  "clientSkillId": 89,
+  "icon": "/skills/deathly-chill.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 5...41...50 cold damage. If that foe's Health is above 50%, you deal an additional 5...41...50 shadow damage.",
+      "zhTW": "使目標敵人受到 5～50 冰凍傷害。如果目標的體力高於 50% ，則對該目標額外造成 5～50 的暗影傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rotcap-mochsart",
+          "en": "Rotcap Mochsart",
+          "zhTW": "Rotcap Mochsart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rotcap Mochsart (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Rotcap_Mochsart",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mossk-rottail",
+          "en": "Mossk Rottail",
+          "zhTW": "Mossk Rottail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mossk Rottail (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Mossk_Rottail",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "flaw-rootplague",
+          "en": "Flaw Rootplague",
+          "zhTW": "Flaw Rootplague",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Flaw Rootplague (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Flaw_Rootplague",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "flesheater",
+          "en": "Flesheater",
+          "zhTW": "Flesheater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flesheater (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+        "url": "https://wiki.guildwars.com/wiki/Flesheater",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 5～50 冰凍傷害。如果目標的體力高於 50% ，則對該目標額外造成 5～50 的暗影傷害。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "shadow-strike",
+      "en": "Shadow Strike",
+      "zhTW": "暗影衝擊",
+      "translationVerified": true
+    },
+    {
+      "id": "lifebane-strike",
+      "en": "Lifebane Strike",
+      "zhTW": "滅絕衝擊",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+      "revision": 2695849,
+      "title": "Deathly Chill",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24998",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24999,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 冰凍傷害。如果目標的體力高於 50%% ，則對該目標額外造成 %str2% 的暗影傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

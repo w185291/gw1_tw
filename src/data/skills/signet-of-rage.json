@@ -1,0 +1,163 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-rage",
+  "name": {
+    "en": "Signet of Rage",
+    "zhTW": "盛怒紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1269,
+  "icon": "/skills/signet-of-rage.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Target foe takes 5...41...50 holy damage and +5...9...10 holy damage for each adrenaline skill that foe has.",
+      "zhTW": "使目標敵人受到 5～50 神聖傷害，並根據其具有的怒氣值技能數量，每個再對其造成 5～10 額外神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "corrupted-zunraa",
+          "en": "Corrupted Zunraa",
+          "zhTW": "Corrupted Zunraa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun",
+              "en": "Zen Daijun",
+              "zhTW": "禎台郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun"
+          },
+          {
+            "name": {
+              "id": "an-unwelcome-guest",
+              "en": "An Unwelcome Guest",
+              "zhTW": "An Unwelcome Guest",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/An_Unwelcome_Guest"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Corrupted Zunraa (Zen Daijun, only during An Unwelcome Guest)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Rage",
+        "url": "https://wiki.guildwars.com/wiki/Corrupted_Zunraa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "使目標敵人受到 5～50 神聖傷害，並根據其具有的怒氣值技能數量，每個再對其造成 5～10 額外神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Rage",
+      "revision": 2741458,
+      "title": "Signet of Rage",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26898"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26899,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 神聖傷害，並根據其具有的怒氣值技能數量，每個再對其造成 %str2% 額外神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

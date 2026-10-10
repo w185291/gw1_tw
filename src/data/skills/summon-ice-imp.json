@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "summon-ice-imp",
+  "name": {
+    "en": "Summon Ice Imp",
+    "zhTW": "召喚冰小惡魔"
+  },
+  "clientSkillId": 2226,
+  "icon": "/skills/summon-ice-imp.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Summon a level 14...20 Ice Imp that lives for 40...60 seconds and has Ice Spikes. Only 1 Asura Summon can be active a time.",
+      "zhTW": "召喚一個等級14～20的冰小惡魔(可存活40～60秒)並擁有「冰之尖刺」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "polymock-defeat-necromancer-volumandus",
+          "en": "Polymock: Defeat Necromancer Volumandus",
+          "zhTW": "Polymock: Defeat Necromancer Volumandus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Polymock: Defeat Necromancer Volumandus (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp",
+        "url": "https://wiki.guildwars.com/wiki/Polymock:_Defeat_Necromancer_Volumandus",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "召喚一個等級14～20的冰小惡魔(可存活40～60秒)並擁有「冰之尖刺」技能。同一時間只能發動一個阿蘇拉召喚技能。",
+  "commonUses": [
+    "Asura rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp",
+      "revision": 2680291,
+      "title": "Summon Ice Imp",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69835"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69836,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "召喚一個等級%str1%的冰小惡魔(可存活%str3%秒)並擁有「冰之尖刺」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

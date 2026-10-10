@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "vapor-blade",
+  "name": {
+    "en": "Vapor Blade",
+    "zhTW": "蒸氣之刃",
+    "translationVerified": true
+  },
+  "clientSkillId": 866,
+  "icon": "/skills/vapor-blade.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 15...111...135 cold damage. Vapor Blade deals half damage if that foe has any enchantments on them.",
+      "zhTW": "使目標敵人受到 15～135 冰凍傷害。若該目標身上有「加持」效果，則蒸氣之刃對其造成的傷害減半。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "drikard-the-foggy",
+          "en": "Drikard the Foggy",
+          "zhTW": "Drikard the Foggy",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Drikard the Foggy (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+        "url": "https://wiki.guildwars.com/wiki/Drikard_the_Foggy",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "gloop",
+          "en": "Gloop",
+          "zhTW": "Gloop",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gloop (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+        "url": "https://wiki.guildwars.com/wiki/Gloop",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "使目標敵人受到 15～135 冰凍傷害。若該目標身上有「加持」效果，則蒸氣之刃對其造成的傷害減半。",
+  "commonUses": [
+    "水系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+      "revision": 2733050,
+      "title": "Vapor Blade",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/26734"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26735,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 冰凍傷害。若該目標身上有「加持」效果，則蒸氣之刃對其造成的傷害減半。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

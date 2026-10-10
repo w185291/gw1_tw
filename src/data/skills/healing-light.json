@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "healing-light",
+  "name": {
+    "en": "Healing Light",
+    "zhTW": "治療聖光",
+    "translationVerified": true
+  },
+  "clientSkillId": 867,
+  "icon": "/skills/healing-light.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Heal target ally for 40...104...120 Health. If your target has an enchantment, you gain 1...3...3 Energy.",
+      "zhTW": "治療目標盟友 40～120 體力。若該目標受到「加持」，則你獲得 1～3 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kaysey-stormray",
+          "en": "KaySey Stormray",
+          "zhTW": "KaySey Stormray",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "KaySey Stormray (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Light",
+        "url": "https://wiki.guildwars.com/wiki/KaySey_Stormray",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "elmohr-snowmender",
+          "en": "Elmohr Snowmender",
+          "zhTW": "Elmohr Snowmender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Elmohr Snowmender (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Light",
+        "url": "https://wiki.guildwars.com/wiki/Elmohr_Snowmender",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "治療目標盟友 40～120 體力。若該目標受到「加持」，則你獲得 1～3 能量。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healing_Light",
+      "revision": 2738561,
+      "title": "Healing Light",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26884"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26885,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療目標盟友 %str1% 體力。若該目標受到「加持」，則你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

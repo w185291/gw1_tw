@@ -1,0 +1,141 @@
+{
+  "pvpOnly": false,
+  "id": "hex-eater-signet",
+  "name": {
+    "en": "Hex Eater Signet",
+    "zhTW": "噬咒紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1059,
+  "icon": "/skills/hex-eater-signet.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-signet",
+    "en": "Touch signet",
+    "zhTW": "碰觸紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Target touched ally and up to 2...4...5 adjacent allies each lose one hex. You gain 1...3...4 Energy for each hex removed this way.",
+      "zhTW": "碰觸目標盟友及其鄰近最多 2～5 名盟友，移除他們身上的一項「降咒」。利用此紋章每移除一項「降咒」讓你獲得 1～4 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "碰觸目標盟友及其鄰近最多 2～5 名盟友，移除他們身上的一項「降咒」。利用此紋章每移除一項「降咒」讓你獲得 1～4 能量。",
+  "commonUses": [
+    "靈感魔法 · 碰觸紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "inspired-hex",
+      "en": "Inspired Hex",
+      "zhTW": "靈感降咒",
+      "translationVerified": true
+    },
+    {
+      "id": "revealed-hex",
+      "en": "Revealed Hex",
+      "zhTW": "降咒顯露",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet",
+      "revision": 2727215,
+      "title": "Hex Eater Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26578",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26579,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標盟友及其鄰近最多 %str1% 名盟友，移除他們身上的一項「降咒」。利用此紋章每移除一項「降咒」讓你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

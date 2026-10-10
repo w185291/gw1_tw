@@ -1,0 +1,329 @@
+{
+  "pvpOnly": false,
+  "id": "searing-heat",
+  "name": {
+    "en": "Searing Heat",
+    "zhTW": "灼熱氣息",
+    "translationVerified": true
+  },
+  "clientSkillId": 196,
+  "icon": "/skills/searing-heat.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Cause Searing Heat at target foe's location. For 5 seconds, foes near this location are struck for 10...34...40 fire damage each second. When Searing Heat ends, foes in the area of effect are set on fire for 3 seconds.",
+      "zhTW": "在目標敵人處引發灼熱氣息。持續 5 秒，使接近灼熱氣息的敵人每秒受到 10～40 火焰傷害。當灼熱氣息停止，該區域的敵人將遭受「著火」病症 3 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "gammel",
+          "en": "Gammel",
+          "zhTW": "Gammel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "copperhammer-mines",
+              "en": "Copperhammer Mines",
+              "zhTW": "銅錘礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Copperhammer_Mines"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gammel (Copperhammer Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Gammel",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "pleoh-the-ugly",
+          "en": "Pleoh the Ugly",
+          "zhTW": "Pleoh the Ugly",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pleoh the Ugly (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Pleoh_the_Ugly",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "manton-the-indulgent",
+          "en": "Manton the Indulgent",
+          "zhTW": "Manton the Indulgent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Manton the Indulgent (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Manton_the_Indulgent",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "julen-the-devout",
+          "en": "Julen the Devout",
+          "zhTW": "Julen the Devout",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Julen the Devout (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Julen_the_Devout",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "braima-the-callous",
+          "en": "Braima the Callous",
+          "zhTW": "Braima the Callous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Braima the Callous (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Braima_the_Callous",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "vess-the-disputant",
+          "en": "Vess the Disputant",
+          "zhTW": "Vess the Disputant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vess the Disputant (Divinity Coast (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Vess_the_Disputant",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "xi-lin-of-the-flames",
+          "en": "Xi Lin of the Flames",
+          "zhTW": "Xi Lin of the Flames",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels-winds-of-change",
+              "en": "Shenzun Tunnels (Winds of Change)",
+              "zhTW": "Shenzun Tunnels (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xi Lin of the Flames (Shenzun Tunnels (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Xi_Lin_of_the_Flames",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "leijun-ano",
+          "en": "Leijun Ano",
+          "zhTW": "Leijun Ano",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Leijun Ano (Shenzun Tunnels (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Searing_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Leijun_Ano",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人處引發灼熱氣息。持續 5 秒，使接近灼熱氣息的敵人每秒受到 10～40 火焰傷害。當灼熱氣息停止，該區域的敵人將遭受「著火」病症 3 秒。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Searing_Heat",
+      "revision": 2695776,
+      "title": "Searing Heat",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25213",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25214,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人處引發灼熱氣息。持續 5 秒，使接近灼熱氣息的敵人每秒受到 %str1% 火焰傷害。當灼熱氣息停止，該區域的敵人將遭受「著火」病症 3 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

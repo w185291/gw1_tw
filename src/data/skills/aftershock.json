@@ -1,0 +1,537 @@
+{
+  "pvpOnly": false,
+  "id": "aftershock",
+  "name": {
+    "en": "Aftershock",
+    "zhTW": "餘震",
+    "translationVerified": true
+  },
+  "clientSkillId": 174,
+  "icon": "/skills/aftershock.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Nearby foes are struck for 15...71...85 earth damage. Knocked down foes are struck for 15...71...85 additional earth damage.",
+      "zhTW": "對鄰近的敵人造成 15～85 土系傷害，而且被擊倒的敵人將受到 15～85 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "harnil",
+          "en": "Harnil",
+          "zhTW": "Harnil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marhan-s-grotto",
+              "en": "Marhan's Grotto",
+              "zhTW": "馬翰洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harnil (Marhan's Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Harnil",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "splinterquake",
+          "en": "Splinterquake",
+          "zhTW": "Splinterquake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Splinterquake (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Splinterquake",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "thornwrath",
+          "en": "Thornwrath",
+          "zhTW": "Thornwrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thornwrath (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Thornwrath",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bristlefire",
+          "en": "Bristlefire",
+          "zhTW": "Bristlefire",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bristlefire (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Bristlefire",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "clarion-shinypate",
+          "en": "Clarion Shinypate",
+          "zhTW": "Clarion Shinypate",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Clarion Shinypate (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Clarion_Shinypate",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lucid-jewelstone",
+          "en": "Lucid Jewelstone",
+          "zhTW": "Lucid Jewelstone",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Lucid Jewelstone (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Lucid_Jewelstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ghilaparu-stormstone",
+          "en": "Ghilaparu Stormstone",
+          "zhTW": "Ghilaparu Stormstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghilaparu Stormstone (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Ghilaparu_Stormstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "pell-glitterglatter",
+          "en": "Pell Glitterglatter",
+          "zhTW": "Pell Glitterglatter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pell Glitterglatter (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Pell_Glitterglatter",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "tang-stonecut",
+          "en": "Tang Stonecut",
+          "zhTW": "Tang Stonecut",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Tang Stonecut (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Tang_Stonecut",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "facet-of-elements",
+          "en": "Facet of Elements",
+          "zhTW": "Facet of Elements",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Elements (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Elements",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "carnak-the-hungry",
+          "en": "Carnak the Hungry",
+          "zhTW": "Carnak the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Carnak the Hungry (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Carnak_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ssissth-the-leviathan",
+          "en": "Ssissth the Leviathan",
+          "zhTW": "Ssissth the Leviathan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ssissth the Leviathan (Jaga Moraine, before completion of Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Ssissth_the_Leviathan",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "cursed-brigand",
+          "en": "Cursed Brigand",
+          "zhTW": "Cursed Brigand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shards-of-orr",
+              "en": "Shards of Orr",
+              "zhTW": "歐爾殘跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shards_of_Orr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cursed Brigand (Shards of Orr)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Cursed_Brigand",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Aftershock",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "對鄰近的敵人造成 15～85 土系傷害，而且被擊倒的敵人將受到 15～85 額外傷害。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aftershock",
+      "revision": 2738703,
+      "title": "Aftershock",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25170",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25171,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對鄰近的敵人造成 %str1% 土系傷害，而且被擊倒的敵人將受到 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

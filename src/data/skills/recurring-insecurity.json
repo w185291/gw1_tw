@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "recurring-insecurity",
+  "name": {
+    "en": "Recurring Insecurity",
+    "zhTW": "危險循環",
+    "translationVerified": true
+  },
+  "clientSkillId": 1055,
+  "icon": "/skills/recurring-insecurity.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5 seconds, target foe suffers from -1...5...6 Health degeneration. If that foe has another hex when Recurring Insecurity would end, it is reapplied.",
+      "zhTW": "持續5秒，目標敵人遭受體力衰減1～6，若危險循環將終止時該目標有其他降咒存在，則危險循環回復至10秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "xisni-dream-haunt",
+          "en": "Xisni Dream Haunt",
+          "zhTW": "Xisni Dream Haunt",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xisni Dream Haunt (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
+        "url": "https://wiki.guildwars.com/wiki/Xisni_Dream_Haunt",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "talous-the-mad",
+          "en": "Talous the Mad",
+          "zhTW": "Talous the Mad",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Talous the Mad (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
+        "url": "https://wiki.guildwars.com/wiki/Talous_the_Mad",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續5秒，目標敵人遭受體力衰減1～6，若危險循環將終止時該目標有其他降咒存在，則危險循環回復至10秒。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
+      "revision": 2726529,
+      "title": "Recurring Insecurity",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26550",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26551,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標敵人遭受體力衰減%str1%，若危險循環將終止時該目標有其他降咒存在，則危險循環回復至10秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

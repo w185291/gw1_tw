@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "technobabble",
+  "name": {
+    "en": "Technobabble",
+    "zhTW": "嘈雜"
+  },
+  "clientSkillId": 2413,
+  "icon": "/skills/technobabble.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe and all adjacent foes are struck for 30...40 damage. If target foe is not a boss, that foe and all adjacent foes are Dazed for 3...5 seconds.",
+      "zhTW": "對目標及所有鄰近敵人造成 30～40 傷害。若目標非首領怪物，該目標及所有鄰近敵人將遭受「暈眩」3～5 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-cipher-of-lyssa",
+          "en": "The Cipher of Lyssa",
+          "zhTW": "The Cipher of Lyssa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Cipher of Lyssa (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Technobabble",
+        "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Lyssa",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "對目標及所有鄰近敵人造成 30～40 傷害。若目標非首領怪物，該目標及所有鄰近敵人將遭受「暈眩」3～5 秒。",
+  "commonUses": [
+    "Asura rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Technobabble",
+      "revision": 2680290,
+      "title": "Technobabble",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72853"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72854,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標及所有鄰近敵人造成 %str1% 傷害。若目標非首領怪物，該目標及所有鄰近敵人將遭受「暈眩」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

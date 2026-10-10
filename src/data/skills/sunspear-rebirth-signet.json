@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "sunspear-rebirth-signet",
+  "name": {
+    "en": "Sunspear Rebirth Signet",
+    "zhTW": "日戟重生紋章"
+  },
+  "clientSkillId": 1816,
+  "icon": "/skills/sunspear-rebirth-signet.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "sunspear-rank",
+    "en": "Sunspear rank",
+    "zhTW": "日戟稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Signet. Resurrect target dead party member at your location with full Health and 10% Energy for each Sunspear rank you have attained. This signet can only be used once per mission unless recharged by a morale boost.",
+      "zhTW": "使目標死亡盟友在你的位置復活，並且為其回復全部的體力及 10% 能量(每1日戟軍階)。此紋章在任務中只能使用一次，除非因獲得士氣提升而回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "runduk",
+          "en": "Runduk",
+          "zhTW": "Runduk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "達到 Sunspear Sergeant 稱號後，到日戟大會堂找 Runduk 領取。效果依日戟稱號等級計算，不需屬性投資。",
+        "source": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Runduk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "使目標死亡盟友在你的位置復活，並且為其回復全部的體力及 10% 能量(每1日戟軍階)。此紋章在任務中只能使用一次，除非因獲得士氣提升而回復。",
+  "commonUses": [
+    "Sunspear rank · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet",
+      "revision": 2687564,
+      "title": "Sunspear Rebirth Signet",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/52059"
+  ],
+  "descriptionEvidence": {
+    "stringId": 52060,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標死亡盟友在你的位置復活，並且為其回復全部的體力及 10%% 能量(每1日戟軍階)。此紋章在任務中只能使用一次，除非因獲得士氣提升而回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": "士氣提升後恢復；每場任務只能使用一次，除非獲得士氣提升。"
+}

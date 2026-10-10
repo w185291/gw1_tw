@@ -1,0 +1,259 @@
+{
+  "id": "anguish",
+  "name": {
+    "en": "Anguish",
+    "zhTW": "苦惱",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1745,
+  "icon": "/skills/anguish.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...9...11 spirit. This spirit's attacks deal 5...17...20 damage and deal double damage to hexed foes. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "創造一隻等級 1～11 的苦惱縛靈。此縛靈的攻擊對敵人造成 5～20 傷害，而且對被「降咒」的敵人造成的傷害加倍。縛靈將在 15～45 後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...6...7 spirit. This spirit's attacks deal 5...17...20 damage and deal double damage to hexed foes. This spirit dies after 15...39...45 seconds.",
+      "zhTW": "召喚等級 1～7 的靈體，持續 15～45 秒。攻擊造成 5～20 傷害；對受到降咒的敵人造成雙倍傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Anguish (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...6...7 spirit. This spirit's attacks deal 5...17...20 damage and deal double damage to hexed foes. This spirit dies after 15...39...45 seconds.",
+        "zhTW": "召喚等級 1～7 的靈體，持續 15～45 秒。攻擊造成 5～20 傷害；對受到降咒的敵人造成雙倍傷害。"
+      },
+      "stats": {
+        "Energy": 25.0,
+        "Activation": 1.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Anguish_%28PvP%29",
+        "revision": 2731218,
+        "title": "Anguish (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3023
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rend-ragemauler",
+          "en": "Rend Ragemauler",
+          "zhTW": "Rend Ragemauler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "the-assassin-s-revenge",
+              "en": "The Assassin's Revenge",
+              "zhTW": "The Assassin's Revenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Assassin%27s_Revenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rend Ragemauler (Sacnoth Valley, only during The Assassin's Revenge)",
+        "source": "https://wiki.guildwars.com/wiki/Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Rend_Ragemauler",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "vyrrgis-the-pestilent",
+          "en": "Vyrrgis the Pestilent",
+          "zhTW": "Vyrrgis the Pestilent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forbidden-fruit",
+              "en": "Forbidden Fruit",
+              "zhTW": "Forbidden Fruit",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forbidden_Fruit"
+          },
+          {
+            "name": {
+              "id": "single-ugly-grawl-seeks-same-for-mindless-destruction-in-ascalon",
+              "en": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+              "zhTW": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Single_Ugly_Grawl_Seeks_Same_for_Mindless_Destruction_in_Ascalon"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Vyrrgis the Pestilent (Sacnoth Valley, during Forbidden Fruit and Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Vyrrgis_the_Pestilent",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "創造一隻等級 1～11 的苦惱縛靈。此縛靈的攻擊對敵人造成 5～20 傷害，而且對被「降咒」的敵人造成的傷害加倍。縛靈將在 15～45 後消失。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anguish",
+      "revision": 2724401,
+      "title": "Anguish",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anguish_%28PvP%29",
+      "revision": 2731218,
+      "title": "Anguish (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44097",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44098,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的苦惱縛靈。此縛靈的攻擊對敵人造成 %str2% 傷害，而且對被「降咒」的敵人造成的傷害加倍。縛靈將在 %str3% 後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

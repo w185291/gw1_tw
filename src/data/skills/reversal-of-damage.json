@@ -1,0 +1,229 @@
+{
+  "pvpOnly": false,
+  "id": "reversal-of-damage",
+  "name": {
+    "en": "Reversal of Damage",
+    "zhTW": "傷害反轉",
+    "translationVerified": true
+  },
+  "clientSkillId": 1400,
+  "icon": "/skills/reversal-of-damage.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 8 seconds, the next time target ally would take damage, the foe dealing the damage takes that damage instead (maximum 5...61...75).",
+      "zhTW": "持續 8 秒，將「下一次」目標盟友受到的傷害由攻擊者承受。(最多 5～75)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ming-the-judgment",
+          "en": "Ming the Judgment",
+          "zhTW": "Ming the Judgment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ming the Judgment (The Undercity (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+        "url": "https://wiki.guildwars.com/wiki/Ming_the_Judgment",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dimsur-cheefai",
+          "en": "Dimsur Cheefai",
+          "zhTW": "Dimsur Cheefai",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Dimsur Cheefai (The Undercity (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+        "url": "https://wiki.guildwars.com/wiki/Dimsur_Cheefai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-monk",
+          "en": "Monstrous Afflicted Monk",
+          "zhTW": "Monstrous Afflicted Monk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Monk (Morostav Trail, only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Monk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 8 秒，將「下一次」目標盟友受到的傷害由攻擊者承受。(最多 5～75)",
+  "commonUses": [
+    "懲戒祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+      "revision": 2683588,
+      "title": "Reversal of Damage",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/33298"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33299,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 8 秒，將「下一次」目標盟友受到的傷害由攻擊者承受。(最多 %str1%)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

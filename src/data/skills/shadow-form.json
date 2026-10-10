@@ -1,0 +1,333 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-form",
+  "name": {
+    "en": "Shadow Form",
+    "zhTW": "暗影形態",
+    "translationVerified": true
+  },
+  "clientSkillId": 826,
+  "icon": "/skills/shadow-form.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...18...21 seconds, you cannot be the target of enemy spells, and you gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than 5...21...25 damage with a single skill or attack.",
+      "zhTW": "持續 5～21 秒，你無法成為負面魔法的目標，且身上每一項暗殺加持將使你獲得 5 傷害減免，但是你的單一技能或攻擊不會超過 5～25 傷害。"
+    },
+    "pvp": {
+      "en": "Elite Enchantment Spell. For 5...13...15 seconds, all hostile spells that target you fail and all attacks against you miss. When Shadow Form ends, lose all but 5...41...50 Health.",
+      "zhTW": "持續5～15秒，所有以你為目標的負面魔法將失效，以你為目標的攻擊將失誤。當暗影形態結束時，你將只剩下5～50體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shadow Form (PvP)",
+      "description": {
+        "en": "Elite Enchantment Spell. For 5...13...15 seconds, all hostile spells that target you fail and all attacks against you miss. When Shadow Form ends, lose all but 5...41...50 Health.",
+        "zhTW": "持續5～15秒，所有以你為目標的負面魔法將失效，以你為目標的攻擊將失誤。當暗影形態結束時，你將只剩下5～50體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 60.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Form_%28PvP%29",
+        "revision": 2629963,
+        "title": "Shadow Form (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2862
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-afflicted-soon-kim",
+          "en": "The Afflicted Soon Kim",
+          "zhTW": "The Afflicted Soon Kim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vizunah-square",
+              "en": "Vizunah Square",
+              "zhTW": "薇茹廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vizunah_Square"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Soon Kim (Vizunah Square and Sunjiang District (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Soon_Kim",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-huu",
+          "en": "The Afflicted Huu",
+          "zhTW": "The Afflicted Huu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Huu (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Huu",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-senku",
+          "en": "The Afflicted Senku",
+          "zhTW": "The Afflicted Senku",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove",
+              "en": "The Eternal Grove",
+              "zhTW": "永恆之林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove"
+          },
+          {
+            "name": {
+              "id": "unwaking-waters",
+              "en": "Unwaking Waters",
+              "zhTW": "沉睡之水",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Senku (The Eternal Grove and Unwaking Waters)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Senku",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "elusive-black-moa",
+          "en": "Elusive Black Moa",
+          "zhTW": "Elusive Black Moa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          },
+          {
+            "name": {
+              "id": "norn-catering",
+              "en": "Norn Catering",
+              "zhTW": "Norn Catering",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norn_Catering"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Elusive Black Moa (Mourning Veil Falls, during Norn Catering)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/Elusive_Black_Moa",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "fah-yu-the-shadow-s-eye",
+          "en": "Fah Yu the Shadow's Eye",
+          "zhTW": "Fah Yu the Shadow's Eye",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-marketplace",
+              "en": "The Marketplace",
+              "zhTW": "市集",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Marketplace"
+          },
+          {
+            "name": {
+              "id": "tracking-the-corruption",
+              "en": "Tracking the Corruption",
+              "zhTW": "Tracking the Corruption",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tracking_the_Corruption"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Fah Yu the Shadow's Eye (The Marketplace, during Tracking the Corruption)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/Fah_Yu_the_Shadow%27s_Eye",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "sunjiang-district-winds-of-change",
+          "en": "Sunjiang District (Winds of Change)",
+          "zhTW": "Sunjiang District (Winds of Change)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Fah Yu the Shadow's Eye (Sunjiang District (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "shensang-jinzao",
+          "en": "Shensang Jinzao",
+          "zhTW": "Shensang Jinzao",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Shensang Jinzao (Sunjiang District (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Form",
+        "url": "https://wiki.guildwars.com/wiki/Shensang_Jinzao",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 5～21 秒，你無法成為負面魔法的目標，且身上每一項暗殺加持將使你獲得 5 傷害減免，但是你的單一技能或攻擊不會超過 5～25 傷害。",
+  "commonUses": [
+    "暗影技巧 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Form",
+      "revision": 2640623,
+      "title": "Shadow Form",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Form_%28PvP%29",
+      "revision": 2629963,
+      "title": "Shadow Form (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26434",
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26435,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你無法成為負面魔法的目標，且身上每一項暗殺加持將使你獲得 %str2% 傷害減免，但是你的單一技能或攻擊不會超過 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

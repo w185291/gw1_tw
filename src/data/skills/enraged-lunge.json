@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "enraged-lunge",
+  "name": {
+    "en": "Enraged Lunge",
+    "zhTW": "暴怒衝刺",
+    "translationVerified": true
+  },
+  "clientSkillId": 1202,
+  "icon": "/skills/enraged-lunge.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "pet-attack",
+    "en": "pet attack",
+    "zhTW": "寵物攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Pet Attack. Your animal companion attempts an Enraged Lunge that applies a Deep Wound to target foe for 5...17...20 seconds and deals +10...42...50 damage.",
+      "zhTW": "你的寵物發動暴怒衝刺，並造成額外10～50傷害，並且使敵人重傷5～20秒。"
+    },
+    "pvp": {
+      "en": "Elite Pet Attack. Your animal companion attempts an Enraged Lunge that deals +3...19...23 damage (maximum bonus 60) for each recharging Beast Mastery skill.",
+      "zhTW": "你的寵物發動暴怒衝刺，並且依照你回復中的「野獸支配」技能數量，每個對目標造成 3～23 額外傷害。(最大 60 )"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Enraged Lunge (PvP)",
+      "description": {
+        "en": "Elite Pet Attack. Your animal companion attempts an Enraged Lunge that deals +3...19...23 damage (maximum bonus 60) for each recharging Beast Mastery skill.",
+        "zhTW": "你的寵物發動暴怒衝刺，並且依照你回復中的「野獸支配」技能數量，每個對目標造成 3～23 額外傷害。(最大 60 )"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Enraged_Lunge_%28PvP%29",
+        "revision": 2738428,
+        "title": "Enraged Lunge (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3051
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "royen-beastkeeper",
+          "en": "Royen Beastkeeper",
+          "zhTW": "Royen Beastkeeper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter-explorable-area",
+              "en": "Nahpui Quarter (explorable area)",
+              "zhTW": "Nahpui Quarter (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Royen Beastkeeper (Nahpui Quarter (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Lunge",
+        "url": "https://wiki.guildwars.com/wiki/Royen_Beastkeeper",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ashlyn-spiderfriend",
+          "en": "Ashlyn Spiderfriend",
+          "zhTW": "Ashlyn Spiderfriend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ashlyn Spiderfriend (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Lunge",
+        "url": "https://wiki.guildwars.com/wiki/Ashlyn_Spiderfriend",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "你的寵物發動暴怒衝刺，並造成額外10～50傷害，並且使敵人重傷5～20秒。",
+  "commonUses": [
+    "野獸支配 · 寵物攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enraged_Lunge",
+      "revision": 2733201,
+      "title": "Enraged Lunge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enraged_Lunge_%28PvP%29",
+      "revision": 2738428,
+      "title": "Enraged Lunge (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27213"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27214,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你的寵物發動暴怒衝刺，並造成額外%str1%傷害，並且使敵人重傷%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

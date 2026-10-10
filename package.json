@@ -3,14 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 127.0.0.1",
-    "build": "npm run validate:content && next build --webpack",
-    "build:static": "npm run validate:content && node scripts/build-static.mjs",
+    "dev": "tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && next dev --hostname 127.0.0.1",
+    "build": "npm run validate:content && tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && next build --webpack",
+    "build:static": "npm run validate:content && tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && node scripts/build-static.mjs",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "validate:content": "tsx scripts/validate-content.ts",
-    "research:fetch": "node scripts/fetch-wiki.mjs"
+    "research:fetch": "node scripts/fetch-wiki.mjs",
+    "validate:guides": "tsx scripts/validate-guide-content.ts",
+    "validate:skills": "tsx scripts/validate-skills.ts",
+    "export:skills": "tsx scripts/export-skill-json.ts",
+    "export:guides": "tsx scripts/export-guide-json.ts",
+    "audit:links": "node scripts/audit-static-links.mjs"
   },
   "dependencies": {
     "next": "16.4.0",

@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "kryta",
   "name": {
-    "zhTW": "聖者安息地",
+    "zhTW": "神聖沙灘",
     "en": "Sanctum Cay"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "聖者安息地",
+    "神聖沙灘",
     "Sanctum Cay",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "把權杖交給維齊爾，在碼頭守住召船儀式。",
+  "summary": "把權杖交給Vizier Khilbron，護送不安生靈到墓地，再守住碼頭。任何玩家上船會立即結束關卡，Bonus 要先做。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,38 +36,71 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "聖者安息地據點",
+    "description": "從 Stingray Strand 進入 Sanctum Cay 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Sanctum Cay 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "把權杖交給維齊爾，在碼頭守住召船儀式。"
+      "text": "把權杖交給Vizier Khilbron，在碼頭守住召船儀式。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "護送 Restless Spirit 到安息地",
+    "summary": "護送 Restless Spirit 到安息地",
+    "trigger": "生靈不會被傷害殺死，但可能被生靈、骸骨或地形卡住；保持在雷達範圍。",
+    "steps": [
+      "生靈不會被傷害殺死，但可能被生靈、骸骨或地形卡住；保持在雷達範圍。",
+      "拿權杖時要談一次，交權杖後還要再談一次；堡門鎖上前务必把它帶進去。",
+      "墓地只需小幅繞路；還沒有 Bonus 就不要上船。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "墓地只需小幅繞路；還沒有 Bonus 就不要上船。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "取權杖與生靈",
+      "content": "與 Evennia 交談取 Scepter of Orr，往南過火魔到閃電龍海灘。到海灘盡頭原圖 1，讓權杖持有人與 Restless Spirit 交談一次，讓它跟隨。"
+    },
+    {
+      "title": "沿河到堡壘",
+      "content": "沿河北走，橋附近亡靈先分群拉開。穿過毒沼與骨龍區，用拉桿開門上山；先確定生靈已经跟進門。"
+    },
+    {
+      "title": "交權杖前檢查",
+      "content": "到原圖 A 的 Vizier Khilbron，過場會收走權杖並把堡門鎖住。若生靈還在外面便無法完成 Bonus。"
+    },
+    {
+      "title": "重新讓生靈跟隨",
+      "content": "過場後再與生靈交談一次。此時不再跟權杖，而會跟最近或移動中的玩家。隨時等它，不要靠隊伍加速假設它一定跟得上。"
+    },
+    {
+      "title": "前往東岸",
+      "content": "擊退白斗篷往原圖 B 的碼頭。可沿岩壁绕到墓地附近完成 Bonus；要靠近碼頭一帶才會觸發相關事件，勿只到墓地就以為完成。"
+    },
+    {
+      "title": "防守召船",
+      "content": "Vizier Khilbron會在碼頭召喚船，敵军從兩側接近，逐波迅速清除，保护他的生命。也可先守完全部增援，留在場上做 Bonus。"
+    },
+    {
+      "title": "完成後才上船",
+      "content": "確認生靈在原圖 2 墓地完成 Bonus，再讓任意一名玩家上船。派英雄或傭兵上船不會結束。"
+    }
+  ],
+  "routeSummary": "南側火魔 → 閃電龍海灘取生靈 → 沿河往北 → 沼澤堡門 → Vizier Khilbron → 東岸碼頭與墓地 → 上船",
   "mapImage": "/maps/Sanctum_Cay_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Sanctum_Cay_map.jpg",
       "title": "主線路線圖",
-      "alt": "聖者安息地・主線路線圖",
+      "alt": "神聖沙灘・主線路線圖",
       "width": 352,
       "height": 289,
       "filePage": "https://wiki.guildwars.com/wiki/File:Sanctum_Cay_map.jpg",
@@ -78,13 +111,288 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Zaim Grimeclaw",
+        "zhTW": "Zaim Grimeclaw（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Epidemic",
+        "Ether Feast",
+        "Mantra of Inscriptions",
+        "Signet of Weariness"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Zaim_Grimeclaw",
+      "revision": 2414621,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Edgar the Iron Fist",
+        "zhTW": "Edgar the Iron Fist（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Antidote Signet",
+        "Dryder's Defenses",
+        "Pin Down",
+        "Savage Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Edgar_the_Iron_Fist",
+      "revision": 2233107,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Edgar_the_Iron_Fist"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Selwin the Fervent",
+        "zhTW": "Selwin the Fervent（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Convert Hexes",
+        "Divine Intervention",
+        "Heal Area",
+        "Judge's Insight",
+        "Restore Life",
+        "Shielding Hands"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+      "revision": 2711314,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Irwyn the Severe",
+        "zhTW": "Irwyn the Severe（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Empathy",
+        "Guilt",
+        "Shame",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Irwyn_the_Severe",
+      "revision": 2233120,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Irwyn_the_Severe"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Lamaan Wickedwail",
+        "zhTW": "Lamaan Wickedwail（繁中名稱待確認）"
+      },
+      "profession": "幻術師／元素使",
+      "importantSkills": [
+        "Chaos Storm",
+        "Aura of Restoration",
+        "Chain Lightning",
+        "Conjure Lightning",
+        "Enervating Charge"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "具有元素使與幻術師技能。離開 Chaos Storm 範圍，後排分散，避免 Chain Lightning 同時打到多名隊員；帶解除病症清 Enervating Charge 的虛弱。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+      "revision": 2138813,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Fareed the Unworthy",
+        "zhTW": "Fareed the Unworthy（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Healing Signet",
+        "Irresistible Blow",
+        "Warrior's Cunning"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fareed_the_Unworthy",
+      "revision": 2360713,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Fareed_the_Unworthy"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bone Dragon (boss)",
+        "zhTW": "Bone Dragon (boss)（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Choking Gas",
+        "Dodge",
+        "Primal Echoes",
+        "Troll Unguent",
+        "Deafening Roar"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bone_Dragon_%28boss%29",
+      "revision": 2605160,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Bone_Dragon_%28boss%29"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fariq Earthturner",
+        "zhTW": "Fariq Earthturner（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Draw Conditions",
+        "Reversal of Fortune"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fariq_Earthturner",
+      "revision": 1808453,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ghazal the Corrupter",
+        "zhTW": "Ghazal the Corrupter（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Fiend",
+        "Barbs",
+        "Desecrate Enchantments",
+        "Life Siphon"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ghazal_the_Corrupter",
+      "revision": 2430164,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Ghazal_the_Corrupter"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "沿岩壁偷走有時會意外觸發Vizier Khilbron，使他在敵群中倒下，不建議初次嘗試。"
+  ],
+  "tips": [
+    "召船一般約 2 分 20 秒，船出現不代表會自动完成，玩家仍要上船。",
+    "權杖持有提供＋1 能量再生，放下則增加附近隊友 10 點最大能量。",
+    "通關到The Amnoon Oasis（The Amnoon Oasis），開始沙漠三試煉。"
+  ],
+  "warnings": [
+    "生靈不會被傷害殺死，但可能被生靈、骸骨或地形卡住；保持在雷達範圍。",
+    "火魔有洛葛特魔咒、閃電龍有心靈電震與閃電球，准备打斷與防護。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "火魔有洛葛特魔咒、閃電龍有心靈電震與閃電球，准备打斷與防護。",
+      "可事先清碼頭東側增援區來降低壓力，但原 Wiki 对部分南側生成细节標示待查；保守做法仍是守在Vizier Khilbron旁逐波打。",
+      "沿岩壁偷走有時會意外觸發Vizier Khilbron，使他在敵群中倒下，不建議初次嘗試。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +412,122 @@
       "revision": 2730003,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Zaim Grimeclaw",
+      "url": "https://wiki.guildwars.com/wiki/Zaim_Grimeclaw",
+      "revision": 2414621,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Edgar the Iron Fist",
+      "url": "https://wiki.guildwars.com/wiki/Edgar_the_Iron_Fist",
+      "revision": 2233107,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Selwin the Fervent",
+      "url": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+      "revision": 2711314,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Irwyn the Severe",
+      "url": "https://wiki.guildwars.com/wiki/Irwyn_the_Severe",
+      "revision": 2233120,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Lamaan Wickedwail",
+      "url": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+      "revision": 2138813,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fareed the Unworthy",
+      "url": "https://wiki.guildwars.com/wiki/Fareed_the_Unworthy",
+      "revision": 2360713,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bone Dragon (boss)",
+      "url": "https://wiki.guildwars.com/wiki/Bone_Dragon_%28boss%29",
+      "revision": 2605160,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fariq Earthturner",
+      "url": "https://wiki.guildwars.com/wiki/Fariq_Earthturner",
+      "revision": 1808453,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ghazal the Corrupter",
+      "url": "https://wiki.guildwars.com/wiki/Ghazal_the_Corrupter",
+      "revision": 2430164,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "riverside-province",
   "nextMission": "dunes-of-despair",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10380"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關到The Amnoon Oasis（The Amnoon Oasis），開始沙漠三試煉。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10380
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "Sands Of Souls",
+        "zhTW": "Sands Of Souls（繁中名稱待確認）"
+      },
+      "giver": "Ghostly Hero",
+      "location": "The Amnoon Oasis",
+      "directions": "在 The Amnoon Oasis 找 Ghostly Hero 接取次要任務。步行往東南的傳送器，站進圓圈，轉身觀察開關亮起順序，依同一順序觸碰開關後傳送過峽谷。接著沿石柱到 Augury Rock 找 Great Ritual Priest Zahmut 回報。三個試煉據點要另外走到，完成順序不限；這份 Quest 是引導，不是試煉的必要前置。",
+      "url": "https://wiki.guildwars.com/wiki/Sands_Of_Souls",
+      "revision": 2725466,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "secondary"
+    }
+  ]
 }

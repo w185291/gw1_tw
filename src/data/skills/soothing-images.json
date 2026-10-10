@@ -1,0 +1,481 @@
+{
+  "pvpOnly": false,
+  "id": "soothing-images",
+  "name": {
+    "en": "Soothing Images",
+    "zhTW": "意念平靜",
+    "translationVerified": true
+  },
+  "clientSkillId": 56,
+  "icon": "/skills/soothing-images.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 8...18...20 seconds, target foe and all adjacent foes cannot gain adrenaline.",
+      "zhTW": "持續 8～20 秒，目標及其鄰近的所有敵人無法獲得怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "harnil",
+          "en": "Harnil",
+          "zhTW": "Harnil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marhan-s-grotto",
+              "en": "Marhan's Grotto",
+              "zhTW": "馬翰洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harnil (Marhan's Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Harnil",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "psion-tanglebranch",
+          "en": "Psion Tanglebranch",
+          "zhTW": "Psion Tanglebranch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "majesty-s-rest",
+              "en": "Majesty's Rest",
+              "zhTW": "王者安息處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Majesty%27s_Rest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Psion Tanglebranch (Majesty's Rest)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Psion_Tanglebranch",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "sevv-squallfroth",
+          "en": "Sevv Squallfroth",
+          "zhTW": "Sevv Squallfroth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sevv Squallfroth (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Sevv_Squallfroth",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "chak-hack-schawack",
+          "en": "Chak Hack Schawack",
+          "zhTW": "Chak Hack Schawack",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          },
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chak Hack Schawack (Diviner's Ascent, Prophet's Path, The Arid Sea, The Scar, Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Chak_Hack_Schawack",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "the-darkness-boss",
+          "en": "The Darkness (boss)",
+          "zhTW": "The Darkness (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hall-of-heroes",
+              "en": "The Hall of Heroes",
+              "zhTW": "英雄殿堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hall_of_Heroes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Darkness (The Hall of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/The_Darkness_(boss)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "zaln-the-jaded",
+          "en": "Zaln the Jaded",
+          "zhTW": "Zaln the Jaded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zaln the Jaded (D'Alessio Seaboard (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Zaln_the_Jaded",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "rahti-flower-of-dread",
+          "en": "Rahti, Flower of Dread",
+          "zhTW": "Rahti, Flower of Dread",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zehlon-reach",
+              "en": "Zehlon Reach",
+              "zhTW": "列隆流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zehlon_Reach"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rahti, Flower of Dread (Zehlon Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Rahti,_Flower_of_Dread",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "eshim-mindclouder",
+          "en": "Eshim Mindclouder",
+          "zhTW": "Eshim Mindclouder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Eshim Mindclouder (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Eshim_Mindclouder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "yamesh-mindclouder",
+          "en": "Yamesh Mindclouder",
+          "zhTW": "Yamesh Mindclouder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yamesh Mindclouder (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Yamesh_Mindclouder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Soothing_Images",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～20 秒，目標及其鄰近的所有敵人無法獲得怒氣值。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "sympathetic-visage",
+      "en": "Sympathetic Visage",
+      "zhTW": "感同身受",
+      "translationVerified": true
+    },
+    {
+      "id": "ancestor-s-visage",
+      "en": "Ancestor's Visage",
+      "zhTW": "先人容貌",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soothing_Images",
+      "revision": 2714814,
+      "title": "Soothing Images",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/24907"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24908,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標及其鄰近的所有敵人無法獲得怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

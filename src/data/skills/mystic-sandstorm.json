@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "mystic-sandstorm",
+  "name": {
+    "en": "Mystic Sandstorm",
+    "zhTW": "祕法沙風暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 1532,
+  "icon": "/skills/mystic-sandstorm.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-prayers",
+    "en": "Earth Prayers",
+    "zhTW": "地之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create a sandstorm at your location that lasts 3 seconds. Each second, foes nearby this location take 10...34...40 earth damage. Attacking foes take an additional 10...18...20 damage. If you are enchanted when you cast this spell, it lasts twice as long.",
+      "zhTW": "在你的位置創造持續 3 秒的沙風暴，每秒對附近的敵人造成 10～40 土系傷害，正在攻擊的敵人再加 10～20 土系傷害。若施展時你有加持效果，則持續時間加倍。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "在你的位置創造持續 3 秒的沙風暴，每秒對附近的敵人造成 10～40 土系傷害，正在攻擊的敵人再加 10～20 土系傷害。若施展時你有加持效果，則持續時間加倍。",
+  "commonUses": [
+    "地之祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
+      "revision": 2738606,
+      "title": "Mystic Sandstorm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/39857",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39858,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在你的位置創造持續 %str3% 秒的沙風暴，每秒對附近的敵人造成 %str1% 土系傷害，正在攻擊的敵人再加 %str2% 土系傷害。若施展時你有加持效果，則持續時間加倍。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

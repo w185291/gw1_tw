@@ -1,0 +1,288 @@
+{
+  "id": "spirit-rift",
+  "name": {
+    "en": "Spirit Rift",
+    "zhTW": "生靈裂縫",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 910,
+  "icon": "/skills/spirit-rift.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Open a Spirit Rift at target foe's location. After 3 seconds, all adjacent foes are struck for 25...105...125 lightning damage and suffer from Cracked Armor for 1...16...20 second[s].",
+      "zhTW": "於目標敵人的位置開啟生靈裂縫， 3 秒後所有鄰近敵人受到 25～125 閃電傷害且遭受碎甲 1～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "shackled-spirits",
+          "en": "Shackled Spirits",
+          "zhTW": "Shackled Spirits",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "panjiang-peninsula",
+              "en": "Panjiang Peninsula",
+              "zhTW": "班讓半島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Panjiang_Peninsula"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Shackled Spirits (Panjiang Peninsula)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Shackled_Spirits",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "calamitous",
+          "en": "Calamitous",
+          "zhTW": "Calamitous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Calamitous (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Calamitous",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "podaltur-the-angry",
+          "en": "Podaltur the Angry",
+          "zhTW": "Podaltur the Angry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Podaltur the Angry (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Podaltur_the_Angry",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "bohdalz-the-furious",
+          "en": "Bohdalz the Furious",
+          "zhTW": "Bohdalz the Furious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bohdalz the Furious (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Bohdalz_the_Furious",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "shock-of-destruction",
+          "en": "Shock of Destruction",
+          "zhTW": "Shock of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          },
+          {
+            "name": {
+              "id": "o-brave-new-world",
+              "en": "O Brave New World",
+              "zhTW": "O Brave New World",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/O_Brave_New_World"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shock of Destruction (Arbor Bay, only during O Brave New World)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Shock_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "xandra",
+          "en": "Xandra",
+          "zhTW": "珊卓亞",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Xandra",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+        "url": "https://wiki.guildwars.com/wiki/Xandra",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "於目標敵人的位置開啟生靈裂縫， 3 秒後所有鄰近敵人受到 25～125 閃電傷害且遭受碎甲 1～20 秒。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+      "revision": 2697473,
+      "title": "Spirit Rift",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27345"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27346,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "於目標敵人的位置開啟生靈裂縫， %str3% 秒後所有鄰近敵人受到 %str1% 閃電傷害且遭受碎甲 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

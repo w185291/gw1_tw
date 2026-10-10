@@ -1,0 +1,164 @@
+{
+  "id": "shelter",
+  "name": {
+    "en": "Shelter",
+    "zhTW": "庇護",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 982,
+  "icon": "/skills/shelter.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75...51...45 Health. This spirit lasts 30...54...60 seconds.",
+      "zhTW": "創造等級 1～12 的庇護縛靈。在範圍內的隊友所受到的單一攻擊，其傷害不會超過體力最大值的 10% 。當縛靈的效果發動時，縛靈將失去 75～45 體力。縛靈在 30～60 秒消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75...51...45 Health. This spirit lasts 30...54...60 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。範圍內非靈體友軍單次攻擊受傷不超過最大體力的 10%；靈體每次阻止傷害時失去 75～45 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shelter (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75...51...45 Health. This spirit lasts 30...54...60 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。範圍內非靈體友軍單次攻擊受傷不超過最大體力的 10%；靈體每次阻止傷害時失去 75～45 體力。"
+      },
+      "stats": {
+        "Energy": 25.0,
+        "Activation": 5.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shelter_%28PvP%29",
+        "revision": 2720899,
+        "title": "Shelter (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3016
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Shelter",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "降低友軍單次受傷的上限，處理大傷害很有用；每次吸收傷害都會扣靈體自身體力，因此必須留意存活與補放。",
+  "commonUses": [
+    "ST 防禦祭祀",
+    "團隊防護"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shelter",
+      "revision": 2720898,
+      "title": "Shelter",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shelter_%28PvP%29",
+      "revision": 2720899,
+      "title": "Shelter (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27385"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27386,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的庇護縛靈。在範圍內的隊友所受到的單一攻擊，其傷害不會超過體力最大值的 10%% 。當縛靈的效果發動時，縛靈將失去 %str2% 體力。縛靈在 %str3% 秒消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

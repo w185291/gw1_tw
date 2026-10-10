@@ -1,0 +1,356 @@
+{
+  "pvpOnly": false,
+  "id": "watch-yourself",
+  "name": {
+    "en": "\"Watch Yourself!\"",
+    "zhTW": "「小心！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 348,
+  "icon": "/skills/watch-yourself.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Party members within earshot gain +5...21...25 armor for 10 seconds. This shout ends after 10 incoming attacks.",
+      "zhTW": "持續10秒，音量所及範圍內的隊友防禦增加5～25，遭受10次攻擊後此戰嚎結束。"
+    },
+    "pvp": {
+      "en": "Shout. Party members within earshot gain +5...21...25 armor for 10 seconds. This shout ends after 1...3...3 incoming attack[s].",
+      "zhTW": "持續10秒，音量所及範圍內的隊友防禦增加5～25，遭受1～3次攻擊後此戰嚎結束。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"Watch Yourself!\" (PvP)",
+      "description": {
+        "en": "Shout. Party members within earshot gain +5...21...25 armor for 10 seconds. This shout ends after 1...3...3 incoming attack[s].",
+        "zhTW": "持續10秒，音量所及範圍內的隊友防禦增加5～25，遭受1～3次攻擊後此戰嚎結束。"
+      },
+      "stats": {
+        "Adrenaline": 4.0,
+        "Recharge": 4.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22_%28PvP%29",
+        "revision": 2638912,
+        "title": "\"Watch Yourself!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2858
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "supplies-for-the-duke",
+          "en": "Supplies for the Duke",
+          "zhTW": "Supplies for the Duke",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Supplies for the Duke (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Supplies_for_the_Duke",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "talon-s-duel",
+          "en": "Talon's Duel",
+          "zhTW": "Talon's Duel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Talon's Duel (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Talon%27s_Duel",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "koss",
+          "en": "Koss",
+          "zhTW": "寇斯",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Koss",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Koss",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "jora",
+          "en": "Jora",
+          "zhTW": "喬拉",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Jora",
+        "source": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Jora",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續10秒，音量所及範圍內的隊友防禦增加5～25，遭受10次攻擊後此戰嚎結束。",
+  "commonUses": [
+    "戰術 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22",
+      "revision": 2733107,
+      "title": "\"Watch Yourself!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself%21%22_%28PvP%29",
+      "revision": 2638912,
+      "title": "\"Watch Yourself!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25909"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25910,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，音量所及範圍內的隊友防禦增加%str1%，遭受%str2%次攻擊後此戰嚎結束。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

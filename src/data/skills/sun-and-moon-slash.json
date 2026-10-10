@@ -1,0 +1,164 @@
+{
+  "pvpOnly": false,
+  "id": "sun-and-moon-slash",
+  "name": {
+    "en": "Sun and Moon Slash",
+    "zhTW": "日月斬",
+    "translationVerified": true
+  },
+  "clientSkillId": 851,
+  "icon": "/skills/sun-and-moon-slash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "sword-attack",
+    "en": "Sword attack",
+    "zhTW": "劍術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 8,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Sword Attack. Attack target foe twice. These attacks cannot be blocked.",
+      "zhTW": "對目標敵人攻擊兩次，而且無法被「格擋」"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-tiendi",
+          "en": "Bound Tiendi",
+          "zhTW": "Bound Tiendi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Tiendi (Domain of Fear, only during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Tiendi",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "對目標敵人攻擊兩次，而且無法被「格擋」",
+  "commonUses": [
+    "精通劍術 · 劍術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
+      "revision": 2683933,
+      "title": "Sun and Moon Slash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26999",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27000,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人攻擊兩次，而且無法被「格擋」"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

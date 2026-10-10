@@ -1,0 +1,214 @@
+{
+  "id": "preservation",
+  "name": {
+    "en": "Preservation",
+    "zhTW": "保護",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1250,
+  "icon": "/skills/preservation.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Binding Ritual. Create a level 1...11...14 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10...94...115 Health. This spirit dies after 90 seconds.",
+      "zhTW": "創造等級 1～14 的縛靈。每 4 秒，縛靈治療一名範圍內的盟友 10～115 體力。縛靈在 90 秒後死亡。"
+    },
+    "pvp": {
+      "en": "Elite Binding Ritual. Create a level 1...8...10 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10...94...115 Health. This spirit dies after 90 seconds.",
+      "zhTW": "召喚等級 1～10 的靈體，持續 90 秒。每 4 秒為區域內一名非靈體友軍治療 10～115 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Preservation (PvP)",
+      "description": {
+        "en": "Elite Binding Ritual. Create a level 1...8...10 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10...94...115 Health. This spirit dies after 90 seconds.",
+        "zhTW": "召喚等級 1～10 的靈體，持續 90 秒。每 4 秒為區域內一名非靈體友軍治療 10～115 體力。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 3.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Preservation_%28PvP%29",
+        "revision": 2675918,
+        "title": "Preservation (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3011
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "flower-spiritgarden",
+          "en": "Flower Spiritgarden",
+          "zhTW": "Flower Spiritgarden",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Flower Spiritgarden (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Preservation",
+        "url": "https://wiki.guildwars.com/wiki/Flower_Spiritgarden",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "soulwhisper-elder-guardian",
+          "en": "Soulwhisper, Elder Guardian",
+          "zhTW": "Soulwhisper, Elder Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Soulwhisper, Elder Guardian (Gyala Hatchery (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Preservation",
+        "url": "https://wiki.guildwars.com/wiki/Soulwhisper,_Elder_Guardian",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "fozzy-yeoryios",
+          "en": "Fozzy Yeoryios",
+          "zhTW": "Fozzy Yeoryios",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Fozzy Yeoryios (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Preservation",
+        "url": "https://wiki.guildwars.com/wiki/Fozzy_Yeoryios",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "創造等級 1～14 的縛靈。每 4 秒，縛靈治療一名範圍內的盟友 10～115 體力。縛靈在 90 秒後死亡。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Preservation",
+      "revision": 2729186,
+      "title": "Preservation",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Preservation_%28PvP%29",
+      "revision": 2675918,
+      "title": "Preservation (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27373"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27376,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的縛靈。每 4 秒，縛靈治療一名範圍內的盟友 %str2% 體力。縛靈在 %str3% 秒後死亡。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

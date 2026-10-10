@@ -1,0 +1,485 @@
+{
+  "pvpOnly": false,
+  "id": "harrier-s-toss",
+  "name": {
+    "en": "Harrier's Toss",
+    "zhTW": "獵捕者投擲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1549,
+  "icon": "/skills/harrier-s-toss.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "spear-mastery",
+    "en": "Spear Mastery",
+    "zhTW": "矛術精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spear-attack",
+    "en": "Spear attack",
+    "zhTW": "矛術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spear Attack. If this attack hits, you deal +5...17...20 damage. If this attack hits a moving foe, it deals an additional 5...33...40 damage.",
+      "zhTW": "攻擊命中時對目標造成 5～20 額外傷害。若擊中「移動中」的目標，對其再造成 5～40 額外傷害。"
+    },
+    "pvp": {
+      "en": "Spear Attack. If this attack hits, you deal +5...17...20 damage. If this attack hits a moving foe, it deals an additional 5...33...40 damage.",
+      "zhTW": "攻擊命中時對目標造成 5～20 額外傷害。若擊中「移動中」的目標，對其再造成 5～40 額外傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Harrier's Toss (PvP)",
+      "description": {
+        "en": "Spear Attack. If this attack hits, you deal +5...17...20 damage. If this attack hits a moving foe, it deals an additional 5...33...40 damage.",
+        "zhTW": "攻擊命中時對目標造成 5～20 額外傷害。若擊中「移動中」的目標，對其再造成 5～40 額外傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss_%28PvP%29",
+        "revision": 2738474,
+        "title": "Harrier's Toss (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2875
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "midshipman-bennis",
+          "en": "Midshipman Bennis",
+          "zhTW": "Midshipman Bennis",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chahbek-village",
+              "en": "Chahbek Village",
+              "zhTW": "夏貝克村莊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chahbek_Village"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Midshipman Bennis (Chahbek Village)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Midshipman_Bennis",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "cursed-salihm",
+          "en": "Cursed Salihm",
+          "zhTW": "Cursed Salihm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "following-the-trail",
+              "en": "Following the Trail",
+              "zhTW": "Following the Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Following_the_Trail"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Cursed Salihm (Cliffs of Dohjok, only during Following the Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Cursed_Salihm",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "lieutenant-mahrik",
+          "en": "Lieutenant Mahrik",
+          "zhTW": "Lieutenant Mahrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Mahrik (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Mahrik",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "lieutenant-silmok",
+          "en": "Lieutenant Silmok",
+          "zhTW": "Lieutenant Silmok",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lahtenda-bog",
+              "en": "Lahtenda Bog",
+              "zhTW": "洛天帝沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Silmok (Lahtenda Bog)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Silmok",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "eshau-longspear",
+          "en": "Eshau Longspear",
+          "zhTW": "Eshau Longspear",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Eshau Longspear (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Eshau_Longspear",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "lieutenant-shagu",
+          "en": "Lieutenant Shagu",
+          "zhTW": "Lieutenant Shagu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Shagu (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Shagu",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "yakun-trueshot",
+          "en": "Yakun Trueshot",
+          "zhTW": "Yakun Trueshot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "moddok-crevice",
+              "en": "Moddok Crevice",
+              "zhTW": "摩多克裂縫",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yakun Trueshot (Moddok Crevice)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Yakun_Trueshot",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "render",
+          "en": "Render",
+          "zhTW": "Render",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forum-highlands",
+              "en": "Forum Highlands",
+              "zhTW": "高地廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forum_Highlands"
+          },
+          {
+            "name": {
+              "id": "desperate-measures",
+              "en": "Desperate Measures",
+              "zhTW": "Desperate Measures",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Desperate_Measures"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Render (Forum Highlands, only during Desperate Measures)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Render",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "scratcher",
+          "en": "Scratcher",
+          "zhTW": "Scratcher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wilderness-of-bahdza",
+              "en": "Wilderness of Bahdza",
+              "zhTW": "巴薩荒野",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wilderness_of_Bahdza"
+          },
+          {
+            "name": {
+              "id": "destroy-the-harpies",
+              "en": "Destroy the Harpies",
+              "zhTW": "Destroy the Harpies",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destroy_the_Harpies"
+          },
+          {
+            "name": {
+              "id": "population-control",
+              "en": "Population Control",
+              "zhTW": "Population Control",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Population_Control"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Scratcher (Wilderness of Bahdza, before completion of Destroy the Harpies and during Population Control)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Scratcher",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "screecher",
+          "en": "Screecher",
+          "zhTW": "Screecher",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Screecher (Wilderness of Bahdza, before completion of Destroy the Harpies and during Population Control)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Screecher",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "kunan-the-loudmouth",
+          "en": "Kunan the Loudmouth",
+          "zhTW": "Kunan the Loudmouth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "extinction",
+              "en": "Extinction",
+              "zhTW": "Extinction",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Extinction"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kunan the Loudmouth (Wilderness of Bahdza, after completion of Extinction)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Kunan_the_Loudmouth",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "攻擊命中時對目標造成 5～20 額外傷害。若擊中「移動中」的目標，對其再造成 5～40 額外傷害。",
+  "commonUses": [
+    "矛術精通 · 矛術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
+      "revision": 2733245,
+      "title": "Harrier's Toss",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss_%28PvP%29",
+      "revision": 2738474,
+      "title": "Harrier's Toss (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/33308"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33309,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "攻擊命中時對目標造成 %str1% 額外傷害。若擊中「移動中」的目標，對其再造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

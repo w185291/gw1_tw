@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "incendiary-arrows",
+  "name": {
+    "en": "Incendiary Arrows",
+    "zhTW": "燃燒之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 428,
+  "icon": "/skills/incendiary-arrows.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. Shoot arrows at target foe and up to 2 foes near your target. Those foes are set on fire for 1...3...3 second[s].",
+      "zhTW": "同時攻擊目標以及目標附近的最多2個敵人，造成著火1～3秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "casses-flameweb",
+          "en": "Casses Flameweb",
+          "zhTW": "Casses Flameweb",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Casses Flameweb (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Incendiary_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Casses_Flameweb",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "confessor-isaiah",
+          "en": "Confessor Isaiah",
+          "zhTW": "Confessor Isaiah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Confessor Isaiah (The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Incendiary_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Confessor_Isaiah",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "同時攻擊目標以及目標附近的最多2個敵人，造成著火1～3秒。",
+  "commonUses": [
+    "求生 · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Incendiary_Arrows",
+      "revision": 2727141,
+      "title": "Incendiary Arrows",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26214",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26215,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "同時攻擊目標以及目標附近的最多%str1%個敵人，造成著火%str2%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

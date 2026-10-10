@@ -1,0 +1,314 @@
+{
+  "pvpOnly": false,
+  "id": "soul-barbs",
+  "name": {
+    "en": "Soul Barbs",
+    "zhTW": "靈魂荊棘",
+    "translationVerified": true
+  },
+  "clientSkillId": 100,
+  "icon": "/skills/soul-barbs.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 30 seconds, target foe takes 15...27...30 damage when an enchantment or hex is cast on that target.",
+      "zhTW": "持續 30 秒，當目標敵人被施展「加持」或「降咒」時，受到 15～30 的傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-accursed-path",
+          "en": "The Accursed Path",
+          "zhTW": "The Accursed Path",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-catacombs",
+              "en": "The Catacombs",
+              "zhTW": "地下墓穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Catacombs"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Accursed Path (The Catacombs - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/The_Accursed_Path",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "geck-the-coldblooded",
+          "en": "Geck the Coldblooded",
+          "zhTW": "Geck the Coldblooded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Geck the Coldblooded (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Geck_the_Coldblooded",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "gambol-the-headrainer",
+          "en": "Gambol the Headrainer",
+          "zhTW": "Gambol the Headrainer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gambol the Headrainer (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Gambol_the_Headrainer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "skigg-the-tongue",
+          "en": "Skigg the Tongue",
+          "zhTW": "Skigg the Tongue",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skigg the Tongue (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "eepeep-the-mindrain",
+          "en": "Eepeep the Mindrain",
+          "zhTW": "Eepeep the Mindrain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eepeep the Mindrain (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+        "url": "https://wiki.guildwars.com/wiki/Eepeep_the_Mindrain",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，當目標敵人被施展「加持」或「降咒」時，受到 15～30 的傷害。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+      "revision": 2738610,
+      "title": "Soul Barbs",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25020"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25021,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 30 秒，當目標敵人被施展「加持」或「降咒」時，受到 %str1% 的傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

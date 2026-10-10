@@ -1,0 +1,136 @@
+{
+  "id": "anguished-was-lingwah",
+  "name": {
+    "en": "Anguished Was Lingwah",
+    "zhTW": "苦痛者琳葳",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1223,
+  "icon": "/skills/anguished-was-lingwah.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "Item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Item Spell. Hold Lingwah's ashes for up to 10...50...60 seconds. While you hold her ashes, your Ritualist hexes cost 1...4...5 less energy and last 50% longer. When you drop her ashes all your Ritualist hexes are recharged.",
+      "zhTW": "最多可抱持 10～60 秒，你所有祭祀者降咒消耗能量減少 1～5 且持續時間增加 50% 。當你丟下她的骨灰時，你所有祭祀者降咒立即回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "最多可抱持 10～60 秒，你所有祭祀者降咒消耗能量減少 1～5 且持續時間增加 50% 。當你丟下她的骨灰時，你所有祭祀者降咒立即回復。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah",
+      "revision": 2734459,
+      "title": "Anguished Was Lingwah",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27283"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27284,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多可抱持 %str3% 秒，你所有祭祀者降咒消耗能量減少 %str1% 且持續時間增加 %str2%%% 。當你丟下她的骨灰時，你所有祭祀者降咒立即回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

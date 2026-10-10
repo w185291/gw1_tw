@@ -1,0 +1,128 @@
+{
+  "id": "resilient-was-xiko",
+  "name": {
+    "en": "Resilient Was Xiko",
+    "zhTW": "恢復者新科"
+  },
+  "clientSkillId": 1221,
+  "icon": "/skills/resilient-was-xiko.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "Item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Item Spell. Hold Xiko's ashes for up to 5...17...20 seconds. For each hex or condition you are suffering from while holding her ashes, you gain +3 Health regeneration. When you drop her ashes, you lose 1...3...4 conditions.[sic]",
+      "zhTW": "最多能夠抱持 5～20 秒。當抱持新科的骨灰時，你遭受的每項「降咒」和「病症」使你獲得體力再生增加 3 。而當你丟下新科的骨灰時，消除自己身上的 1～4 項「病症」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "最多能夠抱持 5～20 秒。當抱持新科的骨灰時，你遭受的每項「降咒」和「病症」使你獲得體力再生增加 3 。而當你丟下新科的骨灰時，消除自己身上的 1～4 項「病症」。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko",
+      "revision": 2684068,
+      "title": "Resilient Was Xiko",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27277"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27278,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多能夠抱持 %str3% 秒。當抱持新科的骨灰時，你遭受的每項「降咒」和「病症」使你獲得體力再生增加 %str1% 。而當你丟下新科的骨灰時，消除自己身上的 %str2% 項「病症」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "gaze-of-contempt",
+  "name": {
+    "en": "Gaze of Contempt",
+    "zhTW": "輕蔑凝視",
+    "translationVerified": true
+  },
+  "clientSkillId": 766,
+  "icon": "/skills/gaze-of-contempt.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. If target foe has more than 50% Health, that foe loses all enchantments.",
+      "zhTW": "若目標敵人的體力超過 50% ，則使其失去所有「加持」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "degaz-the-cynical",
+          "en": "Degaz the Cynical",
+          "zhTW": "Degaz the Cynical",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Degaz the Cynical (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+        "url": "https://wiki.guildwars.com/wiki/Degaz_the_Cynical",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "willem-the-demeaning",
+          "en": "Willem the Demeaning",
+          "zhTW": "Willem the Demeaning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-assassination",
+              "en": "Riverside Assassination",
+              "zhTW": "Riverside Assassination",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Assassination"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Willem the Demeaning (Riverside Province (explorable area), during Riverside Assassination)",
+        "source": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+        "url": "https://wiki.guildwars.com/wiki/Willem_the_Demeaning",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "若目標敵人的體力超過 50% ，則使其失去所有「加持」。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+      "revision": 2726491,
+      "title": "Gaze of Contempt",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/26646"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26647,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人的體力超過 %str1%%% ，則使其失去所有「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

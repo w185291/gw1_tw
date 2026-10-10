@@ -1,0 +1,423 @@
+{
+  "pvpOnly": false,
+  "id": "power-drain",
+  "name": {
+    "en": "Power Drain",
+    "zhTW": "強力吸收",
+    "translationVerified": true
+  },
+  "clientSkillId": 25,
+  "icon": "/skills/power-drain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Spell. If target foe is casting a spell or chant, that skill is interrupted and you gain 1...25...31 Energy.",
+      "zhTW": "若目標敵人正在施展「魔法」或 「聖歌」，則該目標的動作被中斷，而且你獲得 1～31 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "pello-agileclaw",
+          "en": "Pello Agileclaw",
+          "zhTW": "Pello Agileclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pello Agileclaw (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Pello_Agileclaw",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "asynd-blindingclaw",
+          "en": "Asynd Blindingclaw",
+          "zhTW": "Asynd Blindingclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Asynd Blindingclaw (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Asynd_Blindingclaw",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "wilderm-wrathspew",
+          "en": "Wilderm Wrathspew",
+          "zhTW": "Wilderm Wrathspew",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Wilderm Wrathspew (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Wilderm_Wrathspew",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "waray-skullflayer",
+          "en": "Waray Skullflayer",
+          "zhTW": "Waray Skullflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Waray Skullflayer (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Waray_Skullflayer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-beld",
+          "en": "Taskmaster Beld",
+          "zhTW": "Taskmaster Beld",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Beld (Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Beld",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gwen",
+          "en": "Gwen",
+          "zhTW": "關",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking 關",
+        "source": "https://wiki.guildwars.com/wiki/Power_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Gwen",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "若目標敵人正在施展「魔法」或 「聖歌」，則該目標的動作被中斷，而且你獲得 1～31 能量。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Power_Drain",
+      "revision": 2683765,
+      "title": "Power Drain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24845",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24846,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人正在施展「魔法」或 「聖歌」，則該目標的動作被中斷，而且你獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

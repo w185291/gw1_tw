@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "bestial-mauling",
+  "name": {
+    "en": "Bestial Mauling",
+    "zhTW": "獸性之爪",
+    "translationVerified": true
+  },
+  "clientSkillId": 1203,
+  "icon": "/skills/bestial-mauling.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "pet-attack",
+    "en": "Pet attack",
+    "zhTW": "寵物攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Pet Attack. Your animal companion attempts a Bestial Mauling that deals +5...17...20 damage. If the attack strikes a knocked-down foe, that foe is Dazed for 4...9...10 seconds.",
+      "zhTW": "你的寵物發動獸性之爪對目標造成 5～20 額外傷害。若攻擊命中倒地的敵人，則使其遭受「暈眩」病症 4～10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Bestial_Mauling",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "你的寵物發動獸性之爪對目標造成 5～20 額外傷害。若攻擊命中倒地的敵人，則使其遭受「暈眩」病症 4～10 秒。",
+  "commonUses": [
+    "野獸支配 · 寵物攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bestial_Mauling",
+      "revision": 2732687,
+      "title": "Bestial Mauling",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27215"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27216,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你的寵物發動獸性之爪對目標造成 %str1% 額外傷害。若攻擊命中倒地的敵人，則使其遭受「暈眩」病症 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

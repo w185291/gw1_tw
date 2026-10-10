@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "spike-trap",
+  "name": {
+    "en": "Spike Trap",
+    "zhTW": "尖刺陷阱",
+    "translationVerified": true
+  },
+  "clientSkillId": 461,
+  "icon": "/skills/spike-trap.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "trap",
+    "en": "trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Trap. When Spike Trap is triggered, every second (for 2 seconds), all nearby foes are struck for 10...34...40 piercing damage, become Crippled for 3...21...25 seconds, and are knocked down. Spike Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+      "zhTW": "持續90秒，當此陷阱觸發時，每秒(共2秒)對附近敵人造成10～40穿刺傷害，造成擊倒以及殘廢3～25秒，施展此技能時容易被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vulg-painbrain",
+          "en": "Vulg Painbrain",
+          "zhTW": "Vulg Painbrain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vulg Painbrain (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Spike_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Vulg_Painbrain",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "meynsang-the-sadistic",
+          "en": "Meynsang the Sadistic",
+          "zhTW": "Meynsang the Sadistic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pongmei-valley",
+              "en": "Pongmei Valley",
+              "zhTW": "朋美谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Meynsang the Sadistic (Pongmei Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Spike_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Meynsang_the_Sadistic",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "vah-the-crafty",
+          "en": "Vah the Crafty",
+          "zhTW": "Vah the Crafty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Vah the Crafty (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Spike_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Vah_the_Crafty",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續90秒，當此陷阱觸發時，每秒(共2秒)對附近敵人造成10～40穿刺傷害，造成擊倒以及殘廢3～25秒，施展此技能時容易被中斷。",
+  "commonUses": [
+    "求生 · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spike_Trap",
+      "revision": 2684961,
+      "title": "Spike Trap",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26280"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26281,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，當此陷阱觸發時，每秒(共2秒)對附近敵人造成%str1%穿刺傷害，造成擊倒以及殘廢%str2%秒，施展此技能時容易被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

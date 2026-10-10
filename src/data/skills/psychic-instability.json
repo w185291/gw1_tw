@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "psychic-instability",
+  "name": {
+    "en": "Psychic Instability",
+    "zhTW": "精神失衡",
+    "translationVerified": true
+  },
+  "clientSkillId": 1057,
+  "icon": "/skills/psychic-instability.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fast-casting",
+    "en": "Fast Casting",
+    "zhTW": "快速施法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Interrupt the target foe's action. If that action was a skill, that foe and nearby foes are knocked down for 2...4...4 seconds. (50% failure chance with Fast Casting 4 or less.)",
+      "zhTW": "中斷目標敵人動作。若成功中斷技能，將擊倒目標及其附近敵人 2～4 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)"
+    },
+    "pvp": {
+      "en": "Elite Spell. Interrupts the target foe's action. If that action is a skill, that foe and all adjacent foes are knocked down for 2...3...3 seconds. (50% failure chance with Fast Casting 4 or less.)",
+      "zhTW": "中斷目標敵人動作。若成功中斷技能，將擊倒目標及其鄰近敵人 2～3 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Psychic Instability (PvP)",
+      "description": {
+        "en": "Elite Spell. Interrupts the target foe's action. If that action is a skill, that foe and all adjacent foes are knocked down for 2...3...3 seconds. (50% failure chance with Fast Casting 4 or less.)",
+        "zhTW": "中斷目標敵人動作。若成功中斷技能，將擊倒目標及其鄰近敵人 2～3 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Psychic_Instability_%28PvP%29",
+        "revision": 2731206,
+        "title": "Psychic Instability (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3185
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chazek-plague-herder",
+          "en": "Chazek Plague Herder",
+          "zhTW": "Chazek Plague Herder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters-explorable-area",
+              "en": "Unwaking Waters (explorable area)",
+              "zhTW": "Unwaking Waters (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chazek Plague Herder (Unwaking Waters (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Psychic_Instability",
+        "url": "https://wiki.guildwars.com/wiki/Chazek_Plague_Herder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "中斷目標敵人動作。若成功中斷技能，將擊倒目標及其附近敵人 2～4 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)",
+  "commonUses": [
+    "快速施法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Psychic_Instability",
+      "revision": 2736364,
+      "title": "Psychic Instability",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Psychic_Instability_%28PvP%29",
+      "revision": 2731206,
+      "title": "Psychic Instability (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26560",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26561,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "中斷目標敵人動作。若成功中斷技能，將擊倒目標及其附近敵人 %str1% 秒。(若快速施展沒有超過 4 將有 50%% 失敗機率)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

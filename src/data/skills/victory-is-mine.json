@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "victory-is-mine",
+  "name": {
+    "en": "\"Victory Is Mine!\"",
+    "zhTW": "「勝利在我！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 365,
+  "icon": "/skills/victory-is-mine.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. You gain 10...56...68 Health and 3...6...7 Energy for each condition suffered by target foe.",
+      "zhTW": "依照目標敵人身上的病症數量，每個使你獲得10～68體力以及3～7能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jono-yawpyawl",
+          "en": "Jono Yawpyawl",
+          "zhTW": "Jono Yawpyawl",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          },
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jono Yawpyawl (Talus Chute and Spearhead Peak)",
+        "source": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Jono_Yawpyawl",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sakalo-yawpyawl",
+          "en": "Sakalo Yawpyawl",
+          "zhTW": "Sakalo Yawpyawl",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sakalo Yawpyawl (Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Sakalo_Yawpyawl",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "依照目標敵人身上的病症數量，每個使你獲得10～68體力以及3～7能量。",
+  "commonUses": [
+    "戰術 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine%21%22",
+      "revision": 2726455,
+      "title": "\"Victory Is Mine!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25945"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25946,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "依照目標敵人身上的病症數量，每個使你獲得%str1%體力以及%str2%能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

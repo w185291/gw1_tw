@@ -1,0 +1,290 @@
+{
+  "pvpOnly": false,
+  "id": "reap-impurities",
+  "name": {
+    "en": "Reap Impurities",
+    "zhTW": "污穢回收",
+    "translationVerified": true
+  },
+  "clientSkillId": 1486,
+  "icon": "/skills/reap-impurities.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, you deal +3...13...15 damage. Each foe you hit loses 1 condition. For each foe who loses a condition, all foes adjacent to that target foe take 10...34...40 holy damage.",
+      "zhTW": "命中時造成 3～15 額外傷害，被擊中的敵人將失去一項病症，每一名失去病症者，將使鄰近敵人受到 10～40 神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ensign-jahan",
+          "en": "Ensign Jahan",
+          "zhTW": "Ensign Jahan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ensign Jahan (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Ensign_Jahan",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "dabineh-deathbringer",
+          "en": "Dabineh Deathbringer",
+          "zhTW": "Dabineh Deathbringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dabineh Deathbringer (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Dabineh_Deathbringer",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "captain-mhedi",
+          "en": "Captain Mhedi",
+          "zhTW": "Captain Mhedi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Mhedi (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Mhedi",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "corsair-commander-dervish",
+          "en": "Corsair Commander (dervish)",
+          "zhTW": "Corsair Commander (dervish)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dajkah-inlet",
+              "en": "Dajkah Inlet",
+              "zhTW": "達卡港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corsair Commander (Dajkah Inlet)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Corsair_Commander_(dervish)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "taameh-the-frigid",
+          "en": "Taameh the Frigid",
+          "zhTW": "Taameh the Frigid",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taameh the Frigid (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Taameh_the_Frigid",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "命中時造成 3～15 額外傷害，被擊中的敵人將失去一項病症，每一名失去病症者，將使鄰近敵人受到 10～40 神聖傷害。",
+  "commonUses": [
+    "鐮刀精通 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+      "revision": 2733227,
+      "title": "Reap Impurities",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33339"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33340,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，被擊中的敵人將失去一項病症，每一名失去病症者，將使鄰近敵人受到 %str2% 神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,133 @@
+{
+  "id": "lively-was-naomei",
+  "name": {
+    "en": "Lively Was Naomei",
+    "zhTW": "復活者娜歐梅",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1222,
+  "icon": "/skills/lively-was-naomei.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "Item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 6.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Item Spell. Hold Naomei's ashes for up to 45 seconds. When you drop her ashes, all party members in the area are resurrected with 15...63...75% Health and zero Energy.",
+      "zhTW": "最多能夠抱持 45 秒，當你丟下娜歐梅的骨灰時，區域內的所有死亡隊友將復活並回復 15～75% 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "最多能夠抱持 45 秒，當你丟下娜歐梅的骨灰時，區域內的所有死亡隊友將復活並回復 15～75% 體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei",
+      "revision": 2732794,
+      "title": "Lively Was Naomei",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27279",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27280,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多能夠抱持 %str3% 秒，當你丟下娜歐梅的骨灰時，區域內的所有死亡隊友將復活並回復 %str1%%% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

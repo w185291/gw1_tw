@@ -1,0 +1,484 @@
+{
+  "pvpOnly": false,
+  "id": "soul-feast",
+  "name": {
+    "en": "Soul Feast",
+    "zhTW": "靈魂饗宴",
+    "translationVerified": true
+  },
+  "clientSkillId": 96,
+  "icon": "/skills/soul-feast.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Exploit nearest corpse to gain 50...234...280 Health.",
+      "zhTW": "利用最接近你的屍體獲得 50～280 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "fallen-soldiers",
+          "en": "Fallen Soldiers",
+          "zhTW": "Fallen Soldiers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "piken-square",
+              "en": "Piken Square",
+              "zhTW": "派肯廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fallen Soldiers (Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Fallen_Soldiers",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "reaping-the-naga",
+          "en": "Reaping the Naga",
+          "zhTW": "Reaping the Naga",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "panjiang-peninsula",
+              "en": "Panjiang Peninsula",
+              "zhTW": "班讓半島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Panjiang_Peninsula"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Reaping the Naga (Panjiang Peninsula)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Reaping_the_Naga",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "durnar-skullcracker",
+          "en": "Durnar Skullcracker",
+          "zhTW": "Durnar Skullcracker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Durnar Skullcracker (The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Durnar_Skullcracker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "rawr-wildeye",
+          "en": "Rawr Wildeye",
+          "zhTW": "Rawr Wildeye",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rawr Wildeye (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Rawr_Wildeye",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "ryn-cursewing",
+          "en": "Ryn Cursewing",
+          "zhTW": "Ryn Cursewing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ryn Cursewing (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Ryn_Cursewing",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "glyd-swiftwing",
+          "en": "Glyd Swiftwing",
+          "zhTW": "Glyd Swiftwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Glyd Swiftwing (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Glyd_Swiftwing",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "gryp-wickedwing",
+          "en": "Gryp Wickedwing",
+          "zhTW": "Gryp Wickedwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gryp Wickedwing (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Gryp_Wickedwing",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "drech-galumph",
+          "en": "Drech Galumph",
+          "zhTW": "Drech Galumph",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Drech Galumph (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Drech_Galumph",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "grech-trundle",
+          "en": "Grech Trundle",
+          "zhTW": "Grech Trundle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Grech Trundle (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Grech_Trundle",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "flesheater",
+          "en": "Flesheater",
+          "zhTW": "Flesheater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flesheater (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Flesheater",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "利用最接近你的屍體獲得 50～280 體力。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soul_Feast",
+      "revision": 2684784,
+      "title": "Soul Feast",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25012",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25013,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "利用最接近你的屍體獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

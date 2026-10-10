@@ -1,0 +1,367 @@
+{
+  "pvpOnly": false,
+  "id": "sprint",
+  "name": {
+    "en": "Sprint",
+    "zhTW": "衝刺",
+    "translationVerified": true
+  },
+  "clientSkillId": 349,
+  "icon": "/skills/sprint.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 8...13...14 seconds, you move 25% faster.",
+      "zhTW": "持續 8～14 秒，使你的移動速度增加 25% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "military-matters",
+          "en": "Military Matters",
+          "zhTW": "Military Matters",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Military Matters (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Military_Matters",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "snaring-course",
+          "en": "Snaring Course",
+          "zhTW": "Snaring Course",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Snaring Course (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Snaring_Course",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "secondary-training",
+              "en": "Secondary Training",
+              "zhTW": "Secondary Training",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Secondary_Training"
+          },
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training/Secondary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Sprint",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～14 秒，使你的移動速度增加 25% 。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sprint",
+      "revision": 2684282,
+      "title": "Sprint",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25912",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25913,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你的移動速度增加 25%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

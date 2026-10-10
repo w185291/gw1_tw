@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "wearying-strike",
+  "name": {
+    "en": "Wearying Strike",
+    "zhTW": "耗竭攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1537,
+  "icon": "/skills/wearying-strike.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "scythe-attack",
+    "en": "Scythe attack",
+    "zhTW": "鐮刀攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Scythe Attack. You remove 1 Dervish enchantment. If an enchantment was removed, you inflict a Deep Wound for 3...9...10 seconds. You suffer from Weakness for 10 seconds if an enchantment is not removed.",
+      "zhTW": "移除自身一項神喚使加持，若移除成功，造成敵人重傷 3～10 秒。若沒有移除到加持，則你遭受虛弱 10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Wearying_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Wearying_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "移除自身一項神喚使加持，若移除成功，造成敵人重傷 3～10 秒。若沒有移除到加持，則你遭受虛弱 10 秒。",
+  "commonUses": [
+    "鐮刀精通 · 鐮刀攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wearying_Strike",
+      "revision": 2684212,
+      "title": "Wearying Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/36365"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36366,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除自身一項神喚使加持，若移除成功，造成敵人重傷 %str2% 秒。若沒有移除到加持，則你遭受虛弱 10 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,157 @@
+{
+  "pvpOnly": false,
+  "id": "bladeturn-refrain",
+  "name": {
+    "en": "Bladeturn Refrain",
+    "zhTW": "刃轉合聲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1580,
+  "icon": "/skills/bladeturn-refrain.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "echo",
+    "en": "Echo",
+    "zhTW": "Echo",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Echo. For 20 seconds, target non-spirit ally has a 5...17...20% chance to block incoming attacks. This echo is reapplied every time a chant or shout ends on that ally.",
+      "zhTW": "持續20秒，非靈的目標盟友5～20%機率格檔攻擊，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+    },
+    "pvp": {
+      "en": "Echo. For 20 seconds, target non-spirit ally has +10...34...40 armor against slashing damage. This echo is reapplied every time a chant or shout ends on that ally.",
+      "zhTW": "持續20秒，非靈的目標盟友對砍擊的防禦增加10～40，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Bladeturn Refrain (PvP)",
+      "description": {
+        "en": "Echo. For 20 seconds, target non-spirit ally has +10...34...40 armor against slashing damage. This echo is reapplied every time a chant or shout ends on that ally.",
+        "zhTW": "持續20秒，非靈的目標盟友對砍擊的防禦增加10～40，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_%28PvP%29",
+        "revision": 2733307,
+        "title": "Bladeturn Refrain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3029
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續20秒，非靈的目標盟友5～20%機率格檔攻擊，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。",
+  "commonUses": [
+    "命令 · Echo"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain",
+      "revision": 2732888,
+      "title": "Bladeturn Refrain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_%28PvP%29",
+      "revision": 2733307,
+      "title": "Bladeturn Refrain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/37002"
+  ],
+  "descriptionEvidence": {
+    "stringId": 37003,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，非靈的目標盟友%str1%%%機率格檔攻擊，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

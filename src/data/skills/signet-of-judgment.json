@@ -1,0 +1,360 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-judgment",
+  "name": {
+    "en": "Signet of Judgment",
+    "zhTW": "制裁紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 294,
+  "icon": "/skills/signet-of-judgment.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. Target foe is knocked down. That foe and all adjacent foes take 15...63...75 holy damage.",
+      "zhTW": "擊倒目標，對目標以及鄰近敵人造成15～75神聖傷害。"
+    },
+    "pvp": {
+      "en": "Elite Signet. Target foe is knocked down. That foe and all adjacent foes take 5...41...50 holy damage. This signet has half the normal range.",
+      "zhTW": "擊倒目標，對目標以及鄰近敵人造成5～50神聖傷害，此技能的施展距離為普通的一半。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Judgment (PvP)",
+      "description": {
+        "en": "Elite Signet. Target foe is knocked down. That foe and all adjacent foes take 5...41...50 holy damage. This signet has half the normal range.",
+        "zhTW": "擊倒目標，對目標以及鄰近敵人造成5～50神聖傷害，此技能的施展距離為普通的一半。"
+      },
+      "stats": {
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Judgment_%28PvP%29",
+        "revision": 2630016,
+        "title": "Signet of Judgment (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2887
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "fawl-driftstalker",
+          "en": "Fawl Driftstalker",
+          "zhTW": "Fawl Driftstalker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fawl Driftstalker (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Fawl_Driftstalker",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "frostbite",
+          "en": "Frostbite",
+          "zhTW": "Frostbite",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          },
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Frostbite (Ice Floe and Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Frostbite",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "balt-duskstrider",
+          "en": "Balt Duskstrider",
+          "zhTW": "Balt Duskstrider",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Balt Duskstrider (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Balt_Duskstrider",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kaijun-don",
+          "en": "Kaijun Don",
+          "zhTW": "Kaijun Don",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter",
+              "en": "Nahpui Quarter",
+              "zhTW": "納普區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kaijun Don (Nahpui Quarter)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Kaijun_Don",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "scourgewind-elder-guardian",
+          "en": "Scourgewind, Elder Guardian",
+          "zhTW": "Scourgewind, Elder Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Scourgewind, Elder Guardian (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Scourgewind,_Elder_Guardian",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tainted-zunraa",
+          "en": "Tainted Zunraa",
+          "zhTW": "Tainted Zunraa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun-winds-of-change",
+              "en": "Zen Daijun (Winds of Change)",
+              "zhTW": "Zen Daijun (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "cleansing-zen-daijun",
+              "en": "Cleansing Zen Daijun",
+              "zhTW": "Cleansing Zen Daijun",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Zen_Daijun"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tainted Zunraa (Zen Daijun (Winds of Change), during Cleansing Zen Daijun)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Tainted_Zunraa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "hamlen-the-fallen",
+          "en": "Hamlen the Fallen",
+          "zhTW": "Hamlen the Fallen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hamlen the Fallen (The Ruptured Heart)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Hamlen_the_Fallen",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "rukkassa",
+          "en": "Rukkassa",
+          "zhTW": "Rukkassa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          },
+          {
+            "name": {
+              "id": "invasion-from-within",
+              "en": "Invasion From Within",
+              "zhTW": "Invasion From Within",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Invasion_From_Within"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rukkassa (Nightfallen Jahai, during Invasion From Within)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Rukkassa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "擊倒目標，對目標以及鄰近敵人造成15～75神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+      "revision": 2718879,
+      "title": "Signet of Judgment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Judgment_%28PvP%29",
+      "revision": 2630016,
+      "title": "Signet of Judgment (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25798"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25799,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "擊倒目標，對目標以及鄰近敵人造成%str1%神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

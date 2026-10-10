@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "amity",
+  "name": {
+    "en": "Amity",
+    "zhTW": "友好",
+    "translationVerified": true
+  },
+  "clientSkillId": 265,
+  "icon": "/skills/amity.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 4...10...12 seconds, adjacent foes cannot attack. For each foe, Amity ends if that foe takes damage.",
+      "zhTW": "持續 4～12 秒，使鄰近的敵人無法攻擊。若這些目標受到傷害，則友好對其的限制解除。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "pravus-obsideo",
+          "en": "Pravus Obsideo",
+          "zhTW": "Pravus Obsideo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pravus Obsideo (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Amity",
+        "url": "https://wiki.guildwars.com/wiki/Pravus_Obsideo",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 4～12 秒，使鄰近的敵人無法攻擊。若這些目標受到傷害，則友好對其的限制解除。",
+  "commonUses": [
+    "防護祈禱 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Amity",
+      "revision": 2720116,
+      "title": "Amity",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25738"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25739,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使鄰近的敵人無法攻擊。若這些目標受到傷害，則友好對其的限制解除。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

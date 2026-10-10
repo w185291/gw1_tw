@@ -1,0 +1,682 @@
+{
+  "pvpOnly": false,
+  "id": "deep-freeze",
+  "name": {
+    "en": "Deep Freeze",
+    "zhTW": "強力凍結",
+    "translationVerified": true
+  },
+  "clientSkillId": 234,
+  "icon": "/skills/deep-freeze.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. You cause a Deep Freeze at target foe's location. All foes in this area are struck for 10...70...85 cold damage, and for 10 seconds, they move 66% slower.",
+      "zhTW": "在目標敵人所在地點引發強力凍結。使該地點的所有敵人受到 10～85 冰凍傷害，並且移動速度減慢 66% ，持續 10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodash-bazaar",
+              "en": "Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-false-gods",
+          "en": "The False Gods",
+          "zhTW": "The False Gods",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "temple-of-the-ages",
+              "en": "Temple of the Ages",
+              "zhTW": "世紀神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Ages"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The False Gods (Temple of the Ages)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/The_False_Gods",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "snaring-course",
+          "en": "Snaring Course",
+          "zhTW": "Snaring Course",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Snaring Course (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Snaring_Course",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "rago-the-scaled",
+          "en": "Rago the Scaled",
+          "zhTW": "Rago the Scaled",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rago the Scaled (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Rago_the_Scaled",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "skitt-the-skizzle",
+          "en": "Skitt the Skizzle",
+          "zhTW": "Skitt the Skizzle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skitt the Skizzle (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Skitt_the_Skizzle",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "frak-undertow",
+          "en": "Frak Undertow",
+          "zhTW": "Frak Undertow",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Frak Undertow (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Frak_Undertow",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chunk-clumpfoot",
+          "en": "Chunk Clumpfoot",
+          "zhTW": "Chunk Clumpfoot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lornar-s-pass",
+              "en": "Lornar's Pass",
+              "zhTW": "洛拿斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lornar%27s_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chunk Clumpfoot (Lornar's Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Chunk_Clumpfoot",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "skale-lord-jurpa",
+          "en": "Skale Lord Jurpa",
+          "zhTW": "Skale Lord Jurpa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          },
+          {
+            "name": {
+              "id": "the-cyclone-palace",
+              "en": "The Cyclone Palace",
+              "zhTW": "The Cyclone Palace",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cyclone_Palace"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Skale Lord Jurpa (Mehtani Keys, only during The Cyclone Palace)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Skale_Lord_Jurpa",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "buhon-icelord",
+          "en": "Buhon Icelord",
+          "zhTW": "Buhon Icelord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Buhon Icelord (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Buhon_Icelord",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "elsnil-frigidheart",
+          "en": "Elsnil Frigidheart",
+          "zhTW": "Elsnil Frigidheart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Elsnil Frigidheart (Ice Cliff Chasms)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Elsnil_Frigidheart",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "regent-of-ice",
+          "en": "Regent of Ice",
+          "zhTW": "Regent of Ice",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sepulchre-of-dragrimmar",
+              "en": "Sepulchre of Dragrimmar",
+              "zhTW": "爪格林瑪墳墓",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sepulchre_of_Dragrimmar"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Regent of Ice (Sepulchre of Dragrimmar)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Regent_of_Ice",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fragment-of-antiquities",
+          "en": "Fragment of Antiquities",
+          "zhTW": "Fragment of Antiquities",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Fragment of Antiquities (Sepulchre of Dragrimmar)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Fragment_of_Antiquities",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ancient-vaettir",
+          "en": "Ancient Vaettir",
+          "zhTW": "Ancient Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Vaettir (Raven's Point)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Vaettir",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "frazar-frostfur",
+          "en": "Frazar Frostfur",
+          "zhTW": "Frazar Frostfur",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Frazar Frostfur (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Frazar_Frostfur",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "spafrod-iceblood",
+          "en": "Spafrod Iceblood",
+          "zhTW": "Spafrod Iceblood",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "assault-on-the-stronghold",
+              "en": "Assault on the Stronghold",
+              "zhTW": "襲擊根據地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Assault_on_the_Stronghold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Spafrod Iceblood (Sacnoth Valley, only after Assault on the Stronghold)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Spafrod_Iceblood",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人所在地點引發強力凍結。使該地點的所有敵人受到 10～85 冰凍傷害，並且移動速度減慢 66% ，持續 10 秒。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+      "revision": 2695783,
+      "title": "Deep Freeze",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25290",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25291,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人所在地點引發強力凍結。使該地點的所有敵人受到 %str1% 冰凍傷害，並且移動速度減慢 66%% ，持續 10 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

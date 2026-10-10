@@ -1,0 +1,222 @@
+{
+  "pvpOnly": false,
+  "id": "to-the-limit",
+  "name": {
+    "en": "\"To the Limit!\"",
+    "zhTW": "「給我力量！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 316,
+  "icon": "/skills/to-the-limit.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For each foe within earshot (maximum 1...5...6), you gain one strike of adrenaline. For 10...18...20 seconds, your maximum Health is increased by 10...50...60.",
+      "zhTW": "依照音量所及範圍內的敵人數量，每個使你獲得 1 次攻擊的怒氣值(最多 1～6 )，同時 10～20 秒內你的體力最大值增加 10～60 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-false-gods",
+          "en": "The False Gods",
+          "zhTW": "The False Gods",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "temple-of-the-ages",
+              "en": "Temple of the Ages",
+              "zhTW": "世紀神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Ages"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The False Gods (Temple of the Ages)",
+        "source": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+        "url": "https://wiki.guildwars.com/wiki/The_False_Gods",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "flame-djinn",
+          "en": "Flame Djinn",
+          "zhTW": "Flame Djinn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "catacombs-of-kathandrax",
+              "en": "Catacombs of Kathandrax",
+              "zhTW": "卡山卓司的地下墓穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Catacombs_of_Kathandrax"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Djinn (Catacombs of Kathandrax)",
+        "source": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Djinn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "devona",
+          "en": "Devona",
+          "zhTW": "德佛娜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking Devona",
+        "source": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Devona",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "依照音量所及範圍內的敵人數量，每個使你獲得 1 次攻擊的怒氣值(最多 1～6 )，同時 10～20 秒內你的體力最大值增加 10～60 。",
+  "commonUses": [
+    "戰術 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22To_the_Limit%21%22",
+      "revision": 2735175,
+      "title": "\"To the Limit!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25842"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25843,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "依照音量所及範圍內的敵人數量，每個使你獲得 1 次攻擊的怒氣值(最多 %str2% )，同時 %str3% 秒內你的體力最大值增加 %str1% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

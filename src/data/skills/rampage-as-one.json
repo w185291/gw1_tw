@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "rampage-as-one",
+  "name": {
+    "en": "Rampage as One",
+    "zhTW": "暴衝合一",
+    "translationVerified": true
+  },
+  "clientSkillId": 1721,
+  "icon": "/skills/rampage-as-one.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 3...13...15 seconds, both you and your animal companion attack 33% faster and run 25% faster.",
+      "zhTW": "持續 3～15 秒，你和寵物的攻擊速度增加 33% ，移動速度加快 25% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "tundoss-the-destroyer",
+          "en": "Tundoss the Destroyer",
+          "zhTW": "Tundoss the Destroyer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tundoss the Destroyer (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Rampage_as_One",
+        "url": "https://wiki.guildwars.com/wiki/Tundoss_the_Destroyer",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 3～15 秒，你和寵物的攻擊速度增加 33% ，移動速度加快 25% 。",
+  "commonUses": [
+    "野獸支配 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Rampage_as_One",
+      "revision": 2667420,
+      "title": "Rampage as One",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50085",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50086,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你和寵物的攻擊速度增加 %str1%%% ，移動速度加快 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

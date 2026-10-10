@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "dark-fury",
+  "name": {
+    "en": "Dark Fury",
+    "zhTW": "暗黑憤怒",
+    "translationVerified": true
+  },
+  "clientSkillId": 147,
+  "icon": "/skills/dark-fury.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5 seconds, whenever any party member hits with an attack, that party member gains one hit of adrenaline. (50% failure chance with Blood Magic of 4 or less.)",
+      "zhTW": "犧牲自己最大體力的 17% 。持續 5 秒，每當隊伍成員攻擊命中目標時，額外獲得等同一次攻擊成功累積的怒氣值。（血魔法 4 以下，有 50% 失敗機率）"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "harnil",
+          "en": "Harnil",
+          "zhTW": "Harnil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marhan-s-grotto",
+              "en": "Marhan's Grotto",
+              "zhTW": "馬翰洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harnil (Marhan's Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Harnil",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Dark_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "犧牲自己最大體力的 17% 。持續 5 秒，每當隊伍成員攻擊命中目標時，額外獲得等同一次攻擊成功累積的怒氣值。（血魔法 4 以下，有 50% 失敗機率）",
+  "commonUses": [
+    "血魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dark_Fury",
+      "revision": 2695756,
+      "title": "Dark Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25114"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25115,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自己最大體力的 17%% 。持續 5 秒，每當隊伍成員攻擊命中目標時，額外獲得等同一次攻擊成功累積的怒氣值。（血魔法 4 以下，有 50%% 失敗機率）"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

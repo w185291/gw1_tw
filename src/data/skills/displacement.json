@@ -1,0 +1,164 @@
+{
+  "id": "displacement",
+  "name": {
+    "en": "Displacement",
+    "zhTW": "偏移",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1249,
+  "icon": "/skills/displacement.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...11...14 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "創造等級 1～14 的偏移縛靈。使區域內所有非「靈」的盟友有 75% 機會「格擋」攻擊。每當「格擋」的效果出現時，縛靈受到 60 傷害。偏移縛靈將在 30～60 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...8...10 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "召喚等級 1～10 的靈體，持續 30～60 秒。範圍內非靈體友軍有 75% 機率格擋攻擊；每次成功格擋，靈體受到 60 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Displacement (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...8...10 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...54...60 seconds.",
+        "zhTW": "召喚等級 1～10 的靈體，持續 30～60 秒。範圍內非靈體友軍有 75% 機率格擋攻擊；每次成功格擋，靈體受到 60 傷害。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Activation": 3.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Displacement_%28PvP%29",
+        "revision": 2720879,
+        "title": "Displacement (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3010
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Displacement",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "讓範圍內友軍有機會格擋攻擊；成功格擋會扣靈體體力。對武器攻擊有效，不要把它當成所有法術的防護。",
+  "commonUses": [
+    "ST 防禦祭祀",
+    "抗近戰攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Displacement",
+      "revision": 2740998,
+      "title": "Displacement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Displacement_%28PvP%29",
+      "revision": 2720879,
+      "title": "Displacement (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27371",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27372,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的偏移縛靈。使區域內所有非「靈」的盟友有 75%% 機會「格擋」攻擊。每當「格擋」的效果出現時，縛靈受到 %str2% 傷害。偏移縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

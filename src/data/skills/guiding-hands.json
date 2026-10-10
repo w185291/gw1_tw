@@ -1,0 +1,172 @@
+{
+  "pvpOnly": false,
+  "id": "guiding-hands",
+  "name": {
+    "en": "Guiding Hands",
+    "zhTW": "神引之手",
+    "translationVerified": true
+  },
+  "clientSkillId": 1513,
+  "icon": "/skills/guiding-hands.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 20 seconds, your next 0...2...3 attack[s] cannot be blocked. When activated, this skill removes the Blindness condition.",
+      "zhTW": "持續 20 秒，你接下來的 0～3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 20 seconds, your next 0...2...3 attack[s] cannot be blocked. When activated, this skill removes the Blindness condition.",
+      "zhTW": "持續 20 秒，你接下來的 0～3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Guiding Hands (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 20 seconds, your next 0...2...3 attack[s] cannot be blocked. When activated, this skill removes the Blindness condition.",
+        "zhTW": "持續 20 秒，你接下來的 0～3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Guiding_Hands_%28PvP%29",
+        "revision": 2726553,
+        "title": "Guiding Hands (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3269
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Guiding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Guiding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 20 秒，你接下來的 0～3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。",
+  "commonUses": [
+    "風之祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guiding_Hands",
+      "revision": 2739196,
+      "title": "Guiding Hands",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guiding_Hands_%28PvP%29",
+      "revision": 2726553,
+      "title": "Guiding Hands (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/39851"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39852,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你接下來的 %str1% 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

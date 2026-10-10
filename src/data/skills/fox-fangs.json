@@ -1,0 +1,260 @@
+{
+  "pvpOnly": false,
+  "id": "fox-fangs",
+  "name": {
+    "en": "Fox Fangs",
+    "zhTW": "狐狸尖牙",
+    "translationVerified": true
+  },
+  "clientSkillId": 780,
+  "icon": "/skills/fox-fangs.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "off-hand-attack",
+    "en": "Off-hand attack",
+    "zhTW": "即刻攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...30...35 damage if it hits.",
+      "zhTW": "必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10～35 額外傷害。"
+    },
+    "pvp": {
+      "en": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...22...25 damage if it hits.",
+      "zhTW": "必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10～25 額外傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Fox Fangs (PvP)",
+      "description": {
+        "en": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...22...25 damage if it hits.",
+        "zhTW": "必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10～25 額外傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 6.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Fox_Fangs_%28PvP%29",
+        "revision": 2733317,
+        "title": "Fox Fangs (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3251
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "opening-strike",
+          "en": "Opening Strike",
+          "zhTW": "Opening Strike",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Opening Strike (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+        "url": "https://wiki.guildwars.com/wiki/Opening_Strike",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10～35 額外傷害。",
+  "commonUses": [
+    "匕首精通 · 即刻攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+      "revision": 2733150,
+      "title": "Fox Fangs",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fox_Fangs_%28PvP%29",
+      "revision": 2733317,
+      "title": "Fox Fangs (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26396"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26397,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

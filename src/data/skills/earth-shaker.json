@@ -1,0 +1,354 @@
+{
+  "pvpOnly": false,
+  "id": "earth-shaker",
+  "name": {
+    "en": "Earth Shaker",
+    "zhTW": "震動大地",
+    "translationVerified": true
+  },
+  "clientSkillId": 354,
+  "icon": "/skills/earth-shaker.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 8.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Hammer Attack. Target foe and all adjacent foes are knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
+      "zhTW": "擊倒標敵人及所有鄰近該目標的敵人。（精通鎚術 4 以下，有 50% 失敗機率）"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "candy-corn-tyrant",
+          "en": "Candy Corn Tyrant",
+          "zhTW": "Candy Corn Tyrant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Candy Corn Tyrant (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Candy_Corn_Tyrant",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "kor-stonewrath",
+          "en": "Kor Stonewrath",
+          "zhTW": "Kor Stonewrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kor Stonewrath (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Kor_Stonewrath",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "carnak-the-hungry",
+          "en": "Carnak the Hungry",
+          "zhTW": "Carnak the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Carnak the Hungry (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Carnak_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-warrior",
+          "en": "Monstrous Afflicted Warrior",
+          "zhTW": "Monstrous Afflicted Warrior",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pongmei-valley",
+              "en": "Pongmei Valley",
+              "zhTW": "朋美谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley"
+          },
+          {
+            "name": {
+              "id": "cleansing-pongmei-valley",
+              "en": "Cleansing Pongmei Valley",
+              "zhTW": "Cleansing Pongmei Valley",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Pongmei_Valley"
+          },
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Warrior (Pongmei Valley, only during Cleansing Pongmei Valley; Morostav Trail, only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Warrior",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "jormungand",
+          "en": "Jormungand",
+          "zhTW": "Jormungand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "norrhart-domains",
+              "en": "Norrhart Domains",
+              "zhTW": "諾恩之心領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains"
+          },
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          },
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jormungand (Norrhart Domains, Bjora Marches, Drakkar Lake, and Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Jormungand",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "alpha-tyrannus",
+          "en": "Alpha Tyrannus",
+          "zhTW": "Alpha Tyrannus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          },
+          {
+            "name": {
+              "id": "norn-catering",
+              "en": "Norn Catering",
+              "zhTW": "Norn Catering",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norn_Catering"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Alpha Tyrannus (Alcazia Tangle, only during the Norn Catering)",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Alpha_Tyrannus",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "devona",
+          "en": "Devona",
+          "zhTW": "德佛娜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking Devona",
+        "source": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+        "url": "https://wiki.guildwars.com/wiki/Devona",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "擊倒標敵人及所有鄰近該目標的敵人。（精通鎚術 4 以下，有 50% 失敗機率）",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+      "revision": 2724977,
+      "title": "Earth Shaker",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25922"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25923,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "擊倒標敵人及所有鄰近該目標的敵人。（精通鎚術 4 以下，有 50%% 失敗機率）"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

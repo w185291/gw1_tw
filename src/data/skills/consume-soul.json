@@ -1,0 +1,136 @@
+{
+  "id": "consume-soul",
+  "name": {
+    "en": "Consume Soul",
+    "zhTW": "靈魂毀滅",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 914,
+  "icon": "/skills/consume-soul.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You steal 5...57...70 Health from target foe. All hostile summoned creatures in earshot of that foe take 25...105...125 damage.",
+      "zhTW": "从目标敌人身上偷取5～70生命值，该敌人听觉范围内的所有敌对召唤生物受到25～125伤害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "tomton-spiriteater",
+          "en": "Tomton Spiriteater",
+          "zhTW": "Tomton Spiriteater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mount-qinkai",
+              "en": "Mount Qinkai",
+              "zhTW": "今凱山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mount_Qinkai"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tomton Spiriteater (Mount Qinkai)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Soul",
+        "url": "https://wiki.guildwars.com/wiki/Tomton_Spiriteater",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "从目标敵人身上偷取5～70生命值，该敵人听觉范围内的所有敵对召唤生物受到25～125伤害。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Consume_Soul",
+      "revision": 2732231,
+      "title": "Consume Soul",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27293"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27294,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "从目标敌人身上偷取%str1%生命值，该敌人听觉范围内的所有敌对召唤生物受到%str2%伤害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

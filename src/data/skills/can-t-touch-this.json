@@ -1,0 +1,293 @@
+{
+  "pvpOnly": false,
+  "id": "can-t-touch-this",
+  "name": {
+    "en": "\"Can't Touch This!\"",
+    "zhTW": "「別碰我！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 1780,
+  "icon": "/skills/can-t-touch-this.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 20 seconds, the next 1...4...5 touch skill[s] used against allies [sic] within earshot fail[s].",
+      "zhTW": "在20秒內，下1～5個用在音量所及範圍內的盟友身上的碰觸技能會失敗。"
+    },
+    "pvp": {
+      "en": "Shout. For 20 seconds, the next 1...4...5 touch skill[s] used against you fail[s].",
+      "zhTW": "在20秒內，下1～5個用在音量所及範圍內的盟友身上的碰觸技能會失敗。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"Can't Touch This!\" (PvP)",
+      "description": {
+        "en": "Shout. For 20 seconds, the next 1...4...5 touch skill[s] used against you fail[s].",
+        "zhTW": "在20秒內，下1～5個用在音量所及範圍內的盟友身上的碰觸技能會失敗。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22_%28PvP%29",
+        "revision": 2738625,
+        "title": "\"Can't Touch This!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3031
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "insatiable-vakar",
+          "en": "Insatiable Vakar",
+          "zhTW": "Insatiable Vakar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Insatiable Vakar (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Insatiable_Vakar",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "general-kumtash",
+          "en": "General Kumtash",
+          "zhTW": "General Kumtash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dzagonur-bastion",
+              "en": "Dzagonur Bastion",
+              "zhTW": "薩崗諾稜堡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "General Kumtash (Dzagonur Bastion)",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/General_Kumtash",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "overseer-juntahk",
+          "en": "Overseer Juntahk",
+          "zhTW": "Overseer Juntahk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mirror-of-lyss",
+              "en": "The Mirror of Lyss",
+              "zhTW": "麗之鏡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mirror_of_Lyss"
+          },
+          {
+            "name": {
+              "id": "warning-kehanni",
+              "en": "Warning Kehanni",
+              "zhTW": "Warning Kehanni",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warning_Kehanni"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Overseer Juntahk (The Mirror of Lyss, during Warning Kehanni)",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Overseer_Juntahk",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在20秒內，下1～5個用在音量所及範圍內的盟友身上的碰觸技能會失敗。",
+  "commonUses": [
+    "命令 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22",
+      "revision": 2740501,
+      "title": "\"Can't Touch This!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This%21%22_%28PvP%29",
+      "revision": 2738625,
+      "title": "\"Can't Touch This!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44141",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44142,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在%str3%秒內，下%str1%個用在音量所及範圍內的盟友身上的碰觸技能會失敗。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,293 @@
+{
+  "id": "pain",
+  "name": {
+    "en": "Pain",
+    "zhTW": "苦痛",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1247,
+  "icon": "/skills/pain.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit. This spirit's attacks deal 5...25...30 damage. This spirit dies after 30...126...150 seconds.",
+      "zhTW": "創造等級 1～12 的苦痛縛靈，縛靈的攻擊將對敵人造成 5～30 傷害。縛靈將在 30～150 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit. This spirit's attacks deal 5...25...30 damage. This spirit dies after 30...126...150 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 30～150 秒；其攻擊造成 5～30 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Pain (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit. This spirit's attacks deal 5...25...30 damage. This spirit dies after 30...126...150 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 30～150 秒；其攻擊造成 5～30 傷害。"
+      },
+      "stats": {
+        "Energy": 5,
+        "Activation": 1,
+        "Recharge": 30
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Pain_%28PvP%29",
+        "revision": 2731222,
+        "title": "Pain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3007
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "mantid-hatchlings",
+          "en": "Mantid Hatchlings",
+          "zhTW": "Mantid Hatchlings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "monastery-overlook",
+              "en": "Monastery Overlook",
+              "zhTW": "寺廟高處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mantid Hatchlings (Monastery Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Mantid_Hatchlings",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-professor-gai",
+          "en": "Locate Professor Gai",
+          "zhTW": "Locate Professor Gai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate 蓋師範 (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Professor_Gai",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Pain",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "用低成本布置攻擊靈體，讓它持續攻擊範圍內敵人；注意站位和存活，不適合把敵人拉到靈體後又快速離開。",
+  "commonUses": [
+    "靈體輸出",
+    "靈體隊入門"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pain",
+      "revision": 2719804,
+      "title": "Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pain_%28PvP%29",
+      "revision": 2731222,
+      "title": "Pain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27361"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27362,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的苦痛縛靈，縛靈的攻擊將對敵人造成 %str2% 傷害。縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

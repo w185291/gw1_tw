@@ -1,0 +1,281 @@
+{
+  "pvpOnly": false,
+  "id": "mend-condition",
+  "name": {
+    "en": "Mend Condition",
+    "zhTW": "治療病症",
+    "translationVerified": true
+  },
+  "clientSkillId": 275,
+  "icon": "/skills/mend-condition.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove one condition (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, or Deep Wound) from target other ally. If a condition is removed, that ally is healed for 5...57...70 Health.",
+      "zhTW": "消除目標其他盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷），並且回復該盟友 5～70 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "a-belated-betrothal",
+          "en": "A Belated Betrothal",
+          "zhTW": "A Belated Betrothal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seeker-s-passage",
+              "en": "Seeker's Passage",
+              "zhTW": "探索者通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seeker%27s_Passage"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Belated Betrothal (Seeker's Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/A_Belated_Betrothal",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ambrillus-the-guardian",
+          "en": "Ambrillus the Guardian",
+          "zhTW": "Ambrillus the Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ambrillus the Guardian (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Ambrillus_the_Guardian",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "chaelse-flameshielder",
+          "en": "Chaelse Flameshielder",
+          "zhTW": "Chaelse Flameshielder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chaelse Flameshielder (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Chaelse_Flameshielder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "horai-wingshielder",
+          "en": "Horai Wingshielder",
+          "zhTW": "Horai Wingshielder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Horai Wingshielder (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Horai_Wingshielder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "taag-relicbinder",
+          "en": "Taag Relicbinder",
+          "zhTW": "Taag Relicbinder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taag Relicbinder (Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Mend_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Taag_Relicbinder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "消除目標其他盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷），並且回復該盟友 5～70 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mend_Condition",
+      "revision": 2683544,
+      "title": "Mend Condition",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25760",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25761,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標其他盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷），並且回復該盟友 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

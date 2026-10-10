@@ -1,0 +1,225 @@
+{
+  "pvpOnly": false,
+  "id": "discord",
+  "name": {
+    "en": "Discord",
+    "zhTW": "協調破壞",
+    "translationVerified": true
+  },
+  "clientSkillId": 817,
+  "icon": "/skills/discord.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 2,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...94...110 damage.",
+      "zhTW": "若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30～110傷害。"
+    },
+    "pvp": {
+      "en": "Elite Spell. If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...94...110 damage.",
+      "zhTW": "若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30～110傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Discord (PvP)",
+      "description": {
+        "en": "Elite Spell. If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...94...110 damage.",
+        "zhTW": "若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30～110傷害。"
+      },
+      "stats": {
+        "Energy": 5,
+        "Activation": 2,
+        "Recharge": 2
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Discord_%28PvP%29",
+        "revision": 2701361,
+        "title": "Discord (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2863
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "sessk-woe-spreader",
+          "en": "Sessk, Woe Spreader",
+          "zhTW": "Sessk, Woe Spreader",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maishang-hills",
+              "en": "Maishang Hills",
+              "zhTW": "麥尚山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maishang_Hills"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sessk, Woe Spreader (Maishang Hills)",
+        "source": "https://wiki.guildwars.com/wiki/Discord",
+        "url": "https://wiki.guildwars.com/wiki/Sessk,_Woe_Spreader",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "xiriss-stickleback",
+          "en": "Xiriss Stickleback",
+          "zhTW": "Xiriss Stickleback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          },
+          {
+            "name": {
+              "id": "night-raiders",
+              "en": "Night Raiders",
+              "zhTW": "夜之突擊者",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Night_Raiders"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xiriss Stickleback (Archipelagos, only during 夜之突擊者)",
+        "source": "https://wiki.guildwars.com/wiki/Discord",
+        "url": "https://wiki.guildwars.com/wiki/Xiriss_Stickleback",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "jeijou-shadow-whispered",
+          "en": "Jeijou, Shadow Whispered",
+          "zhTW": "Jeijou, Shadow Whispered",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter",
+              "en": "Nahpui Quarter",
+              "zhTW": "納普區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter"
+          },
+          {
+            "name": {
+              "id": "architect-of-corruption",
+              "en": "Architect of Corruption",
+              "zhTW": "Architect of Corruption",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Architect_of_Corruption"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jeijou, Shadow Whispered (Nahpui Quarter, only during Architect of Corruption)",
+        "source": "https://wiki.guildwars.com/wiki/Discord",
+        "url": "https://wiki.guildwars.com/wiki/Jeijou,_Shadow_Whispered",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30～110傷害。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Discord",
+      "revision": 2717610,
+      "title": "Discord",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Discord_%28PvP%29",
+      "revision": 2701361,
+      "title": "Discord (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26598",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26599,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成%str1%傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

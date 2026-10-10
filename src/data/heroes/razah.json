@@ -1,11 +1,11 @@
 {
   "id": "razah",
   "name": {
-    "zhTW": "雷薩",
+    "zhTW": "雷撒",
     "en": "Razah"
   },
   "profession": "可更換職業",
-  "translationStatus": "needs-review",
+  "translationStatus": "verified",
   "summary": "招募方式、選擇群組與需要此英雄的Mission。",
   "native": [
     "完成第三章後，在Gate of Anguish找Chaplain Phyratyss接Finding a Purpose。",
@@ -38,11 +38,23 @@
       "role": "mechanics"
     },
     {
-      "title": "中文社群英雄詞典（轉繁體，台版正式譯名待核）",
+      "title": "中文社群英雄詞典",
       "url": "https://guildwars.huijiwiki.com/wiki/%E8%AF%8D%E5%85%B8",
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
     }
-  ]
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/46842",
+    "game-client://2026-10-09/string/78414"
+  ],
+  "gameTextEvidence": {
+    "stringIds": [
+      46842,
+      78414
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
 }

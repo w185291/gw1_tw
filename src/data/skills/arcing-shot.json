@@ -1,0 +1,224 @@
+{
+  "pvpOnly": false,
+  "id": "arcing-shot",
+  "name": {
+    "en": "Arcing Shot",
+    "zhTW": "弧光射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1467,
+  "icon": "/skills/arcing-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If this arrow hits, it strikes for +10...30...35 damage. This arrow cannot be blocked, but it moves 50% slower.",
+      "zhTW": "命中時對目標造成 10～35 額外傷害。此攻擊無法被「格擋」，但是箭矢的飛行速度比平常慢 50% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "teral-the-punisher",
+          "en": "Teral the Punisher",
+          "zhTW": "Teral the Punisher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Teral the Punisher (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Teral_the_Punisher",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "tenezel-the-quick",
+          "en": "Tenezel the Quick",
+          "zhTW": "Tenezel the Quick",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tenezel the Quick (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Tenezel_the_Quick",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "tenshek-roundbody",
+          "en": "Tenshek Roundbody",
+          "zhTW": "Tenshek Roundbody",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tenshek Roundbody (The Hidden City of Ahdashim)",
+        "source": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Tenshek_Roundbody",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 10～35 額外傷害。此攻擊無法被「格擋」，但是箭矢的飛行速度比平常慢 50% 。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+      "revision": 2733222,
+      "title": "Arcing Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/33994"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33995,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。此攻擊無法被「格擋」，但是箭矢的飛行速度比平常慢 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,233 @@
+{
+  "id": "guided-weapon",
+  "name": {
+    "en": "Guided Weapon",
+    "zhTW": "引導武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1259,
+  "icon": "/skills/guided-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 4...9...10 seconds, target ally's attacks cannot be blocked.",
+      "zhTW": "持續 4～10 秒，使目標盟友的攻擊無法被「格擋」。"
+    },
+    "pvp": {
+      "en": "Weapon Spell. For 4...9...10 seconds, target ally's attacks cannot be blocked.",
+      "zhTW": "持續 4～10 秒，目標友軍的攻擊不能被格擋。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Guided Weapon (PvP)",
+      "description": {
+        "en": "Weapon Spell. For 4...9...10 seconds, target ally's attacks cannot be blocked.",
+        "zhTW": "持續 4～10 秒，目標友軍的攻擊不能被格擋。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 2.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Guided_Weapon_%28PvP%29",
+        "revision": 2738523,
+        "title": "Guided Weapon (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3462
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tombo",
+          "en": "Tombo",
+          "zhTW": "Tombo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zin-ku-corridor",
+              "en": "Zin Ku Corridor",
+              "zhTW": "辛庫走廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zin_Ku_Corridor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tombo (Zin Ku Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Guided_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Tombo",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "yokuni",
+          "en": "Yokuni",
+          "zhTW": "Yokuni",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maatu-keep",
+              "en": "Maatu Keep",
+              "zhTW": "麻都堡壘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maatu_Keep"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Yokuni (Maatu Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Guided_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Yokuni",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vyrrgis-the-pestilent",
+          "en": "Vyrrgis the Pestilent",
+          "zhTW": "Vyrrgis the Pestilent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "forbidden-fruit",
+              "en": "Forbidden Fruit",
+              "zhTW": "Forbidden Fruit",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forbidden_Fruit"
+          },
+          {
+            "name": {
+              "id": "single-ugly-grawl-seeks-same-for-mindless-destruction-in-ascalon",
+              "en": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+              "zhTW": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Single_Ugly_Grawl_Seeks_Same_for_Mindless_Destruction_in_Ascalon"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Vyrrgis the Pestilent (Sacnoth Valley, only during Forbidden Fruit and Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Guided_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Vyrrgis_the_Pestilent",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 4～10 秒，使目標盟友的攻擊無法被「格擋」。",
+  "commonUses": [
+    "Communing 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guided_Weapon",
+      "revision": 2738368,
+      "title": "Guided Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guided_Weapon_%28PvP%29",
+      "revision": 2738523,
+      "title": "Guided Weapon (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27415",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27416,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標盟友的攻擊無法被「格擋」。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

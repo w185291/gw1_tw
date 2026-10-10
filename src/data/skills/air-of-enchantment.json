@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "air-of-enchantment",
+  "name": {
+    "en": "Air of Enchantment",
+    "zhTW": "微風加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 1115,
+  "icon": "/skills/air-of-enchantment.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 4...9...10 seconds, enchantments cast on target other ally cost 10 less Energy (minimum 1 Energy).",
+      "zhTW": "對目標其他盟友施放此「加持」魔法後，在 4～10 秒內，對該盟友施放的「加持」魔法能量消耗減少 10 。(至少消耗 1 能量)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jayne-forestlight",
+          "en": "Jayne Forestlight",
+          "zhTW": "Jayne Forestlight",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jayne Forestlight (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Air_of_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Jayne_Forestlight",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "miella-lightwing",
+          "en": "Miella Lightwing",
+          "zhTW": "Miella Lightwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Miella Lightwing (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Air_of_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Miella_Lightwing",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "對目標其他盟友施放此「加持」魔法後，在 4～10 秒內，對該盟友施放的「加持」魔法能量消耗減少 10 。(至少消耗 1 能量)",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Air_of_Enchantment",
+      "revision": 2726359,
+      "title": "Air of Enchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26874"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26875,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標其他盟友施放此「加持」魔法後，在 %str3% 秒內，對該盟友施放的「加持」魔法能量消耗減少 %str1% 。(至少消耗 1 能量)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

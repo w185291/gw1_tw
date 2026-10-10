@@ -1,0 +1,255 @@
+{
+  "pvpOnly": false,
+  "id": "verata-s-gaze",
+  "name": {
+    "en": "Verata's Gaze",
+    "zhTW": "芙瑞達的凝視",
+    "translationVerified": true
+  },
+  "clientSkillId": 87,
+  "icon": "/skills/verata-s-gaze.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for 60...76...80. (50% failure chance with Death Magic 4 or less.)",
+      "zhTW": "若目標敵對不死僕從有主人，解除其連結，讓它敵視所有生物；若無主人，改由你控制，並治療 60～80 體力。死亡魔法 4 點以下有 50% 失敗率。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "gammel",
+          "en": "Gammel",
+          "zhTW": "Gammel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "copperhammer-mines",
+              "en": "Copperhammer Mines",
+              "zhTW": "銅錘礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Copperhammer_Mines"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gammel (Copperhammer Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Gammel",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "verata-the-necromancer",
+          "en": "Verata the Necromancer",
+          "zhTW": "Verata the Necromancer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Verata (Kessex Peak)",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Verata_the_Necromancer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "cerris",
+          "en": "Cerris",
+          "zhTW": "Cerris",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cerris (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Cerris",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "en-fa-the-awakened",
+          "en": "En Fa the Awakened",
+          "zhTW": "En Fa the Awakened",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "En Fa the Awakened (The Undercity (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/En_Fa_the_Awakened",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "yinnai-qi",
+          "en": "Yinnai Qi",
+          "zhTW": "Yinnai Qi",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Yinnai Qi (The Undercity (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Yinnai_Qi",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "若目標敵對不死僕從有主人，解除其連結，讓它敵視所有生物；若無主人，改由你控制，並治療 60～80 體力。死亡魔法 4 點以下有 50% 失敗率。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+      "revision": 2742436,
+      "title": "Verata's Gaze",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24994",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24995,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for %str1%. (50%% failure chance with Death Magic 4 or less.)"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

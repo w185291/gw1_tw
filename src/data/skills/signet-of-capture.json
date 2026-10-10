@@ -1,0 +1,253 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-capture",
+  "name": {
+    "en": "Signet of Capture",
+    "zhTW": "捕捉紋章"
+  },
+  "clientSkillId": 3,
+  "icon": "/skills/signet-of-capture.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Choose one skill from a nearby dead Boss of your profession. Signet of Capture is permanently replaced by that skill. If that skill was elite, gain 250 XP for every level you have earned.",
+      "zhTW": "從附近已死亡的頭目身上捕捉技能，而且捕捉紋章永遠被該技能取代。若捕捉到的技能是精英技能，則依照你的角色等級，每一等級使你獲得 250 經驗值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "skill-trainer-npc",
+          "en": "Skill Trainer (NPC)",
+          "zhTW": "Skill Trainer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "guild-hall",
+              "en": "Guild hall",
+              "zhTW": "公會大廳",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Guild_hall"
+          },
+          {
+            "name": {
+              "id": "character",
+              "en": "Character",
+              "zhTW": "Character",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Character"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Skill Trainer (the guild hall skill trainer will sell this skill to any character, even if they have not completed any of the quests above)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Skill_Trainer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lion-s-arch",
+          "en": "Lion's Arch",
+          "zhTW": "獅子拱門",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Any from Lion's Arch onward",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "cantha",
+          "en": "Cantha",
+          "zhTW": "二部曲",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Any on the Canthan mainland",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Cantha",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "yohlon-haven",
+          "en": "Yohlon Haven",
+          "zhTW": "猶朗避難所",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Any from Yohlon Haven onward",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "malaquire-s-test",
+          "en": "Malaquire's Test",
+          "zhTW": "Malaquire's Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Malaquire's Test (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Malaquire%27s_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "minister-s-test",
+          "en": "Minister's Test",
+          "zhTW": "Minister's Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Minister's Test (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Minister%27s_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "capturing-the-signet-of-capture",
+          "en": "Capturing the Signet of Capture",
+          "zhTW": "Capturing the Signet of Capture",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Capturing the Signet of Capture (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+        "url": "https://wiki.guildwars.com/wiki/Capturing_the_Signet_of_Capture",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "從附近已死亡的頭目身上捕捉技能，而且捕捉紋章永遠被該技能取代。若捕捉到的技能是精英技能，則依照你的角色等級，每一等級使你獲得 250 經驗值。",
+  "commonUses": [
+    "無屬性 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+      "revision": 2710463,
+      "title": "Signet of Capture",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24966"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24967,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "從附近已死亡的頭目身上捕捉技能，而且捕捉紋章永遠被該技能取代。若捕捉到的技能是精英技能，則依照你的角色等級，每一等級使你獲得 250 經驗值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

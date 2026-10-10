@@ -1,0 +1,139 @@
+{
+  "pvpOnly": false,
+  "id": "together-as-one",
+  "name": {
+    "en": "\"Together as One!\"",
+    "zhTW": "\"Together as One!\""
+  },
+  "clientSkillId": 3427,
+  "icon": "/skills/together-as-one.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. For 3...13...15 seconds, all party members near you or near your pet deal +5...13...15 additional damage with attacks and gain +1...6...7 Health regeneration. PvE Skill",
+      "zhTW": "持續 3～15 秒，你或寵物附近的隊友攻擊額外造成 5～15 傷害，並獲得 +1～7 體力再生。PvE 技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "fureyst-sharpsight",
+          "en": "Fureyst Sharpsight",
+          "zhTW": "Fureyst Sharpsight",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "proof-of-triumph",
+              "en": "Proof of Triumph",
+              "zhTW": "Proof of Triumph",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Fureyst Sharpsight (Sacnoth Valley) (requires a party member to be carrying a Proof of Triumph)",
+        "source": "https://wiki.guildwars.com/wiki/%22Together_as_One%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Fureyst_Sharpsight",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 3～15 秒，你或寵物附近的隊友攻擊額外造成 5～15 傷害，並獲得 +1～7 體力再生。PvE 技能。",
+  "commonUses": [
+    "Expertise · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Together_as_One%21%22",
+      "revision": 2737986,
+      "title": "\"Together as One!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/79247"
+  ],
+  "descriptionEvidence": {
+    "stringId": 79248,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, all party members near you or near your pet deal +%str1% additional damage with attacks and gain +%str2% Health regeneration. PvE Skill"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

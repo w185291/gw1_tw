@@ -1,0 +1,284 @@
+{
+  "id": "a-gate-too-far",
+  "order": 9,
+  "campaign": "eye-of-the-north",
+  "region": "depths-of-tyria",
+  "name": {
+    "en": "A Gate Too Far",
+    "zhTW": "一道過遠的門"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/63061",
+    "game-client://2026-10-09/string/63063",
+    "game-client://2026-10-09/string/63065",
+    "game-client://2026-10-09/string/72084",
+    "game-client://2026-10-09/string/72129"
+  ],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "A Gate Too Far"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 鴉分支收尾"
+  ],
+  "summary": "穿過三層故事區域，清鴉祭壇、追蹤 Destroyer Tremor，最後摧毀 Asura Undergate。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "在 Olafstead 找 Olaf Olafson 選開始，他會帶隊進 Raven’s Point 的故事版本；這次不是普通地下城 Defending the Breach。",
+    "location": "Olafstead 的 Olaf Olafson",
+    "requirements": [
+      "每名要取得進度的角色，都需先領 Vision of the Raven Spirit 獎勵。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 鴉分支收尾",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "穿過三層故事區域，清鴉祭壇、追蹤 Destroyer Tremor，最後摧毀 Asura Undergate。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "第一層鴉祭壇",
+      "content": "依第一幅圖左上入口的紅點走到 Shrine of the Raven Spirit。接近會先出現一隻 Destroyer Tremor，加東北增援；接著西側、西南、東南各來一組。全部清完取得士氣，可向祭壇或 Olaf 拿 Raven Blessing，這是可選能力。"
+    },
+    {
+      "title": "第一層往出口",
+      "content": "離祭壇向南走，沿各隊 Destroyer 的位置前進，優先清不會移動的 Tremor，從遠處打可避開喊技擊倒。穩健首通逐群清到下一層入口。"
+    },
+    {
+      "title": "第二層通路",
+      "content": "第二幅圖左上綠色標記是起點，沿紅點往圖右側，再往下方出口進第三層。繞開 Vaettir，不必清光本層；Destroyer 和本地 Vaettir 彼此敵對。Wiki 文字與目前這幅圖的方向敘述不同，查路時以圖上的起點、紅點與出口相對位置辨認。"
+    },
+    {
+      "title": "第三層慢慢拉",
+      "content": "由頂端入口貼右側推進。拉右隊時左隊會移向房間中央，那裡另藏一隻 Tremor；不要一次衝到中間。往南下一隊之後也藏一隻，逐步引出。"
+    },
+    {
+      "title": "最終房間",
+      "content": "進西南房間，先清半途與門前兩隻隱藏 Tremor。門前那隻死亡後，Asura Gate 開始逐隻生成 Destroyer；隊伍較弱可守住並逐隻殺，約十隻後停止，再打門。"
+    },
+    {
+      "title": "摧毀門與回傳",
+      "content": "把 Asura Undergate 打掉，看 Olaf and Ogden 過場後回 Olafstead。計入 北方同盟 鴉分支；熊分支 Blood Washes Blood 仍要完成。"
+    }
+  ],
+  "routeSummary": "在 Olafstead 找 Olaf Olafson 選開始，他會帶隊進 Raven’s Point 的故事版本；這次不是普通地下城 Defending the Breach。",
+  "mapImage": "/maps/eotn/a-gate-too-far-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。",
+    "圖由上到下依序為一、二、三層；第三幅最下端 Asura Undergate 是最終目標。",
+    "第二層依本頁圖的左上起點與紅點通路行走；不要將原文「向北、向西」直接套在這幅圖上。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/a-gate-too-far-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "A Gate Too Far 任務地圖",
+      "width": 250,
+      "height": 825,
+      "filePage": "https://wiki.guildwars.com/wiki/File:A_Gate_Too_Far_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/5/5f/A_Gate_Too_Far_map.jpg",
+      "uploader": "Infinite",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:A Gate Too Far map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "en": "Destroyer Tremor",
+        "zhTW": "Destroyer Tremor（繁中名稱待確認）"
+      },
+      "profession": "Elementalist",
+      "importantSkills": [
+        "Bed of Coals",
+        "Incendiary Bonds",
+        "Liquid Flame",
+        "Mind Blast",
+        "Smoldering Embers",
+        "Burning Immunity",
+        "Tremor"
+      ],
+      "eliteSkills": [
+        "Mind Blast"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "Tremor 是喊技，耳聞範圍內擊倒四秒；在目標遠距離技能的最大距離或用長弓／平射弓打，可避開擊倒。Asura Undergate 不是血肉目標，不能靠流血或毒為主要傷害，但可被擊倒。",
+      "source": "https://wiki.guildwars.com/wiki/Destroyer_Tremor",
+      "revision": 2322574,
+      "translationVerified": false
+    },
+    {
+      "name": {
+        "en": "Asura Undergate",
+        "zhTW": "Asura Undergate（繁中名稱待確認）"
+      },
+      "profession": null,
+      "importantSkills": [
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "Tremor 是喊技，耳聞範圍內擊倒四秒；在目標遠距離技能的最大距離或用長弓／平射弓打，可避開擊倒。Asura Undergate 不是血肉目標，不能靠流血或毒為主要傷害，但可被擊倒。",
+      "source": "https://wiki.guildwars.com/wiki/Asura_Undergate",
+      "revision": 2624656,
+      "translationVerified": false
+    }
+  ],
+  "bossAbsenceVerified": false,
+  "bossAbsenceReason": "",
+  "recommendedTeam": [
+    "需要防擊倒、防護與穩定治療；一般施法可打斷，但 Tremor 是喊技，普通打斷不能阻止，改用遠距離站位或限制喊技。"
+  ],
+  "tips": [],
+  "warnings": [
+    "同樣使用 Raven’s Point 三層地圖，但不是普通地下城任務；不要用普通地下城的 Boss／鑰匙流程代替。",
+    "每次換層會失去 Raven Blessing，需要時向 Olaf 再拿。",
+    "第三層有隱藏 Tremor；前排慢拉，別讓後排跑進四秒範圍擊倒。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "可選 Raven Blessing，不是通關必帶。最終門可直接集火，但保守做法先殺逐次生成的 Destroyer。"
+    ],
+    "hard": [
+      "同樣三層，準備防擊倒、元素減傷與遠距離輸出。Destroyer 免疫燃燒，弱點是寒冷傷害；不要把整隊輸出建立在燃燒上。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "NM 首次 1,000 Norn 聲望，重打 100。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "HM 首次 1,500，重打 150。"
+        ]
+      }
+    ],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/A_Gate_Too_Far",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：A Gate Too Far",
+      "url": "https://wiki.guildwars.com/wiki/A_Gate_Too_Far",
+      "revision": 2709096,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Destroyer Tremor",
+      "url": "https://wiki.guildwars.com/wiki/Destroyer_Tremor",
+      "revision": 2322574,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Asura Undergate",
+      "url": "https://wiki.guildwars.com/wiki/Asura_Undergate",
+      "revision": 2624656,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "vision-of-the-raven-spirit",
+  "nextMission": "northern-allies",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "完成後傳送 Olafstead。",
+    "若另一條 Norn 分支尚未完成，先補完；兩路都完成後依 北方同盟 日誌找 Jalis Ironhammer 領總覽獎勵，再回 Hall of Monuments 更新全章進度。"
+  ],
+  "storyStartVerified": false,
+  "translationStatus": "verified",
+  "gameTextEvidence": {
+    "stringIds": [
+      63061,
+      63063,
+      63065,
+      72084,
+      72129
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
+}

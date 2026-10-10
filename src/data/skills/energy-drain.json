@@ -1,0 +1,264 @@
+{
+  "pvpOnly": false,
+  "id": "energy-drain",
+  "name": {
+    "en": "Energy Drain",
+    "zhTW": "能量吸收",
+    "translationVerified": true
+  },
+  "clientSkillId": 79,
+  "icon": "/skills/energy-drain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe loses 2...8...9 Energy. You gain 3 Energy for each point of Energy lost.",
+      "zhTW": "目標敵人失去2～9能量， 你獲得對方失去的3倍能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "gambol-headrainer",
+          "en": "Gambol Headrainer",
+          "zhTW": "Gambol Headrainer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gambol Headrainer (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Gambol_Headrainer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "sniik-hungrymind",
+          "en": "Sniik Hungrymind",
+          "zhTW": "Sniik Hungrymind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          },
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sniik Hungrymind (Spearhead Peak and Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Sniik_Hungrymind",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "druul-the-untamed",
+          "en": "Druul the Untamed",
+          "zhTW": "Druul the Untamed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "the-titan-source",
+              "en": "The Titan Source",
+              "zhTW": "The Titan Source",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Druul the Untamed (Dragon's Gullet, only during The Titan Source)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Druul_the_Untamed",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "siska-scalewand",
+          "en": "Siska Scalewand",
+          "zhTW": "Siska Scalewand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Siska Scalewand (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Siska_Scalewand",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "rual-stealer-of-hope",
+          "en": "Rual, Stealer of Hope",
+          "zhTW": "Rual, Stealer of Hope",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rual, Stealer of Hope (The Ruptured Heart)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Rual,_Stealer_of_Hope",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "ghost-of-althea",
+          "en": "Ghost of Althea",
+          "zhTW": "Ghost of Althea",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking the Ghost of Althea",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Drain",
+        "url": "https://wiki.guildwars.com/wiki/Ghost_of_Althea",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "目標敵人失去2～9能量， 你獲得對方失去的3倍能量。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Energy_Drain",
+      "revision": 2731190,
+      "title": "Energy Drain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/24954"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24955,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標敵人失去%str1%能量， 你獲得對方失去的3倍能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

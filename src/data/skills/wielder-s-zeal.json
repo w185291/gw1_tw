@@ -1,0 +1,136 @@
+{
+  "id": "wielder-s-zeal",
+  "name": {
+    "en": "Wielder's Zeal",
+    "zhTW": "指揮者狂熱",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1737,
+  "icon": "/skills/wielder-s-zeal.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10...34...40 seconds, whenever you cast a Weapon Spell on an ally, you gain 1...4...5 Energy.",
+      "zhTW": "持續 10～40 秒，每當你對盟友施放「武裝魔法」時，你獲得 1～5 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "captain-alsin",
+          "en": "Captain Alsin",
+          "zhTW": "Captain Alsin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Alsin (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Wielder%27s_Zeal",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Alsin",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10～40 秒，每當你對盟友施放「武裝魔法」時，你獲得 1～5 能量。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wielder%27s_Zeal",
+      "revision": 2720395,
+      "title": "Wielder's Zeal",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50103",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50104,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你對盟友施放「武裝魔法」時，你獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

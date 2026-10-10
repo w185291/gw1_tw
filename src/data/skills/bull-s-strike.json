@@ -1,0 +1,760 @@
+{
+  "pvpOnly": false,
+  "id": "bull-s-strike",
+  "name": {
+    "en": "Bull's Strike",
+    "zhTW": "公牛衝擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 332,
+  "icon": "/skills/bull-s-strike.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits a moving foe, you strike for +5...25...30 damage, and your target is knocked down.",
+      "zhTW": "若擊中正在移動中的敵人，對其造成 5～30 額外傷害，並且擊倒該目標。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "a-belated-betrothal",
+          "en": "A Belated Betrothal",
+          "zhTW": "A Belated Betrothal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seeker-s-passage",
+              "en": "Seeker's Passage",
+              "zhTW": "探索者通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seeker%27s_Passage"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Belated Betrothal (Seeker's Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/A_Belated_Betrothal",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "toris-stonehammer",
+          "en": "Toris Stonehammer",
+          "zhTW": "Toris Stonehammer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Toris Stonehammer (Traveler's Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Toris_Stonehammer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ore-darkwhip",
+          "en": "Ore Darkwhip",
+          "zhTW": "Ore Darkwhip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-horse-mine",
+              "en": "Iron Horse Mine",
+              "zhTW": "鐵馬礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine"
+          },
+          {
+            "name": {
+              "id": "minaar-s-worry",
+              "en": "Minaar's Worry",
+              "zhTW": "Minaar's Worry",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Minaar%27s_Worry"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ore Darkwhip (Iron Horse Mine, only during Minaar's Worry)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ore_Darkwhip",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "thorgrim-beastlasher",
+          "en": "Thorgrim Beastlasher",
+          "zhTW": "Thorgrim Beastlasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stone-summit-beastmasters",
+              "en": "Stone Summit Beastmasters",
+              "zhTW": "Stone Summit Beastmasters",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stone_Summit_Beastmasters"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thorgrim Beastlasher (Iron Horse Mine, only during Stone Summit Beastmasters)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Thorgrim_Beastlasher",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "minotaur-boss",
+          "en": "Minotaur (boss)",
+          "zhTW": "Minotaur (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "anvil-rock",
+              "en": "Anvil Rock",
+              "zhTW": "鐵砧石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Anvil_Rock"
+          },
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Minotaur (Anvil Rock, The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Minotaur_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "muu-swifthorn",
+          "en": "Muu Swifthorn",
+          "zhTW": "Muu Swifthorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talmark-wilderness",
+              "en": "Talmark Wilderness",
+              "zhTW": "突馬克荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Muu Swifthorn (Talmark Wilderness)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Muu_Swifthorn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "greves-the-overbearing",
+          "en": "Greves the Overbearing",
+          "zhTW": "Greves the Overbearing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talmark-wilderness-war-in-kryta",
+              "en": "Talmark Wilderness (War in Kryta)",
+              "zhTW": "Talmark Wilderness (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Greves the Overbearing (Talmark Wilderness (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Greves_the_Overbearing",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ehyal-longtooth",
+          "en": "Ehyal Longtooth",
+          "zhTW": "Ehyal Longtooth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lahtenda-bog",
+              "en": "Lahtenda Bog",
+              "zhTW": "洛天帝沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ehyal Longtooth (Lahtenda Bog)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ehyal_Longtooth",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ursula-the-white",
+          "en": "Ursula the White",
+          "zhTW": "Ursula the White",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fahranur-the-first-city",
+              "en": "Fahranur, the First City",
+              "zhTW": "舊城．法蘭努爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fahranur,_the_First_City"
+          },
+          {
+            "name": {
+              "id": "how-the-grentches-stole-wintersday",
+              "en": "How the Grentches Stole Wintersday",
+              "zhTW": "How the Grentches Stole Wintersday",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/How_the_Grentches_Stole_Wintersday"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ursula the White (Fahranur, the First City, during How the Grentches Stole Wintersday)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ursula_the_White",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "mahto-sharptooth",
+          "en": "Mahto Sharptooth",
+          "zhTW": "Mahto Sharptooth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mahto Sharptooth (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Mahto_Sharptooth",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "shons-the-pretender",
+          "en": "Shons the Pretender",
+          "zhTW": "Shons the Pretender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shons the Pretender (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Shons_the_Pretender",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-enforcer",
+          "en": "The Enforcer",
+          "zhTW": "The Enforcer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          },
+          {
+            "name": {
+              "id": "the-hunting-of-the-charr",
+              "en": "The Hunting of the Charr",
+              "zhTW": "The Hunting of the Charr",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hunting_of_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Enforcer (Rragar's Menagerie, during The Hunting of the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/The_Enforcer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ancient-ooze",
+          "en": "Ancient Ooze",
+          "zhTW": "Ancient Ooze",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Ooze (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Ooze",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "charr-prison-guard-boss",
+          "en": "Charr Prison Guard (boss)",
+          "zhTW": "Charr Prison Guard (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "warband-of-brothers",
+              "en": "Warband of Brothers",
+              "zhTW": "戰爭軍團之友",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Prison Guard (Warband of Brothers)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Prison_Guard_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gordam-griefgiver",
+          "en": "Gordam Griefgiver",
+          "zhTW": "Gordam Griefgiver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gordam Griefgiver (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Gordam_Griefgiver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gorgaan-hatemonger",
+          "en": "Gorgaan Hatemonger",
+          "zhTW": "Gorgaan Hatemonger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorgaan Hatemonger (Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Gorgaan_Hatemonger",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "若擊中正在移動中的敵人，對其造成 5～30 額外傷害，並且擊倒該目標。",
+  "commonUses": [
+    "力量 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+      "revision": 2733097,
+      "title": "Bull's Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25875"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25876,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若擊中正在移動中的敵人，對其造成 %str1% 額外傷害，並且擊倒該目標。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

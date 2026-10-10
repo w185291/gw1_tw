@@ -1,0 +1,300 @@
+{
+  "id": "splinter-weapon",
+  "name": {
+    "en": "Splinter Weapon",
+    "zhTW": "爆刺武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 792,
+  "icon": "/skills/splinter-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...4...5 attack[s] deal 5...41...50 damage to up to 4 adjacent foes.",
+      "zhTW": "使目標盟友擁有爆刺武裝。在 20 秒內，使該盟友的下 1～5 次攻擊對其鄰近的 4名敵人造成 5～50 傷害。"
+    },
+    "pvp": {
+      "en": "Weapon Spell. For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...4...5 attack[s] deal 5...33...40 damage to up to 4 adjacent foes.",
+      "zhTW": "持續 20 秒，目標友軍接下來 1～5 次攻擊，對最多 4 名相鄰敵人造成 5～40 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Splinter Weapon (PvP)",
+      "description": {
+        "en": "Weapon Spell. For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...4...5 attack[s] deal 5...33...40 damage to up to 4 adjacent foes.",
+        "zhTW": "持續 20 秒，目標友軍接下來 1～5 次攻擊，對最多 4 名相鄰敵人造成 5～40 傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Splinter_Weapon_%28PvP%29",
+        "revision": 2739062,
+        "title": "Splinter Weapon (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2868
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-cunning",
+          "en": "Cairn the Cunning",
+          "zhTW": "Cairn the Cunning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Cunning (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Cunning",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "reesou-the-wanderer",
+          "en": "Reesou the Wanderer",
+          "zhTW": "Reesou the Wanderer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reesou the Wanderer (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Reesou_the_Wanderer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "gokir-patriarch",
+          "en": "Gokir Patriarch",
+          "zhTW": "Gokir Patriarch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bogroot-growths",
+              "en": "Bogroot Growths",
+              "zhTW": "泥塘根源地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bogroot_Growths"
+          },
+          {
+            "name": {
+              "id": "tekks-s-war",
+              "en": "Tekks's War",
+              "zhTW": "Tekks's War",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tekks%27s_War"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gokir Patriarch (Bogroot Growths, only during Tekks's War)",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Gokir_Patriarch",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "ophil-patriarch",
+          "en": "Ophil Patriarch",
+          "zhTW": "Ophil Patriarch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "giriff-s-war",
+              "en": "Giriff's War",
+              "zhTW": "Giriff's War",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Giriff%27s_War"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ophil Patriarch (Bogroot Growths, only during Giriff's War)",
+        "source": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Ophil_Patriarch",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "使目標盟友擁有爆刺武裝。在 20 秒內，使該盟友的下 1～5 次攻擊對其鄰近的 4名敵人造成 5～50 傷害。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+      "revision": 2737512,
+      "title": "Splinter Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Splinter_Weapon_%28PvP%29",
+      "revision": 2739062,
+      "title": "Splinter Weapon (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27401",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27402,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標盟友擁有爆刺武裝。在 %str3% 秒內，使該盟友的下 %str2% 次攻擊對其鄰近的 4名敵人造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

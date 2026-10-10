@@ -1,0 +1,594 @@
+{
+  "pvpOnly": false,
+  "id": "aegis",
+  "name": {
+    "en": "Aegis",
+    "zhTW": "神賜之盾",
+    "translationVerified": true
+  },
+  "clientSkillId": 257,
+  "icon": "/skills/aegis.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 6...13...15 seconds, all party members within earshot have a 50% chance to block attacks.",
+      "zhTW": "持續 6～15 秒，使音量所及範圍內的所有隊伍成員，有 50% 機率格檔攻擊。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 1...3...3 seconds, target other party member cannot be the target of hostile spells, and attacks against this party member fail.",
+      "zhTW": "持續 1～3 秒，施加在目標其他隊友的攻擊將會失敗，且該隊友無法成為負面魔法的目標。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Aegis (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 1...3...3 seconds, target other party member cannot be the target of hostile spells, and attacks against this party member fail.",
+        "zhTW": "持續 1～3 秒，施加在目標其他隊友的攻擊將會失敗，且該隊友無法成為負面魔法的目標。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Aegis_%28PvP%29",
+        "revision": 2628476,
+        "title": "Aegis (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2857
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "mazzim",
+          "en": "Mazzim",
+          "zhTW": "Mazzim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mazzim (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Mazzim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "xu-fengxia",
+          "en": "Xu Fengxia",
+          "zhTW": "Xu Fengxia",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ran-musu-gardens",
+              "en": "Ran Musu Gardens",
+              "zhTW": "嵐穆蘇花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xu Fengxia (Ran Musu Gardens)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Xu_Fengxia",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "preceptor-zunark",
+          "en": "Preceptor Zunark",
+          "zhTW": "Preceptor Zunark",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          },
+          {
+            "name": {
+              "id": "to-the-rescue-nightfall-quest",
+              "en": "To the Rescue (Nightfall quest)",
+              "zhTW": "To the Rescue (Nightfall quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/To_the_Rescue_(Nightfall_quest)"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Preceptor Zunark (Vehjin Mines, during To the Rescue)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Preceptor_Zunark",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "general-nimtak",
+          "en": "General Nimtak",
+          "zhTW": "General Nimtak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dzagonur-bastion",
+              "en": "Dzagonur Bastion",
+              "zhTW": "薩崗諾稜堡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "General Nimtak (Dzagonur Bastion)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/General_Nimtak",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "priest-zein-zuu",
+          "en": "Priest Zein Zuu",
+          "zhTW": "Priest Zein Zuu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nundu-bay",
+              "en": "Nundu Bay",
+              "zhTW": "納度灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nundu_Bay"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Priest Zein Zuu (Nundu Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Priest_Zein_Zuu",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "zadukar-the-blessed",
+          "en": "Zadukar the Blessed",
+          "zhTW": "Zadukar the Blessed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          },
+          {
+            "name": {
+              "id": "a-deal-s-a-deal",
+              "en": "A Deal's a Deal",
+              "zhTW": "A Deal's a Deal",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Deal%27s_a_Deal"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zadukar the Blessed (Joko's Domain, during A Deal's a Deal)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Zadukar_the_Blessed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "hierophant-burntsoul",
+          "en": "Hierophant Burntsoul",
+          "zhTW": "Hierophant Burntsoul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "assault-on-the-stronghold",
+              "en": "Assault on the Stronghold",
+              "zhTW": "襲擊根據地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Assault_on_the_Stronghold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hierophant Burntsoul (Assault on the Stronghold)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Hierophant_Burntsoul",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tyndir-flamecaller",
+          "en": "Tyndir Flamecaller",
+          "zhTW": "Tyndir Flamecaller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tyndir Flamecaller (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Tyndir_Flamecaller",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "smoke-kindlefist",
+          "en": "Smoke Kindlefist",
+          "zhTW": "Smoke Kindlefist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Smoke Kindlefist (Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Smoke_Kindlefist",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Aegis",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 6～15 秒，使音量所及範圍內的所有隊伍成員，有 50% 機率格檔攻擊。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aegis",
+      "revision": 2738548,
+      "title": "Aegis",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aegis_%28PvP%29",
+      "revision": 2628476,
+      "title": "Aegis (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25722"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25723,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的所有隊伍成員，有 50%% 機率格檔攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "summon-ruby-djinn",
+  "name": {
+    "en": "Summon Ruby Djinn",
+    "zhTW": "召喚紅寶石巨靈"
+  },
+  "clientSkillId": 2225,
+  "icon": "/skills/summon-ruby-djinn.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Summon a level 14...20 Ruby Djinn that lives for 40...60 seconds and has Immolate. Only 1 Asura Summon can be active at a time.",
+      "zhTW": "召喚一個等級14～20的紅寶石巨靈(可存活40～60秒)並擁有「火焰焚身」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "polymock-defeat-grulhammer-silverfist",
+          "en": "Polymock: Defeat Grulhammer Silverfist",
+          "zhTW": "Polymock: Defeat Grulhammer Silverfist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Polymock: Defeat Grulhammer Silverfist (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn",
+        "url": "https://wiki.guildwars.com/wiki/Polymock:_Defeat_Grulhammer_Silverfist",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "召喚一個等級14～20的紅寶石巨靈(可存活40～60秒)並擁有「火焰焚身」技能。同一時間只能發動一個阿蘇拉召喚技能。",
+  "commonUses": [
+    "Asura rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn",
+      "revision": 2706550,
+      "title": "Summon Ruby Djinn",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69833"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69834,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "召喚一個等級%str1%的紅寶石巨靈(可存活%str3%秒)並擁有「火焰焚身」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

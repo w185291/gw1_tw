@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "raven-blessing",
+  "name": {
+    "en": "Raven Blessing",
+    "zhTW": "渡鴉賜福"
+  },
+  "clientSkillId": 2384,
+  "icon": "/skills/raven-blessing.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "form",
+    "en": "form",
+    "zhTW": "型態",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Elite Form. You lose all effects and take on the aspect of the raven. For 60 seconds, you have 80 armor, 660...700 Health, and a 20...30% chance to block, All your attributes are set to 0 and raven attacks replace your skills.",
+      "zhTW": "精英型態(60秒)：化身為渡鴨的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660～700且有20～30%機率格檔攻擊，你的所有屬性將歸零且技能被渡鴨技能所取代。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "shadows-in-the-night",
+          "en": "Shadows in the Night",
+          "zhTW": "Shadows in the Night",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hogni-truthseeker",
+              "en": "Hogni Truthseeker",
+              "zhTW": "Hogni Truthseeker",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hogni_Truthseeker"
+          },
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadows in the Night (from Hogni Truthseeker in Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Raven_Blessing",
+        "url": "https://wiki.guildwars.com/wiki/Shadows_in_the_Night",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "精英型態(60秒)：化身為渡鴨的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660～700且有20～30%機率格檔攻擊，你的所有屬性將歸零且技能被渡鴨技能所取代。",
+  "commonUses": [
+    "Norn rank · 型態"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Raven_Blessing",
+      "revision": 2707357,
+      "title": "Raven Blessing",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71936"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71937,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "精英型態(%str3%秒)：化身為渡鴨的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至%str2%且有%str1%%%機率格檔攻擊，你的所有屬性將歸零且技能被渡鴨技能所取代。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

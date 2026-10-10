@@ -1,0 +1,209 @@
+{
+  "pvpOnly": false,
+  "id": "accumulated-pain",
+  "name": {
+    "en": "Accumulated Pain",
+    "zhTW": "累積痛苦",
+    "translationVerified": true
+  },
+  "clientSkillId": 1052,
+  "icon": "/skills/accumulated-pain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe takes 15...63...75 damage. If target foe is suffering from 2 or more hexes, that foe suffers a Deep Wound for 5...17...20 seconds.",
+      "zhTW": "對目標敵人造成 15～75 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5～20 秒。"
+    },
+    "pvp": {
+      "en": "Spell. Target foe takes 10...30...35 damage. If target foe is suffering from 2 or more hexes, that foe suffers a Deep Wound for 5...17...20 seconds.",
+      "zhTW": "對目標敵人造成 10～35 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5～20 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Accumulated Pain (PvP)",
+      "description": {
+        "en": "Spell. Target foe takes 10...30...35 damage. If target foe is suffering from 2 or more hexes, that foe suffers a Deep Wound for 5...17...20 seconds.",
+        "zhTW": "對目標敵人造成 10～35 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5～20 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 2.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_%28PvP%29",
+        "revision": 2628473,
+        "title": "Accumulated Pain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3184
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ven-the-conservator",
+          "en": "Ven the Conservator",
+          "zhTW": "Ven the Conservator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ven the Conservator (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Ven_the_Conservator",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lucent-the-spectral",
+          "en": "Lucent the Spectral",
+          "zhTW": "Lucent the Spectral",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lucent the Spectral (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Lucent_the_Spectral",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "對目標敵人造成 15～75 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5～20 秒。",
+  "commonUses": [
+    "幻術魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+      "revision": 2733387,
+      "title": "Accumulated Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_%28PvP%29",
+      "revision": 2628473,
+      "title": "Accumulated Pain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26538",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26539,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成 %str1% 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

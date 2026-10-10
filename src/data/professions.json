@@ -1,0 +1,202 @@
+[
+  {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Strength",
+      "zhTW": "力量"
+    },
+    "weapons": "斧、鎚、劍",
+    "summary": "以近戰武器與怒氣技能持續攻擊，姿態和戰術可增加生存或支援隊伍。",
+    "primaryMechanic": "每點力量使攻擊技能增加 1% 防禦穿透。一般普攻不因力量直接獲得這項穿透。",
+    "tip": "注意怒氣累積、攻擊速度姿態和武器專精；選定一種武器投入屬性。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Warrior",
+      "title": "Warrior",
+      "revision": 2739460,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Expertise",
+      "zhTW": "專精"
+    },
+    "weapons": "弓、動物夥伴",
+    "summary": "以弓箭、寵物、準備、陷阱與自然儀式作戰，也能用技能打斷與施加病症。",
+    "primaryMechanic": "每點專精使攻擊、儀式、碰觸技能與遊俠技能的能量消耗降低 4%；並非所有副職業法術都受益。",
+    "tip": "自然儀式可能同時影響敵我；使用前讀清楚影響對象，寵物需合適技能才能隨行。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Ranger",
+      "title": "Ranger",
+      "revision": 2739461,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Divine Favor",
+      "zhTW": "神恩"
+    },
+    "weapons": "法杖、法器",
+    "summary": "治療禱言回復體力，防護禱言預防傷害，懲戒禱言則可用於輸出。",
+    "primaryMechanic": "對友軍施放僧侶法術時提供額外治療，也強化與神恩相關的技能。",
+    "tip": "治療與預防傷害的時機不同；留意能量、解病症與解降咒需求，避免只帶補血。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Monk",
+      "title": "Monk",
+      "revision": 2709820,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Soul Reaping",
+      "zhTW": "靈魂吸取"
+    },
+    "weapons": "法杖、法器、不死僕從",
+    "summary": "以血魔法偷取體力、詛咒削弱敵人、死亡魔法利用屍體與召喚僕從。",
+    "primaryMechanic": "附近非靈體生物死亡時，每點靈魂吸取回復 1 能量；每 15 秒最多觸發三次。",
+    "tip": "犧牲體力有風險；屍體是資源，不同召喚或泉井技能可能競爭同一具屍體。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Necromancer",
+      "title": "Necromancer",
+      "revision": 2739462,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Fast Casting",
+      "zhTW": "快速施法"
+    },
+    "weapons": "法杖、法器",
+    "summary": "以打斷、能量操作、降咒與直接傷害干擾敵人；支配、幻術、靈感各有不同用途。",
+    "primaryMechanic": "縮短法術與紋章施放時間。非幻術師、原施法時間短於 2 秒的技能不受影響；PvE 每點另使幻術師法術冷卻時間縮短 3%。",
+    "tip": "打斷要看敵人動作；某些降咒只在對方施法、攻擊或不使用技能時生效。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Mesmer",
+      "title": "Mesmer",
+      "revision": 2739463,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "campaign": "Core",
+    "primaryAttribute": {
+      "en": "Energy Storage",
+      "zhTW": "能量儲存"
+    },
+    "weapons": "法杖、法器",
+    "summary": "氣、地、火、水四種元素提供傷害、控制、致盲、防護與緩速。",
+    "primaryMechanic": "每點能量儲存增加 3 最大能量，也強化相應的能量管理技能。",
+    "tip": "最大能量多不等於回復快；管理調和與超載，並依敵人防禦及隊伍需求選元素。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Elementalist",
+      "title": "Elementalist",
+      "revision": 2739464,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "campaign": "Factions",
+    "primaryAttribute": {
+      "en": "Critical Strikes",
+      "zhTW": "致命攻擊"
+    },
+    "weapons": "匕首",
+    "summary": "以先導、副手、雙重攻擊串起連段，使用暗影步切入或脫離。",
+    "primaryMechanic": "每點提高致命一擊機率 1%，致命一擊時可回復能量；回復量依屬性門檻增加。",
+    "tip": "先導與副手前置不能隨意省略；缺少前置或被格擋時，後續連段可能失敗。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Assassin",
+      "title": "Assassin",
+      "revision": 2710558,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "campaign": "Factions",
+    "primaryAttribute": {
+      "en": "Spawning Power",
+      "zhTW": "召喚力量"
+    },
+    "weapons": "法杖、法器、靈體與骨灰",
+    "summary": "以縛靈儀式召喚靈體，武器法術支援隊友，恢復魔法治療，導引魔法提供傷害。",
+    "primaryMechanic": "每點使你創造或召喚的生物體力增加 4%，武器法術持續時間增加 4%。",
+    "tip": "靈體固定位置，推進時需要重新佈置；武器法術與加持不同，不能用一般拆加持處理。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Ritualist",
+      "title": "Ritualist",
+      "revision": 2729952,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "campaign": "Nightfall",
+    "primaryAttribute": {
+      "en": "Leadership",
+      "zhTW": "領導"
+    },
+    "weapons": "長矛、盾",
+    "summary": "以喊話、聖歌與迴響支援隊伍，同時以長矛作遠程攻擊。",
+    "primaryMechanic": "每名受到喊話或聖歌影響的友軍提供 2 能量；單次回復上限由領導屬性每 2 點增加 1 能量。",
+    "tip": "留意聽距與影響的人數；聖歌觸發條件、喊話結束與迴響重新套用不是同一件事。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Paragon",
+      "title": "Paragon",
+      "revision": 2710788,
+      "checkedAt": "2026-10-09"
+    }
+  },
+  {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "campaign": "Nightfall",
+    "primaryAttribute": {
+      "en": "Mysticism",
+      "zhTW": "神秘"
+    },
+    "weapons": "鐮刀",
+    "summary": "以鐮刀攻擊面前最多三名相鄰敵人，並透過神喚加持的施放與移除觸發效果。",
+    "primaryMechanic": "每點使神喚加持能量消耗降低 4%；PvE 有加持時另增加每點 1 防禦。",
+    "tip": "閱讀技能是否移除神喚加持、移除後觸發什麼；不要把有用的加持過早消耗。",
+    "source": {
+      "url": "https://wiki.guildwars.com/wiki/Dervish",
+      "title": "Dervish",
+      "revision": 2709815,
+      "checkedAt": "2026-10-09"
+    }
+  }
+]

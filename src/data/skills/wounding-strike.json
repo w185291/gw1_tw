@@ -1,0 +1,207 @@
+{
+  "pvpOnly": false,
+  "id": "wounding-strike",
+  "name": {
+    "en": "Wounding Strike",
+    "zhTW": "創傷攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1536,
+  "icon": "/skills/wounding-strike.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "scythe-attack",
+    "en": "scythe attack",
+    "zhTW": "鐮刀攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Scythe Attack. If this attack hits, you do +5...17...20 damage, target foe suffers from Bleeding for 5...17...20 seconds, and you lose 1 Dervish enchantment. If an enchantment is removed, target foe also suffers from a Deep Wound for 5...17...20 seconds.",
+      "zhTW": "命中時造成 5～20 額外傷害，且使目標流血 5～20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5～20 秒。"
+    },
+    "pvp": {
+      "en": "Elite Scythe Attack. If this attack hits, target foe suffers from Bleeding for 5...17...20 seconds, and you lose 1 Dervish enchantment. If an enchantment is removed, target foe also suffers from a Deep Wound for 5...17...20 seconds.",
+      "zhTW": "命中時造成 0 額外傷害，且使目標流血 5～20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5～20 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Wounding Strike (PvP)",
+      "description": {
+        "en": "Elite Scythe Attack. If this attack hits, target foe suffers from Bleeding for 5...17...20 seconds, and you lose 1 Dervish enchantment. If an enchantment is removed, target foe also suffers from a Deep Wound for 5...17...20 seconds.",
+        "zhTW": "命中時造成 0 額外傷害，且使目標流血 5～20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5～20 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 3.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Wounding_Strike_%28PvP%29",
+        "revision": 2676419,
+        "title": "Wounding Strike (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3367
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "marobeh-sharptail",
+          "en": "Marobeh Sharptail",
+          "zhTW": "Marobeh Sharptail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Marobeh Sharptail (Vehjin Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Marobeh_Sharptail",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "taameh-the-frigid",
+          "en": "Taameh the Frigid",
+          "zhTW": "Taameh the Frigid",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taameh the Frigid (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Taameh_the_Frigid",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "reaper-of-destruction",
+          "en": "Reaper of Destruction",
+          "zhTW": "Reaper of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reaper of Destruction (Raven's Point: levels 1 and 2)",
+        "source": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Reaper_of_Destruction",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "命中時造成 5～20 額外傷害，且使目標流血 5～20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5～20 秒。",
+  "commonUses": [
+    "鐮刀精通 · 鐮刀攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+      "revision": 2733239,
+      "title": "Wounding Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wounding_Strike_%28PvP%29",
+      "revision": 2676419,
+      "title": "Wounding Strike (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33413"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33414,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str2% 額外傷害，且使目標流血 %str1% 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 %str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

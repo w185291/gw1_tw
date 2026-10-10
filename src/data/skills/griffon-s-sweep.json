@@ -1,0 +1,240 @@
+{
+  "pvpOnly": false,
+  "id": "griffon-s-sweep",
+  "name": {
+    "en": "Griffon's Sweep",
+    "zhTW": "獅鷲獸掃蕩",
+    "translationVerified": true
+  },
+  "clientSkillId": 327,
+  "icon": "/skills/griffon-s-sweep.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, you strike for +5...17...20 damage. If this attack is blocked, your target is knocked down and suffers 10...29...34 damage.",
+      "zhTW": "命中時對目標造成 5～20 額外傷害。若目標「格擋」此攻擊，則該目標被擊倒並受到 10～34 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "krastos",
+          "en": "Krastos",
+          "zhTW": "Krastos",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          },
+          {
+            "name": {
+              "id": "mad-little-pony",
+              "en": "Mad Little Pony",
+              "zhTW": "Mad Little Pony",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mad_Little_Pony"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Krastos (Turai's Procession, during Mad Little Pony)",
+        "source": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Krastos",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "the-undead-hordes",
+          "en": "The Undead Hordes",
+          "zhTW": "The Undead Hordes",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Undead Hordes (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/The_Undead_Hordes",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 5～20 額外傷害。若目標「格擋」此攻擊，則該目標被擊倒並受到 10～34 傷害。",
+  "commonUses": [
+    "力量 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+      "revision": 2732685,
+      "title": "Griffon's Sweep",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25865"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25866,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若目標「格擋」此攻擊，則該目標被擊倒並受到 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

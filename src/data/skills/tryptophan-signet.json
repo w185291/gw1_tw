@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "tryptophan-signet",
+  "name": {
+    "en": "Tryptophan Signet",
+    "zhTW": "鎮定紋章"
+  },
+  "clientSkillId": 2230,
+  "icon": "/skills/tryptophan-signet.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Signet. For 14...20 seconds, target foe and all adjacent foes move and attack 23...40% slower.",
+      "zhTW": "持續14～20秒，目標及鄰近敵人移動和攻擊速度減慢23～40%。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "forbidden-fruit",
+          "en": "Forbidden Fruit",
+          "zhTW": "Forbidden Fruit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Forbidden Fruit (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Tryptophan_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Forbidden_Fruit",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續14～20秒，目標及鄰近敵人移動和攻擊速度減慢23～40%。",
+  "commonUses": [
+    "Ebon Vanguard rank · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tryptophan_Signet",
+      "revision": 2645619,
+      "title": "Tryptophan Signet",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69906"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69907,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標及鄰近敵人移動和攻擊速度減慢%str1%%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

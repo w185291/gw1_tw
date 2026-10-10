@@ -1,0 +1,188 @@
+{
+  "id": "death-pact-signet",
+  "name": {
+    "en": "Death Pact Signet",
+    "zhTW": "死契紋章",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1481,
+  "icon": "/skills/death-pact-signet.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Resurrect target party member with your current Health and 15...83...100% Energy. The next time that ally dies within 120 seconds, so do you.",
+      "zhTW": "復活目標隊友，為其恢復等同於你現在的體力與隊友的15～100%能量，120秒內若隊友再度死亡，你也會死去。"
+    },
+    "pvp": {
+      "en": "Signet. Resurrect target party member with your current Health and 15...83...100% Energy. The next time that ally dies within 120 seconds, so do you.",
+      "zhTW": "復活目標隊友，給予與你目前相同的體力及 15～100% 能量。若該隊友在 120 秒內再次死亡，你也會死亡。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Death Pact Signet (PvP)",
+      "description": {
+        "en": "Signet. Resurrect target party member with your current Health and 15...83...100% Energy. The next time that ally dies within 120 seconds, so do you.",
+        "zhTW": "復活目標隊友，給予與你目前相同的體力及 15～100% 能量。若該隊友在 120 秒內再次死亡，你也會死亡。"
+      },
+      "stats": {
+        "Activation": 4.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_%28PvP%29",
+        "revision": 2732863,
+        "title": "Death Pact Signet (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2872
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Pact_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Death_Pact_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "復活目標隊友，為其恢復等同於你現在的體力與隊友的15～100%能量，120秒內若隊友再度死亡，你也會死去。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet",
+      "revision": 2732809,
+      "title": "Death Pact Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_%28PvP%29",
+      "revision": 2732863,
+      "title": "Death Pact Signet (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/37032"
+  ],
+  "descriptionEvidence": {
+    "stringId": 37033,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "復活目標隊友，為其恢復等同於你現在的體力與隊友的%str2%%%能量，%str3%秒內若隊友再度死亡，你也會死去。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

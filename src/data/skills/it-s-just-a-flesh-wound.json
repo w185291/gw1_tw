@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "it-s-just-a-flesh-wound",
+  "name": {
+    "en": "\"It's Just a Flesh Wound.\"",
+    "zhTW": "「不過是皮肉傷」",
+    "translationVerified": true
+  },
+  "clientSkillId": 1599,
+  "icon": "/skills/it-s-just-a-flesh-wound.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. Target other ally loses all conditions. If a condition was removed in this way, that ally moves 25% faster for 1...8...10 second[s].",
+      "zhTW": "移除目標其他盟友身上所有病症，若移除成功，目標移動速度加快25%(1～10秒)。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "churkeh-the-defiant",
+          "en": "Churkeh the Defiant",
+          "zhTW": "Churkeh the Defiant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Churkeh the Defiant (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/%22It%27s_Just_a_Flesh_Wound.%22",
+        "url": "https://wiki.guildwars.com/wiki/Churkeh_the_Defiant",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "移除目標其他盟友身上所有病症，若移除成功，目標移動速度加快25%(1～10秒)。",
+  "commonUses": [
+    "激勵 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22It%27s_Just_a_Flesh_Wound.%22",
+      "revision": 2733924,
+      "title": "\"It's Just a Flesh Wound.\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33332",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33333,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標其他盟友身上所有病症，若移除成功，目標移動速度加快%str2%%%(%str3%秒)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,27 @@
     {
       "id": "koss",
       "name": {
-        "zhTW": "寇斯 / Koss",
+        "zhTW": "寇斯",
         "en": "Koss"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41872",
+        "game-client://2026-10-09/string/46760",
+        "game-client://2026-10-09/string/51065",
+        "game-client://2026-10-09/string/55344"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41872,
+          46760,
+          51065,
+          55344
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -133,7 +150,34 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Guard Post Commander",
+        "zhTW": "Guard Post Commander（繁中名稱待確認）"
+      },
+      "profession": "Paragon",
+      "importantSkills": [
+        "\"Never Surrender!\"",
+        "\"Stand Your Ground!\"",
+        "Cautery Signet",
+        "Mighty Throw",
+        "Wild Throw"
+      ],
+      "eliteSkills": [
+        "Cautery Signet"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "清哨站時先拉離其他巡邏，致盲或格擋控制投射物。喊技不能用普通打斷阻止，可用拆姿態／非攻擊傷害協助集火；別在中央炮擊區久站。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Guard_Post_Commander",
+      "revision": 2464112
+    }
+  ],
   "recommendedTeam": [
     "Koss、速度提升、範圍輸出與保護；HM特別避免哨站加巡邏同時引到。"
   ],
@@ -246,6 +290,13 @@
       "title": "Venta Cemetery (outpost)",
       "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery_%28outpost%29",
       "revision": 2556848,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Guard Post Commander",
+      "url": "https://wiki.guildwars.com/wiki/Guard_Post_Commander",
+      "revision": 2464112,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
     }
@@ -385,5 +436,31 @@
       "expert": "清8–11個",
       "master": "清十二個哨站"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33107",
+    "game-client://2026-10-09/string/48729"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33107,
+      48729
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery",
+    "revision": 2692983,
+    "heroes": [
+      "Koss"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

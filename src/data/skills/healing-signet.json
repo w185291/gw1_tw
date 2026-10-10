@@ -1,0 +1,521 @@
+{
+  "pvpOnly": false,
+  "id": "healing-signet",
+  "name": {
+    "en": "Healing Signet",
+    "zhTW": "治療紋章"
+  },
+  "clientSkillId": 1,
+  "icon": "/skills/healing-signet.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2,
+  "recharge": 4,
+  "description": {
+    "pve": {
+      "en": "Signet. You gain 82...154...172 Health. You have -40 armor while using this skill.",
+      "zhTW": "使你回復 82～172 體力。當施展此技能時，你的防禦降低 40 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "warrior-test",
+          "en": "Warrior Test",
+          "zhTW": "Warrior Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lakeside-county",
+              "en": "Lakeside County",
+              "zhTW": "湖畔郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lakeside_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Warrior Test (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Warrior_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "grawl-invasion",
+          "en": "Grawl Invasion",
+          "zhTW": "Grawl Invasion",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "green-hills-county",
+              "en": "Green Hills County",
+              "zhTW": "綠丘郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Green_Hills_County"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Grawl Invasion (Green Hills County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Grawl_Invasion",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gargoyle-trouble",
+          "en": "Gargoyle Trouble",
+          "zhTW": "Gargoyle Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gargoyle Trouble (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Gargoyle_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "mantid-hatchlings",
+          "en": "Mantid Hatchlings",
+          "zhTW": "Mantid Hatchlings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "monastery-overlook",
+              "en": "Monastery Overlook",
+              "zhTW": "寺廟高處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mantid Hatchlings (Monastery Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Mantid_Hatchlings",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-talon-silverwing",
+          "en": "Locate Talon Silverwing",
+          "zhTW": "Locate Talon Silverwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate 銀翼塔隆 (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Talon_Silverwing",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "rally-the-recruits-tutorial",
+          "en": "Rally the Recruits (Tutorial)",
+          "zhTW": "Rally the Recruits (Tutorial)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "take-the-shortcut-skip-tutorial",
+              "en": "Take the Shortcut (Skip Tutorial)",
+              "zhTW": "Take the Shortcut (Skip Tutorial)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Take_the_Shortcut_(Skip_Tutorial)"
+          },
+          {
+            "name": {
+              "id": "island-of-shehkah",
+              "en": "Island of Shehkah",
+              "zhTW": "沙卡島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Island_of_Shehkah"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rally the Recruits/Take the Shortcut (Island of Shehkah)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Rally_the_Recruits_(Tutorial)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "devona",
+          "en": "Devona",
+          "zhTW": "德佛娜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking Devona",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Devona",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "koss",
+          "en": "Koss",
+          "zhTW": "寇斯",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Koss",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Koss",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "jora",
+          "en": "Jora",
+          "zhTW": "喬拉",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Jora",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Jora",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "agastos-the-brave",
+          "en": "Agastos the Brave",
+          "zhTW": "Agastos the Brave",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destiny-s-gorge",
+              "en": "Destiny's Gorge",
+              "zhTW": "命運峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Agastos the Brave (Destiny's Gorge)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Agastos_the_Brave",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使你回復 82～172 體力。當施展此技能時，你的防禦降低 40 。",
+  "commonUses": [
+    "戰術 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healing_Signet",
+      "revision": 2723742,
+      "title": "Healing Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24962"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24963,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使你回復 %str1% 體力。當施展此技能時，你的防禦降低 40 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

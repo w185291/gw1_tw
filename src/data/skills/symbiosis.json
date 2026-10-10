@@ -1,0 +1,264 @@
+{
+  "pvpOnly": false,
+  "id": "symbiosis",
+  "name": {
+    "en": "Symbiosis",
+    "zhTW": "共生",
+    "translationVerified": true
+  },
+  "clientSkillId": 468,
+  "icon": "/skills/symbiosis.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "Nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Nature Ritual. Create a level 1...8...10 spirit. For each enchantment on a non-spirit creature within range, that creature has +27...125...150 maximum Health. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的共生精靈。區域內所有生物依照身上的「加持」數量，每個增加 27～150 最大體力值。共生精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "harnil",
+          "en": "Harnil",
+          "zhTW": "Harnil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marhan-s-grotto",
+              "en": "Marhan's Grotto",
+              "zhTW": "馬翰洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harnil (Marhan's Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/Harnil",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-undead-hordes",
+          "en": "The Undead Hordes",
+          "zhTW": "The Undead Hordes",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beetletun",
+              "en": "Beetletun",
+              "zhTW": "甲蟲鎮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beetletun"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Undead Hordes (Beetletun)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/The_Undead_Hordes",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "malla-arrowmane",
+          "en": "Malla Arrowmane",
+          "zhTW": "Malla Arrowmane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Malla Arrowmane (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/Malla_Arrowmane",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "keba-silenthoof",
+          "en": "Keba Silenthoof",
+          "zhTW": "Keba Silenthoof",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Keba Silenthoof (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/Keba_Silenthoof",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "drogo-greatmane",
+          "en": "Drogo Greatmane",
+          "zhTW": "Drogo Greatmane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "reed-bog",
+              "en": "Reed Bog",
+              "zhTW": "蘆葦沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Reed_Bog"
+          },
+          {
+            "name": {
+              "id": "blood-and-smoke",
+              "en": "Blood And Smoke",
+              "zhTW": "Blood And Smoke",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_And_Smoke"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Drogo Greatmane (Reed Bog, during Blood And Smoke)",
+        "source": "https://wiki.guildwars.com/wiki/Symbiosis",
+        "url": "https://wiki.guildwars.com/wiki/Drogo_Greatmane",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "創造一隻等級 1～10 的共生精靈。區域內所有生物依照身上的「加持」數量，每個增加 27～150 最大體力值。共生精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "野獸支配 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Symbiosis",
+      "revision": 2733143,
+      "title": "Symbiosis",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26292"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26293,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的共生精靈。區域內所有生物依照身上的「加持」數量，每個增加 %str2% 最大體力值。共生精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

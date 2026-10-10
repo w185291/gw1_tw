@@ -1,0 +1,219 @@
+{
+  "pvpOnly": false,
+  "id": "disrupting-accuracy",
+  "name": {
+    "en": "Disrupting Accuracy",
+    "zhTW": "精準中斷",
+    "translationVerified": true
+  },
+  "clientSkillId": 1723,
+  "icon": "/skills/disrupting-accuracy.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "preparation",
+    "en": "Preparation",
+    "zhTW": "Preparation",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Preparation. For 36 seconds, whenever your arrows critical, they also interrupt your target.",
+      "zhTW": "持續 36 秒，每當你的弓箭造成致命攻擊時，將同時中斷目標的動作。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jiao-kuai-the-swift",
+          "en": "Jiao Kuai the Swift",
+          "zhTW": "Jiao Kuai the Swift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaya-bluffs",
+              "en": "Jaya Bluffs",
+              "zhTW": "蛇野斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaya_Bluffs"
+          },
+          {
+            "name": {
+              "id": "honorable-combat",
+              "en": "Honorable Combat",
+              "zhTW": "Honorable Combat",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Honorable_Combat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jiao Kuai the Swift (Jaya Bluffs, during Honorable Combat)",
+        "source": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+        "url": "https://wiki.guildwars.com/wiki/Jiao_Kuai_the_Swift",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "zalnax",
+          "en": "Zalnax",
+          "zhTW": "Zalnax",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Zalnax (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+        "url": "https://wiki.guildwars.com/wiki/Zalnax",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 36 秒，每當你的弓箭造成致命攻擊時，將同時中斷目標的動作。",
+  "commonUses": [
+    "Marksmanship · Preparation"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+      "revision": 2712271,
+      "title": "Disrupting Accuracy",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/44045"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44046,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你的弓箭造成致命攻擊時，將同時中斷目標的動作。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

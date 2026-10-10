@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "siphon-strength",
+  "name": {
+    "en": "Siphon Strength",
+    "zhTW": "吸取力量",
+    "translationVerified": true
+  },
+  "clientSkillId": 827,
+  "icon": "/skills/siphon-strength.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target foe deals 5...41...50 less damage with attacks and all of your attacks against that foe have an additional 50% chance of being a critical hit.",
+      "zhTW": "使目標敵人在 5～20 秒內的攻擊傷害減少 5～50 ，同時你的攻擊在命中該目標時造成致命攻擊的機率增加 50% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ssaresh-rattler",
+          "en": "Ssaresh Rattler",
+          "zhTW": "Ssaresh Rattler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maishang-hills",
+              "en": "Maishang Hills",
+              "zhTW": "麥尚山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maishang_Hills"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ssaresh Rattler (Maishang Hills)",
+        "source": "https://wiki.guildwars.com/wiki/Siphon_Strength",
+        "url": "https://wiki.guildwars.com/wiki/Ssaresh_Rattler",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "使目標敵人在 5～20 秒內的攻擊傷害減少 5～50 ，同時你的攻擊在命中該目標時造成致命攻擊的機率增加 50% 。",
+  "commonUses": [
+    "暗殺技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Siphon_Strength",
+      "revision": 2720686,
+      "title": "Siphon Strength",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26476"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26477,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人在 %str3% 秒內的攻擊傷害減少 %str1% ，同時你的攻擊在命中該目標時造成致命攻擊的機率增加 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

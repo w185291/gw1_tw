@@ -1,0 +1,167 @@
+{
+  "pvpOnly": false,
+  "id": "symbols-of-inspiration",
+  "name": {
+    "en": "Symbols of Inspiration",
+    "zhTW": "靈感標誌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1339,
+  "icon": "/skills/symbols-of-inspiration.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fast-casting",
+    "en": "Fast Casting",
+    "zhTW": "快速施法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 6...33...40 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
+      "zhTW": "持續 6～40 秒，此技能變成目標的菁英技能。你施放的菁英技能改以快速施法屬性計算效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "wieshur-the-inspiring",
+          "en": "Wieshur the Inspiring",
+          "zhTW": "Wieshur the Inspiring",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Wieshur the Inspiring (Domain of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
+        "url": "https://wiki.guildwars.com/wiki/Wieshur_the_Inspiring",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "silver-vaettir",
+          "en": "Silver Vaettir",
+          "zhTW": "Silver Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Silver Vaettir (Drakkar Lake, only spawns under specific circumstances)",
+        "source": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
+        "url": "https://wiki.guildwars.com/wiki/Silver_Vaettir",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 6～40 秒，此技能變成目標的菁英技能。你施放的菁英技能改以快速施法屬性計算效果。",
+  "commonUses": [
+    "快速施法 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "arcane-thievery",
+      "en": "Arcane Thievery",
+      "zhTW": "魔法竊取",
+      "translationVerified": true
+    },
+    {
+      "id": "arcane-larceny",
+      "en": "Arcane Larceny",
+      "zhTW": "盜竊魔法",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
+      "revision": 2739301,
+      "title": "Symbols of Inspiration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33966",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33967,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

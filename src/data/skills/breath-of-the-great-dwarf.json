@@ -1,0 +1,151 @@
+{
+  "pvpOnly": false,
+  "id": "breath-of-the-great-dwarf",
+  "name": {
+    "en": "Breath of the Great Dwarf",
+    "zhTW": "偉大矮人的氣息"
+  },
+  "clientSkillId": 2221,
+  "icon": "/skills/breath-of-the-great-dwarf.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. All party members are relieved of Burning and are healed for 50...60 Health.",
+      "zhTW": "解除所有隊伍成員的「著火」狀態並治癒其 50～60 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "destructive-research",
+          "en": "Destructive Research",
+          "zhTW": "Destructive Research",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "high-priest-alkar",
+              "en": "High Priest Alkar",
+              "zhTW": "High Priest Alkar",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/High_Priest_Alkar"
+          },
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          },
+          {
+            "name": {
+              "id": "central-transfer-chamber",
+              "en": "Central Transfer Chamber",
+              "zhTW": "中央轉送室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Central_Transfer_Chamber"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Destructive Research (from High Priest Alkar in Battledepths or Central Transfer Chamber)",
+        "source": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf",
+        "url": "https://wiki.guildwars.com/wiki/Destructive_Research",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "解除所有隊伍成員的「著火」狀態並治癒其 50～60 體力。",
+  "commonUses": [
+    "Deldrimor rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf",
+      "revision": 2679970,
+      "title": "Breath of the Great Dwarf",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69843"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69844,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "解除所有隊伍成員的「著火」狀態並治癒其 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

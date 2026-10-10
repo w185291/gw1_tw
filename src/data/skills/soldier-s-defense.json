@@ -1,0 +1,144 @@
+{
+  "pvpOnly": false,
+  "id": "soldier-s-defense",
+  "name": {
+    "en": "Soldier's Defense",
+    "zhTW": "士兵防禦",
+    "translationVerified": true
+  },
+  "clientSkillId": 1699,
+  "icon": "/skills/soldier-s-defense.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15,
+  "description": {
+    "pve": {
+      "en": "Stance. For 1...5...6 second[s], you have a 75% chance to block attacks while under the effects of a shout or chant. You gain 1 strike of adrenaline for each blocked attack.",
+      "zhTW": "持續 1～6 秒，若是你有戰嚎或者聖歌效果，則有 75% 機率格檔攻擊，每次格檔攻擊時將使你獲得 1 次攻擊的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "goren",
+          "en": "Goren",
+          "zhTW": "高恩",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking 高恩",
+        "source": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Goren",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 1～6 秒，若是你有戰嚎或者聖歌效果，則有 75% 機率格檔攻擊，每次格檔攻擊時將使你獲得 1 次攻擊的怒氣值。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense",
+      "revision": 2709804,
+      "title": "Soldier's Defense",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/44041"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44042,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，若是你有戰嚎或者聖歌效果，則有 %str1%%% 機率格檔攻擊，每次格檔攻擊時將使你獲得 1 次攻擊的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

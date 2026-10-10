@@ -1,0 +1,374 @@
+{
+  "pvpOnly": false,
+  "id": "shatter-enchantment",
+  "name": {
+    "en": "Shatter Enchantment",
+    "zhTW": "加持粉碎",
+    "translationVerified": true
+  },
+  "clientSkillId": 69,
+  "icon": "/skills/shatter-enchantment.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove an enchantment from target foe. If an enchantment is removed, that foe takes 14...83...100 damage.",
+      "zhTW": "消除目標敵人身上的一項「加持」，若消除「加持」成功，則同時對該目標造成 14～100 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "hungry-devourer",
+          "en": "Hungry Devourer",
+          "zhTW": "Hungry Devourer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beacon-s-perch",
+              "en": "Beacon's Perch",
+              "zhTW": "畢肯高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beacon%27s_Perch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hungry Devourer (Beacon's Perch)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Hungry_Devourer",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lo-sha-s-gift",
+          "en": "Lo Sha's Gift",
+          "zhTW": "Lo Sha's Gift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kinya-province",
+              "en": "Kinya Province",
+              "zhTW": "欣彌領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kinya_Province"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Lo Sha's Gift (Kinya Province)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Lo_Sha%27s_Gift",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "disenchantment-course",
+          "en": "Disenchantment Course",
+          "zhTW": "Disenchantment Course",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Disenchantment Course (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Disenchantment_Course",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "varny-the-zealot",
+          "en": "Varny the Zealot",
+          "zhTW": "Varny the Zealot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tunnels-of-the-forsaken",
+              "en": "Tunnels of the Forsaken",
+              "zhTW": "Tunnels of the Forsaken",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tunnels_of_the_Forsaken"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Varny the Zealot (Tunnels of the Forsaken)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Varny_the_Zealot",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gwen",
+          "en": "Gwen",
+          "zhTW": "關",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking 關",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+        "url": "https://wiki.guildwars.com/wiki/Gwen",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "消除目標敵人身上的一項「加持」，若消除「加持」成功，則同時對該目標造成 14～100 傷害。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+      "revision": 2727771,
+      "title": "Shatter Enchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24933",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24934,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標敵人身上的一項「加持」，若消除「加持」成功，則同時對該目標造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,244 @@
+{
+  "pvpOnly": false,
+  "id": "mystic-corruption",
+  "name": {
+    "en": "Mystic Corruption",
+    "zhTW": "腐壞祕法",
+    "translationVerified": true
+  },
+  "clientSkillId": 1755,
+  "icon": "/skills/mystic-corruption.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "mysticism",
+    "en": "Mysticism",
+    "zhTW": "祕法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. All adjacent foes suffer from Disease for 1...8...10 second[s]. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+      "zhTW": "使鄰近敵人遭受疾病 1～10 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。"
+    },
+    "pvp": {
+      "en": "Flash Enchantment Spell. All adjacent foes suffer from Disease for 2...5...6 second[s]. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+      "zhTW": "使鄰近敵人遭受疾病 2～6 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mystic Corruption (PvP)",
+      "description": {
+        "en": "Flash Enchantment Spell. All adjacent foes suffer from Disease for 2...5...6 second[s]. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+        "zhTW": "使鄰近敵人遭受疾病 2～6 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mystic_Corruption_%28PvP%29",
+        "revision": 2738542,
+        "title": "Mystic Corruption (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3467
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kai-shi-jo",
+          "en": "Kai Shi Jo",
+          "zhTW": "Kai Shi Jo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kai Shi Jo (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+        "url": "https://wiki.guildwars.com/wiki/Kai_Shi_Jo",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "taameh-the-frigid",
+          "en": "Taameh the Frigid",
+          "zhTW": "Taameh the Frigid",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taameh the Frigid (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+        "url": "https://wiki.guildwars.com/wiki/Taameh_the_Frigid",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "使鄰近敵人遭受疾病 1～10 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。",
+  "commonUses": [
+    "祕法 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+      "revision": 2738410,
+      "title": "Mystic Corruption",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Corruption_%28PvP%29",
+      "revision": 2738542,
+      "title": "Mystic Corruption (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44085"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44086,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使鄰近敵人遭受疾病 %str1% 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 %str3% 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

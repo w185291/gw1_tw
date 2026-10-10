@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-prison",
+  "name": {
+    "en": "Shadow Prison",
+    "zhTW": "暗影拘禁",
+    "translationVerified": true
+  },
+  "clientSkillId": 1652,
+  "icon": "/skills/shadow-prison.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Shadow Step to target foe. For 1...6...7 seconds, that foe moves 66% slower.",
+      "zhTW": "利用暗影步伐傳送至目標敵人處。持續 1～7 秒，使該目標的移動速度減慢 66% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ardeh-the-quick",
+          "en": "Ardeh the Quick",
+          "zhTW": "Ardeh the Quick",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ardeh the Quick (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Prison",
+        "url": "https://wiki.guildwars.com/wiki/Ardeh_the_Quick",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "xien",
+          "en": "Xien",
+          "zhTW": "Xien",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Xien (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Prison",
+        "url": "https://wiki.guildwars.com/wiki/Xien",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "利用暗影步伐傳送至目標敵人處。持續 1～7 秒，使該目標的移動速度減慢 66% 。",
+  "commonUses": [
+    "暗殺技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Prison",
+      "revision": 2738363,
+      "title": "Shadow Prison",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/49973"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49974,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "利用暗影步伐傳送至目標敵人處。持續 %str3% 秒，使該目標的移動速度減慢 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,180 @@
+{
+  "pvpOnly": false,
+  "id": "defile-enchantments",
+  "name": {
+    "en": "Defile Enchantments",
+    "zhTW": "敗壞加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 1070,
+  "icon": "/skills/defile-enchantments.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe and all nearby foes take 6...49...60 shadow damage and 4...17...20 shadow damage for each enchantment on them.",
+      "zhTW": "使目標敵人及其附近的所有敵人受到 6～60 暗影傷害，若身上有「加持」的目標，依照其擁有的「加持」數量，每一項再給予其 4～20 的額外暗影傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bredyss-longstride",
+          "en": "Bredyss Longstride",
+          "zhTW": "Bredyss Longstride",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bredyss Longstride (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Bredyss_Longstride",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "inscribed-guardian",
+          "en": "Inscribed Guardian",
+          "zhTW": "Inscribed Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Guardian (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Guardian",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "使目標敵人及其附近的所有敵人受到 6～60 暗影傷害，若身上有「加持」的目標，依照其擁有的「加持」數量，每一項再給予其 4～20 的額外暗影傷害。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+      "revision": 2733388,
+      "title": "Defile Enchantments",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26622",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26623,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人及其附近的所有敵人受到 %str1% 暗影傷害，若身上有「加持」的目標，依照其擁有的「加持」數量，每一項再給予其 %str2% 的額外暗影傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

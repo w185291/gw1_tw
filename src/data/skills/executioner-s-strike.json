@@ -1,0 +1,347 @@
+{
+  "pvpOnly": false,
+  "id": "executioner-s-strike",
+  "name": {
+    "en": "Executioner's Strike",
+    "zhTW": "劊子手之斬",
+    "translationVerified": true
+  },
+  "clientSkillId": 336,
+  "icon": "/skills/executioner-s-strike.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "Axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Axe Attack. If this attack hits, you strike for +15...39...45 damage.",
+      "zhTW": "攻擊命中時對目標造成 15～45 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-vineyard-problem",
+          "en": "The Vineyard Problem",
+          "zhTW": "The Vineyard Problem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-barradin-estate",
+              "en": "The Barradin Estate",
+              "zhTW": "巴拉丁領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Barradin_Estate"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Vineyard Problem (The Barradin Estate - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/The_Vineyard_Problem",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "攻擊命中時對目標造成 15～45 額外傷害。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "galrath-slash",
+      "en": "Galrath Slash",
+      "zhTW": "加拉斯之斬",
+      "translationVerified": true
+    },
+    {
+      "id": "silverwing-slash",
+      "en": "Silverwing Slash",
+      "zhTW": "銀翼斬",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+      "revision": 2738491,
+      "title": "Executioner's Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25883",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25884,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "攻擊命中時對目標造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

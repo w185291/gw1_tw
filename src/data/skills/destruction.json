@@ -1,0 +1,190 @@
+{
+  "id": "destruction",
+  "name": {
+    "en": "Destruction",
+    "zhTW": "毀滅",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 920,
+  "icon": "/skills/destruction.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...11...14 Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take 5...21...25 damage for each second the Spirit was alive (maximum 150 damage).",
+      "zhTW": "創造一個等級 1～14 的毀滅縛靈，可以存活 30 秒。毀滅縛靈死亡時，對其範圍內敵人造成存活秒數的 5～25 倍傷害。(最多 150 )"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...8...10 Spirit [sic] that dies after 30 seconds. When this Spirit dies, all foes in the area take 1...8...10 damage for each second the Spirit was alive (maximum of 150 damage).",
+      "zhTW": "召喚等級 1～10 的靈體，30 秒後死亡。死亡時，對區域內敵人按存活秒數，每秒造成 1～10 傷害，最高 150 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Destruction (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...8...10 Spirit [sic] that dies after 30 seconds. When this Spirit dies, all foes in the area take 1...8...10 damage for each second the Spirit was alive (maximum of 150 damage).",
+        "zhTW": "召喚等級 1～10 的靈體，30 秒後死亡。死亡時，對區域內敵人按存活秒數，每秒造成 1～10 傷害，最高 150 傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 3.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Destruction_%28PvP%29",
+        "revision": 2628698,
+        "title": "Destruction (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3008
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Destruction",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "calamitous",
+          "en": "Calamitous",
+          "zhTW": "Calamitous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Calamitous (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Destruction",
+        "url": "https://wiki.guildwars.com/wiki/Calamitous",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "創造一個等級 1～14 的毀滅縛靈，可以存活 30 秒。毀滅縛靈死亡時，對其範圍內敵人造成存活秒數的 5～25 倍傷害。(最多 150 )",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Destruction",
+      "revision": 2721292,
+      "title": "Destruction",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Destruction_%28PvP%29",
+      "revision": 2628698,
+      "title": "Destruction (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27365"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27366,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一個等級 %str1% 的毀滅縛靈，可以存活 30 秒。毀滅縛靈死亡時，對其範圍內敵人造成存活秒數的 %str2% 倍傷害。(最多 150 )"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

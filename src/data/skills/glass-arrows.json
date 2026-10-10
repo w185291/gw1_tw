@@ -1,0 +1,236 @@
+{
+  "pvpOnly": false,
+  "id": "glass-arrows",
+  "name": {
+    "en": "Glass Arrows",
+    "zhTW": "玻璃箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 1199,
+  "icon": "/skills/glass-arrows.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "preparation",
+    "en": "preparation",
+    "zhTW": "preparation",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Preparation. For 10...30...35 seconds, your arrows strike for +6...17...20 damage if they hit and cause Bleeding for 10...18...20 seconds if they are blocked.",
+      "zhTW": "持續 10～35 秒，命中時對目標造成 6～20 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10～20 秒。"
+    },
+    "pvp": {
+      "en": "Elite Preparation. For 10...30...35 seconds, your arrows strike for +6...16...18 damage if they hit and cause Bleeding for 10...18...20 seconds if they are blocked.",
+      "zhTW": "持續 10～35 秒，命中時對目標造成 6～18 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10～20 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Glass Arrows (PvP)",
+      "description": {
+        "en": "Elite Preparation. For 10...30...35 seconds, your arrows strike for +6...16...18 damage if they hit and cause Bleeding for 10...18...20 seconds if they are blocked.",
+        "zhTW": "持續 10～35 秒，命中時對目標造成 6～18 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10～20 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 2.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Glass_Arrows_%28PvP%29",
+        "revision": 2738437,
+        "title": "Glass Arrows (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3145
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nandet-glass-weaver",
+          "en": "Nandet, Glass Weaver",
+          "zhTW": "Nandet, Glass Weaver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Nandet, Glass Weaver (Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Nandet,_Glass_Weaver",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "lorelle-jade-cutter",
+          "en": "Lorelle Jade Cutter",
+          "zhTW": "Lorelle Jade Cutter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Lorelle Jade Cutter (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Lorelle_Jade_Cutter",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "jang-wen",
+          "en": "Jang Wen",
+          "zhTW": "Jang Wen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jang Wen (Dragon's Throat, only during What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Jang_Wen",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "petraj-the-evasive",
+          "en": "Petraj the Evasive",
+          "zhTW": "Petraj the Evasive",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Petraj the Evasive (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+        "url": "https://wiki.guildwars.com/wiki/Petraj_the_Evasive",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 10～35 秒，命中時對目標造成 6～20 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10～20 秒。",
+  "commonUses": [
+    "Expertise · preparation"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+      "revision": 2738438,
+      "title": "Glass Arrows",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Glass_Arrows_%28PvP%29",
+      "revision": 2738437,
+      "title": "Glass Arrows (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27203",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27204,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，命中時對目標造成 %str1% 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

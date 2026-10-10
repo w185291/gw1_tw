@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "elemental-flame",
+  "name": {
+    "en": "Elemental Flame",
+    "zhTW": "元素火焰",
+    "translationVerified": true
+  },
+  "clientSkillId": 1663,
+  "icon": "/skills/elemental-flame.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 10...30...35 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...4...5 second[s].",
+      "zhTW": "持續10～35秒，每當一項元素降咒加到目標敵人上，該目標受到著火1～5秒。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 5...17...20 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...2...2 second[s].",
+      "zhTW": "持續5～20秒，每當一項元素降咒加到目標敵人上，該目標受到著火1～2秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Elemental Flame (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 5...17...20 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...2...2 second[s].",
+        "zhTW": "持續5～20秒，每當一項元素降咒加到目標敵人上，該目標受到著火1～2秒。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Elemental_Flame_%28PvP%29",
+        "revision": 2609918,
+        "title": "Elemental Flame (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3397
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Flame",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續10～35秒，每當一項元素降咒加到目標敵人上，該目標受到著火1～5秒。",
+  "commonUses": [
+    "火系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Elemental_Flame",
+      "revision": 2711841,
+      "title": "Elemental Flame",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Elemental_Flame_%28PvP%29",
+      "revision": 2609918,
+      "title": "Elemental Flame (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/49987",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49988,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，每當一項元素降咒加到目標敵人上，該目標受到著火%str1%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,330 @@
+{
+  "pvpOnly": false,
+  "id": "anthem-of-envy",
+  "name": {
+    "en": "Anthem of Envy",
+    "zhTW": "妒忌聖歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1559,
+  "icon": "/skills/anthem-of-envy.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "Chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Chant. For 10 seconds, the next attack skill used by each ally within earshot deals +10...22...25 damage against foes with more than 50% Health.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10～25 。"
+    },
+    "pvp": {
+      "en": "Chant. For 10 seconds, the next attack skill used by each ally within earshot deals +10...18...20 damage against foes with more than 50% Health.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10～20 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Anthem of Envy (PvP)",
+      "description": {
+        "en": "Chant. For 10 seconds, the next attack skill used by each ally within earshot deals +10...18...20 damage against foes with more than 50% Health.",
+        "zhTW": "持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10～20 。"
+      },
+      "stats": {
+        "Adrenaline": 6.0,
+        "Activation": 1.0,
+        "Recharge": 6.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_%28PvP%29",
+        "revision": 2733314,
+        "title": "Anthem of Envy (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3148
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "inquisitor-lashona",
+          "en": "Inquisitor Lashona",
+          "zhTW": "Inquisitor Lashona",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "wanted-inquisitor-lashona",
+              "en": "Wanted: Inquisitor Lashona",
+              "zhTW": "Wanted: Inquisitor Lashona",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wanted:_Inquisitor_Lashona"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lashona (North Kryta Province (War in Kryta), only during Wanted: Inquisitor Lashona)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lashona",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "initiate-jeng-sunjoo",
+          "en": "Initiate Jeng Sunjoo",
+          "zhTW": "Initiate Jeng Sunjoo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "ever-closer-to-the-edge",
+              "en": "Ever Closer to the Edge",
+              "zhTW": "Ever Closer to the Edge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ever_Closer_to_the_Edge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Initiate Jeng Sunjoo (Gyala Hatchery (explorable area), only during Ever Closer to the Edge)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Initiate_Jeng_Sunjoo",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "captain-bei-chi",
+          "en": "Captain Bei Chi",
+          "zhTW": "Captain Bei Chi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "a-treaty-s-a-treaty",
+              "en": "A Treaty's a Treaty",
+              "zhTW": "A Treaty's a Treaty",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Treaty%27s_a_Treaty"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Captain Bei Chi (A Treaty's a Treaty)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Bei_Chi",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "hassin-softskin",
+          "en": "Hassin Softskin",
+          "zhTW": "Hassin Softskin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "plains-of-jarin",
+              "en": "Plains of Jarin",
+              "zhTW": "賈林平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Plains_of_Jarin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hassin Softskin (Plains of Jarin)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Hassin_Softskin",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "spider-matriarch",
+          "en": "Spider Matriarch",
+          "zhTW": "Spider Matriarch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arachni-s-haunt",
+              "en": "Arachni's Haunt",
+              "zhTW": "奧拉克妮的棲息地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arachni%27s_Haunt"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Spider Matriarch (Arachni's Haunt)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Spider_Matriarch",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10～25 。",
+  "commonUses": [
+    "命令 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+      "revision": 2737311,
+      "title": "Anthem of Envy",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_%28PvP%29",
+      "revision": 2733314,
+      "title": "Anthem of Envy (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/39883"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39884,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50%% 的目標使用「攻擊技能」時，造成的傷害增加 %str1% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

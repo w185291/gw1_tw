@@ -1,0 +1,298 @@
+{
+  "pvpOnly": false,
+  "id": "broad-head-arrow",
+  "name": {
+    "en": "Broad Head Arrow",
+    "zhTW": "闊首箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 1198,
+  "icon": "/skills/broad-head-arrow.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. You shoot a broad head arrow that moves slower than normal. If it hits, target foe is Dazed for 5...17...20 seconds, and if target foe is casting a spell that spell is interrupted.",
+      "zhTW": "射出闊首的箭矢，飛行速度比一般的箭慢。但命中目標時將使其遭受「暈眩」病症 5～20 秒，而當目標正在施展魔法時，該魔法被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-afflicted-huan-ranger",
+          "en": "The Afflicted Huan (ranger)",
+          "zhTW": "The Afflicted Huan (ranger)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vizunah-square",
+              "en": "Vizunah Square",
+              "zhTW": "薇茹廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vizunah_Square"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Huan (Vizunah Square and Sunjiang District (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Huan_(ranger)",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-susei",
+          "en": "The Afflicted Susei",
+          "zhTW": "The Afflicted Susei",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Susei (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Susei",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "daeman",
+          "en": "Daeman",
+          "zhTW": "Daeman",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Daeman (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Daeman",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-pana",
+          "en": "The Afflicted Pana",
+          "zhTW": "The Afflicted Pana",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters",
+              "en": "Unwaking Waters",
+              "zhTW": "沉睡之水",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Pana (Unwaking Waters)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Pana",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "am-fah-courier",
+          "en": "Am Fah Courier",
+          "zhTW": "Am Fah Courier",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bejunkan-pier",
+              "en": "Bejunkan Pier",
+              "zhTW": "君瞰碼頭",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bejunkan_Pier"
+          },
+          {
+            "name": {
+              "id": "intercepting-the-am-fah",
+              "en": "Intercepting the Am Fah",
+              "zhTW": "Intercepting the Am Fah",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Intercepting_the_Am_Fah"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Am Fah Courier (Bejunkan Pier, during Intercepting the Am Fah)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Am_Fah_Courier",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "zu-jin-the-quick",
+          "en": "Zu Jin the Quick",
+          "zhTW": "Zu Jin the Quick",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zu Jin the Quick (Sunjiang District (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Zu_Jin_the_Quick",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "heifan-kanko",
+          "en": "Heifan Kanko",
+          "zhTW": "Heifan Kanko",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Heifan Kanko (Sunjiang District (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Heifan_Kanko",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "射出闊首的箭矢，飛行速度比一般的箭慢。但命中目標時將使其遭受「暈眩」病症 5～20 秒，而當目標正在施展魔法時，該魔法被中斷。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+      "revision": 2731328,
+      "title": "Broad Head Arrow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27201",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27202,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射出闊首的箭矢，飛行速度比一般的箭慢。但命中目標時將使其遭受「暈眩」病症 %str3% 秒，而當目標正在施展魔法時，該魔法被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,307 @@
+{
+  "pvpOnly": false,
+  "id": "desecrate-enchantments",
+  "name": {
+    "en": "Desecrate Enchantments",
+    "zhTW": "褻瀆加持",
+    "translationVerified": true
+  },
+  "clientSkillId": 112,
+  "icon": "/skills/desecrate-enchantments.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe and all nearby foes take 6...49...60 shadow damage and 4...17...20 shadow damage for each enchantment on them.",
+      "zhTW": "使目標敵人及其附近的所有敵人受到 6～60 暗影傷害，在這些敵人中，若其身上有「加持」，則會再額外受到 4～20 的暗影傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "harnil",
+          "en": "Harnil",
+          "zhTW": "Harnil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marhan-s-grotto",
+              "en": "Marhan's Grotto",
+              "zhTW": "馬翰洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Harnil (Marhan's Grotto)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Harnil",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "disgruntled-zombie",
+          "en": "Disgruntled Zombie",
+          "zhTW": "Disgruntled Zombie",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Disgruntled Zombie (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Disgruntled_Zombie",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "lord-timot",
+          "en": "Lord Timot",
+          "zhTW": "Lord Timot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "scoundrel-s-rise",
+              "en": "Scoundrel's Rise",
+              "zhTW": "惡漢山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Scoundrel%27s_Rise"
+          },
+          {
+            "name": {
+              "id": "reversing-the-skales",
+              "en": "Reversing the Skales",
+              "zhTW": "Reversing the Skales",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Reversing_the_Skales"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lord Timot (Scoundrel's Rise, only during Reversing the Skales)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Lord_Timot",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "damis-the-malignant",
+          "en": "Damis the Malignant",
+          "zhTW": "Damis the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Damis the Malignant (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Damis_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "ghazal-the-corrupter",
+          "en": "Ghazal the Corrupter",
+          "zhTW": "Ghazal the Corrupter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghazal the Corrupter (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Ghazal_the_Corrupter",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "inscribed-guardian",
+          "en": "Inscribed Guardian",
+          "zhTW": "Inscribed Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Guardian (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Guardian",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人及其附近的所有敵人受到 6～60 暗影傷害，在這些敵人中，若其身上有「加持」，則會再額外受到 4～20 的暗影傷害。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+      "revision": 2712873,
+      "title": "Desecrate Enchantments",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25044",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25045,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人及其附近的所有敵人受到 %str1% 暗影傷害，在這些敵人中，若其身上有「加持」，則會再額外受到 %str2% 的暗影傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

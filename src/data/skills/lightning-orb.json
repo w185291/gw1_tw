@@ -1,0 +1,525 @@
+{
+  "pvpOnly": false,
+  "id": "lightning-orb",
+  "name": {
+    "en": "Lightning Orb",
+    "zhTW": "閃電球",
+    "translationVerified": true
+  },
+  "clientSkillId": 229,
+  "icon": "/skills/lightning-orb.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Send out a Lightning Orb that strikes target foe for 10...82...100 lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "此技能為投射性攻擊，命中目標敵人時對其造成10～100閃電傷害，並造成碎甲0秒，此技能有25%防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-ascalon-settlement",
+          "en": "The Ascalon Settlement",
+          "zhTW": "The Ascalon Settlement",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Ascalon Settlement (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/The_Ascalon_Settlement",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-ronsu",
+          "en": "Locate Ronsu",
+          "zhTW": "Locate Ronsu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate Ronsu (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Ronsu",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "claw-fleshfixer",
+          "en": "Claw Fleshfixer",
+          "zhTW": "Claw Fleshfixer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-great-northern-wall",
+              "en": "The Great Northern Wall",
+              "zhTW": "北方長城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Claw Fleshfixer (The Great Northern Wall)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Claw_Fleshfixer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "priest-of-dagnar",
+          "en": "Priest of Dagnar",
+          "zhTW": "Priest of Dagnar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Priest of Dagnar (Borlis Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Priest_of_Dagnar",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (golem) (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "shadow-spawn",
+          "en": "Shadow Spawn",
+          "zhTW": "Shadow Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          },
+          {
+            "name": {
+              "id": "shadows-in-the-night",
+              "en": "Shadows in the Night",
+              "zhTW": "Shadows in the Night",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadows_in_the_Night"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadow Spawn (Raven's Point, only during Shadows in the Night)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Spawn",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "vekk",
+          "en": "Vekk",
+          "zhTW": "維克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Vekk",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Vekk",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "此技能為投射性攻擊，命中目標敵人時對其造成10～100閃電傷害，並造成碎甲0秒，此技能有25%防禦穿透效果。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+      "revision": 2738710,
+      "title": "Lightning Orb",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25280",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25281,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此技能為投射性攻擊，命中目標敵人時對其造成%str1%閃電傷害，並造成碎甲%str3%秒，此技能有25%%防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

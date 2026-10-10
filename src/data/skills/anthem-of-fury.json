@@ -1,0 +1,163 @@
+{
+  "pvpOnly": false,
+  "id": "anthem-of-fury",
+  "name": {
+    "en": "Anthem of Fury",
+    "zhTW": "狂暴聖歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1553,
+  "icon": "/skills/anthem-of-fury.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Chant. For 10 seconds, all party members within earshot gain 2...4...5 strikes of adrenaline the next time they use an attack skill.",
+      "zhTW": "持續 10 秒，在音量所及範圍內的盟友，「下一次」使用「攻擊技能」時，獲得等同 2～5 次攻擊成功的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "initiate-shen-wojong",
+          "en": "Initiate Shen Wojong",
+          "zhTW": "Initiate Shen Wojong",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          },
+          {
+            "name": {
+              "id": "trading-blows",
+              "en": "Trading Blows",
+              "zhTW": "Trading Blows",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Trading_Blows"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Initiate Shen Wojong (Mourning Veil Falls, during Trading Blows)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Initiate_Shen_Wojong",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "oath-of-profanity",
+          "en": "Oath of Profanity",
+          "zhTW": "Oath of Profanity",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Oath of Profanity (Nightfallen Jahai)",
+        "source": "https://wiki.guildwars.com/wiki/Anthem_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Oath_of_Profanity",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，在音量所及範圍內的盟友，「下一次」使用「攻擊技能」時，獲得等同 2～5 次攻擊成功的怒氣值。",
+  "commonUses": [
+    "領導 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Anthem_of_Fury",
+      "revision": 2738945,
+      "title": "Anthem of Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/34813"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34814,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，在音量所及範圍內的盟友，「下一次」使用「攻擊技能」時，獲得等同 %str1% 次攻擊成功的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

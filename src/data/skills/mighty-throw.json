@@ -1,0 +1,260 @@
+{
+  "pvpOnly": false,
+  "id": "mighty-throw",
+  "name": {
+    "en": "Mighty Throw",
+    "zhTW": "強力投擲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1547,
+  "icon": "/skills/mighty-throw.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "spear-mastery",
+    "en": "Spear Mastery",
+    "zhTW": "矛術精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spear-attack",
+    "en": "Spear attack",
+    "zhTW": "矛術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spear Attack. Your spear moves three times faster. If it hits, you deal +10...34...40 damage.",
+      "zhTW": "你的槍以三倍快的速度射出，命中時對目標造成 10～40 額外傷害。"
+    },
+    "pvp": {
+      "en": "Spear Attack. Your spear moves three times faster. If it hits, you deal +10...34...40 damage.",
+      "zhTW": "你的槍以三倍快的速度射出，命中時對目標造成 10～40 額外傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mighty Throw (PvP)",
+      "description": {
+        "en": "Spear Attack. Your spear moves three times faster. If it hits, you deal +10...34...40 damage.",
+        "zhTW": "你的槍以三倍快的速度射出，命中時對目標造成 10～40 額外傷害。"
+      },
+      "stats": {
+        "Adrenaline": 4,
+        "Activation": 1,
+        "Recharge": 1
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mighty_Throw_%28PvP%29",
+        "revision": 2738950,
+        "title": "Mighty Throw (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3442
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "insatiable-vakar",
+          "en": "Insatiable Vakar",
+          "zhTW": "Insatiable Vakar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Insatiable Vakar (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+        "url": "https://wiki.guildwars.com/wiki/Insatiable_Vakar",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "timberland-guardian",
+          "en": "Timberland Guardian",
+          "zhTW": "Timberland Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          },
+          {
+            "name": {
+              "id": "lab-space",
+              "en": "Lab Space",
+              "zhTW": "工廠空間",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lab_Space"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Timberland Guardian (Magus Stones, only during 工廠空間)",
+        "source": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+        "url": "https://wiki.guildwars.com/wiki/Timberland_Guardian",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "elder-nephilim",
+          "en": "Elder Nephilim",
+          "zhTW": "Elder Nephilim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Elder Nephilim (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+        "url": "https://wiki.guildwars.com/wiki/Elder_Nephilim",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "你的槍以三倍快的速度射出，命中時對目標造成 10～40 額外傷害。",
+  "commonUses": [
+    "矛術精通 · 矛術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+      "revision": 2738228,
+      "title": "Mighty Throw",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mighty_Throw_%28PvP%29",
+      "revision": 2738950,
+      "title": "Mighty Throw (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33304",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33305,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你的槍以三倍快的速度射出，命中時對目標造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

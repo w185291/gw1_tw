@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "取得歐爾權杖，帶到東北撤離橋。",
+  "summary": "潛入神殿取得歐爾權杖，再從東北橋撤離。Bonus 要先接任務並清掉全圖九座監視塔的守望者。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "河畔地帶據點",
+    "description": "從 Twin Serpent Lakes 進入 Riverside Province 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Riverside Province 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,47 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "清除九座監視塔的 Watchmen",
+    "summary": "清除九座監視塔的 Watchmen",
+    "trigger": "九座塔內的守望者全要清，不能只殺塔外軍隊。",
+    "steps": [
+      "九座塔內的守望者全要清，不能只殺塔外軍隊。",
+      "接任務人物是 Saidra，需清首塔後往西南找她。",
+      "完成提示之前不要帶權杖過終點橋，否則直接結束主線。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "完成提示之前不要帶權杖過終點橋，否則直接結束主線。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "先清第一座塔",
+      "content": "想完成 Bonus，先打原圖 1 的第一座塔，再往西南與 Saidra（圖 2）交談，取得讓物資隊通行的任務。"
+    },
+    {
+      "title": "逐塔引出援軍",
+      "content": "全圖共有九座塔（1 與 3 標記）。隊伍先在遠處集合，單人接近讓守望者示警，再退回等援軍散開，每次只引幾名白斗篷。"
+    },
+    {
+      "title": "擊殺塔內守望者",
+      "content": "塔樓擋住一般投射物視線，弓箭或投射法術未必打得到。用非投射傷害、持續失血或其他不依賴直線視線的技能打塔內守望者。"
+    },
+    {
+      "title": "確認九塔 Bonus",
+      "content": "沿圖巡完九塔，等 Bonus 完成提示。可以先清完整張地圖，再去取權杖，回程會順暢很多。"
+    },
+    {
+      "title": "拿到權杖",
+      "content": "到神殿找 Dinas，取得 Scepter of Orr 與劇情後，開近旁的門，沿路往東北撤離。"
+    },
+    {
+      "title": "穿越終點橋",
+      "content": "橋口有頭目。正常清掉他與同伴，再把權杖帶過橋觸發結尾。原 Wiki 也記載可貼頭目左側直接通過，但第一次建議清路後再走。"
+    }
+  ],
+  "routeSummary": "第一座監視塔 → 西南 Saidra → 九座塔清除 → Dinas與權杖 → 開門 → 東北橋",
   "mapImage": "/maps/Riverside_Province_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -91,13 +120,354 @@
       "role": "bonus_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Gaiza Deadeye",
+        "zhTW": "Gaiza Deadeye（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Chaos Storm",
+        "Epidemic",
+        "Ether Feast",
+        "Mantra of Inscriptions",
+        "Signet of Weariness"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Gaiza_Deadeye",
+      "revision": 2516205,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cyrus the Unflattering",
+        "zhTW": "Cyrus the Unflattering（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"I Will Avenge You!\"",
+        "\"Watch Yourself!\"",
+        "Executioner's Strike",
+        "Galrath Slash"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cyrus_the_Unflattering",
+      "revision": 2598482,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Darwym the Spiteful",
+        "zhTW": "Darwym the Spiteful（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Antidote Signet",
+        "Dryder's Defenses",
+        "Savage Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Darwym_the_Spiteful",
+      "revision": 1818443,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Darwym_the_Spiteful"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Corbin the Upright",
+        "zhTW": "Corbin the Upright（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Convert Hexes",
+        "Divine Intervention",
+        "Judge's Insight",
+        "Restore Life",
+        "Shielding Hands"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+      "revision": 2598486,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Bearn the Implacable",
+        "zhTW": "Bearn the Implacable（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Mark of Subversion",
+        "Order of Pain",
+        "Vampiric Gaze",
+        "Well of the Profane"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bearn_the_Implacable",
+      "revision": 2232989,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Bairn the Sinless",
+        "zhTW": "Bairn the Sinless（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Guilt",
+        "Shame",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bairn_the_Sinless",
+      "revision": 2596150,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Braima the Callous",
+        "zhTW": "Braima the Callous（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Glyph of Elemental Power",
+        "Searing Heat",
+        "Ward Against Elements"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Braima_the_Callous",
+      "revision": 2694620,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Zeki Lament",
+        "zhTW": "Zeki Lament（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Chain Lightning",
+        "Conjure Lightning",
+        "Enervating Charge"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Zeki_Lament",
+      "revision": 2516204,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Essam Festerskull",
+        "zhTW": "Essam Festerskull（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Healing Signet",
+        "Heavy Blow",
+        "Irresistible Blow",
+        "Warrior's Cunning"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Essam_Festerskull",
+      "revision": 2736031,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Essam_Festerskull"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ruinwing",
+        "zhTW": "Ruinwing（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Choking Gas",
+        "Dodge",
+        "Primal Echoes",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ruinwing",
+      "revision": 2598483,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ruinwing"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dracul Cadava",
+        "zhTW": "Dracul Cadava（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Draw Conditions",
+        "Reversal of Fortune"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Dracul_Cadava",
+      "revision": 2543074,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Damis the Malignant",
+        "zhTW": "Damis the Malignant（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Fiend",
+        "Barbs",
+        "Desecrate Enchantments",
+        "Life Siphon"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Damis_the_Malignant",
+      "revision": 2516200,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Damis_the_Malignant"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "物理隊伍可帶移除態勢，處理弓手的防御態勢。只引少量援軍，別站塔口吃全群。"
+  ],
+  "tips": [
+    "權杖可暫時放地上，清完战鬥再拿，不像部分運送物會破碎。",
+    "白斗篷與亡靈彼此敵對，可利用敵人互打，但仍要確認守望者全數擊殺。",
+    "通關後到神聖沙灘。"
+  ],
+  "warnings": [
+    "九座塔內的守望者全要清，不能只殺塔外軍隊。",
+    "帶非投射範圍技能處理塔內守衛，反施法控制白斗篷元素的灼熱與結界。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "帶非投射範圍技能處理塔內守衛，反施法控制白斗篷元素的灼熱與結界。",
+      "物理隊伍可帶移除態勢，處理弓手的防御態勢。只引少量援軍，別站塔口吃全群。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -117,13 +487,152 @@
       "revision": 2712924,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Gaiza Deadeye",
+      "url": "https://wiki.guildwars.com/wiki/Gaiza_Deadeye",
+      "revision": 2516205,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cyrus the Unflattering",
+      "url": "https://wiki.guildwars.com/wiki/Cyrus_the_Unflattering",
+      "revision": 2598482,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Darwym the Spiteful",
+      "url": "https://wiki.guildwars.com/wiki/Darwym_the_Spiteful",
+      "revision": 1818443,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Corbin the Upright",
+      "url": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+      "revision": 2598486,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bearn the Implacable",
+      "url": "https://wiki.guildwars.com/wiki/Bearn_the_Implacable",
+      "revision": 2232989,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bairn the Sinless",
+      "url": "https://wiki.guildwars.com/wiki/Bairn_the_Sinless",
+      "revision": 2596150,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Braima the Callous",
+      "url": "https://wiki.guildwars.com/wiki/Braima_the_Callous",
+      "revision": 2694620,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Zeki Lament",
+      "url": "https://wiki.guildwars.com/wiki/Zeki_Lament",
+      "revision": 2516204,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Essam Festerskull",
+      "url": "https://wiki.guildwars.com/wiki/Essam_Festerskull",
+      "revision": 2736031,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ruinwing",
+      "url": "https://wiki.guildwars.com/wiki/Ruinwing",
+      "revision": 2598483,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Dracul Cadava",
+      "url": "https://wiki.guildwars.com/wiki/Dracul_Cadava",
+      "revision": 2543074,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Damis the Malignant",
+      "url": "https://wiki.guildwars.com/wiki/Damis_the_Malignant",
+      "revision": 2516200,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Passage Through The Dark River",
+      "url": "https://wiki.guildwars.com/wiki/Passage_Through_The_Dark_River",
+      "revision": 2725236,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "aurora-glade",
   "nextMission": "sanctum-cay",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10366",
+    "game-client://2026-10-09/string/91480"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到神聖沙灘。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10366,
+      91480
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Passage Through The Dark River",
+        "zhTW": "Passage Through The Dark River（繁中名稱待確認）"
+      },
+      "giver": "Shadow",
+      "location": "Henge of Denravi (Maguuma Jungle)",
+      "directions": "在 Henge of Denravi 找 Shadow 接取。出 Tangle Root 跟 Carlotta；她不會等戰鬥，但留下 Marking Webs，可順路標走且不用撿。到 Old Joness 處依對話談他的兒子與 White Mantle，請他載全隊到 Riverside Province。進據點把 Evennia's Secret Orders 交 Blade Warrior Derikk 領獎；已開據點可直接傳送回報。",
+      "url": "https://wiki.guildwars.com/wiki/Passage_Through_The_Dark_River",
+      "revision": 2725236,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

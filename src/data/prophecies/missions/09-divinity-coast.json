@@ -9,7 +9,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "aliases": [
     "Divinity",
     "神聖海岸任務"
@@ -21,7 +21,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "取得真實之泉的淨化，帶詹瑟之眼一路辨認並護送五位天選者。要先向獅衛交付，再把眼送到終點。",
+  "summary": "取得Fountain of Truth的淨化，帶Eye of Janthir一路辨認並護送五位天選者。要先向獅衛交付，再把眼送到終點。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -47,7 +47,7 @@
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "帶詹瑟之眼到沿海城鎮，護送天選者。"
+      "text": "帶Eye of Janthir到沿海城鎮，護送天選者。"
     }
   ],
   "bonus": {
@@ -55,11 +55,11 @@
     "kind": "bonus",
     "title": "護送五名天選者",
     "summary": "護送五名天選者",
-    "trigger": "讓詹瑟之眼辨認天選者；救出第二位後與他交談，顯示 Bonus 目標。",
+    "trigger": "讓Eye of Janthir辨認天選者；救出第二位後與他交談，顯示 Bonus 目標。",
     "steps": [
       "五位天選者必須全部存活並跟到終點；少一位即無法拿完整 Bonus。",
       "英雄可先用任務地圖旗標派到即將受襲的村民位置，玩家稍後再靠近觸發。",
-      "若護送困難，可救人後暫時不讓隊長接近，先清完去 Loamhurst 的路再回頭接人。夏摩爾第一位很靠近取眼點，規劃此策略要貼左側下樓。"
+      "若護送困難，可救人後暫時不讓隊長接近，先清完去 Loamhurst 的路再回頭接人。Shaemoor第一位很靠近取眼點，規劃此策略要貼左側下樓。"
     ],
     "missable": true,
     "completion": "五名天選者全部存活且跟到 Loamhurst，與 Lionguard Minah 交談後獲得 Bonus；之後才送眼到終點。"
@@ -75,7 +75,7 @@
     },
     {
       "title": "西門過高橋",
-      "content": "由夏摩爾西門往西南過橋。詹瑟之眼能擊倒範圍敵人，近身接戰可減少敵人輸出。橋後的商隊被圍攻，救商人可得士氣。"
+      "content": "由Shaemoor西門往西南過橋。Eye of Janthir能擊倒範圍敵人，近身接戰可減少敵人輸出。橋後的商隊被圍攻，救商人可得士氣。"
     },
     {
       "title": "依原圖接齊五人",
@@ -90,10 +90,10 @@
       "content": "在終點與 Lionguard Minah 交談，交付全部五人拿 Bonus。之後才把眼帶到書座完成主線。"
     }
   ],
-  "routeSummary": "夏摩爾 → 東南真實之泉 → 詹瑟之眼 → 西門與高橋 → 五名天選者 → 西側沼澤向北 → Loamhurst",
+  "routeSummary": "Shaemoor → 東南Fountain of Truth → Eye of Janthir → 西門與高橋 → 五名天選者 → 西側沼澤向北 → Loamhurst",
   "mapImage": "/maps/Divinity_Coast_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -178,8 +178,8 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Fluum Banzo",
-        "en": "Fluum Banzo"
+        "en": "Fluum Banzo",
+        "zhTW": "Fluum Banzo（繁中名稱待確認）"
       },
       "profession": "僧侶",
       "importantSkills": [
@@ -189,16 +189,23 @@
         "Protective Bond",
         "Restore Life"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
-      "revision": 2498966
+      "revision": 2498966,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Gren Waveslosh",
-        "en": "Gren Waveslosh"
+        "en": "Gren Waveslosh",
+        "zhTW": "Gren Waveslosh（繁中名稱待確認）"
       },
       "profession": "幻術師",
       "importantSkills": [
@@ -207,16 +214,23 @@
         "Mind Wrack",
         "Spirit Shackles"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gren_Waveslosh",
-      "revision": 2715252
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Gren_Wavelslosh",
+      "revision": 2715252,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Frak Undertow",
-        "en": "Frak Undertow"
+        "en": "Frak Undertow",
+        "zhTW": "Frak Undertow（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -225,16 +239,23 @@
         "Glyph of Lesser Energy",
         "Grasping Earth"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Frak_Undertow",
-      "revision": 2337575
+      "revision": 2337575,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Sky Quickfeather",
-        "en": "Sky Quickfeather"
+        "en": "Sky Quickfeather",
+        "zhTW": "Sky Quickfeather（繁中名稱待確認）"
       },
       "profession": "戰士",
       "importantSkills": [
@@ -244,16 +265,29 @@
         "Seeking Blade",
         "Swift Chop"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Sky_Quickfeather",
-      "revision": 2605594
+      "revision": 2605594,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Sky_Quickfeather"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Dyv Cloudclaw",
-        "en": "Dyv Cloudclaw"
+        "en": "Dyv Cloudclaw",
+        "zhTW": "Dyv Cloudclaw（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
@@ -262,16 +296,29 @@
         "Penetrating Attack",
         "Troll Unguent"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Dyv_Cloudclaw",
-      "revision": 2605583
+      "revision": 2605583,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Dyv_Cloudclaw"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Glyd Swiftwing",
-        "en": "Glyd Swiftwing"
+        "en": "Glyd Swiftwing",
+        "zhTW": "Glyd Swiftwing（繁中名稱待確認）"
       },
       "profession": "死靈法師",
       "importantSkills": [
@@ -280,16 +327,29 @@
         "Soul Feast",
         "Suffering"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Glyd_Swiftwing",
-      "revision": 2605585
+      "revision": 2605585,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Glyd_Swiftwing"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Ghita Bonz",
-        "en": "Ghita Bonz"
+        "en": "Ghita Bonz",
+        "zhTW": "Ghita Bonz（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
@@ -298,16 +358,29 @@
         "Edge of Extinction",
         "Troll Unguent"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Ghita_Bonz",
-      "revision": 2074482
+      "revision": 2074482,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ghita_Bonz"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Raja Crux",
-        "en": "Raja Crux"
+        "en": "Raja Crux",
+        "zhTW": "Raja Crux（繁中名稱待確認）"
       },
       "profession": "僧侶",
       "importantSkills": [
@@ -316,16 +389,23 @@
         "Smite Hex",
         "Vengeance"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Raja_Crux",
-      "revision": 1808825
+      "revision": 1808825,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Bija Gravewailer",
-        "en": "Bija Gravewailer"
+        "en": "Bija Gravewailer",
+        "zhTW": "Bija Gravewailer（繁中名稱待確認）"
       },
       "profession": "幻術師",
       "importantSkills": [
@@ -334,16 +414,23 @@
         "Phantom Pain",
         "Spirit of Failure"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Bija_Gravewailer",
-      "revision": 2605159
+      "revision": 2605159,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Najja Doombringer",
-        "en": "Najja Doombringer"
+        "en": "Najja Doombringer",
+        "zhTW": "Najja Doombringer（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -352,16 +439,23 @@
         "Earthquake",
         "Lightning Touch"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Najja_Doombringer",
-      "revision": 2419739
+      "revision": 2419739,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Zameel Dirge",
-        "en": "Zameel Dirge"
+        "en": "Zameel Dirge",
+        "zhTW": "Zameel Dirge（繁中名稱待確認）"
       },
       "profession": "戰士",
       "importantSkills": [
@@ -370,16 +464,29 @@
         "Healing Signet",
         "Irresistible Blow"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Zameel_Dirge",
-      "revision": 2135253
+      "revision": 2135253,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Zameel_Dirge"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Zukra Cadava",
-        "en": "Zukra Cadava"
+        "en": "Zukra Cadava",
+        "zhTW": "Zukra Cadava（繁中名稱待確認）"
       },
       "profession": "死靈法師",
       "importantSkills": [
@@ -388,11 +495,24 @@
         "Death Nova",
         "Life Siphon"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Zukra_Cadava",
-      "revision": 2563776
+      "revision": 2563776,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Zukra_Cadava"
+        }
+      ]
     }
   ],
   "recommendedTeam": [
@@ -403,7 +523,7 @@
   "tips": [
     "過河走高橋；其他水路可能繞進更多天狗，延誤救人。",
     "最後沒有與 Minah 交談、直接送眼，會漏 Bonus。",
-    "通關到德魯伊高地（Druid’s Overlook）。",
+    "通關到Druid's Overlook（Druid’s Overlook）。",
     "救出天選者另有金幣獎勵，依救出人數與真人玩家數計算；請看 Wiki 獎勵段。"
   ],
   "warnings": [
@@ -534,13 +654,145 @@
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Fluum Banzo",
+      "url": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
+      "revision": 2498966,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Gren Waveslosh",
+      "url": "https://wiki.guildwars.com/wiki/Gren_Wavelslosh",
+      "revision": 2715252,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Frak Undertow",
+      "url": "https://wiki.guildwars.com/wiki/Frak_Undertow",
+      "revision": 2337575,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Sky Quickfeather",
+      "url": "https://wiki.guildwars.com/wiki/Sky_Quickfeather",
+      "revision": 2605594,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Dyv Cloudclaw",
+      "url": "https://wiki.guildwars.com/wiki/Dyv_Cloudclaw",
+      "revision": 2605583,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Glyd Swiftwing",
+      "url": "https://wiki.guildwars.com/wiki/Glyd_Swiftwing",
+      "revision": 2605585,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ghita Bonz",
+      "url": "https://wiki.guildwars.com/wiki/Ghita_Bonz",
+      "revision": 2074482,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Raja Crux",
+      "url": "https://wiki.guildwars.com/wiki/Raja_Crux",
+      "revision": 1808825,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bija Gravewailer",
+      "url": "https://wiki.guildwars.com/wiki/Bija_Gravewailer",
+      "revision": 2605159,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Najja Doombringer",
+      "url": "https://wiki.guildwars.com/wiki/Najja_Doombringer",
+      "revision": 2419739,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Zameel Dirge",
+      "url": "https://wiki.guildwars.com/wiki/Zameel_Dirge",
+      "revision": 2135253,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Zukra Cadava",
+      "url": "https://wiki.guildwars.com/wiki/Zukra_Cadava",
+      "revision": 2563776,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "dalessio-seaboard",
   "nextMission": "the-wilds",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10372",
+    "game-client://2026-10-09/string/89773"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關到Druid's Overlook（Druid’s Overlook）。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10372,
+      89773
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "A Brother's Fury",
+        "zhTW": "A Brother's Fury（繁中名稱待確認）"
+      },
+      "giver": "Trader Versai",
+      "location": "Druid's Overlook (Maguuma Jungle)",
+      "directions": "在 Druid's Overlook 找 Trader Versai 接取，出 Sage Lands 先與 Justiciar Thommis 說話。沿箭頭向西北，逐一和 House Ranger 對話更新目標；與 Rionel 對話後往 The Wilds。接近據點時跟 Saidra 與 Chosen Villager 入內，找 Witness Giselle 回報；據點已開的角色完成 Rionel 對話後可直接傳送。",
+      "url": "https://wiki.guildwars.com/wiki/A_Brother%27s_Fury",
+      "revision": 2733705,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

@@ -1,0 +1,548 @@
+{
+  "pvpOnly": false,
+  "id": "troll-unguent",
+  "name": {
+    "en": "Troll Unguent",
+    "zhTW": "巨魔藥膏",
+    "translationVerified": true
+  },
+  "clientSkillId": 446,
+  "icon": "/skills/troll-unguent.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 3.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For 13 seconds, you gain +3...9...10 Health regeneration.",
+      "zhTW": "持續13秒，你體力再生增加3～10。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "ranger-test",
+          "en": "Ranger Test",
+          "zhTW": "Ranger Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lakeside-county",
+              "en": "Lakeside County",
+              "zhTW": "湖畔郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lakeside_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ranger Test (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Ranger_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "the-ranger-s-companion",
+          "en": "The Ranger's Companion",
+          "zhTW": "The Ranger's Companion",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "regent-valley-pre-searing",
+              "en": "Regent Valley (pre-Searing)",
+              "zhTW": "Regent Valley (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Regent_Valley_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Ranger's Companion (Regent Valley - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/The_Ranger%27s_Companion",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "endangered-species",
+          "en": "Endangered Species",
+          "zhTW": "Endangered Species",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Endangered Species (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Endangered_Species",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "mantid-hatchlings",
+          "en": "Mantid Hatchlings",
+          "zhTW": "Mantid Hatchlings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "monastery-overlook",
+              "en": "Monastery Overlook",
+              "zhTW": "寺廟高處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mantid Hatchlings (Monastery Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Mantid_Hatchlings",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-sujun",
+          "en": "Locate Sujun",
+          "zhTW": "Locate Sujun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate Sujun (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Sujun",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "rally-the-recruits-tutorial",
+          "en": "Rally the Recruits (Tutorial)",
+          "zhTW": "Rally the Recruits (Tutorial)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "take-the-shortcut-skip-tutorial",
+              "en": "Take the Shortcut (Skip Tutorial)",
+              "zhTW": "Take the Shortcut (Skip Tutorial)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Take_the_Shortcut_(Skip_Tutorial)"
+          },
+          {
+            "name": {
+              "id": "island-of-shehkah",
+              "en": "Island of Shehkah",
+              "zhTW": "沙卡島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Island_of_Shehkah"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rally the Recruits/Take the Shortcut (Island of Shehkah)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Rally_the_Recruits_(Tutorial)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "acolyte-jin",
+          "en": "Acolyte Jin",
+          "zhTW": "侍從 靜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Jin",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Jin",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "margrid-the-sly",
+          "en": "Margrid the Sly",
+          "zhTW": "狡詐者 瑪格麗",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Margrid the Sly",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Margrid_the_Sly",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "pyre-fierceshot",
+          "en": "Pyre Fierceshot",
+          "zhTW": "烈之擊 炎燄",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Pyre Fierceshot",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Pyre_Fierceshot",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "telius",
+          "en": "Telius",
+          "zhTW": "Telius",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seeker-s-passage",
+              "en": "Seeker's Passage",
+              "zhTW": "探索者通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seeker%27s_Passage"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Telius (Seeker's Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Telius",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續13秒，你體力再生增加3～10。",
+  "commonUses": [
+    "求生 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+      "revision": 2733140,
+      "title": "Troll Unguent",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26250"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26251,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續13秒，你體力再生增加%str1%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

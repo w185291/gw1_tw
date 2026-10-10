@@ -1,0 +1,254 @@
+{
+  "pvpOnly": false,
+  "id": "keen-arrow",
+  "name": {
+    "en": "Keen Arrow",
+    "zhTW": "鋒銳之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 1720,
+  "icon": "/skills/keen-arrow.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If this attack hits, you strike for +5...17...20 damage. If you land a critical hit, you deal an additional +5...21...25 damage.",
+      "zhTW": "命中時對目標造成 5～20 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5～25 傷害。"
+    },
+    "pvp": {
+      "en": "Bow Attack. If this attack hits, you strike for +5...13...15 damage. If you land a critical hit, you deal an additional +5...25...30 damage.",
+      "zhTW": "命中時對目標造成 5～15 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5～30 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Keen Arrow (PvP)",
+      "description": {
+        "en": "Bow Attack. If this attack hits, you strike for +5...13...15 damage. If you land a critical hit, you deal an additional +5...25...30 damage.",
+        "zhTW": "命中時對目標造成 5～15 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5～30 傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Keen_Arrow_%28PvP%29",
+        "revision": 2738452,
+        "title": "Keen Arrow (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3147
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-malignant",
+          "en": "Cairn the Malignant",
+          "zhTW": "Cairn the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Malignant (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "jang-wen",
+          "en": "Jang Wen",
+          "zhTW": "Jang Wen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jang Wen (What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Jang_Wen",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "johon-the-oxflinger",
+          "en": "Johon the Oxflinger",
+          "zhTW": "Johon the Oxflinger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Johon the Oxflinger (Ice Cliff Chasms)",
+        "source": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Johon_the_Oxflinger",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 5～20 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5～25 傷害。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+      "revision": 2733267,
+      "title": "Keen Arrow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Keen_Arrow_%28PvP%29",
+      "revision": 2738452,
+      "title": "Keen Arrow (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44043",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44044,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

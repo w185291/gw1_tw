@@ -1,0 +1,171 @@
+{
+  "pvpOnly": false,
+  "id": "eremite-s-attack",
+  "name": {
+    "en": "Eremite's Attack",
+    "zhTW": "隱士攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1485,
+  "icon": "/skills/eremite-s-attack.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "scythe-attack",
+    "en": "Scythe attack",
+    "zhTW": "鐮刀攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Scythe Attack. If it hits, this attack deals +1...8...10 damage and removes a Dervish enchantment. If an enchantment is removed, you do an additional +1...8...10 damage and strike all adjacent foes.",
+      "zhTW": "命中時造成 1～10 額外傷害，且移除自身一項神喚使加持。若移除成功，則再造成 1～10 額外傷害，且攻擊鄰近所有敵人。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "brynn-earthporter",
+          "en": "Brynn Earthporter",
+          "zhTW": "Brynn Earthporter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Brynn Earthporter (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
+        "url": "https://wiki.guildwars.com/wiki/Brynn_Earthporter",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "命中時造成 1～10 額外傷害，且移除自身一項神喚使加持。若移除成功，則再造成 1～10 額外傷害，且攻擊鄰近所有敵人。",
+  "commonUses": [
+    "鐮刀精通 · 鐮刀攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
+      "revision": 2733225,
+      "title": "Eremite's Attack",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/34003"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34004,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，且移除自身一項神喚使加持。若移除成功，則再造成 %str2% 額外傷害，且攻擊鄰近所有敵人。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

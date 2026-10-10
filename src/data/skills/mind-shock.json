@@ -1,0 +1,193 @@
+{
+  "pvpOnly": false,
+  "id": "mind-shock",
+  "name": {
+    "en": "Mind Shock",
+    "zhTW": "心靈震暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 226,
+  "icon": "/skills/mind-shock.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe suffers 10...42...50 lightning damage. If you have more Energy than target foe, that foe suffers 10...42...50 more lightning damage and is knocked down. This spell has 25% armor penetration.",
+      "zhTW": "使目標敵人受到 10～50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10～50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。"
+    },
+    "pvp": {
+      "en": "Elite Spell. Target foe suffers 10...42...50 lightning damage. If you have more Energy than target foe, that foe suffers 10...42...50 more lightning damage and is knocked down. This spell has 25% armor penetration.",
+      "zhTW": "使目標敵人受到 10～50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10～50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mind Shock (PvP)",
+      "description": {
+        "en": "Elite Spell. Target foe suffers 10...42...50 lightning damage. If you have more Energy than target foe, that foe suffers 10...42...50 more lightning damage and is knocked down. This spell has 25% armor penetration.",
+        "zhTW": "使目標敵人受到 10～50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10～50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。"
+      },
+      "stats": {
+        "Overcast": 10.0,
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mind_Shock_%28PvP%29",
+        "revision": 2733295,
+        "title": "Mind Shock (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2804
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "old-red-claw",
+          "en": "Old Red Claw",
+          "zhTW": "Old Red Claw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Old Red Claw (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Shock",
+        "url": "https://wiki.guildwars.com/wiki/Old_Red_Claw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "edielh-shockhunter",
+          "en": "Edielh Shockhunter",
+          "zhTW": "Edielh Shockhunter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Edielh Shockhunter (Jaga Moraine, only after completing Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Mind_Shock",
+        "url": "https://wiki.guildwars.com/wiki/Edielh_Shockhunter",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 10～50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10～50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mind_Shock",
+      "revision": 2733082,
+      "title": "Mind Shock",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mind_Shock_%28PvP%29",
+      "revision": 2733295,
+      "title": "Mind Shock (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25273",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25274,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 閃電傷害。若你比敵人擁有更多能量，則目標受到 %str1% 額外閃電傷害並且被擊倒。此魔法有 25%% 防禦穿透效果但是會造成施法者精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

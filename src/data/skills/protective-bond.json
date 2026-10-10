@@ -1,0 +1,329 @@
+{
+  "pvpOnly": false,
+  "id": "protective-bond",
+  "name": {
+    "en": "Protective Bond",
+    "zhTW": "保護連結",
+    "translationVerified": true
+  },
+  "clientSkillId": 263,
+  "icon": "/skills/protective-bond.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 2.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. While you maintain this enchantment, target ally cannot lose more than 5% max Health due to damage from a single attack or spell. When Protective Bond prevents damage, you lose 6...4...3 Energy or the spell ends.",
+      "zhTW": "當你維持此「加持」時，使目標盟友受到的單一攻擊或是「魔法」傷害，不會超過體力最大值的 5% 。當保護連結成功抵擋傷害時，你將損失 6～3 能量或保護連結效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "leaps-thunderclap",
+          "en": "Leaps Thunderclap",
+          "zhTW": "Leaps Thunderclap",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Leaps Thunderclap (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Leaps_Thunderclap",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gack-splotchplunk",
+          "en": "Gack Splotchplunk",
+          "zhTW": "Gack Splotchplunk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gack Splotchplunk (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Gack_Splotchplunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "fluum-banzo",
+          "en": "Fluum Banzo",
+          "zhTW": "Fluum Banzo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fluum Banzo (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "bramblehash",
+          "en": "Bramblehash",
+          "zhTW": "Bramblehash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bramblehash (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Bramblehash",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-vitality",
+          "en": "Tree of Vitality",
+          "zhTW": "Tree of Vitality",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Vitality (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Vitality",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "splintertrunk",
+          "en": "Splintertrunk",
+          "zhTW": "Splintertrunk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Splintertrunk (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Bond",
+        "url": "https://wiki.guildwars.com/wiki/Splintertrunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "當你維持此「加持」時，使目標盟友受到的單一攻擊或是「魔法」傷害，不會超過體力最大值的 5% 。當保護連結成功抵擋傷害時，你將損失 6～3 能量或保護連結效果終止。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Protective_Bond",
+      "revision": 2732654,
+      "title": "Protective Bond",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25734"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25735,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當你維持此「加持」時，使目標盟友受到的單一攻擊或是「魔法」傷害，不會超過體力最大值的 5%% 。當保護連結成功抵擋傷害時，你將損失 %str2% 能量或保護連結效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

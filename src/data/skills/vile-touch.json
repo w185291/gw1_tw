@@ -1,0 +1,541 @@
+{
+  "pvpOnly": false,
+  "id": "vile-touch",
+  "name": {
+    "en": "Vile Touch",
+    "zhTW": "不幸之觸",
+    "translationVerified": true
+  },
+  "clientSkillId": 155,
+  "icon": "/skills/vile-touch.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Touch target foe to deal 20...56...65 damage.",
+      "zhTW": "碰觸目標敵人並對其造成 20～65 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "helping-the-people-of-ascalon",
+          "en": "Helping the People of Ascalon",
+          "zhTW": "Helping the People of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Helping the People of Ascalon (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Helping_the_People_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "riine-windrot",
+          "en": "Riine Windrot",
+          "zhTW": "Riine Windrot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          },
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "anvil-rock",
+              "en": "Anvil Rock",
+              "zhTW": "鐵砧石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Anvil_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Riine Windrot (Traveler's Vale, Borlis Pass, and Anvil Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "durnar-skullcracker",
+          "en": "Durnar Skullcracker",
+          "zhTW": "Durnar Skullcracker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Durnar Skullcracker (The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Durnar_Skullcracker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "cootle-sizzlehorn",
+          "en": "Cootle Sizzlehorn",
+          "zhTW": "Cootle Sizzlehorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cootle Sizzlehorn (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Cootle_Sizzlehorn",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "jonk-shuffle",
+          "en": "Jonk Shuffle",
+          "zhTW": "Jonk Shuffle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jonk Shuffle (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Jonk_Shuffle",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "krunk-waddle",
+          "en": "Krunk Waddle",
+          "zhTW": "Krunk Waddle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Krunk Waddle (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Krunk_Waddle",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "plunk-trudge",
+          "en": "Plunk Trudge",
+          "zhTW": "Plunk Trudge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Plunk Trudge (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Plunk_Trudge",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "eater-of-souls",
+          "en": "Eater of Souls",
+          "zhTW": "Eater of Souls",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-monk-s-path",
+              "en": "The Monk's Path",
+              "zhTW": "The Monk's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Monk%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eater of Souls (Diviner's Ascent, during The Monk's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Eater_of_Souls",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "boklon-blackwater",
+          "en": "Boklon Blackwater",
+          "zhTW": "Boklon Blackwater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blacktide-den",
+              "en": "Blacktide Den",
+              "zhTW": "黑潮之穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blacktide_Den"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Boklon Blackwater (Blacktide Den)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Boklon_Blackwater",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "glug-klugg",
+          "en": "Glug Klugg",
+          "zhTW": "Glug Klugg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blacktide-den",
+              "en": "Blacktide Den",
+              "zhTW": "黑潮之穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blacktide_Den"
+          },
+          {
+            "name": {
+              "id": "issnur-isles",
+              "en": "Issnur Isles",
+              "zhTW": "伊斯諾島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Issnur_Isles"
+          },
+          {
+            "name": {
+              "id": "assault-on-beknur-harbor",
+              "en": "Assault on Beknur Harbor",
+              "zhTW": "Assault on Beknur Harbor",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Assault_on_Beknur_Harbor"
+          },
+          {
+            "name": {
+              "id": "quest",
+              "en": "Quest",
+              "zhTW": "冒險任務",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quest"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Glug Klugg (Blacktide Den, and Issnur Isles during the Assault on Beknur Harbor quest)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Glug_Klugg",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Vile_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標敵人並對其造成 20～65 傷害。",
+  "commonUses": [
+    "死亡魔法 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "touch-of-agony",
+      "en": "Touch of Agony",
+      "zhTW": "劇痛之觸",
+      "translationVerified": true
+    },
+    {
+      "id": "wallow-s-bite",
+      "en": "Wallow's Bite",
+      "zhTW": "墮落之咬",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vile_Touch",
+      "revision": 2720028,
+      "title": "Vile Touch",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25130"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25131,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人並對其造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

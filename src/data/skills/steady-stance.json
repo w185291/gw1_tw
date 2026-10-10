@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "steady-stance",
+  "name": {
+    "en": "Steady Stance",
+    "zhTW": "堅定態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 1701,
+  "icon": "/skills/steady-stance.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 10 seconds, the next time you would be knocked down, you gain 1...3...4 strike[s] of adrenaline and 1...6...7 Energy instead.",
+      "zhTW": "持續 10 秒，當你「下一次」將被敵人擊倒時，由取得等同 1～4 次攻擊成功累積的怒氣值，及 1～7 能量取代。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chumab-the-prideful",
+          "en": "Chumab the Prideful",
+          "zhTW": "Chumab the Prideful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chumab the Prideful (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Steady_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Chumab_the_Prideful",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "skomay-bonehewer",
+          "en": "Skomay Bonehewer",
+          "zhTW": "Skomay Bonehewer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Skomay Bonehewer (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Steady_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Skomay_Bonehewer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-shield-golem",
+          "en": "Malfunctioning Shield Golem",
+          "zhTW": "Malfunctioning Shield Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Shield Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Steady_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Shield_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，當你「下一次」將被敵人擊倒時，由取得等同 1～4 次攻擊成功累積的怒氣值，及 1～7 能量取代。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Steady_Stance",
+      "revision": 2726454,
+      "title": "Steady Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44037",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44038,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，當你「下一次」將被敵人擊倒時，由取得等同 %str1% 次攻擊成功累積的怒氣值，及 %str2% 能量取代。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

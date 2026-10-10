@@ -1,0 +1,831 @@
+{
+  "pvpOnly": false,
+  "id": "savage-shot",
+  "name": {
+    "en": "Savage Shot",
+    "zhTW": "野性之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 426,
+  "icon": "/skills/savage-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If Savage Shot hits, your target's action is interrupted. If that action was a spell, you strike for +13...25...28 damage.",
+      "zhTW": "野性之箭命中目標時，中斷其動作。若該目標正在施展「魔法」，則對其造成 13～28 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodash-bazaar",
+              "en": "Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "blood-and-smoke",
+          "en": "Blood And Smoke",
+          "zhTW": "Blood And Smoke",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Blood And Smoke (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Blood_And_Smoke",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "torr-the-relentless",
+          "en": "Torr the Relentless",
+          "zhTW": "Torr the Relentless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Torr the Relentless (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Torr_the_Relentless",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "cuthbert-the-chaste",
+          "en": "Cuthbert the Chaste",
+          "zhTW": "Cuthbert the Chaste",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cuthbert the Chaste (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Cuthbert_the_Chaste",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "darwym-the-spiteful",
+          "en": "Darwym the Spiteful",
+          "zhTW": "Darwym the Spiteful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Darwym the Spiteful (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Darwym_the_Spiteful",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "kathryn-the-cold",
+          "en": "Kathryn the Cold",
+          "zhTW": "Kathryn the Cold",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kathryn the Cold (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Kathryn_the_Cold",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "edgar-the-iron-fist",
+          "en": "Edgar the Iron Fist",
+          "zhTW": "Edgar the Iron Fist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Edgar the Iron Fist (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Edgar_the_Iron_Fist",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "inquisitor-lashona",
+          "en": "Inquisitor Lashona",
+          "zhTW": "Inquisitor Lashona",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "wanted-inquisitor-lashona",
+              "en": "Wanted: Inquisitor Lashona",
+              "zhTW": "Wanted: Inquisitor Lashona",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wanted:_Inquisitor_Lashona"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lashona (North Kryta Province (War in Kryta), only during Wanted: Inquisitor Lashona)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lashona",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "teral-the-punisher",
+          "en": "Teral the Punisher",
+          "zhTW": "Teral the Punisher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Teral the Punisher (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Teral_the_Punisher",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "valis-the-rampant",
+          "en": "Valis the Rampant",
+          "zhTW": "Valis the Rampant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes-war-in-kryta",
+              "en": "Twin Serpent Lakes (War in Kryta)",
+              "zhTW": "Twin Serpent Lakes (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Valis the Rampant (Twin Serpent Lakes (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Valis_the_Rampant",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "commander-kubeh",
+          "en": "Commander Kubeh",
+          "zhTW": "Commander Kubeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          },
+          {
+            "name": {
+              "id": "the-great-escape",
+              "en": "The Great Escape",
+              "zhTW": "The Great Escape",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Great_Escape"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Kubeh (Arkjok Ward, only during The Great Escape)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Kubeh",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "colonel-custo",
+          "en": "Colonel Custo",
+          "zhTW": "Colonel Custo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Colonel Custo (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Colonel_Custo",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "sergeant-behnwa",
+          "en": "Sergeant Behnwa",
+          "zhTW": "Sergeant Behnwa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Sergeant Behnwa (Turai's Procession)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Sergeant_Behnwa",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "petraj-the-evasive",
+          "en": "Petraj the Evasive",
+          "zhTW": "Petraj the Evasive",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Petraj the Evasive (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Petraj_the_Evasive",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "docu-kindleshot",
+          "en": "Docu Kindleshot",
+          "zhTW": "Docu Kindleshot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          },
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Docu Kindleshot (Grothmar Wardowns and Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Docu_Kindleshot",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "groknar-weazlewortz",
+          "en": "Groknar Weazlewortz",
+          "zhTW": "Groknar Weazlewortz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Groknar Weazlewortz (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Groknar_Weazlewortz",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ashlyn-spiderfriend",
+          "en": "Ashlyn Spiderfriend",
+          "zhTW": "Ashlyn Spiderfriend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ashlyn Spiderfriend (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ashlyn_Spiderfriend",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "charr-warden",
+          "en": "Charr Warden",
+          "zhTW": "Charr Warden",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Warden (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Warden",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "taskmaster-larn",
+          "en": "Taskmaster Larn",
+          "zhTW": "Taskmaster Larn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Larn (Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Larn",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "pyre-fierceshot",
+          "en": "Pyre Fierceshot",
+          "zhTW": "烈之擊 炎燄",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Pyre Fierceshot",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Pyre_Fierceshot",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (NPC) (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Savage_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "野性之箭命中目標時，中斷其動作。若該目標正在施展「魔法」，則對其造成 13～28 額外傷害。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Savage_Shot",
+      "revision": 2733127,
+      "title": "Savage Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26210"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26211,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "野性之箭命中目標時，中斷其動作。若該目標正在施展「魔法」，則對其造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-vanguard-sniper-support",
+  "name": {
+    "en": "Ebon Vanguard Sniper Support",
+    "zhTW": "黑檀先鋒隊狙擊手支援"
+  },
+  "clientSkillId": 2234,
+  "icon": "/skills/ebon-vanguard-sniper-support.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 54...90 piercing damage and begins Bleeding for 5...25 seconds. This attack has a 10% chance of doing an additional +540...900 piercing damage. If this attack hits a Charr it has a 25% chance of doing an additional +540...900 piercing damage.",
+      "zhTW": "對目標敵人造成54～90穿刺傷害，並使其流血5～25秒。此攻擊有10%的機率造成額外540～900穿刺傷害，若目標敵人是夏爾則有25%的機率造成額外540～900穿刺傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "falling-out",
+          "en": "Falling Out",
+          "zhTW": "Falling Out",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "corpse-of-brave-brent-poltroon",
+              "en": "Corpse of Brave Brent Poltroon",
+              "zhTW": "Corpse of Brave Brent Poltroon",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Corpse_of_Brave_Brent_Poltroon"
+          },
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Falling Out (from Corpse of Brave Brent Poltroon in Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support",
+        "url": "https://wiki.guildwars.com/wiki/Falling_Out",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "對目標敵人造成54～90穿刺傷害，並使其流血5～25秒。此攻擊有10%的機率造成額外540～900穿刺傷害，若目標敵人是夏爾則有25%的機率造成額外540～900穿刺傷害。",
+  "commonUses": [
+    "Ebon Vanguard rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support",
+      "revision": 2732699,
+      "title": "Ebon Vanguard Sniper Support",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69922"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69923,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成%str1%穿刺傷害，並使其流血%str3%秒。此攻擊有10%%的機率造成額外%str2%穿刺傷害，若目標敵人是夏爾則有25%%的機率造成額外%str2%穿刺傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

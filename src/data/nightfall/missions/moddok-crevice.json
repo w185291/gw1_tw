@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -52,10 +52,27 @@
     {
       "id": "dunkoro",
       "name": {
-        "zhTW": "唐克羅 / Dunkoro",
+        "zhTW": "唐克羅",
         "en": "Dunkoro"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41881",
+        "game-client://2026-10-09/string/46263",
+        "game-client://2026-10-09/string/46762",
+        "game-client://2026-10-09/string/51066"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41881,
+          46263,
+          46762,
+          51066
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -114,7 +131,7 @@
       "content": "按北線下降到庫爾納。橋下可擋高地弓箭，以非投射技能先拉Bayel再Hunger；或拉Hunger到另一橋，殘廢防其退回治療。"
     }
   ],
-  "routeSummary": "波甘驛站 → 裡歐恩難民營 → 摩多克裂縫 → 提亞克林地",
+  "routeSummary": "波甘驛站 → 里歐恩難民營 → 摩多克裂縫 → 提亞克林地",
   "mapImage": "/maps/nightfall-Moddok_Crevice_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -138,74 +155,145 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Ranshek, Carrion Eater",
+        "zhTW": "Ranshek, Carrion Eater（繁中名稱待確認）",
         "en": "Ranshek, Carrion Eater"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Berserker Stance",
+        "Cleave",
+        "Cyclone Axe",
+        "Frenzy",
+        "Power Attack",
+        "Swift Chop"
+      ],
+      "eliteSkills": [
         "Cleave"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Cyclone Axe",
+          "counter": "前排以外保持距離，避免多名隊員同吃近身範圍攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Ranshek%2C_Carrion_Eater"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
-      "revision": 2715097
+      "source": "https://wiki.guildwars.com/wiki/Ranshek%2C_Carrion_Eater",
+      "revision": 2599720
     },
     {
       "name": {
-        "zhTW": "Kehmak the Tranquil",
+        "zhTW": "Kehmak the Tranquil（繁中名稱待確認）",
         "en": "Kehmak the Tranquil"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Light of Deliverance",
+        "Orison of Healing",
+        "Signet of Devotion",
+        "Words of Comfort"
+      ],
+      "eliteSkills": [
         "Light of Deliverance"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
-      "revision": 2715097
+      "source": "https://wiki.guildwars.com/wiki/Kehmak_the_Tranquil",
+      "revision": 2407644
     },
     {
       "name": {
-        "zhTW": "Yakun Trueshot",
+        "zhTW": "Yakun Trueshot（繁中名稱待確認）",
         "en": "Yakun Trueshot"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "Anthem of Envy",
+        "Cruel Spear",
+        "Harrier's Toss",
+        "Vicious Attack"
+      ],
+      "eliteSkills": [
         "Cruel Spear"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
-      "revision": 2715097
+      "source": "https://wiki.guildwars.com/wiki/Yakun_Trueshot",
+      "revision": 2505111
     },
     {
       "name": {
-        "zhTW": "The Hunger",
+        "zhTW": "The Hunger（繁中名稱待確認）",
         "en": "The Hunger"
       },
       "profession": null,
-      "importantSkills": [],
+      "importantSkills": [
+        "Hunger's Bite",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
-      "revision": 2715097
+      "source": "https://wiki.guildwars.com/wiki/The_Hunger",
+      "revision": 2706657
     },
     {
       "name": {
-        "zhTW": "General Bayel",
+        "zhTW": "General Bayel（繁中名稱待確認）",
         "en": "General Bayel"
       },
       "profession": "僧侶",
-      "importantSkills": [],
+      "importantSkills": [
+        "Defender's Zeal",
+        "Judge's Insight",
+        "Reversal of Damage",
+        "Scourge Enchantment",
+        "Signet of Devotion",
+        "Smite Hex",
+        "Abaddon's Conspiracy"
+      ],
+      "eliteSkills": [
+        "Defender's Zeal"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Moddok_Crevice#Bosses",
-      "revision": 2715097
+      "source": "https://wiki.guildwars.com/wiki/General_Bayel",
+      "revision": 2637817
     }
   ],
   "recommendedTeam": [
@@ -323,6 +411,41 @@
       "revision": 2636709,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ranshek, Carrion Eater",
+      "url": "https://wiki.guildwars.com/wiki/Ranshek%2C_Carrion_Eater",
+      "revision": 2599720,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kehmak the Tranquil",
+      "url": "https://wiki.guildwars.com/wiki/Kehmak_the_Tranquil",
+      "revision": 2407644,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Yakun Trueshot",
+      "url": "https://wiki.guildwars.com/wiki/Yakun_Trueshot",
+      "revision": 2505111,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Hunger",
+      "url": "https://wiki.guildwars.com/wiki/The_Hunger",
+      "revision": 2706657,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Bayel",
+      "url": "https://wiki.guildwars.com/wiki/General_Bayel",
+      "revision": 2637817,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -390,5 +513,31 @@
       "expert": "完成三項",
       "master": "完成四項指示"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33105",
+    "game-client://2026-10-09/string/34845"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33105,
+      34845
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice",
+    "revision": 2715097,
+    "heroes": [
+      "Dunkoro"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

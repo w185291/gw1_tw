@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "dragon-slash",
+  "name": {
+    "en": "Dragon Slash",
+    "zhTW": "龍斬",
+    "translationVerified": true
+  },
+  "clientSkillId": 907,
+  "icon": "/skills/dragon-slash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "sword-attack",
+    "en": "sword attack",
+    "zhTW": "劍術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Sword Attack. If Dragon Slash hits, you strike for +10...34...40 damage and gain 1...4...5 strike[s] of adrenaline.",
+      "zhTW": "命中時對目標造成 10～40 額外傷害並且獲得等同於 1～5 次累積的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "seaguard-eli",
+          "en": "Seaguard Eli",
+          "zhTW": "Seaguard Eli",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed",
+              "en": "Boreas Seabed",
+              "zhTW": "風神海床",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seaguard Eli (Boreas Seabed)",
+        "source": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Seaguard_Eli",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sskai-dragon-s-birth",
+          "en": "Sskai, Dragon's Birth",
+          "zhTW": "Sskai, Dragon's Birth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed-explorable-area",
+              "en": "Boreas Seabed (explorable area)",
+              "zhTW": "Boreas Seabed (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sskai, Dragon's Birth (Boreas Seabed (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Sskai,_Dragon%27s_Birth",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "byndliss-flamecrown",
+          "en": "Byndliss Flamecrown",
+          "zhTW": "Byndliss Flamecrown",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Byndliss Flamecrown (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+        "url": "https://wiki.guildwars.com/wiki/Byndliss_Flamecrown",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "命中時對目標造成 10～40 額外傷害並且獲得等同於 1～5 次累積的怒氣值。",
+  "commonUses": [
+    "精通劍術 · 劍術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+      "revision": 2739609,
+      "title": "Dragon Slash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27001",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27002,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害並且獲得等同於 %str2% 次累積的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

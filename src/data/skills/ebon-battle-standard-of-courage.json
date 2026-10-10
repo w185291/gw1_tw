@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-battle-standard-of-courage",
+  "name": {
+    "en": "Ebon Battle Standard of Courage",
+    "zhTW": "黑檀戰鬥勇氣規範"
+  },
+  "clientSkillId": 2231,
+  "icon": "/skills/ebon-battle-standard-of-courage.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. You plant an Ebon Battle Standard of Courage at your current location. For 14...20 seconds, non-spirit allies in this area gain +24 armor and an additional +24 armor against Charr.",
+      "zhTW": "於你目前的位置上策劃「黑檀戰鬥勇氣規範」。持續 14～20 秒，此區域所有非靈的盟友可獲得 +24 防禦，對夏爾 的防禦 +24。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "be-very-very-quiet",
+          "en": "Be Very, Very Quiet...",
+          "zhTW": "Be Very, Very Quiet...",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vael",
+              "en": "Vael",
+              "zhTW": "Vael",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vael"
+          },
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Be Very, Very Quiet... (from Vael in Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage",
+        "url": "https://wiki.guildwars.com/wiki/Be_Very,_Very_Quiet...",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "於你目前的位置上策劃「黑檀戰鬥勇氣規範」。持續 14～20 秒，此區域所有非靈的盟友可獲得 +24 防禦，對夏爾 的防禦 +24。",
+  "commonUses": [
+    "Ebon Vanguard rank · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage",
+      "revision": 2647106,
+      "title": "Ebon Battle Standard of Courage",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69892"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69893,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "於你目前的位置上策劃「黑檀戰鬥勇氣規範」。持續 %str3% 秒，此區域所有非靈的盟友可獲得 +%str1% 防禦，對夏爾 的防禦 +%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

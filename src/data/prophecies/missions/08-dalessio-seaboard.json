@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "守住神殿的多里安，再與迪納斯會合。",
+  "summary": "救村落後守住告解者Confessor Dorian，再找Dinas。Bonus 的供品一旦放下就會破碎，先清路較安全。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,32 +36,64 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "達雷西海濱據點",
+    "description": "從 North Kryta Province 進入 D'Alessio Seaboard 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "D'Alessio Seaboard 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "守住神殿的多里安，再與迪納斯會合。"
+      "text": "守住神殿的Confessor Dorian，再與Dinas會合。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "完整送達 Offering to Melandru",
+    "summary": "完整送達 Offering to Melandru",
+    "trigger": "Benji 活著是北門支線開啟條件。可先把英雄旗標放到他附近，再讓玩家進入雷達範圍觸發頭目攻擊。",
+    "steps": [
+      "Benji 活著是北門支線開啟條件。可先把英雄旗標放到他附近，再讓玩家進入雷達範圍觸發頭目攻擊。",
+      "供品從 3 搬到 4，全程不可放下；先清路後搬較穩，直接搬雖快但攜帶期間難戰鬥。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "供品從 3 搬到 4，全程不可放下；先清路後搬較穩，直接搬雖快但攜帶期間難戰鬥。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "趕到村落",
+      "content": "沿路到 Hakewood 清亡靈。若要 Bonus，Benji Makala 必須活下來；他進隊伍友軍列表後，立刻趕到他旁邊殺攻擊他的頭目。"
+    },
+    {
+      "title": "救人後接支線",
+      "content": "頭目死亡可與 Benji 交談接 Bonus，但仍需保護他走到治療神殿，並清完村內亡靈。Makala 才會開北門；只打主線可走西側沼澤。"
+    },
+    {
+      "title": "走北路取供品",
+      "content": "沿原圖黃色線，到供品位置 3。此處有拉桿門可接回主路。因破橋不能直达位置 4，必須經神殿繞一圈。"
+    },
+    {
+      "title": "神殿防守",
+      "content": "到Temple of Tolerance後，Confessor Dorian加入友軍列表，亡靈波次開始。治療神殿提供生物每秒＋3 回復，圍著據點逐群清骷髏與食屍鬼。"
+    },
+    {
+      "title": "不要看到標記就離開",
+      "content": "Confessor Dorian出現任務標記、叫你找Dinas後，約 3–4 分鐘還會有最後一波敵人。留守清完最後一波才離開，否則Confessor Dorian死亡會使任務失敗。"
+    },
+    {
+      "title": "完成供品運送",
+      "content": "清路後回取 Offering to Melandru，經神殿送到位置 4 的供品台。搬運者不能用武器，供品放下即碎，要回原位再拿。"
+    },
+    {
+      "title": "最後找Dinas",
+      "content": "沿西側有雙頭巨人的道路到 Dinas，與他交談完成。Bonus 必須在此對話前完成。"
+    }
+  ],
+  "routeSummary": "村落救 Benji → 北門繞路取供品 → Temple of Tolerance防守 → Melandru供品台 → 西側Dinas",
   "mapImage": "/maps/D'Alessio_Seaboard_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +110,366 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Droog Stoneclub",
+        "zhTW": "Droog Stoneclub（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Balanced Stance",
+        "Endure Pain",
+        "Healing Signet",
+        "Irresistible Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Droog_Stoneclub",
+      "revision": 2598650,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Droog_Stoneclub"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Muga Riptide",
+        "zhTW": "Muga Riptide（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Blessed Signet",
+        "Heal Party",
+        "Life Attunement",
+        "Mending",
+        "Protective Spirit"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Muga_Riptide",
+      "revision": 2491285,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Plook Wavebreaker",
+        "zhTW": "Plook Wavebreaker（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Mantra of Lightning",
+        "Mind Wrack",
+        "Spirit Shackles"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Plook_Wavebreaker",
+      "revision": 2498962,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Tree of Renewal",
+        "zhTW": "Tree of Renewal（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Barbed Trap",
+        "Energizing Wind",
+        "Power Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tree_of_Renewal",
+      "revision": 2417161,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Tree_of_Renewal"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Skigg the Tongue",
+        "zhTW": "Skigg the Tongue（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Demonic Flesh",
+        "Life Siphon",
+        "Price of Failure",
+        "Soul Barbs"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue",
+      "revision": 1626535,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rago the Scaled",
+        "zhTW": "Rago the Scaled（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Deep Freeze",
+        "Glyph of Lesser Energy",
+        "Grasping Earth"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Rago_the_Scaled",
+      "revision": 1810303,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Abijah the Decayed",
+        "zhTW": "Abijah the Decayed（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Debilitating Shot",
+        "Edge of Extinction",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Abijah_the_Decayed",
+      "revision": 2460624,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Abijah_the_Decayed"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kemal the Deadened",
+        "zhTW": "Kemal the Deadened（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Healing Breeze",
+        "Smite Hex",
+        "Symbol of Wrath",
+        "Vengeance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Kemal_the_Deadened",
+      "revision": 2479430,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ziyad Soulreaper",
+        "zhTW": "Ziyad Soulreaper（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Fragility",
+        "Phantom Pain",
+        "Spirit of Failure"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ziyad_Soulreaper",
+      "revision": 1807688,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Gezna Shadowstalker",
+        "zhTW": "Gezna Shadowstalker（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Blinding Flash",
+        "Earthquake",
+        "Lightning Touch"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Gezna_Shadowstalker",
+      "revision": 2709752,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Nizza the Sickle",
+        "zhTW": "Nizza the Sickle（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"I Will Survive!\"",
+        "Deflect Arrows",
+        "Healing Signet",
+        "Irresistible Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Nizza_the_Sickle",
+      "revision": 1626516,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Nizza_the_Sickle"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bane Darkfist",
+        "zhTW": "Bane Darkfist（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Animate Bone Minions",
+        "Dark Bond",
+        "Death Nova",
+        "Life Siphon"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bane_Darkfist",
+      "revision": 2457142,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Bane_Darkfist"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "控制亡靈施法與大群召喚物，避免過量引怪；供品搬運者由其餘隊員保護。"
+  ],
+  "tips": [
+    "對Confessor Dorian的對話不是必要條件，但他必須存活到結束。",
+    "可救一般村民獲得士氣；他們不是 Bonus 的必要人物。",
+    "通關後到神聖海岸。"
+  ],
+  "warnings": [
+    "Benji 活著是北門支線開啟條件。可先把英雄旗標放到他附近，再讓玩家進入雷達範圍觸發頭目攻擊。",
+    "迅速到神殿保護Confessor Dorian；途中追逐的食屍鬼會停下與白斗篷交戰，不必全隊停留。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "迅速到神殿保護Confessor Dorian；途中追逐的食屍鬼會停下與白斗篷交戰，不必全隊停留。",
+      "控制亡靈施法與大群召喚物，避免過量引怪；供品搬運者由其餘隊員保護。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +489,150 @@
       "revision": 2729996,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Droog Stoneclub",
+      "url": "https://wiki.guildwars.com/wiki/Droog_Stoneclub",
+      "revision": 2598650,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Muga Riptide",
+      "url": "https://wiki.guildwars.com/wiki/Muga_Riptide",
+      "revision": 2491285,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Plook Wavebreaker",
+      "url": "https://wiki.guildwars.com/wiki/Plook_Wavebreaker",
+      "revision": 2498962,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tree of Renewal",
+      "url": "https://wiki.guildwars.com/wiki/Tree_of_Renewal",
+      "revision": 2417161,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Skigg the Tongue",
+      "url": "https://wiki.guildwars.com/wiki/Skigg_the_Tongue",
+      "revision": 1626535,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Rago the Scaled",
+      "url": "https://wiki.guildwars.com/wiki/Rago_the_Scaled",
+      "revision": 1810303,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Abijah the Decayed",
+      "url": "https://wiki.guildwars.com/wiki/Abijah_the_Decayed",
+      "revision": 2460624,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kemal the Deadened",
+      "url": "https://wiki.guildwars.com/wiki/Kemal_the_Deadened",
+      "revision": 2479430,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ziyad Soulreaper",
+      "url": "https://wiki.guildwars.com/wiki/Ziyad_Soulreaper",
+      "revision": 1807688,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Gezna Shadowstalker",
+      "url": "https://wiki.guildwars.com/wiki/Gezna_Shadowstalker",
+      "revision": 2709752,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nizza the Sickle",
+      "url": "https://wiki.guildwars.com/wiki/Nizza_the_Sickle",
+      "revision": 1626516,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bane Darkfist",
+      "url": "https://wiki.guildwars.com/wiki/Bane_Darkfist",
+      "revision": 2457142,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Report to the White Mantle",
+      "url": "https://wiki.guildwars.com/wiki/Report_to_the_White_Mantle",
+      "revision": 2723440,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "gates-of-kryta",
   "nextMission": "divinity-coast",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10370"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到神聖海岸。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10370
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Report to the White Mantle",
+        "zhTW": "Report to the White Mantle（繁中名稱待確認）"
+      },
+      "giver": "Armen the Guide",
+      "location": "Lion's Arch (Kryta)",
+      "directions": "在 Lion's Arch 找 Armen the Guide 接取。出 North Kryta Province 向西，注意 Fire Imp，抵達 D'Alessio Seaboard 據點後向 Mantle Knight Karriya 回報。Factions／Nightfall 角色完成赴 Tyria 任務後，也從這裡接入第一章主線。",
+      "url": "https://wiki.guildwars.com/wiki/Report_to_the_White_Mantle",
+      "revision": 2723440,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

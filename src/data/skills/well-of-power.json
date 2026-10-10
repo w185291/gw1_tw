@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "well-of-power",
+  "name": {
+    "en": "Well of Power",
+    "zhTW": "魔力之池",
+    "translationVerified": true
+  },
+  "clientSkillId": 91,
+  "icon": "/skills/well-of-power.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "well-spell",
+    "en": "well spell",
+    "zhTW": "湧泉魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 10...26...30 seconds, allies within the area of Well of Power gain +1...5...6 Health regeneration and +2 Energy regeneration.",
+      "zhTW": "利用最近屍體，或犧牲 66% 體力，建立泉井。持續 10～30 秒，區域內友軍獲得 +1～6 體力再生及 +2 能量再生。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nhy-darkclaw",
+          "en": "Nhy Darkclaw",
+          "zhTW": "Nhy Darkclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Nhy Darkclaw (Mineral Springs)",
+        "source": "https://wiki.guildwars.com/wiki/Well_of_Power",
+        "url": "https://wiki.guildwars.com/wiki/Nhy_Darkclaw",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "利用最近屍體，或犧牲 66% 體力，建立泉井。持續 10～30 秒，區域內友軍獲得 +1～6 體力再生及 +2 能量再生。",
+  "commonUses": [
+    "血魔法 · 湧泉魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Well_of_Power",
+      "revision": 2739038,
+      "title": "Well of Power",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25002",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25003,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Exploit nearest corpse or sacrifice 66%% health to create a Well of Power at that location. For %str3% second, allies within the area of Well of Power gain +%str1% Health regeneration and +2 Energy regeneration."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

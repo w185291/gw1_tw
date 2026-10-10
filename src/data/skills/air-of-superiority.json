@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "air-of-superiority",
+  "name": {
+    "en": "Air of Superiority",
+    "zhTW": "優越之息"
+  },
+  "clientSkillId": 2416,
+  "icon": "/skills/air-of-superiority.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For 20...30 seconds you gain a random Asura benefit every time you earn experience from killing an enemy.",
+      "zhTW": "持續 20～30 秒，每當藉由消滅敵人來獲得經驗值時，即可隨機獲得一種阿蘇拉的附加效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-path-to-revelations",
+          "en": "The Path to Revelations",
+          "zhTW": "The Path to Revelations",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Path to Revelations (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Air_of_Superiority",
+        "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 20～30 秒，每當藉由消滅敵人來獲得經驗值時，即可隨機獲得一種阿蘇拉的附加效果。",
+  "commonUses": [
+    "Asura rank · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Air_of_Superiority",
+      "revision": 2680287,
+      "title": "Air of Superiority",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72865"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72866,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當藉由消滅敵人來獲得經驗值時，即可隨機獲得一種阿蘇拉的附加效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

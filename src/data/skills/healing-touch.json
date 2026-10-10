@@ -1,0 +1,328 @@
+{
+  "pvpOnly": false,
+  "id": "healing-touch",
+  "name": {
+    "en": "Healing Touch",
+    "zhTW": "治癒之觸",
+    "translationVerified": true
+  },
+  "clientSkillId": 313,
+  "icon": "/skills/healing-touch.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-spell",
+    "en": "Touch spell",
+    "zhTW": "碰觸魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Heal target touched ally for 20...68...80 Health. Health gain from Divine Favor is doubled for this spell.",
+      "zhTW": "碰觸目標盟友並治癒其 20～80 體力。使用此「魔法」時，神恩屬性的治癒效果加倍。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-misplaced-sword",
+          "en": "The Misplaced Sword",
+          "zhTW": "The Misplaced Sword",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heroes-audience",
+              "en": "Heroes' Audience",
+              "zhTW": "英雄之痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Misplaced Sword (Heroes' Audience)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/The_Misplaced_Sword",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "stale-mate",
+          "en": "Stale Mate",
+          "zhTW": "Stale Mate",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Stale Mate (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Stale_Mate",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "primary-training",
+          "en": "Primary Training",
+          "zhTW": "Primary Training",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "churrhir-fields",
+              "en": "Churrhir Fields",
+              "zhTW": "楚爾赫訓練場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Primary Training (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Primary_Training",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "choose-your-secondary-profession-nightfall-quest",
+          "en": "Choose Your Secondary Profession (Nightfall quest)",
+          "zhTW": "Choose Your Secondary Profession (Nightfall quest)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Choose Your Secondary Profession (Churrhir Fields)",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Choose_Your_Secondary_Profession_(Nightfall_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "dunkoro",
+          "en": "Dunkoro",
+          "zhTW": "唐克羅",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Dunkoro",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Dunkoro",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ogden-stonehealer",
+          "en": "Ogden Stonehealer",
+          "zhTW": "石癒者 歐格登",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Ogden Stonehealer",
+        "source": "https://wiki.guildwars.com/wiki/Healing_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Ogden_Stonehealer",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標盟友並治癒其 20～80 體力。使用此「魔法」時，神恩屬性的治癒效果加倍。",
+  "commonUses": [
+    "治療祈禱 · 碰觸魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healing_Touch",
+      "revision": 2738562,
+      "title": "Healing Touch",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25836"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25837,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標盟友並治癒其 %str1% 體力。使用此「魔法」時，神恩屬性的治癒效果加倍。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

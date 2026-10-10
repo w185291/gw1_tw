@@ -1,0 +1,190 @@
+{
+  "id": "life",
+  "name": {
+    "en": "Life",
+    "zhTW": "生命",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1251,
+  "icon": "/skills/life.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...11...14 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1...6...7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+      "zhTW": "創造等級 1～14 的生命縛靈。當縛靈消失時，範圍內的所有盟友獲得縛靈存活秒數的 1～7 倍體力。生命縛靈將在 20 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...8...10 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1...6...7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+      "zhTW": "召喚等級 1～10 的靈體，20 秒後死亡。死亡時，按存活秒數，每秒為範圍內非靈體友軍治療 1～7 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Life (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...8...10 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1...6...7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+        "zhTW": "召喚等級 1～10 的靈體，20 秒後死亡。死亡時，按存活秒數，每秒為範圍內非靈體友軍治療 1～7 體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 3.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Life_%28PvP%29",
+        "revision": 2720892,
+        "title": "Life (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3012
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Life",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "reesou-the-wanderer",
+          "en": "Reesou the Wanderer",
+          "zhTW": "Reesou the Wanderer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reesou the Wanderer (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Life",
+        "url": "https://wiki.guildwars.com/wiki/Reesou_the_Wanderer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "創造等級 1～14 的生命縛靈。當縛靈消失時，範圍內的所有盟友獲得縛靈存活秒數的 1～7 倍體力。生命縛靈將在 20 秒後消失。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Life",
+      "revision": 2720891,
+      "title": "Life",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Life_%28PvP%29",
+      "revision": 2720892,
+      "title": "Life (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27374",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27375,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的生命縛靈。當縛靈消失時，範圍內的所有盟友獲得縛靈存活秒數的 %str2% 倍體力。生命縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

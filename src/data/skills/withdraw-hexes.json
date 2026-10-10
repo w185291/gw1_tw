@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "withdraw-hexes",
+  "name": {
+    "en": "Withdraw Hexes",
+    "zhTW": "降咒退散",
+    "translationVerified": true
+  },
+  "clientSkillId": 942,
+  "icon": "/skills/withdraw-hexes.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Remove all hexes from target ally and all adjacent allies. This spell takes an additional 2 seconds to recharge for each hex removed in this way. (50% failure chance with Divine Favor 4 or less.)",
+      "zhTW": "移除目標友軍及相鄰友軍的所有降咒。每移除一項降咒，冷卻時間增加 2 秒。神恩 4 點以下有 50% 失敗率。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hukhrah-earthslove",
+          "en": "Hukhrah Earthslove",
+          "zhTW": "Hukhrah Earthslove",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mount-qinkai",
+              "en": "Mount Qinkai",
+              "zhTW": "今凱山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mount_Qinkai"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Hukhrah Earthslove (Mount Qinkai)",
+        "source": "https://wiki.guildwars.com/wiki/Withdraw_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Hukhrah_Earthslove",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kaykitt-hidemender",
+          "en": "Kaykitt Hidemender",
+          "zhTW": "Kaykitt Hidemender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kaykitt Hidemender (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Withdraw_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Kaykitt_Hidemender",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "移除目標友軍及相鄰友軍的所有降咒。每移除一項降咒，冷卻時間增加 2 秒。神恩 4 點以下有 50% 失敗率。",
+  "commonUses": [
+    "神恩 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Withdraw_Hexes",
+      "revision": 2727139,
+      "title": "Withdraw Hexes",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26910"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26911,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Remove all hexes from target ally and all adjacent allies. This spell takes an additional %str1% second to recharge for each hex removed in this way. (50%% failure chance with Divine Favor 4 or less.)"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

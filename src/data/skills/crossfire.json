@@ -1,0 +1,225 @@
+{
+  "pvpOnly": false,
+  "id": "crossfire",
+  "name": {
+    "en": "Crossfire",
+    "zhTW": "火網",
+    "translationVerified": true
+  },
+  "clientSkillId": 1469,
+  "icon": "/skills/crossfire.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If this attack hits target foe, it deals +5...17...20 damage. If that foe is near any of your allies, this attack cannot be blocked.",
+      "zhTW": "命中時對目標造成 5～20 額外傷害。若該目標附近有你的盟友，則此攻擊無法被「格擋」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Crossfire",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-cunning",
+          "en": "Cairn the Cunning",
+          "zhTW": "Cairn the Cunning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Cunning (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Crossfire",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Cunning",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "storm-of-destruction",
+          "en": "Storm of Destruction",
+          "zhTW": "Storm of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Storm of Destruction (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Crossfire",
+        "url": "https://wiki.guildwars.com/wiki/Storm_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ashlyn-spiderfriend",
+          "en": "Ashlyn Spiderfriend",
+          "zhTW": "Ashlyn Spiderfriend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ashlyn Spiderfriend (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Crossfire",
+        "url": "https://wiki.guildwars.com/wiki/Ashlyn_Spiderfriend",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "margrid-the-sly",
+          "en": "Margrid the Sly",
+          "zhTW": "狡詐者 瑪格麗",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Margrid the Sly",
+        "source": "https://wiki.guildwars.com/wiki/Crossfire",
+        "url": "https://wiki.guildwars.com/wiki/Margrid_the_Sly",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 5～20 額外傷害。若該目標附近有你的盟友，則此攻擊無法被「格擋」。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Crossfire",
+      "revision": 2733223,
+      "title": "Crossfire",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/33302"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33303,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若該目標附近有你的盟友，則此攻擊無法被「格擋」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

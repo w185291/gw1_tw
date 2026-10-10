@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "shield-guardian",
+  "name": {
+    "en": "Shield Guardian",
+    "zhTW": "守護者之盾",
+    "translationVerified": true
+  },
+  "clientSkillId": 885,
+  "icon": "/skills/shield-guardian.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 2...5...6 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...34...40 and Shield Guardian ends.",
+      "zhTW": "持續 2～6 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10～40 體力，同時守護者之盾的效果終止。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 1...3...4 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...30...35 and Shield Guardian ends.",
+      "zhTW": "持續 1～4 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10～35 體力，同時守護者之盾的效果終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shield Guardian (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 1...3...4 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...30...35 and Shield Guardian ends.",
+        "zhTW": "持續 1～4 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10～35 體力，同時守護者之盾的效果終止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 25.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shield_Guardian_%28PvP%29",
+        "revision": 2739064,
+        "title": "Shield Guardian (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3454
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 2～6 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10～40 體力，同時守護者之盾的效果終止。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shield_Guardian",
+      "revision": 2738965,
+      "title": "Shield Guardian",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shield_Guardian_%28PvP%29",
+      "revision": 2739064,
+      "title": "Shield Guardian (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26868"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26869,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標盟友有 %str2%%% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 %str1% 體力，同時守護者之盾的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "zealous-benediction",
+  "name": {
+    "en": "Zealous Benediction",
+    "zhTW": "狂熱祝福",
+    "translationVerified": true
+  },
+  "clientSkillId": 1687,
+  "icon": "/skills/zealous-benediction.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Heal target ally for 30...150...180 Health. If target was below 50% Health, you gain 7 Energy.",
+      "zhTW": "治癒目標盟友 30～180 體力，若該目標體力低於 50% ，則你獲得 7 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "taskmaster-sadi-belai",
+          "en": "Taskmaster Sadi-Belai",
+          "zhTW": "Taskmaster Sadi-Belai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodonur-crossroads",
+              "en": "Kodonur Crossroads",
+              "zhTW": "科登諾路口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Taskmaster Sadi-Belai (Kodonur Crossroads)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Sadi-Belai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "corsair-commander-monk",
+          "en": "Corsair Commander (monk)",
+          "zhTW": "Corsair Commander (monk)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dajkah-inlet",
+              "en": "Dajkah Inlet",
+              "zhTW": "達卡港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corsair Commander (Dajkah Inlet)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
+        "url": "https://wiki.guildwars.com/wiki/Corsair_Commander_(monk)",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "commander-sadi-belai",
+          "en": "Commander Sadi-Belai",
+          "zhTW": "Commander Sadi-Belai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forum-highlands",
+              "en": "Forum Highlands",
+              "zhTW": "高地廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forum_Highlands"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Sadi-Belai (Forum Highlands)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Sadi-Belai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "治癒目標盟友 30～180 體力，若該目標體力低於 50% ，則你獲得 7 能量。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
+      "revision": 2686644,
+      "title": "Zealous Benediction",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/44017"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44018,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標盟友 %str1% 體力，若該目標體力低於 50%% ，則你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

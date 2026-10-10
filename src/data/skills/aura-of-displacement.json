@@ -1,0 +1,152 @@
+{
+  "pvpOnly": false,
+  "id": "aura-of-displacement",
+  "name": {
+    "en": "Aura of Displacement",
+    "zhTW": "位移靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 771,
+  "icon": "/skills/aura-of-displacement.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. When you cast Aura of Displacement, Shadow Step to target foe. When you stop maintaining Aura of Displacement you return to your original location.",
+      "zhTW": "當你施展位移靈氣時，暗影步伐移動至目標敵人處。而當你停止維持這項「加持」時，你傳送至一開始施展此技能的地點。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "urkal-the-ambusher",
+          "en": "Urkal the Ambusher",
+          "zhTW": "Urkal the Ambusher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          },
+          {
+            "name": {
+              "id": "revolt-of-the-dredge",
+              "en": "Revolt of the Dredge",
+              "zhTW": "Revolt of the Dredge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Revolt_of_the_Dredge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Urkal the Ambusher (Ferndale, not during Revolt of the Dredge)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
+        "url": "https://wiki.guildwars.com/wiki/Urkal_the_Ambusher",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "maximole",
+          "en": "Maximole",
+          "zhTW": "Maximole",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Maximole (Ferndale, only during Revolt of the Dredge)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
+        "url": "https://wiki.guildwars.com/wiki/Maximole",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "當你施展位移靈氣時，暗影步伐移動至目標敵人處。而當你停止維持這項「加持」時，你傳送至一開始施展此技能的地點。",
+  "commonUses": [
+    "無屬性 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
+      "revision": 2738262,
+      "title": "Aura of Displacement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26516"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26517,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當你施展位移靈氣時，暗影步伐移動至目標敵人處。而當你停止維持這項「加持」時，你傳送至一開始施展此技能的地點。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

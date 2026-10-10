@@ -1,0 +1,133 @@
+{
+  "id": "offering-of-spirit",
+  "name": {
+    "en": "Offering of Spirit",
+    "zhTW": "生靈奉獻",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1479,
+  "icon": "/skills/offering-of-spirit.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 3.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Gain 8...15...17 Energy. If any spirits are within earshot, you do not sacrifice Health.",
+      "zhTW": "犧牲自身最大體力的 17% ，獲得 8～17 能量。若音量所及範圍內有「靈」存在，則你將不需要犧牲任何體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shakahm-the-summoner",
+          "en": "Shakahm the Summoner",
+          "zhTW": "Shakahm the Summoner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shakahm the Summoner (Domain of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Offering_of_Spirit",
+        "url": "https://wiki.guildwars.com/wiki/Shakahm_the_Summoner",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "犧牲自身最大體力的 17% ，獲得 8～17 能量。若音量所及範圍內有「靈」存在，則你將不需要犧牲任何體力。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Offering_of_Spirit",
+      "revision": 2726424,
+      "title": "Offering of Spirit",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/37036",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 37037,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "犧牲自身最大體力的 17%% ，獲得 %str2% 能量。若音量所及範圍內有「靈」存在，則你將不需要犧牲任何體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

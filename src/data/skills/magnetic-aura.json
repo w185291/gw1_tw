@@ -1,0 +1,239 @@
+{
+  "pvpOnly": false,
+  "id": "magnetic-aura",
+  "name": {
+    "en": "Magnetic Aura",
+    "zhTW": "磁能靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 168,
+  "icon": "/skills/magnetic-aura.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 1...7...8 second[s], you block the next attack against you and deal 10...42...50 damage to your attacker. If you are Overcast, all party members in earshot are also enchanted.",
+      "zhTW": "持續 1～8 秒，磁能靈氣讓你有 75% 的機率「格擋」近身攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-geomancer-s-test",
+          "en": "The Geomancer's Test",
+          "zhTW": "The Geomancer's Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "serenity-temple",
+              "en": "Serenity Temple",
+              "zhTW": "寧靜神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Serenity_Temple"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Geomancer's Test (Serenity Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+        "url": "https://wiki.guildwars.com/wiki/The_Geomancer%27s_Test",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "moro-stormcalf",
+          "en": "Moro Stormcalf",
+          "zhTW": "Moro Stormcalf",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "deldrimor-bowl",
+              "en": "Deldrimor Bowl",
+              "zhTW": "戴爾狄摩盆地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Moro Stormcalf (Borlis Pass, Deldrimor Bowl)",
+        "source": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Moro_Stormcalf",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "horm-frostrider",
+          "en": "Horm Frostrider",
+          "zhTW": "Horm Frostrider",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Horm Frostrider (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Horm_Frostrider",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 1～8 秒，磁能靈氣讓你有 75% 的機率「格擋」近身攻擊。",
+  "commonUses": [
+    "土系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+      "revision": 2720174,
+      "title": "Magnetic Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25158",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25159,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，磁能靈氣讓你有 75%% 的機率「格擋」近身攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

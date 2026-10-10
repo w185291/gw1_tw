@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "order-of-undeath",
+  "name": {
+    "en": "Order of Undeath",
+    "zhTW": "不死命令",
+    "translationVerified": true
+  },
+  "clientSkillId": 1352,
+  "icon": "/skills/order-of-undeath.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. For 5 seconds, your minions deal +3...13...16 damage, but you lose 2% of your maximum Health whenever one of your minions hits with an attack.",
+      "zhTW": "持續 5 秒，使不死爪牙的攻擊傷害增加 3～16 ，但是每當不死爪牙攻擊命中目標時，你失去最大體力值的 2% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bohdabi-the-destructive",
+          "en": "Bohdabi the Destructive",
+          "zhTW": "Bohdabi the Destructive",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bohdabi the Destructive (The Sulfurous Wastes)",
+        "source": "https://wiki.guildwars.com/wiki/Order_of_Undeath",
+        "url": "https://wiki.guildwars.com/wiki/Bohdabi_the_Destructive",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5 秒，使不死爪牙的攻擊傷害增加 3～16 ，但是每當不死爪牙攻擊命中目標時，你失去最大體力值的 2% 。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Order_of_Undeath",
+      "revision": 2733209,
+      "title": "Order of Undeath",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/33282"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33283,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使不死爪牙的攻擊傷害增加 %str1% ，但是每當不死爪牙攻擊命中目標時，你失去最大體力值的 2%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

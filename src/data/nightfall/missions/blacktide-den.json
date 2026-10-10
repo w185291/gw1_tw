@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,27 @@
     {
       "id": "tahlkora",
       "name": {
-        "zhTW": "塔蔻菈 / Tahlkora",
+        "zhTW": "塔蔻菈",
         "en": "Tahlkora"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/36274",
+        "game-client://2026-10-09/string/48873",
+        "game-client://2026-10-09/string/55341",
+        "game-client://2026-10-09/string/78387"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          36274,
+          48873,
+          55341,
+          78387
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -136,42 +153,76 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "General Kahyet",
+        "zhTW": "General Kahyet（繁中名稱待確認）",
         "en": "General Kahyet"
       },
-      "profession": "神喚使",
-      "importantSkills": [],
+      "profession": "Dervish",
+      "importantSkills": [
+        "Lyssa's Assault",
+        "Mirage Cloak",
+        "Veil of Thorns"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Blacktide_Den#Bosses",
-      "revision": 2708010
+      "source": "https://wiki.guildwars.com/wiki/General_Kahyet",
+      "revision": 2573396
     },
     {
       "name": {
-        "zhTW": "Boklon Blackwater",
+        "zhTW": "Boklon Blackwater（繁中名稱待確認）",
         "en": "Boklon Blackwater"
       },
-      "profession": "死靈法師",
-      "importantSkills": [],
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Rotting Flesh",
+        "Vile Touch",
+        "Well of Blood",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Blacktide_Den#Bosses",
-      "revision": 2708010
+      "source": "https://wiki.guildwars.com/wiki/Boklon_Blackwater",
+      "revision": 2720734
     },
     {
       "name": {
-        "zhTW": "Glug Klugg",
+        "zhTW": "Glug Klugg（繁中名稱待確認）",
         "en": "Glug Klugg"
       },
-      "profession": "死靈法師",
-      "importantSkills": [],
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Rotting Flesh",
+        "Vile Touch",
+        "Well of Blood"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Blacktide_Den#Bosses",
-      "revision": 2708010
+      "source": "https://wiki.guildwars.com/wiki/Glug_Klugg",
+      "revision": 2679912
     }
   ],
   "recommendedTeam": [
@@ -288,6 +339,27 @@
       "revision": 2730659,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：General Kahyet",
+      "url": "https://wiki.guildwars.com/wiki/General_Kahyet",
+      "revision": 2573396,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Boklon Blackwater",
+      "url": "https://wiki.guildwars.com/wiki/Boklon_Blackwater",
+      "revision": 2720734,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Glug Klugg",
+      "url": "https://wiki.guildwars.com/wiki/Glug_Klugg",
+      "revision": 2679912,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -311,7 +383,7 @@
   "primaryQuestBefore": [
     {
       "name": {
-        "zhTW": "Isle of the Dead",
+        "zhTW": "死亡之島",
         "en": "Isle of the Dead"
       },
       "giver": "First Spear Dehvad",
@@ -319,7 +391,21 @@
       "directions": "從Champion’s Dawn向西南到Cliffs of Dohjok救Nerashi小隊，與她談後經Beknur Harbor到Issnur Isles清四群不死族，再到Mehtani Keys清三群，回Kamadan的Dehvad。",
       "url": "https://wiki.guildwars.com/wiki/Isle_of_the_Dead_%28quest%29",
       "revision": 2682989,
-      "translationStatus": "needs-review"
+      "translationStatus": "verified",
+      "translationVerified": true,
+      "translationSources": [
+        "game-client://2026-10-09/string/10702",
+        "game-client://2026-10-09/string/10704",
+        "game-client://2026-10-09/string/10706"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          10702,
+          10704,
+          10706
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     },
     {
       "name": {
@@ -466,5 +552,31 @@
       "expert": "殺3–4隻",
       "master": "殺五隻"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36146",
+    "game-client://2026-10-09/string/39671"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      36146,
+      39671
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Blacktide_Den",
+    "revision": 2708010,
+    "heroes": [
+      "Tahlkora"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

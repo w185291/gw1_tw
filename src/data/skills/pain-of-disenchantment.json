@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "pain-of-disenchantment",
+  "name": {
+    "en": "Pain of Disenchantment",
+    "zhTW": "覺醒苦痛",
+    "translationVerified": true
+  },
+  "clientSkillId": 1359,
+  "icon": "/skills/pain-of-disenchantment.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe loses 1...3...3 enchantment[s]. If an enchantment was lost in this way, that foe and all adjacent foes lose 10...82...100 Health.",
+      "zhTW": "移除目標敵人1～3個加持，若成功移除，目標以及鄰近敵人失去10～100體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nehpek-the-remorseless",
+          "en": "Nehpek the Remorseless",
+          "zhTW": "Nehpek the Remorseless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehjin-mines",
+              "en": "Vehjin Mines",
+              "zhTW": "威金礦坑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehjin_Mines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Nehpek the Remorseless (Vehjin Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment",
+        "url": "https://wiki.guildwars.com/wiki/Nehpek_the_Remorseless",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "移除目標敵人1～3個加持，若成功移除，目標以及鄰近敵人失去10～100體力。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment",
+      "revision": 2629775,
+      "title": "Pain of Disenchantment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36309",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36310,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標敵人%str1%個加持，若成功移除，目標以及鄰近敵人失去%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

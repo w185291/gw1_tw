@@ -1,0 +1,292 @@
+{
+  "pvpOnly": false,
+  "id": "escape",
+  "name": {
+    "en": "Escape",
+    "zhTW": "脫逃",
+    "translationVerified": true
+  },
+  "clientSkillId": 448,
+  "icon": "/skills/escape.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 1...7...8 second[s], you move 33% faster and have a 75% chance to block attacks.",
+      "zhTW": "持續1～8秒，移動速度增加33%，有75%機會格檔攻擊。"
+    },
+    "pvp": {
+      "en": "Elite Stance. For 1...7...8 second[s], you move 33% faster and have a 75% chance to block attacks. Escape ends if you make a melee attack.",
+      "zhTW": "持續1～8秒，移動速度增加33%，有75%機會格檔攻擊，如使用近戰攻擊則此態勢終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Escape (PvP)",
+      "description": {
+        "en": "Elite Stance. For 1...7...8 second[s], you move 33% faster and have a 75% chance to block attacks. Escape ends if you make a melee attack.",
+        "zhTW": "持續1～8秒，移動速度增加33%，有75%機會格檔攻擊，如使用近戰攻擊則此態勢終止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Escape_%28PvP%29",
+        "revision": 2645353,
+        "title": "Escape (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3060
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "whuup-buumbuul",
+          "en": "Whuup Buumbuul",
+          "zhTW": "Whuup Buumbuul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          },
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Whuup Buumbuul (Snake Dance and Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Escape",
+        "url": "https://wiki.guildwars.com/wiki/Whuup_Buumbuul",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "stsou-swiftscale",
+          "en": "Stsou Swiftscale",
+          "zhTW": "Stsou Swiftscale",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maishang-hills",
+              "en": "Maishang Hills",
+              "zhTW": "麥尚山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maishang_Hills"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Stsou Swiftscale (Maishang Hills)",
+        "source": "https://wiki.guildwars.com/wiki/Escape",
+        "url": "https://wiki.guildwars.com/wiki/Stsou_Swiftscale",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "jiao-kuai-the-swift",
+          "en": "Jiao Kuai the Swift",
+          "zhTW": "Jiao Kuai the Swift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaya-bluffs",
+              "en": "Jaya Bluffs",
+              "zhTW": "蛇野斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaya_Bluffs"
+          },
+          {
+            "name": {
+              "id": "honorable-combat",
+              "en": "Honorable Combat",
+              "zhTW": "Honorable Combat",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Honorable_Combat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jiao Kuai the Swift (Jaya Bluffs, only during Honorable Combat)",
+        "source": "https://wiki.guildwars.com/wiki/Escape",
+        "url": "https://wiki.guildwars.com/wiki/Jiao_Kuai_the_Swift",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "tenezel-the-quick",
+          "en": "Tenezel the Quick",
+          "zhTW": "Tenezel the Quick",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tenezel the Quick (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Escape",
+        "url": "https://wiki.guildwars.com/wiki/Tenezel_the_Quick",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "tenshek-roundbody",
+          "en": "Tenshek Roundbody",
+          "zhTW": "Tenshek Roundbody",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tenshek Roundbody (The Hidden City of Ahdashim)",
+        "source": "https://wiki.guildwars.com/wiki/Escape",
+        "url": "https://wiki.guildwars.com/wiki/Tenshek_Roundbody",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續1～8秒，移動速度增加33%，有75%機會格檔攻擊。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "dodge",
+      "en": "Dodge",
+      "zhTW": "Dodge",
+      "translationVerified": false
+    },
+    {
+      "id": "zojun-s-haste",
+      "en": "Zojun's Haste",
+      "zhTW": "羅金之速",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Escape",
+      "revision": 2695828,
+      "title": "Escape",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Escape_%28PvP%29",
+      "revision": 2645353,
+      "title": "Escape (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26254"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26255,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，移動速度增加33%%，有75%%機會格檔攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "rending-aura",
+  "name": {
+    "en": "Rending Aura",
+    "zhTW": "撕裂靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 1765,
+  "icon": "/skills/rending-aura.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. When you cast this enchantment, all nearby foes take 10...34...40 cold damage. For 30 [sic] seconds, your attack skills remove enchantments from knocked-down foes. When this enchantment ends, nearby foes are affected by Cracked Armor for 1...8...10 second[s].",
+      "zhTW": "施展此加持時，對附近敵人造成 10～40 冰凍傷害。持續 30 秒，你使用攻擊技能擊中倒地的敵人時，將使該敵人失去一項加持。此加持結束時，使附近敵人遭受碎甲 1～10 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Rending_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lev-the-condemned",
+          "en": "Lev the Condemned",
+          "zhTW": "Lev the Condemned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lev the Condemned (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Rending_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Lev_the_Condemned",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "施展此加持時，對附近敵人造成 10～40 冰凍傷害。持續 30 秒，你使用攻擊技能擊中倒地的敵人時，將使該敵人失去一項加持。此加持結束時，使附近敵人遭受碎甲 1～10 秒。",
+  "commonUses": [
+    "風之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Rending_Aura",
+      "revision": 2731187,
+      "title": "Rending Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44059"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44060,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "施展此加持時，對附近敵人造成 %str1% 冰凍傷害。持續 %str3% 秒，你使用攻擊技能擊中倒地的敵人時，將使該敵人失去一項加持。此加持結束時，使附近敵人遭受碎甲 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

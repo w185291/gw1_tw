@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "unseen-fury",
+  "name": {
+    "en": "Unseen Fury",
+    "zhTW": "目盲狂怒",
+    "translationVerified": true
+  },
+  "clientSkillId": 1041,
+  "icon": "/skills/unseen-fury.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Stance. All adjacent foes are Blinded for 3...9...10 seconds. For 10...26...30 seconds, you cannot be blocked by Blinded foes.",
+      "zhTW": "持續10～30秒，所有鄰近的敵人遭受盲目3～10秒。當你攻擊遭受盲目病症的目標時，該目標無法格擋。"
+    },
+    "pvp": {
+      "en": "Stance. For 15...51...60 seconds, you cannot be blocked by Blinded foes.",
+      "zhTW": "持續15～60秒，當你攻擊遭受「盲目」病症的目標時，該目標無法「格擋」。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Unseen Fury (PvP)",
+      "description": {
+        "en": "Stance. For 15...51...60 seconds, you cannot be blocked by Blinded foes.",
+        "zhTW": "持續15～60秒，當你攻擊遭受「盲目」病症的目標時，該目標無法「格擋」。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Unseen_Fury_%28PvP%29",
+        "revision": 2733041,
+        "title": "Unseen Fury (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3049
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Unseen_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續10～30秒，所有鄰近的敵人遭受盲目3～10秒。當你攻擊遭受盲目病症的目標時，該目標無法格擋。",
+  "commonUses": [
+    "暗影技巧 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unseen_Fury",
+      "revision": 2733021,
+      "title": "Unseen Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unseen_Fury_%28PvP%29",
+      "revision": 2733041,
+      "title": "Unseen Fury (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26500"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26501,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，所有鄰近的敵人遭受盲目%str2%秒。當你攻擊遭受盲目病症的目標時，該目標無法格擋。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

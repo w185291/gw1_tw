@@ -1,0 +1,301 @@
+{
+  "pvpOnly": false,
+  "id": "grenth-s-balance",
+  "name": {
+    "en": "Grenth's Balance",
+    "zhTW": "古蘭斯的平衡",
+    "translationVerified": true
+  },
+  "clientSkillId": 86,
+  "icon": "/skills/grenth-s-balance.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. If target foe has more Health than you, you gain half the difference (up to your maximum Health), and that foe loses an equal amount. If this foe has less Health than you, you lose half the difference, and that foe gains an equal amount.",
+      "zhTW": "若目標敵人的體力超過你，則你獲得彼此體力值差額的一半（最多不超過你的最大體力值），同時使該目標失去等量的體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "facet-of-darkness",
+          "en": "Facet of Darkness",
+          "zhTW": "Facet of Darkness",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Darkness (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Darkness",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "mragga",
+          "en": "Mragga",
+          "zhTW": "Mragga",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          },
+          {
+            "name": {
+              "id": "the-hero-s-challenge",
+              "en": "The Hero's Challenge",
+              "zhTW": "The Hero's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hero%27s_Challenge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mragga (Frozen Forest, during The Hero's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Mragga",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "grentchus-magnus",
+          "en": "Grentchus Magnus",
+          "zhTW": "Grentchus Magnus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          },
+          {
+            "name": {
+              "id": "the-greatest-snowman-ever-made",
+              "en": "The Greatest Snowman Ever Made",
+              "zhTW": "The Greatest Snowman Ever Made",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Greatest_Snowman_Ever_Made"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Grentchus Magnus (Nebo Terrace, during The Greatest Snowman Ever Made)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Grentchus_Magnus",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "kuonghsang",
+          "en": "Kuonghsang",
+          "zhTW": "Kuonghsang",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter",
+              "en": "Nahpui Quarter",
+              "zhTW": "納普區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kuonghsang (Nahpui Quarter)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Kuonghsang",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "armind-the-balancer",
+          "en": "Armind the Balancer",
+          "zhTW": "Armind the Balancer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Armind the Balancer (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Armind_the_Balancer",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "facet-of-death",
+          "en": "Facet of Death",
+          "zhTW": "Facet of Death",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-grenth",
+              "en": "The Cipher of Grenth",
+              "zhTW": "The Cipher of Grenth",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Grenth"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Death (Sparkfly Swamp during The Cipher of Grenth and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Death",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "若目標敵人的體力超過你，則你獲得彼此體力值差額的一半（最多不超過你的最大體力值），同時使該目標失去等量的體力。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+      "revision": 2695710,
+      "title": "Grenth's Balance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24992",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24993,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人的體力超過你，則你獲得彼此體力值差額的一半（最多不超過你的最大體力值），同時使該目標失去等量的體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

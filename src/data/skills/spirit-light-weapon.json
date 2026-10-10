@@ -1,0 +1,159 @@
+{
+  "id": "spirit-light-weapon",
+  "name": {
+    "en": "Spirit Light Weapon",
+    "zhTW": "靈光武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1257,
+  "icon": "/skills/spirit-light-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Weapon Spell. For 10 seconds, target ally gains 5...21...25 Health per second and an additional 5...21...25 Health per second if that ally is within earshot of a spirit.",
+      "zhTW": "持續 10 秒，使目標盟友每秒獲得 5～25 體力。若該盟友的音量所及範圍內有「靈」存在，則其每秒額外獲得 5～25 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chkkr-brightclaw",
+          "en": "Chkkr Brightclaw",
+          "zhTW": "Chkkr Brightclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "melandru-s-hope",
+              "en": "Melandru's Hope",
+              "zhTW": "梅蘭朵的盼望",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Chkkr Brightclaw (Melandru's Hope)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Chkkr_Brightclaw",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "reesou-the-wanderer",
+          "en": "Reesou the Wanderer",
+          "zhTW": "Reesou the Wanderer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reesou the Wanderer (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Reesou_the_Wanderer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 10 秒，使目標盟友每秒獲得 5～25 體力。若該盟友的音量所及範圍內有「靈」存在，則其每秒額外獲得 5～25 體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon",
+      "revision": 2732017,
+      "title": "Spirit Light Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27409"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27410,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標盟友每秒獲得 %str1% 體力。若該盟友的音量所及範圍內有「靈」存在，則其每秒額外獲得 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

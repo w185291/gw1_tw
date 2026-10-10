@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "blessed-light",
+  "name": {
+    "en": "Blessed Light",
+    "zhTW": "祝福聖光",
+    "translationVerified": true
+  },
+  "clientSkillId": 941,
+  "icon": "/skills/blessed-light.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Heal target ally for 10...98...120 Health and remove one condition and one hex.",
+      "zhTW": "治癒目標盟友 10～120 體力並移除其身上的一項「病症」及一項「降咒」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "amalek-the-unmerciful",
+          "en": "Amalek the Unmerciful",
+          "zhTW": "Amalek the Unmerciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Amalek the Unmerciful (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Blessed_Light",
+        "url": "https://wiki.guildwars.com/wiki/Amalek_the_Unmerciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ssuns-blessed-of-dwayna",
+          "en": "Ssuns, Blessed of Dwayna",
+          "zhTW": "Ssuns, Blessed of Dwayna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ssuns, Blessed of Dwayna (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Blessed_Light",
+        "url": "https://wiki.guildwars.com/wiki/Ssuns,_Blessed_of_Dwayna",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "治癒目標盟友 10～120 體力並移除其身上的一項「病症」及一項「降咒」。",
+  "commonUses": [
+    "神恩 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Blessed_Light",
+      "revision": 2741255,
+      "title": "Blessed Light",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26894",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26895,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標盟友 %str1% 體力並移除其身上的一項「病症」及一項「降咒」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

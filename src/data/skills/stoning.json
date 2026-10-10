@@ -1,0 +1,399 @@
+{
+  "pvpOnly": false,
+  "id": "stoning",
+  "name": {
+    "en": "Stoning",
+    "zhTW": "石箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 171,
+  "icon": "/skills/stoning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Send out a large stone, striking target foe for 45...93...105 earth damage if it hits. If Stoning hits a foe suffering from Weakness, that foe is knocked down.",
+      "zhTW": "射出巨大石頭，命中目標敵人時對其造成 45～105 土系傷害。若該目標正遭受「虛弱」病症，則該目標被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "marna",
+          "en": "Marna",
+          "zhTW": "Marna",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-tooth-cave",
+              "en": "Ice Tooth Cave",
+              "zhTW": "冰牙洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Tooth_Cave"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Marna (Ice Tooth Cave)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Marna",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "skill-chaining",
+          "en": "Skill Chaining",
+          "zhTW": "Skill Chaining",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Skill Chaining (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Skill_Chaining",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ajamduk-hunter-of-the-sands",
+          "en": "Ajamduk, Hunter of the Sands",
+          "zhTW": "Ajamduk, Hunter of the Sands",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ajamduk, Hunter of the Sands (Mehtani Keys)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Ajamduk,_Hunter_of_the_Sands",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-drought",
+          "en": "The Drought",
+          "zhTW": "The Drought",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rilohn-refuge",
+              "en": "Rilohn Refuge",
+              "zhTW": "里歐恩難民營",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rilohn_Refuge"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "The Drought (Rilohn Refuge)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/The_Drought",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "joknang-earthturner",
+          "en": "Joknang Earthturner",
+          "zhTW": "Joknang Earthturner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Joknang Earthturner (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Joknang_Earthturner",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "hajok-earthguardian-insect",
+          "en": "Hajok Earthguardian (Insect)",
+          "zhTW": "Hajok Earthguardian (Insect)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yatendi-canyons",
+              "en": "Yatendi Canyons",
+              "zhTW": "亞天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yatendi_Canyons"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hajok Earthguardian (Yatendi Canyons)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Hajok_Earthguardian_(Insect)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "thraexis-thundermaw",
+          "en": "Thraexis Thundermaw",
+          "zhTW": "Thraexis Thundermaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Thraexis Thundermaw (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Thraexis_Thundermaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Stoning",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "射出巨大石頭，命中目標敵人時對其造成 45～105 土系傷害。若該目標正遭受「虛弱」病症，則該目標被擊倒。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Stoning",
+      "revision": 2683886,
+      "title": "Stoning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25164",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25165,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射出巨大石頭，命中目標敵人時對其造成 %str1% 土系傷害。若該目標正遭受「虛弱」病症，則該目標被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

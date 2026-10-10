@@ -1,0 +1,742 @@
+{
+  "pvpOnly": false,
+  "id": "irresistible-blow",
+  "name": {
+    "en": "Irresistible Blow",
+    "zhTW": "致命之鎚",
+    "translationVerified": true
+  },
+  "clientSkillId": 356,
+  "icon": "/skills/irresistible-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If this attack hits, you strike for +5...17...20 damage. If Irresistible Blow is blocked, your target is knocked down and takes 5...17...20 damage.",
+      "zhTW": "命中時對目標造成 5～20 額外傷害。若此技能遭到目標「格擋」，該目標將被擊倒並且受到 5～20 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "securing-the-vale",
+          "en": "Securing the Vale",
+          "zhTW": "Securing the Vale",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Securing the Vale (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Securing_the_Vale",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ursula-the-white",
+          "en": "Ursula the White",
+          "zhTW": "Ursula the White",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fahranur-the-first-city",
+              "en": "Fahranur, the First City",
+              "zhTW": "舊城．法蘭努爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fahranur,_the_First_City"
+          },
+          {
+            "name": {
+              "id": "how-the-grentches-stole-wintersday",
+              "en": "How the Grentches Stole Wintersday",
+              "zhTW": "How the Grentches Stole Wintersday",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/How_the_Grentches_Stole_Wintersday"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ursula the White (Fahranur, the First City, during How the Grentches Stole Wintersday)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Ursula_the_White",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "earthen-abomination",
+          "en": "Earthen Abomination",
+          "zhTW": "Earthen Abomination",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          },
+          {
+            "name": {
+              "id": "troubled-lands",
+              "en": "Troubled Lands",
+              "zhTW": "Troubled Lands",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Troubled_Lands"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Earthen Abomination (Turai's Procession, before completion of Troubled Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Earthen_Abomination",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "baglorag-grumblesnort",
+          "en": "Baglorag Grumblesnort",
+          "zhTW": "Baglorag Grumblesnort",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "norrhart-domains",
+              "en": "Norrhart Domains",
+              "zhTW": "諾恩之心領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Baglorag Grumblesnort (Norrhart Domains)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Baglorag_Grumblesnort",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chieftain-ulgrimar-gnash",
+          "en": "Chieftain Ulgrimar Gnash",
+          "zhTW": "Chieftain Ulgrimar Gnash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "the-big-unfriendly-jotun",
+              "en": "The Big Unfriendly Jotun",
+              "zhTW": "The Big Unfriendly Jotun",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Big_Unfriendly_Jotun"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chieftain Ulgrimar Gnash (Drakkar Lake, during The Big Unfriendly Jotun)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Chieftain_Ulgrimar_Gnash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lann-browsmasher",
+          "en": "Lann Browsmasher",
+          "zhTW": "Lann Browsmasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "nornhood",
+              "en": "Nornhood",
+              "zhTW": "Nornhood",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nornhood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lann Browsmasher (Drakkar Lake, during Nornhood)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Lann_Browsmasher",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "jormungand",
+          "en": "Jormungand",
+          "zhTW": "Jormungand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "norrhart-domains",
+              "en": "Norrhart Domains",
+              "zhTW": "諾恩之心領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains"
+          },
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          },
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Jormungand (Norrhart Domains, Bjora Marches, Drakkar Lake, and Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Jormungand",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "grelk-icelash",
+          "en": "Grelk Icelash",
+          "zhTW": "Grelk Icelash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "darkrime-delves",
+              "en": "Darkrime Delves",
+              "zhTW": "黑霜洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Darkrime_Delves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Grelk Icelash (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Grelk_Icelash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "havok-kin",
+          "en": "Havok-kin",
+          "zhTW": "Havok-kin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "darkrime-delves",
+              "en": "Darkrime Delves",
+              "zhTW": "黑霜洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Darkrime_Delves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Havok-kin (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Havok-kin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ignus-the-eternal",
+          "en": "Ignus the Eternal",
+          "zhTW": "Ignus the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "the-smell-of-titan-in-the-morning",
+              "en": "The Smell of Titan in the Morning",
+              "zhTW": "晨曦中泰坦的氣息",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Smell_of_Titan_in_the_Morning"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ignus the Eternal (Sacnoth Valley, during 晨曦中泰坦的氣息)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Ignus_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "indestructible-golem",
+          "en": "Indestructible Golem",
+          "zhTW": "Indestructible Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-elusive-golemancer",
+              "en": "The Elusive Golemancer",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elusive_Golemancer"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Indestructible Golem (The Elusive Golemancer)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Indestructible_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "avatar-of-destruction-warrior",
+          "en": "Avatar of Destruction (warrior)",
+          "zhTW": "Avatar of Destruction (warrior)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destruction-s-depths",
+              "en": "Destruction's Depths",
+              "zhTW": "破壞的深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avatar of Destruction (Destruction's Depths)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Avatar_of_Destruction_(warrior)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "devona",
+          "en": "Devona",
+          "zhTW": "德佛娜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking Devona",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Devona",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "goren",
+          "en": "Goren",
+          "zhTW": "高恩",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking 高恩",
+        "source": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Goren",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 5～20 額外傷害。若此技能遭到目標「格擋」，該目標將被擊倒並且受到 5～20 傷害。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "griffon-s-sweep",
+      "en": "Griffon's Sweep",
+      "zhTW": "獅鷲獸掃蕩",
+      "translationVerified": true
+    },
+    {
+      "id": "leviathan-s-sweep",
+      "en": "Leviathan's Sweep",
+      "zhTW": "海獸掃蕩",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+      "revision": 2733111,
+      "title": "Irresistible Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25926",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25927,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若此技能遭到目標「格擋」，該目標將被擊倒並且受到 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

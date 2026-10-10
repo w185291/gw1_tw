@@ -5,7 +5,7 @@
     "en": "Tahlkora"
   },
   "profession": "僧侶",
-  "translationStatus": "needs-review",
+  "translationStatus": "verified",
   "summary": "招募方式、選擇群組與需要此英雄的Mission。",
   "native": [
     "完成Big News, Small Package。"
@@ -35,11 +35,27 @@
       "role": "mechanics"
     },
     {
-      "title": "中文社群英雄詞典（轉繁體，台版正式譯名待核）",
+      "title": "中文社群英雄詞典",
       "url": "https://guildwars.huijiwiki.com/wiki/%E8%AF%8D%E5%85%B8",
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
     }
-  ]
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36274",
+    "game-client://2026-10-09/string/48873",
+    "game-client://2026-10-09/string/55341",
+    "game-client://2026-10-09/string/78387"
+  ],
+  "gameTextEvidence": {
+    "stringIds": [
+      36274,
+      48873,
+      55341,
+      78387
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
 }

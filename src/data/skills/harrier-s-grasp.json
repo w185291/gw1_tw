@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "harrier-s-grasp",
+  "name": {
+    "en": "Harrier's Grasp",
+    "zhTW": "獵捕者之爪",
+    "translationVerified": true
+  },
+  "clientSkillId": 1758,
+  "icon": "/skills/harrier-s-grasp.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. For 5...17...20 seconds, attacks against moving foes also Cripple that foe for 2...8...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3...3 times. [sic].",
+      "zhTW": "持續 5～20 秒，擊中移動中的敵人，將造成殘廢 2～9 秒，施展此加持時，消除自身殘廢病症以及額外一項病症。"
+    },
+    "pvp": {
+      "en": "Flash Enchantment Spell. For 5...17...20 seconds, melee attacks against moving foes also Cripple those foes for 2...8...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3...3 times.",
+      "zhTW": "持續 5～20 秒，近戰命中移動中的敵人時使其殘廢 2～9 秒。施放時移除自身殘廢及另一項病症。造成殘廢 1～3 次後終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Harrier's Grasp (PvP)",
+      "description": {
+        "en": "Flash Enchantment Spell. For 5...17...20 seconds, melee attacks against moving foes also Cripple those foes for 2...8...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3...3 times.",
+        "zhTW": "持續 5～20 秒，近戰命中移動中的敵人時使其殘廢 2～9 秒。施放時移除自身殘廢及另一項病症。造成殘廢 1～3 次後終止。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp_%28PvP%29",
+        "revision": 2738648,
+        "title": "Harrier's Grasp (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3468
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "asterius-the-mighty",
+          "en": "Asterius the Mighty",
+          "zhTW": "Asterius the Mighty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Asterius the Mighty (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp",
+        "url": "https://wiki.guildwars.com/wiki/Asterius_the_Mighty",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "持續 5～20 秒，擊中移動中的敵人，將造成殘廢 2～9 秒，施展此加持時，消除自身殘廢病症以及額外一項病症。",
+  "commonUses": [
+    "風之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp",
+      "revision": 2738591,
+      "title": "Harrier's Grasp",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp_%28PvP%29",
+      "revision": 2738648,
+      "title": "Harrier's Grasp (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44087",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44088,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，擊中移動中的敵人，將造成殘廢 %str2% 秒，施展此加持時，消除自身殘廢病症以及額外一項病症。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

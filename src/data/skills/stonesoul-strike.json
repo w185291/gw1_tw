@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "stonesoul-strike",
+  "name": {
+    "en": "Stonesoul Strike",
+    "zhTW": "靈石衝擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1131,
+  "icon": "/skills/stonesoul-strike.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Touched target foe takes 10...46...55 holy damage. If knocked down, your target takes an additional 10...46...55 holy damage.",
+      "zhTW": "碰觸目標敵人對其造成 10～55 神聖傷害。若擊中倒地的敵人，則對其額外造成 10～55 神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Stonesoul_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "greves-the-overbearing",
+          "en": "Greves the Overbearing",
+          "zhTW": "Greves the Overbearing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Greves the Overbearing (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Stonesoul_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Greves_the_Overbearing",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標敵人對其造成 10～55 神聖傷害。若擊中倒地的敵人，則對其額外造成 10～55 神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Stonesoul_Strike",
+      "revision": 2683582,
+      "title": "Stonesoul Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26930"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26931,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人對其造成 %str1% 神聖傷害。若擊中倒地的敵人，則對其額外造成 %str2% 神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,352 @@
+{
+  "pvpOnly": false,
+  "id": "wild-strike",
+  "name": {
+    "en": "Wild Strike",
+    "zhTW": "野蠻狙殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 1022,
+  "icon": "/skills/wild-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "off-hand-attack",
+    "en": "Off-hand attack",
+    "zhTW": "即刻攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4,
+  "description": {
+    "pve": {
+      "en": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...30...35 damage and any stance being used by target foe ends. This attack cannot be blocked.",
+      "zhTW": "必須接續在「引導攻擊」之後。命中時對目標造成 10～35 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。"
+    },
+    "pvp": {
+      "en": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...30...35 damage and any stance being used by target foe ends. This attack cannot be blocked.",
+      "zhTW": "必須接續在「引導攻擊」之後。命中時對目標造成 10～35 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Wild Strike (PvP)",
+      "description": {
+        "en": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...30...35 damage and any stance being used by target foe ends. This attack cannot be blocked.",
+        "zhTW": "必須接續在「引導攻擊」之後。命中時對目標造成 10～35 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。"
+      },
+      "stats": {
+        "Energy": 5,
+        "Recharge": 6
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Wild_Strike_%28PvP%29",
+        "revision": 2733318,
+        "title": "Wild Strike (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3252
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "major-jeahr",
+          "en": "Major Jeahr",
+          "zhTW": "Major Jeahr",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Major Jeahr (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Major_Jeahr",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "admiral-kaya",
+          "en": "Admiral Kaya",
+          "zhTW": "Admiral Kaya",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Admiral Kaya (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Admiral_Kaya",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "hanchor-trueblade",
+          "en": "Hanchor Trueblade",
+          "zhTW": "Hanchor Trueblade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hanchor Trueblade (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Hanchor_Trueblade",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "faveo-aggredior",
+          "en": "Faveo Aggredior",
+          "zhTW": "Faveo Aggredior",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Faveo Aggredior (Nightfallen Jahai)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Faveo_Aggredior",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "bound-hao-li",
+          "en": "Bound Hao Li",
+          "zhTW": "Bound Hao Li",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Hao Li (Domain of Fear, only during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Hao_Li",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "the-hunter",
+          "en": "The Hunter",
+          "zhTW": "The Hunter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          },
+          {
+            "name": {
+              "id": "open-season",
+              "en": "Open Season",
+              "zhTW": "Open Season",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Open_Season"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "The Hunter (Domain of Secrets, only during Open Season)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/The_Hunter",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "rekoff-broodmother",
+          "en": "Rekoff Broodmother",
+          "zhTW": "Rekoff Broodmother",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rekoff Broodmother (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Rekoff_Broodmother",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "必須接續在「引導攻擊」之後。命中時對目標造成 10～35 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。",
+  "commonUses": [
+    "匕首精通 · 即刻攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wild_Strike",
+      "revision": 2733186,
+      "title": "Wild Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wild_Strike_%28PvP%29",
+      "revision": 2733318,
+      "title": "Wild Strike (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26400"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26401,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「引導攻擊」之後。命中時對目標造成 %str1% 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

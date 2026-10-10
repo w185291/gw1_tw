@@ -1,0 +1,434 @@
+{
+  "pvpOnly": false,
+  "id": "hamstring",
+  "name": {
+    "en": "Hamstring",
+    "zhTW": "斷腿攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 320,
+  "icon": "/skills/hamstring.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "sword-attack",
+    "en": "Sword attack",
+    "zhTW": "劍術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Sword Attack. If this attack hits, your target is Crippled for 3...13...15 seconds, slowing his[sic] movement.",
+      "zhTW": "命中時使目標遭受「殘廢」病症 3～15 秒，降低其移動速度。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "caravan-in-trouble",
+          "en": "Caravan in Trouble",
+          "zhTW": "Caravan in Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eastern-frontier",
+              "en": "Eastern Frontier",
+              "zhTW": "東方邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Caravan in Trouble (Eastern Frontier)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Caravan_in_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "haja-bloodwail",
+          "en": "Haja Bloodwail",
+          "zhTW": "Haja Bloodwail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Haja Bloodwail (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Haja_Bloodwail",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-dellus",
+          "en": "Custodian Dellus",
+          "zhTW": "Custodian Dellus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Dellus (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Dellus",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-fidius",
+          "en": "Custodian Fidius",
+          "zhTW": "Custodian Fidius",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Fidius (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Fidius",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "custodian-hulgar",
+          "en": "Custodian Hulgar",
+          "zhTW": "Custodian Hulgar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Hulgar (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Hulgar",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gedoss-windcutter",
+          "en": "Gedoss Windcutter",
+          "zhTW": "Gedoss Windcutter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fahranur-the-first-city",
+              "en": "Fahranur, The First City",
+              "zhTW": "舊城．法蘭努爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fahranur,_The_First_City"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Gedoss Windcutter (Fahranur, The First City)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Gedoss_Windcutter",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "byndliss-flamecrown",
+          "en": "Byndliss Flamecrown",
+          "zhTW": "Byndliss Flamecrown",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Byndliss Flamecrown (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Byndliss_Flamecrown",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Hamstring",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時使目標遭受「殘廢」病症 3～15 秒，降低其移動速度。",
+  "commonUses": [
+    "精通劍術 · 劍術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hamstring",
+      "revision": 2731374,
+      "title": "Hamstring",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25851",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25852,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時使目標遭受「殘廢」病症 %str2% 秒，降低其移動速度。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

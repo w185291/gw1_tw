@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "reaper-s-sweep",
+  "name": {
+    "en": "Reaper's Sweep",
+    "zhTW": "收割者掃蕩",
+    "translationVerified": true
+  },
+  "clientSkillId": 1767,
+  "icon": "/skills/reaper-s-sweep.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "scythe-mastery",
+    "en": "Scythe Mastery",
+    "zhTW": "鐮刀精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "scythe-attack",
+    "en": "scythe attack",
+    "zhTW": "鐮刀攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Scythe Attack. If this attack hits, you Cripple your target for 3...13...15 seconds. You lose 1 Dervish enchantment. If an enchantment was removed, this attack knocks down for 2...3...3 seconds.",
+      "zhTW": "命中時造成殘廢 3～15 秒，移除自身一項神喚使加持，若移除成功，將擊倒敵人 2～3 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "dabineh-deathbringer",
+          "en": "Dabineh Deathbringer",
+          "zhTW": "Dabineh Deathbringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dabineh Deathbringer (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Dabineh_Deathbringer",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "asterius-the-mighty",
+          "en": "Asterius the Mighty",
+          "zhTW": "Asterius the Mighty",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Asterius the Mighty (Varajar Fells)",
+        "source": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Asterius_the_Mighty",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "命中時造成殘廢 3～15 秒，移除自身一項神喚使加持，若移除成功，將擊倒敵人 2～3 秒。",
+  "commonUses": [
+    "鐮刀精通 · 鐮刀攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep",
+      "revision": 2726548,
+      "title": "Reaper's Sweep",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44057"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44058,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成殘廢 %str2% 秒，移除自身一項神喚使加持，若移除成功，將擊倒敵人 %str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

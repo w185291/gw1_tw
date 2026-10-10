@@ -1,0 +1,179 @@
+{
+  "pvpOnly": false,
+  "id": "bonetti-s-defense",
+  "name": {
+    "en": "Bonetti's Defense",
+    "zhTW": "博尼迪防禦態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 380,
+  "icon": "/skills/bonetti-s-defense.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 8.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...10...11 seconds, you have a 75% chance to block melee and projectile attacks. You gain 5 Energy for each successful melee attack blocked. Bonetti's Defense ends if you use a skill.",
+      "zhTW": "持續 5～11 秒，你有 75% 機率「格擋」近身攻擊和弓箭。每當成功「格擋」近身攻擊時，你獲得 5 能量。若在此態勢下使用其他技能，則態勢效果停止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-deserters",
+          "en": "The Deserters",
+          "zhTW": "The Deserters",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beacon-s-perch",
+              "en": "Beacon's Perch",
+              "zhTW": "畢肯高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beacon%27s_Perch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Deserters (Beacon's Perch)",
+        "source": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
+        "url": "https://wiki.guildwars.com/wiki/The_Deserters",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 5～11 秒，你有 75% 機率「格擋」近身攻擊和弓箭。每當成功「格擋」近身攻擊時，你獲得 5 能量。若在此態勢下使用其他技能，則態勢效果停止。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
+      "revision": 2683360,
+      "title": "Bonetti's Defense",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25979",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25980,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 75%% 機率「格擋」近身攻擊和弓箭。每當成功「格擋」近身攻擊時，你獲得 5 能量。若在此態勢下使用其他技能，則態勢效果停止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

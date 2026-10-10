@@ -1,0 +1,566 @@
+{
+  "pvpOnly": false,
+  "id": "distracting-shot",
+  "name": {
+    "en": "Distracting Shot",
+    "zhTW": "震暈之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 399,
+  "icon": "/skills/distracting-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If Distracting Shot hits, it interrupts target foe's action but deals only 1...13...16 damage. If the interrupted action was a skill, that skill is disabled for an additional 20 seconds.",
+      "zhTW": "震暈之箭命中時，中斷目標敵人的動作，但是只造成 1～16 傷害。如果受到中斷的是技能，則該技能的回復時間增加 20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "charr-reinforcements",
+          "en": "Charr Reinforcements",
+          "zhTW": "Charr Reinforcements",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "piken-square",
+              "en": "Piken Square",
+              "zhTW": "派肯廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Charr Reinforcements (Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Reinforcements",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "disruption",
+          "en": "Disruption",
+          "zhTW": "Disruption",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Disruption (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Disruption",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "rubi-spottedmane",
+          "en": "Rubi Spottedmane",
+          "zhTW": "Rubi Spottedmane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "anvil-rock",
+              "en": "Anvil Rock",
+              "zhTW": "鐵砧石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Anvil_Rock"
+          },
+          {
+            "name": {
+              "id": "deldrimor-bowl",
+              "en": "Deldrimor Bowl",
+              "zhTW": "戴爾狄摩盆地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rubi Spottedmane (Borlis Pass, Anvil Rock, and Deldrimor Bowl)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Rubi_Spottedmane",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "winglord-caromi",
+          "en": "Winglord Caromi",
+          "zhTW": "Winglord Caromi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Winglord Caromi (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Winglord_Caromi",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "henge-guardian",
+          "en": "Henge Guardian",
+          "zhTW": "Henge Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Henge Guardian (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Henge_Guardian",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "brol-migo-hinga",
+          "en": "Brol Migo Hinga",
+          "zhTW": "Brol Migo Hinga",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Brol Migo Hinga (Diviner's Ascent, Prophet's Path, Salt Flats, The Arid Sea, and Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Brol_Migo_Hinga",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "flange-sullenrage",
+          "en": "Flange Sullenrage",
+          "zhTW": "Flange Sullenrage",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Flange Sullenrage (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Flange_Sullenrage",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ness-orangeclaw",
+          "en": "Ness Orangeclaw",
+          "zhTW": "Ness Orangeclaw",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Ness Orangeclaw (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ness_Orangeclaw",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "acolyte-jin",
+          "en": "Acolyte Jin",
+          "zhTW": "侍從 靜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Jin",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Jin",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "margrid-the-sly",
+          "en": "Margrid the Sly",
+          "zhTW": "狡詐者 瑪格麗",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Margrid the Sly",
+        "source": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Margrid_the_Sly",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "震暈之箭命中時，中斷目標敵人的動作，但是只造成 1～16 傷害。如果受到中斷的是技能，則該技能的回復時間增加 20 秒。",
+  "commonUses": [
+    "Expertise · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+      "revision": 2698054,
+      "title": "Distracting Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26156"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26157,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "震暈之箭命中時，中斷目標敵人的動作，但是只造成 %str1% 傷害。如果受到中斷的是技能，則該技能的回復時間增加 20 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,330 @@
+{
+  "pvpOnly": false,
+  "id": "wary-stance",
+  "name": {
+    "en": "Wary Stance",
+    "zhTW": "謹慎態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 377,
+  "icon": "/skills/wary-stance.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 1...5...6 second[s], you block any attack skills used against you. For each successful block, you gain adrenaline and 5 Energy. Wary Stance ends if you use a skill.",
+      "zhTW": "持續 1～6 秒，你「格擋」任何的攻擊技能。每成功「格擋」一次，你獲得怒氣值及 5 能量。若在此態勢下使用其他技能，則態勢效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "taltosh",
+          "en": "Taltosh",
+          "zhTW": "Taltosh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grendich-courthouse",
+              "en": "Grendich Courthouse",
+              "zhTW": "葛蘭迪法院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Taltosh (Grendich Courthouse)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Taltosh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "muu-swifthorn",
+          "en": "Muu Swifthorn",
+          "zhTW": "Muu Swifthorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talmark-wilderness",
+              "en": "Talmark Wilderness",
+              "zhTW": "突馬克荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Muu Swifthorn (Talmark Wilderness)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Muu_Swifthorn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "stoofed-chargehoof",
+          "en": "Stoofed Chargehoof",
+          "zhTW": "Stoofed Chargehoof",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Stoofed Chargehoof (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Stoofed_Chargehoof",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "kree-minotaur",
+          "en": "Kree Minotaur",
+          "zhTW": "Kree Minotaur",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-elementalist-s-path",
+              "en": "The Elementalist's Path",
+              "zhTW": "The Elementalist's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elementalist%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kree Minotaur (Prophet's Path, during The Elementalist's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Kree_Minotaur",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "graf-wask-derg",
+          "en": "Graf Wask Derg",
+          "zhTW": "Graf Wask Derg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          },
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Graf Wask Derg (Diviner's Ascent, Salt Flats, The Arid Sea, The Scar, and Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Graf_Wask_Derg",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "monaru-chippedfang",
+          "en": "Monaru Chippedfang",
+          "zhTW": "Monaru Chippedfang",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Monaru Chippedfang (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Wary_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Monaru_Chippedfang",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 1～6 秒，你「格擋」任何的攻擊技能。每成功「格擋」一次，你獲得怒氣值及 5 能量。若在此態勢下使用其他技能，則態勢效果終止。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wary_Stance",
+      "revision": 2740736,
+      "title": "Wary Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25973",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25974,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你「格擋」任何的攻擊技能。每成功「格擋」一次，你獲得怒氣值及 5 能量。若在此態勢下使用其他技能，則態勢效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

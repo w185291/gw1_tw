@@ -1,0 +1,147 @@
+{
+  "id": "protective-was-kaolai",
+  "name": {
+    "en": "Protective Was Kaolai",
+    "zhTW": "護衛者高萊",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1219,
+  "icon": "/skills/protective-was-kaolai.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "Item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Item Spell. Hold Kaolai's ashes for up to 15...51...60 seconds. While you hold his ashes, you gain 20 armor. When you drop his ashes, all party members are healed for 20...80...95 Health.",
+      "zhTW": "最多能夠抱持 15～60 秒，當你抱持高萊的骨灰時，你增加 20 防禦。而當你丟下他的骨灰時，所有隊員獲得 20～95 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持物時提高自己的防禦，放下骨灰時治療整隊。預先拿好，等隊伍多人掉血再放，較能利用群補效益。",
+  "commonUses": [
+    "恢復魔法群補",
+    "英雄補師"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai",
+      "revision": 2742244,
+      "title": "Protective Was Kaolai",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27271"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27272,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多能夠抱持 %str3% 秒，當你抱持高萊的骨灰時，你增加 %str1% 防禦。而當你丟下他的骨灰時，所有隊員獲得 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

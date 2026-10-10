@@ -1,0 +1,510 @@
+{
+  "pvpOnly": false,
+  "id": "shielding-hands",
+  "name": {
+    "en": "Shielding Hands",
+    "zhTW": "防禦之手",
+    "translationVerified": true
+  },
+  "clientSkillId": 299,
+  "icon": "/skills/shielding-hands.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 8 seconds, damage and life steal received by target ally is reduced by 3...15...18. When Shielding Hands ends, that ally is healed for 5...41...50 Health.",
+      "zhTW": "持續8秒，目標盟友受到的傷害或者偷取生命減少3～18， 結束時治療5～50體 力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-pre-searing",
+              "en": "Ascalon City (pre-Searing)",
+              "zhTW": "Ascalon City (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-city",
+              "en": "Kaineng City",
+              "zhTW": "凱寧城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_City"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng City)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "protection-prayers-quest",
+          "en": "Protection Prayers (quest)",
+          "zhTW": "Protection Prayers (quest)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "green-hills-county",
+              "en": "Green Hills County",
+              "zhTW": "綠丘郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Green_Hills_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Protection Prayers (Green Hills County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Protection_Prayers_(quest)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "advanced-defense-techniques",
+          "en": "Advanced Defense Techniques",
+          "zhTW": "Advanced Defense Techniques",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Advanced Defense Techniques (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Advanced_Defense_Techniques",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "shalis-ironmantle",
+          "en": "Shalis Ironmantle",
+          "zhTW": "Shalis Ironmantle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-horse-mine",
+              "en": "Iron Horse Mine",
+              "zhTW": "鐵馬礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine"
+          },
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Shalis Ironmantle (Iron Horse Mine and The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Shalis_Ironmantle",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "abbot-ramoth",
+          "en": "Abbot Ramoth",
+          "zhTW": "Abbot Ramoth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          },
+          {
+            "name": {
+              "id": "the-false-gods",
+              "en": "The False Gods",
+              "zhTW": "The False Gods",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_False_Gods"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abbot Ramoth (The Black Curtain, only during The False Gods)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Abbot_Ramoth",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ramm-the-benevolent",
+          "en": "Ramm the Benevolent",
+          "zhTW": "Ramm the Benevolent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ramm the Benevolent (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "garr-the-merciful",
+          "en": "Garr the Merciful",
+          "zhTW": "Garr the Merciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garr the Merciful (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Garr_the_Merciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gilroy-the-stoic",
+          "en": "Gilroy the Stoic",
+          "zhTW": "Gilroy the Stoic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gilroy the Stoic (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Gilroy_the_Stoic",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "corbin-the-upright",
+          "en": "Corbin the Upright",
+          "zhTW": "Corbin the Upright",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Corbin the Upright (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "selwin-the-fervent",
+          "en": "Selwin the Fervent",
+          "zhTW": "Selwin the Fervent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Selwin the Fervent (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續8秒，目標盟友受到的傷害或者偷取生命減少3～18， 結束時治療5～50體 力。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+      "revision": 2739365,
+      "title": "Shielding Hands",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25808"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25809,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標盟友受到的傷害或者偷取生命減少%str1%， 結束時治療%str2%體 力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

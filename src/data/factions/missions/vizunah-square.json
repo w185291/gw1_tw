@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -87,19 +87,23 @@
   },
   "walkthrough": [
     {
-      "title": "依入口會合",
-      "content": "本地隊先跟 Togo 抵擋感染者；外地隊跟 Mhenlo 清除 Am Fah 後趕往會合處。外地隊抵達前 Togo 已可能死亡，本地隊要能獨立防守。"
+      "title": "本地隊先防守",
+      "content": "本地入口隊與 Master Togo 抵擋 Afflicted；外地隊抵達前他就可能被殺，因此本地隊要有獨立治療與防守能力。"
     },
     {
-      "title": "守住三場大戰",
-      "content": "會合後沿共同路線清除三處戰鬥。敵人由多個入口增援，可分散站位控制入口，擊殺感染頭目才會停止部分增援並開門。"
+      "title": "外地隊趕往會合",
+      "content": "外地入口隊跟 Mhenlo 清 Am Fah 後往會合處，不要在沿路整備太久；兩隊都需保護各自跟隨的劇情 NPC。"
     },
     {
-      "title": "清理最後構造體",
-      "content": "每隊保留自己的復活技能；可以治療另一隊友軍，但不能用一般復活技能救另一隊成員。最後擊敗隨機出現的 Shiro 構造體，完成後抵達 Dragon’s Throat。"
+      "title": "三場共同戰鬥",
+      "content": "會合後沿共同路線清三處戰鬥。敵人从不同入口增援，分散後排並控制入口；擊殺感染頭目才能停止部分增援並開門。"
+    },
+    {
+      "title": "最後構造體",
+      "content": "各隊保留自己的復活技能。可以治療另一隊友軍，通常不能用一般復活技能救另一隊成員。最後清隨機 Shiro 構造體，完成後抵達 Dragon’s Throat。"
     }
   ],
-  "routeSummary": "禎臺郡 → 薇茹廣場 → 納普區",
+  "routeSummary": "禎台郡 → 薇茹廣場 → 納普區",
   "mapImage": "/maps/factions-Vizunah_Square_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -123,123 +127,239 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "The Afflicted Ako",
+        "zhTW": "The Afflicted Ako（繁中名稱待確認）",
         "en": "The Afflicted Ako"
       },
       "profession": "戰士",
       "importantSkills": [
+        "\"On Your Knees!\"",
+        "Auspicious Blow",
+        "Endure Pain",
+        "Enraged Smash",
+        "Frenzy",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Enraged Smash"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Ako",
+      "revision": 2550590
     },
     {
       "name": {
-        "zhTW": "The Afflicted Huan",
-        "en": "The Afflicted Huan"
+        "en": "The Afflicted Huan (Ranger)",
+        "zhTW": "The Afflicted Huan (Ranger)（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Broad Head Arrow",
+        "Kindle Arrows",
+        "Marauder's Shot",
+        "Throw Dirt",
+        "Troll Unguent",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Broad Head Arrow"
       ],
-      "notes": [
-        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Huan_%28ranger%29"
+        }
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Huan_%28ranger%29",
+      "revision": 2713473
     },
     {
       "name": {
-        "zhTW": "The Afflicted Miju",
+        "zhTW": "The Afflicted Miju（繁中名稱待確認）",
         "en": "The Afflicted Miju"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Draw Conditions",
+        "Ray of Judgment",
+        "Retribution",
+        "Reversal of Fortune",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Ray of Judgment"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Miju",
+      "revision": 2610251
     },
     {
       "name": {
-        "zhTW": "The Afflicted Thu",
+        "zhTW": "The Afflicted Thu（繁中名稱待確認）",
         "en": "The Afflicted Thu"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Bitter Chill",
+        "Jaundiced Gaze",
+        "Order of Apostasy",
+        "Vile Miasma",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Order of Apostasy"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Thu",
+      "revision": 2606154
     },
     {
       "name": {
-        "zhTW": "The Afflicted Li Yun",
+        "zhTW": "The Afflicted Li Yun（繁中名稱待確認）",
         "en": "The Afflicted Li Yun"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Accumulated Pain",
+        "Drain Enchantment",
+        "Ether Feast",
+        "Images of Remorse",
+        "Kitah's Burden",
+        "Stolen Speed",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Stolen Speed"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Li_Yun",
+      "revision": 2638058
     },
     {
       "name": {
-        "zhTW": "The Afflicted Kam",
+        "zhTW": "The Afflicted Kam（繁中名稱待確認）",
         "en": "The Afflicted Kam"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Aura of Restoration",
+        "Fire Attunement",
+        "Lava Arrows",
+        "Lightning Orb",
+        "Mind Burn",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Mind Burn"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Kam",
+      "revision": 2550687
     },
     {
       "name": {
-        "zhTW": "The Afflicted Soon Kim",
+        "zhTW": "The Afflicted Soon Kim（繁中名稱待確認）",
         "en": "The Afflicted Soon Kim"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
+        "Death Blossom",
+        "Jagged Strike",
+        "Shadow Form",
+        "Shadow Refuge",
+        "Wild Strike",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Shadow Form"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Soon_Kim",
+      "revision": 2635699
     },
     {
       "name": {
-        "zhTW": "The Afflicted Hakaru",
+        "zhTW": "The Afflicted Hakaru（繁中名稱待確認）",
         "en": "The Afflicted Hakaru"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Life",
+        "Nightmare Weapon",
+        "Recuperation",
+        "Spirit Transfer",
+        "Weapon of Quickening",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Weapon of Quickening"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Vizunah_Square#Bosses",
-      "revision": 2721631
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Hakaru",
+      "revision": 2694468
     }
   ],
   "recommendedTeam": [
@@ -349,6 +469,69 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Ako",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Ako",
+      "revision": 2550590,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Huan (Ranger)",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Huan_%28ranger%29",
+      "revision": 2713473,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Miju",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Miju",
+      "revision": 2610251,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Thu",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Thu",
+      "revision": 2606154,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Li Yun",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Li_Yun",
+      "revision": 2638058,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Kam",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Kam",
+      "revision": 2550687,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Soon Kim",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Soon_Kim",
+      "revision": 2635699,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Hakaru",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Hakaru",
+      "revision": 2694468,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Huan",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Huan",
+      "revision": 168361,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -465,5 +648,20 @@
       "expert": "35–40分鐘",
       "master": "少於35分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22318"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22318
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

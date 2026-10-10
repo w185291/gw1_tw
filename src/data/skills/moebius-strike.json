@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "moebius-strike",
+  "name": {
+    "en": "Moebius Strike",
+    "zhTW": "莫比斯狙殺",
+    "translationVerified": true
+  },
+  "clientSkillId": 781,
+  "icon": "/skills/moebius-strike.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "off-hand-attack",
+    "en": "off-hand attack",
+    "zhTW": "即刻攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Elite Off-Hand Attack. Must follow a Dual Attack. If it hits, Moebius Strike strikes for +10...30...35 damage. If you strike a foe whose Health is below 50%, all your other attack skills are recharged.",
+      "zhTW": "必須接續在「雙重攻擊」之後。命中時對目標造成 10～35 額外傷害，若命中的目標體力低於 50% ，此技能外的所有攻擊技能全部回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bramble-everthorn",
+          "en": "Bramble Everthorn",
+          "zhTW": "Bramble Everthorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bramble Everthorn (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Moebius_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Bramble_Everthorn",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "watari-the-infinite",
+          "en": "Watari the Infinite",
+          "zhTW": "Watari the Infinite",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "redemption-for-the-lost",
+              "en": "Redemption for the Lost",
+              "zhTW": "Redemption for the Lost",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Redemption_for_the_Lost"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Watari the Infinite (Sunjiang District (Winds of Change), only during Redemption for the Lost)",
+        "source": "https://wiki.guildwars.com/wiki/Moebius_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Watari_the_Infinite",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "必須接續在「雙重攻擊」之後。命中時對目標造成 10～35 額外傷害，若命中的目標體力低於 50% ，此技能外的所有攻擊技能全部回復。",
+  "commonUses": [
+    "匕首精通 · 即刻攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Moebius_Strike",
+      "revision": 2733151,
+      "title": "Moebius Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26398"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26399,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「雙重攻擊」之後。命中時對目標造成 %str1% 額外傷害，若命中的目標體力低於 50%% ，此技能外的所有攻擊技能全部回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,240 @@
+{
+  "pvpOnly": false,
+  "id": "plague-signet",
+  "name": {
+    "en": "Plague Signet",
+    "zhTW": "疫病紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 132,
+  "icon": "/skills/plague-signet.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. Transfer all negative conditions with 100...180...200% of their remaining durations from yourself to target foe. (50% failure chance with Curses 4 or less.)",
+      "zhTW": "轉移自身所有病症到目標敵人身上，並且持續時間為剩餘的100～200%，詛咒4以下有50%失敗機率。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "allobo-dimdim",
+          "en": "Allobo Dimdim",
+          "zhTW": "Allobo Dimdim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          },
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Allobo Dimdim (Spearhead Peak, Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Allobo_Dimdim",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "karobo-dimdim",
+          "en": "Karobo Dimdim",
+          "zhTW": "Karobo Dimdim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Karobo Dimdim (Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Karobo_Dimdim",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "hargg-plaguebinder",
+          "en": "Hargg Plaguebinder",
+          "zhTW": "Hargg Plaguebinder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Hargg Plaguebinder (Ferndale)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Hargg_Plaguebinder",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "wioli-the-infectious",
+          "en": "Wioli the Infectious",
+          "zhTW": "Wioli the Infectious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Wioli the Infectious (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Wioli_the_Infectious",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "bredyss-longstride",
+          "en": "Bredyss Longstride",
+          "zhTW": "Bredyss Longstride",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Bredyss Longstride (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Plague_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Bredyss_Longstride",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "轉移自身所有病症到目標敵人身上，並且持續時間為剩餘的100～200%，詛咒4以下有50%失敗機率。",
+  "commonUses": [
+    "詛咒 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Plague_Signet",
+      "revision": 2732797,
+      "title": "Plague Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25084",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25085,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "轉移自身所有病症到目標敵人身上，並且持續時間為剩餘的%str1%%%，詛咒4以下有50%%失敗機率。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

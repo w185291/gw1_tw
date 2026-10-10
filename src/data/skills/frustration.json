@@ -1,0 +1,260 @@
+{
+  "pvpOnly": false,
+  "id": "frustration",
+  "name": {
+    "en": "Frustration",
+    "zhTW": "頓挫",
+    "translationVerified": true
+  },
+  "clientSkillId": 1341,
+  "icon": "/skills/frustration.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 5...17...20 seconds, target foe casts spells 50% slower and takes 5...41...50 damage whenever interrupted. If a skill is interrupted, Frustration deals double damage.",
+      "zhTW": "持續 5～20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5～50 傷害。"
+    },
+    "pvp": {
+      "en": "Hex Spell. For 5...17...20 seconds, target foe casts spells 50% slower and takes 5...41...50 damage whenever interrupted.",
+      "zhTW": "持續 5～20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5～50 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Frustration (PvP)",
+      "description": {
+        "en": "Hex Spell. For 5...17...20 seconds, target foe casts spells 50% slower and takes 5...41...50 damage whenever interrupted.",
+        "zhTW": "持續 5～20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5～50 傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Frustration_%28PvP%29",
+        "revision": 2643563,
+        "title": "Frustration (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3190
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "teral-the-punisher",
+          "en": "Teral the Punisher",
+          "zhTW": "Teral the Punisher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak-war-in-kryta",
+              "en": "Kessex Peak (War in Kryta)",
+              "zhTW": "Kessex Peak (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Teral the Punisher (Kessex Peak (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Frustration",
+        "url": "https://wiki.guildwars.com/wiki/Teral_the_Punisher",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "kemil-the-inept",
+          "en": "Kemil the Inept",
+          "zhTW": "Kemil the Inept",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kemil the Inept (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Frustration",
+        "url": "https://wiki.guildwars.com/wiki/Kemil_the_Inept",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Frustration",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kenohir",
+          "en": "Kenohir",
+          "zhTW": "Kenohir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kenohir (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Frustration",
+        "url": "https://wiki.guildwars.com/wiki/Kenohir",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Frustration",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5～50 傷害。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Frustration",
+      "revision": 2717612,
+      "title": "Frustration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Frustration_%28PvP%29",
+      "revision": 2643563,
+      "title": "Frustration (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33970",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33971,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標敵人的「魔法」施展速度減慢 %str1%%% ，而且每當該目標施展「魔法」被中斷時受到 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

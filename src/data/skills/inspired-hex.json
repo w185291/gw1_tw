@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "inspired-hex",
+  "name": {
+    "en": "Inspired Hex",
+    "zhTW": "靈感降咒",
+    "translationVerified": true
+  },
+  "clientSkillId": 22,
+  "icon": "/skills/inspired-hex.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove a hex from target ally and gain 4...9...10 Energy. For 20 seconds, Inspired Hex is replaced with the hex that was removed.",
+      "zhTW": "移除目標盟友身上的某項「降咒」並且獲得 4～10 能量。同時靈感降咒將被該項「降咒」取代 20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "firstwatch-sergio",
+          "en": "Firstwatch Sergio",
+          "zhTW": "Firstwatch Sergio",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lion-s-arch",
+              "en": "Lion's Arch",
+              "zhTW": "獅子拱門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Firstwatch Sergio (Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Firstwatch_Sergio",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-deserters",
+          "en": "The Deserters",
+          "zhTW": "The Deserters",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "beacon-s-perch",
+              "en": "Beacon's Perch",
+              "zhTW": "畢肯高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Beacon%27s_Perch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Deserters (Beacon's Perch)",
+        "source": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+        "url": "https://wiki.guildwars.com/wiki/The_Deserters",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "移除目標盟友身上的某項「降咒」並且獲得 4～10 能量。同時靈感降咒將被該項「降咒」取代 20 秒。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "inspired-enchantment",
+      "en": "Inspired Enchantment",
+      "zhTW": "靈感加持",
+      "translationVerified": true
+    },
+    {
+      "id": "revealed-enchantment",
+      "en": "Revealed Enchantment",
+      "zhTW": "加持顯露",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+      "revision": 2629413,
+      "title": "Inspired Hex",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24839",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24840,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標盟友身上的某項「降咒」並且獲得 %str1% 能量。同時靈感降咒將被該項「降咒」取代 20 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

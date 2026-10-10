@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "ear-bite",
+  "name": {
+    "en": "Ear Bite",
+    "zhTW": "咬耳"
+  },
+  "clientSkillId": 2213,
+  "icon": "/skills/ear-bite.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Skill. Target touched foe takes 50...70 piercing damage and begins Bleeding for 15...25 seconds.",
+      "zhTW": "碰觸目標敵人，造成50～70的 穿刺傷害，而且流血15～25秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-throwdown-in-a-norn-town",
+          "en": "The Throwdown in a Norn Town",
+          "zhTW": "The Throwdown in a Norn Town",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Throwdown in a Norn Town (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Ear_Bite",
+        "url": "https://wiki.guildwars.com/wiki/The_Throwdown_in_a_Norn_Town",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "碰觸目標敵人，造成50～70的 穿刺傷害，而且流血15～25秒。",
+  "commonUses": [
+    "Deldrimor rank · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ear_Bite",
+      "revision": 2711214,
+      "title": "Ear Bite",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69871"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69872,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人，造成%str2%的 穿刺傷害，而且流血%str1%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

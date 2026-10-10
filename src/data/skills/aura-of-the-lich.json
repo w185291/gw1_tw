@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "aura-of-the-lich",
+  "name": {
+    "en": "Aura of the Lich",
+    "zhTW": "巫妖靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 114,
+  "icon": "/skills/aura-of-the-lich.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. All corpses within earshot are exploited and you animate a level 1...14...17 bone horror plus one for each corpse exploited in this way. For 5...37...45 seconds, your Death Magic attribute is increased by +1.",
+      "zhTW": "利用音量所及範圍內所有屍體，召喚出1～17級的恐懼骸骨，骸骨數量為屍體+1，同時5～45秒內，死亡魔法屬性+1。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "maligo-libens",
+          "en": "Maligo Libens",
+          "zhTW": "Maligo Libens",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hell-s-precipice",
+              "en": "Hell's Precipice",
+              "zhTW": "地獄懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Maligo Libens (Hell's Precipice)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
+        "url": "https://wiki.guildwars.com/wiki/Maligo_Libens",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "cerris",
+          "en": "Cerris",
+          "zhTW": "Cerris",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cerris (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
+        "url": "https://wiki.guildwars.com/wiki/Cerris",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "利用音量所及範圍內所有屍體，召喚出1～17級的恐懼骸骨，骸骨數量為屍體+1，同時5～45秒內，死亡魔法屬性+1。",
+  "commonUses": [
+    "死亡魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
+      "revision": 2731950,
+      "title": "Aura of the Lich",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25048",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25049,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "利用音量所及範圍內所有屍體，召喚出%str1%級的恐懼骸骨，骸骨數量為屍體+1，同時%str3%秒內，死亡魔法屬性+%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,538 @@
+{
+  "pvpOnly": false,
+  "id": "ether-feast",
+  "name": {
+    "en": "Ether Feast",
+    "zhTW": "精神饗宴",
+    "translationVerified": true
+  },
+  "clientSkillId": 40,
+  "icon": "/skills/ether-feast.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 8,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe loses 3 Energy. You are healed 20...56...65 for each point of Energy lost.",
+      "zhTW": "使目標敵人失去 3 能量。該目標每失去 1 能量，你獲得 20～65 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "mesmer-test",
+          "en": "Mesmer Test",
+          "zhTW": "Mesmer Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lakeside-county",
+              "en": "Lakeside County",
+              "zhTW": "湖畔郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lakeside_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mesmer Test (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Mesmer_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "a-mesmer-s-burden",
+          "en": "A Mesmer's Burden",
+          "zhTW": "A Mesmer's Burden",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "A Mesmer's Burden (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/A_Mesmer%27s_Burden",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "mesmerizing-the-enemy",
+          "en": "Mesmerizing the Enemy",
+          "zhTW": "Mesmerizing the Enemy",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sardelac-sanitarium",
+              "en": "Sardelac Sanitarium",
+              "zhTW": "薩德拉克療養院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sardelac_Sanitarium"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mesmerizing the Enemy (Sardelac Sanitarium)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Mesmerizing_the_Enemy",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "mantid-hatchlings",
+          "en": "Mantid Hatchlings",
+          "zhTW": "Mantid Hatchlings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "monastery-overlook",
+              "en": "Monastery Overlook",
+              "zhTW": "寺廟高處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mantid Hatchlings (Monastery Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Mantid_Hatchlings",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-mei-ling",
+          "en": "Locate Mei Ling",
+          "zhTW": "Locate Mei Ling",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunqua-vale",
+              "en": "Sunqua Vale",
+              "zhTW": "桑泉谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate Mei Ling (Sunqua Vale)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Mei_Ling",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "rally-the-recruits-tutorial",
+          "en": "Rally the Recruits (Tutorial)",
+          "zhTW": "Rally the Recruits (Tutorial)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "take-the-shortcut-skip-tutorial",
+              "en": "Take the Shortcut (Skip Tutorial)",
+              "zhTW": "Take the Shortcut (Skip Tutorial)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Take_the_Shortcut_(Skip_Tutorial)"
+          },
+          {
+            "name": {
+              "id": "island-of-shehkah",
+              "en": "Island of Shehkah",
+              "zhTW": "沙卡島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Island_of_Shehkah"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rally the Recruits/Take the Shortcut (Island of Shehkah)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Rally_the_Recruits_(Tutorial)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "ghost-of-althea",
+          "en": "Ghost of Althea",
+          "zhTW": "Ghost of Althea",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking the Ghost of Althea",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Ghost_of_Althea",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "norgu",
+          "en": "Norgu",
+          "zhTW": "諾古",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Norgu",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Norgu",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gwen",
+          "en": "Gwen",
+          "zhTW": "關",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking 關",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Gwen",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "eulenias",
+          "en": "Eulenias",
+          "zhTW": "Eulenias",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destiny-s-gorge",
+              "en": "Destiny's Gorge",
+              "zhTW": "命運峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eulenias (Destiny's Gorge)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Eulenias",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人失去 3 能量。該目標每失去 1 能量，你獲得 20～65 體力。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ether_Feast",
+      "revision": 2726682,
+      "title": "Ether Feast",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24875",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24876,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人失去 3 能量。該目標每失去 1 能量，你獲得 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

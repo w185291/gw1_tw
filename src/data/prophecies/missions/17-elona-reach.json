@@ -20,7 +20,7 @@
     "飛昇試煉",
     "可自由排序"
   ],
-  "summary": "收齊三塊視像水晶，完成限時運送。",
+  "summary": "以水晶喚醒三名 Ritual Priests；詳見下方分段路線與主線完成條件。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -38,8 +38,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "伊洛那流域據點",
+    "description": "從 Diviner's Ascent 進入 Elona Reach 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Elona Reach 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -52,18 +52,47 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "以水晶喚醒三名 Ritual Priests",
+    "summary": "以水晶喚醒三名 Ritual Priests",
+    "trigger": "任一 Crystal Shard 都可喚醒任一墓地，不需要指定配對。",
+    "steps": [
+      "任一 Crystal Shard 都可喚醒任一墓地，不需要指定配對。",
+      "依圖先處理起點東側，再處理巨石後與西側水晶北方的墓地。",
+      "三名鬼魂會自行走路及戰鬥，其生存不影響 Bonus；交齊三塊水晶前須已喚醒三名。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "三名鬼魂會自行走路及戰鬥，其生存不影響 Bonus；交齊三塊水晶前須已喚醒三名。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "拿第一塊水晶先做第一座墓",
+      "content": "起點向 Ghostly Priest 取得 Crystal Shard。先帶到起點東側、兩隻 Dune Burrowers 後的墓地喚醒第一位 Ritual Priest，再往西北找 Ghostly Hero。"
+    },
+    {
+      "title": "避開地雷及巡邏",
+      "content": "山谷有 Minotaur 大隊與 Splinter Mines。地雷週期造成殘廢、流血，觸摸核心可移除，但當次已啟動的效果仍可能發作；撿起後立刻離開範圍。"
+    },
+    {
+      "title": "交第一塊開始三十分鐘",
+      "content": "向 Ghostly Hero 交水晶後過場開始 30 分鐘倒數。往南方兩道門時優先走較南側的一道，較容易避開兩支巡邏的交會。"
+    },
+    {
+      "title": "取東側水晶並喚醒第二位",
+      "content": "過橋逐群清怪，穿越兩名頭目所在區域取得東側水晶。先持水晶到大岩石後的 Ritual Priest 墓地，確認鬼魂被喚醒，再決定送回或由第二名真人攜帶繼續前進。"
+    },
+    {
+      "title": "取西側水晶與第三座墓",
+      "content": "走兩處水晶之間的隱藏小路往西，到隨機頭目後拿最後水晶。撿起會生成兩組 Forgotten，先準備接戰。第三座墓位於西側水晶北方、庭院西北，持任一水晶靠近即可喚醒。"
+    },
+    {
+      "title": "確認三鬼魂再交最後一塊",
+      "content": "三名 Ritual Priests 只需被喚醒，不要求護送存活；但三塊水晶一旦交齊，任務立即結束。因此先確認 Bonus，再於倒數內把兩塊剩餘水晶送回 Ghostly Hero。"
+    }
+  ],
+  "routeSummary": "拿第一塊水晶先做第一座墓 → 避開地雷及巡邏 → 交第一塊開始三十分鐘 → 取東側水晶並喚醒第二位 → 取西側水晶與第三座墓 → 確認三鬼魂再交最後一塊",
   "mapImage": "/maps/Elona_Reach_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -80,13 +109,207 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Custodian Dellus",
+        "zhTW": "Custodian Dellus（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Endure Pain",
+        "Hamstring",
+        "Thrill of Victory",
+        "Warrior's Endurance"
+      ],
+      "eliteSkills": [
+        "Warrior's Endurance"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Custodian_Dellus",
+      "revision": 2362586,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Custodian Jenus",
+        "zhTW": "Custodian Jenus（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Concussion Shot",
+        "Marksman's Wager",
+        "Penetrating Attack",
+        "Throw Dirt",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Custodian_Jenus",
+      "revision": 2540943,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Custodian_Jenus"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Wissper Inssani",
+        "zhTW": "Wissper Inssani（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Aegis",
+        "Orison of Healing",
+        "Vigorous Spirit",
+        "Word of Healing"
+      ],
+      "eliteSkills": [
+        "Word of Healing"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Wissper_Inssani",
+      "revision": 2638669,
+      "dangerousSkills": [
+        {
+          "name": "Word of Healing",
+          "counter": "留打斷給這個低血量強補，避免分散輸出。",
+          "source": "https://wiki.guildwars.com/wiki/Wissper_Inssani"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Uussh Visshta",
+        "zhTW": "Uussh Visshta（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Consume Corpse",
+        "Deathly Chill",
+        "Life Siphon",
+        "Order of the Vampire"
+      ],
+      "eliteSkills": [
+        "Order of the Vampire"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Uussh_Visshta",
+      "revision": 2638667,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Uussh_Visshta"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tiss Danssir",
+        "zhTW": "Tiss Danssir（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Chaos Storm",
+        "Energy Burn",
+        "Ether Feast",
+        "Ethereal Burden",
+        "Mantra of Recovery"
+      ],
+      "eliteSkills": [
+        "Mantra of Recovery"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tiss_Danssir",
+      "revision": 2299280,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Vassa Ssiss",
+        "zhTW": "Vassa Ssiss（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Earthquake",
+        "Ether Renewal",
+        "Kinetic Armor",
+        "Stoning"
+      ],
+      "eliteSkills": [
+        "Ether Renewal"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Vassa_Ssiss",
+      "revision": 2321072,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶解殘廢與治療，對付地雷及 Hamstring；搬運者可準備加速。",
+    "準備反施法控制 Forgotten Sages，單人帶英雄時接受逐顆往返，不必硬趕時間。"
+  ],
+  "tips": [
+    "完成後到 Augury Rock（占卜之石）據點。三試煉全部完成後，找 Great Ritual Priest Zahmut 開始單人飛昇。"
+  ],
+  "warnings": [
+    "最後一塊交付會立刻結束，不能之後才補第三座墓。",
+    "Ghostly Hero 仍可能被靠近的敵人殺死；不要將追兵帶回交付點。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "仍為交第一塊後 30 分鐘；有足夠時間逐群拉怪。更應先清巡邏再撿西側水晶，避免與新增兩隊同時交戰。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -106,13 +329,86 @@
       "revision": 2701539,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Custodian Dellus",
+      "url": "https://wiki.guildwars.com/wiki/Custodian_Dellus",
+      "revision": 2362586,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Custodian Jenus",
+      "url": "https://wiki.guildwars.com/wiki/Custodian_Jenus",
+      "revision": 2540943,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Wissper Inssani",
+      "url": "https://wiki.guildwars.com/wiki/Wissper_Inssani",
+      "revision": 2638669,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Uussh Visshta",
+      "url": "https://wiki.guildwars.com/wiki/Uussh_Visshta",
+      "revision": 2638667,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tiss Danssir",
+      "url": "https://wiki.guildwars.com/wiki/Tiss_Danssir",
+      "revision": 2299280,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Vassa Ssiss",
+      "url": "https://wiki.guildwars.com/wiki/Vassa_Ssiss",
+      "revision": 2321072,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "thirsty-river",
   "nextMission": "augury-rock",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10446"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後到 Augury Rock（占卜之石）據點。三試煉全部完成後，找 Great Ritual Priest Zahmut 開始單人飛昇。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10446
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": []
 }

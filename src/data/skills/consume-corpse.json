@@ -1,0 +1,229 @@
+{
+  "pvpOnly": false,
+  "id": "consume-corpse",
+  "name": {
+    "en": "Consume Corpse",
+    "zhTW": "屍體吸收",
+    "translationVerified": true
+  },
+  "clientSkillId": 98,
+  "icon": "/skills/consume-corpse.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Spell. Exploit a random corpse. You teleport to that corpse's location and gain 25...85...100 Health and 5...17...20 Energy.",
+      "zhTW": "隨機傳送自己到一具屍體旁邊，同時你獲得 25～100 體力及 5～20 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "steig",
+          "en": "Steig",
+          "zhTW": "Steig",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "camp-rankor",
+              "en": "Camp Rankor",
+              "zhTW": "藍口營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Camp_Rankor"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Steig (Camp Rankor)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+        "url": "https://wiki.guildwars.com/wiki/Steig",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "byssha-hisst",
+          "en": "Byssha Hisst",
+          "zhTW": "Byssha Hisst",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Byssha Hisst (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+        "url": "https://wiki.guildwars.com/wiki/Byssha_Hisst",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "hessper-sasso",
+          "en": "Hessper Sasso",
+          "zhTW": "Hessper Sasso",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hessper Sasso (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+        "url": "https://wiki.guildwars.com/wiki/Hessper_Sasso",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "uussh-visshta",
+          "en": "Uussh Visshta",
+          "zhTW": "Uussh Visshta",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Uussh Visshta (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+        "url": "https://wiki.guildwars.com/wiki/Uussh_Visshta",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "隨機傳送自己到一具屍體旁邊，同時你獲得 25～100 體力及 5～20 能量。",
+  "commonUses": [
+    "死亡魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+      "revision": 2731040,
+      "title": "Consume Corpse",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25016",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25017,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "隨機傳送自己到一具屍體旁邊，同時你獲得 %str1% 體力及 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

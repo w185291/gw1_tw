@@ -1,0 +1,249 @@
+{
+  "pvpOnly": false,
+  "id": "oath-shot",
+  "name": {
+    "en": "Oath Shot",
+    "zhTW": "誓言之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 405,
+  "icon": "/skills/oath-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. If Oath Shot hits, all of your skills except Oath Shot are recharged. If it misses, all of your skills are disabled for 10...5...4 seconds. (50% miss chance with Expertise 7 or less.)",
+      "zhTW": "誓言之箭命中時，除了此技能外的所有技能回復。若此技能攻擊失誤，則你的所有技能在 10～4 秒內無法使用。（專精 7 以下有 50% 技能失誤機率）"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jade-bow-boss",
+          "en": "Jade Bow (boss)",
+          "zhTW": "Jade Bow (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jade Bow (boss) (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Oath_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Jade_Bow_(boss)",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "hilios-the-dutiful",
+          "en": "Hilios the Dutiful",
+          "zhTW": "Hilios the Dutiful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hilios the Dutiful (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Oath_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Hilios_the_Dutiful",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "perfected-cloak",
+          "en": "Perfected Cloak",
+          "zhTW": "Perfected Cloak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Perfected Cloak (Thunderhead Keep or The Battle for Lion's Arch (explorable area) during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Oath_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Perfected_Cloak",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "cairn-the-relentless",
+          "en": "Cairn the Relentless",
+          "zhTW": "Cairn the Relentless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Relentless (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Oath_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Relentless",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "cairn-the-troubling",
+          "en": "Cairn the Troubling",
+          "zhTW": "Cairn the Troubling",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Troubling (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Oath_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Troubling",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "誓言之箭命中時，除了此技能外的所有技能回復。若此技能攻擊失誤，則你的所有技能在 10～4 秒內無法使用。（專精 7 以下有 50% 技能失誤機率）",
+  "commonUses": [
+    "Expertise · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Oath_Shot",
+      "revision": 2712716,
+      "title": "Oath Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26168",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26169,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "誓言之箭命中時，除了此技能外的所有技能回復。若此技能攻擊失誤，則你的所有技能在 %str1% 秒內無法使用。（專精 7 以下有 50%% 技能失誤機率）"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

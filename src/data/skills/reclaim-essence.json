@@ -1,0 +1,136 @@
+{
+  "id": "reclaim-essence",
+  "name": {
+    "en": "Reclaim Essence",
+    "zhTW": "本質回收",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1482,
+  "icon": "/skills/reclaim-essence.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. All of your Spirits die. You gain 5...17...20 Energy and all of your Binding Rituals are recharged if a Spirit died in this way.",
+      "zhTW": "所有你控制的靈死去，若有一個靈死掉，你獲得5～20能量，同時所有縛靈儀式回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "nehjab-the-parched",
+          "en": "Nehjab the Parched",
+          "zhTW": "Nehjab the Parched",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "poisoned-outcrops",
+              "en": "Poisoned Outcrops",
+              "zhTW": "劇毒地表",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Poisoned_Outcrops"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Nehjab the Parched (Poisoned Outcrops)",
+        "source": "https://wiki.guildwars.com/wiki/Reclaim_Essence",
+        "url": "https://wiki.guildwars.com/wiki/Nehjab_the_Parched",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "所有你控制的靈死去，若有一個靈死掉，你獲得5～20能量，同時所有縛靈儀式回復。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Reclaim_Essence",
+      "revision": 2640704,
+      "title": "Reclaim Essence",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/37040"
+  ],
+  "descriptionEvidence": {
+    "stringId": 37041,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "所有你控制的靈死去，若有一個靈死掉，你獲得%str1%能量，同時所有縛靈儀式回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

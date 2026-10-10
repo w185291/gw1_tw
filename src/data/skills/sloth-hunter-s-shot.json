@@ -1,0 +1,207 @@
+{
+  "pvpOnly": false,
+  "id": "sloth-hunter-s-shot",
+  "name": {
+    "en": "Sloth Hunter's Shot",
+    "zhTW": "懶散獵人之箭"
+  },
+  "clientSkillId": 2069,
+  "icon": "/skills/sloth-hunter-s-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If this attack hits, target foe takes +10...22...25 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +10...30...35 damage.",
+      "zhTW": "此攻擊命中時，目標敵人將受到 +10～25 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +10～35 額外傷害。"
+    },
+    "pvp": {
+      "en": "Bow Attack. If this attack hits, target foe takes +5...13...15 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +5...17...20 damage.",
+      "zhTW": "此攻擊命中時，目標敵人將受到 +5～15 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +5～20 額外傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Sloth Hunter's Shot (PvP)",
+      "description": {
+        "en": "Bow Attack. If this attack hits, target foe takes +5...13...15 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +5...17...20 damage.",
+        "zhTW": "此攻擊命中時，目標敵人將受到 +5～15 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +5～20 額外傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot_%28PvP%29",
+        "revision": 2738475,
+        "title": "Sloth Hunter's Shot (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2925
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "此攻擊命中時，目標敵人將受到 +10～25 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +10～35 額外傷害。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot",
+      "revision": 2733281,
+      "title": "Sloth Hunter's Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot_%28PvP%29",
+      "revision": 2738475,
+      "title": "Sloth Hunter's Shot (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/61631"
+  ],
+  "descriptionEvidence": {
+    "stringId": 61632,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，目標敵人將受到 +%str1% 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +%str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

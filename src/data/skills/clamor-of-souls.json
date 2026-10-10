@@ -1,0 +1,167 @@
+{
+  "id": "clamor-of-souls",
+  "name": {
+    "en": "Clamor of Souls",
+    "zhTW": "喧鬧之靈",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1215,
+  "icon": "/skills/clamor-of-souls.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe and all nearby foes take 10...54...65 lightning damage. If you are within earshot of a spirit or holding a bundle item, you gain 10 Energy.",
+      "zhTW": "對目標及其附近敵人造成10～65閃電傷害，若你抱著一項物品或者音量範圍內有靈存在，你獲得10能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-pain-eater-boss",
+          "en": "The Pain Eater (boss)",
+          "zhTW": "The Pain Eater (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drazach-thicket",
+              "en": "Drazach Thicket",
+              "zhTW": "德瑞札灌木林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Pain Eater (Drazach Thicket)",
+        "source": "https://wiki.guildwars.com/wiki/Clamor_of_Souls",
+        "url": "https://wiki.guildwars.com/wiki/The_Pain_Eater_(boss)",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "min-the-dragon-s-claw",
+          "en": "Min the Dragon's Claw",
+          "zhTW": "Min the Dragon's Claw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "redemption-for-the-lost",
+              "en": "Redemption for the Lost",
+              "zhTW": "Redemption for the Lost",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Redemption_for_the_Lost"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Min the Dragon's Claw (Sunjiang District (Winds of Change), only during Redemption for the Lost)",
+        "source": "https://wiki.guildwars.com/wiki/Clamor_of_Souls",
+        "url": "https://wiki.guildwars.com/wiki/Min_the_Dragon%27s_Claw",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "對目標及其附近敵人造成10～65閃電傷害，若你抱著一項物品或者音量範圍內有靈存在，你獲得10能量。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Clamor_of_Souls",
+      "revision": 2697474,
+      "title": "Clamor of Souls",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27251",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27252,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標及其附近敵人造成%str1%閃電傷害，若你抱著一項物品或者音量範圍內有靈存在，你獲得%str2%能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

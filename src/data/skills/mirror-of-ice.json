@@ -1,0 +1,137 @@
+{
+  "pvpOnly": false,
+  "id": "mirror-of-ice",
+  "name": {
+    "en": "Mirror of Ice",
+    "zhTW": "冰鏡",
+    "translationVerified": true
+  },
+  "clientSkillId": 1098,
+  "icon": "/skills/mirror-of-ice.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Shatter a Mirror of Ice. All foes near you and target ally take 15...59...70 cold damage and move 66% slower for 2...5...6 seconds. If you strike a foe hexed with Water Magic, Mirror of Ice recharges 50% faster.",
+      "zhTW": "持續 2～6 秒，每當你使用水系降咒魔法，你對目標敵人造成 15～70 額外的冰凍傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "elemental-s-construct",
+          "en": "Elemental's Construct",
+          "zhTW": "Elemental's Construct",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district",
+              "en": "Sunjiang District",
+              "zhTW": "孫江行政區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District"
+          },
+          {
+            "name": {
+              "id": "sunjiang-district-explorable-area",
+              "en": "Sunjiang District (explorable area)",
+              "zhTW": "Sunjiang District (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Elemental's Construct (Sunjiang District mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Mirror_of_Ice",
+        "url": "https://wiki.guildwars.com/wiki/Elemental%27s_Construct",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 2～6 秒，每當你使用水系降咒魔法，你對目標敵人造成 15～70 額外的冰凍傷害。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mirror_of_Ice",
+      "revision": 2697537,
+      "title": "Mirror of Ice",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26724",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26725,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你使用水系降咒魔法，你對目標敵人造成 %str1% 額外的冰凍傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

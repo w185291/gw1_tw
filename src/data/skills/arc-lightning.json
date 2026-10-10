@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "arc-lightning",
+  "name": {
+    "en": "Arc Lightning",
+    "zhTW": "弧光閃電",
+    "translationVerified": true
+  },
+  "clientSkillId": 842,
+  "icon": "/skills/arc-lightning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 5...33...40 lightning damage. If you are Overcast, two foes near your target are struck for 15...71...85 lightning damage. Damage from Arc Lightning has 25% armor penetration.",
+      "zhTW": "對目標造成 5～40 閃電傷害。若目標身上有水系魔法降咒，對其附近一名敵人造成 15～85 閃電傷害，此技能有 25% 防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Arc_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "gloop",
+          "en": "Gloop",
+          "zhTW": "Gloop",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gloop (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Arc_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Gloop",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "對目標造成 5～40 閃電傷害。若目標身上有水系魔法降咒，對其附近一名敵人造成 15～85 閃電傷害，此技能有 25% 防禦穿透效果。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Arc_Lightning",
+      "revision": 2686491,
+      "title": "Arc Lightning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26664",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26665,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標造成 %str1% 閃電傷害。若目標身上有水系魔法降咒，對其附近一名敵人造成 %str2% 閃電傷害，此技能有 25%% 防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

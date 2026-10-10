@@ -1,0 +1,599 @@
+{
+  "pvpOnly": false,
+  "id": "frenzy",
+  "name": {
+    "en": "Frenzy",
+    "zhTW": "狂暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 346,
+  "icon": "/skills/frenzy.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 8 seconds, you attack 33% faster but take 175...135...125%[sic]damage.",
+      "zhTW": "持續 8 秒，攻擊速度提高 33%，但受到的傷害為 175～125。"
+    },
+    "pvp": {
+      "en": "Stance. For 8 seconds, you attack 33% faster but take 200...160...150% damage.",
+      "zhTW": "持續 8 秒，攻擊速度提高 33%，但受到的傷害為 200～150。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Frenzy (PvP)",
+      "description": {
+        "en": "Stance. For 8 seconds, you attack 33% faster but take 200...160...150% damage.",
+        "zhTW": "持續 8 秒，攻擊速度提高 33%，但受到的傷害為 200～150。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 4.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Frenzy_%28PvP%29",
+        "revision": 2738640,
+        "title": "Frenzy (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3443
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodash-bazaar",
+              "en": "Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "warrior-test",
+          "en": "Warrior Test",
+          "zhTW": "Warrior Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lakeside-county",
+              "en": "Lakeside County",
+              "zhTW": "湖畔郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lakeside_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Warrior Test (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Warrior_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "warrior-s-challenge",
+          "en": "Warrior's Challenge",
+          "zhTW": "Warrior's Challenge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-barradin-estate",
+              "en": "The Barradin Estate",
+              "zhTW": "巴拉丁領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Barradin_Estate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Warrior's Challenge (The Barradin Estate - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Warrior%27s_Challenge",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "the-crop-thieves",
+          "en": "The Crop Thieves",
+          "zhTW": "The Crop Thieves",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "panjiang-peninsula",
+              "en": "Panjiang Peninsula",
+              "zhTW": "班讓半島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Panjiang_Peninsula"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Crop Thieves (Panjiang Peninsula)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/The_Crop_Thieves",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "chor-the-bladed",
+          "en": "Chor the Bladed",
+          "zhTW": "Chor the Bladed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chor the Bladed (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Chor_the_Bladed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ranshek-carrion-eater",
+          "en": "Ranshek, Carrion Eater",
+          "zhTW": "Ranshek, Carrion Eater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "moddok-crevice",
+              "en": "Moddok Crevice",
+              "zhTW": "摩多克裂縫",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ranshek, Carrion Eater (Moddok Crevice)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Ranshek,_Carrion_Eater",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tenagg-flametroller",
+          "en": "Tenagg Flametroller",
+          "zhTW": "Tenagg Flametroller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tenagg Flametroller (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Tenagg_Flametroller",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "charr-prison-guard-boss",
+          "en": "Charr Prison Guard (boss)",
+          "zhTW": "Charr Prison Guard (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "warband-of-brothers",
+              "en": "Warband of Brothers",
+              "zhTW": "戰爭軍團之友",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Prison Guard (Warband of Brothers)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Prison_Guard_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gordam-griefgiver",
+          "en": "Gordam Griefgiver",
+          "zhTW": "Gordam Griefgiver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gordam Griefgiver (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Gordam_Griefgiver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "agastos-the-brave",
+          "en": "Agastos the Brave",
+          "zhTW": "Agastos the Brave",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destiny-s-gorge",
+              "en": "Destiny's Gorge",
+              "zhTW": "命運峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Agastos the Brave (Destiny's Gorge)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Agastos_the_Brave",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Frenzy",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8 秒，攻擊速度提高 33%，但受到的傷害為 175～125。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Frenzy",
+      "revision": 2738918,
+      "title": "Frenzy",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Frenzy_%28PvP%29",
+      "revision": 2738640,
+      "title": "Frenzy (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25905",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25906,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For 8 seconds, you attack 33%% faster but take %str2%%%damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

@@ -1,0 +1,297 @@
+{
+  "pvpOnly": false,
+  "id": "shockwave",
+  "name": {
+    "en": "Shockwave",
+    "zhTW": "衝擊波",
+    "translationVerified": true
+  },
+  "clientSkillId": 937,
+  "icon": "/skills/shockwave.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. All foes in the area take 15...51...60 earth damage and are Weakened for 1...8...10 second[s]. Nearby foes also take +15...51...60 earth damage and have Cracked Armor for 1...8...10 second[s]. Adjacent foes suffer the previous effects, take +15...51...60 earth damage, and are Blinded for 1...8...10 second[s].",
+      "zhTW": "使「鄰近」的敵人受到 15～60 土系傷害，「附近」的敵人受到 15～60 土系傷害，而「範圍內」的敵人受到 15～60 土系傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "zarnas-stonewrath",
+          "en": "Zarnas Stonewrath",
+          "zhTW": "Zarnas Stonewrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone-explorable-area",
+              "en": "Arborstone (explorable area)",
+              "zhTW": "Arborstone (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zarnas Stonewrath (Arborstone (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Zarnas_Stonewrath",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "azukhan-stonewrath",
+          "en": "Azukhan Stonewrath",
+          "zhTW": "Azukhan Stonewrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "altrumm-ruins",
+              "en": "Altrumm Ruins",
+              "zhTW": "奧楚蘭廢墟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Altrumm_Ruins"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Azukhan Stonewrath (Altrumm Ruins)",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Azukhan_Stonewrath",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "arbor-earthcall",
+          "en": "Arbor Earthcall",
+          "zhTW": "Arbor Earthcall",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Arbor Earthcall (Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Arbor_Earthcall",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "bahnba-shockfoot",
+          "en": "Bahnba Shockfoot",
+          "zhTW": "Bahnba Shockfoot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bahnba Shockfoot (Gyala Hatchery (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Bahnba_Shockfoot",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "giovanni",
+          "en": "Giovanni",
+          "zhTW": "Giovanni",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Giovanni (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Giovanni",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ssissth-the-leviathan",
+          "en": "Ssissth the Leviathan",
+          "zhTW": "Ssissth the Leviathan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "prenuptial-disagreement",
+              "en": "Prenuptial Disagreement",
+              "zhTW": "Prenuptial Disagreement",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prenuptial_Disagreement"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ssissth the Leviathan (Jaga Moraine, before completing Prenuptial Disagreement)",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Ssissth_the_Leviathan",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "joffs-the-mitigator",
+          "en": "Joffs the Mitigator",
+          "zhTW": "Joffs the Mitigator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Joffs the Mitigator (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Shockwave",
+        "url": "https://wiki.guildwars.com/wiki/Joffs_the_Mitigator",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "使「鄰近」的敵人受到 15～60 土系傷害，「附近」的敵人受到 15～60 土系傷害，而「範圍內」的敵人受到 15～60 土系傷害。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shockwave",
+      "revision": 2733053,
+      "title": "Shockwave",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26678",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26679,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使「鄰近」的敵人受到 %str1% 土系傷害，「附近」的敵人受到 %str1% 土系傷害，而「範圍內」的敵人受到 %str1% 土系傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-dust-aura",
+  "name": {
+    "en": "Ebon Dust Aura",
+    "zhTW": "烏塵靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 1760,
+  "icon": "/skills/ebon-dust-aura.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-prayers",
+    "en": "Earth Prayers",
+    "zhTW": "地之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Flash Enchantment Spell. When you cast this enchantment, all nearby foes are Blinded for 1...6...7 second[s]. For 30 seconds, if you are wielding an earth weapon, your melee attacks deal +3...25...30 earth damage. When this enchantment ends, you are cured of Blindness.",
+      "zhTW": "使用此加持時，造成附近所有敵人盲目 1～7 秒。持續 30 秒，若是你拿著土系武器，則近身攻擊造成額外 3～30 土系傷害。此加持結束時，消除自身盲目病症。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shezel-slowreaper",
+          "en": "Shezel Slowreaper",
+          "zhTW": "Shezel Slowreaper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mirror-of-lyss",
+              "en": "The Mirror of Lyss",
+              "zhTW": "麗之鏡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mirror_of_Lyss"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shezel Slowreaper (The Mirror of Lyss)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Shezel_Slowreaper",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "brynn-earthporter",
+          "en": "Brynn Earthporter",
+          "zhTW": "Brynn Earthporter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Brynn Earthporter (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Brynn_Earthporter",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "使用此加持時，造成附近所有敵人盲目 1～7 秒。持續 30 秒，若是你拿著土系武器，則近身攻擊造成額外 3～30 土系傷害。此加持結束時，消除自身盲目病症。",
+  "commonUses": [
+    "地之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
+      "revision": 2733271,
+      "title": "Ebon Dust Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44081"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44082,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使用此加持時，造成附近所有敵人盲目 %str2% 秒。持續 %str3% 秒，若是你拿著土系武器，則近身攻擊造成額外 %str1% 土系傷害。此加持結束時，消除自身盲目病症。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

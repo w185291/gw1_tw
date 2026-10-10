@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -87,19 +87,23 @@
   },
   "walkthrough": [
     {
-      "title": "跟隨教學開門",
-      "content": "起點只有一條路。跟著 Togo 逐段清除守衛；在小地圖示範時，至少一人走到他指定的樹旁，才會繼續開門。"
+      "title": "起點與教學開門",
+      "content": "帶治療與復活進四人隊。起點只有一條路，跟 Master Togo 和 Yijo 清除沿路守衛，不能讓跟隨 NPC 死亡。"
     },
     {
-      "title": "穿越獸苑",
-      "content": "擊敗 Afflicted Horror 後路線變寬，仍跟著 Togo 前進。分開拉巡邏與動物群，不必把周圍所有動物都引過來。Sickened Scribes 的範圍傷害要避開。"
+      "title": "完成地圖教學",
+      "content": "Togo 示範小地圖時，至少一名玩家走到他指定的樹旁，等對話結束才會繼續開門；全隊留在原地會卡住流程。"
     },
     {
-      "title": "擊敗大臣",
-      "content": "抵達宅邸觸發轉變，保護跟隨 NPC，集中打 Diseased Minister；擊殺時的 Afflicted Soul Explosion 會造成範圍傷害，先補滿隊伍。"
+      "title": "通過獸苑",
+      "content": "擊敗 Afflicted Horror 後跟 Togo 進入較寬區域。巡邏與動物分批拉，不必把旁邊所有動物都引來；離開 Sickened Scribe 的範圍傷害。"
+    },
+    {
+      "title": "宅邸與大臣",
+      "content": "抵達宅邸觸發變異事件，保護 Togo、Yijo 並集中擊殺 Diseased Minister。死亡時的 Afflicted Soul Explosion 有範圍傷害，先補滿血並讓後排拉開距離。"
     }
   ],
-  "routeSummary": "本章起點／外來角色入口 → 周大臣莊園 → 禎臺郡",
+  "routeSummary": "本章起點／外來角色入口 → 周大臣莊園 → 禎台郡",
   "mapImage": "/maps/factions-Minister_Cho's_Estate_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -136,29 +140,52 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Afflicted Horror",
+        "zhTW": "Afflicted Horror（繁中名稱待確認）",
         "en": "Afflicted Horror"
       },
       "profession": "戰士",
-      "importantSkills": [],
+      "importantSkills": [
+        "Frenzy",
+        "Hammer Bash",
+        "Renewing Smash",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate#Bosses",
-      "revision": 2709092
+      "source": "https://wiki.guildwars.com/wiki/Afflicted_Horror",
+      "revision": 2601213
     },
     {
       "name": {
-        "zhTW": "Diseased Minister",
+        "zhTW": "Diseased Minister（繁中名稱待確認）",
         "en": "Diseased Minister"
       },
-      "profession": "死靈法師",
-      "importantSkills": [],
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Animate Vampiric Horror",
+        "Bitter Chill",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate#Bosses",
-      "revision": 2709092
+      "source": "https://wiki.guildwars.com/wiki/Diseased_Minister",
+      "revision": 2606151
     }
   ],
   "recommendedTeam": [
@@ -268,6 +295,20 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Afflicted Horror",
+      "url": "https://wiki.guildwars.com/wiki/Afflicted_Horror",
+      "revision": 2601213,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Diseased Minister",
+      "url": "https://wiki.guildwars.com/wiki/Diseased_Minister",
+      "revision": 2606151,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -318,7 +359,7 @@
       },
       "giver": "Soar Honorclaw",
       "location": "Kinya Province",
-      "directions": "到Panjiang Peninsula的Kaitan Village，擊敗襲村守衛，回報Sister Tai。",
+      "directions": "到Panjiang Peninsula的Kaitan Village，擊敗襲村守衛，回報泰修女。",
       "url": "https://wiki.guildwars.com/wiki/The_Threat_Grows",
       "revision": 2710189,
       "translationStatus": "needs-review"
@@ -328,7 +369,7 @@
         "zhTW": "Journey to the Master",
         "en": "Journey to the Master"
       },
-      "giver": "Sister Tai",
+      "giver": "泰修女",
       "location": "Panjiang Peninsula",
       "directions": "到Linnok Courtyard會合Togo。",
       "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Master",
@@ -354,7 +395,7 @@
       },
       "giver": "Brother Pe Wan",
       "location": "Seitung Harbor",
-      "directions": "在Jaya Bluffs找Zho、Talon、Panaku、Lo Sha，清修道院瘟疫敵人，回報Zho。",
+      "directions": "在Jaya Bluffs找若、Talon、派鳴、羅夏，清修道院瘟疫敵人，回報若。",
       "url": "https://wiki.guildwars.com/wiki/Looking_For_Trouble",
       "revision": 2710199,
       "translationStatus": "needs-review"
@@ -364,9 +405,9 @@
         "zhTW": "To the Rescue",
         "en": "To the Rescue"
       },
-      "giver": "Zho",
+      "giver": "若",
       "location": "Jaya Bluffs",
-      "directions": "在Haiju Lagoon的Linkei Township會合Su、Sister Tai、Kai Ying與Professor Gai，抵擋兩側感染者；Su活著才能領獎並接To Zen Daijun，若死亡須重新進區。",
+      "directions": "在Haiju Lagoon的Linkei Township會合蘇、泰修女、凱英與蓋師範，抵擋兩側感染者；蘇活著才能領獎並接To Zen Daijun，若死亡須重新進區。",
       "url": "https://wiki.guildwars.com/wiki/To_the_Rescue_%28Factions_quest%29",
       "revision": 2712205,
       "translationStatus": "needs-review"
@@ -376,9 +417,9 @@
         "zhTW": "To Zen Daijun",
         "en": "To Zen Daijun"
       },
-      "giver": "Su",
+      "giver": "蘇",
       "location": "Haiju Lagoon",
-      "directions": "護送Su、Gai、Tai、Kai Ying到禎臺郡門口，找Togo與Hanjui。",
+      "directions": "護送蘇、Gai、Tai、凱英到禎台郡門口，找Togo與Hanjui。",
       "url": "https://wiki.guildwars.com/wiki/To_Zen_Daijun",
       "revision": 2710208,
       "translationStatus": "needs-review"
@@ -406,5 +447,27 @@
       "expert": "20–25分鐘",
       "master": "少於20分鐘"
     }
-  }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22180",
+    "game-client://2026-10-09/string/22194",
+    "game-client://2026-10-09/string/22195",
+    "game-client://2026-10-09/string/38876"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22180,
+      22194,
+      22195,
+      38876
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "storyStartVerified": true
 }

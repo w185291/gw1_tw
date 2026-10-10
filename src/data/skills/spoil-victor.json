@@ -1,0 +1,182 @@
+{
+  "pvpOnly": false,
+  "id": "spoil-victor",
+  "name": {
+    "en": "Spoil Victor",
+    "zhTW": "勝者的掠奪",
+    "translationVerified": true
+  },
+  "clientSkillId": 1066,
+  "icon": "/skills/spoil-victor.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 3...13...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health, that foe loses 25...85...100 Health.",
+      "zhTW": "持續 3～15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 25～100 體力。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 3...13...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health that foe loses 15...63...75 Health.",
+      "zhTW": "持續 3～15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 15～75 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Spoil Victor (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 3...13...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health that foe loses 15...63...75 Health.",
+        "zhTW": "持續 3～15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 15～75 體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Spoil_Victor_%28PvP%29",
+        "revision": 2630088,
+        "title": "Spoil Victor (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3233
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "foalcrest-darkwish",
+          "en": "Foalcrest Darkwish",
+          "zhTW": "Foalcrest Darkwish",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Foalcrest Darkwish (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Spoil_Victor",
+        "url": "https://wiki.guildwars.com/wiki/Foalcrest_Darkwish",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "sourbeak-rotshell",
+          "en": "Sourbeak Rotshell",
+          "zhTW": "Sourbeak Rotshell",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sourbeak Rotshell (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Spoil_Victor",
+        "url": "https://wiki.guildwars.com/wiki/Sourbeak_Rotshell",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 3～15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 25～100 體力。",
+  "commonUses": [
+    "血魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spoil_Victor",
+      "revision": 2726257,
+      "title": "Spoil Victor",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spoil_Victor_%28PvP%29",
+      "revision": 2630088,
+      "title": "Spoil Victor (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26612",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26613,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

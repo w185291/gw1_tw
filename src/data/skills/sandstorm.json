@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "sandstorm",
+  "name": {
+    "en": "Sandstorm",
+    "zhTW": "沙塵暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 1372,
+  "icon": "/skills/sandstorm.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Create a Sandstorm at target foe's location. For 10 seconds, nearby foes are struck for 20...36...40 earth damage each second and attacking foes are struck for an additional 10...26...30 earth damage each second.",
+      "zhTW": "在目標敵人所在地點創造沙塵暴。持續 10 秒，使該地點附近的敵人每秒受到 20～40 土系傷害，而正在進行攻擊的敵人每秒再受到 10～30 額外土系傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-drought",
+          "en": "The Drought",
+          "zhTW": "The Drought",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rilohn-refuge",
+              "en": "Rilohn Refuge",
+              "zhTW": "里歐恩難民營",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rilohn_Refuge"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "The Drought (Rilohn Refuge)",
+        "source": "https://wiki.guildwars.com/wiki/Sandstorm",
+        "url": "https://wiki.guildwars.com/wiki/The_Drought",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "droajam-mage-of-the-sands",
+          "en": "Droajam, Mage of the Sands",
+          "zhTW": "Droajam, Mage of the Sands",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "poisoned-outcrops",
+              "en": "Poisoned Outcrops",
+              "zhTW": "劇毒地表",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Poisoned_Outcrops"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Droajam, Mage of the Sands (Poisoned Outcrops)",
+        "source": "https://wiki.guildwars.com/wiki/Sandstorm",
+        "url": "https://wiki.guildwars.com/wiki/Droajam,_Mage_of_the_Sands",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "在目標敵人所在地點創造沙塵暴。持續 10 秒，使該地點附近的敵人每秒受到 20～40 土系傷害，而正在進行攻擊的敵人每秒再受到 10～30 額外土系傷害。",
+  "commonUses": [
+    "土系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Sandstorm",
+      "revision": 2731207,
+      "title": "Sandstorm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33294",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33295,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人所在地點創造沙塵暴。持續 %str3% 秒，使該地點附近的敵人每秒受到 %str1% 土系傷害，而正在進行攻擊的敵人每秒再受到 %str2% 額外土系傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

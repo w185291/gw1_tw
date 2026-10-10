@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "assassin-s-promise",
+  "name": {
+    "en": "Assassin's Promise",
+    "zhTW": "暗殺者誓言",
+    "translationVerified": true
+  },
+  "clientSkillId": 1035,
+  "icon": "/skills/assassin-s-promise.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...13...15 seconds, if target foe dies, you gain 5...17...20 Energy and all your skills are recharged.",
+      "zhTW": "持續 5～15 秒，假如目標敵人死亡，你獲得 5～20 能量，同時所有技能回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "xuekao-the-deceptive",
+          "en": "Xuekao, the Deceptive",
+          "zhTW": "Xuekao, the Deceptive",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pongmei-valley",
+              "en": "Pongmei Valley",
+              "zhTW": "朋美谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Xuekao, the Deceptive (Pongmei Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise",
+        "url": "https://wiki.guildwars.com/wiki/Xuekao,_the_Deceptive",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "rekoff-broodmother",
+          "en": "Rekoff Broodmother",
+          "zhTW": "Rekoff Broodmother",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rekoff Broodmother (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise",
+        "url": "https://wiki.guildwars.com/wiki/Rekoff_Broodmother",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 5～15 秒，假如目標敵人死亡，你獲得 5～20 能量，同時所有技能回復。",
+  "commonUses": [
+    "暗殺技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise",
+      "revision": 2712717,
+      "title": "Assassin's Promise",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26470"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26471,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，假如目標敵人死亡，你獲得 %str1% 能量，同時所有技能回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

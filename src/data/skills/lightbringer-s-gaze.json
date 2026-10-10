@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "lightbringer-s-gaze",
+  "name": {
+    "en": "Lightbringer's Gaze",
+    "zhTW": "光明使者的凝視"
+  },
+  "clientSkillId": 1814,
+  "icon": "/skills/lightbringer-s-gaze.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "lightbringer-rank",
+    "en": "Lightbringer rank",
+    "zhTW": "光明使者稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Target demonic servant of Abaddon takes 100 holy damage and is interrupted. This skill strikes one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled for 15 seconds after it is used.",
+      "zhTW": "對亞霸頓的惡魔僕從造成 100 神聖傷害並且中斷其動作。依照你的光明使者階級，每提高 1 個階級，你同時能攻擊的惡魔僕從數量增加 1 。此技能在使用後需要 15 秒的回復時間。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "seeker-of-whispers",
+          "en": "Seeker of Whispers",
+          "zhTW": "Seeker of Whispers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "在隱密教堂找 Seeker of Whispers。達到 Adept Lightbringer 頭銜後向他領取；這是稱號條件取得，並非用捕捉紋章學習。",
+        "source": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze",
+        "url": "https://wiki.guildwars.com/wiki/Seeker_of_Whispers",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "對亞霸頓的惡魔僕從造成 100 神聖傷害並且中斷其動作。依照你的光明使者階級，每提高 1 個階級，你同時能攻擊的惡魔僕從數量增加 1 。此技能在使用後需要 15 秒的回復時間。",
+  "commonUses": [
+    "Lightbringer rank · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze",
+      "revision": 2675377,
+      "title": "Lightbringer's Gaze",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/52053"
+  ],
+  "descriptionEvidence": {
+    "stringId": 52054,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對亞霸頓的惡魔僕從造成 %str1% 神聖傷害並且中斷其動作。依照你的光明使者階級，每提高 1 個階級，你同時能攻擊的惡魔僕從數量增加 1 。此技能在使用後需要 15 秒的回復時間。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

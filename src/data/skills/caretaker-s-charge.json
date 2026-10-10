@@ -1,0 +1,133 @@
+{
+  "id": "caretaker-s-charge",
+  "name": {
+    "en": "Caretaker's Charge",
+    "zhTW": "照看者充能",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1744,
+  "icon": "/skills/caretaker-s-charge.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe is struck for 20...72...85 lightning damage. If you are holding an item, you gain 7 Energy and 5...41...50 Health.",
+      "zhTW": "對目標造成 20～85 閃電傷害，若你正抱持一項物品，則你獲得 7 能量及 5～50 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hautoh-the-pilferer",
+          "en": "Hautoh the Pilferer",
+          "zhTW": "Hautoh the Pilferer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hautoh the Pilferer (Domain of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Caretaker%27s_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Hautoh_the_Pilferer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "對目標造成 20～85 閃電傷害，若你正抱持一項物品，則你獲得 7 能量及 5～50 體力。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Caretaker%27s_Charge",
+      "revision": 2739060,
+      "title": "Caretaker's Charge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/44089"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44090,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標造成 %str1% 閃電傷害，若你正抱持一項物品，則你獲得 7 能量及 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

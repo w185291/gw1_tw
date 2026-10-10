@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "triple-shot",
+  "name": {
+    "en": "Triple Shot",
+    "zhTW": "三重箭"
+  },
+  "clientSkillId": 2096,
+  "icon": "/skills/triple-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "allegiance-rank",
+    "en": "Allegiance rank",
+    "zhTW": "陣營稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. Shoot 3 arrows simultaneously at target foe. These arrows deal 40...25% less damage.",
+      "zhTW": "同時射出三枝箭到目標敵人身上，這些箭造成的傷害比一般的箭減少 40～25% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "kurzick-bureaucrat",
+          "en": "Kurzick Bureaucrat",
+          "zhTW": "Kurzick Bureaucrat",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "house-zu-heltzer",
+              "en": "House zu Heltzer",
+              "zhTW": "鳳荷議院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/House_zu_Heltzer"
+          },
+          {
+            "name": {
+              "id": "kurzick",
+              "en": "Kurzick",
+              "zhTW": "庫茲柯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kurzick"
+          },
+          {
+            "name": {
+              "id": "guild-hall",
+              "en": "Guild hall",
+              "zhTW": "公會大廳",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Guild_hall"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kurzick Bureaucrat (House zu Heltzer and Kurzick-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Triple_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Kurzick_Bureaucrat",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "luxon-scavenger",
+          "en": "Luxon Scavenger",
+          "zhTW": "Luxon Scavenger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cavalon",
+              "en": "Cavalon",
+              "zhTW": "卡瓦隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cavalon"
+          },
+          {
+            "name": {
+              "id": "luxon",
+              "en": "Luxon",
+              "zhTW": "勒克森",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Luxon"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Luxon Scavenger (Cavalon and Luxon-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Triple_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Luxon_Scavenger",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "同時射出三枝箭到目標敵人身上，這些箭造成的傷害比一般的箭減少 40～25% 。",
+  "commonUses": [
+    "Allegiance rank · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Triple_Shot",
+      "revision": 2710816,
+      "title": "Triple Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/64760"
+  ],
+  "descriptionEvidence": {
+    "stringId": 64761,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "同時射出三枝箭到目標敵人身上，這些箭造成的傷害比一般的箭減少 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

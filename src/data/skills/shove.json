@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "shove",
+  "name": {
+    "en": "Shove",
+    "zhTW": "撞擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1146,
+  "icon": "/skills/shove.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. Target touched foe takes 15...63...75 damage, their stance ends, and they are knocked down.",
+      "zhTW": "碰觸目標造成 15～75 傷害，終止其姿態並擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "greves-the-overbearing",
+          "en": "Greves the Overbearing",
+          "zhTW": "Greves the Overbearing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Greves the Overbearing (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Shove",
+        "url": "https://wiki.guildwars.com/wiki/Greves_the_Overbearing",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tarnen-the-bully",
+          "en": "Tarnen the Bully",
+          "zhTW": "Tarnen the Bully",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tarnen the Bully (Ferndale)",
+        "source": "https://wiki.guildwars.com/wiki/Shove",
+        "url": "https://wiki.guildwars.com/wiki/Tarnen_the_Bully",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標造成 15～75 傷害，終止其姿態並擊倒。",
+  "commonUses": [
+    "戰術 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shove",
+      "revision": 2739599,
+      "title": "Shove",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/27007"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27008,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Target touched foe takes %str1% damage, their stance ends, and they are knocked down."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

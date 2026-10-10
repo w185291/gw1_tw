@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "ring-of-fire-islands",
   "name": {
-    "zhTW": "地獄險境",
+    "zhTW": "地獄懸崖",
     "en": "Hell's Precipice"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "地獄險境",
+    "地獄懸崖",
     "Hell's Precipice",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "關閉泰坦傳送門，擊敗不死魯瑞克與巫妖。",
+  "summary": "擊敗三名 Armageddon Lords；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,38 +36,71 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "地獄險境據點",
+    "description": "完成上一關後自動到达本據點，整備後按 Enter Mission。",
+    "location": "Hell's Precipice",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "關閉泰坦傳送門，擊敗不死魯瑞克與巫妖。"
+      "text": "關閉泰坦傳送門，擊敗不死Prince Rurik與巫妖。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "擊敗三名 Armageddon Lords",
+    "summary": "擊敗三名 Armageddon Lords",
+    "trigger": "Ancient Seer 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
+    "steps": [
+      "Ancient Seer 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
+      "先把三名目標從熔岩池逐一引出，殺掉後處理衍生怪。",
+      "建議關傳送門前完成；提前關門會把隊伍傳走，補做需多次折返。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "建議關傳送門前完成；提前關門會把隊伍傳走，補做需多次折返。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "用橋口逐群清怪",
+      "content": "起點往南過兩座橋，站橋口拉怪而非在橋上被包圍。優先擊殺 Spark of the Titans，其火焰範圍法術比普通 Titan 更危險。每殺一隻會分裂的 Titan，先處理其衍生敵人再開下一隻。"
+    },
+    {
+      "title": "等大隊移走再救 Seer",
+      "content": "第二橋後分岔會有大群敵人朝生成的頭目聚集；等其走遠，走東南路避開。再從北側接近 Ancient Seer，立刻殺攻擊它的 Burning Titan 並治療它，交談接 Bonus。"
+    },
+    {
+      "title": "西南推進到傳送門區",
+      "content": "繼續往西南，避免站地面裂縫受燃燒。過第三座橋進傳送門空地，耐心將相互重疊的巡邏一次引一兩隊出來，別直接衝中央。"
+    },
+    {
+      "title": "先殺三名 Armageddon Lords",
+      "content": "到傳送門前大熔岩池，把三名 Armageddon Lords 逐一引到乾地。殺掉其衍生敵人並確認 Bonus；Ancient Seer 必須先獲救及對話，不可只自行殺三名目標。"
+    },
+    {
+      "title": "關閉三個門並擊敗 Rurik",
+      "content": "擊殺守門的三名 Portal Wraiths 使傳送門關閉，過場帶往北側。先把 Undead Prince Rurik 及兩名 Spark 引離旁邊 Titan 群，優先殺 Spark，再擊殺 Rurik 觸發最後過場。"
+    },
+    {
+      "title": "Lich 復活時先清增援",
+      "content": "英雄旗標放中央 Bloodstone，避免追入熔岩。Lich 會傳送玩家到熔岩、自己瞬移並復活 1–3 次；每次復活先清伴生的兩隻 Fists，再重新集火。依 Wiki 機制不必限定在 Bloodstone 上擊殺。"
+    },
+    {
+      "title": "領取通關獎勵",
+      "content": "完成後進 Droknar's Forge 的探索區，與 Jalis Ironhammer 交談領取每角色一次的 Deldrimor Talisman，可兌換一件獨特武器；後續再選 Defend Droknar's Forge 等終局內容。"
+    }
+  ],
+  "routeSummary": "用橋口逐群清怪 → 等大隊移走再救 Seer → 西南推進到傳送門區 → 先殺三名 Armageddon Lords → 關閉三個門並擊敗 Rurik → Lich 復活時先清增援 → 領取通關獎勵",
   "mapImage": "/maps/Hell's_Precipice_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Hell's_Precipice_map.jpg",
       "title": "主線路線圖",
-      "alt": "地獄險境・主線路線圖",
+      "alt": "地獄懸崖・主線路線圖",
       "width": 536,
       "height": 473,
       "filePage": "https://wiki.guildwars.com/wiki/File:Hell%27s_Precipice_map.jpg",
@@ -78,13 +111,261 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Tortitudo Probo",
+        "zhTW": "Tortitudo Probo（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Axe Rake",
+        "Axe Twist",
+        "Eviscerate",
+        "Healing Signet",
+        "Swift Chop"
+      ],
+      "eliteSkills": [
+        "Eviscerate"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Tortitudo_Probo",
+      "revision": 2543099,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Tortitudo_Probo"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Valetudo Rubor",
+        "zhTW": "Valetudo Rubor（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Flame Trap",
+        "Greater Conflagration",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Greater Conflagration"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Valetudo_Rubor",
+      "revision": 2325014,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Valetudo_Rubor"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Maligo Libens",
+        "zhTW": "Maligo Libens（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Aura of the Lich",
+        "Life Siphon",
+        "Shadow Strike",
+        "Shadow of Fear",
+        "Strip Enchantment"
+      ],
+      "eliteSkills": [
+        "Aura of the Lich"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Maligo_Libens",
+      "revision": 2632568,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Maligo_Libens"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Moles Quibus",
+        "zhTW": "Moles Quibus（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Cry of Frustration",
+        "Ether Feast",
+        "Mantra of Flame",
+        "Panic",
+        "Spirit of Failure"
+      ],
+      "eliteSkills": [
+        "Panic"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Moles_Quibus",
+      "revision": 2422860,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Scelus Prosum",
+        "zhTW": "Scelus Prosum（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Glyph of Lesser Energy",
+        "Inferno",
+        "Mind Burn",
+        "Rodgort's Invocation"
+      ],
+      "eliteSkills": [
+        "Mind Burn"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Scelus_Prosum",
+      "revision": 2556193,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Undead Prince Rurik",
+        "zhTW": "Undead Prince Rurik（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Deadly Riposte",
+        "Final Thrust",
+        "Hundred Blades",
+        "Thrill of Victory"
+      ],
+      "eliteSkills": [
+        "Hundred Blades"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先引出並擊殺旁邊兩隻 Spark of the Titans，再把 Rurik 單獨拉過來。前排致盲或格擋，避免圍在他身旁讓 Hundred Blades 觸發額外範圍傷害；不要帶著低血量硬吃 Final Thrust。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Undead_Prince_Rurik",
+      "revision": 2728327,
+      "dangerousSkills": [
+        {
+          "name": "Final Thrust",
+          "counter": "低血量前排先補起來或撤離，避免被額外傷害收掉。",
+          "source": "https://wiki.guildwars.com/wiki/Undead_Prince_Rurik"
+        },
+        {
+          "name": "Hundred Blades",
+          "counter": "不要圍站近戰目標旁；致盲或格擋壓制普通攻擊，減少範圍觸發。",
+          "source": "https://wiki.guildwars.com/wiki/Undead_Prince_Rurik"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Undead Lich",
+        "zhTW": "Undead Lich（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Strip Enchantment",
+        "Unholy Feast",
+        "Soul Vortex"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "此處僅列 Hell’s Precipice 技能；Life Siphon 僅 HM。不是 Gate of Madness 的技能表。"
+      ],
+      "strategy": "旗標後排在 Bloodstone 中央，玩家被傳進熔岩立即回乾地。每次 Undead Lich 復活先殺兩隻 Fists，再重新集火，防止增援累積。保持後排距離，避免近距離全隊同吃 Unholy Feast；保留解降咒應付 HM 的 Life Siphon。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Undead_Lich",
+      "revision": 2684325,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Undead_Lich"
+        },
+        {
+          "name": "Unholy Feast",
+          "counter": "後排與敵人保持距離，避免全隊近身承受偷取生命並讓它大量回血。",
+          "source": "https://wiki.guildwars.com/wiki/Undead_Lich"
+        },
+        {
+          "name": "Soul Vortex",
+          "counter": "玩家被傳送到熔岩時立即回乾地；旗標後排保持在安全位置。",
+          "source": "https://wiki.guildwars.com/wiki/Undead_Lich"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶群體治療、防元素傷害、打斷或暈眩，優先控制 Sparks。",
+    "冷傷對 Titan 較有效，範圍虛弱可減少 Fists/Hands 傷害；多數 Titan 沒有血肉，不能只依賴毒、流血或屍體召喚。"
+  ],
+  "tips": [
+    "通關後到 Droknar's Forge（探索區），向 Jalis Ironhammer 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
+  ],
+  "warnings": [
+    "Seer 死亡不能靠事後殺三名 Lords 補拿 Bonus。",
+    "不要讓英雄追 Lich 到熔岩；被傳入熔岩的玩家立即回乾地。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "路線相同，但 Spark 的範圍火傷、Titan 分裂與 Lich 增援更難承受。分散後排、打斷火法、一次處理一隻分裂鏈，避免讓多組 Fists/Hands 同時形成。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +385,93 @@
       "revision": 2737871,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Tortitudo Probo",
+      "url": "https://wiki.guildwars.com/wiki/Tortitudo_Probo",
+      "revision": 2543099,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Valetudo Rubor",
+      "url": "https://wiki.guildwars.com/wiki/Valetudo_Rubor",
+      "revision": 2325014,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Maligo Libens",
+      "url": "https://wiki.guildwars.com/wiki/Maligo_Libens",
+      "revision": 2632568,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Moles Quibus",
+      "url": "https://wiki.guildwars.com/wiki/Moles_Quibus",
+      "revision": 2422860,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Scelus Prosum",
+      "url": "https://wiki.guildwars.com/wiki/Scelus_Prosum",
+      "revision": 2556193,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Undead Prince Rurik",
+      "url": "https://wiki.guildwars.com/wiki/Undead_Prince_Rurik",
+      "revision": 2728327,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Undead Lich",
+      "url": "https://wiki.guildwars.com/wiki/Undead_Lich",
+      "revision": 2684325,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "abaddons-mouth",
   "nextMission": null,
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10640"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到 Droknar's Forge（探索區），向 Jalis Ironhammer 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": true,
+  "gameTextEvidence": {
+    "stringIds": [
+      10640
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": []
 }

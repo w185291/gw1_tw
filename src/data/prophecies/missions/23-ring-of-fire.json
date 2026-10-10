@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "拆除魔法封印，攻佔穆薩特守門堡。",
+  "summary": "交付 Eidolon 的 Spectral Essence；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "火環群島據點",
+    "description": "從 Ember Light Camp 完成主線 Final Blow 開啟 Ring of Fire 據點，再按 Enter Mission。",
+    "location": "Ring of Fire",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,46 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "交付 Eidolon 的 Spectral Essence",
+    "summary": "交付 Eidolon 的 Spectral Essence",
+    "trigger": "先找北方分岔 Ancient Seer 接任務。",
+    "steps": [
+      "先找北方分岔 Ancient Seer 接任務。",
+      "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 Seer 交付；不是只殺 Eidolon。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 Seer 交付；不是只殺 Eidolon。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "北進並分開塔與守衛",
+      "content": "Brechnar Ironhammer 會依劇情犧牲，無須為救他衝進大群。往北逐群處理 Mursaat；遇能量吸取塔，先把 Jade Bows 引到塔外，再拆 Ether Seal 停止效果。"
+    },
+    {
+      "title": "分岔先接 Bonus",
+      "content": "第一座塔後往西北，過 Ettin 頭目到分岔。先取北路找 Ancient Seer 接 Bonus，再回南路推主線。未接任務即使拆塔也不會生成 Eidolon。"
+    },
+    {
+      "title": "正門逐座拆塔",
+      "content": "過熔岩要迅速走到乾地再戰鬥。可選正門路線：先引出守軍，拆門外兩座塔；進門前再清巡邏，避開門內兩塔疊加的扣能區。"
+    },
+    {
+      "title": "處理內側兩塔",
+      "content": "內塔封印朝背面，可先清後方 Mursaat，再繞到封印側拆塔。不要同時承受多塔扣能、拆加持與守軍攻擊；補師站塔外維持支援。"
+    },
+    {
+      "title": "先帶精華回 Seer",
+      "content": "四座要塞塔全停用且已接 Bonus 後，Eidolon 才出現。擊殺取得 Spectral Essence，返回 Ancient Seer 交付取得 Bonus，也可做護甲 infusion。"
+    },
+    {
+      "title": "開主門後完成",
+      "content": "回堡壘拆通往拉桿的封印、殺守衛頭目，操作主門拉桿。過 Jade bridge 清最後頭目與小隊即完成；要捕捉菁英先留一名雜兵。"
+    }
+  ],
+  "routeSummary": "北進並分開塔與守衛 → 分岔先接 Bonus → 正門逐座拆塔 → 處理內側兩塔 → 先帶精華回 Seer → 開主門後完成",
   "mapImage": "/maps/Ring_of_Fire_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +106,442 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Casses Flameweb",
+        "zhTW": "Casses Flameweb（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Dryder's Defenses",
+        "Incendiary Arrows",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Incendiary Arrows"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Casses_Flameweb",
+      "revision": 1956871,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Casses_Flameweb"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ferk Mallet",
+        "zhTW": "Ferk Mallet（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"To the Limit!\"",
+        "Backbreaker",
+        "Berserker Stance",
+        "Healing Signet",
+        "Staggering Blow"
+      ],
+      "eliteSkills": [
+        "Backbreaker"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ferk_Mallet",
+      "revision": 2598652,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Ferk_Mallet"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Vulg Painbrain",
+        "zhTW": "Vulg Painbrain（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Primal Echoes",
+        "Spike Trap",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Spike Trap"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Vulg_Painbrain",
+      "revision": 2598667,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Vulg_Painbrain"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Eidolon",
+        "zhTW": "Eidolon（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Prison",
+        "Mist Form"
+      ],
+      "eliteSkills": [
+        "Mist Form"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Eidolon",
+      "revision": 2513192,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cairn the Smug",
+        "zhTW": "Cairn the Smug（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Crushing Blow",
+        "Devastating Hammer",
+        "Wild Blow"
+      ],
+      "eliteSkills": [
+        "Devastating Hammer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cairn_the_Smug",
+      "revision": 2134558,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cairn the Troubling",
+        "zhTW": "Cairn the Troubling（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Determined Shot",
+        "Healing Spring",
+        "Oath Shot",
+        "Whirling Defense",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Oath Shot"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cairn_the_Troubling",
+      "revision": 2620224,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Cairn_the_Troubling"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Coventina the Matron",
+        "zhTW": "Coventina the Matron（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Aura of Faith",
+        "Contemplation of Purity",
+        "Draw Conditions",
+        "Orison of Healing",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Aura of Faith"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Coventina_the_Matron",
+      "revision": 2642024,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Coventina_the_Matron"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Odelyn the Displeased",
+        "zhTW": "Odelyn the Displeased（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Blood Renewal",
+        "Insidious Parasite",
+        "Life Siphon",
+        "Life Transfer",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Life Transfer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Odelyn_the_Displeased",
+      "revision": 2642031,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Odelyn_the_Displeased"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Odelyn_the_Displeased"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Melek the Virtuous",
+        "zhTW": "Melek the Virtuous（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Surge",
+        "Ether Feast",
+        "Physical Resistance",
+        "Power Leak",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Energy Surge"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Melek_the_Virtuous",
+      "revision": 2642029,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Melek_the_Virtuous"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Maida the Ill Tempered",
+        "zhTW": "Maida the Ill Tempered（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Chain Lightning",
+        "Enervating Charge",
+        "Glyph of Concentration",
+        "Thunderclap",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Thunderclap"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Maida_the_Ill_Tempered",
+      "revision": 2642028,
+      "dangerousSkills": [
+        {
+          "name": "Thunderclap",
+          "counter": "準備解除病症，尤其不要讓全隊停在同一範圍內。",
+          "source": "https://wiki.guildwars.com/wiki/Maida_the_Ill_Tempered"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Maida_the_Ill_Tempered"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Grun Galesurge",
+        "zhTW": "Grun Galesurge（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Essence Bond",
+        "Reversal of Fortune",
+        "Scourge Healing",
+        "Shield of Deflection",
+        "Zealot's Fire"
+      ],
+      "eliteSkills": [
+        "Shield of Deflection"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Grun_Galesurge",
+      "revision": 2499043,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Pytt Spitespew",
+        "zhTW": "Pytt Spitespew（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Ether Feast",
+        "Migraine",
+        "Power Spike",
+        "Wastrel's Worry"
+      ],
+      "eliteSkills": [
+        "Migraine"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Pytt_Spitespew",
+      "revision": 2437468,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Jyth Sprayburst",
+        "zhTW": "Jyth Sprayburst（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Enervating Charge",
+        "Ether Prodigy",
+        "Kinetic Armor",
+        "Stoning"
+      ],
+      "eliteSkills": [
+        "Ether Prodigy"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Jyth_Sprayburst",
+      "revision": 1970398,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶不高度依賴能量的輸出、群體治療及姿態移除，對付能量塔和 Jade Bows 格擋。",
+    "全員檢查 infusion，並準備打斷元素敵人的範圍法術。"
+  ],
+  "tips": [
+    "完成後傳送至 Abaddon's Mouth（地獄隘口）據點，下一關要破壞 Door of Komalie 的六個封印。"
+  ],
+  "warnings": [
+    "熔岩內不要停下戰鬥；塔區別同時拉多隊。",
+    "未接 Seer 對話不能生成 Bonus 目標，最後敵群全滅又會立刻結束。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "塔的能量消耗讓施法隊更難續戰；用紋章、怒氣或塔外靈體輸出，補師站範圍外。背門繞路有密集 Lava Imps 與 Meteor Shower，並不一定較安全。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +561,157 @@
       "revision": 2728548,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Casses Flameweb",
+      "url": "https://wiki.guildwars.com/wiki/Casses_Flameweb",
+      "revision": 1956871,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ferk Mallet",
+      "url": "https://wiki.guildwars.com/wiki/Ferk_Mallet",
+      "revision": 2598652,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Vulg Painbrain",
+      "url": "https://wiki.guildwars.com/wiki/Vulg_Painbrain",
+      "revision": 2598667,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Eidolon",
+      "url": "https://wiki.guildwars.com/wiki/Eidolon",
+      "revision": 2513192,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cairn the Smug",
+      "url": "https://wiki.guildwars.com/wiki/Cairn_the_Smug",
+      "revision": 2134558,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cairn the Troubling",
+      "url": "https://wiki.guildwars.com/wiki/Cairn_the_Troubling",
+      "revision": 2620224,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Coventina the Matron",
+      "url": "https://wiki.guildwars.com/wiki/Coventina_the_Matron",
+      "revision": 2642024,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Odelyn the Displeased",
+      "url": "https://wiki.guildwars.com/wiki/Odelyn_the_Displeased",
+      "revision": 2642031,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Melek the Virtuous",
+      "url": "https://wiki.guildwars.com/wiki/Melek_the_Virtuous",
+      "revision": 2642029,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Maida the Ill Tempered",
+      "url": "https://wiki.guildwars.com/wiki/Maida_the_Ill_Tempered",
+      "revision": 2642028,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Grun Galesurge",
+      "url": "https://wiki.guildwars.com/wiki/Grun_Galesurge",
+      "revision": 2499043,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Pytt Spitespew",
+      "url": "https://wiki.guildwars.com/wiki/Pytt_Spitespew",
+      "revision": 2437468,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Jyth Sprayburst",
+      "url": "https://wiki.guildwars.com/wiki/Jyth_Sprayburst",
+      "revision": 1970398,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Final Blow",
+      "url": "https://wiki.guildwars.com/wiki/Final_Blow",
+      "revision": 2708674,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "thunderhead-keep",
   "nextMission": "abaddons-mouth",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10628"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後傳送至 Abaddon's Mouth（地獄隘口）據點，下一關要破壞 Door of Komalie 的六個封印。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10628
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "Final Blow",
+        "zhTW": "Final Blow（繁中名稱待確認）"
+      },
+      "giver": "Shadow",
+      "location": "Ember Light Camp (Ring of Fire Islands)",
+      "directions": "在 Ember Light Camp 找 Shadow 接取。出 Perdition Rock，等入口巡邏群走開，往北清路；Mahgo Hydra 的 Meteor Shower 要打斷或分散躲避。迅速拆掉第一個 Ether Seal，沿中央道路向西北往碼頭。先分批拉掉祭壇外兩隊 White Mantle，再上階梯殺 Argyle、Bolivar、Cuthbert 三名 Council Member。找 Captain Grumby 對話，依序承諾保護他並選準備好了，讓他傳送全隊到 Ring of Fire 據點；再找 Fogard Axemighty 領獎。",
+      "url": "https://wiki.guildwars.com/wiki/Final_Blow",
+      "revision": 2708674,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

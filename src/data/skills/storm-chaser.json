@@ -1,0 +1,316 @@
+{
+  "pvpOnly": false,
+  "id": "storm-chaser",
+  "name": {
+    "en": "Storm Chaser",
+    "zhTW": "追風者",
+    "translationVerified": true
+  },
+  "clientSkillId": 455,
+  "icon": "/skills/storm-chaser.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 8...18...20 seconds, you move 25% faster, and you gain 1...4...5 Energy whenever you take elemental damage.",
+      "zhTW": "持續 8～20 秒，你的移動速度加快 25% ，而且每當你受到元素傷害時，獲得 1～5 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "mysterious-message-prophecies-quest",
+          "en": "Mysterious Message (Prophecies quest)",
+          "zhTW": "Mysterious Message (Prophecies quest)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "druid-s-overlook",
+              "en": "Druid's Overlook",
+              "zhTW": "德魯伊高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Druid%27s_Overlook"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mysterious Message (Druid's Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Mysterious_Message_(Prophecies_quest)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "martus-plagueweb",
+          "en": "Martus Plagueweb",
+          "zhTW": "Martus Plagueweb",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Martus Plagueweb (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Martus_Plagueweb",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "kezra-spindleweb",
+          "en": "Kezra Spindleweb",
+          "zhTW": "Kezra Spindleweb",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          },
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kezra Spindleweb (The Wilds and Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Kezra_Spindleweb",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "debrio-gangleweb",
+          "en": "Debrio Gangleweb",
+          "zhTW": "Debrio Gangleweb",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-falls",
+              "en": "The Falls",
+              "zhTW": "陷落區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Debrio Gangleweb (The Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+        "url": "https://wiki.guildwars.com/wiki/Debrio_Gangleweb",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～20 秒，你的移動速度加快 25% ，而且每當你受到元素傷害時，獲得 1～5 能量。",
+  "commonUses": [
+    "求生 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+      "revision": 2683457,
+      "title": "Storm Chaser",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26268",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26269,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度加快 25%% ，而且每當你受到元素傷害時，獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

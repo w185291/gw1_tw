@@ -1,0 +1,574 @@
+{
+  "pvpOnly": false,
+  "id": "concussion-shot",
+  "name": {
+    "en": "Concussion Shot",
+    "zhTW": "迷惑之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 408,
+  "icon": "/skills/concussion-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. If Concussion Shot hits while target foe is casting a spell, the spell is interrupted and your target is Dazed for 5...17...20 seconds. This attack deals only 1...13...16 damage.",
+      "zhTW": "迷惑之箭若命中正在施展「魔法」的敵人，將中斷其施法並使其遭受「暈眩」病症 5～20 秒。此攻擊只造成 1～16 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-royal-papers",
+          "en": "The Royal Papers",
+          "zhTW": "The Royal Papers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Royal Papers (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/The_Royal_Papers",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "sayad-the-bloodless",
+          "en": "Sayad the Bloodless",
+          "zhTW": "Sayad the Bloodless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sayad the Bloodless (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "abijah-the-decayed",
+          "en": "Abijah the Decayed",
+          "zhTW": "Abijah the Decayed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abijah the Decayed (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Abijah_the_Decayed",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "dahr-the-diseased",
+          "en": "Dahr the Diseased",
+          "zhTW": "Dahr the Diseased",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dahr the Diseased (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dahr_the_Diseased",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ghita-bonz",
+          "en": "Ghita Bonz",
+          "zhTW": "Ghita Bonz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          },
+          {
+            "name": {
+              "id": "majesty-s-rest",
+              "en": "Majesty's Rest",
+              "zhTW": "王者安息處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Majesty%27s_Rest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghita Bonz (Divinity Coast, Majesty's Rest)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Ghita_Bonz",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "custodian-jenus",
+          "en": "Custodian Jenus",
+          "zhTW": "Custodian Jenus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Jenus (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Jenus",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "custodian-kora",
+          "en": "Custodian Kora",
+          "zhTW": "Custodian Kora",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Kora (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Kora",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "custodian-phebus",
+          "en": "Custodian Phebus",
+          "zhTW": "Custodian Phebus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Phebus (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Phebus",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "facet-of-nature",
+          "en": "Facet of Nature",
+          "zhTW": "Facet of Nature",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Nature (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Nature",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "koahm-the-weary",
+          "en": "Koahm the Weary",
+          "zhTW": "Koahm the Weary",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-shattered-ravines",
+              "en": "The Shattered Ravines",
+              "zhTW": "碎裂溝谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Shattered_Ravines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Koahm the Weary (The Shattered Ravines)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Koahm_the_Weary",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "beastmaster-korg",
+          "en": "Beastmaster Korg",
+          "zhTW": "Beastmaster Korg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Beastmaster Korg (Rragar's Menagerie)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Beastmaster_Korg",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "facet-of-creation",
+          "en": "Facet of Creation",
+          "zhTW": "Facet of Creation",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-melandru",
+              "en": "The Cipher of Melandru",
+              "zhTW": "The Cipher of Melandru",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Melandru"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Creation (Alcazia Tangle during The Cipher of Melandru, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Creation",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "迷惑之箭若命中正在施展「魔法」的敵人，將中斷其施法並使其遭受「暈眩」病症 5～20 秒。此攻擊只造成 1～16 傷害。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+      "revision": 2732550,
+      "title": "Concussion Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26174"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26175,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "迷惑之箭若命中正在施展「魔法」的敵人，將中斷其施法並使其遭受「暈眩」病症 %str2% 秒。此攻擊只造成 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

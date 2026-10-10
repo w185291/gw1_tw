@@ -1,0 +1,623 @@
+{
+  "pvpOnly": false,
+  "id": "guardian",
+  "name": {
+    "en": "Guardian",
+    "zhTW": "守護者",
+    "translationVerified": true
+  },
+  "clientSkillId": 258,
+  "icon": "/skills/guardian.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 2...6...7 seconds, target ally has a 50% chance to block attacks.",
+      "zhTW": "持續 2～7 秒，使目標盟友有 50% 機率「格擋」攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "leaps-thunderclap",
+          "en": "Leaps Thunderclap",
+          "zhTW": "Leaps Thunderclap",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Leaps Thunderclap (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Leaps_Thunderclap",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gack-splotchplunk",
+          "en": "Gack Splotchplunk",
+          "zhTW": "Gack Splotchplunk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast",
+              "en": "Watchtower Coast",
+              "zhTW": "瞭望塔海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gack Splotchplunk (Watchtower Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Gack_Splotchplunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "fluum-banzo",
+          "en": "Fluum Banzo",
+          "zhTW": "Fluum Banzo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fluum Banzo (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Fluum_Banzo",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "bramblehash",
+          "en": "Bramblehash",
+          "zhTW": "Bramblehash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bramblehash (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Bramblehash",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "splintertrunk",
+          "en": "Splintertrunk",
+          "zhTW": "Splintertrunk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Splintertrunk (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Splintertrunk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-vitality",
+          "en": "Tree of Vitality",
+          "zhTW": "Tree of Vitality",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          },
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Vitality (The Wilds and Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Vitality",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-life",
+          "en": "Tree of Life",
+          "zhTW": "Tree of Life",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Life (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Life",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "tree-of-regrowth",
+          "en": "Tree of Regrowth",
+          "zhTW": "Tree of Regrowth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tangle-root",
+              "en": "Tangle Root",
+              "zhTW": "糾結之根",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tangle_Root"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tree of Regrowth (Tangle Root)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Tree_of_Regrowth",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "rept-parn-freg",
+          "en": "Rept Parn Freg",
+          "zhTW": "Rept Parn Freg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          },
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-arid-sea",
+              "en": "The Arid Sea",
+              "zhTW": "枯竭之海",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea"
+          },
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rept Parn Freg (Prophet's Path, Salt Flats, The Arid Sea, and The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Rept_Parn_Freg",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "sacred-griffon-of-amnoon",
+          "en": "Sacred Griffon of Amnoon",
+          "zhTW": "Sacred Griffon of Amnoon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-necromancer-s-path",
+              "en": "The Necromancer's Path",
+              "zhTW": "The Necromancer's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Necromancer%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sacred Griffon of Amnoon (Prophet's Path, during The Necromancer's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Sacred_Griffon_of_Amnoon",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "screamingclaw",
+          "en": "Screamingclaw",
+          "zhTW": "Screamingclaw",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Screamingclaw (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Screamingclaw",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kepkhet-marrowfeast",
+          "en": "Kepkhet Marrowfeast",
+          "zhTW": "Kepkhet Marrowfeast",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Kepkhet Marrowfeast (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Kepkhet_Marrowfeast",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "perchingbyrd",
+          "en": "Perchingbyrd",
+          "zhTW": "Perchingbyrd",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Perchingbyrd (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Perchingbyrd",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "facet-of-light",
+          "en": "Facet of Light",
+          "zhTW": "Facet of Light",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Light (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Light",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Guardian",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 2～7 秒，使目標盟友有 50% 機率「格擋」攻擊。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Guardian",
+      "revision": 2731201,
+      "title": "Guardian",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25724"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25727,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標盟友有 %str1%%% 機率「格擋」攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,182 @@
+{
+  "pvpOnly": false,
+  "id": "fleeting-stability",
+  "name": {
+    "en": "Fleeting Stability",
+    "zhTW": "短促穩定",
+    "translationVerified": true
+  },
+  "clientSkillId": 1514,
+  "icon": "/skills/fleeting-stability.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-prayers",
+    "en": "Earth Prayers",
+    "zhTW": "地之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "Flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Flash Enchantment Spell. For 4...9...10 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+      "zhTW": "持續 4～10 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。"
+    },
+    "pvp": {
+      "en": "Flash Enchantment Spell. For 2...7...8 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+      "zhTW": "持續 2～8 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Fleeting Stability (PvP)",
+      "description": {
+        "en": "Flash Enchantment Spell. For 2...7...8 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+        "zhTW": "持續 2～8 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Fleeting_Stability_%28PvP%29",
+        "revision": 2738540,
+        "title": "Fleeting Stability (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3470
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "acolyte-of-melandru",
+          "en": "Acolyte of Melandru",
+          "zhTW": "Acolyte of Melandru",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Acolyte of Melandru (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_of_Melandru",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 4～10 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。",
+  "commonUses": [
+    "地之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
+      "revision": 2738429,
+      "title": "Fleeting Stability",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fleeting_Stability_%28PvP%29",
+      "revision": 2738540,
+      "title": "Fleeting Stability (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33385"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33386,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度增加 %str1%%% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

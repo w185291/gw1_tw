@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "power-flux",
+  "name": {
+    "en": "Power Flux",
+    "zhTW": "強力流失",
+    "translationVerified": true
+  },
+  "clientSkillId": 953,
+  "icon": "/skills/power-flux.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. If target foe is casting a spell or chant, that skill is interrupted and for 4...9...10 seconds, that foe has -2 Energy degeneration.",
+      "zhTW": "若目標敵人正在施展「魔法」或「聖歌」，則該「魔法」被中斷，並且在 4～10 秒內使其受到 2 能量衰減。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vision-of-despair",
+          "en": "Vision of Despair",
+          "zhTW": "Vision of Despair",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-pain",
+              "en": "Domain of Pain",
+              "zhTW": "苦痛領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Pain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Vision of Despair (Domain of Pain)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Flux",
+        "url": "https://wiki.guildwars.com/wiki/Vision_of_Despair",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "demonic-fortune-teller",
+          "en": "Demonic Fortune Teller",
+          "zhTW": "Demonic Fortune Teller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "bad-fortune",
+              "en": "Bad Fortune",
+              "zhTW": "Bad Fortune",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bad_Fortune"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Demonic Fortune Teller (Domain of Fear, only during Bad Fortune)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Flux",
+        "url": "https://wiki.guildwars.com/wiki/Demonic_Fortune_Teller",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "若目標敵人正在施展「魔法」或「聖歌」，則該「魔法」被中斷，並且在 4～10 秒內使其受到 2 能量衰減。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Power_Flux",
+      "revision": 2731200,
+      "title": "Power Flux",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27437",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27438,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人正在施展「魔法」或「聖歌」，則該「魔法」被中斷，並且在 %str3% 秒內使其受到 %str1% 能量衰減。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

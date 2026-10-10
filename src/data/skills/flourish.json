@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "flourish",
+  "name": {
+    "en": "Flourish",
+    "zhTW": "洗鍊的戰技",
+    "translationVerified": true
+  },
+  "clientSkillId": 389,
+  "icon": "/skills/flourish.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. All of your attack skills become recharged. You gain 2...6...7 Energy for each skill recharged by Flourish.",
+      "zhTW": "你所有的攻擊技能回復。每回復一個技能，你獲得 2～7 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "syr-honorcrest",
+          "en": "Syr Honorcrest",
+          "zhTW": "Syr Honorcrest",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Syr Honorcrest (Mineral Springs)",
+        "source": "https://wiki.guildwars.com/wiki/Flourish",
+        "url": "https://wiki.guildwars.com/wiki/Syr_Honorcrest",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "krastos",
+          "en": "Krastos",
+          "zhTW": "Krastos",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          },
+          {
+            "name": {
+              "id": "mad-little-pony",
+              "en": "Mad Little Pony",
+              "zhTW": "Mad Little Pony",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mad_Little_Pony"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Krastos (Turai's Procession, only during Mad Little Pony)",
+        "source": "https://wiki.guildwars.com/wiki/Flourish",
+        "url": "https://wiki.guildwars.com/wiki/Krastos",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "flame-djinn",
+          "en": "Flame Djinn",
+          "zhTW": "Flame Djinn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "catacombs-of-kathandrax",
+              "en": "Catacombs of Kathandrax",
+              "zhTW": "卡山卓司的地下墓穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Catacombs_of_Kathandrax"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Djinn (Catacombs of Kathandrax)",
+        "source": "https://wiki.guildwars.com/wiki/Flourish",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Djinn",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "heart-of-destruction",
+          "en": "Heart of Destruction",
+          "zhTW": "Heart of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Heart of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Flourish",
+        "url": "https://wiki.guildwars.com/wiki/Heart_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "你所有的攻擊技能回復。每回復一個技能，你獲得 2～7 能量。",
+  "commonUses": [
+    "力量 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Flourish",
+      "revision": 2730585,
+      "title": "Flourish",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25997"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25998,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你所有的攻擊技能回復。每回復一個技能，你獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

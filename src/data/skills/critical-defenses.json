@@ -1,0 +1,230 @@
+{
+  "pvpOnly": false,
+  "id": "critical-defenses",
+  "name": {
+    "en": "Critical Defenses",
+    "zhTW": "致命防禦",
+    "translationVerified": true
+  },
+  "clientSkillId": 1027,
+  "icon": "/skills/critical-defenses.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 4...9...10 seconds, you have a 75% chance to block. Critical Defenses refreshes every time you land a critical hit.",
+      "zhTW": "持續 4～10 秒，你有 75% 機率「格擋」敵人的攻擊。每當你打出致命攻擊，此「加持」的持續時間將重新計算。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rekoff-broodmother",
+          "en": "Rekoff Broodmother",
+          "zhTW": "Rekoff Broodmother",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riven-earth",
+              "en": "Riven Earth",
+              "zhTW": "撕裂大地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riven_Earth"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rekoff Broodmother (Riven Earth)",
+        "source": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+        "url": "https://wiki.guildwars.com/wiki/Rekoff_Broodmother",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "pywatt-the-swift",
+          "en": "Pywatt the Swift",
+          "zhTW": "Pywatt the Swift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Pywatt the Swift (Alcazia Tangle)",
+        "source": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+        "url": "https://wiki.guildwars.com/wiki/Pywatt_the_Swift",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "rake-blazeclaw",
+          "en": "Rake Blazeclaw",
+          "zhTW": "Rake Blazeclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          },
+          {
+            "name": {
+              "id": "the-hunting-of-the-charr",
+              "en": "The Hunting of the Charr",
+              "zhTW": "The Hunting of the Charr",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hunting_of_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Rake Blazeclaw (Rragar's Menagerie, only during The Hunting of the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+        "url": "https://wiki.guildwars.com/wiki/Rake_Blazeclaw",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "anton",
+          "en": "Anton",
+          "zhTW": "安托",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Anton",
+        "source": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+        "url": "https://wiki.guildwars.com/wiki/Anton",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 4～10 秒，你有 75% 機率「格擋」敵人的攻擊。每當你打出致命攻擊，此「加持」的持續時間將重新計算。",
+  "commonUses": [
+    "致命攻擊 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+      "revision": 2693537,
+      "title": "Critical Defenses",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26420"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26421,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你有 %str1%%% 機率「格擋」敵人的攻擊。每當你打出致命攻擊，此「加持」的持續時間將重新計算。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

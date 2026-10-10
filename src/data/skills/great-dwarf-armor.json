@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "great-dwarf-armor",
+  "name": {
+    "en": "Great Dwarf Armor",
+    "zhTW": "偉大矮人防禦"
+  },
+  "clientSkillId": 2220,
+  "icon": "/skills/great-dwarf-armor.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 22...40 seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers.",
+      "zhTW": "持續22～40秒，目標盟友防禦增加24，體力最大值增加60，對於破壞者防禦再增加24。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "in-the-service-of-revenge",
+          "en": "In the Service of Revenge",
+          "zhTW": "In the Service of Revenge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "In the Service of Revenge (Battledepths)",
+        "source": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor",
+        "url": "https://wiki.guildwars.com/wiki/In_the_Service_of_Revenge",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續22～40秒，目標盟友防禦增加24，體力最大值增加60，對於破壞者防禦再增加24。",
+  "commonUses": [
+    "Deldrimor rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor",
+      "revision": 2645605,
+      "title": "Great Dwarf Armor",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69841"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69842,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標盟友防禦增加%str1%，體力最大值增加60，對於破壞者防禦再增加%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

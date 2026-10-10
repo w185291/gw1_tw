@@ -1,0 +1,141 @@
+{
+  "id": "weapons-of-three-forges",
+  "name": {
+    "en": "Weapons of Three Forges",
+    "zhTW": "Weapons of Three Forges"
+  },
+  "clientSkillId": 3429,
+  "icon": "/skills/weapons-of-three-forges.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Weapon Spell. For 3...17...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+      "zhTW": "持續 3～20 秒，聽距內每名非靈體友軍獲得一種隨機武裝魔法效果；此技能僅限 PvE。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "blade-ancient-syu-shai",
+          "en": "Blade Ancient Syu-Shai",
+          "zhTW": "Blade Ancient Syu-Shai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "proof-of-triumph",
+              "en": "Proof of Triumph",
+              "zhTW": "Proof of Triumph",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Blade Ancient Syu-Shai (Raisu Palace (explorable area)) (requires a party member to be carrying a Proof of Triumph)",
+        "source": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges",
+        "url": "https://wiki.guildwars.com/wiki/Blade_Ancient_Syu-Shai",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "為附近隊友提供隨機的武裝魔法，隊伍人數較多時能一次支援多名友軍。效果隨機，不能當作保證提供某個指定武裝魔法。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges",
+      "revision": 2734325,
+      "title": "Weapons of Three Forges",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/79255"
+  ],
+  "descriptionEvidence": {
+    "stringId": 79256,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Chinese summary checked against current Wiki effect; native English fallback not treated as Chinese.",
+  "rechargeNote": ""
+}

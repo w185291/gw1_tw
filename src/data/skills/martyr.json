@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "martyr",
+  "name": {
+    "en": "Martyr",
+    "zhTW": "殉教",
+    "translationVerified": true
+  },
+  "clientSkillId": 298,
+  "icon": "/skills/martyr.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Transfer all conditions and their remaining durations from your allies to you.",
+      "zhTW": "將盟友身上所有的「病症」及其剩餘持續時間移轉到你身上。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "dwayna-s-cursed",
+          "en": "Dwayna's Cursed",
+          "zhTW": "Dwayna's Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dwayna's Cursed (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Martyr",
+        "url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Cursed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "am-fah-leader",
+          "en": "Am Fah Leader",
+          "zhTW": "Am Fah Leader",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          },
+          {
+            "name": {
+              "id": "capturing-the-orrian-tome",
+              "en": "Capturing the Orrian Tome",
+              "zhTW": "Capturing the Orrian Tome",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Capturing_the_Orrian_Tome"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Am Fah Leader (The Undercity, only during Capturing the Orrian Tome)",
+        "source": "https://wiki.guildwars.com/wiki/Martyr",
+        "url": "https://wiki.guildwars.com/wiki/Am_Fah_Leader",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "rien-the-martyr",
+          "en": "Rien, the Martyr",
+          "zhTW": "Rien, the Martyr",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels",
+              "en": "Shenzun Tunnels",
+              "zhTW": "申贊通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rien, the Martyr (Shenzun Tunnels)",
+        "source": "https://wiki.guildwars.com/wiki/Martyr",
+        "url": "https://wiki.guildwars.com/wiki/Rien,_the_Martyr",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dunshek-the-purifier",
+          "en": "Dunshek the Purifier",
+          "zhTW": "Dunshek the Purifier",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-shattered-ravines",
+              "en": "The Shattered Ravines",
+              "zhTW": "碎裂溝谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Shattered_Ravines"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dunshek the Purifier (The Shattered Ravines)",
+        "source": "https://wiki.guildwars.com/wiki/Martyr",
+        "url": "https://wiki.guildwars.com/wiki/Dunshek_the_Purifier",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "將盟友身上所有的「病症」及其剩餘持續時間移轉到你身上。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Martyr",
+      "revision": 2726518,
+      "title": "Martyr",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25806"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25807,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "將盟友身上所有的「病症」及其剩餘持續時間移轉到你身上。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

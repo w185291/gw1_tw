@@ -1,0 +1,220 @@
+{
+  "pvpOnly": false,
+  "id": "lightning-bolt",
+  "name": {
+    "en": "Lightning Bolt",
+    "zhTW": "雷光之箭",
+    "translationVerified": true
+  },
+  "clientSkillId": 1369,
+  "icon": "/skills/lightning-bolt.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Send out a Lightning Bolt that strikes for 5...41...50 lightning damage if it hits. If Lightning Bolt strikes a moving foe, that foe is struck for 5...41...50 additional lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "射出雷光之箭，在命中目標時對其造成 5～50 閃電傷害。若該目標正在移動，則對其額外增加 5～50 閃電傷害。此「魔法」具有 25% 防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "monstrous-afflicted-elementalist",
+          "en": "Monstrous Afflicted Elementalist",
+          "zhTW": "Monstrous Afflicted Elementalist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Elementalist (Morostav Trail, only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Elementalist",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "射出雷光之箭，在命中目標時對其造成 5～50 閃電傷害。若該目標正在移動，則對其額外增加 5～50 閃電傷害。此「魔法」具有 25% 防禦穿透效果。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+      "revision": 2732919,
+      "title": "Lightning Bolt",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36323",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36324,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射出雷光之箭，在命中目標時對其造成 %str1% 閃電傷害。若該目標正在移動，則對其額外增加 %str2% 閃電傷害。此「魔法」具有 25%% 防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

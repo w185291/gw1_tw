@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "icy-shackles",
+  "name": {
+    "en": "Icy Shackles",
+    "zhTW": "冰冷束縛",
+    "translationVerified": true
+  },
+  "clientSkillId": 939,
+  "icon": "/skills/icy-shackles.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 1...8...10 second[s], target foe's movement speed is reduced by 66%. While under the effects of an enchantment, that foe's movement is reduced by 90%.",
+      "zhTW": "持續 1～10 秒，使目標敵人的移動速度減慢 66% 。若其身上擁有「加持」，則使其移動速度減慢 90% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lonolun-waterwalker",
+          "en": "Lonolun Waterwalker",
+          "zhTW": "Lonolun Waterwalker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "issnur-isles",
+              "en": "Issnur Isles",
+              "zhTW": "伊斯諾島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Issnur_Isles"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lonolun Waterwalker (Issnur Isles)",
+        "source": "https://wiki.guildwars.com/wiki/Icy_Shackles",
+        "url": "https://wiki.guildwars.com/wiki/Lonolun_Waterwalker",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "buhon-icelord",
+          "en": "Buhon Icelord",
+          "zhTW": "Buhon Icelord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Buhon Icelord (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Icy_Shackles",
+        "url": "https://wiki.guildwars.com/wiki/Buhon_Icelord",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 1～10 秒，使目標敵人的移動速度減慢 66% 。若其身上擁有「加持」，則使其移動速度減慢 90% 。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Icy_Shackles",
+      "revision": 2629333,
+      "title": "Icy Shackles",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/27475"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27476,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標敵人的移動速度減慢 %str1%%% 。若其身上擁有「加持」，則使其移動速度減慢 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

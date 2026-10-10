@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "stone-sheath",
+  "name": {
+    "en": "Stone Sheath",
+    "zhTW": "硬石刃鞘",
+    "translationVerified": true
+  },
+  "clientSkillId": 1373,
+  "icon": "/skills/stone-sheath.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-magic",
+    "en": "Earth Magic",
+    "zhTW": "土系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...17...20 seconds, you and target ally have +1...24...30 armor and are immune to critical hits. When you cast this spell, all foes near you and your target take 15...59...70 earth damage and are Weakened for 5...17...20 seconds.",
+      "zhTW": "持續 5～20 秒，使目標及其附近的所有敵人造成的傷害轉變為土系傷害，並且無法造成致命攻擊。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "joknang-earthturner",
+          "en": "Joknang Earthturner",
+          "zhTW": "Joknang Earthturner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Joknang Earthturner (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Stone_Sheath",
+        "url": "https://wiki.guildwars.com/wiki/Joknang_Earthturner",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5～20 秒，使目標及其附近的所有敵人造成的傷害轉變為土系傷害，並且無法造成致命攻擊。",
+  "commonUses": [
+    "土系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Stone_Sheath",
+      "revision": 2733210,
+      "title": "Stone Sheath",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36315",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36316,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標及其附近的所有敵人造成的傷害轉變為土系傷害，並且無法造成致命攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

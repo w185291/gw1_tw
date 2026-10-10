@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "healer-s-boon",
+  "name": {
+    "en": "Healer's Boon",
+    "zhTW": "治癒者恩賜",
+    "translationVerified": true
+  },
+  "clientSkillId": 1393,
+  "icon": "/skills/healer-s-boon.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10...46...55 seconds. [sic] Healing Prayers spells cast 50% faster and heal for 50% more Health.",
+      "zhTW": "持續 10～55秒，「治癒祈禱」屬性魔法，施法速度加快 50% ，而且治癒效果提高 50% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "josinq-the-whisperer",
+          "en": "Josinq the Whisperer",
+          "zhTW": "Josinq the Whisperer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "resplendent-makuun",
+              "en": "Resplendent Makuun",
+              "zhTW": "奢華之城．莫肯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Resplendent_Makuun"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Josinq the Whisperer (Resplendent Makuun)",
+        "source": "https://wiki.guildwars.com/wiki/Healer%27s_Boon",
+        "url": "https://wiki.guildwars.com/wiki/Josinq_the_Whisperer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10～55秒，「治癒祈禱」屬性魔法，施法速度加快 50% ，而且治癒效果提高 50% 。",
+  "commonUses": [
+    "神恩 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healer%27s_Boon",
+      "revision": 2629266,
+      "title": "Healer's Boon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/34777"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34778,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3%秒，「治癒祈禱」屬性魔法，施法速度加快 %str1%%% ，而且治癒效果提高 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

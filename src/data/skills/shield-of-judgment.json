@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "shield-of-judgment",
+  "name": {
+    "en": "Shield of Judgment",
+    "zhTW": "審判之盾",
+    "translationVerified": true
+  },
+  "clientSkillId": 262,
+  "icon": "/skills/shield-of-judgment.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 8...18...20 seconds, anyone striking target ally with an attack is knocked down and suffers 5...41...50 holy damage.",
+      "zhTW": "持續 8～20 秒，任何以一般攻擊命中目標盟友的敵人都將會被擊倒，並且受到 5～50 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "myd-springclaw",
+          "en": "Myd Springclaw",
+          "zhTW": "Myd Springclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Myd Springclaw (Mineral Springs)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Myd_Springclaw",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "infected-zunraa",
+          "en": "Infected Zunraa",
+          "zhTW": "Infected Zunraa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun-winds-of-change",
+              "en": "Zen Daijun (Winds of Change)",
+              "zhTW": "Zen Daijun (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(Winds_of_Change)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Infected Zunraa (Zen Daijun (Winds of Change))",
+        "source": "https://wiki.guildwars.com/wiki/Shield_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Infected_Zunraa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 8～20 秒，任何以一般攻擊命中目標盟友的敵人都將會被擊倒，並且受到 5～50 傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shield_of_Judgment",
+      "revision": 2657163,
+      "title": "Shield of Judgment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25732"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25733,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，任何以一般攻擊命中目標盟友的敵人都將會被擊倒，並且受到 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

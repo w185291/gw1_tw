@@ -1,0 +1,205 @@
+{
+  "pvpOnly": false,
+  "id": "slippery-ground",
+  "name": {
+    "en": "Slippery Ground",
+    "zhTW": "易滑"
+  },
+  "clientSkillId": 2191,
+  "icon": "/skills/slippery-ground.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. If target or adjacent foes are Blind or moving, these foes are knocked down. There is a 50% chance of failure with Water Magic less than 5.",
+      "zhTW": "若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。"
+    },
+    "pvp": {
+      "en": "Spell. If target foe is Blind or moving, that foe is knocked down. (50% failure chance with Water Magic 4 or less.)",
+      "zhTW": "若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Slippery Ground (PvP)",
+      "description": {
+        "en": "Spell. If target foe is Blind or moving, that foe is knocked down. (50% failure chance with Water Magic 4 or less.)",
+        "zhTW": "若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Slippery_Ground_%28PvP%29",
+        "revision": 2720114,
+        "title": "Slippery Ground (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3398
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。",
+  "commonUses": [
+    "水系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+      "revision": 2720215,
+      "title": "Slippery Ground",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Slippery_Ground_%28PvP%29",
+      "revision": 2720114,
+      "title": "Slippery Ground (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69997"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69998,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%%技能失誤幾率。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

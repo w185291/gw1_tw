@@ -1,0 +1,164 @@
+{
+  "id": "wanderlust",
+  "name": {
+    "en": "Wanderlust",
+    "zhTW": "流浪",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1255,
+  "icon": "/skills/wanderlust.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "communing",
+    "en": "Communing",
+    "zhTW": "神諭",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Elite Binding Ritual. Create a level 1...10...12 spirit. Whenever this spirit's attack hits a stationary foe, that foe is knocked down and the spirit loses 70...54...50 Health. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "創造等級 1～12 的流浪縛靈。每當縛靈攻擊命中非移動中的敵人時，敵人將被擊倒同時縛靈失去 70～50 體力。縛靈在 30～60 秒後消失。"
+    },
+    "pvp": {
+      "en": "Elite Binding Ritual. Create a level 1...7...8 spirit. Whenever this spirit's attack hits a stationary foe, that foe is knocked down and the spirit loses 70...54...50 Health. This spirit dies after 30...54...60 seconds.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。攻擊命中不移動的敵人時將其擊倒，並使靈體失去 70～50 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Wanderlust (PvP)",
+      "description": {
+        "en": "Elite Binding Ritual. Create a level 1...7...8 spirit. Whenever this spirit's attack hits a stationary foe, that foe is knocked down and the spirit loses 70...54...50 Health. This spirit dies after 30...54...60 seconds.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 30～60 秒。攻擊命中不移動的敵人時將其擊倒，並使靈體失去 70～50 體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 3.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Wanderlust_%28PvP%29",
+        "revision": 2739044,
+        "title": "Wanderlust (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3020
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "quansong-spiritspeak",
+          "en": "Quansong Spiritspeak",
+          "zhTW": "Quansong Spiritspeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple-explorable-area",
+              "en": "Tahnnakai Temple (explorable area)",
+              "zhTW": "Tahnnakai Temple (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Quansong Spiritspeak (Tahnnakai Temple (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Wanderlust",
+        "url": "https://wiki.guildwars.com/wiki/Quansong_Spiritspeak",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "針對不移動的目標造成擊倒，藉此干擾施法或攻擊；會消耗靈體體力，對持續移動的敵人不能保證控制。",
+  "commonUses": [
+    "靈體擊倒控制",
+    "祭祀干擾"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wanderlust",
+      "revision": 2630210,
+      "title": "Wanderlust",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wanderlust_%28PvP%29",
+      "revision": 2739044,
+      "title": "Wanderlust (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27397"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27398,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的流浪縛靈。每當縛靈攻擊命中非移動中的敵人時，敵人將被擊倒同時縛靈失去 %str2% 體力。縛靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

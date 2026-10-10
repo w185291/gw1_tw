@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {getCampaigns,getMissions,getHeroes,getExtraGuides} from '../src/lib/content';
+import {getSkills} from '../src/lib/skills';
+import {skillCatalogEntries} from '../src/lib/skill-catalog';
+
+const output=path.join(process.cwd(),'public','data','guide-content');
+const dataRoot=path.join(process.cwd(),'src','data');
+fs.mkdirSync(path.join(output,'missions'),{recursive:true});
+fs.mkdirSync(path.join(output,'attributes'),{recursive:true});
+const save=(name:string,value:unknown)=>fs.writeFileSync(path.join(output,name),JSON.stringify(value));
+for(const campaign of getCampaigns())save(`missions/${campaign.id}.json`,{campaign,missions:getMissions(campaign.id)});
+const heroes=getHeroes();
+const missions=getMissions();
+save('heroes.json',{heroes,related:Object.fromEntries(heroes.map(hero=>[hero.id,missions.filter(m=>hero.requiredIn.includes(m.id)).map(m=>({id:m.id,campaign:m.campaign,displayOrder:m.displayOrder,name:m.name}))]))});
+save('extras.json',getExtraGuides());
+const gameClientTerms=JSON.parse(fs.readFileSync(path.join(dataRoot,'terminology','game-client.json'),'utf8')) as {en:string;zhTW:string;stringIds:number[]}[];
+const runtimeTerms=JSON.parse(fs.readFileSync(path.join(dataRoot,'terminology','runtime-verified.json'),'utf8')) as {en:string;zhTW:string;evidence:string[]}[];
+const termMap=new Map(gameClientTerms.map(term=>[term.en,{en:term.en,zhTW:term.zhTW,source:'遊戲字串 ID',evidence:term.stringIds.map(String)}]));
+for(const term of runtimeTerms)if(!termMap.has(term.en))termMap.set(term.en,{en:term.en,zhTW:term.zhTW,source:'執行期 Quest／NPC',evidence:term.evidence});
+save('glossary.json',[...termMap.values()].sort((a,b)=>a.en.localeCompare(b.en,'en')));
+const attributes:Record<string,ReturnType<typeof skillCatalogEntries>>={};
+for(const skill of skillCatalogEntries(getSkills()))(attributes[skill.attribute.id]??=[]).push(skill);
+for(const [id,skills] of Object.entries(attributes))save(`attributes/${id}.json`,skills);
+console.log(`Exported ${missions.length} missions, ${heroes.length} heroes, ${getExtraGuides().length} extras and ${Object.keys(attributes).length} attributes.`);

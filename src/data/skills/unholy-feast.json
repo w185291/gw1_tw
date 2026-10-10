@@ -1,0 +1,370 @@
+{
+  "pvpOnly": false,
+  "id": "unholy-feast",
+  "name": {
+    "en": "Unholy Feast",
+    "zhTW": "邪惡饗宴",
+    "translationVerified": true
+  },
+  "clientSkillId": 110,
+  "icon": "/skills/unholy-feast.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Steal up to 10...54...65 Health from up to 1...3...4 foes [sic] in the area.",
+      "zhTW": "從範圍內最多 1～4 名敵人身上偷取最多 10～65 體力。"
+    },
+    "pvp": {
+      "en": "Spell. Steal up to 10...54...65 Health from up to 1...3...4 foes [sic] in the area.",
+      "zhTW": "從範圍內最多 1～4 名敵人身上偷取最多 10～65 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Unholy Feast (PvP)",
+      "description": {
+        "en": "Spell. Steal up to 10...54...65 Health from up to 1...3...4 foes [sic] in the area.",
+        "zhTW": "從範圍內最多 1～4 名敵人身上偷取最多 10～65 體力。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Unholy_Feast_%28PvP%29",
+        "revision": 2695758,
+        "title": "Unholy Feast (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3058
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "avena",
+          "en": "Avena",
+          "zhTW": "Avena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maguuma-stade",
+              "en": "Maguuma Stade",
+              "zhTW": "梅古瑪叢林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Avena (Maguuma Stade)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Avena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "koril-the-malignant",
+          "en": "Koril the Malignant",
+          "zhTW": "Koril the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          },
+          {
+            "name": {
+              "id": "temple-of-the-intolerable",
+              "en": "Temple of the Intolerable",
+              "zhTW": "Temple of the Intolerable",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Intolerable"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Koril the Malignant (D'Alessio Seaboard, during Temple of the Intolerable)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Koril_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "erulai-the-inimical",
+          "en": "Erulai the Inimical",
+          "zhTW": "Erulai the Inimical",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen-explorable-area",
+              "en": "Bloodstone Fen (explorable area)",
+              "zhTW": "Bloodstone Fen (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "all-for-one-and-one-for-justice",
+              "en": "All for One and One for Justice",
+              "zhTW": "All for One and One for Justice",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/All_for_One_and_One_for_Justice"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Erulai the Inimical (Bloodstone Fen (explorable area), during All for One and One for Justice)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Erulai_the_Inimical",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "livia",
+          "en": "Livia",
+          "zhTW": "莉薇亞",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Livia",
+        "source": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+        "url": "https://wiki.guildwars.com/wiki/Livia",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "從範圍內最多 1～4 名敵人身上偷取最多 10～65 體力。",
+  "commonUses": [
+    "血魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+      "revision": 2695757,
+      "title": "Unholy Feast",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unholy_Feast_%28PvP%29",
+      "revision": 2695758,
+      "title": "Unholy Feast (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25040"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25041,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "從範圍內最多 %str2% 名敵人身上偷取最多 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

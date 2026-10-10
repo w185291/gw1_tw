@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "vampiric-spirit",
+  "name": {
+    "en": "Vampiric Spirit",
+    "zhTW": "吸血之靈",
+    "translationVerified": true
+  },
+  "clientSkillId": 819,
+  "icon": "/skills/vampiric-spirit.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. Steal up to 15...51...60 Health from target foe. For 10 seconds, you have +5...9...10 Health regeneration.",
+      "zhTW": "偷取目標敵人15～60體力，10秒內你得體力再生增加5～10。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "dark-fang",
+          "en": "Dark Fang",
+          "zhTW": "Dark Fang",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone",
+              "en": "Arborstone",
+              "zhTW": "亭石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Dark Fang (Arborstone)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
+        "url": "https://wiki.guildwars.com/wiki/Dark_Fang",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "kaswa-webstrider",
+          "en": "Kaswa Webstrider",
+          "zhTW": "Kaswa Webstrider",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone-explorable-area",
+              "en": "Arborstone (explorable area)",
+              "zhTW": "Arborstone (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kaswa Webstrider (Arborstone (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
+        "url": "https://wiki.guildwars.com/wiki/Kaswa_Webstrider",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "偷取目標敵人15～60體力，10秒內你得體力再生增加5～10。",
+  "commonUses": [
+    "血魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
+      "revision": 2733157,
+      "title": "Vampiric Spirit",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26628",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26629,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "偷取目標敵人%str1%體力，%str3%秒內你得體力再生增加%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

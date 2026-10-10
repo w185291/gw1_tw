@@ -1,0 +1,402 @@
+{
+  "pvpOnly": false,
+  "id": "fire-attunement",
+  "name": {
+    "en": "Fire Attunement",
+    "zhTW": "火之調和",
+    "translationVerified": true
+  },
+  "clientSkillId": 184,
+  "icon": "/skills/fire-attunement.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 36...55...60 seconds, you are attuned to Fire. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Fire Magic.",
+      "zhTW": "持續 36～60 秒，你與火焰調和。每次你使用火系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-royal-papers",
+          "en": "The Royal Papers",
+          "zhTW": "The Royal Papers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Royal Papers (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/The_Royal_Papers",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "inquisitor-lovisa",
+          "en": "Inquisitor Lovisa",
+          "zhTW": "Inquisitor Lovisa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          },
+          {
+            "name": {
+              "id": "wanted-inquisitor-lovisa",
+              "en": "Wanted: Inquisitor Lovisa",
+              "zhTW": "Wanted: Inquisitor Lovisa",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wanted:_Inquisitor_Lovisa"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lovisa (Watchtower Coast (War in Kryta), only during Wanted: Inquisitor Lovisa)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lovisa",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "borrguus-blisterbark",
+          "en": "Borrguus Blisterbark",
+          "zhTW": "Borrguus Blisterbark",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Borrguus Blisterbark (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Borrguus_Blisterbark",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "regent-of-flame",
+          "en": "Regent of Flame",
+          "zhTW": "Regent of Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "catacombs-of-kathandrax",
+              "en": "Catacombs of Kathandrax",
+              "zhTW": "卡山卓司的地下墓穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Catacombs_of_Kathandrax"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Regent of Flame (Catacombs of Kathandrax)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Regent_of_Flame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lok-the-mischievous",
+          "en": "Lok The Mischievous",
+          "zhTW": "Lok The Mischievous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arachni-s-haunt",
+              "en": "Arachni's Haunt",
+              "zhTW": "奧拉克妮的棲息地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arachni%27s_Haunt"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lok The Mischievous (Arachni's Haunt)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Lok_The_Mischievous",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "magmus",
+          "en": "Magmus",
+          "zhTW": "Magmus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          },
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks-quest",
+              "en": "Heart of the Shiverpeaks (quest)",
+              "zhTW": "Heart of the Shiverpeaks (quest)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks_(quest)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Magmus (Heart of the Shiverpeaks, after completion of the quest Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Magmus",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 36～60 秒，你與火焰調和。每次你使用火系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。",
+  "commonUses": [
+    "火系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+      "revision": 2718870,
+      "title": "Fire Attunement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25190",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25193,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你與火焰調和。每次你使用火系魔法時，獲得 1 能量並且可回收消耗能量的 30%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

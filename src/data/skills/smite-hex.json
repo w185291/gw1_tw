@@ -1,0 +1,518 @@
+{
+  "pvpOnly": false,
+  "id": "smite-hex",
+  "name": {
+    "en": "Smite Hex",
+    "zhTW": "降咒懲戒",
+    "translationVerified": true
+  },
+  "clientSkillId": 302,
+  "icon": "/skills/smite-hex.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove a hex from target ally. If a hex is removed, foes in the area suffer 10...70...85 holy damage.",
+      "zhTW": "當成功從目標盟友身上消除一項「降咒」時，對範圍內的敵人造成 10～85 神聖傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "eye-for-profit",
+          "en": "Eye For Profit",
+          "zhTW": "Eye For Profit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "druid-s-overlook",
+              "en": "Druid's Overlook",
+              "zhTW": "德魯伊高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Druid%27s_Overlook"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eye For Profit (Druid's Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Eye_For_Profit",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ijan-the-cursed",
+          "en": "Ijan the Cursed",
+          "zhTW": "Ijan the Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ijan the Cursed (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Ijan_the_Cursed",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "boulad-the-perverse",
+          "en": "Boulad the Perverse",
+          "zhTW": "Boulad the Perverse",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Boulad the Perverse (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Boulad_the_Perverse",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kemal-the-deadened",
+          "en": "Kemal the Deadened",
+          "zhTW": "Kemal the Deadened",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kemal the Deadened (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Kemal_the_Deadened",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "raja-crux",
+          "en": "Raja Crux",
+          "zhTW": "Raja Crux",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Raja Crux (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Raja_Crux",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "raptorhawk",
+          "en": "Raptorhawk",
+          "zhTW": "Raptorhawk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Raptorhawk (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Raptorhawk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "amalek-the-unmerciful",
+          "en": "Amalek the Unmerciful",
+          "zhTW": "Amalek the Unmerciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Amalek the Unmerciful (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Amalek_the_Unmerciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "captain-shehnahr",
+          "en": "Captain Shehnahr",
+          "zhTW": "Captain Shehnahr",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Shehnahr (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Shehnahr",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "riseh-the-harmless",
+          "en": "Riseh the Harmless",
+          "zhTW": "Riseh the Harmless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Riseh the Harmless (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Riseh_the_Harmless",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "horai-wingshielder",
+          "en": "Horai Wingshielder",
+          "zhTW": "Horai Wingshielder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Horai Wingshielder (Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Horai_Wingshielder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gorlos-skinflayer",
+          "en": "Gorlos Skinflayer",
+          "zhTW": "Gorlos Skinflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorlos Skinflayer (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Gorlos_Skinflayer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Smite_Hex",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "當成功從目標盟友身上消除一項「降咒」時，對範圍內的敵人造成 10～85 神聖傷害。",
+  "commonUses": [
+    "懲戒祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Smite_Hex",
+      "revision": 2683750,
+      "title": "Smite Hex",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25813"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25814,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當成功從目標盟友身上消除一項「降咒」時，對範圍內的敵人造成 %str1% 神聖傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

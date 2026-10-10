@@ -1,0 +1,182 @@
+{
+  "pvpOnly": false,
+  "id": "shared-burden",
+  "name": {
+    "en": "Shared Burden",
+    "zhTW": "共享負荷",
+    "translationVerified": true
+  },
+  "clientSkillId": 900,
+  "icon": "/skills/shared-burden.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target foe and all foes in the area attack, cast spells, and move 50% slower.",
+      "zhTW": "在5～20秒内，目标敌人及其周围所有敌人的攻击、施法和移动速度降低50%。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target foe and all foes in the area attack, cast spells, and move 33% slower.",
+      "zhTW": "在5～20秒内，目标敌人及其周围所有敌人的攻击、施法和移动速度降低33%。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shared Burden (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 5...17...20 seconds, target foe and all foes in the area attack, cast spells, and move 33% slower.",
+        "zhTW": "在5～20秒内，目标敌人及其周围所有敌人的攻击、施法和移动速度降低33%。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shared_Burden_%28PvP%29",
+        "revision": 2721219,
+        "title": "Shared Burden (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3186
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "deeproot-sorrow",
+          "en": "Deeproot Sorrow",
+          "zhTW": "Deeproot Sorrow",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Deeproot Sorrow (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Shared_Burden",
+        "url": "https://wiki.guildwars.com/wiki/Deeproot_Sorrow",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "kenrii-sea-sorrow",
+          "en": "Kenrii Sea Sorrow",
+          "zhTW": "Kenrii Sea Sorrow",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kenrii Sea Sorrow (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Shared_Burden",
+        "url": "https://wiki.guildwars.com/wiki/Kenrii_Sea_Sorrow",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "在5～20秒内，目标敵人及其周围所有敵人的攻击、施法和移动速度降低50%。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shared_Burden",
+      "revision": 2720383,
+      "title": "Shared Burden",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shared_Burden_%28PvP%29",
+      "revision": 2721219,
+      "title": "Shared Burden (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/26564"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26565,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在%str3%秒内，目标敌人及其周围所有敌人的攻击、施法和移动速度降低%str1%%%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

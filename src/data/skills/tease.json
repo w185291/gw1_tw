@@ -1,0 +1,182 @@
+{
+  "pvpOnly": false,
+  "id": "tease",
+  "name": {
+    "en": "Tease",
+    "zhTW": "嘲弄",
+    "translationVerified": true
+  },
+  "clientSkillId": 1342,
+  "icon": "/skills/tease.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...4...5 Energy from all foes in the area.",
+      "zhTW": "若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0～5 能量。"
+    },
+    "pvp": {
+      "en": "Elite Spell. If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...4...5 Energy from all foes in the area.",
+      "zhTW": "若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0～5 能量。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Tease (PvP)",
+      "description": {
+        "en": "Elite Spell. If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...4...5 Energy from all foes in the area.",
+        "zhTW": "若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0～5 能量。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Tease_%28PvP%29",
+        "revision": 2739065,
+        "title": "Tease (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3463
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "justiciar-kimii",
+          "en": "Justiciar Kimii",
+          "zhTW": "Justiciar Kimii",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Kimii (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Tease",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Kimii",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "makdeh-the-aggravating",
+          "en": "Makdeh the Aggravating",
+          "zhTW": "Makdeh the Aggravating",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yatendi-canyons",
+              "en": "Yatendi Canyons",
+              "zhTW": "亞天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yatendi_Canyons"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Makdeh the Aggravating (Yatendi Canyons)",
+        "source": "https://wiki.guildwars.com/wiki/Tease",
+        "url": "https://wiki.guildwars.com/wiki/Makdeh_the_Aggravating",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0～5 能量。",
+  "commonUses": [
+    "靈感魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tease",
+      "revision": 2738391,
+      "title": "Tease",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tease_%28PvP%29",
+      "revision": 2739065,
+      "title": "Tease (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33276",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33277,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,385 @@
+{
+  "pvpOnly": false,
+  "id": "point-blank-shot",
+  "name": {
+    "en": "Point Blank Shot",
+    "zhTW": "近距弓射",
+    "translationVerified": true
+  },
+  "clientSkillId": 407,
+  "icon": "/skills/point-blank-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "Bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Bow Attack. Shoot an arrow that has half the normal range, but strikes for +10...34...40 damage.",
+      "zhTW": "此技能的弓射距離是平常的一半，但是對目標造成 10～40 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "a-test-of-marksmanship",
+          "en": "A Test of Marksmanship",
+          "zhTW": "A Test of Marksmanship",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "regent-valley-pre-searing",
+              "en": "Regent Valley (pre-Searing)",
+              "zhTW": "Regent Valley (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Regent_Valley_(pre-Searing)"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Test of Marksmanship (Regent Valley - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/A_Test_of_Marksmanship",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "squaw-nimblecrest",
+          "en": "Squaw Nimblecrest",
+          "zhTW": "Squaw Nimblecrest",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Squaw Nimblecrest (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Squaw_Nimblecrest",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "phy-deftcrest",
+          "en": "Phy Deftcrest",
+          "zhTW": "Phy Deftcrest",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Phy Deftcrest (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Phy_Deftcrest",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "zu-jin-the-quick",
+          "en": "Zu Jin the Quick",
+          "zhTW": "Zu Jin the Quick",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district-winds-of-change",
+              "en": "Sunjiang District (Winds of Change)",
+              "zhTW": "Sunjiang District (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zu Jin the Quick (Sunjiang District (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Zu_Jin_the_Quick",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "heifan-kanko",
+          "en": "Heifan Kanko",
+          "zhTW": "Heifan Kanko",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Heifan Kanko (Sunjiang District (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Heifan_Kanko",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-ranger",
+          "en": "Monstrous Afflicted Ranger",
+          "zhTW": "Monstrous Afflicted Ranger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Ranger (Morostav Trail, during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Ranger",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "am-fah-courier",
+          "en": "Am Fah Courier",
+          "zhTW": "Am Fah Courier",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bejunkan-pier",
+              "en": "Bejunkan Pier",
+              "zhTW": "君瞰碼頭",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bejunkan_Pier"
+          },
+          {
+            "name": {
+              "id": "intercepting-the-am-fah",
+              "en": "Intercepting the Am Fah",
+              "zhTW": "Intercepting the Am Fah",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Intercepting_the_Am_Fah"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Am Fah Courier (Bejunkan Pier, during Intercepting the Am Fah)",
+        "source": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Am_Fah_Courier",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "此技能的弓射距離是平常的一半，但是對目標造成 10～40 額外傷害。",
+  "commonUses": [
+    "Expertise · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+      "revision": 2733124,
+      "title": "Point Blank Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26172"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26173,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此技能的弓射距離是平常的一半，但是對目標造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

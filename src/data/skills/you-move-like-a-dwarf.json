@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "you-move-like-a-dwarf",
+  "name": {
+    "en": "\"You Move Like a Dwarf!\"",
+    "zhTW": "\"你的動作像個矮人！\""
+  },
+  "clientSkillId": 2358,
+  "icon": "/skills/you-move-like-a-dwarf.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Target foe is knocked down and takes 44...80 damage. That foe is also Crippled for 8...15 seconds.",
+      "zhTW": "目標敵人被擊倒並受到 44～80 傷害。當該敵人站起時，將遭受「殘廢」8～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "worthy-deeds-done-dirt-cheap",
+          "en": "Worthy Deeds (Done Dirt Cheap)",
+          "zhTW": "Worthy Deeds (Done Dirt Cheap)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sif-shadowhunter",
+              "en": "Sif Shadowhunter",
+              "zhTW": "Sif Shadowhunter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sif_Shadowhunter"
+          },
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Worthy Deeds (Done Dirt Cheap) (from Sif Shadowhunter in Sifhalla)",
+        "source": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Worthy_Deeds_(Done_Dirt_Cheap)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "目標敵人被擊倒並受到 44～80 傷害。當該敵人站起時，將遭受「殘廢」8～15 秒。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf%21%22",
+      "revision": 2667948,
+      "title": "\"You Move Like a Dwarf!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69941"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69942,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標敵人被擊倒並受到 %str1% 傷害。當該敵人站起時，將遭受「殘廢」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,363 @@
+{
+  "pvpOnly": false,
+  "id": "ray-of-judgment",
+  "name": {
+    "en": "Ray of Judgment",
+    "zhTW": "制裁目光",
+    "translationVerified": true
+  },
+  "clientSkillId": 830,
+  "icon": "/skills/ray-of-judgment.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Invoke a Ray of Judgment at target foe's location. For 5 seconds, target foe and all foes adjacent to this location take 10...42...50 holy damage each second and begin Burning for 1...3...3 second[s].",
+      "zhTW": "持續5秒，每秒對目標以及鄰近敵人造成10～50神聖傷害以及著火1～3秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "barthimus-the-provident",
+          "en": "Barthimus the Provident",
+          "zhTW": "Barthimus the Provident",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cursed-lands-war-in-kryta",
+              "en": "Cursed Lands (War in Kryta)",
+              "zhTW": "Cursed Lands (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cursed_Lands_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Barthimus the Provident (Cursed Lands (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Barthimus_the_Provident",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-miju",
+          "en": "The Afflicted Miju",
+          "zhTW": "The Afflicted Miju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          },
+          {
+            "name": {
+              "id": "vizunah-square",
+              "en": "Vizunah Square",
+              "zhTW": "薇茹廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vizunah_Square"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Miju (The Undercity, Vizunah Square)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Miju",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-cho",
+          "en": "The Afflicted Cho",
+          "zhTW": "The Afflicted Cho",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Cho (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Cho",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-jingme",
+          "en": "The Afflicted Jingme",
+          "zhTW": "The Afflicted Jingme",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters",
+              "en": "Unwaking Waters",
+              "zhTW": "沉睡之水",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Jingme (Unwaking Waters)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Jingme",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ming-the-judgment",
+          "en": "Ming the Judgment",
+          "zhTW": "Ming the Judgment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ming the Judgment (The Undercity (Winds of Change) before completion of A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Ming_the_Judgment",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "dimsur-cheefai",
+          "en": "Dimsur Cheefai",
+          "zhTW": "Dimsur Cheefai",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Dimsur Cheefai (The Undercity (Winds of Change), after completion of A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Dimsur_Cheefai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "plagued-zunraa",
+          "en": "Plagued Zunraa",
+          "zhTW": "Plagued Zunraa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun-winds-of-change",
+              "en": "Zen Daijun (Winds of Change)",
+              "zhTW": "Zen Daijun (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(Winds_of_Change)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Plagued Zunraa (Zen Daijun (Winds of Change))",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Plagued_Zunraa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-monk",
+          "en": "Monstrous Afflicted Monk",
+          "zhTW": "Monstrous Afflicted Monk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail-winds-of-change",
+              "en": "Morostav Trail (Winds of Change)",
+              "zhTW": "Morostav Trail (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail_(Winds_of_Change)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Monk (Morostav Trail (Winds of Change))",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Monk",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "rei-bi",
+          "en": "Rei Bi",
+          "zhTW": "Rei Bi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rei Bi (Dragon's Throat, only during What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Rei_Bi",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gorlos-skinflayer",
+          "en": "Gorlos Skinflayer",
+          "zhTW": "Gorlos Skinflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorlos Skinflayer (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+        "url": "https://wiki.guildwars.com/wiki/Gorlos_Skinflayer",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續5秒，每秒對目標以及鄰近敵人造成10～50神聖傷害以及著火1～3秒。",
+  "commonUses": [
+    "懲戒祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+      "revision": 2731490,
+      "title": "Ray of Judgment",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26924",
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26925,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，每秒對目標以及鄰近敵人造成%str1%神聖傷害以及著火%str2%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

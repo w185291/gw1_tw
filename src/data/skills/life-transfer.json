@@ -1,0 +1,381 @@
+{
+  "pvpOnly": false,
+  "id": "life-transfer",
+  "name": {
+    "en": "Life Transfer",
+    "zhTW": "生命轉移",
+    "translationVerified": true
+  },
+  "clientSkillId": 126,
+  "icon": "/skills/life-transfer.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1,
+  "recharge": 20,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 6...11...12 seconds, target foe and adjacent foes suffer -3...7...8 Health degeneration, which you gain as Health regeneration.",
+      "zhTW": "持續 6～12 秒，目標及其鄰近敵人遭受 3～8 體力衰減，同時你獲得等值的體力再生。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "mursaat-necromancer-boss",
+          "en": "Mursaat Necromancer (boss)",
+          "zhTW": "Mursaat Necromancer (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mursaat Necromancer (boss) (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Mursaat_Necromancer_(boss)",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "feodor-the-baneful",
+          "en": "Feodor the Baneful",
+          "zhTW": "Feodor the Baneful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Feodor the Baneful (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Feodor_the_Baneful",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "argyris-the-scoundrel",
+          "en": "Argyris the Scoundrel",
+          "zhTW": "Argyris the Scoundrel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Argyris the Scoundrel (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "odelyn-the-displeased",
+          "en": "Odelyn the Displeased",
+          "zhTW": "Odelyn the Displeased",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Odelyn the Displeased (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Odelyn_the_Displeased",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "sarlic-the-judge",
+          "en": "Sarlic the Judge",
+          "zhTW": "Sarlic the Judge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sarlic the Judge (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Sarlic_the_Judge",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "lugg-the-malignant",
+          "en": "Lugg the Malignant",
+          "zhTW": "Lugg the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "the-titan-source",
+              "en": "The Titan Source",
+              "zhTW": "The Titan Source",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lugg the Malignant (Dragon's Gullet, only during The Titan Source)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Lugg_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "koril-the-malignant",
+          "en": "Koril the Malignant",
+          "zhTW": "Koril the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "temple-of-the-intolerable",
+              "en": "Temple of the Intolerable",
+              "zhTW": "Temple of the Intolerable",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Intolerable"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Koril the Malignant (D'Alessio Seaboard (explorable area), only during Temple of the Intolerable)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Koril_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "katye-bloodburner",
+          "en": "Katye Bloodburner",
+          "zhTW": "Katye Bloodburner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Katye Bloodburner (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Katye_Bloodburner",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "the-keeper",
+          "en": "The Keeper",
+          "zhTW": "The Keeper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Keeper (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/The_Keeper",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "tanto-the-grim",
+          "en": "Tanto the Grim",
+          "zhTW": "Tanto the Grim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "haunted",
+              "en": "Haunted",
+              "zhTW": "詛咒",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Haunted"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tanto the Grim (Varajar Fells, only during 詛咒)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Transfer",
+        "url": "https://wiki.guildwars.com/wiki/Tanto_the_Grim",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "持續 6～12 秒，目標及其鄰近敵人遭受 3～8 體力衰減，同時你獲得等值的體力再生。",
+  "commonUses": [
+    "血魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Life_Transfer",
+      "revision": 2733074,
+      "title": "Life Transfer",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25072",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25073,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標及其鄰近敵人遭受 %str1% 體力衰減，同時你獲得等值的體力再生。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

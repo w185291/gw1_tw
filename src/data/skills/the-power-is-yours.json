@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "the-power-is-yours",
+  "name": {
+    "en": "\"The Power Is Yours!\"",
+    "zhTW": "力量在我！",
+    "translationVerified": true
+  },
+  "clientSkillId": 1782,
+  "icon": "/skills/the-power-is-yours.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Shout. For 2...4...4 seconds, all allies within earshot gain 1...2...2 Energy regeneration.",
+      "zhTW": "持續2～4秒，音量所及範圍內的盟友獲得能量再生1～2。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "tureksin-the-delegator",
+          "en": "Tureksin the Delegator",
+          "zhTW": "Tureksin the Delegator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tureksin the Delegator (The Ruptured Heart)",
+        "source": "https://wiki.guildwars.com/wiki/%22The_Power_Is_Yours%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Tureksin_the_Delegator",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續2～4秒，音量所及範圍內的盟友獲得能量再生1～2。",
+  "commonUses": [
+    "激勵 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22The_Power_Is_Yours%21%22",
+      "revision": 2732018,
+      "title": "\"The Power Is Yours!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44136",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44137,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，音量所及範圍內的盟友獲得能量再生%str1%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

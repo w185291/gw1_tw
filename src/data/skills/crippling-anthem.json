@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "crippling-anthem",
+  "name": {
+    "en": "Crippling Anthem",
+    "zhTW": "致殘聖歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1554,
+  "icon": "/skills/crippling-anthem.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 3.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Chant. For 10 seconds, the next attack skill used by each ally within earshot causes Crippling for 5...13...15 seconds.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的隊伍成員，「下一次」使用「攻擊技能」時使目標遭受「殘廢」病症 5～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lieutenant-mahrik",
+          "en": "Lieutenant Mahrik",
+          "zhTW": "Lieutenant Mahrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Mahrik (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anthem",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Mahrik",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "lieutenant-shagu",
+          "en": "Lieutenant Shagu",
+          "zhTW": "Lieutenant Shagu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Shagu (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anthem",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Shagu",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，使音量所及範圍內的隊伍成員，「下一次」使用「攻擊技能」時使目標遭受「殘廢」病症 5～15 秒。",
+  "commonUses": [
+    "命令 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Crippling_Anthem",
+      "revision": 2738755,
+      "title": "Crippling Anthem",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/39881"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39882,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的隊伍成員，「下一次」使用「攻擊技能」時使目標遭受「殘廢」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

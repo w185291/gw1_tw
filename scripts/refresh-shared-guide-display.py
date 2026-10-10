@@ -1,0 +1,25 @@
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+p=ROOT/'src/templates/MissionDetailTemplate.tsx';s=p.read_text(encoding='utf-8')
+if "import {entryTypeLabels}" not in s:s="import {entryTypeLabels} from '@/lib/labels';\n"+s
+s=s.replace("const rewardGroups=m.masterReward?", "const rewardGroups=m.type==='primary-quest'?([['任務獎勵',m.rewards.normal]] as const):m.masterReward?")
+s=s.replace('/ Mission {m.displayOrder', '/ {entryTypeLabels[m.type]} {m.displayOrder')
+if "m.bonus.kind!=='none'&&<Badge" not in s:
+    s=s.replace('<Badge tone="gold">{m.masterReward?', '{m.bonus.kind!==\'none\'&&<Badge tone="gold">{m.masterReward?',1)
+    s=s.replace("?'限時 BONUS':'BONUS'}</Badge><Badge>{m.partySize}","?'限時 BONUS':'BONUS'}</Badge>}<Badge>{m.partySize}",1)
+s=s.replace("{m.masterReward?'大師條件':'Bonus'}", "{m.masterReward?'大師條件':m.bonus.kind==='none'?'完成條件':'Bonus'}")
+s=s.replace('<Badge tone="gold">BONUS</Badge><h2>{m.bonus.title}', '<Badge tone="gold">{m.bonus.kind===\'none\'?\'QUEST\':\'BONUS\'}</Badge><h2>{m.bonus.title}')
+s=s.replace('<strong>可捕捉菁英：</strong>','<strong>菁英技能：</strong>')
+s=s.replace("'沒有固定可捕捉菁英'","'沒有固定菁英技能'")
+s=s.replace("{m.masterReward?'本關沒有獨立可捕捉Boss列表；關鍵敵人的處理見上方機制。':'TODO：敵人與 Boss 資料尚待查核。'}", "{m.bossAbsenceVerified?m.bossAbsenceReason:'敵人與 Boss 資料尚未完成核對。'}")
+s=s.replace("{m.tips.length?<Bullets items={m.tips}/>:<p className={styles.todo}>TODO：待整理。</p>}","{m.tips.length>0&&<Bullets items={m.tips}/>}" )
+p.write_text(s,encoding='utf-8')
+p=ROOT/'src/components/MissionList.tsx';s=p.read_text(encoding='utf-8')
+s=s.replace("m.status==='complete'","m.contentStatus==='complete'")
+s=s.replace("?'完整攻略':'待整理'","?'完整攻略':'查核未完成'")
+s=s.replace("{m.branch} · 同階段替代路線","{m.branch} · {campaign.id==='eye-of-the-north'?'分支進度':'同階段替代路線'}")
+s=s.replace("campaign.id==='prophecies'?'Bonus':'大師目標'","campaign.id==='prophecies'?'Bonus':campaign.id==='eye-of-the-north'?'額外目標':'大師目標'")
+p.write_text(s,encoding='utf-8')
+p=ROOT/'src/components/SidebarNavigation.tsx';s=p.read_text(encoding='utf-8').replace('>Mission {current?', '>任務 {current?');p.write_text(s,encoding='utf-8')
+p=ROOT/'src/app/campaigns/[campaign]/missions/page.tsx';s=p.read_text(encoding='utf-8').replace("m.status==='complete'","m.contentStatus==='complete'");p.write_text(s,encoding='utf-8')
+print('Shared template distinguishes Quest rewards, absence of Bonus and researched enemy skill lists.')

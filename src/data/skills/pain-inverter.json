@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "pain-inverter",
+  "name": {
+    "en": "Pain Inverter",
+    "zhTW": "痛苦倒轉"
+  },
+  "clientSkillId": 2418,
+  "icon": "/skills/pain-inverter.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 6...10 seconds, every time target foe deals damage that foe takes 100...140% of the damage it causes (maximum 80 damage).",
+      "zhTW": "持續 6～10 秒，每當目標敵人造成傷害，則該名敵人也將受到 100～140%傷害反彈 (最多 80 傷害值)。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "spoiler-related-cipher",
+          "en": "Spoiler-related Cipher",
+          "zhTW": "Spoiler-related Cipher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Spoiler-related Cipher (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Pain_Inverter",
+        "url": "https://wiki.guildwars.com/wiki/Spoiler-related_Cipher",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 6～10 秒，每當目標敵人造成傷害，則該名敵人也將受到 100～140%傷害反彈 (最多 80 傷害值)。",
+  "commonUses": [
+    "Asura rank · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Pain_Inverter",
+      "revision": 2728795,
+      "title": "Pain Inverter",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72882"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72883,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標敵人造成傷害，則該名敵人也將受到 %str1%%%傷害反彈 (最多 80 傷害值)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

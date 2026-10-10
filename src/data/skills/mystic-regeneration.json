@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "mystic-regeneration",
+  "name": {
+    "en": "Mystic Regeneration",
+    "zhTW": "再生祕法",
+    "translationVerified": true
+  },
+  "clientSkillId": 1516,
+  "icon": "/skills/mystic-regeneration.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "earth-prayers",
+    "en": "Earth Prayers",
+    "zhTW": "地之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...17...20 seconds, you have +1...3...4 Health regeneration for each enchantment (maximum of 8) on you.",
+      "zhTW": "持續5～20秒，每項加持使你體力再生增加1～4(最多8個加持)。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 5...17...20 seconds, you have +1...3...4 Health regeneration for each enchantment (maximum of 3) on you.",
+      "zhTW": "持續5～20秒，每項加持使你體力再生增加1～4(最多3個加持)。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Mystic Regeneration (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 5...17...20 seconds, you have +1...3...4 Health regeneration for each enchantment (maximum of 3) on you.",
+        "zhTW": "持續5～20秒，每項加持使你體力再生增加1～4(最多3個加持)。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_%28PvP%29",
+        "revision": 2738605,
+        "title": "Mystic Regeneration (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2884
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kai-shi-jo",
+          "en": "Kai Shi Jo",
+          "zhTW": "Kai Shi Jo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kai Shi Jo (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
+        "url": "https://wiki.guildwars.com/wiki/Kai_Shi_Jo",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續5～20秒，每項加持使你體力再生增加1～4(最多8個加持)。",
+  "commonUses": [
+    "地之祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
+      "revision": 2733235,
+      "title": "Mystic Regeneration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_%28PvP%29",
+      "revision": 2738605,
+      "title": "Mystic Regeneration (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/33389"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33390,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，每項加持使你體力再生增加%str1%(最多8個加持)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

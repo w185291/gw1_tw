@@ -1,0 +1,134 @@
+{
+  "id": "grasping-was-kuurong",
+  "name": {
+    "en": "Grasping Was Kuurong",
+    "zhTW": "貪婪者古朗",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 789,
+  "icon": "/skills/grasping-was-kuurong.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Kuurong's ashes for up to 15...51...60 seconds. When you drop his ashes, all foes in the area are struck for 15...63...75 damage and knocked down.",
+      "zhTW": "抱持骨灰最多 15～60 秒。放下時對區域內敵人造成 15～75 傷害並擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ssyn-coiled-grasp",
+          "en": "Ssyn Coiled Grasp",
+          "zhTW": "Ssyn Coiled Grasp",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ssyn Coiled Grasp (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong",
+        "url": "https://wiki.guildwars.com/wiki/Ssyn_Coiled_Grasp",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "先拿骨灰靠近敵人群，再放下造成範圍傷害與擊倒；注意近身風險及骨灰的持續時間。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong",
+      "revision": 2726597,
+      "title": "Grasping Was Kuurong",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27267"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27268,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Hold Kuurong's ashes for up to %str3% second. When you drop his ashes, all foes in the area are struck for %str1% damage and knocked down."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Chinese summary checked against current Wiki effect; native English fallback not treated as Chinese.",
+  "rechargeNote": ""
+}

@@ -1,0 +1,332 @@
+{
+  "pvpOnly": false,
+  "id": "ignorance",
+  "name": {
+    "en": "Ignorance",
+    "zhTW": "無知",
+    "translationVerified": true
+  },
+  "clientSkillId": 35,
+  "icon": "/skills/ignorance.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 8...18...20 seconds target foe cannot use signets.",
+      "zhTW": "使目標敵人在 8～20 秒內無法施展「紋章」類型的技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "thengen",
+          "en": "Thengen",
+          "zhTW": "Thengen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "port-sledge",
+              "en": "Port Sledge",
+              "zhTW": "雪橇港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Port_Sledge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thengen (Port Sledge)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Thengen",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-darkness-boss",
+          "en": "The Darkness (boss)",
+          "zhTW": "The Darkness (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hall-of-heroes",
+              "en": "The Hall of Heroes",
+              "zhTW": "英雄殿堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hall_of_Heroes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Darkness (The Hall of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/The_Darkness_(boss)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "amind-the-bitter",
+          "en": "Amind the Bitter",
+          "zhTW": "Amind the Bitter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-desolation",
+              "en": "Gate of Desolation",
+              "zhTW": "荒蕪之地入口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Amind the Bitter (Gate of Desolation)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Amind_the_Bitter",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "eshwe-the-insane",
+          "en": "Eshwe the Insane",
+          "zhTW": "Eshwe the Insane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Eshwe the Insane (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Eshwe_the_Insane",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "shelkeh-the-hungry",
+          "en": "Shelkeh the Hungry",
+          "zhTW": "Shelkeh the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-alkali-pan",
+              "en": "The Alkali Pan",
+              "zhTW": "金屬鎔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shelkeh the Hungry (The Alkali Pan)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Shelkeh_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Ignorance",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人在 8～20 秒內無法施展「紋章」類型的技能。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ignorance",
+      "revision": 2720053,
+      "title": "Ignorance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24865",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24866,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人在 %str3% 秒內無法施展「紋章」類型的技能。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

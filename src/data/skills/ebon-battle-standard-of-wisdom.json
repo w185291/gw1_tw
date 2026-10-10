@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-battle-standard-of-wisdom",
+  "name": {
+    "en": "Ebon Battle Standard of Wisdom",
+    "zhTW": "黑檀戰鬥智慧規範"
+  },
+  "clientSkillId": 2232,
+  "icon": "/skills/ebon-battle-standard-of-wisdom.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "ward-spell",
+    "en": "Ward spell",
+    "zhTW": "結界魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Ward Spell. You plant an Ebon Battle Standard of Wisdom at your current location. For 14...20 seconds, non-spirit allies in this area have a 44...60% chance to halve skill recharge of spells they cast.",
+      "zhTW": "於你目前的位置上策劃「黑檀戰鬥智慧規範」。持續 14～20 秒，此區域所有非靈的盟友有 44～60% 的機率減半施展的魔法技能回覆時間。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "forgotten-relics",
+          "en": "Forgotten Relics",
+          "zhTW": "Forgotten Relics",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sergeant-weststar",
+              "en": "Sergeant Weststar",
+              "zhTW": "Sergeant Weststar",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sergeant_Weststar"
+          },
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Forgotten Relics (from Sergeant Weststar in Dalada Uplands)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom",
+        "url": "https://wiki.guildwars.com/wiki/Forgotten_Relics",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "於你目前的位置上策劃「黑檀戰鬥智慧規範」。持續 14～20 秒，此區域所有非靈的盟友有 44～60% 的機率減半施展的魔法技能回覆時間。",
+  "commonUses": [
+    "Ebon Vanguard rank · 結界魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom",
+      "revision": 2711462,
+      "title": "Ebon Battle Standard of Wisdom",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69898"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69899,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "於你目前的位置上策劃「黑檀戰鬥智慧規範」。持續 %str3% 秒，此區域所有非靈的盟友有 %str1%%% 的機率減半施展的魔法技能回覆時間。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

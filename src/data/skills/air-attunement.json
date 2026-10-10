@@ -1,0 +1,373 @@
+{
+  "pvpOnly": false,
+  "id": "air-attunement",
+  "name": {
+    "en": "Air Attunement",
+    "zhTW": "風之調和",
+    "translationVerified": true
+  },
+  "clientSkillId": 225,
+  "icon": "/skills/air-attunement.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 36...55...60 seconds, you are attuned to Air. You gain 1 Energy plus 30% of the base Energy cost of the skill whenever you use Air Magic.",
+      "zhTW": "持續 36～60 秒，你與風調和。每次你使用風系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "eye-for-profit",
+          "en": "Eye For Profit",
+          "zhTW": "Eye For Profit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "druid-s-overlook",
+              "en": "Druid's Overlook",
+              "zhTW": "德魯伊高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Druid%27s_Overlook"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eye For Profit (Druid's Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Eye_For_Profit",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "cursed-brigand",
+          "en": "Cursed Brigand",
+          "zhTW": "Cursed Brigand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shards-of-orr",
+              "en": "Shards of Orr",
+              "zhTW": "歐爾殘跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shards_of_Orr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cursed Brigand (Shards of Orr)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Cursed_Brigand",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (golem) (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "shadow-spawn",
+          "en": "Shadow Spawn",
+          "zhTW": "Shadow Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          },
+          {
+            "name": {
+              "id": "shadows-in-the-night",
+              "en": "Shadows in the Night",
+              "zhTW": "Shadows in the Night",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadows_in_the_Night"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadow Spawn (Raven's Point, only during Shadows in the Night)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Spawn",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "vekk",
+          "en": "Vekk",
+          "zhTW": "維克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Vekk",
+        "source": "https://wiki.guildwars.com/wiki/Air_Attunement",
+        "url": "https://wiki.guildwars.com/wiki/Vekk",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 36～60 秒，你與風調和。每次你使用風系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。",
+  "commonUses": [
+    "風系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Air_Attunement",
+      "revision": 2723178,
+      "title": "Air Attunement",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25272",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25275,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你與風調和。每次你使用風系魔法時，獲得 1 能量並且可回收消耗能量的 30%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

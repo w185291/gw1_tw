@@ -1,0 +1,350 @@
+{
+  "pvpOnly": false,
+  "id": "we-shall-return",
+  "name": {
+    "en": "\"We Shall Return!\"",
+    "zhTW": "「我們將重返！」",
+    "translationVerified": true
+  },
+  "clientSkillId": 1592,
+  "icon": "/skills/we-shall-return.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "command",
+    "en": "Command",
+    "zhTW": "命令",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 25.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Shout. All party members in earshot are resurrected with 25...45...50% Health and 5...17...20% Energy.",
+      "zhTW": "復活音量所及範圍內的所有隊友(25～50%體力與5～20%能量)。"
+    },
+    "pvp": {
+      "en": "Shout. For 10 seconds, whenever party members within earshot use a resurrection skill, their fallen allies return with 10...62...75% more Health and 5...41...50% more Energy.",
+      "zhTW": "持續 10 秒，每當音量所及範圍內的隊伍成員使用復活技能時，被復活盟友恢復的體力增加 10～75% ；能量增加 5～50% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "\"We Shall Return!\" (PvP)",
+      "description": {
+        "en": "Shout. For 10 seconds, whenever party members within earshot use a resurrection skill, their fallen allies return with 10...62...75% more Health and 5...41...50% more Energy.",
+        "zhTW": "持續 10 秒，每當音量所及範圍內的隊伍成員使用復活技能時，被復活盟友恢復的體力增加 10～75% ；能量增加 5～50% 。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22_%28PvP%29",
+        "revision": 2732856,
+        "title": "\"We Shall Return!\" (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3033
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "render",
+          "en": "Render",
+          "zhTW": "Render",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forum-highlands",
+              "en": "Forum Highlands",
+              "zhTW": "高地廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forum_Highlands"
+          },
+          {
+            "name": {
+              "id": "desperate-measures",
+              "en": "Desperate Measures",
+              "zhTW": "Desperate Measures",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Desperate_Measures"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Render (Forum Highlands, only during Desperate Measures)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Render",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "scratcher",
+          "en": "Scratcher",
+          "zhTW": "Scratcher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wilderness-of-bahdza",
+              "en": "Wilderness of Bahdza",
+              "zhTW": "巴薩荒野",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wilderness_of_Bahdza"
+          },
+          {
+            "name": {
+              "id": "destroy-the-harpies",
+              "en": "Destroy the Harpies",
+              "zhTW": "Destroy the Harpies",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destroy_the_Harpies"
+          },
+          {
+            "name": {
+              "id": "population-control",
+              "en": "Population Control",
+              "zhTW": "Population Control",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Population_Control"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Scratcher (Wilderness of Bahdza, before completion of Destroy the Harpies and during Population Control)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Scratcher",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "screecher",
+          "en": "Screecher",
+          "zhTW": "Screecher",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Screecher (Wilderness of Bahdza, before completion of Destroy the Harpies and during Population Control)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Screecher",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "kunan-the-loudmouth",
+          "en": "Kunan the Loudmouth",
+          "zhTW": "Kunan the Loudmouth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "extinction",
+              "en": "Extinction",
+              "zhTW": "Extinction",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Extinction"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kunan the Loudmouth (Wilderness of Bahdza, after completion of Extinction)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Kunan_the_Loudmouth",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "chakeh-the-lonely",
+          "en": "Chakeh the Lonely",
+          "zhTW": "Chakeh the Lonely",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-desolation",
+              "en": "Gate of Desolation",
+              "zhTW": "荒蕪之地入口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chakeh the Lonely (Gate of Desolation)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Chakeh_the_Lonely",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "arneh-the-vigorous",
+          "en": "Arneh the Vigorous",
+          "zhTW": "Arneh the Vigorous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "joko-s-domain",
+              "en": "Joko's Domain",
+              "zhTW": "傑格領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Joko%27s_Domain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Arneh the Vigorous (Joko's Domain)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Arneh_the_Vigorous",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "復活音量所及範圍內的所有隊友(25～50%體力與5～20%能量)。",
+  "commonUses": [
+    "命令 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22",
+      "revision": 2735442,
+      "title": "\"We Shall Return!\"",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return%21%22_%28PvP%29",
+      "revision": 2732856,
+      "title": "\"We Shall Return!\" (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33326",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33327,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "復活音量所及範圍內的所有隊友(%str1%%%體力與%str2%%%能量)。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

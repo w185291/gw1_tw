@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "famine",
+  "name": {
+    "en": "Famine",
+    "zhTW": "飢荒",
+    "translationVerified": true
+  },
+  "clientSkillId": 997,
+  "icon": "/skills/famine.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Nature Ritual. Create a level 1...8...10 spirit. Whenever a non-spirit creature in its range reaches 0 Energy, that creature takes 20...60...70 damage. This spirit dies after 30...150...180 seconds.",
+      "zhTW": "創造一隻等級 1～10 的飢荒精靈。使區域內的生物每當能量值為 0 時受到 20～70 傷害。飢荒精靈在 30～180 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-zojun",
+          "en": "Bound Zojun",
+          "zhTW": "Bound Zojun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Zojun (Tahnnakai Temple mission)",
+        "source": "https://wiki.guildwars.com/wiki/Famine",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Zojun",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "famished-ancient-brrne",
+          "en": "Famished Ancient Brrne",
+          "zhTW": "Famished Ancient Brrne",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          },
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Famished Ancient Brrne (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Famine",
+        "url": "https://wiki.guildwars.com/wiki/Famished_Ancient_Brrne",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "創造一隻等級 1～10 的飢荒精靈。使區域內的生物每當能量值為 0 時受到 20～70 傷害。飢荒精靈在 30～180 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Famine",
+      "revision": 2731259,
+      "title": "Famine",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27245",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27246,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的飢荒精靈。使區域內的生物每當能量值為 0 時受到 %str2% 傷害。飢荒精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

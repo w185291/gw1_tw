@@ -1,0 +1,195 @@
+{
+  "pvpOnly": false,
+  "id": "light-of-deliverance",
+  "name": {
+    "en": "Light of Deliverance",
+    "zhTW": "拯救聖光",
+    "translationVerified": true
+  },
+  "clientSkillId": 1397,
+  "icon": "/skills/light-of-deliverance.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. All party members are healed for 5...57...70 Health.",
+      "zhTW": "治療所有隊伍成員 5～70 體力。"
+    },
+    "pvp": {
+      "en": "Elite Spell. All party members are healed for 5...57...70 Health. All your Smiting Prayers are disabled for 20 seconds.",
+      "zhTW": "治療所有隊伍成員 5～70 體力，但是你的懲戒祈禱屬性技能在 20 秒內無法使用。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Light of Deliverance (PvP)",
+      "description": {
+        "en": "Elite Spell. All party members are healed for 5...57...70 Health. All your Smiting Prayers are disabled for 20 seconds.",
+        "zhTW": "治療所有隊伍成員 5～70 體力，但是你的懲戒祈禱屬性技能在 20 秒內無法使用。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_%28PvP%29",
+        "revision": 2738566,
+        "title": "Light of Deliverance (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2871
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "chidehkir-light-of-the-blind",
+          "en": "Chidehkir, Light of the Blind",
+          "zhTW": "Chidehkir, Light of the Blind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chidehkir, Light of the Blind (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Light_of_Deliverance",
+        "url": "https://wiki.guildwars.com/wiki/Chidehkir,_Light_of_the_Blind",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "kehmak-the-tranquil",
+          "en": "Kehmak the Tranquil",
+          "zhTW": "Kehmak the Tranquil",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "moddok-crevice",
+              "en": "Moddok Crevice",
+              "zhTW": "摩多克裂縫",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Kehmak the Tranquil (Moddok Crevice)",
+        "source": "https://wiki.guildwars.com/wiki/Light_of_Deliverance",
+        "url": "https://wiki.guildwars.com/wiki/Kehmak_the_Tranquil",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "治療所有隊伍成員 5～70 體力。",
+  "commonUses": [
+    "治療祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "divine-healing",
+      "en": "Divine Healing",
+      "zhTW": "神聖治癒",
+      "translationVerified": true
+    },
+    {
+      "id": "heaven-s-delight",
+      "en": "Heaven's Delight",
+      "zhTW": "天堂喜悅",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance",
+      "revision": 2708605,
+      "title": "Light of Deliverance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_%28PvP%29",
+      "revision": 2738566,
+      "title": "Light of Deliverance (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/36325"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36326,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療所有隊伍成員 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

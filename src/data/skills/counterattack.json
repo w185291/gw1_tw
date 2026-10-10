@@ -1,0 +1,324 @@
+{
+  "pvpOnly": false,
+  "id": "counterattack",
+  "name": {
+    "en": "Counterattack",
+    "zhTW": "反擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1693,
+  "icon": "/skills/counterattack.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, you strike for +5...29...35 damage. If you hit an attacking foe, you gain 2...5...6 Energy.",
+      "zhTW": "命中時對目標造成 5～35 額外傷害，若擊中正在攻擊的敵人，則你獲得 2～6 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-dark-blade",
+          "en": "The Dark Blade",
+          "zhTW": "The Dark Blade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "following-the-trail",
+              "en": "Following the Trail",
+              "zhTW": "Following the Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Following_the_Trail"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "The Dark Blade (Cliffs of Dohjok, only during Following the Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/The_Dark_Blade",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "commander-bahreht",
+          "en": "Commander Bahreht",
+          "zhTW": "Commander Bahreht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cliffs-of-dohjok",
+              "en": "Cliffs of Dohjok",
+              "zhTW": "杜夏懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cliffs_of_Dohjok"
+          },
+          {
+            "name": {
+              "id": "a-land-of-heroes",
+              "en": "A Land of Heroes",
+              "zhTW": "英雄之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Land_of_Heroes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Bahreht (Cliffs of Dohjok, only during A Land of Heroes)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Bahreht",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "corsair-commander-warrior",
+          "en": "Corsair Commander (warrior)",
+          "zhTW": "Corsair Commander (warrior)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dajkah-inlet",
+              "en": "Dajkah Inlet",
+              "zhTW": "達卡港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corsair Commander (Dajkah Inlet)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Corsair_Commander_(warrior)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "commander-wahli",
+          "en": "Commander Wahli",
+          "zhTW": "Commander Wahli",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Wahli (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Wahli",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bringer-of-destruction",
+          "en": "Bringer of Destruction",
+          "zhTW": "Bringer of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "genius-operated-living-enchanted-manifestation",
+              "en": "Genius Operated Living Enchanted Manifestation",
+              "zhTW": "天才操控而讓生活豐富迷人的表現",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Genius_Operated_Living_Enchanted_Manifestation"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bringer of Destruction (Genius Operated Living Enchanted Manifestation)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Bringer_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "pikin",
+          "en": "Pikin",
+          "zhTW": "Pikin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Pikin (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Pikin",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Counterattack",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "命中時對目標造成 5～35 額外傷害，若擊中正在攻擊的敵人，則你獲得 2～6 能量。",
+  "commonUses": [
+    "力量 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Counterattack",
+      "revision": 2734841,
+      "title": "Counterattack",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44035",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44036,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害，若擊中正在攻擊的敵人，則你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

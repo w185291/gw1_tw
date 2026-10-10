@@ -1,0 +1,337 @@
+{
+  "pvpOnly": false,
+  "id": "mystic-sweep",
+  "name": {
+    "en": "Mystic Sweep",
+    "zhTW": "祕法掃蕩",
+    "translationVerified": true
+  },
+  "clientSkillId": 1484,
+  "icon": "/skills/mystic-sweep.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "mysticism",
+    "en": "Mysticism",
+    "zhTW": "祕法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. If this attack hits, you deal +3...10...12 damage. If you are enchanted, this attack deals an additional +3...10...12 damage.",
+      "zhTW": "命中時造成 3～12 額外傷害，若你有加持效果，則再造成 3～12 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lev-the-condemned",
+          "en": "Lev the Condemned",
+          "zhTW": "Lev the Condemned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lev the Condemned (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Lev_the_Condemned",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "justiciar-kasandra",
+          "en": "Justiciar Kasandra",
+          "zhTW": "Justiciar Kasandra",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Kasandra (D'Alessio Seaboard (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Kasandra",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "myish-lady-of-the-lake",
+          "en": "Myish, Lady of the Lake",
+          "zhTW": "Myish, Lady of the Lake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Myish, Lady of the Lake (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Myish,_Lady_of_the_Lake",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "brynn-earthporter",
+          "en": "Brynn Earthporter",
+          "zhTW": "Brynn Earthporter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Brynn Earthporter (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Brynn_Earthporter",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "reaper-of-destruction",
+          "en": "Reaper of Destruction",
+          "zhTW": "Reaper of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reaper of Destruction (Raven's Point)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Reaper_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "avatar-of-destruction-dervish",
+          "en": "Avatar of Destruction (dervish)",
+          "zhTW": "Avatar of Destruction (dervish)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destruction-s-depths",
+              "en": "Destruction's Depths",
+              "zhTW": "破壞的深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avatar of Destruction (Destruction's Depths)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Avatar_of_Destruction_(dervish)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "m-o-x",
+          "en": "M.O.X.",
+          "zhTW": "M.O.X.",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Core",
+        "details": "Unlocking M.O.X.",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/M.O.X.",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "melonni",
+          "en": "Melonni",
+          "zhTW": "梅隆妮",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Melonni",
+        "source": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+        "url": "https://wiki.guildwars.com/wiki/Melonni",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 3～12 額外傷害，若你有加持效果，則再造成 3～12 額外傷害。",
+  "commonUses": [
+    "祕法 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+      "revision": 2733224,
+      "title": "Mystic Sweep",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33337",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33338,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，若你有加持效果，則再造成 %str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

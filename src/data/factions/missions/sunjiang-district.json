@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -127,123 +127,255 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Warrior's Construct",
+        "zhTW": "Warrior's Construct（繁中名稱待確認）",
         "en": "Warrior's Construct"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Galrath Slash",
+        "Healing Signet",
+        "Hundred Blades",
+        "Power Attack",
+        "Seeking Blade",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Hundred Blades"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Warrior%27s_Construct"
+        },
+        {
+          "name": "Hundred Blades",
+          "counter": "不要圍站近戰目標旁；致盲或格擋壓制普通攻擊，減少範圍觸發。",
+          "source": "https://wiki.guildwars.com/wiki/Warrior%27s_Construct"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Warrior%27s_Construct",
+      "revision": 2741225
     },
     {
       "name": {
-        "zhTW": "Ranger's Construct",
+        "zhTW": "Ranger's Construct（繁中名稱待確認）",
         "en": "Ranger's Construct"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Distracting Shot",
+        "Equinox",
+        "Kindle Arrows",
+        "Throw Dirt",
+        "Troll Unguent",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Equinox"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ranger%27s_Construct"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Ranger%27s_Construct",
+      "revision": 2741267
     },
     {
       "name": {
-        "zhTW": "Monk's Construct",
+        "zhTW": "Monk's Construct（繁中名稱待確認）",
         "en": "Monk's Construct"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Draw Conditions",
+        "Life Sheath",
+        "Orison of Healing",
+        "Reversal of Fortune"
+      ],
+      "eliteSkills": [
         "Life Sheath"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Monk%27s_Construct",
+      "revision": 2741268
     },
     {
       "name": {
-        "zhTW": "Necromancer's Construct",
+        "zhTW": "Necromancer's Construct（繁中名稱待確認）",
         "en": "Necromancer's Construct"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Life Siphon",
+        "Mark of Pain",
+        "Soul Bind",
+        "Suffering",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Soul Bind"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Necromancer%27s_Construct"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Necromancer%27s_Construct",
+      "revision": 2726108
     },
     {
       "name": {
-        "zhTW": "Mesmer's Construct",
+        "zhTW": "Mesmer's Construct（繁中名稱待確認）",
         "en": "Mesmer's Construct"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Ether Feast",
+        "Images of Remorse",
+        "Kitah's Burden",
+        "Psychic Distraction",
+        "Soothing Images",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Psychic Distraction"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Mesmer%27s_Construct",
+      "revision": 2679098
     },
     {
       "name": {
-        "zhTW": "Elemental's Construct",
+        "zhTW": "Elemental's Construct（繁中名稱待確認）",
         "en": "Elemental's Construct"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Arc Lightning",
+        "Aura of Restoration",
+        "Blurred Vision",
+        "Lightning Touch",
+        "Mirror of Ice",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Mirror of Ice"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Elemental%27s_Construct",
+      "revision": 2679099
     },
     {
       "name": {
-        "zhTW": "Assassin's Construct",
+        "zhTW": "Assassin's Construct（繁中名稱待確認）",
         "en": "Assassin's Construct"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
+        "Dancing Daggers",
+        "Shadow Refuge",
+        "Sharpen Daggers",
+        "Temple Strike",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Temple Strike"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Assassin%27s_Construct",
+      "revision": 2679094
     },
     {
       "name": {
-        "zhTW": "Ritualist's Construct",
+        "zhTW": "Ritualist's Construct（繁中名稱待確認）",
         "en": "Ritualist's Construct"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Life",
+        "Nightmare Weapon",
+        "Recuperation",
+        "Soul Twisting",
+        "Spirit Transfer",
+        "Song of the Mists"
+      ],
+      "eliteSkills": [
         "Soul Twisting"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Sunjiang_District#Bosses",
-      "revision": 2706396
+      "source": "https://wiki.guildwars.com/wiki/Ritualist%27s_Construct",
+      "revision": 2726111
     }
   ],
   "recommendedTeam": [
@@ -353,6 +485,62 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Warrior's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Warrior%27s_Construct",
+      "revision": 2741225,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ranger's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Ranger%27s_Construct",
+      "revision": 2741267,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Monk's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Monk%27s_Construct",
+      "revision": 2741268,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Necromancer's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Necromancer%27s_Construct",
+      "revision": 2726108,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Mesmer's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Mesmer%27s_Construct",
+      "revision": 2679098,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Elemental's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Elemental%27s_Construct",
+      "revision": 2679099,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Assassin's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Assassin%27s_Construct",
+      "revision": 2679094,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ritualist's Construct",
+      "url": "https://wiki.guildwars.com/wiki/Ritualist%27s_Construct",
+      "revision": 2726111,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -392,7 +580,7 @@
         "zhTW": "Battle in the Sewers",
         "en": "Battle in the Sewers"
       },
-      "giver": "Emperor's Hand",
+      "giver": "皇帝之手",
       "location": "Raisu Pavilion",
       "directions": "在Shenzun Tunnels會合皇家衛隊，護送到Jafai，找Kazuya交任務開孫江入口。",
       "url": "https://wiki.guildwars.com/wiki/Battle_in_the_Sewers",
@@ -444,19 +632,19 @@
       },
       "giver": "Jamei",
       "location": "Maatu Keep",
-      "directions": "前往Zos Shivros Channel找Watchman Bencis，再至Cavalon回報Elder Rhea。",
+      "directions": "前往Zos Shivros Channel找Watchman Bencis，再至Cavalon回報席亞長老。",
       "url": "https://wiki.guildwars.com/wiki/Journey_to_Cavalon",
       "revision": 2393979,
       "translationStatus": "needs-review"
     },
     {
       "name": {
-        "zhTW": "Befriending the Luxons",
+        "zhTW": "與勒克森人成為朋友",
         "en": "Befriending the Luxons"
       },
-      "giver": "Elder Rhea",
+      "giver": "席亞長老",
       "location": "Cavalon",
-      "directions": "累積一萬點尚未花費的Luxon陣營點，向Elder Rhea交任務。不要先花掉。",
+      "directions": "累積一萬點尚未花費的Luxon陣營點，向席亞長老交任務。不要先花掉。",
       "url": "https://wiki.guildwars.com/wiki/Befriending_the_Luxons",
       "revision": 2677366,
       "translationStatus": "needs-review"
@@ -466,7 +654,7 @@
         "zhTW": "Stolen Eggs",
         "en": "Stolen Eggs"
       },
-      "giver": "Elder Rhea",
+      "giver": "席亞長老",
       "location": "Cavalon",
       "directions": "取回偷走的幼龜蛋箱，交給Gratian，再找Endre開孵化所。",
       "url": "https://wiki.guildwars.com/wiki/Stolen_Eggs",
@@ -496,5 +684,24 @@
       "expert": "25–30分鐘",
       "master": "少於25分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22340",
+    "game-client://2026-10-09/string/22341",
+    "game-client://2026-10-09/string/22344"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22340,
+      22341,
+      22344
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "ascalon",
   "name": {
-    "zhTW": "諾拉尼學院",
+    "zhTW": "若拉尼學院",
     "en": "Nolani Academy"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "諾拉尼學院",
+    "若拉尼學院",
     "Nolani Academy",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "解除學院圍攻，護送魯瑞克返回瑞恩城。",
+  "summary": "從學院後門繞出，解除圍城，再保護Prince Rurik前往Rin吹響號角。",
   "partySize": 4,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,38 +36,67 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "諾拉尼學院據點",
+    "description": "從 Diessa Lowlands 進入 Nolani Academy 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Nolani Academy 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "解除學院圍攻，護送魯瑞克返回瑞恩城。"
+      "text": "解除學院圍攻，護送Prince Rurik返回Rin。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "把 Tome of the Fallen 送回墓園",
+    "summary": "把 Tome of the Fallen 送回墓園",
+    "trigger": "將 Tome of the Fallen 搬到墓園最西端的書座（原圖 1 → 2）。",
+    "steps": [
+      "將 Tome of the Fallen 搬到墓園最西端的書座（原圖 1 → 2）。",
+      "亡者生靈附近有隱藏吞噬者，逐群清掉後再搬書。",
+      "放書後會出現 Old Ascalon Spirit，與他交談並留在雷達範圍內，等 Bonus 顯示完成再離開。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "放書後會出現 Old Ascalon Spirit，與他交談並留在雷達範圍內，等 Bonus 顯示完成再離開。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "先走後門",
+      "content": "不要在開場立刻拉前門拉桿。從後方小路往南走，從背後清除包圍學院的夏爾。可與孤立的 Flaming Scepter Mage 交談讓他同行。"
+    },
+    {
+      "title": "順路做墓園支線",
+      "content": "長城附近找到 Watchman Pramas，取得 Tome of the Fallen。不要先往北解除圍城；先往西過破階梯到墓園完成 Bonus。"
+    },
+    {
+      "title": "清除學院正面",
+      "content": "從長城方向往北繞回學院，逐群消滅夏爾。途中可救 Casana 與散落士兵。清掉通道後Prince Rurik自行開門前進。"
+    },
+    {
+      "title": "回到長城",
+      "content": "護送Prince Rurik走到長城觸發過場，轉到另一側；他的死亡會使任務失敗。"
+    },
+    {
+      "title": "到Horn Hill",
+      "content": "Rin正遭攻擊，先跟著到 Horn Hill，使用 Stormcaller 的過場後，Prince Rurik會快速衝入城內，準備緊跟支援。"
+    },
+    {
+      "title": "收尾清頭目",
+      "content": "救出城內囚犯後可交談讓他們同行。找到廢墟最深處的 Bonfaaz Burntfur，擊殺他完成主線。"
+    }
+  ],
+  "routeSummary": "學院後門 → 南側長城 → 西側墓園 Bonus → 繞北清圍城軍 → 長城劇情 → Horn Hill → Rin頭目",
   "mapImage": "/maps/Nolani_Academy_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Nolani_Academy_map.jpg",
       "title": "主線路線圖",
-      "alt": "諾拉尼學院・主線路線圖",
+      "alt": "若拉尼學院・主線路線圖",
       "width": 526,
       "height": 673,
       "filePage": "https://wiki.guildwars.com/wiki/File:Nolani_Academy_map.jpg",
@@ -80,7 +109,7 @@
     {
       "src": "/maps/Alternate_route_to_Bonfaaz_Burntfur.jpg",
       "title": "補充路線圖",
-      "alt": "諾拉尼學院・補充路線圖",
+      "alt": "若拉尼學院・補充路線圖",
       "width": 272,
       "height": 394,
       "filePage": "https://wiki.guildwars.com/wiki/File:Alternate_route_to_Bonfaaz_Burntfur.jpg",
@@ -91,13 +120,294 @@
       "role": "alternate_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Brand the Brawler",
+        "zhTW": "Brand the Brawler（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Cyclone Axe",
+        "Healing Signet",
+        "Penetrating Blow",
+        "Shield Stance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Brand_the_Brawler",
+      "revision": 2413677,
+      "dangerousSkills": [
+        {
+          "name": "Cyclone Axe",
+          "counter": "前排以外保持距離，避免多名隊員同吃近身範圍攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Brand_the_Brawler"
+        },
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Brand_the_Brawler"
+        },
+        {
+          "name": "Shield Stance",
+          "counter": "姿態期間使用非攻擊傷害，或先拆姿態再集火。",
+          "source": "https://wiki.guildwars.com/wiki/Brand_the_Brawler"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Felinam the Whip",
+        "zhTW": "Felinam the Whip（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Favorable Winds",
+        "Ignite Arrows",
+        "Penetrating Attack",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Felinam_the_Whip",
+      "revision": 2413703,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Felinam_the_Whip"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Blaze Bloodbane",
+        "zhTW": "Blaze Bloodbane（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Bane Signet",
+        "Banish",
+        "Heal Area",
+        "Infuse Health"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Blaze_Bloodbane",
+      "revision": 2413688,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Red Eye the Unholy",
+        "zhTW": "Red Eye the Unholy（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Faintheartedness",
+        "Life Siphon",
+        "Mark of Pain"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Red_Eye_the_Unholy",
+      "revision": 2413739,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Red_Eye_the_Unholy"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ghast Ashpyre",
+        "zhTW": "Ghast Ashpyre（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Burn",
+        "Ether Feast",
+        "Illusion of Haste",
+        "Mantra of Flame"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ghast_Ashpyre",
+      "revision": 2642586,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Jaw Smokeskin",
+        "zhTW": "Jaw Smokeskin（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare",
+        "Lava Font"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Jaw_Smokeskin",
+      "revision": 2700748,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Bonfaaz Burntfur",
+        "zhTW": "Bonfaaz Burntfur（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Conjure Flame",
+        "Flare",
+        "Lava Font"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bonfaaz_Burntfur",
+      "revision": 2663172,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Stank Reekfoul",
+        "zhTW": "Stank Reekfoul（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Stank_Reekfoul",
+      "revision": 2616470,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Crush Kill",
+        "zhTW": "Crush Kill（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Distracting Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Crush_Kill",
+      "revision": 2409241,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Rock Fist",
+        "zhTW": "Rock Fist（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Endure Pain"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Rock_Fist",
+      "revision": 2474867,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "墓園亡者會用碎顎造成暈眩，準備解病症與防護。"
+  ],
+  "tips": [
+    "高等隊伍可拉前門縮短主線，但Prince Rurik不會為 Bonus 等你；想兩者都做仍建議先走後門。",
+    "通關到Yak's Bend（Yak’s Bend），後續需經主線任務與探索區走到柏里斯通道。"
+  ],
+  "warnings": [
+    "將 Tome of the Fallen 搬到墓園最西端的書座（原圖 1 → 2）。",
+    "務必走後門。前門湧入的隕石雨、快速劍、旋風斧與爆裂箭很容易讓隊伍全滅。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "務必走後門。前門湧入的隕石雨、快速劍、旋風斧與爆裂箭很容易讓隊伍全滅。",
+      "墓園亡者會用碎顎造成暈眩，準備解病症與防護。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -117,13 +427,129 @@
       "revision": 2729866,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Brand the Brawler",
+      "url": "https://wiki.guildwars.com/wiki/Brand_the_Brawler",
+      "revision": 2413677,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Felinam the Whip",
+      "url": "https://wiki.guildwars.com/wiki/Felinam_the_Whip",
+      "revision": 2413703,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Blaze Bloodbane",
+      "url": "https://wiki.guildwars.com/wiki/Blaze_Bloodbane",
+      "revision": 2413688,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Red Eye the Unholy",
+      "url": "https://wiki.guildwars.com/wiki/Red_Eye_the_Unholy",
+      "revision": 2413739,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ghast Ashpyre",
+      "url": "https://wiki.guildwars.com/wiki/Ghast_Ashpyre",
+      "revision": 2642586,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Jaw Smokeskin",
+      "url": "https://wiki.guildwars.com/wiki/Jaw_Smokeskin",
+      "revision": 2700748,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bonfaaz Burntfur",
+      "url": "https://wiki.guildwars.com/wiki/Bonfaaz_Burntfur",
+      "revision": 2663172,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Stank Reekfoul",
+      "url": "https://wiki.guildwars.com/wiki/Stank_Reekfoul",
+      "revision": 2616470,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Crush Kill",
+      "url": "https://wiki.guildwars.com/wiki/Crush_Kill",
+      "revision": 2409241,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Rock Fist",
+      "url": "https://wiki.guildwars.com/wiki/Rock_Fist",
+      "revision": 2474867,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "ruins-of-surmia",
   "nextMission": "borlis-pass",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10545"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關到Yak's Bend（Yak’s Bend），後續需經主線任務與探索區走到柏里斯通道。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10545
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "The Way is Blocked",
+        "zhTW": "The Way is Blocked（繁中名稱待確認）"
+      },
+      "giver": "Captain Osric",
+      "location": "Yak's Bend (Northern Shiverpeaks)",
+      "directions": "在 Yak's Bend 找 Captain Osric 接取，經 Traveler's Vale 清入口的 Inar Frostbite；再前往 Borlis Pass 找 Beccum Reedly 回報。外來角色可自行走到據點，不需接 Tyrian 限定任務。",
+      "url": "https://wiki.guildwars.com/wiki/The_Way_is_Blocked",
+      "revision": 2723013,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

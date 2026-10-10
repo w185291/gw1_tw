@@ -1,0 +1,359 @@
+{
+  "id": "blood-washes-blood",
+  "order": 8,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Blood Washes Blood",
+    "zhTW": "血債血償"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/62750",
+    "game-client://2026-10-09/string/65424",
+    "game-client://2026-10-09/string/65764",
+    "game-client://2026-10-09/string/69326",
+    "game-client://2026-10-09/string/69327",
+    "game-client://2026-10-09/string/72083",
+    "game-client://2026-10-09/string/72128"
+  ],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Blood Washes Blood"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 熊分支收尾"
+  ],
+  "summary": "占祭壇召熊靈，取得 Ursan Aura，打破木路障並清五隊佔據 Jora 家園的 Charr。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "Flames of the Bear Spirit 領獎後接續；初次從 Jaga Moraine 的祭壇開始，重打可由 Scrying Pool 或 Bear Spirit 接取。",
+    "location": "Jaga Moraine → Bjora Marches",
+    "requirements": [
+      "每名要取得完成紀錄的角色，都必須先領 Flames of the Bear Spirit 獎勵。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 熊分支收尾",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "占祭壇召熊靈，取得 Ursan Aura，打破木路障並清五隊佔據 Jora 家園的 Charr。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "取得祭壇控制",
+      "content": "可由 Sifhalla 出 Jaga Moraine，找中央住處的 Egil，帶他到南側 Sacred Altar。清干擾者並讓祭壇周圍友方數量多於敵方，等藍色控制條填滿。"
+    },
+    {
+      "title": "與熊靈對話換區",
+      "content": "占領後 Bear Spirit 出現，和她交談再穿門進 Bjora Marches；進入後會傳到任務開始位置，不要沿探險地圖舊位置亂找。"
+    },
+    {
+      "title": "拿 Ursan Aura",
+      "content": "沿紅點主路到 Shrine of the Bear Spirit，清周圍三隊 Charr，與祭壇對話取得 Ursan Aura。任務目標寫 Ursan Blessing 是原文顯示問題，初次流程拿的是 Ursan Aura。"
+    },
+    {
+      "title": "打破木路障",
+      "content": "選其中一條路障通道，使用變身技能列的 Ursan Force 打碎木 Barricade。普通攻擊無法代替這個機制；沿圖紅點往家園區推進。"
+    },
+    {
+      "title": "清家園五隊",
+      "content": "在最後圍欄內逐群清五隊 Charr，先處理會補血的 Elmohr Snowmender，打斷 Kakei 的 Meteor Shower，避免站在 Docu 的 Barrage 範圍一起吃傷害。清完要求的隊伍即完成。"
+    },
+    {
+      "title": "確認完成與回傳",
+      "content": "完成後返回 Gunnar’s Hold，計入 北方同盟 熊分支和 Hero’s Handbook 第 9 頁。鴉分支的 A Gate Too Far 仍要另外完成。"
+    }
+  ],
+  "routeSummary": "Flames of the Bear Spirit 領獎後接續；初次從 Jaga Moraine 的祭壇開始，重打可由 Scrying Pool 或 Bear Spirit 接取。",
+  "mapImage": "/maps/eotn/blood-washes-blood-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。",
+    "紅點是初次主路，黃色點是重打捷徑；綠色圓記號為起點，S 是熊祭壇，C 是家園 Charr 營地。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/blood-washes-blood-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "Blood Washes Blood 任務地圖",
+      "width": 556,
+      "height": 671,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Blood_Washes_Blood_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/3/32/Blood_Washes_Blood_map.jpg",
+      "uploader": "Celestia",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:Blood Washes Blood map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "en": "Tenagg Flametroller",
+        "zhTW": "Tenagg Flametroller（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Eviscerate",
+        "Executioner's Strike",
+        "Flail",
+        "Frenzy",
+        "Lion's Comfort"
+      ],
+      "eliteSkills": [
+        "Eviscerate"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "先分批引出護衛。近戰头目用致盲／格擋限制；遊俠的 Barrage 要分散；補師先打斷或集火；元素使的 Meteor Shower 必須打斷或立刻離開範圍。",
+      "source": "https://wiki.guildwars.com/wiki/Tenagg_Flametroller",
+      "revision": 2595622,
+      "translationVerified": false
+    },
+    {
+      "name": {
+        "en": "Docu Kindleshot",
+        "zhTW": "Docu Kindleshot（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Barrage",
+        "Dual Shot",
+        "Ignite Arrows",
+        "Savage Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Barrage"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "先分批引出護衛。近戰头目用致盲／格擋限制；遊俠的 Barrage 要分散；補師先打斷或集火；元素使的 Meteor Shower 必須打斷或立刻離開範圍。",
+      "source": "https://wiki.guildwars.com/wiki/Docu_Kindleshot",
+      "revision": 2709774,
+      "translationVerified": false
+    },
+    {
+      "name": {
+        "en": "Elmohr Snowmender",
+        "zhTW": "Elmohr Snowmender（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Dwayna's Kiss",
+        "Heal Area",
+        "Healing Light",
+        "Infuse Health",
+        "Vigorous Spirit"
+      ],
+      "eliteSkills": [
+        "Healing Light"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "先分批引出護衛。近戰头目用致盲／格擋限制；遊俠的 Barrage 要分散；補師先打斷或集火；元素使的 Meteor Shower 必須打斷或立刻離開範圍。",
+      "source": "https://wiki.guildwars.com/wiki/Elmohr_Snowmender",
+      "revision": 2268066,
+      "translationVerified": false
+    },
+    {
+      "name": {
+        "en": "Kakei Stormcaller",
+        "zhTW": "Kakei Stormcaller（繁中名稱待確認）"
+      },
+      "profession": "Elementalist",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Breath of Fire",
+        "Fire Storm",
+        "Meteor Shower",
+        "Mind Blast"
+      ],
+      "eliteSkills": [
+        "Mind Blast"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "先分批引出護衛。近戰头目用致盲／格擋限制；遊俠的 Barrage 要分散；補師先打斷或集火；元素使的 Meteor Shower 必須打斷或立刻離開範圍。",
+      "source": "https://wiki.guildwars.com/wiki/Kakei_Stormcaller",
+      "revision": 2268067,
+      "translationVerified": false
+    }
+  ],
+  "bossAbsenceVerified": false,
+  "bossAbsenceReason": "",
+  "recommendedTeam": [
+    "需要打斷、分散站位、防護、治療及範圍輸出；至少一人取得熊技能負責木路障。"
+  ],
+  "tips": [],
+  "warnings": [
+    "沒 Ursan Force 就過不了木路障；初次不要跳過熊祭壇。",
+    "圖的黃色線是已完成角色的重打捷徑，初次先依紅色主路。",
+    "任務實際檢查最後家園區五隊，不要求清空整張 Bjora Marches。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "初次依紅線拿 Ursan Aura，再用 Ursan Force 開路；重打且自帶 Ursan Blessing 才能採用圖的黃色捷徑。"
+    ],
+    "hard": [
+      "流程及五隊目標相同。分批拉 Charr，先殺補師並打斷 Meteor Shower。全隊死亡懲罰達 60% 被送出時，會回 Jaga Moraine 的 Jarnskeggi 神龕並清除死亡懲罰，可從附近門重進。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "NM 首次 1,000 Norn 聲望，重打 100。",
+          "Hero’s Handbook 第 9 頁。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [
+      {
+        "label": "任務獎勵",
+        "experience": 2500,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "HM 首次 1,500，重打 150。",
+          "Hero’s Handbook 第 9 頁。"
+        ]
+      }
+    ],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Blood Washes Blood",
+      "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood",
+      "revision": 2697027,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Tenagg Flametroller",
+      "url": "https://wiki.guildwars.com/wiki/Tenagg_Flametroller",
+      "revision": 2595622,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Docu Kindleshot",
+      "url": "https://wiki.guildwars.com/wiki/Docu_Kindleshot",
+      "revision": 2709774,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Elmohr Snowmender",
+      "url": "https://wiki.guildwars.com/wiki/Elmohr_Snowmender",
+      "revision": 2268066,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kakei Stormcaller",
+      "url": "https://wiki.guildwars.com/wiki/Kakei_Stormcaller",
+      "revision": 2268067,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "flames-of-the-bear-spirit",
+  "nextMission": "northern-allies",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "完成後傳送 Gunnar’s Hold，記入 Hero’s Handbook 第 9 頁。",
+    "若另一條 Norn 分支尚未完成，先補完；兩路都完成後依 北方同盟 日誌找 Jalis Ironhammer 領總覽獎勵，再回 Hall of Monuments 更新全章進度。"
+  ],
+  "storyStartVerified": false,
+  "translationStatus": "verified",
+  "gameTextEvidence": {
+    "stringIds": [
+      62750,
+      65424,
+      65764,
+      69326,
+      69327,
+      72083,
+      72128
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
+}

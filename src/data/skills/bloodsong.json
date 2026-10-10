@@ -1,0 +1,225 @@
+{
+  "id": "bloodsong",
+  "name": {
+    "en": "Bloodsong",
+    "zhTW": "血歌",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1253,
+  "icon": "/skills/bloodsong.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "binding-ritual",
+    "en": "Binding ritual",
+    "zhTW": "縛靈儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Binding Ritual. Create a level 1...10...12 spirit who dies after 30...126...150 seconds. Attacks by that spirit steal up to 5...21...25 Health.",
+      "zhTW": "創造等級 1～12 的血歌縛靈，縛靈的攻擊偷取敵人最多 5～25 的體力。縛靈將在 30～150 秒後消失。"
+    },
+    "pvp": {
+      "en": "Binding Ritual. Create a level 1...7...8 spirit who dies after 30...126...150 seconds. Attacks by that spirit steal up to 5...21...25 Health.",
+      "zhTW": "召喚等級 1～8 的靈體，持續 30～150 秒；它的攻擊偷取最多 5～25 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Bloodsong (PvP)",
+      "description": {
+        "en": "Binding Ritual. Create a level 1...7...8 spirit who dies after 30...126...150 seconds. Attacks by that spirit steal up to 5...21...25 Health.",
+        "zhTW": "召喚等級 1～8 的靈體，持續 30～150 秒；它的攻擊偷取最多 5～25 體力。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Bloodsong_%28PvP%29",
+        "revision": 2731219,
+        "title": "Bloodsong (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3019
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Bloodsong",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Bloodsong",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "glacial-griffon",
+          "en": "Glacial Griffon",
+          "zhTW": "Glacial Griffon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          },
+          {
+            "name": {
+              "id": "cold-as-ice",
+              "en": "Cold as Ice",
+              "zhTW": "冷冰冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cold_as_Ice"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Glacial Griffon (Sifhalla, only during Cold as Ice)",
+        "source": "https://wiki.guildwars.com/wiki/Bloodsong",
+        "url": "https://wiki.guildwars.com/wiki/Glacial_Griffon",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "召喚靠攻擊偷取體力的靈體，提供持續輸出。靈體固定在召喚位置，隊伍推進後要重新布置。",
+  "commonUses": [
+    "靈體輸出",
+    "SoS 配套"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bloodsong",
+      "revision": 2686504,
+      "title": "Bloodsong",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bloodsong_%28PvP%29",
+      "revision": 2731219,
+      "title": "Bloodsong (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27393"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27394,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造等級 %str1% 的血歌縛靈，縛靈的攻擊偷取敵人最多 %str2% 的體力。縛靈將在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

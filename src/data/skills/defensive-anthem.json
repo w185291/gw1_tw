@@ -1,0 +1,157 @@
+{
+  "pvpOnly": false,
+  "id": "defensive-anthem",
+  "name": {
+    "en": "Defensive Anthem",
+    "zhTW": "防禦聖歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1555,
+  "icon": "/skills/defensive-anthem.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Chant. For 4...9...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
+      "zhTW": "持續 4～10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。"
+    },
+    "pvp": {
+      "en": "Elite Chant. For 4...9...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
+      "zhTW": "持續 4～10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Defensive Anthem (PvP)",
+      "description": {
+        "en": "Elite Chant. For 4...9...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
+        "zhTW": "持續 4～10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Activation": 2.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Defensive_Anthem_%28PvP%29",
+        "revision": 2738948,
+        "title": "Defensive Anthem (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2876
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "corporal-argon",
+          "en": "Corporal Argon",
+          "zhTW": "Corporal Argon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Corporal Argon (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Defensive_Anthem",
+        "url": "https://wiki.guildwars.com/wiki/Corporal_Argon",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 4～10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。",
+  "commonUses": [
+    "領導 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defensive_Anthem",
+      "revision": 2738947,
+      "title": "Defensive Anthem",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defensive_Anthem_%28PvP%29",
+      "revision": 2738948,
+      "title": "Defensive Anthem (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/34815",
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34816,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，在音量所及範圍內的每一位隊伍成員，有 %str1%%% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

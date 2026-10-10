@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "charging-strike",
+  "name": {
+    "en": "Charging Strike",
+    "zhTW": "急速攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1405,
+  "icon": "/skills/charging-strike.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 1...8...10 second[s], you run 33% faster. Your next successful melee hit does +10...74...90 damage and this stance ends. This stance ends if you use a skill.",
+      "zhTW": "持續 1～10 秒，使你的移動速度加快 33% 。在你「下一次」近身攻擊成功擊中目標時，對其造成 10～90 額外傷害同時此態勢的效果終止。若你在此態勢下使用技能，則此態勢的效果也將提前終止。"
+    },
+    "pvp": {
+      "en": "Elite Stance. For 1...8...10 second[s], you run 33% faster. Your next successful melee hit does +10...66...80 damage and this stance ends. This stance ends if you use a skill.",
+      "zhTW": "持續 1～10 秒，使你的移動速度加快 33% 。在你「下一次」近身攻擊成功擊中目標時，對其造成 10～80 額外傷害同時此態勢的效果終止。若你在此態勢下使用技能，則此態勢的效果也將提前終止。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Charging Strike (PvP)",
+      "description": {
+        "en": "Elite Stance. For 1...8...10 second[s], you run 33% faster. Your next successful melee hit does +10...66...80 damage and this stance ends. This stance ends if you use a skill.",
+        "zhTW": "持續 1～10 秒，使你的移動速度加快 33% 。在你「下一次」近身攻擊成功擊中目標時，對其造成 10～80 額外傷害同時此態勢的效果終止。若你在此態勢下使用技能，則此態勢的效果也將提前終止。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Charging_Strike_%28PvP%29",
+        "revision": 2738929,
+        "title": "Charging Strike (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3465
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "riktund-the-vicious",
+          "en": "Riktund the Vicious",
+          "zhTW": "Riktund the Vicious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mirror-of-lyss",
+              "en": "The Mirror of Lyss",
+              "zhTW": "麗之鏡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mirror_of_Lyss"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Riktund the Vicious (The Mirror of Lyss)",
+        "source": "https://wiki.guildwars.com/wiki/Charging_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Riktund_the_Vicious",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 1～10 秒，使你的移動速度加快 33% 。在你「下一次」近身攻擊成功擊中目標時，對其造成 10～90 額外傷害同時此態勢的效果終止。若你在此態勢下使用技能，則此態勢的效果也將提前終止。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Charging_Strike",
+      "revision": 2738445,
+      "title": "Charging Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Charging_Strike_%28PvP%29",
+      "revision": 2738929,
+      "title": "Charging Strike (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/39843",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39844,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使你的移動速度加快 %str1%%% 。在你「下一次」近身攻擊成功擊中目標時，對其造成 %str2% 額外傷害同時此態勢的效果終止。若你在此態勢下使用技能，則此態勢的效果也將提前終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -51,10 +51,29 @@
     {
       "id": "melonni",
       "name": {
-        "zhTW": "梅隆妮 / Melonni",
+        "zhTW": "梅隆妮",
         "en": "Melonni"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41877",
+        "game-client://2026-10-09/string/46764",
+        "game-client://2026-10-09/string/51067",
+        "game-client://2026-10-09/string/55346",
+        "game-client://2026-10-09/string/78405"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41877,
+          46764,
+          51067,
+          55346,
+          78405
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -137,63 +156,139 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Priest Zein Zuu",
+        "en": "Harbinger of Nightfall",
+        "zhTW": "Harbinger of Nightfall（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Dismember",
+        "Disrupting Chop",
+        "Distracting Blow",
+        "Executioner's Strike",
+        "Wave of Torment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "按本關任務道具機制打：Jennur’s Horde 以 Light of Seborhin 傷害先遣者，Nundu Bay 則先用 Vial of Purified Water 才能傷害它。清護衛、穩住補血，再處理最後先遣者，不要把兩關機制混用。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Harbinger_of_Nightfall",
+      "revision": 2714381
+    },
+    {
+      "name": {
+        "zhTW": "Priest Zein Zuu（繁中名稱待確認）",
         "en": "Priest Zein Zuu"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Dismiss Condition",
+        "Divine Intervention",
+        "Spell Breaker",
+        "Watchful Healing"
+      ],
+      "eliteSkills": [
         "Spell Breaker"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nundu_Bay#Bosses",
-      "revision": 2703504
+      "source": "https://wiki.guildwars.com/wiki/Priest_Zein_Zuu",
+      "revision": 2466506
     },
     {
       "name": {
-        "zhTW": "Scribe Wensal",
+        "zhTW": "Scribe Wensal（繁中名稱待確認）",
         "en": "Scribe Wensal"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Air Attunement",
+        "Aura of Restoration",
+        "Chilling Winds",
+        "Freezing Gust",
         "Invoke Lightning"
       ],
+      "eliteSkills": [
+        "Invoke Lightning"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nundu_Bay#Bosses",
-      "revision": 2703504
+      "source": "https://wiki.guildwars.com/wiki/Scribe_Wensal",
+      "revision": 2466509
     },
     {
       "name": {
-        "zhTW": "Commander Chutal",
+        "zhTW": "Commander Chutal（繁中名稱待確認）",
         "en": "Commander Chutal"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "\"Brace Yourself!\"",
+        "\"Go for the Eyes!\"",
+        "Anthem of Guidance",
+        "Leader's Comfort",
+        "Swift Javelin"
+      ],
+      "eliteSkills": [
         "Anthem of Guidance"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nundu_Bay#Bosses",
-      "revision": 2703504
+      "source": "https://wiki.guildwars.com/wiki/Commander_Chutal",
+      "revision": 2605131
     },
     {
       "name": {
-        "zhTW": "Zealot Sheoli",
+        "zhTW": "Zealot Sheoli（繁中名稱待確認）",
         "en": "Zealot Sheoli"
       },
-      "profession": "神喚使",
+      "profession": "Dervish",
       "importantSkills": [
+        "Arcane Zeal",
+        "Faithful Intervention",
+        "Mystic Healing",
+        "Mystic Twister",
+        "Vow of Piety"
+      ],
+      "eliteSkills": [
         "Arcane Zeal"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Nundu_Bay#Bosses",
-      "revision": 2703504
+      "source": "https://wiki.guildwars.com/wiki/Zealot_Sheoli",
+      "revision": 2466515
     }
   ],
   "recommendedTeam": [
@@ -310,6 +405,41 @@
       "revision": 2731970,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Priest Zein Zuu",
+      "url": "https://wiki.guildwars.com/wiki/Priest_Zein_Zuu",
+      "revision": 2466506,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Scribe Wensal",
+      "url": "https://wiki.guildwars.com/wiki/Scribe_Wensal",
+      "revision": 2466509,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Commander Chutal",
+      "url": "https://wiki.guildwars.com/wiki/Commander_Chutal",
+      "revision": 2605131,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Zealot Sheoli",
+      "url": "https://wiki.guildwars.com/wiki/Zealot_Sheoli",
+      "revision": 2466515,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Harbinger of Nightfall",
+      "url": "https://wiki.guildwars.com/wiki/Harbinger_of_Nightfall",
+      "revision": 2714381,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -410,5 +540,31 @@
       "expert": "清一組",
       "master": "清兩組"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/35017",
+    "game-client://2026-10-09/string/39678"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      35017,
+      39678
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Nundu_Bay",
+    "revision": 2703504,
+    "heroes": [
+      "Melonni"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

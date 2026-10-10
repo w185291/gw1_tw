@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-return",
+  "name": {
+    "en": "Signet of Return",
+    "zhTW": "返生紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1778,
+  "icon": "/skills/signet-of-return.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "leadership",
+    "en": "Leadership",
+    "zhTW": "領導",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 4.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Resurrect target party member with 5...17...20% Health and 1...3...4% Energy for each party member within earshot.",
+      "zhTW": "復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5～20% 體力及 1～4% 能量。"
+    },
+    "pvp": {
+      "en": "Signet. Resurrect target party member with 5...17...20% Health and 1...3...4% Energy for each party member within earshot.",
+      "zhTW": "復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5～20% 體力及 1～4% 能量。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Return (PvP)",
+      "description": {
+        "en": "Signet. Resurrect target party member with 5...17...20% Health and 1...3...4% Energy for each party member within earshot.",
+        "zhTW": "復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5～20% 體力及 1～4% 能量。"
+      },
+      "stats": {
+        "Activation": 4.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Return_%28PvP%29",
+        "revision": 2738952,
+        "title": "Signet of Return (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3030
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vraxx-the-condemned",
+          "en": "Vraxx the Condemned",
+          "zhTW": "Vraxx the Condemned",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Vraxx the Condemned",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+        "url": "https://wiki.guildwars.com/wiki/Vraxx_the_Condemned",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "hayda",
+          "en": "Hayda",
+          "zhTW": "海妲",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Hayda",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+        "url": "https://wiki.guildwars.com/wiki/Hayda",
+        "unlockOnly": true,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "shiloh",
+          "en": "Shiloh",
+          "zhTW": "Shiloh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunspear-great-hall",
+              "en": "Sunspear Great Hall",
+              "zhTW": "日戟大會堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Shiloh (Sunspear Great Hall)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+        "url": "https://wiki.guildwars.com/wiki/Shiloh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5～20% 體力及 1～4% 能量。",
+  "commonUses": [
+    "領導 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+      "revision": 2738922,
+      "title": "Signet of Return",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Return_%28PvP%29",
+      "revision": 2738952,
+      "title": "Signet of Return (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/44117"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44118,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 %str1%%% 體力及 %str2%%% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

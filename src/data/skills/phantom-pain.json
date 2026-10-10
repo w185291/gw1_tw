@@ -1,0 +1,533 @@
+{
+  "pvpOnly": false,
+  "id": "phantom-pain",
+  "name": {
+    "en": "Phantom Pain",
+    "zhTW": "痛苦幻影",
+    "translationVerified": true
+  },
+  "clientSkillId": 44,
+  "icon": "/skills/phantom-pain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 10 seconds, target foe suffers -1...3...4 Health degeneration. When Phantom Pain ends, that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for 5...17...20 seconds.",
+      "zhTW": "持續 10 秒，使目標敵人遭受體力衰減 1～4 。而當痛苦幻影的效果終止時，該目標將遭受「重傷」病症，最大體力值降低 20% 並持續 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "caravan-in-trouble",
+          "en": "Caravan in Trouble",
+          "zhTW": "Caravan in Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eastern-frontier",
+              "en": "Eastern Frontier",
+              "zhTW": "東方邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Caravan in Trouble (Eastern Frontier)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Caravan_in_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "onan-the-spiritless",
+          "en": "Onan the Spiritless",
+          "zhTW": "Onan the Spiritless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Onan the Spiritless (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Onan_the_Spiritless",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "disgruntled-zombie",
+          "en": "Disgruntled Zombie",
+          "zhTW": "Disgruntled Zombie",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Disgruntled Zombie (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Disgruntled_Zombie",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "azibo-painfeast",
+          "en": "Azibo Painfeast",
+          "zhTW": "Azibo Painfeast",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Azibo Painfeast (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Azibo_Painfeast",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ziyad-soulreaper",
+          "en": "Ziyad Soulreaper",
+          "zhTW": "Ziyad Soulreaper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ziyad Soulreaper (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Ziyad_Soulreaper",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "bija-gravewailer",
+          "en": "Bija Gravewailer",
+          "zhTW": "Bija Gravewailer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bija Gravewailer (Divinity Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Bija_Gravewailer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "gack-the-mindwrecker",
+          "en": "Gack the Mindwrecker",
+          "zhTW": "Gack the Mindwrecker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gack the Mindwrecker (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Gack_the_Mindwrecker",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "tachi-forvent",
+          "en": "Tachi Forvent",
+          "zhTW": "Tachi Forvent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tachi Forvent (Kessex Peak)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Tachi_Forvent",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "wyt-sharpfeather",
+          "en": "Wyt Sharpfeather",
+          "zhTW": "Wyt Sharpfeather",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mineral-springs",
+              "en": "Mineral Springs",
+              "zhTW": "礦物泉源",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mineral_Springs"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Wyt Sharpfeather (Mineral Springs)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Wyt_Sharpfeather",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "rai-zhon-the-manipulator",
+          "en": "Rai Zhon the Manipulator",
+          "zhTW": "Rai Zhon the Manipulator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels-winds-of-change",
+              "en": "Shenzun Tunnels (Winds of Change)",
+              "zhTW": "Shenzun Tunnels (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rai Zhon the Manipulator (Shenzun Tunnels (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Rai_Zhon_the_Manipulator",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "suunshi-haisang",
+          "en": "Suunshi Haisang",
+          "zhTW": "Suunshi Haisang",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Suunshi Haisang (Shenzun Tunnels (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Suunshi_Haisang",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ajun-xi-deft-blade",
+          "en": "Ajun Xi, Deft Blade",
+          "zhTW": "Ajun Xi, Deft Blade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "ever-closer-to-the-edge",
+              "en": "Ever Closer to the Edge",
+              "zhTW": "Ever Closer to the Edge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ever_Closer_to_the_Edge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ajun Xi, Deft Blade (Gyala Hatchery (explorable area), only during Ever Closer to the Edge)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Ajun_Xi,_Deft_Blade",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "silver-vaettir",
+          "en": "Silver Vaettir",
+          "zhTW": "Silver Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Silver Vaettir (Drakkar Lake, see page for spawn requirements)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Silver_Vaettir",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "alitta-guilebloom",
+          "en": "Alitta Guilebloom",
+          "zhTW": "Alitta Guilebloom",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Alitta Guilebloom (Arbor Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Alitta_Guilebloom",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 10 秒，使目標敵人遭受體力衰減 1～4 。而當痛苦幻影的效果終止時，該目標將遭受「重傷」病症，最大體力值降低 20% 並持續 5～20 秒。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+      "revision": 2738389,
+      "title": "Phantom Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24883",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24884,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 10 秒，使目標敵人遭受體力衰減 %str1% 。而當痛苦幻影的效果終止時，該目標將遭受「重傷」病症，最大體力值降低 20%% 並持續 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,166 @@
+{
+  "pvpOnly": false,
+  "id": "visions-of-regret",
+  "name": {
+    "en": "Visions of Regret",
+    "zhTW": "懊悔幻想",
+    "translationVerified": true
+  },
+  "clientSkillId": 878,
+  "icon": "/skills/visions-of-regret.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 10 seconds, target foe and adjacent foes take 15...39...45 damage whenever they use a skill and 5...41...50 additional damage if not under the effects of another Mesmer hex.",
+      "zhTW": "持續10秒，目標及鄰近敵人施展技能時受到15～45傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5～50。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 10 seconds, target foe and adjacent foes take 10...26...30 damage whenever they use a skill and 5...33...40 additional damage if not under the effects of another Mesmer hex.",
+      "zhTW": "持續10秒，目標及鄰近敵人施展技能時受到10～30傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5～40。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Visions of Regret (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 10 seconds, target foe and adjacent foes take 10...26...30 damage whenever they use a skill and 5...33...40 additional damage if not under the effects of another Mesmer hex.",
+        "zhTW": "持續10秒，目標及鄰近敵人施展技能時受到10～30傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5～40。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 30.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_%28PvP%29",
+        "revision": 2630200,
+        "title": "Visions of Regret (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3234
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "korrub-flame-of-dreams",
+          "en": "Korrub, Flame of Dreams",
+          "zhTW": "Korrub, Flame of Dreams",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wilderness-of-bahdza",
+              "en": "Wilderness of Bahdza",
+              "zhTW": "巴薩荒野",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wilderness_of_Bahdza"
+          },
+          {
+            "name": {
+              "id": "destroy-the-harpies",
+              "en": "Destroy the Harpies",
+              "zhTW": "Destroy the Harpies",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destroy_the_Harpies"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Korrub, Flame of Dreams (Wilderness of Bahdza, only after completion of Destroy the Harpies)",
+        "source": "https://wiki.guildwars.com/wiki/Visions_of_Regret",
+        "url": "https://wiki.guildwars.com/wiki/Korrub,_Flame_of_Dreams",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續10秒，目標及鄰近敵人施展技能時受到15～45傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5～50。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Visions_of_Regret",
+      "revision": 2659890,
+      "title": "Visions of Regret",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_%28PvP%29",
+      "revision": 2630200,
+      "title": "Visions of Regret (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/27441"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27442,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標及鄰近敵人施展技能時受到%str1%傷害，若他們身上沒有其他幻術師降咒，則傷害再增加%str2%。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

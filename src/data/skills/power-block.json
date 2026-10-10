@@ -1,0 +1,221 @@
+{
+  "pvpOnly": false,
+  "id": "power-block",
+  "name": {
+    "en": "Power Block",
+    "zhTW": "強力封鎖",
+    "translationVerified": true
+  },
+  "clientSkillId": 5,
+  "icon": "/skills/power-block.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled for 1...10...12 seconds and that skill is interrupted.",
+      "zhTW": "中斷目標敵人正在施展的「魔法」或「聖歌」。而且使該目標被中斷的技能及所有同屬性的技能，在 1～12 秒內無法使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lyssa-s-cursed",
+          "en": "Lyssa's Cursed",
+          "zhTW": "Lyssa's Cursed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lyssa's Cursed (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Block",
+        "url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Cursed",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "justiciar-sevaan",
+          "en": "Justiciar Sevaan",
+          "zhTW": "Justiciar Sevaan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "war-in-kryta",
+              "en": "War in Kryta",
+              "zhTW": "War in Kryta",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/War_in_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Sevaan (Divinity Coast (explorable area), during War in Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Block",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Sevaan",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "anmat-the-trickster",
+          "en": "Anmat the Trickster",
+          "zhTW": "Anmat the Trickster",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          },
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Anmat the Trickster (Against the Charr and Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Block",
+        "url": "https://wiki.guildwars.com/wiki/Anmat_the_Trickster",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "faze-magekiller",
+          "en": "Faze Magekiller",
+          "zhTW": "Faze Magekiller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Faze Magekiller (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Power_Block",
+        "url": "https://wiki.guildwars.com/wiki/Faze_Magekiller",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "中斷目標敵人正在施展的「魔法」或「聖歌」。而且使該目標被中斷的技能及所有同屬性的技能，在 1～12 秒內無法使用。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Power_Block",
+      "revision": 2666055,
+      "title": "Power Block",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24805",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24806,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "中斷目標敵人正在施展的「魔法」或「聖歌」。而且使該目標被中斷的技能及所有同屬性的技能，在 %str1% 秒內無法使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

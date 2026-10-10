@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "great-dwarf-weapon",
+  "name": {
+    "en": "Great Dwarf Weapon",
+    "zhTW": "偉大矮人武力"
+  },
+  "clientSkillId": 2219,
+  "icon": "/skills/great-dwarf-weapon.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 20 seconds, target other ally's weapon strikes for +15...20 damage and has a 28...40% chance to cause knock down.",
+      "zhTW": "持續 20 秒，其他目標盟友的武器可造成 +15～20 傷害並有 28～40% 的機率出現「擊倒」效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "attack-on-jalis-s-camp",
+          "en": "Attack on Jalis's Camp",
+          "zhTW": "亞里斯營區的襲擊",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "orozar-highstone",
+              "en": "Orozar Highstone",
+              "zhTW": "Orozar Highstone",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Orozar_Highstone"
+          },
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Attack on Jalis's Camp (from Orozar Highstone in Battledepths)",
+        "source": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 20 秒，其他目標盟友的武器可造成 +15～20 傷害並有 28～40% 的機率出現「擊倒」效果。",
+  "commonUses": [
+    "Deldrimor rank · 武裝魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon",
+      "revision": 2732696,
+      "title": "Great Dwarf Weapon",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69849"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69850,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，其他目標盟友的武器可造成 +%str1% 傷害並有 %str2%%% 的機率出現「擊倒」效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

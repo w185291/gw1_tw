@@ -1,0 +1,680 @@
+{
+  "pvpOnly": false,
+  "id": "enervating-charge",
+  "name": {
+    "en": "Enervating Charge",
+    "zhTW": "衰弱電擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 224,
+  "icon": "/skills/enervating-charge.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe is struck for 25...45...50 lightning damage and suffers from Weakness for 5...17...20 seconds. This spell has 25% armor penetration.",
+      "zhTW": "使目標敵人受到 25～50 閃電傷害並且遭受「虛弱」病症 5～20 秒。此魔法有 25% 防禦穿透效果。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "taltosh",
+          "en": "Taltosh",
+          "zhTW": "Taltosh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grendich-courthouse",
+              "en": "Grendich Courthouse",
+              "zhTW": "葛蘭迪法院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Taltosh (Grendich Courthouse)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Taltosh",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "enraged-phantom",
+          "en": "Enraged Phantom",
+          "zhTW": "Enraged Phantom",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tunnels-of-the-forsaken",
+              "en": "Tunnels of the Forsaken",
+              "zhTW": "Tunnels of the Forsaken",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tunnels_of_the_Forsaken"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Enraged Phantom (Tunnels of the Forsaken)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Enraged_Phantom",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "whiskar-featherstorm",
+          "en": "Whiskar Featherstorm",
+          "zhTW": "Whiskar Featherstorm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "griffon-s-mouth",
+              "en": "Griffon's Mouth",
+              "zhTW": "獅鷲獸隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Griffon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Whiskar Featherstorm (Borlis Pass, Griffon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Whiskar_Featherstorm",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "disgruntled-zombie",
+          "en": "Disgruntled Zombie",
+          "zhTW": "Disgruntled Zombie",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Disgruntled Zombie (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Disgruntled_Zombie",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "zeki-lament",
+          "en": "Zeki Lament",
+          "zhTW": "Zeki Lament",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zeki Lament (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Zeki_Lament",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lamaan-wickedwail",
+          "en": "Lamaan Wickedwail",
+          "zhTW": "Lamaan Wickedwail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lamaan Wickedwail (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "mursaat-elementalist-boss",
+          "en": "Mursaat Elementalist (boss)",
+          "zhTW": "Mursaat Elementalist (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mursaat Elementalist (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Mursaat_Elementalist_(boss)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "kratos-the-foul",
+          "en": "Kratos the Foul",
+          "zhTW": "Kratos the Foul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kratos the Foul (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Kratos_the_Foul",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "the-inquisitor",
+          "en": "The Inquisitor",
+          "zhTW": "The Inquisitor",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "The Inquisitor (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/The_Inquisitor",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "chrysos-the-magnetic",
+          "en": "Chrysos the Magnetic",
+          "zhTW": "Chrysos the Magnetic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chrysos the Magnetic (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "talios-the-resplendent",
+          "en": "Talios the Resplendent",
+          "zhTW": "Talios the Resplendent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Talios the Resplendent (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Talios_the_Resplendent",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "shadow-spawn",
+          "en": "Shadow Spawn",
+          "zhTW": "Shadow Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadow Spawn (Raven's Point)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Spawn",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "cursed-brigand",
+          "en": "Cursed Brigand",
+          "zhTW": "Cursed Brigand",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shards-of-orr",
+              "en": "Shards of Orr",
+              "zhTW": "歐爾殘跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shards_of_Orr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cursed Brigand (Shards of Orr)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Cursed_Brigand",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "thraexis-thundermaw",
+          "en": "Thraexis Thundermaw",
+          "zhTW": "Thraexis Thundermaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grothmar-wardowns",
+              "en": "Grothmar Wardowns",
+              "zhTW": "古斯瑪戰爭丘陵地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grothmar_Wardowns"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Thraexis Thundermaw (Grothmar Wardowns)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Thraexis_Thundermaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-the-kodash-bazaar",
+          "en": "Warden of Whispers (The Kodash Bazaar)",
+          "zhTW": "Warden of Whispers (The Kodash Bazaar)",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(The_Kodash_Bazaar)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north",
+              "en": "Eye of the North",
+              "zhTW": "極地之眼",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 25～50 閃電傷害並且遭受「虛弱」病症 5～20 秒。此魔法有 25% 防禦穿透效果。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+      "revision": 2727775,
+      "title": "Enervating Charge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25270",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25271,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 閃電傷害並且遭受「虛弱」病症 %str2% 秒。此魔法有 25%% 防禦穿透效果。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

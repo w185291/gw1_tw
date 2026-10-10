@@ -1,0 +1,284 @@
+{
+  "pvpOnly": false,
+  "id": "wastrel-s-worry",
+  "name": {
+    "en": "Wastrel's Worry",
+    "zhTW": "瓦思崔的憂慮",
+    "translationVerified": true
+  },
+  "clientSkillId": 50,
+  "icon": "/skills/wastrel-s-worry.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. After 3 seconds, target foe takes 20...84...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+      "zhTW": "3 秒後對目標造成 20～100 傷害，相鄰敵人受到該數值 75% 的傷害。若目標成功使用技能，降咒提前結束且不造成傷害。"
+    },
+    "pvp": {
+      "en": "Hex Spell. After 3 seconds, target foe takes 20...84...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+      "zhTW": "3 秒後對目標造成 20～100 傷害，相鄰敵人受到該數值 75% 的傷害。若目標成功使用技能，降咒提前結束且不造成傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Wastrel's Worry (PvP)",
+      "description": {
+        "en": "Hex Spell. After 3 seconds, target foe takes 20...84...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+        "zhTW": "3 秒後對目標造成 20～100 傷害，相鄰敵人受到該數值 75% 的傷害。若目標成功使用技能，降咒提前結束且不造成傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 4.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry_%28PvP%29",
+        "revision": 2738642,
+        "title": "Wastrel's Worry (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3447
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "sorim",
+          "en": "Sorim",
+          "zhTW": "Sorim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "quarrel-falls",
+              "en": "Quarrel Falls",
+              "zhTW": "怨言瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sorim (Quarrel Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/Sorim",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "master-scout-kiera",
+          "en": "Master Scout Kiera",
+          "zhTW": "Master Scout Kiera",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "henge-of-denravi",
+              "en": "Henge of Denravi",
+              "zhTW": "丹拉維聖地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Master Scout Kiera (Henge of Denravi)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/Master_Scout_Kiera",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-ascalon-settlement",
+          "en": "The Ascalon Settlement",
+          "zhTW": "The Ascalon Settlement",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Ascalon Settlement (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/The_Ascalon_Settlement",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "asynd-blindingclaw",
+          "en": "Asynd Blindingclaw",
+          "zhTW": "Asynd Blindingclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Asynd Blindingclaw (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/Asynd_Blindingclaw",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "pello-agileclaw",
+          "en": "Pello Agileclaw",
+          "zhTW": "Pello Agileclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pello Agileclaw (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+        "url": "https://wiki.guildwars.com/wiki/Pello_Agileclaw",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "3 秒後對目標造成 20～100 傷害，相鄰敵人受到該數值 75% 的傷害。若目標成功使用技能，降咒提前結束且不造成傷害。",
+  "commonUses": [
+    "支配魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+      "revision": 2738406,
+      "title": "Wastrel's Worry",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry_%28PvP%29",
+      "revision": 2738642,
+      "title": "Wastrel's Worry (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24895",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24896,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "After 3 seconds, target foe takes %str1% damage and all adjacent foes take 75%% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

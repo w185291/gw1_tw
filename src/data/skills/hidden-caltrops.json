@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "hidden-caltrops",
+  "name": {
+    "en": "Hidden Caltrops",
+    "zhTW": "神秘蒺藜",
+    "translationVerified": true
+  },
+  "clientSkillId": 1642,
+  "icon": "/skills/hidden-caltrops.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Your non-Assassin skills are disabled for 3 seconds. For 1...8...10 seconds, target foe moves 50% slower. When this hex ends that foe is Crippled for 1...12...15 seconds.",
+      "zhTW": "非刺客技能停用 3 秒。持續 1～10 秒，目標移動速度降低 50%；降咒結束時目標殘廢 1～15 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "admiral-kaya",
+          "en": "Admiral Kaya",
+          "zhTW": "Admiral Kaya",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Admiral Kaya (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Hidden_Caltrops",
+        "url": "https://wiki.guildwars.com/wiki/Admiral_Kaya",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "非刺客技能停用 3 秒。持續 1～10 秒，目標移動速度降低 50%；降咒結束時目標殘廢 1～15 秒。",
+  "commonUses": [
+    "暗影技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hidden_Caltrops",
+      "revision": 2720688,
+      "title": "Hidden Caltrops",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/49961"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49962,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Your non-Assassin skills are disabled for 3 seconds. For %str3% second, target foe moves 50%% slower. When this hex ends that foe is crippled for %str1% second."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

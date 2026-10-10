@@ -1,0 +1,395 @@
+{
+  "pvpOnly": false,
+  "id": "illusion-of-haste",
+  "name": {
+    "en": "Illusion of Haste",
+    "zhTW": "迅速幻覺",
+    "translationVerified": true
+  },
+  "clientSkillId": 37,
+  "icon": "/skills/illusion-of-haste.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...10...11 seconds you are no longer Crippled, and you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.",
+      "zhTW": "持續 5～11 秒，你的「殘廢」病症消失而且移動速度增加 33% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 3 秒。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 5...10...11 seconds, you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.",
+      "zhTW": "持續 5～11 秒，你的「殘廢」病症消失而且移動速度增加 33% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 3 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Illusion of Haste (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 5...10...11 seconds, you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.",
+        "zhTW": "持續 5～11 秒，你的「殘廢」病症消失而且移動速度增加 33% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 3 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_%28PvP%29",
+        "revision": 2733391,
+        "title": "Illusion of Haste (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3373
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "vook-foomble",
+          "en": "Vook Foomble",
+          "zhTW": "Vook Foomble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vook Foomble (Salt Flats)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Vook_Foomble",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "trech-schmoogle",
+          "en": "Trech Schmoogle",
+          "zhTW": "Trech Schmoogle",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Trech Schmoogle (Diviner's Ascent)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Trech_Schmoogle",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "zwack-ramble",
+          "en": "Zwack Ramble",
+          "zhTW": "Zwack Ramble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vulture-drifts",
+              "en": "Vulture Drifts",
+              "zhTW": "禿鷹沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zwack Ramble (Vulture Drifts)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Zwack_Ramble",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "hierophant-morlog",
+          "en": "Hierophant Morlog",
+          "zhTW": "Hierophant Morlog",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          },
+          {
+            "name": {
+              "id": "unspeakable-unknowable",
+              "en": "Unspeakable, Unknowable",
+              "zhTW": "Unspeakable, Unknowable",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unspeakable,_Unknowable"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hierophant Morlog (Sorrow's Furnace, only during Unspeakable, Unknowable)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Hierophant_Morlog",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "a-cure-for-ralena",
+          "en": "A Cure for Ralena",
+          "zhTW": "A Cure for Ralena",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sardelac-sanitarium",
+              "en": "Sardelac Sanitarium",
+              "zhTW": "薩德拉克療養院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sardelac_Sanitarium"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Cure for Ralena (Sardelac Sanitarium)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/A_Cure_for_Ralena",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～11 秒，你的「殘廢」病症消失而且移動速度增加 33% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 3 秒。",
+  "commonUses": [
+    "幻術魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+      "revision": 2718858,
+      "title": "Illusion of Haste",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_%28PvP%29",
+      "revision": 2733391,
+      "title": "Illusion of Haste (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24869",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24870,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的「殘廢」病症消失而且移動速度增加 33%% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

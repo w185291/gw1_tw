@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "marksman-s-wager",
+  "name": {
+    "en": "Marksman's Wager",
+    "zhTW": "弓手的賭注",
+    "translationVerified": true
+  },
+  "clientSkillId": 430,
+  "icon": "/skills/marksman-s-wager.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "preparation",
+    "en": "preparation",
+    "zhTW": "preparation",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 24.0,
+  "description": {
+    "pve": {
+      "en": "Elite Preparation. For 18 seconds, you gain 5...9...10 Energy whenever your arrows hit, but lose 10 Energy whenever your arrows fail to strike.",
+      "zhTW": "持續 18 秒，每當你的弓箭命中目標時，你獲得 5～10 能量，但是若你失誤則損失 10 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "custodian-jenus",
+          "en": "Custodian Jenus",
+          "zhTW": "Custodian Jenus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Jenus (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Marksman%27s_Wager",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Jenus",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "custodian-kora",
+          "en": "Custodian Kora",
+          "zhTW": "Custodian Kora",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Kora (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Marksman%27s_Wager",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Kora",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "custodian-phebus",
+          "en": "Custodian Phebus",
+          "zhTW": "Custodian Phebus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Custodian Phebus (Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Marksman%27s_Wager",
+        "url": "https://wiki.guildwars.com/wiki/Custodian_Phebus",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 18 秒，每當你的弓箭命中目標時，你獲得 5～10 能量，但是若你失誤則損失 10 能量。",
+  "commonUses": [
+    "Expertise · preparation"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Marksman%27s_Wager",
+      "revision": 2720389,
+      "title": "Marksman's Wager",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26218"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26219,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你的弓箭命中目標時，你獲得 %str1% 能量，但是若你失誤則損失 10 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "quivering-blade",
+  "name": {
+    "en": "Quivering Blade",
+    "zhTW": "顫動之刃",
+    "translationVerified": true
+  },
+  "clientSkillId": 892,
+  "icon": "/skills/quivering-blade.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "swordsmanship",
+    "en": "Swordsmanship",
+    "zhTW": "精通劍術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "sword-attack",
+    "en": "sword attack",
+    "zhTW": "劍術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Sword Attack. If Quivering Blade hits, you strike for +10...34...40 damage. If this attack hits a moving foe, that foe is Dazed for 10 seconds.",
+      "zhTW": "當顫動之刃命中時，造成額外10～40傷害，若目標敵人正在移動，則造成暈眩10秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "sun-the-quivering",
+          "en": "Sun, the Quivering",
+          "zhTW": "Sun, the Quivering",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wajjun-bazaar",
+              "en": "Wajjun Bazaar",
+              "zhTW": "瓦江市場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wajjun_Bazaar"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sun, the Quivering (Wajjun Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Quivering_Blade",
+        "url": "https://wiki.guildwars.com/wiki/Sun,_the_Quivering",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "當顫動之刃命中時，造成額外10～40傷害，若目標敵人正在移動，則造成暈眩10秒。",
+  "commonUses": [
+    "精通劍術 · 劍術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Quivering_Blade",
+      "revision": 2738486,
+      "title": "Quivering Blade",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26995",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26996,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當顫動之刃命中時，造成額外%str1%傷害，若目標敵人正在移動，則造成暈眩%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

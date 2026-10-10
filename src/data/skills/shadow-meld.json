@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-meld",
+  "name": {
+    "en": "Shadow Meld",
+    "zhTW": "暗影結合",
+    "translationVerified": true
+  },
+  "clientSkillId": 1654,
+  "icon": "/skills/shadow-meld.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. Shadow Step to target other ally. When you stop maintaining this Enchantment, you return to your original location.",
+      "zhTW": "利用暗影步伐傳送至目標盟友處。當你停止維持這項「加持」時，你將會回到發動此技能的位置。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lunto-sharpfoot",
+          "en": "Lunto Sharpfoot",
+          "zhTW": "Lunto Sharpfoot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "marga-coast",
+              "en": "Marga Coast",
+              "zhTW": "馬加海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Marga_Coast"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lunto Sharpfoot (Marga Coast)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Meld",
+        "url": "https://wiki.guildwars.com/wiki/Lunto_Sharpfoot",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "利用暗影步伐傳送至目標盟友處。當你停止維持這項「加持」時，你將會回到發動此技能的位置。",
+  "commonUses": [
+    "無屬性 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Meld",
+      "revision": 2738345,
+      "title": "Shadow Meld",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/43991"
+  ],
+  "descriptionEvidence": {
+    "stringId": 43992,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "利用暗影步伐傳送至目標盟友處。當你停止維持這項「加持」時，你將會回到發動此技能的位置。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

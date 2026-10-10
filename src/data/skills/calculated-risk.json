@@ -1,0 +1,205 @@
+{
+  "pvpOnly": false,
+  "id": "calculated-risk",
+  "name": {
+    "en": "Calculated Risk",
+    "zhTW": "風險預計"
+  },
+  "clientSkillId": 2053,
+  "icon": "/skills/calculated-risk.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 3...20...24 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...83...100 damage.)",
+      "zhTW": "持續 3～24 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15～100 )。"
+    },
+    "pvp": {
+      "en": "Hex Spell. For 3...10...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...51...60 damage.)",
+      "zhTW": "持續 3～12 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15～60 )。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Calculated Risk (PvP)",
+      "description": {
+        "en": "Hex Spell. For 3...10...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...51...60 damage.)",
+        "zhTW": "持續 3～12 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15～60 )。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Calculated_Risk_%28PvP%29",
+        "revision": 2735080,
+        "title": "Calculated Risk (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3196
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 3～24 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15～100 )。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+      "revision": 2738158,
+      "title": "Calculated Risk",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Calculated_Risk_%28PvP%29",
+      "revision": 2735080,
+      "title": "Calculated Risk (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/61596"
+  ],
+  "descriptionEvidence": {
+    "stringId": 61597,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標敵人攻擊傷害增加 10 ，但有 %str1%%% 機率被自己的傷害反彈 (最多 %str2% )。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

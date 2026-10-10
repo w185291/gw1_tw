@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "empathic-removal",
+  "name": {
+    "en": "Empathic Removal",
+    "zhTW": "情感移除",
+    "translationVerified": true
+  },
+  "clientSkillId": 1126,
+  "icon": "/skills/empathic-removal.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You and target other ally lose 1 condition and 1 hex, and are healed for 50.",
+      "zhTW": "移除目標其他盟友以及自己1個病症以及1個降咒，同時治療兩人50體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "byzzr-wingmender",
+          "en": "Byzzr Wingmender",
+          "zhTW": "Byzzr Wingmender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "melandru-s-hope",
+              "en": "Melandru's Hope",
+              "zhTW": "梅蘭朵的盼望",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Byzzr Wingmender (Melandru's Hope)",
+        "source": "https://wiki.guildwars.com/wiki/Empathic_Removal",
+        "url": "https://wiki.guildwars.com/wiki/Byzzr_Wingmender",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "移除目標其他盟友以及自己1個病症以及1個降咒，同時治療兩人50體力。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Empathic_Removal",
+      "revision": 2658741,
+      "title": "Empathic Removal",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26918"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26919,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標其他盟友以及自己1個病症以及1個降咒，同時治療兩人%str1%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

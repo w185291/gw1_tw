@@ -1,0 +1,376 @@
+{
+  "pvpOnly": false,
+  "id": "yeti-smash",
+  "name": {
+    "en": "Yeti Smash",
+    "zhTW": "雪人猛擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1137,
+  "icon": "/skills/yeti-smash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. Lose all adrenaline. Attack all adjacent foes. If this attack strikes a foe suffering from a condition, that foe is knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
+      "zhTW": "失去所有怒氣值，同時攻擊鄰近所有敵人，若是擊中遭受病症的敵人則擊倒他們。 (鎚術精通屬性等級若是 4 以下則有 50% 失敗機率。)"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zhao-di",
+          "en": "Zhao Di",
+          "zhTW": "Zhao Di",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Zhao Di (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Zhao_Di",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "disgruntled-zombie",
+          "en": "Disgruntled Zombie",
+          "zhTW": "Disgruntled Zombie",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          },
+          {
+            "name": {
+              "id": "evil-residents",
+              "en": "Evil Residents",
+              "zhTW": "Evil Residents",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents"
+          },
+          {
+            "name": {
+              "id": "evil-residents-code-harmonica",
+              "en": "Evil Residents Code: Harmonica",
+              "zhTW": "Evil Residents Code: Harmonica",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Evil_Residents_Code:_Harmonica"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Disgruntled Zombie (North Kryta Province, only during Evil Residents or Evil Residents Code: Harmonica)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Disgruntled_Zombie",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "carnak-the-hungry",
+          "en": "Carnak the Hungry",
+          "zhTW": "Carnak the Hungry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain-war-in-kryta",
+              "en": "The Black Curtain (War in Kryta)",
+              "zhTW": "The Black Curtain (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Carnak the Hungry (The Black Curtain (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Carnak_the_Hungry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "baglorag-grumblesnort",
+          "en": "Baglorag Grumblesnort",
+          "zhTW": "Baglorag Grumblesnort",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "norrhart-domains",
+              "en": "Norrhart Domains",
+              "zhTW": "諾恩之心領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Baglorag Grumblesnort (Norrhart Domains)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Baglorag_Grumblesnort",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chieftain-ulgrimar-gnash",
+          "en": "Chieftain Ulgrimar Gnash",
+          "zhTW": "Chieftain Ulgrimar Gnash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          },
+          {
+            "name": {
+              "id": "the-big-unfriendly-jotun",
+              "en": "The Big Unfriendly Jotun",
+              "zhTW": "The Big Unfriendly Jotun",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Big_Unfriendly_Jotun"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Chieftain Ulgrimar Gnash (Drakkar Lake, during The Big Unfriendly Jotun)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Chieftain_Ulgrimar_Gnash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lann-browsmasher",
+          "en": "Lann Browsmasher",
+          "zhTW": "Lann Browsmasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nornhood",
+              "en": "Nornhood",
+              "zhTW": "Nornhood",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nornhood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lann Browsmasher (Drakkar Lake, during Nornhood)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Lann_Browsmasher",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "grelk-icelash",
+          "en": "Grelk Icelash",
+          "zhTW": "Grelk Icelash",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "darkrime-delves",
+              "en": "Darkrime Delves",
+              "zhTW": "黑霜洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Darkrime_Delves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Grelk Icelash (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Grelk_Icelash",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "havok-kin",
+          "en": "Havok-kin",
+          "zhTW": "Havok-kin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Havok-kin (Darkrime Delves)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Havok-kin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "first-inscribed",
+          "en": "First Inscribed",
+          "zhTW": "First Inscribed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-caves",
+              "en": "Bloodstone Caves",
+              "zhTW": "血石洞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Caves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "First Inscribed (Bloodstone Caves)",
+        "source": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+        "url": "https://wiki.guildwars.com/wiki/First_Inscribed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "失去所有怒氣值，同時攻擊鄰近所有敵人，若是擊中遭受病症的敵人則擊倒他們。 (鎚術精通屬性等級若是 4 以下則有 50% 失敗機率。)",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+      "revision": 2712870,
+      "title": "Yeti Smash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/26950"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26951,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "失去所有怒氣值，同時攻擊鄰近所有敵人，若是擊中遭受病症的敵人則擊倒他們。 (鎚術精通屬性等級若是 4 以下則有 50%% 失敗機率。)"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

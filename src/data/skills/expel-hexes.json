@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "expel-hexes",
+  "name": {
+    "en": "Expel Hexes",
+    "zhTW": "降咒驅逐",
+    "translationVerified": true
+  },
+  "clientSkillId": 954,
+  "icon": "/skills/expel-hexes.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Remove up to 2 Hexes from target ally.",
+      "zhTW": "移除目標盟友身上最多 2 項「降咒」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jin-the-purifier",
+          "en": "Jin, the Purifier",
+          "zhTW": "Jin, the Purifier",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bukdek-byway",
+              "en": "Bukdek Byway",
+              "zhTW": "巴德克小徑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jin, the Purifier (Bukdek Byway)",
+        "source": "https://wiki.guildwars.com/wiki/Expel_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Jin,_the_Purifier",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "移除目標盟友身上最多 2 項「降咒」。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Expel_Hexes",
+      "revision": 2628833,
+      "title": "Expel Hexes",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26586",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26587,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "移除目標盟友身上最多 2 項「降咒」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

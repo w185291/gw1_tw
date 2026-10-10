@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "ebon-vanguard-assassin-support",
+  "name": {
+    "en": "Ebon Vanguard Assassin Support",
+    "zhTW": "黑檀先鋒隊暗殺者支援"
+  },
+  "clientSkillId": 2235,
+  "icon": "/skills/ebon-vanguard-assassin-support.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Summon a level 14...20 Ebon Vanguard Assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike. This summoned Assassin Shadow Steps to target foe. If that foe is a Charr, the Assassin lives for 24...30 seconds. If target foe is not a Charr, the Assassin lives for 12...15 seconds.",
+      "zhTW": "在目標敵人位置召喚一名等級14～20的暗殺者，並擁有「鐵掌」、「狐狸尖牙」和「九尾狙殺」技能。暗殺者將存活12～15秒，若目標敵人為夏爾則暗殺者可存活至24～30秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "service-practice-dummy",
+          "en": "Service: Practice, Dummy",
+          "zhTW": "義勇軍：練習、假人",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Service: Practice, Dummy (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support",
+        "url": "https://wiki.guildwars.com/wiki/Service:_Practice,_Dummy",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "在目標敵人位置召喚一名等級14～20的暗殺者，並擁有「鐵掌」、「狐狸尖牙」和「九尾狙殺」技能。暗殺者將存活12～15秒，若目標敵人為夏爾則暗殺者可存活至24～30秒。",
+  "commonUses": [
+    "Ebon Vanguard rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support",
+      "revision": 2669008,
+      "title": "Ebon Vanguard Assassin Support",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69918"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69919,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人位置召喚一名等級%str1%的暗殺者，並擁有「鐵掌」、「狐狸尖牙」和「九尾狙殺」技能。暗殺者將存活%str2%秒，若目標敵人為夏爾則暗殺者可存活至%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

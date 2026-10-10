@@ -1,0 +1,158 @@
+{
+  "id": "defiant-was-xinrae",
+  "name": {
+    "en": "Defiant Was Xinrae",
+    "zhTW": "反抗軍欣雷",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 812,
+  "icon": "/skills/defiant-was-xinrae.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Xinrae's ashes for up to 15...51...60 seconds. While you hold her ashes, you cannot lose more than 20% of your max Health from a single hit. When you drop her ashes, you steal 5...41...50 Health from all nearby foes.",
+      "zhTW": "持續15～60秒，你受到的單一攻擊不會超過體力最大值的20%，丟下她的骨灰時，偷取附近敵人5～50體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-kaolai",
+          "en": "Bound Kaolai",
+          "zhTW": "Bound Kaolai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Kaolai (Tahnnakai Temple mission)",
+        "source": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kaolai",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "defiant-ancient-sseer",
+          "en": "Defiant Ancient Sseer",
+          "zhTW": "Defiant Ancient Sseer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Defiant Ancient Sseer (Raisu Palace mission)",
+        "source": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae",
+        "url": "https://wiki.guildwars.com/wiki/Defiant_Ancient_Sseer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續15～60秒，你受到的單一攻擊不會超過體力最大值的20%，丟下她的骨灰時，偷取附近敵人5～50體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae",
+      "revision": 2742096,
+      "title": "Defiant Was Xinrae",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27263"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27264,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你受到的單一攻擊不會超過體力最大值的%str1%%%，丟下她的骨灰時，偷取附近敵人%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

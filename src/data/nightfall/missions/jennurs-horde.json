@@ -6,12 +6,12 @@
   "campaign": "nightfall",
   "region": "vabbi",
   "name": {
-    "zhTW": "徵納群落",
+    "zhTW": "征鈉群落",
     "en": "Jennur's Horde"
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -51,10 +51,27 @@
     {
       "id": "koss",
       "name": {
-        "zhTW": "寇斯 / Koss",
+        "zhTW": "寇斯",
         "en": "Koss"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41872",
+        "game-client://2026-10-09/string/46760",
+        "game-client://2026-10-09/string/51065",
+        "game-client://2026-10-09/string/55344"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41872,
+          46760,
+          51065,
+          55344
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -134,7 +151,40 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Harbinger of Nightfall",
+        "zhTW": "Harbinger of Nightfall（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Burst of Aggression",
+        "Distracting Blow",
+        "Hundred Blades",
+        "Lion's Comfort",
+        "Wave of Torment"
+      ],
+      "eliteSkills": [
+        "Hundred Blades"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "按本關任務道具機制打：Jennur’s Horde 以 Light of Seborhin 傷害先遣者，Nundu Bay 則先用 Vial of Purified Water 才能傷害它。清護衛、穩住補血，再處理最後先遣者，不要把兩關機制混用。",
+      "dangerousSkills": [
+        {
+          "name": "Hundred Blades",
+          "counter": "不要圍站近戰目標旁；致盲或格擋壓制普通攻擊，減少範圍觸發。",
+          "source": "https://wiki.guildwars.com/wiki/Harbinger_of_Nightfall"
+        }
+      ],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Harbinger_of_Nightfall",
+      "revision": 2714381
+    }
+  ],
   "recommendedTeam": [
     "Koss、跑速運光與攔巡邏、打斷Abaddon’s Chosen、致盲與肉盾；顯示Lightbringer。"
   ],
@@ -249,6 +299,13 @@
       "revision": 2706620,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Harbinger of Nightfall",
+      "url": "https://wiki.guildwars.com/wiki/Harbinger_of_Nightfall",
+      "revision": 2714381,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -331,5 +388,31 @@
       "expert": "清一組",
       "master": "清兩組"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/35015",
+    "game-client://2026-10-09/string/39677"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      35015,
+      39677
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Jennur%27s_Horde",
+    "revision": 2714383,
+    "heroes": [
+      "Koss"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

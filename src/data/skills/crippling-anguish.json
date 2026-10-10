@@ -1,0 +1,639 @@
+{
+  "pvpOnly": false,
+  "id": "crippling-anguish",
+  "name": {
+    "en": "Crippling Anguish",
+    "zhTW": "殘廢苦痛",
+    "translationVerified": true
+  },
+  "clientSkillId": 54,
+  "icon": "/skills/crippling-anguish.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target moves and attacks 50% slower and suffers -1...7...8 Health degeneration.",
+      "zhTW": "持續 5～20 秒，目標敵人受到體力衰減 1～8 ，且攻擊和移動速度減慢 50% 。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target moves 50% slower and suffers -2...5...6 Health degeneration.",
+      "zhTW": "持續 5～20 秒，目標敵人受到體力衰減 2～6 ，且移動速度減慢 50% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Crippling Anguish (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 5...17...20 seconds, target moves 50% slower and suffers -2...5...6 Health degeneration.",
+        "zhTW": "持續 5～20 秒，目標敵人受到體力衰減 2～6 ，且移動速度減慢 50% 。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_%28PvP%29",
+        "revision": 2731217,
+        "title": "Crippling Anguish (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3152
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "erzek-runebreaker",
+          "en": "Erzek Runebreaker",
+          "zhTW": "Erzek Runebreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lornar-s-pass",
+              "en": "Lornar's Pass",
+              "zhTW": "洛拿斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lornar%27s_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Erzek Runebreaker (Lornar's Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Erzek_Runebreaker",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "barl-stormsiege",
+          "en": "Barl Stormsiege",
+          "zhTW": "Barl Stormsiege",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Barl Stormsiege (Frozen Forest)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Barl_Stormsiege",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "jonar-stonebender",
+          "en": "Jonar Stonebender",
+          "zhTW": "Jonar Stonebender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-caves-of-sorrow",
+              "en": "Ice Caves of Sorrow",
+              "zhTW": "悲傷冰谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Caves_of_Sorrow"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jonar Stonebender (Ice Caves of Sorrow)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Jonar_Stonebender",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "fuury-stonewrath",
+          "en": "Fuury Stonewrath",
+          "zhTW": "Fuury Stonewrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fuury Stonewrath (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Fuury_Stonewrath",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "gorrel-rockmolder",
+          "en": "Gorrel Rockmolder",
+          "zhTW": "Gorrel Rockmolder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "grenth-s-footprint",
+              "en": "Grenth's Footprint",
+              "zhTW": "古蘭斯的足跡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Footprint"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gorrel Rockmolder (Grenth's Footprint)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Gorrel_Rockmolder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "garbok-handsmasher",
+          "en": "Garbok Handsmasher",
+          "zhTW": "Garbok Handsmasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garbok Handsmasher (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Garbok_Handsmasher",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "korvald-willcrusher",
+          "en": "Korvald Willcrusher",
+          "zhTW": "Korvald Willcrusher",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Korvald Willcrusher (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Korvald_Willcrusher",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "vokur-grimshackles",
+          "en": "Vokur Grimshackles",
+          "zhTW": "Vokur Grimshackles",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Vokur Grimshackles (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Vokur_Grimshackles",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "hierophant-morlog",
+          "en": "Hierophant Morlog",
+          "zhTW": "Hierophant Morlog",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unspeakable-unknowable",
+              "en": "Unspeakable, Unknowable",
+              "zhTW": "Unspeakable, Unknowable",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unspeakable,_Unknowable"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hierophant Morlog (Sorrow's Furnace, during Unspeakable, Unknowable)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Hierophant_Morlog",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "yxthoshth",
+          "en": "Yxthoshth",
+          "zhTW": "Yxthoshth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "salt-flats",
+              "en": "Salt Flats",
+              "zhTW": "鹽灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Salt_Flats"
+          },
+          {
+            "name": {
+              "id": "the-ranger-s-path",
+              "en": "The Ranger's Path",
+              "zhTW": "The Ranger's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ranger%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Yxthoshth (Salt Flats, during The Ranger's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Yxthoshth",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lucent-the-spectral",
+          "en": "Lucent the Spectral",
+          "zhTW": "Lucent the Spectral",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lucent the Spectral (The Battle for Lion's Arch (explorable area), during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Lucent_the_Spectral",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "bezzr-wingstorm",
+          "en": "Bezzr Wingstorm",
+          "zhTW": "Bezzr Wingstorm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drazach-thicket",
+              "en": "Drazach Thicket",
+              "zhTW": "德瑞札灌木林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bezzr Wingstorm (Drazach Thicket)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Bezzr_Wingstorm",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "eshim-mindclouder",
+          "en": "Eshim Mindclouder",
+          "zhTW": "Eshim Mindclouder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Eshim Mindclouder (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Eshim_Mindclouder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "yamesh-mindclouder",
+          "en": "Yamesh Mindclouder",
+          "zhTW": "Yamesh Mindclouder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yamesh Mindclouder (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Yamesh_Mindclouder",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ripened-mirage-iboga",
+          "en": "Ripened Mirage Iboga",
+          "zhTW": "Ripened Mirage Iboga",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "garden-of-seborhin",
+              "en": "Garden of Seborhin",
+              "zhTW": "希伯欣花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Garden_of_Seborhin"
+          },
+          {
+            "name": {
+              "id": "norn-catering",
+              "en": "Norn Catering",
+              "zhTW": "Norn Catering",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norn_Catering"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Ripened Mirage Iboga (Garden of Seborhin, during Norn Catering)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Ripened_Mirage_Iboga",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "veturni-mindsquall",
+          "en": "Veturni Mindsquall",
+          "zhTW": "Veturni Mindsquall",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Veturni Mindsquall (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Veturni_Mindsquall",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "alitta-guilebloom",
+          "en": "Alitta Guilebloom",
+          "zhTW": "Alitta Guilebloom",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Alitta Guilebloom (Arbor Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Alitta_Guilebloom",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-kurg",
+          "en": "Taskmaster Kurg",
+          "zhTW": "Taskmaster Kurg",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vloxen-excavations",
+              "en": "Vloxen Excavations",
+              "zhTW": "弗洛森古蹟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vloxen_Excavations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Kurg (Vloxen Excavations)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Kurg",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "taskmaster-beld",
+          "en": "Taskmaster Beld",
+          "zhTW": "Taskmaster Beld",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          },
+          {
+            "name": {
+              "id": "attack-on-jalis-s-camp",
+              "en": "Attack on Jalis's Camp",
+              "zhTW": "亞里斯營區的襲擊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Taskmaster Beld (Battledepths, during Attack on Jalis's Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Beld",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～20 秒，目標敵人受到體力衰減 1～8 ，且攻擊和移動速度減慢 50% 。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "ethereal-burden",
+      "en": "Ethereal Burden",
+      "zhTW": "幻影負荷",
+      "translationVerified": true
+    },
+    {
+      "id": "kitah-s-burden",
+      "en": "Kitah's Burden",
+      "zhTW": "吉塔的負荷",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+      "revision": 2674624,
+      "title": "Crippling Anguish",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_%28PvP%29",
+      "revision": 2731217,
+      "title": "Crippling Anguish (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/24903"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24904,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標敵人受到體力衰減 %str1% ，且攻擊和移動速度減慢 50%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

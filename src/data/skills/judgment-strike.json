@@ -1,0 +1,136 @@
+{
+  "pvpOnly": false,
+  "id": "judgment-strike",
+  "name": {
+    "en": "Judgment Strike",
+    "zhTW": "Judgment Strike"
+  },
+  "clientSkillId": 3425,
+  "icon": "/skills/judgment-strike.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Melee Attack. Attack target and adjacent foes. Each attack that hits deals +13...27...30 Holy damage [sic] and knocks down attacking foes. PvE Skill",
+      "zhTW": "攻擊目標與相鄰敵人；每次命中額外造成 13～30 神聖傷害，並擊倒正在攻擊的敵人。PvE 技能。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "yoannh-the-rebuilder",
+          "en": "Yoannh the Rebuilder",
+          "zhTW": "Yoannh the Rebuilder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          },
+          {
+            "name": {
+              "id": "proof-of-triumph",
+              "en": "Proof of Triumph",
+              "zhTW": "Proof of Triumph",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yoannh the Rebuilder (The Ruptured Heart) (requires a party member to be carrying a Proof of Triumph)",
+        "source": "https://wiki.guildwars.com/wiki/Judgment_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Yoannh_the_Rebuilder",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "攻擊目標與相鄰敵人；每次命中額外造成 13～30 神聖傷害，並擊倒正在攻擊的敵人。PvE 技能。",
+  "commonUses": [
+    "神恩 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Judgment_Strike",
+      "revision": 2733321,
+      "title": "Judgment Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": false,
+  "translationSources": [
+    "game-client://2026-10-09/string/79241"
+  ],
+  "descriptionEvidence": {
+    "stringId": 79242,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Attack target and adjacent foes. Each attack that hits deals +%str1% Holy damage and knocks down attacking foes. PvE Skill"
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

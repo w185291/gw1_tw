@@ -1,0 +1,182 @@
+{
+  "id": "vision-of-the-raven-spirit",
+  "order": 7,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Vision of the Raven Spirit",
+    "zhTW": "Vision of the Raven Spirit（繁中名稱待確認）"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": false,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Vision of the Raven Spirit"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 鴉分支"
+  ],
+  "summary": "先與六名 Norn 比武，再協助他們擊退兩小隊 Destroyer，完成後接 A Gate Too Far。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "在 Olafstead 找 Olaf Olafson 接取，再到 Varajar Fells 的 Raven’s Point 入口附近找他開始「討論」。",
+    "location": "Olafstead → Varajar Fells",
+    "requirements": [
+      "完成 Curse of the Nornbear。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 鴉分支",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "先與六名 Norn 比武，再協助他們擊退兩小隊 Destroyer，完成後接 A Gate Too Far。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "抵達會面位置",
+      "content": "接任務後往 Varajar Fells，找 Raven’s Point 入口附近的 Olaf。先整理能量與站位，再選準備討論。"
+    },
+    {
+      "title": "擊敗 Norn 團隊",
+      "content": "Olaf、Olrun 及四名守衛會暫時變敵人。集中壓低一名再換目標，每名到 20% 血量就轉友好，不必繼續追殺。"
+    },
+    {
+      "title": "清兩隊 Destroyer",
+      "content": "比武後兩小隊 Destroyer 來襲，借助已轉友好的 Norn 和旁邊復活神龕分批處理；別讓剛比武耗空的後排站最前方。"
+    },
+    {
+      "title": "領獎並接深入任務",
+      "content": "清完後看 Sign of the Raven 過場，向 Olaf 領 2,000 經驗與 250 Norn 聲望。可立即接 A Gate Too Far，或稍後回 Olafstead 找他。"
+    }
+  ],
+  "routeSummary": "在 Olafstead 找 Olaf Olafson 接取，再到 Varajar Fells 的 Raven’s Point 入口附近找他開始「討論」。",
+  "mapImage": "/maps/eotn/vision-of-the-raven-spirit-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/vision-of-the-raven-spirit-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "Vision of the Raven Spirit 任務地圖",
+      "width": 301,
+      "height": 210,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Vision_of_the_Raven_Spirit_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/6/64/Vision_of_the_Raven_Spirit_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:Vision of the Raven Spirit map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [],
+  "bossAbsenceVerified": true,
+  "bossAbsenceReason": "此處是 Olaf 一隊的比武及兩小隊 Destroyer，Wiki 沒有固定可捕捉 Boss 列表；Norn 達 20% 血量就轉友好。",
+  "recommendedTeam": [
+    "需要短時間集火、治療與解除病症；比武時逐一讓敵方轉友好。"
+  ],
+  "tips": [],
+  "warnings": [
+    "「討論」選項會立即開打，先站好再觸發。",
+    "Norn 到 20% 血量轉友好後，切換下一個仍敵對的目標。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "先比武、再清 Destroyer；復活神龕很近，可用來穩住隊伍後再推進。"
+    ],
+    "hard": [
+      "事件順序不變，避免比武結束後立即多拉敵隊；等能量及生命回復再接增援。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2000,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "250 Norn 聲望。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Vision_of_the_Raven_Spirit",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Vision of the Raven Spirit",
+      "url": "https://wiki.guildwars.com/wiki/Vision_of_the_Raven_Spirit",
+      "revision": 2507359,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "curse-of-the-nornbear",
+  "nextMission": "a-gate-too-far",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "向 Olaf 領獎並接 A Gate Too Far；下一段由他帶隊進 Raven’s Point。"
+  ],
+  "storyStartVerified": false
+}

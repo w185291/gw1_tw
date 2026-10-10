@@ -1,0 +1,243 @@
+{
+  "pvpOnly": false,
+  "id": "fierce-blow",
+  "name": {
+    "en": "Fierce Blow",
+    "zhTW": "兇猛打擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 850,
+  "icon": "/skills/fierce-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If Fierce Blow hits, you strike for +5...17...20 damage. If target foe was [sic] suffering from Weakness, that foe also suffers from a Deep Wound for 1...7...8 second[s].",
+      "zhTW": "命中時造成 5～20 額外傷害，若是目標敵人遭受虛弱病症，則引發重傷 1～8 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-berserker",
+          "en": "Cairn the Berserker",
+          "zhTW": "Cairn the Berserker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Berserker (Divinity Coast (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Berserker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-ettin",
+          "en": "Inscribed Ettin",
+          "zhTW": "Inscribed Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "finding-gadd",
+              "en": "Finding Gadd",
+              "zhTW": "正在尋找蓋德",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_Gadd"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Ettin (Sparkfly Swamp, during 正在尋找蓋德)",
+        "source": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-sentry",
+          "en": "Inscribed Sentry",
+          "zhTW": "Inscribed Sentry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Sentry (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Sentry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "indestructible-golem",
+          "en": "Indestructible Golem",
+          "zhTW": "Indestructible Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-elusive-golemancer",
+              "en": "The Elusive Golemancer",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elusive_Golemancer"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Indestructible Golem (The Elusive Golemancer)",
+        "source": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Indestructible_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 5～20 額外傷害，若是目標敵人遭受虛弱病症，則引發重傷 1～8 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+      "revision": 2733160,
+      "title": "Fierce Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26954",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26955,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，若是目標敵人遭受虛弱病症，則引發重傷 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,189 @@
+{
+  "id": "destructive-was-glaive",
+  "name": {
+    "en": "Destructive Was Glaive",
+    "zhTW": "毀滅者葛雷薇",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1732,
+  "icon": "/skills/destructive-was-glaive.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Glaive's ashes for up to 30...54...60 seconds. While you hold her ashes, all Ritualist skills have 20% armor penetration. When you drop her ashes, all foes in the area are struck for 15...71...85 lightning damage.",
+      "zhTW": "最多可抱持 30～60 秒，你所有祭祀者技能具有 20% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15～85 閃電傷害。"
+    },
+    "pvp": {
+      "en": "Elite Item Spell. Hold Glaive's ashes for up to 30...54...60 seconds. While you hold her ashes, all Ritualist skills have 10% armor penetration. When you drop her ashes, all foes in the area are struck for 15...71...85 lightning damage.",
+      "zhTW": "抱持骨灰最多 30～60 秒。抱持期間所有祭祀技能具有 10% 防禦穿透；放下時對區域內敵人造成 15～85 閃電傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Destructive Was Glaive (PvP)",
+      "description": {
+        "en": "Elite Item Spell. Hold Glaive's ashes for up to 30...54...60 seconds. While you hold her ashes, all Ritualist skills have 10% armor penetration. When you drop her ashes, all foes in the area are struck for 15...71...85 lightning damage.",
+        "zhTW": "抱持骨灰最多 30～60 秒。抱持期間所有祭祀技能具有 10% 防禦穿透；放下時對區域內敵人造成 15～85 閃電傷害。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_%28PvP%29",
+        "revision": 2649291,
+        "title": "Destructive Was Glaive (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3157
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "calamitous",
+          "en": "Calamitous",
+          "zhTW": "Calamitous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Calamitous (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive",
+        "url": "https://wiki.guildwars.com/wiki/Calamitous",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "lieutenant-kayin",
+          "en": "Lieutenant Kayin",
+          "zhTW": "Lieutenant Kayin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lieutenant Kayin (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive",
+        "url": "https://wiki.guildwars.com/wiki/Lieutenant_Kayin",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "最多可抱持 30～60 秒，你所有祭祀者技能具有 20% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15～85 閃電傷害。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive",
+      "revision": 2686523,
+      "title": "Destructive Was Glaive",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_%28PvP%29",
+      "revision": 2649291,
+      "title": "Destructive Was Glaive (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/50095",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50096,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多可抱持 %str3% 秒，你所有祭祀者技能具有 %str2%%% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 %str1% 閃電傷害。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

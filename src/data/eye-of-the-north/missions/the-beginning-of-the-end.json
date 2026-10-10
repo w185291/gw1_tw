@@ -1,0 +1,184 @@
+{
+  "id": "the-beginning-of-the-end",
+  "order": 1,
+  "campaign": "eye-of-the-north",
+  "region": "depths-of-tyria",
+  "name": {
+    "en": "The Beginning of the End",
+    "zhTW": "The Beginning of the End（繁中名稱待確認）"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": false,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "The Beginning of the End"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "序章"
+  ],
+  "summary": "地下會面後有三分鐘逃到 Asura Gate；重點是跟著友軍撤退，沿途敵人不需要擊殺。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "完成所屬章節的入口任務後，地下會面過場結束就自動接到本任務；從 Beneath Lion’s Arch、Tunnels Below Cantha 或 Caverns Below Kamadan 其中一處開始。",
+    "location": "地下入口區域",
+    "requirements": [
+      "先進行 What Lies Beneath、I Feel the Earth Move Under Cantha’s Feet 或 Hole of Istan 其中一份入口任務。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "序章",
+  "routeChoice": null,
+  "objectives": [
+    {
+      "text": "地下會面後有三分鐘逃到 Asura Gate；重點是跟著友軍撤退，沿途敵人不需要擊殺。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "過場前選跟隨對象",
+      "content": "在會面前先選取 Burol Ironfist 或 Kodan，過場結束後用空白鍵跟隨友軍。倒數顯示三分鐘，現在的目標是撤退。"
+    },
+    {
+      "title": "沿路撤離",
+      "content": "跟友軍往 Asura Gate 前進；Destroyer 會在後方生成並追來，別停下逐群交戰，否則會耗盡倒數。一般情況不帶加速也能趕到。"
+    },
+    {
+      "title": "保持移動",
+      "content": "追上跟隨對象而停下時，再按空白鍵繼續跟。NPC 穿過傳送門後自動跟隨會停止，最後一段要玩家自己走入門。"
+    },
+    {
+      "title": "進門與招募",
+      "content": "進 Asura Gate 觸發進入北方的過場，任務自動完成並從日誌移除；招募 Vekk、Ogden Stonehealer，抵達 Boreal Station，自動接 對抗破壞者。"
+    }
+  ],
+  "routeSummary": "完成所屬章節的入口任務後，地下會面過場結束就自動接到本任務；從 Beneath Lion’s Arch、Tunnels Below Cantha 或 Caverns Below Kamadan 其中一處開始。",
+  "mapImage": "/maps/eotn/the-beginning-of-the-end-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。",
+    "此圖是 Caverns Below Kamadan 入口版本；由另外兩章進入時，沿友軍帶路逃向 Asura Gate。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/the-beginning-of-the-end-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "The Beginning of the End 任務地圖",
+      "width": 406,
+      "height": 205,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Caverns_Below_Kamadan_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/b/b2/Caverns_Below_Kamadan_map.jpg",
+      "uploader": "Chieftain Alex",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:Caverns Below Kamadan map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [],
+  "bossAbsenceVerified": true,
+  "bossAbsenceReason": "這段要求限時逃出，沒有必須擊敗的 Boss；後方追來的 Destroyer 可避開。",
+  "recommendedTeam": [
+    "隊伍需要穩定移動、治療與解除病症；不需要為這段準備 Boss 輸出。"
+  ],
+  "tips": [],
+  "warnings": [
+    "三分鐘是逃生時限，停下打 Destroyer 很容易失敗。",
+    "不要因為看到 NPC 進門就站著等，自行走進傳送門。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "限時撤離，不要求擊殺追兵；沿友軍路線持續移動即可。"
+    ],
+    "hard": [
+      "通關目標仍是逃到門，不因 HM 改成殲滅追兵。重打時帶解除致殘及防護，避免高等追兵追上後排。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": null,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "招募 Vekk 與 Ogden Stonehealer；本頁 Reward 未列金錢或經驗值獎勵。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/The_Beginning_of_the_End",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：The Beginning of the End",
+      "url": "https://wiki.guildwars.com/wiki/The_Beginning_of_the_End",
+      "revision": 2705732,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": null,
+  "nextMission": "against-the-destroyers",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "完成後抵達 Boreal Station，Vekk 與 Ogden Stonehealer 加入英雄名單。",
+    "對抗破壞者 自動加入任務日誌；下一步出站找 Jora。"
+  ],
+  "storyStartVerified": true
+}

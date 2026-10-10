@@ -1,0 +1,289 @@
+{
+  "pvpOnly": false,
+  "id": "edge-of-extinction",
+  "name": {
+    "en": "Edge of Extinction",
+    "zhTW": "滅絕之地",
+    "translationVerified": true
+  },
+  "clientSkillId": 464,
+  "icon": "/skills/edge-of-extinction.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "Nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Nature Ritual. Create a level 1...8...10 spirit. If a non-spirit creature within range dies, Edge of Extinction deals 14...43...50 damage to all creatures of the same type that are below 90% Health and within range of the spirit. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的滅絕精靈。每當區域內有生物死亡時，在滅絕精靈範圍內體力低於 90 %的同種類生物將受到 14～50 傷害。滅絕精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "bartoch",
+          "en": "Bartoch",
+          "zhTW": "Bartoch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "droknar-s-forge",
+              "en": "Droknar's Forge",
+              "zhTW": "卓克納熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bartoch (Droknar's Forge)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Bartoch",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-lost-princess",
+          "en": "The Lost Princess",
+          "zhTW": "The Lost Princess",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fishermen-s-haven",
+              "en": "Fishermen's Haven",
+              "zhTW": "漁人避風港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Lost Princess (Fishermen's Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/The_Lost_Princess",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "sayad-the-bloodless",
+          "en": "Sayad the Bloodless",
+          "zhTW": "Sayad the Bloodless",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gates-of-kryta",
+              "en": "Gates of Kryta",
+              "zhTW": "科瑞塔關所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sayad the Bloodless (Gates of Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Sayad_the_Bloodless",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "abijah-the-decayed",
+          "en": "Abijah the Decayed",
+          "zhTW": "Abijah the Decayed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard",
+              "en": "D'Alessio Seaboard",
+              "zhTW": "達雷西海濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abijah the Decayed (D'Alessio Seaboard)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Abijah_the_Decayed",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "dahr-the-diseased",
+          "en": "Dahr the Diseased",
+          "zhTW": "Dahr the Diseased",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace",
+              "en": "Nebo Terrace",
+              "zhTW": "尼伯山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dahr the Diseased (Nebo Terrace)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Dahr_the_Diseased",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ghita-bonz",
+          "en": "Ghita Bonz",
+          "zhTW": "Ghita Bonz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast",
+              "en": "Divinity Coast",
+              "zhTW": "神聖海岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast"
+          },
+          {
+            "name": {
+              "id": "majesty-s-rest",
+              "en": "Majesty's Rest",
+              "zhTW": "王者安息處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Majesty%27s_Rest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ghita Bonz (Divinity Coast, Majesty's Rest)",
+        "source": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+        "url": "https://wiki.guildwars.com/wiki/Ghita_Bonz",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "創造一隻等級 1～10 的滅絕精靈。每當區域內有生物死亡時，在滅絕精靈範圍內體力低於 90 %的同種類生物將受到 14～50 傷害。滅絕精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "野獸支配 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+      "revision": 2731256,
+      "title": "Edge of Extinction",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26286"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26287,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的滅絕精靈。每當區域內有生物死亡時，在滅絕精靈範圍內體力低於 90 %%的同種類生物將受到 %str2% 傷害。滅絕精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

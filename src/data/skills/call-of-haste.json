@@ -1,0 +1,362 @@
+{
+  "pvpOnly": false,
+  "id": "call-of-haste",
+  "name": {
+    "en": "Call of Haste",
+    "zhTW": "敏捷呼喊",
+    "translationVerified": true
+  },
+  "clientSkillId": 415,
+  "icon": "/skills/call-of-haste.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 30 seconds, your animal companion has a 33% faster attack speed and moves 33% faster.",
+      "zhTW": "持續 30 秒，你的寵物攻擊速度增加 25% 而且移動速度增加 25% 。"
+    },
+    "pvp": {
+      "en": "Shout. For 30 seconds, your animal companion has a 25% faster attack speed and moves 25% faster.",
+      "zhTW": "持續 30 秒，你的寵物攻擊速度增加 25% 而且移動速度增加 25% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Call of Haste (PvP)",
+      "description": {
+        "en": "Shout. For 30 seconds, your animal companion has a 25% faster attack speed and moves 25% faster.",
+        "zhTW": "持續 30 秒，你的寵物攻擊速度增加 25% 而且移動速度增加 25% 。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 25.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Call_of_Haste_%28PvP%29",
+        "revision": 2658378,
+        "title": "Call of Haste (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2657
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "charr-reinforcements",
+          "en": "Charr Reinforcements",
+          "zhTW": "Charr Reinforcements",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "piken-square",
+              "en": "Piken Square",
+              "zhTW": "派肯廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Charr Reinforcements (Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Reinforcements",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "tundoss-the-destroyer",
+          "en": "Tundoss the Destroyer",
+          "zhTW": "Tundoss the Destroyer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tundoss the Destroyer (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Tundoss_the_Destroyer",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "ashlyn-spiderfriend",
+          "en": "Ashlyn Spiderfriend",
+          "zhTW": "Ashlyn Spiderfriend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ashlyn Spiderfriend (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Ashlyn_Spiderfriend",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 30 秒，你的寵物攻擊速度增加 25% 而且移動速度增加 25% 。",
+  "commonUses": [
+    "野獸支配 · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+      "revision": 2683433,
+      "title": "Call of Haste",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Call_of_Haste_%28PvP%29",
+      "revision": 2658378,
+      "title": "Call of Haste (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26187"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26188,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 30 秒，你的寵物攻擊速度增加 25%% 而且移動速度增加 25%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

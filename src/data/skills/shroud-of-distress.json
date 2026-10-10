@@ -1,0 +1,210 @@
+{
+  "pvpOnly": false,
+  "id": "shroud-of-distress",
+  "name": {
+    "en": "Shroud of Distress",
+    "zhTW": "危難遮蔽",
+    "translationVerified": true
+  },
+  "clientSkillId": 1031,
+  "icon": "/skills/shroud-of-distress.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 30...54...60 seconds, if you are below 50% Health, you have +3...7...8 health regeneration and a 75% chance to block attacks.",
+      "zhTW": "持續30～60秒，若體力低於50%，你體力再生增加3～8，同時有75%機會格擋攻擊。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 30...54...60 seconds, if you are below 50% Health, you have a 75% chance to block attacks.",
+      "zhTW": "持續30～60秒，若體力低於50%，同時有75%機會格擋攻擊。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shroud of Distress (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 30...54...60 seconds, if you are below 50% Health, you have a 75% chance to block attacks.",
+        "zhTW": "持續30～60秒，若體力低於50%，同時有75%機會格擋攻擊。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_%28PvP%29",
+        "revision": 2733040,
+        "title": "Shroud of Distress (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3048
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "dual-strike",
+          "en": "Dual Strike",
+          "zhTW": "Dual Strike",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kinya-province",
+              "en": "Kinya Province",
+              "zhTW": "欣彌領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kinya_Province"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Dual Strike (Kinya Province)",
+        "source": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+        "url": "https://wiki.guildwars.com/wiki/Dual_Strike",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "sarnia-the-red-handed",
+          "en": "Sarnia the Red-Handed",
+          "zhTW": "Sarnia the Red-Handed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sarnia the Red-Handed (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+        "url": "https://wiki.guildwars.com/wiki/Sarnia_the_Red-Handed",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續30～60秒，若體力低於50%，你體力再生增加3～8，同時有75%機會格擋攻擊。",
+  "commonUses": [
+    "暗影技巧 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+      "revision": 2733019,
+      "title": "Shroud of Distress",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_%28PvP%29",
+      "revision": 2733040,
+      "title": "Shroud of Distress (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26432"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26433,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，若體力低於50%%，你體力再生增加%str1%，同時有%str2%%%機會格擋攻擊。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

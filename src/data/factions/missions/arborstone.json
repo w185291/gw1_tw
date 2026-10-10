@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -128,78 +128,147 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Dark Fang",
+        "zhTW": "Dark Fang（繁中名稱待確認）",
         "en": "Dark Fang"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Blood Drinker",
+        "Parasitic Bond",
+        "Vampiric Spirit",
+        "Vampiric Swarm"
+      ],
+      "eliteSkills": [
         "Vampiric Spirit"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
-      "revision": 2730001
+      "source": "https://wiki.guildwars.com/wiki/Dark_Fang",
+      "revision": 2424206
     },
     {
       "name": {
-        "zhTW": "The Ancient",
+        "zhTW": "The Ancient（繁中名稱待確認）",
         "en": "The Ancient"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Arc Lightning",
+        "Aura of Restoration",
+        "Blurred Vision",
+        "Shatterstone",
+        "Stun on Critical Hit"
+      ],
+      "eliteSkills": [
         "Shatterstone"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
-      "revision": 2730001
+      "source": "https://wiki.guildwars.com/wiki/The_Ancient",
+      "revision": 2706320
     },
     {
       "name": {
-        "zhTW": "Stone Judge",
+        "zhTW": "Stone Judge（繁中名稱待確認）",
         "en": "Stone Judge"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Endure Pain",
+        "Forceful Blow",
+        "Mighty Blow",
+        "Stun Immunity"
+      ],
+      "eliteSkills": [
         "Forceful Blow"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
-      "revision": 2730001
+      "source": "https://wiki.guildwars.com/wiki/Stone_Judge",
+      "revision": 2639448
     },
     {
       "name": {
-        "zhTW": "Ryver Mossplanter",
+        "zhTW": "Ryver Mossplanter（繁中名稱待確認）",
         "en": "Ryver Mossplanter"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Barbed Trap",
+        "Brambles",
+        "Lacerate",
+        "Splinter Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
         "Lacerate"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ryver_Mossplanter"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
-      "revision": 2730001
+      "source": "https://wiki.guildwars.com/wiki/Ryver_Mossplanter",
+      "revision": 2742236
     },
     {
       "name": {
-        "zhTW": "Milefaun Mindflayer",
+        "zhTW": "Milefaun Mindflayer（繁中名稱待確認）",
         "en": "Milefaun Mindflayer"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Cry of Frustration",
+        "Energy Surge",
+        "Ether Feast",
+        "Shatter Enchantment",
+        "Shatter Hex"
+      ],
+      "eliteSkills": [
         "Energy Surge"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Arborstone#Bosses",
-      "revision": 2730001
+      "source": "https://wiki.guildwars.com/wiki/Milefaun_Mindflayer",
+      "revision": 2576644
     }
   ],
   "recommendedTeam": [
@@ -309,6 +378,41 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Dark Fang",
+      "url": "https://wiki.guildwars.com/wiki/Dark_Fang",
+      "revision": 2424206,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Ancient",
+      "url": "https://wiki.guildwars.com/wiki/The_Ancient",
+      "revision": 2706320,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Stone Judge",
+      "url": "https://wiki.guildwars.com/wiki/Stone_Judge",
+      "revision": 2639448,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ryver Mossplanter",
+      "url": "https://wiki.guildwars.com/wiki/Ryver_Mossplanter",
+      "revision": 2742236,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Milefaun Mindflayer",
+      "url": "https://wiki.guildwars.com/wiki/Milefaun_Mindflayer",
+      "revision": 2576644,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -363,7 +467,7 @@
       },
       "giver": "Headmaster Amara",
       "location": "Altrumm  Ruins",
-      "directions": "會合Togo，前往風神海床尋求入場，找Elder Rhea交任務。",
+      "directions": "會合Togo，前往風神海床尋求入場，找席亞長老交任務。",
       "url": "https://wiki.guildwars.com/wiki/The_Convocation",
       "revision": 2607120,
       "translationStatus": "needs-review"
@@ -391,5 +495,24 @@
       "expert": "30–35分鐘",
       "master": "少於30分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22144",
+    "game-client://2026-10-09/string/22146",
+    "game-client://2026-10-09/string/22147"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22144,
+      22146,
+      22147
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

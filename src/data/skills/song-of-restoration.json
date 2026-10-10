@@ -1,0 +1,183 @@
+{
+  "pvpOnly": false,
+  "id": "song-of-restoration",
+  "name": {
+    "en": "Song of Restoration",
+    "zhTW": "復原之歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 1771,
+  "icon": "/skills/song-of-restoration.png",
+  "profession": {
+    "id": "paragon",
+    "en": "Paragon",
+    "zhTW": "聖言者",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "motivation",
+    "en": "Motivation",
+    "zhTW": "激勵",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "chant",
+    "en": "chant",
+    "zhTW": "聖歌",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Chant. For 10 seconds, the next time each party member within earshot uses a skill, that party member gains 45...97...110 Health.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45～110 體力。"
+    },
+    "pvp": {
+      "en": "Elite Chant. For 10 seconds, the next time each party member within earshot uses a skill, that party member gains 45...97...110 Health.",
+      "zhTW": "持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45～110 體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Song of Restoration (PvP)",
+      "description": {
+        "en": "Elite Chant. For 10 seconds, the next time each party member within earshot uses a skill, that party member gains 45...97...110 Health.",
+        "zhTW": "持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45～110 體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Song_of_Restoration_%28PvP%29",
+        "revision": 2731343,
+        "title": "Song of Restoration (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2878
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "toshau-sharpspear",
+          "en": "Toshau Sharpspear",
+          "zhTW": "Toshau Sharpspear",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "garden-of-seborhin",
+              "en": "Garden of Seborhin",
+              "zhTW": "希伯欣花園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Garden_of_Seborhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Toshau Sharpspear (Garden of Seborhin)",
+        "source": "https://wiki.guildwars.com/wiki/Song_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Toshau_Sharpspear",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      },
+      {
+        "name": {
+          "id": "erasklion-the-prolific",
+          "en": "Erasklion the Prolific",
+          "zhTW": "Erasklion the Prolific",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Erasklion the Prolific (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Song_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Erasklion_the_Prolific",
+        "unlockOnly": false,
+        "profession": "Paragon"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45～110 體力。",
+  "commonUses": [
+    "激勵 · 聖歌"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Song_of_Restoration",
+      "revision": 2731054,
+      "title": "Song of Restoration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Song_of_Restoration_%28PvP%29",
+      "revision": 2731343,
+      "title": "Song of Restoration (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized paragon skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+      "revision": 2607813,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_paragon_skill_names",
+    "game-client://2026-10-09/string/44130"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44131,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

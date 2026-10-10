@@ -1,0 +1,297 @@
+{
+  "pvpOnly": false,
+  "id": "invoke-lightning",
+  "name": {
+    "en": "Invoke Lightning",
+    "zhTW": "閃電祈禱",
+    "translationVerified": true
+  },
+  "clientSkillId": 1664,
+  "icon": "/skills/invoke-lightning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 5.0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe and up to two other foes near your target are struck for 10...74...90 lightning damage. This spell has 25% armor penetration.",
+      "zhTW": "使目標敵人及其附近最多兩名敵人遭受 10～90 閃電傷害。此魔法具有 25% 防禦穿透效果，若你身上不具有「加持」，使用此「魔法」將導致精疲力竭。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lushivahr-the-invoker",
+          "en": "Lushivahr the Invoker",
+          "zhTW": "Lushivahr the Invoker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yatendi-canyons",
+              "en": "Yatendi Canyons",
+              "zhTW": "亞天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yatendi_Canyons"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Lushivahr the Invoker (Yatendi Canyons)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Lushivahr_the_Invoker",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "general-tirraj",
+          "en": "General Tirraj",
+          "zhTW": "General Tirraj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dzagonur-bastion",
+              "en": "Dzagonur Bastion",
+              "zhTW": "薩崗諾稜堡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "General Tirraj (Dzagonur Bastion)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/General_Tirraj",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "scribe-wensal",
+          "en": "Scribe Wensal",
+          "zhTW": "Scribe Wensal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nundu-bay",
+              "en": "Nundu Bay",
+              "zhTW": "納度灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nundu_Bay"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Scribe Wensal (Nundu Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Scribe_Wensal",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "curator-kali",
+          "en": "Curator Kali",
+          "zhTW": "Curator Kali",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-madness",
+              "en": "Gate of Madness",
+              "zhTW": "瘋狂之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Madness"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Curator Kali (Gate of Madness)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Curator_Kali",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "tanmahk-the-arcane",
+          "en": "Tanmahk the Arcane",
+          "zhTW": "Tanmahk the Arcane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          },
+          {
+            "name": {
+              "id": "a-show-of-force",
+              "en": "A Show of Force",
+              "zhTW": "A Show of Force",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Show_of_Force"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tanmahk the Arcane (The Sulfurous Wastes, only during A Show of Force)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Tanmahk_the_Arcane",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "margonite-portal-mage",
+          "en": "Margonite Portal Mage",
+          "zhTW": "Margonite Portal Mage",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-shadow-nexus",
+              "en": "The Shadow Nexus",
+              "zhTW": "陰鬱核心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Shadow_Nexus"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Margonite Portal Mage (The Shadow Nexus)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Margonite_Portal_Mage",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "shadow-spawn",
+          "en": "Shadow Spawn",
+          "zhTW": "Shadow Spawn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          },
+          {
+            "name": {
+              "id": "shadows-in-the-night",
+              "en": "Shadows in the Night",
+              "zhTW": "Shadows in the Night",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadows_in_the_Night"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shadow Spawn (Raven's Point, only during Shadows in the Night)",
+        "source": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Spawn",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "使目標敵人及其附近最多兩名敵人遭受 10～90 閃電傷害。此魔法具有 25% 防禦穿透效果，若你身上不具有「加持」，使用此「魔法」將導致精疲力竭。",
+  "commonUses": [
+    "風系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+      "revision": 2629431,
+      "title": "Invoke Lightning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/49989"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49990,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人及其附近最多兩名敵人遭受 %str1% 閃電傷害。此魔法具有 25%% 防禦穿透效果，若你身上不具有「加持」，使用此「魔法」將導致精疲力竭。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

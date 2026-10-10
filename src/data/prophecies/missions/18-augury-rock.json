@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "crystal-desert",
   "name": {
-    "zhTW": "預言之石",
+    "zhTW": "占卜之石",
     "en": "Augury Rock"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "預言之石",
+    "占卜之石",
     "Augury Rock",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "完成三試煉後，獨自擊敗自己的分身。",
+  "summary": "限時擊敗 Doppelganger；詳見下方分段路線與主線完成條件。",
   "partySize": 1,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,10 +36,10 @@
   },
   "entryMethod": {
     "type": "npc",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "預言之石據點",
+    "description": "完成三項沙漠試煉後，與 Great Ritual Priest Zahmut 交談，單人進入符文區。",
+    "location": "Augury Rock",
     "requirements": [
-      "絕望沙丘、乾渴之河、伊洛那流域三試煉全部完成。"
+      "絕望沙丘、乾枯河流、伊洛那流域三試煉全部完成。"
     ]
   },
   "requiredHeroes": [],
@@ -52,25 +52,49 @@
   "bonus": {
     "available": true,
     "kind": "timed-bonus",
-    "title": "限時擊敗分身",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "限時擊敗 Doppelganger",
+    "summary": "限時擊敗 Doppelganger",
+    "trigger": "決鬥開始後計時，NM 10 分鐘、HM 2 分鐘內擊殺 Doppelganger。",
+    "steps": [
+      "決鬥開始後計時，NM 10 分鐘、HM 2 分鐘內擊殺 Doppelganger。",
+      "進場前選好能利用 AI 弱點的技能，不要帶完整泛用補血列把戰鬥拖長。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "進場前選好能利用 AI 弱點的技能，不要帶完整泛用補血列把戰鬥拖長。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "先完成三項試煉",
+      "content": "先完成絕望沙丘、乾枯河流、伊洛那流域。到 Augury Rock 據點找 Great Ritual Priest Zahmut；未完成三試煉雖可進區域，卻無法啟動所需符文。"
+    },
+    {
+      "title": "進場前調整技能",
+      "content": "這是單人關，不能帶英雄。Doppelganger 複製你的技能列，所以不要帶會讓它反覆自補的一般治療技能。可利用攻擊懲罰、無法使用的寵物技能或自己較會運用的技能組合，空格可以留空。"
+    },
+    {
+      "title": "啟動三符文",
+      "content": "進場後先踩取得 Divine Fire 的圓形平台，再依任意順序踩三塊飛昇符文石，觸發開岩壁過場及決鬥。"
+    },
+    {
+      "title": "依職業利用 AI 弱點",
+      "content": "例如幻術可只攜 Empathy，施放後停止普通攻擊並維持降咒；遊俠可用寵物與寵物專用技能，分身沒有寵物；祭祀可在過場後退上斜坡，於敵方靈體射程外布自己的靈體，等分身追上來。這些是可選策略，依已學技能選擇。"
+    },
+    {
+      "title": "掌握 Bonus 時限",
+      "content": "NM 必須 10 分鐘內、HM 必須 2 分鐘內擊敗分身。若自己也中攻擊懲罰，不要互相無腦普攻；利用移動、技能時機及 AI 浪費施法的空檔完成。"
+    }
+  ],
+  "routeSummary": "先完成三項試煉 → 進場前調整技能 → 啟動三符文 → 依職業利用 AI 弱點 → 掌握 Bonus 時限",
   "mapImage": "/maps/Augury_Rock_overview.jpg",
   "mapNotes": [
-    "保留原 Wiki 英文標記，圖片可放大。",
-    "預言之石原站只有場景俯瞰圖，並沒有標示行走路線。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。",
+    "本關原圖為場景俯瞰，沒有畫出玩家行走路線。"
   ],
   "maps": [
     {
       "src": "/maps/Augury_Rock_overview.jpg",
       "title": "場景俯瞰圖（原 Wiki 沒有標線路線圖）",
-      "alt": "預言之石・場景俯瞰圖（原 Wiki 沒有標線路線圖）",
+      "alt": "占卜之石・場景俯瞰圖（原 Wiki 沒有標線路線圖）",
       "width": 1024,
       "height": 768,
       "filePage": "https://wiki.guildwars.com/wiki/File:Augury_Rock_overview.jpg",
@@ -81,13 +105,46 @@
       "role": "overview_screenshot"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Doppelganger",
+        "zhTW": "Doppelganger（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "技能列隨玩家改變，沒有固定列表。",
+      "notes": [
+        "實際職業為僧侶，但技能列複製玩家；PvE 專用技能通常不能使用，十個 Anniversary 菁英例外。"
+      ],
+      "strategy": "複製玩家技能列；進場前改用能利用 AI 弱點的反擊、寵物或靈體方案，避免攜帶讓敵方反覆自補的技能。NM 十分鐘、HM 兩分鐘內擊殺才有 Bonus。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Doppelganger",
+      "revision": 2718152,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "只能單人。使用符合自己主副職業且已學會的反擊／寵物／靈體方案；不要求唯一 Build。",
+    "準備最高護甲與適合的武器；遠距離對手使用矛、近身改用閃電斧。"
+  ],
+  "tips": [
+    "擊敗分身完成飛昇後傳送至 The Dragon's Lair（龍穴）。組成 8 人隊再開始下一關。"
+  ],
+  "warnings": [
+    "分身能使用十週年菁英技能，不能籠統認為所有 PvE 技能都無法複製。",
+    "缺任何一項沙漠試煉就不能啟動符文；單靠進入據點不代表已解鎖飛昇。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "單人擊敗分身；Bonus 為 10 分鐘內完成。"
+    ],
+    "hard": [
+      "分身由 NM 20 級提升為 HM 30 級，Bonus 從 10 分鐘縮短至 2 分鐘。攻擊懲罰可利用其攻速，但必須確保自己能承受攻擊。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -107,11 +164,26 @@
       "revision": 2719406,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Doppelganger",
+      "url": "https://wiki.guildwars.com/wiki/Doppelganger",
+      "revision": 2718152,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "elona-reach",
   "nextMission": "the-dragons-lair",
@@ -119,5 +191,30 @@
     "dunes-of-despair",
     "thirsty-river",
     "elona-reach"
-  ]
+  ],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10416",
+    "game-client://2026-10-09/string/10418"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "擊敗分身完成飛昇後傳送至 The Dragon's Lair（龍穴）。組成 8 人隊再開始下一關。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10416,
+      10418
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": []
 }

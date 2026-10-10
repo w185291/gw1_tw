@@ -1,0 +1,158 @@
+{
+  "id": "vengeful-was-khanhei",
+  "name": {
+    "en": "Vengeful Was Khanhei",
+    "zhTW": "復仇者漢何",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 790,
+  "icon": "/skills/vengeful-was-khanhei.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Khanhei's ashes for 5...10...11 seconds. Whenever a foe strikes you in combat while you are holding Khanhei's ashes, you steal 10...38...45 Health from that foe.",
+      "zhTW": "抱持漢何的骨灰 5～11 秒，當敵人在你抱持他的骨灰時攻擊你，你偷取該敵人 10～45 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bazzr-dustwing",
+          "en": "Bazzr Dustwing",
+          "zhTW": "Bazzr Dustwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bazzr Dustwing (Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei",
+        "url": "https://wiki.guildwars.com/wiki/Bazzr_Dustwing",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "delic-the-vengeance-seeker",
+          "en": "Delic the Vengeance Seeker",
+          "zhTW": "Delic the Vengeance Seeker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Delic the Vengeance Seeker (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei",
+        "url": "https://wiki.guildwars.com/wiki/Delic_the_Vengeance_Seeker",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "抱持漢何的骨灰 5～11 秒，當敵人在你抱持他的骨灰時攻擊你，你偷取該敵人 10～45 體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei",
+      "revision": 2732342,
+      "title": "Vengeful Was Khanhei",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27281"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27282,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "抱持漢何的骨灰 %str3% 秒，當敵人在你抱持他的骨灰時攻擊你，你偷取該敵人 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

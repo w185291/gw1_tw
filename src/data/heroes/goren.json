@@ -5,18 +5,18 @@
     "en": "Goren"
   },
   "profession": "戰士",
-  "translationStatus": "needs-review",
+  "translationStatus": "verified",
   "summary": "招募方式、選擇群組與需要此英雄的Mission。",
   "native": [
-    "先完成Dasha Vestibule或Dzagonur Bastion，接Brains or Brawn，當下選Norgu；然後完成Goren’s Stuff: Part 1才招募Goren。"
+    "先完成Dasha Vestibule或Dzagonur Bastion，接Brains or Brawn，當下選Norgu；然後完成Goren’s Stuff: Part 1才招募高恩。"
   ],
   "foreign": [
-    "先完成Dasha Vestibule或Dzagonur Bastion，接Brains or Brawn，當下選Norgu；然後完成Goren’s Stuff: Part 1才招募Goren。"
+    "先完成Dasha Vestibule或Dzagonur Bastion，接Brains or Brawn，當下選Norgu；然後完成Goren’s Stuff: Part 1才招募高恩。"
   ],
-  "choiceGroup": "Norgu／Goren",
+  "choiceGroup": "Norgu／高恩",
   "postgame": [
     "破關後在Throne of Secrets接Gain Goren。",
-    "選Goren作Brawn時，他會留在原處；此時後續可招Norgu，Goren須破關後Gain Goren補招。"
+    "選高恩作Brawn時，他會留在原處；此時後續可招Norgu，高恩須破關後Gain Goren補招。"
   ],
   "requiredIn": [],
   "sources": [
@@ -35,11 +35,25 @@
       "role": "mechanics"
     },
     {
-      "title": "中文社群英雄詞典（轉繁體，台版正式譯名待核）",
+      "title": "中文社群英雄詞典",
       "url": "https://guildwars.huijiwiki.com/wiki/%E8%AF%8D%E5%85%B8",
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
     }
-  ]
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/46815",
+    "game-client://2026-10-09/string/48878",
+    "game-client://2026-10-09/string/55337"
+  ],
+  "gameTextEvidence": {
+    "stringIds": [
+      46815,
+      48878,
+      55337
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  }
 }

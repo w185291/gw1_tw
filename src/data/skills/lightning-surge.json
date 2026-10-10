@@ -1,0 +1,289 @@
+{
+  "pvpOnly": false,
+  "id": "lightning-surge",
+  "name": {
+    "en": "Lightning Surge",
+    "zhTW": "閃電震盪",
+    "translationVerified": true
+  },
+  "clientSkillId": 205,
+  "icon": "/skills/lightning-surge.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. After 3 seconds, target foe is knocked down and struck for 14...83...100 lightning damage, and has Cracked Armor for 5...17...20 seconds. This spell has 25% armor penetration.",
+      "zhTW": "在 3 秒之後，使目標敵人受到 14～100 閃電傷害並且被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "enraged-phantom",
+          "en": "Enraged Phantom",
+          "zhTW": "Enraged Phantom",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tunnels-of-the-forsaken",
+              "en": "Tunnels of the Forsaken",
+              "zhTW": "Tunnels of the Forsaken",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tunnels_of_the_Forsaken"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Enraged Phantom (Tunnels of the Forsaken)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Enraged_Phantom",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "facet-of-elements",
+          "en": "Facet of Elements",
+          "zhTW": "Facet of Elements",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Elements (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Elements",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "tahmu",
+          "en": "Tahmu",
+          "zhTW": "Tahmu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter",
+              "en": "Nahpui Quarter",
+              "zhTW": "納普區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tahmu (Nahpui Quarter)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Tahmu",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "sarss-stormscale",
+          "en": "Sarss, Stormscale",
+          "zhTW": "Sarss, Stormscale",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "maishang-hills",
+              "en": "Maishang Hills",
+              "zhTW": "麥尚山丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Maishang_Hills"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sarss, Stormscale (Maishang Hills)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Sarss,_Stormscale",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "zephyr-hedger",
+          "en": "Zephyr Hedger",
+          "zhTW": "Zephyr Hedger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          },
+          {
+            "name": {
+              "id": "koss-s-elixir",
+              "en": "Koss's Elixir",
+              "zhTW": "Koss's Elixir",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Koss%27s_Elixir"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zephyr Hedger (Arkjok Ward, only during Koss's Elixir)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Zephyr_Hedger",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "birneh-skybringer",
+          "en": "Birneh Skybringer",
+          "zhTW": "Birneh Skybringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Birneh Skybringer (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Birneh_Skybringer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "setikor-fireflower",
+          "en": "Setikor Fireflower",
+          "zhTW": "Setikor Fireflower",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Setikor Fireflower (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Setikor_Fireflower",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在 3 秒之後，使目標敵人受到 14～100 閃電傷害並且被擊倒。",
+  "commonUses": [
+    "風系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+      "revision": 2738685,
+      "title": "Lightning Surge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25232",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25233,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在 3 秒之後，使目標敵人受到 %str1% 閃電傷害並且被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

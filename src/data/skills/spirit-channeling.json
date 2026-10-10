@@ -1,0 +1,136 @@
+{
+  "id": "spirit-channeling",
+  "name": {
+    "en": "Spirit Channeling",
+    "zhTW": "導引之靈",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1231,
+  "icon": "/skills/spirit-channeling.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 12 seconds, you have +1...5...6 Energy regeneration. When you cast this spell, you gain 3...10...12 Energy if you are within earshot of a spirit.",
+      "zhTW": "持續 12 秒，你獲得 1～6 能量再生，使用此技能時，若是你的音量所及範圍內有靈，則你獲得 3～12 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cho-spirit-empath",
+          "en": "Cho, Spirit Empath",
+          "zhTW": "Cho, Spirit Empath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels",
+              "en": "Shenzun Tunnels",
+              "zhTW": "申贊通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Cho, Spirit Empath (Shenzun Tunnels)",
+        "source": "https://wiki.guildwars.com/wiki/Spirit_Channeling",
+        "url": "https://wiki.guildwars.com/wiki/Cho,_Spirit_Empath",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 12 秒，你獲得 1～6 能量再生，使用此技能時，若是你的音量所及範圍內有靈，則你獲得 3～12 能量。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spirit_Channeling",
+      "revision": 2733203,
+      "title": "Spirit Channeling",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27301",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27302,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你獲得 %str1% 能量再生，使用此技能時，若是你的音量所及範圍內有靈，則你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

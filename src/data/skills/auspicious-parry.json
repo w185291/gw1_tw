@@ -1,0 +1,188 @@
+{
+  "pvpOnly": false,
+  "id": "auspicious-parry",
+  "name": {
+    "en": "Auspicious Parry",
+    "zhTW": "幸運迴避",
+    "translationVerified": true
+  },
+  "clientSkillId": 1142,
+  "icon": "/skills/auspicious-parry.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 1,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 8 seconds, the next attack against you is blocked. You gain 1...3...4 strike[s] of adrenaline when this stance ends.",
+      "zhTW": "持續 8 秒，你格檔下一次遭受的攻擊，此態勢終止時你獲得 1～4 次攻擊的怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-jaizhanju",
+          "en": "Bound Jaizhanju",
+          "zhTW": "Bound Jaizhanju",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Jaizhanju (Tahnnakai Temple mission)",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Jaizhanju",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sword-ancient-kai",
+          "en": "Sword Ancient Kai",
+          "zhTW": "Sword Ancient Kai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sword Ancient Kai (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+        "url": "https://wiki.guildwars.com/wiki/Sword_Ancient_Kai",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bound-tiendi",
+          "en": "Bound Tiendi",
+          "zhTW": "Bound Tiendi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          },
+          {
+            "name": {
+              "id": "a-history-of-violence",
+              "en": "A History of Violence",
+              "zhTW": "暴力的歷史",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_History_of_Violence"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bound Tiendi (Domain of Fear, during 暴力的歷史)",
+        "source": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Tiendi",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 8 秒，你格檔下一次遭受的攻擊，此態勢終止時你獲得 1～4 次攻擊的怒氣值。",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+      "revision": 2735665,
+      "title": "Auspicious Parry",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26987",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26988,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你格檔下一次遭受的攻擊，此態勢終止時你獲得 %str1% 次攻擊的怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

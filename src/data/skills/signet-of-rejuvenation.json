@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-rejuvenation",
+  "name": {
+    "en": "Signet of Rejuvenation",
+    "zhTW": "新生紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 887,
+  "icon": "/skills/signet-of-rejuvenation.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Heal target ally for 15...63...75. If target ally is casting a spell or attacking, that ally is healed for an additional 15...63...75 Health.",
+      "zhTW": "治癒目標盟友 15～75 體力。若該盟友正在攻擊或者施展「魔法」，則其額外被治癒 15～75 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "flannuss-broadwing",
+          "en": "Flannuss Broadwing",
+          "zhTW": "Flannuss Broadwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flannuss Broadwing (Arbor Bay)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation",
+        "url": "https://wiki.guildwars.com/wiki/Flannuss_Broadwing",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "治癒目標盟友 15～75 體力。若該盟友正在攻擊或者施展「魔法」，則其額外被治癒 15～75 體力。",
+  "commonUses": [
+    "治療祈禱 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation",
+      "revision": 2718461,
+      "title": "Signet of Rejuvenation",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26900"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26901,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治癒目標盟友 %str1% 體力。若該盟友正在攻擊或者施展「魔法」，則其額外被治癒 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

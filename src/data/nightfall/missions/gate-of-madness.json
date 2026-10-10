@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -140,59 +140,111 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Champion Puran",
+        "zhTW": "Champion Puran（繁中名稱待確認）",
         "en": "Champion Puran"
       },
       "profession": "戰士",
       "importantSkills": [
+        "Healing Signet",
+        "Heavy Blow",
+        "Magehunter's Smash",
+        "Overbearing Smash",
+        "Staggering Blow"
+      ],
+      "eliteSkills": [
         "Magehunter's Smash"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Champion_Puran"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
-      "revision": 2734870
+      "source": "https://wiki.guildwars.com/wiki/Champion_Puran",
+      "revision": 2605129
     },
     {
       "name": {
-        "zhTW": "Curator Kali",
+        "zhTW": "Curator Kali（繁中名稱待確認）",
         "en": "Curator Kali"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Air Attunement",
+        "Aura of Restoration",
+        "Chilling Winds",
+        "Freezing Gust",
         "Invoke Lightning"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
-      "revision": 2734870
+      "source": "https://wiki.guildwars.com/wiki/Curator_Kali",
+      "revision": 2605132
     },
     {
       "name": {
-        "zhTW": "Shiro Tagachi",
+        "zhTW": "Shiro Tagachi（繁中名稱待確認）",
         "en": "Shiro Tagachi"
       },
-      "profession": "暗殺者",
-      "importantSkills": [],
+      "profession": "Assassin",
+      "importantSkills": [
+        "Battle Scars",
+        "Impossible Odds",
+        "Riposting Shadows",
+        "Natural Resistance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "全隊治療降低15%。不要把Boss拉離神殿太遠，Wiki記錄會全隊死。英雄遠距離插旗佔點的捷徑可能破壞對話觸發，必須歸隊後全隊一起進神殿。 姿態移除、攻擊反擊、靈／小兵阻擋、範圍治療與復活；Lightbringer對Portal Wraith無效。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
-      "revision": 2734870
+      "source": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239
     },
     {
       "name": {
-        "zhTW": "Undead Lich",
+        "zhTW": "Undead Lich（繁中名稱待確認）",
         "en": "Undead Lich"
       },
-      "profession": "死靈法師",
-      "importantSkills": [],
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Hunger of the Lich",
+        "Life Vortex"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "旗標後排在 Bloodstone 中央，玩家被傳進熔岩立即回乾地。每次 Undead Lich 復活先殺兩隻 Fists，再重新集火，防止增援累積。保持後排距離，避免近距離全隊同吃 Unholy Feast；保留解降咒應付 HM 的 Life Siphon。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Madness#Bosses",
-      "revision": 2734870
+      "source": "https://wiki.guildwars.com/wiki/Undead_Lich",
+      "revision": 2684325
     }
   ],
   "recommendedTeam": [
@@ -309,6 +361,48 @@
       "revision": 2683657,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Champion Puran",
+      "url": "https://wiki.guildwars.com/wiki/Champion_Puran",
+      "revision": 2605129,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Curator Kali",
+      "url": "https://wiki.guildwars.com/wiki/Curator_Kali",
+      "revision": 2605132,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Shiro Tagachi",
+      "url": "https://wiki.guildwars.com/wiki/Shiro_Tagachi",
+      "revision": 2741239,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Undead Lich",
+      "url": "https://wiki.guildwars.com/wiki/Undead_Lich",
+      "revision": 2684325,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Lightbringer's Gaze",
+      "url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze",
+      "revision": 2675377,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Spawn",
+      "url": "https://wiki.guildwars.com/wiki/Spawn",
+      "revision": 2115664,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -395,5 +489,33 @@
       "expert": "佔3–4座",
       "master": "五神龕都曾佔領"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36156",
+    "game-client://2026-10-09/string/39682",
+    "game-client://2026-10-09/string/48789",
+    "game-client://2026-10-09/string/54507"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      36156,
+      39682,
+      48789,
+      54507
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Gate_of_Madness",
+    "revision": 2734870,
+    "heroes": [],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

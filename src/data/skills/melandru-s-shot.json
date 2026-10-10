@@ -1,0 +1,186 @@
+{
+  "pvpOnly": false,
+  "id": "melandru-s-shot",
+  "name": {
+    "en": "Melandru's Shot",
+    "zhTW": "梅蘭朵射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 853,
+  "icon": "/skills/melandru-s-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. If Melandru's Shot hits, your target begins Bleeding for 5...21...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...22...25 damage and is Crippled for 5...13...15 seconds.",
+      "zhTW": "此技能命中時目標流血 5～25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10～25 額外傷害並殘廢 5～15 秒。"
+    },
+    "pvp": {
+      "en": "Elite Bow Attack. If Melandru's Shot hits, your target begins Bleeding for 5...21...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...22...25 damage and is Crippled for 5...13...15 seconds.",
+      "zhTW": "此技能命中時目標流血 5～25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10～25 額外傷害並殘廢 5～15 秒。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Melandru's Shot (PvP)",
+      "description": {
+        "en": "Elite Bow Attack. If Melandru's Shot hits, your target begins Bleeding for 5...21...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...22...25 damage and is Crippled for 5...13...15 seconds.",
+        "zhTW": "此技能命中時目標流血 5～25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10～25 額外傷害並殘廢 5～15 秒。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot_%28PvP%29",
+        "revision": 2738521,
+        "title": "Melandru's Shot (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3459
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "valis-the-rampant",
+          "en": "Valis the Rampant",
+          "zhTW": "Valis the Rampant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes-war-in-kryta",
+              "en": "Twin Serpent Lakes (War in Kryta)",
+              "zhTW": "Twin Serpent Lakes (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Valis the Rampant (Twin Serpent Lakes (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Valis_the_Rampant",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "razortongue-frothspit",
+          "en": "Razortongue Frothspit",
+          "zhTW": "Razortongue Frothspit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "archipelagos",
+              "en": "Archipelagos",
+              "zhTW": "群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Archipelagos"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Razortongue Frothspit (Archipelagos)",
+        "source": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Razortongue_Frothspit",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "此技能命中時目標流血 5～25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10～25 額外傷害並殘廢 5～15 秒。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot",
+      "revision": 2738341,
+      "title": "Melandru's Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot_%28PvP%29",
+      "revision": 2738521,
+      "title": "Melandru's Shot (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27195"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27196,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此技能命中時目標流血 %str2% 秒。若是命中正在移動中或被擊倒的敵人時，將附加 %str1% 額外傷害並殘廢 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

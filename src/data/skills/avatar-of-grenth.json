@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "avatar-of-grenth",
+  "name": {
+    "en": "Avatar of Grenth",
+    "zhTW": "古蘭斯化身",
+    "translationVerified": true
+  },
+  "clientSkillId": 1520,
+  "icon": "/skills/avatar-of-grenth.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "mysticism",
+    "en": "Mysticism",
+    "zhTW": "祕法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "form",
+    "en": "form",
+    "zhTW": "型態",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Form. For 10...74...90 seconds, your scythe attacks deal dark damage, and steal 0...10...12 Health. You are immune to Disease, and inflict Disease on all adjacent foes for 3 seconds whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+      "zhTW": "持續 10～90 秒，你的鐮刀攻擊造成黑暗傷害並偷取 0～12 體力，同時你對疾病免疫。每當你失去一項神喚使加持時，使鄰近敵人遭受疾病 3 秒。此技能在 45 秒內無法使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "acolyte-of-grenth",
+          "en": "Acolyte of Grenth",
+          "zhTW": "Acolyte of Grenth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Acolyte of Grenth (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_of_Grenth",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10～90 秒，你的鐮刀攻擊造成黑暗傷害並偷取 0～12 體力，同時你對疾病免疫。每當你失去一項神喚使加持時，使鄰近敵人遭受疾病 3 秒。此技能在 45 秒內無法使用。",
+  "commonUses": [
+    "祕法 · 型態"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth",
+      "revision": 2723117,
+      "title": "Avatar of Grenth",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/39869"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39870,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的鐮刀攻擊造成黑暗傷害並偷取 %str1% 體力，同時你對疾病免疫。每當你失去一項神喚使加持時，使鄰近敵人遭受疾病 %str2% 秒。此技能在 45 秒內無法使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

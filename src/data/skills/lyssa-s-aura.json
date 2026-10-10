@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "lyssa-s-aura",
+  "name": {
+    "en": "Lyssa's Aura",
+    "zhTW": "麗莎靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 813,
+  "icon": "/skills/lyssa-s-aura.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "inspiration-magic",
+    "en": "Inspiration Magic",
+    "zhTW": "靈感魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 10 seconds, you have +0...4...5 Energy regeneration. This enchantment reapplies itself every time you cast a spell on a foe.",
+      "zhTW": "持續10秒，你能量再生增加0～5，每當對敵人施展魔法時麗莎靈氣重新回復到10秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hai-jii",
+          "en": "Hai Jii",
+          "zhTW": "Hai Jii",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nahpui-quarter",
+              "en": "Nahpui Quarter",
+              "zhTW": "納普區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nahpui_Quarter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Hai Jii (Nahpui Quarter)",
+        "source": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Hai_Jii",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "nulfastu-earthbound",
+          "en": "Nulfastu Earthbound",
+          "zhTW": "Nulfastu Earthbound",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Nulfastu Earthbound (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura",
+        "url": "https://wiki.guildwars.com/wiki/Nulfastu_Earthbound",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續10秒，你能量再生增加0～5，每當對敵人施展魔法時麗莎靈氣重新回復到10秒。",
+  "commonUses": [
+    "靈感魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura",
+      "revision": 2733155,
+      "title": "Lyssa's Aura",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26542",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26543,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你能量再生增加%str1%，每當對敵人施展魔法時麗莎靈氣重新回復到10秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

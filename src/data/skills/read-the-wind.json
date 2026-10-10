@@ -1,0 +1,551 @@
+{
+  "pvpOnly": false,
+  "id": "read-the-wind",
+  "name": {
+    "en": "Read the Wind",
+    "zhTW": "風之解讀",
+    "translationVerified": true
+  },
+  "clientSkillId": 432,
+  "icon": "/skills/read-the-wind.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "preparation",
+    "en": "Preparation",
+    "zhTW": "Preparation",
+    "translationVerified": false
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Preparation. For 24 seconds, your arrows move twice as fast and deal 3...9...10 extra damage.",
+      "zhTW": "持續24秒，你的弓箭飛行速度為兩倍且造成3～10額外傷害。"
+    },
+    "pvp": {
+      "en": "Preparation. For 24 seconds, your arrows move twice as fast.",
+      "zhTW": "持續24秒，你的弓箭飛行速度為兩倍。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Read the Wind (PvP)",
+      "description": {
+        "en": "Preparation. For 24 seconds, your arrows move twice as fast.",
+        "zhTW": "持續24秒，你的弓箭飛行速度為兩倍。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 2.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Read_the_Wind_%28PvP%29",
+        "revision": 2629908,
+        "title": "Read the Wind (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2969
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "a-test-of-marksmanship",
+          "en": "A Test of Marksmanship",
+          "zhTW": "A Test of Marksmanship",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "regent-valley-pre-searing",
+              "en": "Regent Valley (pre-Searing)",
+              "zhTW": "Regent Valley (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Regent_Valley_(pre-Searing)"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "A Test of Marksmanship (Regent Valley - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/A_Test_of_Marksmanship",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "the-yeti-hunt",
+          "en": "The Yeti Hunt",
+          "zhTW": "The Yeti Hunt",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kinya-province",
+              "en": "Kinya Province",
+              "zhTW": "欣彌領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kinya_Province"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Yeti Hunt (Kinya Province)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/The_Yeti_Hunt",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "squaw-nimblecrest",
+          "en": "Squaw Nimblecrest",
+          "zhTW": "Squaw Nimblecrest",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province",
+              "en": "North Kryta Province",
+              "zhTW": "科瑞塔北部",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Squaw Nimblecrest (North Kryta Province)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Squaw_Nimblecrest",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "phy-deftcrest",
+          "en": "Phy Deftcrest",
+          "zhTW": "Phy Deftcrest",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "stingray-strand",
+              "en": "Stingray Strand",
+              "zhTW": "魟魚湖濱",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Stingray_Strand"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Phy Deftcrest (Stingray Strand)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Phy_Deftcrest",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "winglord-caromi",
+          "en": "Winglord Caromi",
+          "zhTW": "Winglord Caromi",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Winglord Caromi (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Winglord_Caromi",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "caza-windedcalf",
+          "en": "Caza Windedcalf",
+          "zhTW": "Caza Windedcalf",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Caza Windedcalf (The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Caza_Windedcalf",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "orshad-chieftain",
+          "en": "Orshad Chieftain",
+          "zhTW": "Orshad Chieftain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-warrior-s-path",
+              "en": "The Warrior's Path",
+              "zhTW": "The Warrior's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Warrior%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Orshad Chieftain (The Scar, during The Warrior's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Orshad_Chieftain",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "profession-changer-npc",
+          "en": "Profession Changer (NPC)",
+          "zhTW": "Profession Changer (NPC)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "great-temple-of-balthazar",
+              "en": "Great Temple of Balthazar",
+              "zhTW": "巴薩澤聖殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Great_Temple_of_Balthazar"
+          }
+        ],
+        "campaign": "Core",
+        "details": "Profession Changer (Great Temple of Balthazar)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Profession_Changer_(NPC)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "senji",
+          "en": "Senji",
+          "zhTW": "Senji",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "senji-s-corner",
+              "en": "Senji's Corner",
+              "zhTW": "山吉之街",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Senji (Senji's Corner)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Senji",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zuwarah",
+          "en": "Zuwarah",
+          "zhTW": "Zuwarah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zuwarah (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+        "url": "https://wiki.guildwars.com/wiki/Zuwarah",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Core",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續24秒，你的弓箭飛行速度為兩倍且造成3～10額外傷害。",
+  "commonUses": [
+    "Marksmanship · Preparation"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+      "revision": 2739645,
+      "title": "Read the Wind",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Read_the_Wind_%28PvP%29",
+      "revision": 2629908,
+      "title": "Read the Wind (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/26222"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26223,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續24秒，你的弓箭飛行速度為兩倍且造成%str2%額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

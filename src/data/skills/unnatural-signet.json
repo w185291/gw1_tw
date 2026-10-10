@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "unnatural-signet",
+  "name": {
+    "en": "Unnatural Signet",
+    "zhTW": "反常紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 934,
+  "icon": "/skills/unnatural-signet.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Target foe takes 15...63...75 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 5...41...50 damage.",
+      "zhTW": "對目標敵人造成 15～75 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 5～50 傷害。"
+    },
+    "pvp": {
+      "en": "Signet. Target foe takes 10...50...60 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 10...50...60 damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
+      "zhTW": "對目標敵人造成 10～60 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 10～60 傷害。同時你的非幻術師的技能，紋章除外，在 10 秒內無法使用。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Unnatural Signet (PvP)",
+      "description": {
+        "en": "Signet. Target foe takes 10...50...60 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 10...50...60 damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
+        "zhTW": "對目標敵人造成 10～60 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 10～60 傷害。同時你的非幻術師的技能，紋章除外，在 10 秒內無法使用。"
+      },
+      "stats": {
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_%28PvP%29",
+        "revision": 2630174,
+        "title": "Unnatural Signet (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3188
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "qwytzylkak",
+          "en": "Qwytzylkak",
+          "zhTW": "Qwytzylkak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          },
+          {
+            "name": {
+              "id": "the-killing-joke",
+              "en": "The Killing Joke",
+              "zhTW": "The Killing Joke",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Killing_Joke"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Qwytzylkak (Vehtendi Valley, only during The Killing Joke)",
+        "source": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Qwytzylkak",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "對目標敵人造成 15～75 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 5～50 傷害。",
+  "commonUses": [
+    "支配魔法 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
+      "revision": 2686632,
+      "title": "Unnatural Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_%28PvP%29",
+      "revision": 2630174,
+      "title": "Unnatural Signet (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26588",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26589,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成 %str1% 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

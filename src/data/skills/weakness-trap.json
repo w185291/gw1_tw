@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "weakness-trap",
+  "name": {
+    "en": "Weakness Trap",
+    "zhTW": "虛弱困境"
+  },
+  "clientSkillId": 2421,
+  "icon": "/skills/weakness-trap.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "ebon-vanguard-rank",
+    "en": "Ebon Vanguard rank",
+    "zhTW": "黑檀先鋒隊稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "trap",
+    "en": "Trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Trap. When Weakness Trap is triggered, all nearby foes are Weakened for 10...20 seconds and take 24...50 lightning damage. All Charr are knocked down. Weakness Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+      "zhTW": "持續90秒，虛弱困境啟動時，對附近敵人造成虛弱10～20秒， 並且受到24～50閃電 傷害，若是夏爾則被擊倒，此技能發動時容易被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "single-ugly-grawl-seeks-same-for-mindless-destruction-in-ascalon",
+          "en": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+          "zhTW": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Weakness_Trap",
+        "url": "https://wiki.guildwars.com/wiki/Single_Ugly_Grawl_Seeks_Same_for_Mindless_Destruction_in_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續90秒，虛弱困境啟動時，對附近敵人造成虛弱10～20秒， 並且受到24～50閃電 傷害，若是夏爾則被擊倒，此技能發動時容易被中斷。",
+  "commonUses": [
+    "Ebon Vanguard rank · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weakness_Trap",
+      "revision": 2645620,
+      "title": "Weakness Trap",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72896"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72897,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續90秒，虛弱困境啟動時，對附近敵人造成虛弱%str1%秒， 並且受到%str2%閃電 傷害，若是夏爾則被擊倒，此技能發動時容易被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,27 @@
     {
       "id": "tahlkora",
       "name": {
-        "zhTW": "塔蔻菈 / Tahlkora",
+        "zhTW": "塔蔻菈",
         "en": "Tahlkora"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/36274",
+        "game-client://2026-10-09/string/48873",
+        "game-client://2026-10-09/string/55341",
+        "game-client://2026-10-09/string/78387"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          36274,
+          48873,
+          55341,
+          78387
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -109,7 +126,7 @@
     },
     {
       "title": "第二、三裂隙",
-      "content": "確保中央安全後再清西北、東北。HM可一兩人守中央其餘輸出佔點；佔滿後稍等完成。首次過關獲得General Morgahn。"
+      "content": "確保中央安全後再清西北、東北。HM可一兩人守中央其餘輸出佔點；佔滿後稍等完成。首次過關獲得摩根將軍。"
     }
   ],
   "routeSummary": "達沙走廊 → 薩崗諾稜堡 → 希貝克大宮廷 → 徵納群落 → 納度灣",
@@ -133,7 +150,28 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "The Blasphemy",
+        "zhTW": "The Blasphemy（繁中名稱待確認）"
+      },
+      "profession": "Mesmer",
+      "importantSkills": [
+        "Summon Torment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "不要為追 Blasphemy 把中央祭壇防線全撤走。它死亡會生三隻 Unbound Energy，裂隙未全部控制前仍會重生；優先守中央、打斷 Summon Torment，分隊壓回正在被奪的裂隙。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/The_Blasphemy",
+      "revision": 2299259
+    }
+  ],
   "recommendedTeam": [
     "Tahlkora、召喚／靈守中央、範圍爆發、打斷Torment Slash與Summon Torment、群解咒。"
   ],
@@ -248,6 +286,13 @@
       "revision": 2730656,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Blasphemy",
+      "url": "https://wiki.guildwars.com/wiki/The_Blasphemy",
+      "revision": 2299259,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -276,7 +321,7 @@
       },
       "giver": "Zerai the Learner",
       "location": "the Kodash Bazaar",
-      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽摩根說明回Vahmani。",
       "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
       "revision": 2621044,
       "translationStatus": "needs-review"
@@ -342,5 +387,33 @@
       "expert": "12–16分鐘",
       "master": "少於12分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33081",
+    "game-client://2026-10-09/string/34431",
+    "game-client://2026-10-09/string/39676"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33081,
+      34431,
+      39676
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh",
+    "revision": 2698661,
+    "heroes": [
+      "Tahlkora"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

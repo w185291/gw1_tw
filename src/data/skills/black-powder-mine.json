@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "black-powder-mine",
+  "name": {
+    "en": "Black Powder Mine",
+    "zhTW": "黑火藥地雷"
+  },
+  "clientSkillId": 2223,
+  "icon": "/skills/black-powder-mine.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "trap",
+    "en": "Trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Trap. When Black Powder Mine is triggered, all nearby foes are struck for 20...30 damage, become Blinded, and begin Bleeding for 7...10 seconds. Black Powder Mine ends after 90 seconds. While activating this skill, you are easily interrupted.",
+      "zhTW": "「黑火藥地雷」一旦引爆，可對附近所有敵人造成 20～30 傷害並使其遭受「盲目」、「流血」7～10 秒。「黑火藥陷阱」將在 90 秒後結束。此技能發動時容易被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "in-the-service-of-revenge",
+          "en": "In the Service of Revenge",
+          "zhTW": "In the Service of Revenge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "In the Service of Revenge (Battledepths)",
+        "source": "https://wiki.guildwars.com/wiki/Black_Powder_Mine",
+        "url": "https://wiki.guildwars.com/wiki/In_the_Service_of_Revenge",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "「黑火藥地雷」一旦引爆，可對附近所有敵人造成 20～30 傷害並使其遭受「盲目」、「流血」7～10 秒。「黑火藥陷阱」將在 90 秒後結束。此技能發動時容易被中斷。",
+  "commonUses": [
+    "Deldrimor rank · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Black_Powder_Mine",
+      "revision": 2684371,
+      "title": "Black Powder Mine",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69839"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69840,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "「黑火藥地雷」一旦引爆，可對附近所有敵人造成 %str1% 傷害並使其遭受「盲目」、「流血」%str2% 秒。「黑火藥陷阱」將在 %str3% 秒後結束。此技能發動時容易被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

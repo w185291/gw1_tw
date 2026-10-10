@@ -1,0 +1,437 @@
+{
+  "id": "vengeful-weapon",
+  "name": {
+    "en": "Vengeful Weapon",
+    "zhTW": "復仇武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 964,
+  "icon": "/skills/vengeful-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 15...51...60 Health from that foe.",
+      "zhTW": "持續8秒，下一次目標盟友遭受傷害或者偷取生命時，該盟友偷取攻擊者15～60體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "nicodemus",
+          "en": "Nicodemus",
+          "zhTW": "Nicodemus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "leviathan-pits",
+              "en": "Leviathan Pits",
+              "zhTW": "利拜亞森礦場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Leviathan_Pits"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Nicodemus (Leviathan Pits)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Nicodemus",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ruben",
+          "en": "Ruben",
+          "zhTW": "Ruben",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "saint-anjeka-s-shrine",
+              "en": "Saint Anjeka's Shrine",
+              "zhTW": "聖者安捷卡的祭壇",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Saint_Anjeka%27s_Shrine"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ruben (Saint Anjeka's Shrine)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Ruben",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "pheobus",
+          "en": "Pheobus",
+          "zhTW": "Pheobus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-aurios-mines-outpost",
+              "en": "The Aurios Mines (outpost)",
+              "zhTW": "The Aurios Mines (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Aurios_Mines_(outpost)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Pheobus (The Aurios Mines)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Pheobus",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "englebert",
+          "en": "Englebert",
+          "zhTW": "Englebert",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "amatz-basin-outpost",
+              "en": "Amatz Basin (outpost)",
+              "zhTW": "Amatz Basin (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Amatz_Basin_(outpost)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Englebert (Amatz Basin)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Englebert",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "locate-professor-gai",
+          "en": "Locate Professor Gai",
+          "zhTW": "Locate Professor Gai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate 蓋師範 (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Professor_Gai",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "afflicted-yijo",
+          "en": "Afflicted Yijo",
+          "zhTW": "Afflicted Yijo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun",
+              "en": "Zen Daijun",
+              "zhTW": "禎台郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Afflicted Yijo (Zen Daijun)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Afflicted_Yijo",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "bound-kaolai",
+          "en": "Bound Kaolai",
+          "zhTW": "Bound Kaolai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Kaolai (Tahnnakai Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Kaolai",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "tomton-spiriteater",
+          "en": "Tomton Spiriteater",
+          "zhTW": "Tomton Spiriteater",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mount-qinkai",
+              "en": "Mount Qinkai",
+              "zhTW": "今凱山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mount_Qinkai"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tomton Spiriteater (Mount Qinkai)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Tomton_Spiriteater",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "captain-alsin",
+          "en": "Captain Alsin",
+          "zhTW": "Captain Alsin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Alsin (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Alsin",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "alem-the-unclean",
+          "en": "Alem the Unclean",
+          "zhTW": "Alem the Unclean",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Alem the Unclean (The Sulfurous Wastes)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Alem_the_Unclean",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "hautoh-the-pilferer",
+          "en": "Hautoh the Pilferer",
+          "zhTW": "Hautoh the Pilferer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hautoh the Pilferer (Domain of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Hautoh_the_Pilferer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "shock-of-destruction",
+          "en": "Shock of Destruction",
+          "zhTW": "Shock of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          },
+          {
+            "name": {
+              "id": "o-brave-new-world",
+              "en": "O Brave New World",
+              "zhTW": "O Brave New World",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/O_Brave_New_World"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shock of Destruction (Arbor Bay, only during O Brave New World)",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Shock_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "xandra",
+          "en": "Xandra",
+          "zhTW": "珊卓亞",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Xandra",
+        "source": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Xandra",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續8秒，下一次目標盟友遭受傷害或者偷取生命時，該盟友偷取攻擊者15～60體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+      "revision": 2693179,
+      "title": "Vengeful Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27420"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27421,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，下一次目標盟友遭受傷害或者偷取生命時，該盟友偷取攻擊者%str1%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

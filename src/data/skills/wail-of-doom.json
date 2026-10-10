@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "wail-of-doom",
+  "name": {
+    "en": "Wail of Doom",
+    "zhTW": "毀滅哀嚎",
+    "translationVerified": true
+  },
+  "clientSkillId": 764,
+  "icon": "/skills/wail-of-doom.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "soul-reaping",
+    "en": "Soul Reaping",
+    "zhTW": "靈魂吸取",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 1.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 2...5...6 second[s], all of target foe's attributes are set to 0.",
+      "zhTW": "持續2～6秒，目標敵人所有屬性歸零。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bound-naku",
+          "en": "Bound Naku",
+          "zhTW": "Bound Naku",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tahnnakai-temple",
+              "en": "Tahnnakai Temple",
+              "zhTW": "譚納凱神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tahnnakai_Temple"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Bound Naku (Tahnnakai Temple)",
+        "source": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
+        "url": "https://wiki.guildwars.com/wiki/Bound_Naku",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "doomed-ancient-kkraz",
+          "en": "Doomed Ancient Kkraz",
+          "zhTW": "Doomed Ancient Kkraz",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace",
+              "en": "Raisu Palace",
+              "zhTW": "萊蘇皇宮",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace"
+          },
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Doomed Ancient Kkraz (Raisu Palace mission and explorable area)",
+        "source": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
+        "url": "https://wiki.guildwars.com/wiki/Doomed_Ancient_Kkraz",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續2～6秒，目標敵人所有屬性歸零。",
+  "commonUses": [
+    "靈魂吸取 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
+      "revision": 2738220,
+      "title": "Wail of Doom",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26610",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26611,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標敵人所有屬性歸零。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

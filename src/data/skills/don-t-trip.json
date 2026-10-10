@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "don-t-trip",
+  "name": {
+    "en": "\"Don't Trip!\"",
+    "zhTW": "\"別跌倒！\""
+  },
+  "clientSkillId": 2216,
+  "icon": "/skills/don-t-trip.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 3...5 seconds, party members within earshot cannot be knocked down.",
+      "zhTW": "持續 3～5 秒，音量所及範圍內的盟友無法被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "krak-s-cavalry",
+          "en": "Krak's Cavalry",
+          "zhTW": "Krak's Cavalry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Krak's Cavalry (Sifhalla)",
+        "source": "https://wiki.guildwars.com/wiki/%22Don%27t_Trip%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Krak%27s_Cavalry",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 3～5 秒，音量所及範圍內的盟友無法被擊倒。",
+  "commonUses": [
+    "Deldrimor rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22Don%27t_Trip%21%22",
+      "revision": 2666149,
+      "title": "\"Don't Trip!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69858"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69859,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，音量所及範圍內的盟友無法被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

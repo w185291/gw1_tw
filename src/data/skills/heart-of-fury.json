@@ -1,0 +1,336 @@
+{
+  "pvpOnly": false,
+  "id": "heart-of-fury",
+  "name": {
+    "en": "Heart of Fury",
+    "zhTW": "憤怒之心",
+    "translationVerified": true
+  },
+  "clientSkillId": 1762,
+  "icon": "/skills/heart-of-fury.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "mysticism",
+    "en": "Mysticism",
+    "zhTW": "祕法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 4.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 2...8...10 seconds, you attack 25% faster.",
+      "zhTW": "持續 2～10 秒，你的攻擊速度增加 25% 。"
+    },
+    "pvp": {
+      "en": "Stance. For 2...8...10 seconds, you attack 25% faster.",
+      "zhTW": "持續 2～10 秒，你的攻擊速度增加 25% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Heart of Fury (PvP)",
+      "description": {
+        "en": "Stance. For 2...8...10 seconds, you attack 25% faster.",
+        "zhTW": "持續 2～10 秒，你的攻擊速度增加 25% 。"
+      },
+      "stats": {
+        "Adrenaline": 4.0,
+        "Recharge": 6.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Heart_of_Fury_%28PvP%29",
+        "revision": 2645376,
+        "title": "Heart of Fury (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3366
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "kai-shi-jo",
+          "en": "Kai Shi Jo",
+          "zhTW": "Kai Shi Jo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kai Shi Jo (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Kai_Shi_Jo",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "facet-of-spirit",
+          "en": "Facet of Spirit",
+          "zhTW": "Facet of Spirit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          },
+          {
+            "name": {
+              "id": "spoiler-related-cipher",
+              "en": "Spoiler-related Cipher",
+              "zhTW": "Spoiler-related Cipher",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spoiler-related_Cipher"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Spirit (Arbor Bay, during Spoiler-related Cipher; Varajar Fells, during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Spirit",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "reaper-of-destruction",
+          "en": "Reaper of Destruction",
+          "zhTW": "Reaper of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Reaper of Destruction (Raven's Point)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Reaper_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "avatar-of-destruction-dervish",
+          "en": "Avatar of Destruction (dervish)",
+          "zhTW": "Avatar of Destruction (dervish)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destruction-s-depths",
+              "en": "Destruction's Depths",
+              "zhTW": "破壞的深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avatar of Destruction (Destruction's Depths)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Avatar_of_Destruction_(dervish)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kahmu",
+          "en": "Kahmu",
+          "zhTW": "卡慕",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Kahmu",
+        "source": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Kahmu",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 2～10 秒，你的攻擊速度增加 25% 。",
+  "commonUses": [
+    "祕法 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+      "revision": 2694724,
+      "title": "Heart of Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heart_of_Fury_%28PvP%29",
+      "revision": 2645376,
+      "title": "Heart of Fury (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44083",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44084,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的攻擊速度增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "mindbender",
+  "name": {
+    "en": "Mindbender",
+    "zhTW": "扭曲心智"
+  },
+  "clientSkillId": 2411,
+  "icon": "/skills/mindbender.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 24.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 10...16 seconds, you move 20...33% faster and your Spells take 20% less time to cast.",
+      "zhTW": "持續 10～16 秒，你的移動速度增加 20～33% ，魔法技能施展時間加快 20% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "o-brave-new-world",
+          "en": "O Brave New World",
+          "zhTW": "O Brave New World",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vlox-s-falls",
+              "en": "Vlox's Falls",
+              "zhTW": "弗洛克斯瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vlox%27s_Falls"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "O Brave New World (Vlox's Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Mindbender",
+        "url": "https://wiki.guildwars.com/wiki/O_Brave_New_World",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 10～16 秒，你的移動速度增加 20～33% ，魔法技能施展時間加快 20% 。",
+  "commonUses": [
+    "Asura rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Mindbender",
+      "revision": 2680288,
+      "title": "Mindbender",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72884"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72885,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度增加 %str1%%% ，魔法技能施展時間加快 %str2%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

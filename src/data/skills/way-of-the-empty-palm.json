@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "way-of-the-empty-palm",
+  "name": {
+    "en": "Way of the Empty Palm",
+    "zhTW": "無道",
+    "translationVerified": true
+  },
+  "clientSkillId": 987,
+  "icon": "/skills/way-of-the-empty-palm.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deadly-arts",
+    "en": "Deadly Arts",
+    "zhTW": "暗殺技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...13...15 seconds, off-hand and dual attacks cost no Energy and recharge 25...45...50% faster.",
+      "zhTW": "持續 5～15 秒，副手與雙重攻擊不消耗能量，冷卻速度提高 25～50。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ilidus-of-the-empty-palm",
+          "en": "Ilidus of the Empty Palm",
+          "zhTW": "Ilidus of the Empty Palm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "boreas-seabed-explorable-area",
+              "en": "Boreas Seabed (explorable area)",
+              "zhTW": "Boreas Seabed (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-halcyon-job",
+              "en": "The Halcyon Job",
+              "zhTW": "在神翠的工作",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Halcyon_Job"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ilidus of the Empty Palm (Boreas Seabed (explorable area), not during 在神翠的工作)",
+        "source": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
+        "url": "https://wiki.guildwars.com/wiki/Ilidus_of_the_Empty_Palm",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "senkai-lord-of-the-1-000-daggers-guild",
+          "en": "Senkai, Lord of the 1,000 Daggers Guild",
+          "zhTW": "Senkai, Lord of the 1,000 Daggers Guild",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Senkai, Lord of the 1,000 Daggers Guild (Boreas Seabed (explorable area), only during 在神翠的工作)",
+        "source": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
+        "url": "https://wiki.guildwars.com/wiki/Senkai,_Lord_of_the_1,000_Daggers_Guild",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 5～15 秒，副手與雙重攻擊不消耗能量，冷卻速度提高 25～50。",
+  "commonUses": [
+    "暗殺技巧 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
+      "revision": 2736113,
+      "title": "Way of the Empty Palm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26422",
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26423,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, off-hand and dual attacks cost no Energy and recharge %str1%%% faster."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

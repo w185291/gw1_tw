@@ -1,0 +1,159 @@
+{
+  "id": "tranquil-was-tanasen",
+  "name": {
+    "en": "Tranquil Was Tanasen",
+    "zhTW": "沉靜者譚納辛",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 913,
+  "icon": "/skills/tranquil-was-tanasen.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Tanasen's ashes for up to 5...17...20 seconds. While you hold his ashes, you have +10...22...25 armor and cannot be interrupted.",
+      "zhTW": "最多能夠抱持 5～20 秒，當你抱持譚納辛的骨灰時，你增加 10～25 防禦而且行動無法被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "orosen-tranquil-acolyte",
+          "en": "Orosen, Tranquil Acolyte",
+          "zhTW": "Orosen, Tranquil Acolyte",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "xaquang-skyway",
+              "en": "Xaquang Skyway",
+              "zhTW": "夏安便道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Xaquang_Skyway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Orosen, Tranquil Acolyte (Xaquang Skyway)",
+        "source": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen",
+        "url": "https://wiki.guildwars.com/wiki/Orosen,_Tranquil_Acolyte",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "dark-watcher",
+          "en": "Dark Watcher",
+          "zhTW": "Dark Watcher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "slavers-exile",
+              "en": "Slavers' Exile",
+              "zhTW": "奴隸商人放逐地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Slavers%27_Exile"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Dark Watcher (Slavers' Exile, Forgewight's level)",
+        "source": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen",
+        "url": "https://wiki.guildwars.com/wiki/Dark_Watcher",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "最多能夠抱持 5～20 秒，當你抱持譚納辛的骨灰時，你增加 10～25 防禦而且行動無法被中斷。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen",
+      "revision": 2733172,
+      "title": "Tranquil Was Tanasen",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27273",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27274,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多能夠抱持 %str3% 秒，當你抱持譚納辛的骨灰時，你增加 %str1% 防禦而且行動無法被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

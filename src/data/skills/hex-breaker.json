@@ -1,0 +1,475 @@
+{
+  "pvpOnly": false,
+  "id": "hex-breaker",
+  "name": {
+    "en": "Hex Breaker",
+    "zhTW": "破咒頌歌",
+    "translationVerified": true
+  },
+  "clientSkillId": 10,
+  "icon": "/skills/hex-breaker.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...65...80 seconds, the next time you are the target of a hex, that hex fails and the caster takes 10...39...46 damage.",
+      "zhTW": "持續 5～80 秒，下一次以你為目標的「降咒」技能將會失敗，而且使施法者受到 10～46 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "masaharu",
+          "en": "Masaharu",
+          "zhTW": "Masaharu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "seitung-harbor",
+              "en": "Seitung Harbor",
+              "zhTW": "青函港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Masaharu (Seitung Harbor)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Masaharu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "eye-for-profit",
+          "en": "Eye For Profit",
+          "zhTW": "Eye For Profit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "druid-s-overlook",
+              "en": "Druid's Overlook",
+              "zhTW": "德魯伊高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Druid%27s_Overlook"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Eye For Profit (Druid's Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Eye_For_Profit",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ignis-phanaura",
+          "en": "Ignis Phanaura",
+          "zhTW": "Ignis Phanaura",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          },
+          {
+            "name": {
+              "id": "mesmerizing-the-enemy",
+              "en": "Mesmerizing the Enemy",
+              "zhTW": "Mesmerizing the Enemy",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mesmerizing_the_Enemy"
+          },
+          {
+            "name": {
+              "id": "diessa-lowlands",
+              "en": "Diessa Lowlands",
+              "zhTW": "底耶沙低地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diessa_Lowlands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ignis Phanaura (Old Ascalon, only during Mesmerizing the Enemy; Diessa Lowlands)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Ignis_Phanaura",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "gale-stormsend",
+          "en": "Gale Stormsend",
+          "zhTW": "Gale Stormsend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sage-lands",
+              "en": "Sage Lands",
+              "zhTW": "賢者領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sage_Lands"
+          },
+          {
+            "name": {
+              "id": "eye-for-profit",
+              "en": "Eye for Profit",
+              "zhTW": "Eye for Profit",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_for_Profit"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gale Stormsend (Sage Lands, only during Eye for Profit)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Gale_Stormsend",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "zarr-mentalmelt",
+          "en": "Zarr MentalMelt",
+          "zhTW": "Zarr MentalMelt",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Zarr MentalMelt (Sage Lands)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Zarr_MentalMelt",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "chott-stormsinger",
+          "en": "Chott Stormsinger",
+          "zhTW": "Chott Stormsinger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          },
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Chott Stormsinger (The Wilds, Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Chott_Stormsinger",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "hepp-bilespitter",
+          "en": "Hepp Bilespitter",
+          "zhTW": "Hepp Bilespitter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Hepp Bilespitter (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Hepp_Bilespitter",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "vizz-vexflume",
+          "en": "Vizz Vexflume",
+          "zhTW": "Vizz Vexflume",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-falls",
+              "en": "The Falls",
+              "zhTW": "陷落區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Falls"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Vizz Vexflume (The Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Vizz_Vexflume",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "gwen",
+          "en": "Gwen",
+          "zhTW": "關",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking 關",
+        "source": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+        "url": "https://wiki.guildwars.com/wiki/Gwen",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～80 秒，下一次以你為目標的「降咒」技能將會失敗，而且使施法者受到 10～46 傷害。",
+  "commonUses": [
+    "支配魔法 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+      "revision": 2695690,
+      "title": "Hex Breaker",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/24815"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24816,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，下一次以你為目標的「降咒」技能將會失敗，而且使施法者受到 %str1% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

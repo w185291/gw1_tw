@@ -1,0 +1,132 @@
+{
+  "pvpOnly": false,
+  "id": "decapitate",
+  "name": {
+    "en": "Decapitate",
+    "zhTW": "破壞砍擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1696,
+  "icon": "/skills/decapitate.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Axe Attack. You lose all adrenaline and all Energy. This attack is unblockable, you deal +5...65...80 damage and cause a Deep Wound for 5...17...20 seconds. This attack is always critical and if foe is killed, nearby foes are Weakened for 8 seconds.",
+      "zhTW": "失去所有怒氣與能量。攻擊不能被格擋，額外造成 5～80 傷害與 5～20 秒重傷，且必定致命一擊。擊殺目標時，附近敵人虛弱 8 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "robah-hardback",
+          "en": "Robah Hardback",
+          "zhTW": "Robah Hardback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Robah Hardback (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Decapitate",
+        "url": "https://wiki.guildwars.com/wiki/Robah_Hardback",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "失去所有怒氣與能量。攻擊不能被格擋，額外造成 5～80 傷害與 5～20 秒重傷，且必定致命一擊。擊殺目標時，附近敵人虛弱 8 秒。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Decapitate",
+      "revision": 2738488,
+      "title": "Decapitate",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/50029"
+  ],
+  "descriptionEvidence": {
+    "stringId": 50030,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "You lose all adrenaline and all Energy. This attack is unblockable, you deal +%str1% damage, and cause a Deep Wound for %str2% second. This attack is always critical and if foe is killed, nearby foes are Weakened for 8 seconds."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

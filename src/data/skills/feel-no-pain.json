@@ -1,0 +1,147 @@
+{
+  "pvpOnly": false,
+  "id": "feel-no-pain",
+  "name": {
+    "en": "Feel No Pain",
+    "zhTW": "無痛"
+  },
+  "clientSkillId": 2360,
+  "icon": "/skills/feel-no-pain.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "skill",
+    "en": "Skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Skill. For 30 seconds you have +2...3 Health regeneration. If you are drunk when activating this skill, you also have +200...300 maximum Health.",
+      "zhTW": "持續 30 秒，獲得 +2～3 體力再生。若在酒醉狀態發動此技能，則可獲得 +200～300 最大體力值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-great-norn-alemoot",
+          "en": "The Great Norn Alemoot",
+          "zhTW": "偉大的諾恩 安雷穆特",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "olrun-olafdottir",
+              "en": "Olrun Olafdottir",
+              "zhTW": "Olrun Olafdottir",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olrun_Olafdottir"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "olaf-olafson",
+              "en": "Olaf Olafson",
+              "zhTW": "Olaf Olafson",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olaf_Olafson"
+          },
+          {
+            "name": {
+              "id": "olafstead",
+              "en": "Olafstead",
+              "zhTW": "歐拉夫之地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Olafstead"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells or Olaf Olafson in Olafstead)",
+        "source": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
+        "url": "https://wiki.guildwars.com/wiki/The_Great_Norn_Alemoot",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 30 秒，獲得 +2～3 體力再生。若在酒醉狀態發動此技能，則可獲得 +200～300 最大體力值。",
+  "commonUses": [
+    "Norn rank · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
+      "revision": 2732702,
+      "title": "Feel No Pain",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69971"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69972,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，獲得 +%str1% 體力再生。若在酒醉狀態發動此技能，則可獲得 +%str2% 最大體力值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "seeping-wound",
+  "name": {
+    "en": "Seeping Wound",
+    "zhTW": "滲透傷口",
+    "translationVerified": true
+  },
+  "clientSkillId": 1034,
+  "icon": "/skills/seeping-wound.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 1...6...7 second[s], target foe moves 33% slower. That foe takes 5...21...25 damage each second while suffering from a condition.",
+      "zhTW": "持續 1～7 秒，目標移動速度降低 33。目標有病症時每秒受到 5～25 傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shreader-sharptongue",
+          "en": "Shreader Sharptongue",
+          "zhTW": "Shreader Sharptongue",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "xaquang-skyway",
+              "en": "Xaquang Skyway",
+              "zhTW": "夏安便道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Xaquang_Skyway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Shreader Sharptongue (Xaquang Skyway)",
+        "source": "https://wiki.guildwars.com/wiki/Seeping_Wound",
+        "url": "https://wiki.guildwars.com/wiki/Shreader_Sharptongue",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 1～7 秒，目標移動速度降低 33。目標有病症時每秒受到 5～25 傷害。",
+  "commonUses": [
+    "致命攻擊 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Seeping_Wound",
+      "revision": 2739091,
+      "title": "Seeping Wound",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26460"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26461,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, target foe moves %str1%%% slower. That foe takes %str2% damage each second while suffering from a condition."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

@@ -1,0 +1,330 @@
+{
+  "pvpOnly": false,
+  "id": "vampiric-touch",
+  "name": {
+    "en": "Vampiric Touch",
+    "zhTW": "吸血鬼之觸"
+  },
+  "clientSkillId": 156,
+  "icon": "/skills/vampiric-touch.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Skill. Touch target foe to steal up to 29...65...74 Health.",
+      "zhTW": "碰觸目標敵人並偷取最多 29～74 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-power-of-blood",
+          "en": "The Power of Blood",
+          "zhTW": "The Power of Blood",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "green-hills-county",
+              "en": "Green Hills County",
+              "zhTW": "綠丘郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Green_Hills_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Power of Blood (Green Hills County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/The_Power_of_Blood",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "riine-windrot",
+          "en": "Riine Windrot",
+          "zhTW": "Riine Windrot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "traveler-s-vale",
+              "en": "Traveler's Vale",
+              "zhTW": "旅人谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale"
+          },
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "anvil-rock",
+              "en": "Anvil Rock",
+              "zhTW": "鐵砧石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Anvil_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Riine Windrot (Traveler's Vale, Borlis Pass, and Anvil Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "frostfire-dryder-necromancer-boss",
+          "en": "Frostfire Dryder (necromancer boss)",
+          "zhTW": "Frostfire Dryder (necromancer boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-horse-mine",
+              "en": "Iron Horse Mine",
+              "zhTW": "鐵馬礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Frostfire Dryder (Iron Horse Mine)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Frostfire_Dryder_(necromancer_boss)",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "durnar-skullcracker",
+          "en": "Durnar Skullcracker",
+          "zhTW": "Durnar Skullcracker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-frost-gate",
+              "en": "The Frost Gate",
+              "zhTW": "寒霜之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Durnar Skullcracker (The Frost Gate)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Durnar_Skullcracker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "cootle-sizzlehorn",
+          "en": "Cootle Sizzlehorn",
+          "zhTW": "Cootle Sizzlehorn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "prophet-s-path",
+              "en": "Prophet's Path",
+              "zhTW": "先知之路",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cootle Sizzlehorn (Prophet's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+        "url": "https://wiki.guildwars.com/wiki/Cootle_Sizzlehorn",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "碰觸目標敵人並偷取最多 29～74 體力。",
+  "commonUses": [
+    "血魔法 · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+      "revision": 2695766,
+      "title": "Vampiric Touch",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25132"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25133,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "碰觸目標敵人並偷取最多 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

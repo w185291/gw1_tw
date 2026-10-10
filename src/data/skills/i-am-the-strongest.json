@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "i-am-the-strongest",
+  "name": {
+    "en": "\"I Am the Strongest!\"",
+    "zhTW": "\"我最強壯！\""
+  },
+  "clientSkillId": 2355,
+  "icon": "/skills/i-am-the-strongest.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Shout. Your next 5...8 attacks do an additional +14...20 damage.",
+      "zhTW": "你接下來的 5～8 次攻擊可造成 +14～20 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "truthseeker",
+          "en": "Truthseeker",
+          "zhTW": "Truthseeker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Truthseeker (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Truthseeker",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "你接下來的 5～8 次攻擊可造成 +14～20 額外傷害。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest%21%22",
+      "revision": 2732701,
+      "title": "\"I Am the Strongest!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71905"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71906,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你接下來的 %str1% 次攻擊可造成 +%str2% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

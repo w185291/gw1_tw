@@ -1,0 +1,289 @@
+{
+  "pvpOnly": false,
+  "id": "backbreaker",
+  "name": {
+    "en": "Backbreaker",
+    "zhTW": "背擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 358,
+  "icon": "/skills/backbreaker.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 9.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Hammer Attack. If Backbreaker hits, you strike for +1...16...20 damage and your target is knocked down. If you have 8 Strength or higher, this knockdown lasts 4 seconds.",
+      "zhTW": "命中時造成 1～20 額外傷害且擊倒目標，若是你的力量屬性等級至少有 8 ，則此擊倒效果將有 4 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ferk-mallet",
+          "en": "Ferk Mallet",
+          "zhTW": "Ferk Mallet",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ferk Mallet (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Ferk_Mallet",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cairn-the-grave",
+          "en": "Cairn the Grave",
+          "zhTW": "Cairn the Grave",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "war-in-kryta",
+              "en": "War in Kryta",
+              "zhTW": "War in Kryta",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/War_in_Kryta"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Grave (D'Alessio Seaboard (explorable area), only during the War in Kryta)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Grave",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ingenious-ettin",
+          "en": "Ingenious Ettin",
+          "zhTW": "Ingenious Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          },
+          {
+            "name": {
+              "id": "an-ingenious-plan",
+              "en": "An Ingenious Plan",
+              "zhTW": "An Ingenious Plan",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/An_Ingenious_Plan"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ingenious Ettin (Perdition Rock, only during An Ingenious Plan)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Ingenious_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "hodat-the-tumbler",
+          "en": "Hodat the Tumbler",
+          "zhTW": "Hodat the Tumbler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          },
+          {
+            "name": {
+              "id": "forgotten-relics",
+              "en": "Forgotten Relics",
+              "zhTW": "Forgotten Relics",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forgotten_Relics"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hodat the Tumbler (Dalada Uplands, only after the completion of Forgotten Relics)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Hodat_the_Tumbler",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "crystal-ettin",
+          "en": "Crystal Ettin",
+          "zhTW": "Crystal Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-caves",
+              "en": "Bloodstone Caves",
+              "zhTW": "血石洞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Caves"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Crystal Ettin (Bloodstone Caves)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Crystal_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "first-inscribed",
+          "en": "First Inscribed",
+          "zhTW": "First Inscribed",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "First Inscribed (Bloodstone Caves)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/First_Inscribed",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "paranoia-ettin",
+          "en": "Paranoia Ettin",
+          "zhTW": "Paranoia Ettin",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Paranoia Ettin (Bloodstone Caves)",
+        "source": "https://wiki.guildwars.com/wiki/Backbreaker",
+        "url": "https://wiki.guildwars.com/wiki/Paranoia_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 1～20 額外傷害且擊倒目標，若是你的力量屬性等級至少有 8 ，則此擊倒效果將有 4 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Backbreaker",
+      "revision": 2733112,
+      "title": "Backbreaker",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25930",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25931,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害且擊倒目標，若是你的力量屬性等級至少有 8 ，則此擊倒效果將有 4 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

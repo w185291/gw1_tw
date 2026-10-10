@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "viper-s-nest",
+  "name": {
+    "en": "Viper's Nest",
+    "zhTW": "毒蛇之巢",
+    "translationVerified": true
+  },
+  "clientSkillId": 1211,
+  "icon": "/skills/viper-s-nest.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "trap",
+    "en": "Trap",
+    "zhTW": "陷阱",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Trap. Create a Viper's Nest. When it is triggered, all nearby foes are struck for 5...29...35 piercing damage and become Poisoned for 5...17...20 seconds. Viper's Nest expires after 90 seconds. This Trap is easily interrupted.",
+      "zhTW": "你創造毒蛇之巢。當毒蛇之巢被觸發時，將使附近的所有敵人受到 5～35 穿刺傷害並且遭受「中毒」病症 5～20 秒。毒蛇之巢在 90 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Viper%27s_Nest",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "你創造毒蛇之巢。當毒蛇之巢被觸發時，將使附近的所有敵人受到 5～35 穿刺傷害並且遭受「中毒」病症 5～20 秒。毒蛇之巢在 90 秒後消失。",
+  "commonUses": [
+    "野獸支配 · 陷阱"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Viper%27s_Nest",
+      "revision": 2683488,
+      "title": "Viper's Nest",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27233"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27234,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "你創造毒蛇之巢。當毒蛇之巢被觸發時，將使附近的所有敵人受到 %str1% 穿刺傷害並且遭受「中毒」病症 %str2% 秒。毒蛇之巢在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

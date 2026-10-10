@@ -1,0 +1,270 @@
+{
+  "pvpOnly": false,
+  "id": "shard-storm",
+  "name": {
+    "en": "Shard Storm",
+    "zhTW": "冰風暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 213,
+  "icon": "/skills/shard-storm.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. Send out an ice shard that strikes target foe for 10...70...85 cold damage if it hits and causing target foe to move 66% slower for 2...5...6 seconds.",
+      "zhTW": "射出冰凍碎片，擊中目標敵人時對其造成 10～85 冰凍傷害，並且使該目標的移動速度減慢 66% ，持續 2～6 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "shalev-s-task",
+          "en": "Shalev's Task",
+          "zhTW": "Shalev's Task",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Shalev's Task (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Shalev%27s_Task",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "samira-dhulnarim",
+          "en": "Samira Dhulnarim",
+          "zhTW": "Samira Dhulnarim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Samira Dhulnarim (Kessex Peak)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Samira_Dhulnarim",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fawa-torncalf",
+          "en": "Fawa Torncalf",
+          "zhTW": "Fawa Torncalf",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-wilds",
+              "en": "The Wilds",
+              "zhTW": "荒原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Wilds"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Fawa Torncalf (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Fawa_Torncalf",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ramtha-brokenhoof",
+          "en": "Ramtha Brokenhoof",
+          "zhTW": "Ramtha Brokenhoof",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Ramtha Brokenhoof (The Wilds)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Ramtha_Brokenhoof",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lala-firemane",
+          "en": "Lala Firemane",
+          "zhTW": "Lala Firemane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lala Firemane (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Shard_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Lala_Firemane",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "射出冰凍碎片，擊中目標敵人時對其造成 10～85 冰凍傷害，並且使該目標的移動速度減慢 66% ，持續 2～6 秒。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shard_Storm",
+      "revision": 2733037,
+      "title": "Shard Storm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25248",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25249,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "射出冰凍碎片，擊中目標敵人時對其造成 %str1% 冰凍傷害，並且使該目標的移動速度減慢 66%% ，持續 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

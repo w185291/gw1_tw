@@ -1,0 +1,526 @@
+{
+  "pvpOnly": false,
+  "id": "wild-blow",
+  "name": {
+    "en": "Wild Blow",
+    "zhTW": "狂暴一擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 321,
+  "icon": "/skills/wild-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "Melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8,
+  "description": {
+    "pve": {
+      "en": "Melee Attack. Lose all adrenaline. If it hits, this attack will result in a critical hit and any stance being used by your target ends. This attack cannot be blocked.",
+      "zhTW": "此攻擊命中時，對目標造成致命傷害並且中斷其使用中的「態勢」。狂暴一擊無法被「格擋」，但會消耗所有怒氣值。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "gargoyle-trouble",
+          "en": "Gargoyle Trouble",
+          "zhTW": "Gargoyle Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gargoyle Trouble (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Gargoyle_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "rage-maulhoof",
+          "en": "Rage Maulhoof",
+          "zhTW": "Rage Maulhoof",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Rage Maulhoof (The Black Curtain)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Rage_Maulhoof",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "galrath",
+          "en": "Galrath",
+          "zhTW": "Galrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          },
+          {
+            "name": {
+              "id": "the-villainy-of-galrath",
+              "en": "The Villainy of Galrath",
+              "zhTW": "The Villainy of Galrath",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Villainy_of_Galrath"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Galrath (Kessex Peak, during The Villainy of Galrath)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Galrath",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "justiciar-hablion",
+          "en": "Justiciar Hablion",
+          "zhTW": "Justiciar Hablion",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Hablion (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Hablion",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "facet-of-strength",
+          "en": "Facet of Strength",
+          "zhTW": "Facet of Strength",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-dragon-s-lair",
+              "en": "The Dragon's Lair",
+              "zhTW": "龍穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Facet of Strength (The Dragon's Lair)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Strength",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "jade-armor-boss",
+          "en": "Jade Armor (boss)",
+          "zhTW": "Jade Armor (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jade Armor (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Jade_Armor_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "martigris-the-stalwart",
+          "en": "Martigris the Stalwart",
+          "zhTW": "Martigris the Stalwart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Martigris the Stalwart (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Martigris_the_Stalwart",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "perfected-armor",
+          "en": "Perfected Armor",
+          "zhTW": "Perfected Armor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Perfected Armor (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Perfected_Armor",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tarom-rockbreaker",
+          "en": "Tarom Rockbreaker",
+          "zhTW": "Tarom Rockbreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "plains-of-jarin",
+              "en": "Plains of Jarin",
+              "zhTW": "賈林平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Plains_of_Jarin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tarom Rockbreaker (Plains of Jarin)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Tarom_Rockbreaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "enadiz-the-hardheaded",
+          "en": "Enadiz the Hardheaded",
+          "zhTW": "Enadiz the Hardheaded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Enadiz the Hardheaded (Arkjok Ward)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Enadiz_the_Hardheaded",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "chumab-the-prideful",
+          "en": "Chumab the Prideful",
+          "zhTW": "Chumab the Prideful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Chumab the Prideful (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Chumab_the_Prideful",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ignus-the-eternal",
+          "en": "Ignus the Eternal",
+          "zhTW": "Ignus the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "the-smell-of-titan-in-the-morning",
+              "en": "The Smell of Titan in the Morning",
+              "zhTW": "晨曦中泰坦的氣息",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Smell_of_Titan_in_the_Morning"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ignus the Eternal (Sacnoth Valley, during 晨曦中泰坦的氣息)",
+        "source": "https://wiki.guildwars.com/wiki/Wild_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Ignus_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "此攻擊命中時，對目標造成致命傷害並且中斷其使用中的「態勢」。狂暴一擊無法被「格擋」，但會消耗所有怒氣值。",
+  "commonUses": [
+    "無屬性 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wild_Blow",
+      "revision": 2722708,
+      "title": "Wild Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25853",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25854,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "此攻擊命中時，對目標造成致命傷害並且中斷其使用中的「態勢」。狂暴一擊無法被「格擋」，但會消耗所有怒氣值。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

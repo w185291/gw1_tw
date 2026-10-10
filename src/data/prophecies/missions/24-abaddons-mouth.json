@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "ring-of-fire-islands",
   "name": {
-    "zhTW": "亞巴頓之口",
+    "zhTW": "地獄隘口",
     "en": "Abaddon's Mouth"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "亞巴頓之口",
+    "地獄隘口",
     "Abaddon's Mouth",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "破壞六個封印開啟柯瑪裡之門。",
+  "summary": "護送 Leah Stone 到安息地；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "亞巴頓之口據點",
+    "description": "完成上一關後自動到达本據點，整備後按 Enter Mission。",
+    "location": "Abaddon's Mouth",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,24 +50,53 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "護送 Leah Stone 到安息地",
+    "summary": "護送 Leah Stone 到安息地",
+    "trigger": "碼頭附近 Ether Seal 破壞後 Leah Stone 才出現。HM 建議先完整清護送路再放她。",
+    "steps": [
+      "碼頭附近 Ether Seal 破壞後 Leah Stone 才出現。HM 建議先完整清護送路再放她。",
+      "保持雷達距離，過熔岩後補血，清完所有會在她固定路線上出現的敵人。",
+      "她到西側小島的安息地才算完成；若道路被寶箱堵住可能無法完成，要先檢查。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "她到西側小島的安息地才算完成；若道路被寶箱堵住可能無法完成，要先檢查。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "拆外門前先清牆上敵人",
+      "content": "由堡壘外往入口，先處理牆上的守軍，再把 Jade Bows 引離 Ether Seal。逐群殺 Mursaat，拆 Onyx Gate 兩側封印開門，不要直接衝入多隊聚集處。"
+    },
+    {
+      "title": "先清 Bonus 護送道路",
+      "content": "準備做 Bonus 時，先沿島嶼北側通往西側小島的海岸路清怪。包含 Eidolon 後方的隱藏敵群、Dryders、Crag Behemoths 與 Wurms；先走一遍觸發，確認沒有寶箱擋在護送路徑。"
+    },
+    {
+      "title": "放出 Leah 並慢慢護送",
+      "content": "回碼頭附近摧毀生成 Leah Stone 的 Ether Seal。她走固定路，離雷達範圍會停下；離堡壘後移動變慢。經熔岩會燃燒，停下治療、回復後再繼續，到西側安息地完成 Bonus。"
+    },
+    {
+      "title": "逐門打上火山口",
+      "content": "回主線穿 Onyx Gate，再拆三道門的封印。每兩名頭目先引離封印範圍分開處理；Vizier 的 Chimera of Intensity 只持續短時間，不要把它當常駐防護。"
+    },
+    {
+      "title": "六個封印一次打一個",
+      "content": "到 Door of Komalie 平台後，每破一個封印會生成四名 Seal Guards，另有南北 Mursaat Guardians 加入。先清當輪敵人、補能量，再拆下一個，避免六輪敵人同時出現。"
+    },
+    {
+      "title": "擊敗最後 Titan",
+      "content": "第六個封印破壞後過場，中央生成 Burning Titan。讓事件進入戰鬥後擊殺完成；Wiki 記有過快擊殺偶發失敗，別在它剛生成的瞬間預先灌滿爆發。"
+    }
+  ],
+  "routeSummary": "拆外門前先清牆上敵人 → 先清 Bonus 護送道路 → 放出 Leah 並慢慢護送 → 逐門打上火山口 → 六個封印一次打一個 → 擊敗最後 Titan",
   "mapImage": "/maps/Abaddon's_Mouth_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/Abaddon's_Mouth_map.jpg",
       "title": "主線路線圖",
-      "alt": "亞巴頓之口・主線路線圖",
+      "alt": "地獄隘口・主線路線圖",
       "width": 725,
       "height": 600,
       "filePage": "https://wiki.guildwars.com/wiki/File:Abaddon%27s_Mouth_map.jpg",
@@ -78,13 +107,392 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Snyk the Hundred Tongue",
+        "zhTW": "Snyk the Hundred Tongue（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Barrage",
+        "Savage Shot",
+        "Serpent's Quickness",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [
+        "Barrage"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Snyk_the_Hundred_Tongue",
+      "revision": 2498048,
+      "dangerousSkills": [
+        {
+          "name": "Barrage",
+          "counter": "隊伍拉開距離，防止箭矢一次打中多個後排。",
+          "source": "https://wiki.guildwars.com/wiki/Snyk_the_Hundred_Tongue"
+        },
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Snyk_the_Hundred_Tongue"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Spindle Agonyvein",
+        "zhTW": "Spindle Agonyvein（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Judge's Insight",
+        "Light of Dwayna",
+        "Restore Condition",
+        "Reversal of Fortune",
+        "Smite Hex"
+      ],
+      "eliteSkills": [
+        "Restore Condition"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Spindle_Agonyvein",
+      "revision": 2499038,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Goss Darkweb",
+        "zhTW": "Goss Darkweb（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Life Siphon",
+        "Shadow Strike",
+        "Soul Leech",
+        "Strip Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Goss_Darkweb",
+      "revision": 2499039,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Goss_Darkweb"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Plexus Shadowhook",
+        "zhTW": "Plexus Shadowhook（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Conjure Phantasm",
+        "Ether Feast",
+        "Fevered Dreams",
+        "Mantra of Persistence",
+        "Phantom Pain"
+      ],
+      "eliteSkills": [
+        "Fevered Dreams"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Plexus_Shadowhook",
+      "revision": 2499040,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Eidolon",
+        "zhTW": "Eidolon（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Prison",
+        "Mist Form"
+      ],
+      "eliteSkills": [
+        "Mist Form"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Eidolon",
+      "revision": 2513192,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cairn the Destroyer",
+        "zhTW": "Cairn the Destroyer（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Crushing Blow",
+        "Devastating Hammer",
+        "Wild Blow",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Devastating Hammer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cairn_the_Destroyer",
+      "revision": 2134560,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Cairn_the_Destroyer"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cairn the Relentless",
+        "zhTW": "Cairn the Relentless（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Determined Shot",
+        "Healing Spring",
+        "Oath Shot",
+        "Whirling Defense",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Oath Shot"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cairn_the_Relentless",
+      "revision": 2502014,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Cairn_the_Relentless"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Willa the Unpleasant",
+        "zhTW": "Willa the Unpleasant（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Aura of Faith",
+        "Contemplation of Purity",
+        "Draw Conditions",
+        "Orison of Healing",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Aura of Faith"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Willa_the_Unpleasant",
+      "revision": 2642039,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Willa_the_Unpleasant"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sarlic the Judge",
+        "zhTW": "Sarlic the Judge（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Blood Renewal",
+        "Insidious Parasite",
+        "Life Siphon",
+        "Life Transfer",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Life Transfer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Sarlic_the_Judge",
+      "revision": 2642035,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Sarlic_the_Judge"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Sarlic_the_Judge"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mercia the Smug",
+        "zhTW": "Mercia the Smug（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Surge",
+        "Ether Feast",
+        "Physical Resistance",
+        "Power Leak",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Energy Surge"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Mercia_the_Smug",
+      "revision": 2703607,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Mercia_the_Smug"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Optimus Caliph",
+        "zhTW": "Optimus Caliph（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Chain Lightning",
+        "Enervating Charge",
+        "Glyph of Concentration",
+        "Thunderclap",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Thunderclap"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Optimus_Caliph",
+      "revision": 2710229,
+      "dangerousSkills": [
+        {
+          "name": "Thunderclap",
+          "counter": "準備解除病症，尤其不要讓全隊停在同一範圍內。",
+          "source": "https://wiki.guildwars.com/wiki/Optimus_Caliph"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Optimus_Caliph"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶友軍治療、防護及持續範圍傷害，保護 Leah 並處理固定封印。",
+    "打斷／暈眩對 Hydra 與施法頭目有效；加速用於清路後的折返。"
+  ],
+  "tips": [
+    "完成後傳送至 Hell's Precipice（地獄懸崖），準備最終戰及三名 Armageddon Lords 的 Bonus。"
+  ],
+  "warnings": [
+    "Leah 死亡失去 Bonus；不要靠隊伍加速假設她會跟上。",
+    "六個封印同時拆會把所有增援疊在一起，容易全滅。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "Leah 特別脆弱，必須先清路；六封印生成的 Seal Guards 為 20 級，仍以逐封印清場方式處理。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +512,121 @@
       "revision": 2706352,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Snyk the Hundred Tongue",
+      "url": "https://wiki.guildwars.com/wiki/Snyk_the_Hundred_Tongue",
+      "revision": 2498048,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Spindle Agonyvein",
+      "url": "https://wiki.guildwars.com/wiki/Spindle_Agonyvein",
+      "revision": 2499038,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Goss Darkweb",
+      "url": "https://wiki.guildwars.com/wiki/Goss_Darkweb",
+      "revision": 2499039,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Plexus Shadowhook",
+      "url": "https://wiki.guildwars.com/wiki/Plexus_Shadowhook",
+      "revision": 2499040,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Eidolon",
+      "url": "https://wiki.guildwars.com/wiki/Eidolon",
+      "revision": 2513192,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cairn the Destroyer",
+      "url": "https://wiki.guildwars.com/wiki/Cairn_the_Destroyer",
+      "revision": 2134560,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cairn the Relentless",
+      "url": "https://wiki.guildwars.com/wiki/Cairn_the_Relentless",
+      "revision": 2502014,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Willa the Unpleasant",
+      "url": "https://wiki.guildwars.com/wiki/Willa_the_Unpleasant",
+      "revision": 2642039,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Sarlic the Judge",
+      "url": "https://wiki.guildwars.com/wiki/Sarlic_the_Judge",
+      "revision": 2642035,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Mercia the Smug",
+      "url": "https://wiki.guildwars.com/wiki/Mercia_the_Smug",
+      "revision": 2703607,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Optimus Caliph",
+      "url": "https://wiki.guildwars.com/wiki/Optimus_Caliph",
+      "revision": 2710229,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "ring-of-fire",
   "nextMission": "hells-precipice",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10638"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後傳送至 Hell's Precipice（地獄懸崖），準備最終戰及三名 Armageddon Lords 的 Bonus。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10638
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": []
 }

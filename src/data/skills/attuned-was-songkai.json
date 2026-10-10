@@ -1,0 +1,131 @@
+{
+  "id": "attuned-was-songkai",
+  "name": {
+    "en": "Attuned Was Songkai",
+    "zhTW": "緩和者松凱"
+  },
+  "clientSkillId": 1220,
+  "icon": "/skills/attuned-was-songkai.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "item-spell",
+    "en": "item spell",
+    "zhTW": "抱持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Item Spell. Hold Songkai's ashes for up to 45 seconds. While you hold her ashes, your spells and binding rituals cost -5...41...50% of the base Energy to cast.",
+      "zhTW": "最多可抱持松凱的骨灰持續 45 秒。當持有松凱的骨灰時，你施展「魔法」和「縛靈儀式」技能減少 5～50% 的能量消耗。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-skill-eater-boss",
+          "en": "The Skill Eater (boss)",
+          "zhTW": "The Skill Eater (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drazach-thicket",
+              "en": "Drazach Thicket",
+              "zhTW": "德瑞札灌木林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Skill Eater (Drazach Thicket)",
+        "source": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai",
+        "url": "https://wiki.guildwars.com/wiki/The_Skill_Eater_(boss)",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "最多可抱持松凱的骨灰持續 45 秒。當持有松凱的骨灰時，你施展「魔法」和「縛靈儀式」技能減少 5～50% 的能量消耗。",
+  "commonUses": [
+    "Spawning Power 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai",
+      "revision": 2732769,
+      "title": "Attuned Was Songkai",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27275"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27276,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "最多可抱持松凱的骨灰持續 %str3% 秒。當持有松凱的骨灰時，你施展「魔法」和「縛靈儀式」技能減少 %str1%%% 的能量消耗。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

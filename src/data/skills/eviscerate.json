@@ -1,0 +1,496 @@
+{
+  "pvpOnly": false,
+  "id": "eviscerate",
+  "name": {
+    "en": "Eviscerate",
+    "zhTW": "剖臟",
+    "translationVerified": true
+  },
+  "clientSkillId": 338,
+  "icon": "/skills/eviscerate.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 8.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Axe Attack. If Eviscerate hits, you strike for +10...38...45 damage and inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...17...20 seconds.",
+      "zhTW": "命中時對目標造成 10～45 額外傷害並使其遭受「重傷」病症，降低敵人的最大體力 20% 持續 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "tortitudo-probo",
+          "en": "Tortitudo Probo",
+          "zhTW": "Tortitudo Probo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hell-s-precipice",
+              "en": "Hell's Precipice",
+              "zhTW": "地獄懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tortitudo Probo (Hell's Precipice)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Tortitudo_Probo",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tanzit-razorstone",
+          "en": "Tanzit Razorstone",
+          "zhTW": "Tanzit Razorstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tanzit Razorstone (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Tanzit_Razorstone",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "phlog-the-indomitable",
+          "en": "Phlog the Indomitable",
+          "zhTW": "Phlog the Indomitable",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "flame-temple-corridor",
+              "en": "Flame Temple Corridor",
+              "zhTW": "夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Flame_Temple_Corridor"
+          },
+          {
+            "name": {
+              "id": "the-titan-source",
+              "en": "The Titan Source",
+              "zhTW": "The Titan Source",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Phlog the Indomitable (Dragon's Gullet and Flame Temple Corridor, only during The Titan Source)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Phlog_the_Indomitable",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "high-inquisitor-toriimo",
+          "en": "High Inquisitor Toriimo",
+          "zhTW": "High Inquisitor Toriimo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "High Inquisitor Toriimo (The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/High_Inquisitor_Toriimo",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "polack",
+          "en": "Polack",
+          "zhTW": "Polack",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Polack (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Polack",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lissah-the-packleader",
+          "en": "Lissah the Packleader",
+          "zhTW": "Lissah the Packleader",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bjora-marches",
+              "en": "Bjora Marches",
+              "zhTW": "碧拉邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bjora_Marches"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lissah the Packleader (Bjora Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Lissah_the_Packleader",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "shons-the-pretender",
+          "en": "Shons the Pretender",
+          "zhTW": "Shons the Pretender",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shons the Pretender (Sacnoth Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Shons_the_Pretender",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gharaz-the-glutton",
+          "en": "Gharaz the Glutton",
+          "zhTW": "Gharaz the Glutton",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "forbidden-fruit",
+              "en": "Forbidden Fruit",
+              "zhTW": "Forbidden Fruit",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forbidden_Fruit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gharaz the Glutton (Sacnoth Valley, only during Forbidden Fruit)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Gharaz_the_Glutton",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tenagg-flametroller",
+          "en": "Tenagg Flametroller",
+          "zhTW": "Tenagg Flametroller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tenagg Flametroller (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Tenagg_Flametroller",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "charr-prison-guard-boss",
+          "en": "Charr Prison Guard (boss)",
+          "zhTW": "Charr Prison Guard (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "warband-of-brothers",
+              "en": "Warband of Brothers",
+              "zhTW": "戰爭軍團之友",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Charr Prison Guard (Warband of Brothers, level 1)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Prison_Guard_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-enforcer",
+          "en": "The Enforcer",
+          "zhTW": "The Enforcer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rragar-s-menagerie",
+              "en": "Rragar's Menagerie",
+              "zhTW": "拉喀的牢籠",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rragar%27s_Menagerie"
+          },
+          {
+            "name": {
+              "id": "the-hunting-of-the-charr",
+              "en": "The Hunting of the Charr",
+              "zhTW": "The Hunting of the Charr",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hunting_of_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Enforcer (Rragar's Menagerie, only during The Hunting of the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/The_Enforcer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gordam-griefgiver",
+          "en": "Gordam Griefgiver",
+          "zhTW": "Gordam Griefgiver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "against-the-charr",
+              "en": "Against the Charr",
+              "zhTW": "對抗夏爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Against_the_Charr"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gordam Griefgiver (Against the Charr)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Gordam_Griefgiver",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gorgaan-hatemonger",
+          "en": "Gorgaan Hatemonger",
+          "zhTW": "Gorgaan Hatemonger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "flame-temple-corridor",
+              "en": "Flame Temple Corridor",
+              "zhTW": "夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Flame_Temple_Corridor"
+          },
+          {
+            "name": {
+              "id": "special-ops-flame-temple-corridor",
+              "en": "Special Ops: Flame Temple Corridor",
+              "zhTW": "特殊行動：夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Special_Ops:_Flame_Temple_Corridor"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gorgaan Hatemonger (Flame Temple Corridor, only during Special Ops: Flame Temple Corridor)",
+        "source": "https://wiki.guildwars.com/wiki/Eviscerate",
+        "url": "https://wiki.guildwars.com/wiki/Gorgaan_Hatemonger",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 10～45 額外傷害並使其遭受「重傷」病症，降低敵人的最大體力 20% 持續 5～20 秒。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Eviscerate",
+      "revision": 2733102,
+      "title": "Eviscerate",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25887",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25888,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害並使其遭受「重傷」病症，降低敵人的最大體力 20%% 持續 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

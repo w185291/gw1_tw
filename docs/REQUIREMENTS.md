@@ -1,3 +1,5 @@
+> 最新規格：以 [完整性規範](REQUIREMENTS_COMPLETENESS.md) 與 [技能資料庫](REQUIREMENTS_SKILLS.md) 為優先。
+
 目前工作擴充：依 docs/REQUIREMENTS_PHASE2.md 與 docs/REQUIREMENTS_PHASE3.md 完成第二章、第三章；本文件仍定義共用架構。最新附件優先，遊戲事實以 Wiki 查核結果為準。
 
 # GW1 攻略網站專案需求

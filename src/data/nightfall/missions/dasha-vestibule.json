@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -22,7 +22,7 @@
     "大師獎勵",
     "Margrid 路線"
   ],
-  "summary": "與Goren、Margrid完成永恆、神性、智慧三試煉並救出親王。",
+  "summary": "與高恩、Margrid完成永恆、神性、智慧三試煉並救出親王。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -52,10 +52,25 @@
     {
       "id": "margrid-the-sly",
       "name": {
-        "zhTW": "狡猾者瑪格麗特 / Margrid the Sly",
+        "zhTW": "狡詐者 瑪格麗",
         "en": "Margrid the Sly"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/41948",
+        "game-client://2026-10-09/string/45608",
+        "game-client://2026-10-09/string/46791"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          41948,
+          45608,
+          46791
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -81,7 +96,7 @@
   },
   "objectives": [
     {
-      "text": "與Goren、Margrid完成永恆、神性、智慧三試煉並救出親王。"
+      "text": "與高恩、Margrid完成永恆、神性、智慧三試煉並救出親王。"
     }
   ],
   "bonus": {
@@ -98,8 +113,8 @@
   },
   "walkthrough": [
     {
-      "title": "開場先接Goren",
-      "content": "找Lock of Ahdashim啟動，進場和Goren對話讓其跟隨。分批清Djinn，Ruby Djinn的Searing Flames優先打斷。"
+      "title": "開場先接高恩",
+      "content": "找Lock of Ahdashim啟動，進場和高恩對話讓其跟隨。分批清Djinn，Ruby Djinn的Searing Flames優先打斷。"
     },
     {
       "title": "永恆試煉",
@@ -142,48 +157,87 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Kormab, Burning Heart",
+        "zhTW": "Kormab, Burning Heart（繁中名稱待確認）",
         "en": "Kormab, Burning Heart"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
-        "Searing Flames"
+        "Glowing Gaze",
+        "Immolate",
+        "Liquid Flame",
+        "Searing Flames",
+        "Fire Attunement",
+        "Mind Burn"
       ],
+      "eliteSkills": [
+        "Searing Flames",
+        "Mind Burn"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
-      "revision": 2704096
+      "source": "https://wiki.guildwars.com/wiki/Kormab%2C_Burning_Heart",
+      "revision": 2702789
     },
     {
       "name": {
-        "zhTW": "Shakor Firespear",
+        "zhTW": "Shakor Firespear（繁中名稱待確認）",
         "en": "Shakor Firespear"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "Angelic Bond",
+        "Anthem of Flame",
+        "Leader's Comfort",
+        "Merciless Spear",
+        "Spear of Lightning"
+      ],
+      "eliteSkills": [
         "Angelic Bond"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
-      "revision": 2704096
+      "source": "https://wiki.guildwars.com/wiki/Shakor_Firespear",
+      "revision": 2704172
     },
     {
       "name": {
-        "zhTW": "Hajok Earthguardian",
-        "en": "Hajok Earthguardian"
+        "en": "Hajok Earthguardian (Djinn)",
+        "zhTW": "Hajok Earthguardian (Djinn)（繁中名稱待確認）"
       },
-      "profession": "神喚使",
+      "profession": "Dervish",
       "importantSkills": [
+        "Heart of Fury",
+        "Heart of Holy Flame",
+        "Mystic Vigor",
+        "Victorious Sweep",
         "Zealous Vow"
       ],
-      "notes": [
-        "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
+      "eliteSkills": [
+        "Zealous Vow"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Dasha_Vestibule#Bosses",
-      "revision": 2704096
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排接近戰，後排離開鐮刀範圍；若有加持增益，帶拆加持並保留治療，避免多人圍站。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Hajok_Earthguardian_%28Djinn%29",
+      "revision": 2702941
     }
   ],
   "recommendedTeam": [
@@ -193,7 +247,7 @@
     "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
   ],
   "warnings": [
-    "Goren必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。"
+    "高恩必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。"
   ],
   "modeDifferences": {
     "normal": [
@@ -300,6 +354,34 @@
       "revision": 2699744,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Kormab, Burning Heart",
+      "url": "https://wiki.guildwars.com/wiki/Kormab%2C_Burning_Heart",
+      "revision": 2702789,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Shakor Firespear",
+      "url": "https://wiki.guildwars.com/wiki/Shakor_Firespear",
+      "revision": 2704172,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hajok Earthguardian (Djinn)",
+      "url": "https://wiki.guildwars.com/wiki/Hajok_Earthguardian_%28Djinn%29",
+      "revision": 2702941,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Hajok Earthguardian",
+      "url": "https://wiki.guildwars.com/wiki/Hajok_Earthguardian",
+      "revision": 2499097,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -352,7 +434,7 @@
       },
       "giver": "Head Priest Vahmani",
       "location": "Grand Court of Sebelkeh",
-      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找Goren到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
+      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找高恩到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
       "url": "https://wiki.guildwars.com/wiki/Greed_and_Regret",
       "revision": 2687256,
       "translationStatus": "needs-review"
@@ -366,7 +448,7 @@
       },
       "giver": "Zerai the Learner",
       "location": "the Kodash Bazaar",
-      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽Morgahn說明回Vahmani。",
+      "directions": "到Halls of Chokhin見親王，保護Lyssa使者清侵軍，轉Mirror of Lyss查大宮廷，聽摩根說明回Vahmani。",
       "url": "https://wiki.guildwars.com/wiki/Pledge_of_the_Merchant_Princes",
       "revision": 2621044,
       "translationStatus": "needs-review"
@@ -378,7 +460,7 @@
   "bossMechanics": [
     {
       "name": "關鍵敵人與機制",
-      "mechanism": "Goren必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。",
+      "mechanism": "高恩必須活；退後時他會在隊伍最後被集火。智慧區沒殺Thunder就搬鑰匙會白費，寶箱另有三Djinn伏兵。",
       "counter": "Margrid打斷／預先拉怪，保護、反施法、清燃燒；大多敵人無血肉，屍體與毒血效果有限。"
     }
   ],
@@ -394,5 +476,31 @@
       "expert": "取得1–2件",
       "master": "取得三件寶物"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33087",
+    "game-client://2026-10-09/string/45108"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33087,
+      45108
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule",
+    "revision": 2704096,
+    "heroes": [
+      "Margrid the Sly"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

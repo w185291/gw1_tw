@@ -1,0 +1,224 @@
+{
+  "id": "signet-of-spirits",
+  "name": {
+    "en": "Signet of Spirits",
+    "zhTW": "縛靈紋章",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1239,
+  "icon": "/skills/signet-of-spirits.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. Create 3 level 1...10...12 spirits. These spirits deal 5...17...20 damage with attacks and die after 60 seconds.",
+      "zhTW": "召喚出三個等級1～12的靈(可存活60秒)，他們攻擊時造成5～20傷害。"
+    },
+    "pvp": {
+      "en": "Elite Signet. You gain 3...10...12 Energy if you are within earshot of a spirit.",
+      "zhTW": "若聽距內有靈體，你獲得 3～12 能量。PvP 版不召喚三隻靈體。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Spirits (PvP)",
+      "description": {
+        "en": "Elite Signet. You gain 3...10...12 Energy if you are within earshot of a spirit.",
+        "zhTW": "若聽距內有靈體，你獲得 3～12 能量。PvP 版不召喚三隻靈體。"
+      },
+      "stats": {
+        "Activation": 1.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_%28PvP%29",
+        "revision": 2729057,
+        "title": "Signet of Spirits (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2965
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "wagg-spiritspeak",
+          "en": "Wagg Spiritspeak",
+          "zhTW": "Wagg Spiritspeak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Wagg Spiritspeak (Ferndale)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
+        "url": "https://wiki.guildwars.com/wiki/Wagg_Spiritspeak",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "reisen-the-phoenix",
+          "en": "Reisen the Phoenix",
+          "zhTW": "Reisen the Phoenix",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raid-on-kaineng-center",
+              "en": "Raid on Kaineng Center",
+              "zhTW": "Raid on Kaineng Center",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raid_on_Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Reisen the Phoenix (only during Raid on Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
+        "url": "https://wiki.guildwars.com/wiki/Reisen_the_Phoenix",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "hamato",
+          "en": "Hamato",
+          "zhTW": "Hamato",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack-hard-mode",
+              "en": "When Kappa Attack (Hard mode)",
+              "zhTW": "When Kappa Attack (Hard mode)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack_(Hard_mode)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Hamato (The Undercity (Winds of Change) (only during When Kappa Attack (Hard mode)))",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
+        "url": "https://wiki.guildwars.com/wiki/Hamato",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "不用能量就能召出三個攻擊靈體，適合在開戰前或交戰時建立固定火力；離開靈體的攻擊範圍後，需要重新布置。",
+  "commonUses": [
+    "SoS 靈體輸出",
+    "英雄隊固定火力"
+  ],
+  "aliases": [
+    "SoS"
+  ],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
+      "revision": 2686605,
+      "title": "Signet of Spirits",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_%28PvP%29",
+      "revision": 2729057,
+      "title": "Signet of Spirits (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27325"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27326,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "召喚出三個等級%str1%的靈(可存活%str3%秒)，他們攻擊時造成%str2%傷害。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

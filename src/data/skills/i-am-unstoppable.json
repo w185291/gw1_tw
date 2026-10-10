@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "i-am-unstoppable",
+  "name": {
+    "en": "\"I Am Unstoppable!\"",
+    "zhTW": "\"無人能抵！\""
+  },
+  "clientSkillId": 2356,
+  "icon": "/skills/i-am-unstoppable.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 16...20 seconds, you have +24 armor and cannot be knocked down or Crippled.",
+      "zhTW": "持續 16～20 秒，你獲得 +24 防禦且無法被「擊倒」或「殘廢」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "cold-as-ice",
+          "en": "Cold as Ice",
+          "zhTW": "冷冰冰",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Cold as Ice (Sifhalla)",
+        "source": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Cold_as_Ice",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 16～20 秒，你獲得 +24 防禦且無法被「擊倒」或「殘廢」。",
+  "commonUses": [
+    "Norn rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable%21%22",
+      "revision": 2716553,
+      "title": "\"I Am Unstoppable!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71902"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71903,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你獲得 +%str1% 防禦且無法被「擊倒」或「殘廢」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

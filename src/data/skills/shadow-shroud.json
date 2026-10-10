@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-shroud",
+  "name": {
+    "en": "Shadow Shroud",
+    "zhTW": "暗影遮蔽",
+    "translationVerified": true
+  },
+  "clientSkillId": 928,
+  "icon": "/skills/shadow-shroud.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "shadow-arts",
+    "en": "Shadow Arts",
+    "zhTW": "暗影技巧",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 3...8...9 seconds, target foe cannot be the target of enchantments.",
+      "zhTW": "持續 3～9 秒，使目標敵人無法受到「加持」。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 2...6...7 seconds, target foe cannot be the target of enchantments.",
+      "zhTW": "持續 2～7 秒，使目標敵人無法受到「加持」。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Shadow Shroud (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 2...6...7 seconds, target foe cannot be the target of enchantments.",
+        "zhTW": "持續 2～7 秒，使目標敵人無法受到「加持」。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Shadow_Shroud_%28PvP%29",
+        "revision": 2738509,
+        "title": "Shadow Shroud (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3452
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shrouded-oni",
+          "en": "Shrouded Oni",
+          "zhTW": "Shrouded Oni",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters-explorable-area",
+              "en": "Unwaking Waters (explorable area)",
+              "zhTW": "Unwaking Waters (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Shrouded Oni (Unwaking Waters (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Shroud",
+        "url": "https://wiki.guildwars.com/wiki/Shrouded_Oni",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續 3～9 秒，使目標敵人無法受到「加持」。",
+  "commonUses": [
+    "暗影技巧 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Shroud",
+      "revision": 2738319,
+      "title": "Shadow Shroud",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Shroud_%28PvP%29",
+      "revision": 2738509,
+      "title": "Shadow Shroud (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26468"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26469,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，使目標敵人無法受到「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

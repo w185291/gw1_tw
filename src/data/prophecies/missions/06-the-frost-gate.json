@@ -4,7 +4,7 @@
   "campaign": "prophecies",
   "region": "northern-shiverpeaks",
   "name": {
-    "zhTW": "冰門",
+    "zhTW": "寒霜之門",
     "en": "The Frost Gate"
   },
   "type": "cooperative-mission",
@@ -12,13 +12,13 @@
   "status": "draft",
   "aliases": [],
   "tags": [
-    "冰門",
+    "寒霜之門",
     "The Frost Gate",
     "Prophecies",
     "第一章",
     "Bonus"
   ],
-  "summary": "摧毀弩炮，啟動齒輪機關開啟冰門。",
+  "summary": "隊伍走高處清弩炮，替下層的Prince Rurik與難民開路。最後搬齒輪拉桿啟動機關。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,38 +36,66 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "冰門據點",
+    "description": "從 Anvil Rock 進入 The Frost Gate 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "The Frost Gate 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
   "rewardTiers": [],
   "objectives": [
     {
-      "text": "摧毀弩炮，啟動齒輪機關開啟冰門。"
+      "text": "摧毀弩炮，啟動齒輪機關開啟寒霜之門。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "取回攻城武器圖紙",
+    "summary": "取回攻城武器圖紙",
+    "trigger": "Rornak 必須存活，先清路再接他。黃點 2 有兩隊石牦牛騎士及石峰兵，勿同時引入。",
+    "steps": [
+      "Rornak 必須存活，先清路再接他。黃點 2 有兩隊石牦牛騎士及石峰兵，勿同時引入。",
+      "通往黃點 3 的分岔附近頭目群死亡會觸發主線過場。最好先做完 Bonus 再打；已觸發也可折返完成。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "通往黃點 3 的分岔附近頭目群死亡會觸發主線過場。最好先做完 Bonus 再打；已觸發也可折返完成。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "清四座弩炮",
+      "content": "整體往南走，依原圖紅線推進，殺各弩炮旁的工程師；有兩座偏在西側。你不能下到Prince Rurik所在的下層。"
+    },
+    {
+      "title": "先準備 Bonus",
+      "content": "在原圖黃點 1 救 Rornak。先清他到黃點 2 弩炮的路線，再讓他同行，避免路上死亡。"
+    },
+    {
+      "title": "完成圖紙運送",
+      "content": "帶 Rornak 到弩炮後炸開通往黃點 3 的門，從寶箱拿 Secret Siege Weapon Plans，搬回黃點 2 交給他。"
+    },
+    {
+      "title": "取齒輪拉桿",
+      "content": "四座主線弩炮處理完觸發劇情，門開後下坡取得 Gear Lever。插入近旁的 Lever Mechanism（藍點 1），等待門開；幾秒後拉桿會掉在地上，記得撿回。"
+    },
+    {
+      "title": "預清最後區域",
+      "content": "門後有三座需要同一拉桿啟動的機關；兩座在上方可見，第三座較低、在前方。先清附近所有敵人。"
+    },
+    {
+      "title": "逐座啟動",
+      "content": "每啟動一座都會開門放出增援，先清增援再拿回拉桿。第三座啟動後稍等，結尾過場才會開始。"
+    }
+  ],
+  "routeSummary": "高處四座弩炮 → 救 Rornak 與攻城圖紙 → 劇情開門 → 第一個齒輪機關 → 最後三座機關",
   "mapImage": "/maps/The_Frost_Gate_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
       "src": "/maps/The_Frost_Gate_map.jpg",
       "title": "主線路線圖",
-      "alt": "冰門・主線路線圖",
+      "alt": "寒霜之門・主線路線圖",
       "width": 275,
       "height": 610,
       "filePage": "https://wiki.guildwars.com/wiki/File:The_Frost_Gate_map.jpg",
@@ -78,13 +106,240 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Garris Nightwatch",
+        "zhTW": "Garris Nightwatch（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Fertile Season",
+        "Pin Down",
+        "Precision Shot",
+        "Troll Unguent"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Garris_Nightwatch",
+      "revision": 2625361,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Garris_Nightwatch"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shalis Ironmantle",
+        "zhTW": "Shalis Ironmantle（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Heal Other",
+        "Remove Hex",
+        "Shielding Hands",
+        "Strength of Honor"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Shalis_Ironmantle",
+      "revision": 2625360,
+      "dangerousSkills": [
+        {
+          "name": "Heal Other",
+          "counter": "先打斷治療者再集火受傷目標，避免傷害被立即補回。",
+          "source": "https://wiki.guildwars.com/wiki/Shalis_Ironmantle"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Durnar Skullcracker",
+        "zhTW": "Durnar Skullcracker（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Plague Touch",
+        "Strip Enchantment",
+        "Soul Feast",
+        "Vampiric Touch",
+        "Vile Touch"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Durnar_Skullcracker",
+      "revision": 2625359,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Cronis Bonebreaker",
+        "zhTW": "Cronis Bonebreaker（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Channeling",
+        "Empathy",
+        "Ether Feast",
+        "Illusion of Haste",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Cronis_Bonebreaker",
+      "revision": 2638052,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Cronis_Bonebreaker"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dagnar Stonepate",
+        "zhTW": "Dagnar Stonepate（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Spikes",
+        "Water Attunement",
+        "Disrupting Chop",
+        "\"For Great Justice!\"",
+        "Healing Signet",
+        "Penetrating Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate",
+      "revision": 2681408,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bucknar Runeguard",
+        "zhTW": "Bucknar Runeguard（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Spikes",
+        "Water Attunement"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bucknar_Runeguard",
+      "revision": 2690974,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Minotaur (boss)",
+        "zhTW": "Minotaur (boss)（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Bull's Strike",
+        "Endure Pain",
+        "Healing Signet",
+        "Rush"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Minotaur_%28boss%29",
+      "revision": 2535024,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Minotaur_%28boss%29"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "最後機關區先清怪，可大幅減少每次開門的壓力；帶範圍控制與復活。"
+  ],
+  "tips": [
+    "英雄和傭兵可能卡在齒輪機關，操作時把旗標放遠處。",
+    "不能直接靠近下層Prince Rurik替他治療，這關依上層機制推進。",
+    "通關後到Beacon's Perch（Beacon’s Perch），經後續主線到科瑞塔之門。"
+  ],
+  "warnings": [
+    "Rornak 必須存活，先清路再接他。黃點 2 有兩隊石牦牛騎士及石峰兵，勿同時引入。",
+    "石牦牛騎士會跟著被攻擊的隊友追來，要分群、卡入口並打斷治療。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "石牦牛騎士會跟著被攻擊的隊友追來，要分群、卡入口並打斷治療。",
+      "最後機關區先清怪，可大幅減少每次開門的壓力；帶範圍控制與復活。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +359,136 @@
       "revision": 2729948,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Garris Nightwatch",
+      "url": "https://wiki.guildwars.com/wiki/Garris_Nightwatch",
+      "revision": 2625361,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Shalis Ironmantle",
+      "url": "https://wiki.guildwars.com/wiki/Shalis_Ironmantle",
+      "revision": 2625360,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Durnar Skullcracker",
+      "url": "https://wiki.guildwars.com/wiki/Durnar_Skullcracker",
+      "revision": 2625359,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Cronis Bonebreaker",
+      "url": "https://wiki.guildwars.com/wiki/Cronis_Bonebreaker",
+      "revision": 2638052,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Dagnar Stonepate",
+      "url": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate",
+      "revision": 2681408,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bucknar Runeguard",
+      "url": "https://wiki.guildwars.com/wiki/Bucknar_Runeguard",
+      "revision": 2690974,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Minotaur (boss)",
+      "url": "https://wiki.guildwars.com/wiki/Minotaur_%28boss%29",
+      "revision": 2535024,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "borlis-pass",
   "nextMission": "gates-of-kryta",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10577"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到Beacon's Perch（Beacon’s Perch），經後續主線到科瑞塔之門。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10577
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "To Kryta: Refugees",
+        "zhTW": "To Kryta: Refugees（繁中名稱待確認）"
+      },
+      "giver": "Master Saberlin",
+      "location": "Beacon's Perch (Northern Shiverpeaks)",
+      "directions": "在 Beacon's Perch 找 Master Saberlin 接取。出 Deldrimor Bowl，沿南側道路向西清掉箭頭附近的六隊 Centaur；難民死亡不會失敗。到 Griffon's Mouth 前的 Ranger Olson 回報；下一份任務要進洞找 Master Seeker Nathaniel，不是向 Olson 接。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Refugees",
+      "revision": 2723076,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "To Kryta: The Ice Cave",
+        "zhTW": "To Kryta: The Ice Cave（繁中名稱待確認）"
+      },
+      "giver": "Master Seeker Nathaniel",
+      "location": "Griffon's Mouth (Northern Shiverpeaks)",
+      "directions": "在 Griffon's Mouth 找 Master Seeker Nathaniel 接取。跟 Snow 與 Mark of Aidan 穿過冰洞，迷路時貼右牆前進；不必保護 Snow，也不用撿路標。Snow Ettin 有虛弱及高物理傷害，分批拉怪。到另一端找 Aidan 回報。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_The_Ice_Cave",
+      "revision": 2723077,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    },
+    {
+      "name": {
+        "en": "To Kryta: Journey's End",
+        "zhTW": "To Kryta: Journey's End（繁中名稱待確認）"
+      },
+      "giver": "Aidan",
+      "location": "Griffon's Mouth (Northern Shiverpeaks)",
+      "directions": "向冰洞出口的 Aidan 接取，進 Scoundrel's Rise，把信交給入口的 Ambassador Braun。沿地圖東南側往 Gates of Kryta，先殺 Zombie Warlock，再清會伏擊並致殘的 Grasping Ghoul；到據點找 Witness Casori 回報。",
+      "url": "https://wiki.guildwars.com/wiki/To_Kryta%3A_Journey%27s_End",
+      "revision": 2723084,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

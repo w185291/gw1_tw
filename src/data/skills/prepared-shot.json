@@ -1,0 +1,192 @@
+{
+  "pvpOnly": false,
+  "id": "prepared-shot",
+  "name": {
+    "en": "Prepared Shot",
+    "zhTW": "完備射擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1465,
+  "icon": "/skills/prepared-shot.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "marksmanship",
+    "en": "Marksmanship",
+    "zhTW": "弓術精通",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2134"
+    ]
+  },
+  "type": {
+    "id": "bow-attack",
+    "en": "bow attack",
+    "zhTW": "弓術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Bow Attack. If this attack hits, you strike for +10...22...25 damage. If you are under the effects of a preparation, you gain 1...7...9 Energy.",
+      "zhTW": "命中時對目標造成 10～25 額外傷害。若你正處於「準備」類型技能的效果下，你獲得 1～9 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-vengeful",
+          "en": "Cairn the Vengeful",
+          "zhTW": "Cairn the Vengeful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Vengeful (The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Prepared_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Vengeful",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "seed-of-suffering",
+          "en": "Seed of Suffering",
+          "zhTW": "Seed of Suffering",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Seed of Suffering (Domain of Fear)",
+        "source": "https://wiki.guildwars.com/wiki/Prepared_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Seed_of_Suffering",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "johon-the-oxflinger",
+          "en": "Johon the Oxflinger",
+          "zhTW": "Johon the Oxflinger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-cliff-chasms",
+              "en": "Ice Cliff Chasms",
+              "zhTW": "冰崖裂口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Cliff_Chasms"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Johon the Oxflinger (Ice Cliff Chasms)",
+        "source": "https://wiki.guildwars.com/wiki/Prepared_Shot",
+        "url": "https://wiki.guildwars.com/wiki/Johon_the_Oxflinger",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 10～25 額外傷害。若你正處於「準備」類型技能的效果下，你獲得 1～9 能量。",
+  "commonUses": [
+    "Marksmanship · 弓術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Prepared_Shot",
+      "revision": 2733220,
+      "title": "Prepared Shot",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/34803"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34804,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若你正處於「準備」類型技能的效果下，你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

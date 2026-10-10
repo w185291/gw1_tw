@@ -1,0 +1,157 @@
+{
+  "pvpOnly": false,
+  "id": "heal-as-one",
+  "name": {
+    "en": "Heal as One",
+    "zhTW": "治癒合一",
+    "translationVerified": true
+  },
+  "clientSkillId": 1195,
+  "icon": "/skills/heal-as-one.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 15 seconds, your animal companion steals 1...16...20 Health whenever it hits with an attack. You and your companion are both healed for 20...87...104 Health. If your companion is dead, it's resurrected with 50% Health. If you have this skill equipped, your companion will travel with you.",
+      "zhTW": "治療你以及寵物 20～104 體力。持續 15 秒，寵物攻擊時偷取 1～20 體力。若是寵物死亡則復活寵物且具有 50% 體力。裝備此技能時寵物將與你一同旅行。"
+    },
+    "pvp": {
+      "en": "Elite Skill. If you or your animal companion are below 75% Health, you are both healed for 25...121...145 Health. If your companion is dead, it is resurrected with 50% Health.",
+      "zhTW": "若你或你的寵物體力低於 75% ，兩者同時被治癒 25～145 體力。若你的寵物死亡，寵物將被復活並回復 50%體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Heal as One (PvP)",
+      "description": {
+        "en": "Elite Skill. If you or your animal companion are below 75% Health, you are both healed for 25...121...145 Health. If your companion is dead, it is resurrected with 50% Health.",
+        "zhTW": "若你或你的寵物體力低於 75% ，兩者同時被治癒 25～145 體力。若你的寵物死亡，寵物將被復活並回復 50%體力。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 8.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Heal_as_One_%28PvP%29",
+        "revision": 2655971,
+        "title": "Heal as One (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3144
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "salke-fur-friend",
+          "en": "Salke Fur Friend",
+          "zhTW": "Salke Fur Friend",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "melandru-s-hope",
+              "en": "Melandru's Hope",
+              "zhTW": "梅蘭朵的盼望",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Salke Fur Friend (Melandru's Hope)",
+        "source": "https://wiki.guildwars.com/wiki/Heal_as_One",
+        "url": "https://wiki.guildwars.com/wiki/Salke_Fur_Friend",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "治療你以及寵物 20～104 體力。持續 15 秒，寵物攻擊時偷取 1～20 體力。若是寵物死亡則復活寵物且具有 50% 體力。裝備此技能時寵物將與你一同旅行。",
+  "commonUses": [
+    "野獸支配 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heal_as_One",
+      "revision": 2686555,
+      "title": "Heal as One",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Heal_as_One_%28PvP%29",
+      "revision": 2655971,
+      "title": "Heal as One (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+    "game-client://2026-10-09/string/27185"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27186,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療你以及寵物 %str2% 體力。持續 %str3% 秒，寵物攻擊時偷取 %str1% 體力。若是寵物死亡則復活寵物且具有 50%% 體力。裝備此技能時寵物將與你一同旅行。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,237 @@
+{
+  "id": "soul-twisting",
+  "name": {
+    "en": "Soul Twisting",
+    "zhTW": "生靈扭轉",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1240,
+  "icon": "/skills/soul-twisting.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "spawning-power",
+    "en": "Spawning Power",
+    "zhTW": "召喚力量",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 5...37...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. Soul Twisting ends after 1...3...3 Binding Ritual[s].",
+      "zhTW": "持續 5～45 秒，你的縛靈儀式能量消耗減少 15 (最低 5 )而且立即回復，生靈扭轉將在使用 1～3 次縛靈儀式後終止。"
+    },
+    "pvp": {
+      "en": "Elite Skill. For 5...37...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge 25...45...50% faster. Soul Twisting ends after 1...3...3 Binding Ritual[s].",
+      "zhTW": "持續 5～45 秒，縛靈儀式能量消耗減少 15（最低 5），冷卻速度加快 25～50%。使用 1～3 次縛靈儀式後終止；PvP 版不會立即恢復儀式。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Soul Twisting (PvP)",
+      "description": {
+        "en": "Elite Skill. For 5...37...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge 25...45...50% faster. Soul Twisting ends after 1...3...3 Binding Ritual[s].",
+        "zhTW": "持續 5～45 秒，縛靈儀式能量消耗減少 15（最低 5），冷卻速度加快 25～50%。使用 1～3 次縛靈儀式後終止；PvP 版不會立即恢復儀式。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 15.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Soul_Twisting_%28PvP%29",
+        "revision": 2738524,
+        "title": "Soul Twisting (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3461
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ritualist-s-construct",
+          "en": "Ritualist's Construct",
+          "zhTW": "Ritualist's Construct",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunjiang-district",
+              "en": "Sunjiang District",
+              "zhTW": "孫江行政區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunjiang_District"
+          },
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ritualist's Construct (Sunjiang District; Morostav Trail until Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Twisting",
+        "url": "https://wiki.guildwars.com/wiki/Ritualist%27s_Construct",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "defiant-ancient-sseer",
+          "en": "Defiant Ancient Sseer",
+          "zhTW": "Defiant Ancient Sseer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raisu-palace-explorable-area",
+              "en": "Raisu Palace (explorable area)",
+              "zhTW": "Raisu Palace (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Defiant Ancient Sseer (Raisu Palace (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Twisting",
+        "url": "https://wiki.guildwars.com/wiki/Defiant_Ancient_Sseer",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-ritualist",
+          "en": "Monstrous Afflicted Ritualist",
+          "zhTW": "Monstrous Afflicted Ritualist",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail-winds-of-change",
+              "en": "Morostav Trail (Winds of Change)",
+              "zhTW": "Morostav Trail (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail_(Winds_of_Change)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Ritualist (Morostav Trail (Winds of Change), only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Soul_Twisting",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Ritualist",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "先啟動再放防禦靈體，能降低能量消耗並立即恢復縛靈儀式，方便補回被打掉的庇護、聯合與移位。效果有可使用次數，不能當成永久加速。",
+  "commonUses": [
+    "ST 防禦祭祀",
+    "英雄隊防禦"
+  ],
+  "aliases": [
+    "ST",
+    "靈魂扭曲"
+  ],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soul_Twisting",
+      "revision": 2738380,
+      "title": "Soul Twisting",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Soul_Twisting_%28PvP%29",
+      "revision": 2738524,
+      "title": "Soul Twisting (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27329",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27330,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的縛靈儀式能量消耗減少 %str1% (最低 5 )而且立即回復，生靈扭轉將在使用 %str2% 次縛靈儀式後終止。"
+  },
+  "contentStatus": "incomplete",
+  "pvpTranslationMethod": "Authored Chinese summary checked against the exact current Wiki PvP effect, not English client fallback.",
+  "rechargeNote": ""
+}

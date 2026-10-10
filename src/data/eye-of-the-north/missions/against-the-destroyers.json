@@ -1,0 +1,171 @@
+{
+  "id": "against-the-destroyers",
+  "order": 2,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Against the Destroyers",
+    "zhTW": "對抗破壞者"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": true,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Against the Destroyers"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "全章總覽"
+  ],
+  "summary": "這份 Quest 串起整章三條盟友分支及最終決戰，不是一張可單獨打完的 Mission。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": false,
+    "hard": false
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "The Beginning of the End 完成後，在 Boreal Station 自動接到；出站先向 Jora 問路。",
+    "location": "Boreal Station → Ice Cliff Chasms → Eye of the North",
+    "requirements": [
+      "完成地下限時逃生並抵達 Boreal Station。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "全章總覽",
+  "routeChoice": "三方分支都必須完成，先後不限；目前網站僅刊出 Norn 分支入口，不能據此省略另兩方。",
+  "objectives": [
+    {
+      "text": "這份 Quest 串起整章三條盟友分支及最終決戰，不是一張可單獨打完的 Mission。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "先找 Jora",
+      "content": "出 Boreal Station 到 Ice Cliff Chasms，先和 Jora 對話，再沿箭頭向北到 Eye of the North。沒有這次對話，Scrying Pool 的第一段預言不會開放。"
+    },
+    {
+      "title": "取得三條分支",
+      "content": "進 Hall of Monuments 找 關，查看 Scrying Pool，選保持睜眼觀看 The First Vision，取得 博學的阿蘇拉、The Missing Vanguard、北方同盟。"
+    },
+    {
+      "title": "完成三方盟友",
+      "content": "三條分支先後不限。Asura、Ebon Vanguard、Norn 都完成後，回 Hall of Monuments 查看 Scrying Pool，選 Look Deep into the Pool 觀看 The Final Vision。"
+    },
+    {
+      "title": "接最終地下主線",
+      "content": "依箭頭找 Jalis Ironhammer 接 Heart of the Shiverpeaks；完成後向他接 Destruction’s Depths。後者雖沒有列在此 Quest 的目標文字中，仍是前往 Central Transfer Chamber 的必要流程。"
+    },
+    {
+      "title": "打最終戰並領獎",
+      "content": "在 Central Transfer Chamber 找 High Priest Alkar 接 A Time for Heroes。擊敗最終敵人後到 Epilogue，找 Droknar 領此總覽任務的獎勵及 Droknar’s Key。"
+    }
+  ],
+  "routeSummary": "The Beginning of the End 完成後，在 Boreal Station 自動接到；出站先向 Jora 問路。",
+  "mapImage": null,
+  "mapNotes": [
+    "原 Wiki 此頁沒有單張完整行走圖；本段依據點與接任務 NPC 順序前進。"
+  ],
+  "maps": [],
+  "bosses": [],
+  "bossAbsenceVerified": true,
+  "bossAbsenceReason": "這是整章進度追蹤；個別分支與最終 Boss 在對應故事任務處理。",
+  "recommendedTeam": [
+    "旅途中可攜英雄與傭兵；各分支與最後決戰另有戰術需求。"
+  ],
+  "tips": [],
+  "warnings": [
+    "這份總覽 Quest 不能放棄，也不能用只完成一條分支當作整章破關。",
+    "先找 Jora，避免 Scrying Pool 有箭頭卻沒有 First Vision 的情況。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "此項追蹤整章進度；戰鬥與隊伍要求請依各分支實際 Quest。"
+    ],
+    "hard": [
+      "這份總覽沒有獨立 HM 副本入口；在各可重玩的故事任務选择 HM，不用重新建立總覽任務。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 10000,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "1,000 Dwarf 聲望；最終 Epilogue 找 Droknar 領取。",
+          "Droknar’s Key 的兌換獎勵與本任務經驗／聲望分開列於遊戲結尾。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Against_the_Destroyers",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Against the Destroyers",
+      "url": "https://wiki.guildwars.com/wiki/Against_the_Destroyers",
+      "revision": 2740963,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "the-beginning-of-the-end",
+  "nextMission": "northern-allies",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "最終戰後抵達 Epilogue，找 Droknar 領獎；完成整章後才接破關後內容。"
+  ],
+  "storyStartVerified": false
+}

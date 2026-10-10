@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -125,7 +125,58 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Royal Guard Captain",
+        "zhTW": "Royal Guard Captain（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"Shields Up!\"",
+        "\"Watch Yourself!\"",
+        "Endure Pain"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "在單人任務中保持自療，擊敗後取得 Golden Phoenix Feather；沒有隊友可救，先把自己血量維持安全，不要只帶依賴英雄的技能。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Royal_Guard_Captain",
+      "revision": 2217629
+    },
+    {
+      "name": {
+        "en": "\"Palawa Joko\"",
+        "zhTW": "\"Palawa Joko\"（繁中名稱待確認）"
+      },
+      "profession": "Necromancer",
+      "importantSkills": [
+        "Blood of the Aggressor",
+        "Dark Pact",
+        "Life Siphon"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "這是演員扮演的戰鬥，不是實際 Palawa Joko。本關只有玩家一人，帶自療及解除 Life Siphon 的降咒，讓直接傷害穩定壓過回血；完成後再去處理其他大師活動。",
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/%22Palawa_Joko%22"
+        }
+      ],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/%22Palawa_Joko%22",
+      "revision": 2377805
+    }
+  ],
   "recommendedTeam": [
     "自療與短施法傷害，召喚攻擊靈可輔助活動戰；HM只有最終鳥群戰更危險，活動規則不變。"
   ],
@@ -247,6 +298,20 @@
       "revision": 2723058,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Royal Guard Captain",
+      "url": "https://wiki.guildwars.com/wiki/Royal_Guard_Captain",
+      "revision": 2217629,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：\"Palawa Joko\"",
+      "url": "https://wiki.guildwars.com/wiki/%22Palawa_Joko%22",
+      "revision": 2377805,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -314,7 +379,7 @@
       },
       "giver": "Head Priest Vahmani",
       "location": "Grand Court of Sebelkeh",
-      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找Goren到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
+      "directions": "帶Margrid搜尋Halls of Chokhin，拾Duality of Lyssa清防禦；找高恩到Mirror of Lyss，在標記處/dance開隱城，回Lock of Ahdashim。",
       "url": "https://wiki.guildwars.com/wiki/Greed_and_Regret",
       "revision": 2687256,
       "translationStatus": "needs-review"
@@ -376,5 +441,29 @@
       "expert": "參與四項",
       "master": "參與五項"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33091",
+    "game-client://2026-10-09/string/39673"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33091,
+      39673
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Tihark_Orchard",
+    "revision": 2728545,
+    "heroes": [],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

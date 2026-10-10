@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -125,7 +125,30 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Abaddon",
+        "zhTW": "亞霸頓"
+      },
+      "profession": "Elementalist",
+      "importantSkills": [
+        "Corrupt Power",
+        "Earth Shattering Blow",
+        "Words of Madness"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": true,
+      "strategy": "先封鎖左右兩手，兩手都封住後再處理頭部，暴露時集中輸出；掙脫後重複。保留群體解除病症應付 Words of Madness 的暈眩與擊倒，Torment Claw 長施法立即打斷。",
+      "dangerousSkills": [],
+      "notes": [],
+      "source": "https://wiki.guildwars.com/wiki/Abaddon",
+      "revision": 2736303
+    }
+  ],
   "recommendedTeam": [
     "帶群體清病症、治療、抗擊倒、短施法與復活紋章；頻繁士氣提升會重置長回充技能。"
   ],
@@ -240,6 +263,13 @@
       "revision": 2604853,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Abaddon",
+      "url": "https://wiki.guildwars.com/wiki/Abaddon",
+      "revision": 2736303,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -293,5 +323,32 @@
       "expert": "20–25分鐘",
       "master": "少於20分鐘"
     }
-  }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36154",
+    "game-client://2026-10-09/string/39683",
+    "game-client://2026-10-09/string/48781"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      36154,
+      39683,
+      48781
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Gate",
+    "revision": 2739035,
+    "heroes": [],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
+  },
+  "storyEndingVerified": true
 }

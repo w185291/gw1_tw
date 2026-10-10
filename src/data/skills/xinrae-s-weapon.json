@@ -1,0 +1,133 @@
+{
+  "id": "xinrae-s-weapon",
+  "name": {
+    "en": "Xinrae's Weapon",
+    "zhTW": "欣雷武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1750,
+  "icon": "/skills/xinrae-s-weapon.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Weapon Spell. For 8 seconds, the next time target ally takes damage from a foe that damage is limited to 5% of that ally's max Health and that ally steals up to 20...68...80 Health from that foe.",
+      "zhTW": "持續8秒，下一次目標盟友受到的傷害不會超過體力最大值的5%，偷取造成傷害的敵人20～80體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "consort-of-ruin",
+          "en": "Consort of Ruin",
+          "zhTW": "Consort of Ruin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "depths-of-madness",
+              "en": "Depths of Madness",
+              "zhTW": "Depths of Madness",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Depths_of_Madness"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Consort of Ruin (Depths of Madness)",
+        "source": "https://wiki.guildwars.com/wiki/Xinrae%27s_Weapon",
+        "url": "https://wiki.guildwars.com/wiki/Consort_of_Ruin",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續8秒，下一次目標盟友受到的傷害不會超過體力最大值的5%，偷取造成傷害的敵人20～80體力。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Xinrae%27s_Weapon",
+      "revision": 2742097,
+      "title": "Xinrae's Weapon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44113",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44114,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，下一次目標盟友受到的傷害不會超過體力最大值的%str1%%%，偷取造成傷害的敵人%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

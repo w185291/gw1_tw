@@ -1,0 +1,430 @@
+{
+  "pvpOnly": false,
+  "id": "dismember",
+  "name": {
+    "en": "Dismember",
+    "zhTW": "肢解",
+    "translationVerified": true
+  },
+  "clientSkillId": 337,
+  "icon": "/skills/dismember.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "Axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Axe Attack. If it hits, this axe blow will inflict a Deep Wound on the target foe, lowering that foe's maximum Health by 20% for 5...17...20 seconds.",
+      "zhTW": "命中時造成目標遭受「重傷」病症，降低敵人的最大體力 20% 持續 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "baram",
+          "en": "Baram",
+          "zhTW": "Baram",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-kodash-bazaar",
+              "en": "The Kodash Bazaar",
+              "zhTW": "庫丹西市集廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Baram (The Kodash Bazaar)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Baram",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "army-life",
+          "en": "Army Life",
+          "zhTW": "Army Life",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "piken-square",
+              "en": "Piken Square",
+              "zhTW": "派肯廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Army Life (Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Army_Life",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "galrath",
+          "en": "Galrath",
+          "zhTW": "Galrath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kessex-peak",
+              "en": "Kessex Peak",
+              "zhTW": "凱席斯山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kessex_Peak"
+          },
+          {
+            "name": {
+              "id": "the-villainy-of-galrath",
+              "en": "The Villainy of Galrath",
+              "zhTW": "The Villainy of Galrath",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Villainy_of_Galrath"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Galrath (Kessex Peak, during The Villainy of Galrath)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Galrath",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "justiciar-hablion",
+          "en": "Justiciar Hablion",
+          "zhTW": "Justiciar Hablion",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Hablion (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Hablion",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "yino-burlyhaunch",
+          "en": "Yino Burlyhaunch",
+          "zhTW": "Yino Burlyhaunch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          },
+          {
+            "name": {
+              "id": "deldrimor-bowl",
+              "en": "Deldrimor Bowl",
+              "zhTW": "戴爾狄摩盆地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Yino Burlyhaunch (Borlis Pass and Deldrimor Bowl)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Yino_Burlyhaunch",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bloodback-morrob",
+          "en": "Bloodback Morrob",
+          "zhTW": "Bloodback Morrob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bloodback Morrob (Mehtani Keys)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Bloodback_Morrob",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "robah-hardback",
+          "en": "Robah Hardback",
+          "zhTW": "Robah Hardback",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Robah Hardback (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Robah_Hardback",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "skomay-bonehewer",
+          "en": "Skomay Bonehewer",
+          "zhTW": "Skomay Bonehewer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Skomay Bonehewer (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Skomay_Bonehewer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "warden-of-whispers-chantry-of-secrets",
+          "en": "Warden of Whispers (Chantry of Secrets)",
+          "zhTW": "Warden of Whispers (Chantry of Secrets)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Warden of Whispers (Chantry of Secrets)",
+        "source": "https://wiki.guildwars.com/wiki/Dismember",
+        "url": "https://wiki.guildwars.com/wiki/Warden_of_Whispers_(Chantry_of_Secrets)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成目標遭受「重傷」病症，降低敵人的最大體力 20% 持續 5～20 秒。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dismember",
+      "revision": 2691026,
+      "title": "Dismember",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25886",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25889,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成目標遭受「重傷」病症，降低敵人的最大體力 20%% 持續 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

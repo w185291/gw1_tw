@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "energy-boon",
+  "name": {
+    "en": "Energy Boon",
+    "zhTW": "能量恩賜",
+    "translationVerified": true
+  },
+  "clientSkillId": 837,
+  "icon": "/skills/energy-boon.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 36...55...60 seconds, Energy Boon raises the maximum Health of you and target ally by 1...3...3 for each point of your respective maximum Energy. When this enchantment is first applied, you and your target gain 1...10...12 Energy. You gain an additional 1 Energy for every 2 points you have in Energy Storage.",
+      "zhTW": "持續20秒，你的能量最大值+1～12，體力再生增加5，當能量恩賜終止時你獲得36～60能量和1～3體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "tarlok-evermind",
+          "en": "Tarlok Evermind",
+          "zhTW": "Tarlok Evermind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tarlok Evermind (Ferndale)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Boon",
+        "url": "https://wiki.guildwars.com/wiki/Tarlok_Evermind",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續20秒，你的能量最大值+1～12，體力再生增加5，當能量恩賜終止時你獲得36～60能量和1～3體力。",
+  "commonUses": [
+    "能量儲存 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Energy_Boon",
+      "revision": 2726540,
+      "title": "Energy Boon",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/26694"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26695,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續20秒，你的能量最大值+%str1%，體力再生增加5，當能量恩賜終止時你獲得%str3%能量和%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

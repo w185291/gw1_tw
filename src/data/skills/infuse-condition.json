@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "infuse-condition",
+  "name": {
+    "en": "Infuse Condition",
+    "zhTW": "病症移轉",
+    "translationVerified": true
+  },
+  "clientSkillId": 139,
+  "icon": "/skills/infuse-condition.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "death-magic",
+    "en": "Death Magic",
+    "zhTW": "死亡魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For the next 15...51...60 seconds, whenever you receive a condition, that condition is transferred to your closest minion instead.",
+      "zhTW": "在接下來的 15～60 秒內，每當你遭受「病症」時，該「病症」將會轉移至最接近你的不死爪牙身上。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "thengen",
+          "en": "Thengen",
+          "zhTW": "Thengen",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "port-sledge",
+              "en": "Port Sledge",
+              "zhTW": "雪橇港",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Port_Sledge"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Thengen (Port Sledge)",
+        "source": "https://wiki.guildwars.com/wiki/Infuse_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Thengen",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Infuse_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "在接下來的 15～60 秒內，每當你遭受「病症」時，該「病症」將會轉移至最接近你的不死爪牙身上。",
+  "commonUses": [
+    "死亡魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Infuse_Condition",
+      "revision": 2695760,
+      "title": "Infuse Condition",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25098",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25099,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在接下來的 %str3% 秒內，每當你遭受「病症」時，該「病症」將會轉移至最接近你的不死爪牙身上。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

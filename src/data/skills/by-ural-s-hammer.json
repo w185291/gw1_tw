@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "by-ural-s-hammer",
+  "name": {
+    "en": "\"By Ural's Hammer!\"",
+    "zhTW": "\"以由羅之鎚的力量！\""
+  },
+  "clientSkillId": 2217,
+  "icon": "/skills/by-ural-s-hammer.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "shout",
+    "en": "Shout",
+    "zhTW": "戰嚎",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Shout. For 30 seconds, all dead party members in earshot are resurrected with full Health and Energy. Resurrected party members deal 25...33% more damage. When this effect ends, affected party members die. This skill does not incur a death penalty.",
+      "zhTW": "持續30秒，你的體力再生增加2並造成0%額外傷害。若音量所及範圍內有體力低於25～33%的盟友，每位使持續時間增加30秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "attack-on-jalis-s-camp",
+          "en": "Attack on Jalis's Camp",
+          "zhTW": "亞里斯營區的襲擊",
+          "translationVerified": true
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Attack on Jalis's Camp (Battledepths)",
+        "source": "https://wiki.guildwars.com/wiki/%22By_Ural%27s_Hammer%21%22",
+        "url": "https://wiki.guildwars.com/wiki/Attack_on_Jalis%27s_Camp",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續30秒，你的體力再生增加2並造成0%額外傷害。若音量所及範圍內有體力低於25～33%的盟友，每位使持續時間增加30秒。",
+  "commonUses": [
+    "Deldrimor rank · 戰嚎"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/%22By_Ural%27s_Hammer%21%22",
+      "revision": 2632748,
+      "title": "\"By Ural's Hammer!\"",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69861"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69862,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你的體力再生增加2並造成%str2%%%額外傷害。若音量所及範圍內有體力低於%str1%%%的盟友，每位使持續時間增加%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

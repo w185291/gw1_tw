@@ -1,0 +1,239 @@
+{
+  "pvpOnly": false,
+  "id": "vampiric-swarm",
+  "name": {
+    "en": "Vampiric Swarm",
+    "zhTW": "吸血蟲群",
+    "translationVerified": true
+  },
+  "clientSkillId": 1075,
+  "icon": "/skills/vampiric-swarm.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2,
+  "recharge": 8,
+  "description": {
+    "pve": {
+      "en": "Spell. Vampiric Swarm steals up to 15...51...60 Health from up to three foes in the area.",
+      "zhTW": "吸血蟲群緩慢地飛出，偷取範圍內最多三個敵人最多 15～60 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "koril-the-malignant",
+          "en": "Koril the Malignant",
+          "zhTW": "Koril the Malignant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "temple-of-the-intolerable",
+              "en": "Temple of the Intolerable",
+              "zhTW": "Temple of the Intolerable",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Intolerable"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Koril the Malignant (D'Alessio Seaboard (explorable area), during Temple of the Intolerable)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+        "url": "https://wiki.guildwars.com/wiki/Koril_the_Malignant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "tanto-the-grim",
+          "en": "Tanto the Grim",
+          "zhTW": "Tanto the Grim",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "haunted",
+              "en": "Haunted",
+              "zhTW": "詛咒",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Haunted"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Tanto the Grim (Varajar Fells, during 詛咒)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+        "url": "https://wiki.guildwars.com/wiki/Tanto_the_Grim",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "the-keeper",
+          "en": "The Keeper",
+          "zhTW": "The Keeper",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Keeper (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+        "url": "https://wiki.guildwars.com/wiki/The_Keeper",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "murakai-s-steward",
+          "en": "Murakai's Steward",
+          "zhTW": "Murakai's Steward",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Murakai's Steward (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+        "url": "https://wiki.guildwars.com/wiki/Murakai%27s_Steward",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "吸血蟲群緩慢地飛出，偷取範圍內最多三個敵人最多 15～60 體力。",
+  "commonUses": [
+    "血魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+      "revision": 2683697,
+      "title": "Vampiric Swarm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26652",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26653,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "吸血蟲群緩慢地飛出，偷取範圍內最多三個敵人最多 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,475 @@
+{
+  "pvpOnly": false,
+  "id": "aura-of-restoration",
+  "name": {
+    "en": "Aura of Restoration",
+    "zhTW": "回復靈氣",
+    "translationVerified": true
+  },
+  "clientSkillId": 180,
+  "icon": "/skills/aura-of-restoration.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 60 seconds, you gain 0...1...1 Energy and are healed for 200...440...500% of the Energy cost each time you cast a spell.",
+      "zhTW": "持續60秒，每當你施展魔法時獲得0～1能量，同時被治療消耗能量的200～500%體力。"
+    },
+    "pvp": {
+      "en": "Enchantment Spell. For 60 seconds, you gain 0...1...1 Energy and are healed for 200...360...400% of the Energy cost each time you cast a spell.",
+      "zhTW": "持續60秒，每當你施展魔法時獲得0～1能量，同時被治療消耗能量的200～400%體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Aura of Restoration (PvP)",
+      "description": {
+        "en": "Enchantment Spell. For 60 seconds, you gain 0...1...1 Energy and are healed for 200...360...400% of the Energy cost each time you cast a spell.",
+        "zhTW": "持續60秒，每當你施展魔法時獲得0～1能量，同時被治療消耗能量的200～400%體力。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 20.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_%28PvP%29",
+        "revision": 2732853,
+        "title": "Aura of Restoration (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3375
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "halbrik",
+          "en": "Halbrik",
+          "zhTW": "Halbrik",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city-outpost",
+              "en": "Ascalon City (outpost)",
+              "zhTW": "Ascalon City (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City_(outpost)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Halbrik (Ascalon City - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Halbrik",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sir-bertran",
+          "en": "Sir Bertran",
+          "zhTW": "Sir Bertran",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ascalon-city",
+              "en": "Ascalon City",
+              "zhTW": "阿斯卡隆城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_City"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sir Bertran (Ascalon City)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Sir_Bertran",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tohn",
+          "en": "Tohn",
+          "zhTW": "Tohn",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kamadan-jewel-of-istan",
+              "en": "Kamadan, Jewel of Istan",
+              "zhTW": "卡瑪丹．艾斯坦之鑽",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kamadan,_Jewel_of_Istan"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tohn (Kamadan, Jewel of Istan)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Tohn",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "elementalist-test",
+          "en": "Elementalist Test",
+          "zhTW": "Elementalist Test",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lakeside-county",
+              "en": "Lakeside County",
+              "zhTW": "湖畔郡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lakeside_County"
+          },
+          {
+            "name": {
+              "id": "ascalon-pre-searing",
+              "en": "Ascalon (pre-Searing)",
+              "zhTW": "Ascalon (pre-Searing)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ascalon_(pre-Searing)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Elementalist Test (Lakeside County - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Elementalist_Test",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "the-elementalist-experiment",
+          "en": "The Elementalist Experiment",
+          "zhTW": "The Elementalist Experiment",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "wizard-s-folly",
+              "en": "Wizard's Folly",
+              "zhTW": "巫師的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Wizard%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Elementalist Experiment (Wizard's Folly - pre-Searing)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/The_Elementalist_Experiment",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "mantid-hatchlings",
+          "en": "Mantid Hatchlings",
+          "zhTW": "Mantid Hatchlings",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "monastery-overlook",
+              "en": "Monastery Overlook",
+              "zhTW": "寺廟高處",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mantid Hatchlings (Monastery Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Mantid_Hatchlings",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "locate-ronsu",
+          "en": "Locate Ronsu",
+          "zhTW": "Locate Ronsu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shing-jea-monastery",
+              "en": "Shing Jea Monastery",
+              "zhTW": "星岬寺",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Locate Ronsu (Shing Jea Monastery)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Locate_Ronsu",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "rally-the-recruits-tutorial",
+          "en": "Rally the Recruits (Tutorial)",
+          "zhTW": "Rally the Recruits (Tutorial)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "take-the-shortcut-skip-tutorial",
+              "en": "Take the Shortcut (Skip Tutorial)",
+              "zhTW": "Take the Shortcut (Skip Tutorial)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Take_the_Shortcut_(Skip_Tutorial)"
+          },
+          {
+            "name": {
+              "id": "island-of-shehkah",
+              "en": "Island of Shehkah",
+              "zhTW": "沙卡島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Island_of_Shehkah"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rally the Recruits/Take the Shortcut (Island of Shehkah)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Rally_the_Recruits_(Tutorial)",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "acolyte-sousuke",
+          "en": "Acolyte Sousuke",
+          "zhTW": "侍從 薩蘇克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Sousuke",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Sousuke",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zhed-shadowhoof",
+          "en": "Zhed Shadowhoof",
+          "zhTW": "影爪 杰德",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Zhed Shadowhoof",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Zhed_Shadowhoof",
+        "unlockOnly": true,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "vekk",
+          "en": "Vekk",
+          "zhTW": "維克",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Unlocking Vekk",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Vekk",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [
+      {
+        "name": {
+          "id": "cembrien",
+          "en": "Cembrien",
+          "zhTW": "Cembrien",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heroes-audience",
+              "en": "Heroes' Audience",
+              "zhTW": "英雄之痕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cembrien (Heroes' Audience)",
+        "source": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+        "url": "https://wiki.guildwars.com/wiki/Cembrien",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續60秒，每當你施展魔法時獲得0～1能量，同時被治療消耗能量的200～500%體力。",
+  "commonUses": [
+    "能量儲存 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+      "revision": 2732814,
+      "title": "Aura of Restoration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_%28PvP%29",
+      "revision": 2732853,
+      "title": "Aura of Restoration (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25182",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25183,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續60秒，每當你施展魔法時獲得%str2%能量，同時被治療消耗能量的%str1%%%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

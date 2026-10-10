@@ -1,6 +1,12 @@
-import Link from 'next/link';
-import {getCampaigns,getMissions} from '@/lib/content';
+import {GwWelcome} from '@/components/GwWelcome';
 import {pageMetadata} from '@/lib/metadata';
-import styles from '@/components/Site.module.css';
-export const metadata=pageMetadata('Guild Wars 1 繁體中文攻略','快速尋找主線任務、Bonus、NM/HM 與 Wiki 路線圖。','/');
-export default function Home(){const campaigns=getCampaigns();return <div className={styles.pageContainer}><section className={styles.hero}><p className={styles.eyebrow}>GUILD WARS / 玩家攻略</p><h1>Guild Wars 1<br/>繁體中文攻略</h1><p>主線任務、Bonus、英雄與副本<br/>先確認目標，再按步驟前進。</p><div className={styles.actions}><Link className={styles.primaryButton} href="/campaigns/prophecies/">檢視第一章主線</Link><Link className={styles.secondaryButton} href="/search/">搜尋攻略</Link></div><div className={styles.heroSide}><span>PROPHECIES</span><strong>25</strong><p>關卡索引<br/>3 關完整示範</p></div></section><section className={styles.homeSection}><div className={styles.sectionHeading}><h2>選擇你的章節</h2><span>四個故事，一個攻略入口</span></div><div className={styles.campaignCards}>{campaigns.map(c=><Link href={`/campaigns/${c.id}/`} key={c.id} className={styles.campaignCard}><span className={styles.cardChapter}>CHAPTER {String(c.order).padStart(2,'0')}</span><h3>{c.name.zhTW}</h3><p className={styles.cardEnglish}>{c.shortName}</p><p>{c.status==='available'?`${getMissions(c.id).length} 個主線 Mission · ${getMissions(c.id).filter(m=>m.status==='complete').length} 關完整攻略`:'章節架構已預留 · 攻略待整理'}</p><span className={styles.cardLink}>檢視章節</span></Link>)}</div></section><section className={styles.homeSection}><h2>常用入口</h2><div className={styles.quickLinks}>{[['/campaigns/','主線攻略'],['/campaigns/prophecies/missions/','Bonus / 隱藏目標'],['/heroes/','英雄取得'],['/dungeons/','地下城'],['/elite-missions/','菁英任務'],['/zaishen/','戰承任務'],['/builds/','Builds']].map(([href,label])=><Link key={href} href={href}>{label}</Link>)}</div></section><section className={styles.homeSection}><h2>先看完整示範</h2><p>第二章13關與第三章20關已整理主線、大師条件、必要英雄、分支與原圖。第一章保留25關索引與3關完整示範。</p><div className={styles.quickLinks}>{[['the-great-northern-wall','北方長城'],['gates-of-kryta','柯瑞塔關所'],['divinity-coast','神聖海岸']].map(([id,label])=><Link key={id} href={`/campaigns/prophecies/missions/${id}/`}>{label}</Link>)}</div></section></div>;}
+
+export const metadata = pageMetadata(
+  'Guild Wars 1 中文攻略｜GW1 Reforged 新手、主線、技能與英雄攻略',
+  'Guild Wars 1 / Guild Wars Reforged 繁體中文攻略站。認識 GW1、購買方式、三大戰役、極地之眼、技能 Build、英雄、PvE/PvP 與主線攻略。',
+  '/',
+);
+
+export default function Home() {
+  return <GwWelcome/>;
+}

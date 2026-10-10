@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "wastrel-s-collapse",
+  "name": {
+    "en": "Wastrel's Collapse",
+    "zhTW": "偷襲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1644,
+  "icon": "/skills/wastrel-s-collapse.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. Shadow Step to target foe. If target foe is not using a skill, that foe is knocked down. All of your non-dagger attack skills are disabled for 10 seconds.",
+      "zhTW": "使用暗影步伐移動至目標敵人身旁，若該敵人沒用使用技能，該敵人被擊倒。你的所有非匕首攻擊技能在10秒內不能使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jarimiya-the-unmerciful",
+          "en": "Jarimiya the Unmerciful",
+          "zhTW": "Jarimiya the Unmerciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Jarimiya the Unmerciful (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse",
+        "url": "https://wiki.guildwars.com/wiki/Jarimiya_the_Unmerciful",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "使用暗影步伐移動至目標敵人身旁，若該敵人沒用使用技能，該敵人被擊倒。你的所有非匕首攻擊技能在10秒內不能使用。",
+  "commonUses": [
+    "無屬性 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse",
+      "revision": 2704634,
+      "title": "Wastrel's Collapse",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/49963"
+  ],
+  "descriptionEvidence": {
+    "stringId": 49964,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使用暗影步伐移動至目標敵人身旁，若該敵人沒用使用技能，該敵人被擊倒。你的所有非匕首攻擊技能在%str1%秒內不能使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

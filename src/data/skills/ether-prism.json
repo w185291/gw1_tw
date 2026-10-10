@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "ether-prism",
+  "name": {
+    "en": "Ether Prism",
+    "zhTW": "精神稜鏡",
+    "translationVerified": true
+  },
+  "clientSkillId": 1377,
+  "icon": "/skills/ether-prism.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "energy-storage",
+    "en": "Energy Storage",
+    "zhTW": "能量儲存",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain 5...17...20 Energy.",
+      "zhTW": "持續3秒，你受到的所有傷害降低75%，當精神稜鏡終止時你獲得5～20能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "mekir-the-prismatic",
+          "en": "Mekir the Prismatic",
+          "zhTW": "Mekir the Prismatic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "poisoned-outcrops",
+              "en": "Poisoned Outcrops",
+              "zhTW": "劇毒地表",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Poisoned_Outcrops"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Mekir the Prismatic (Poisoned Outcrops)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Prism",
+        "url": "https://wiki.guildwars.com/wiki/Mekir_the_Prismatic",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "tortureweb-dryder-boss",
+          "en": "Tortureweb Dryder (boss)",
+          "zhTW": "Tortureweb Dryder (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-pain",
+              "en": "Gate of Pain",
+              "zhTW": "懲罰之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Pain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tortureweb Dryder (boss) (Gate of Pain)",
+        "source": "https://wiki.guildwars.com/wiki/Ether_Prism",
+        "url": "https://wiki.guildwars.com/wiki/Tortureweb_Dryder_(boss)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續3秒，你受到的所有傷害降低75%，當精神稜鏡終止時你獲得5～20能量。",
+  "commonUses": [
+    "能量儲存 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ether_Prism",
+      "revision": 2726539,
+      "title": "Ether Prism",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/36974",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 36975,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你受到的所有傷害降低%str1%%%，當精神稜鏡終止時你獲得%str2%能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

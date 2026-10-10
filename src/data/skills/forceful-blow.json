@@ -1,0 +1,242 @@
+{
+  "pvpOnly": false,
+  "id": "forceful-blow",
+  "name": {
+    "en": "Forceful Blow",
+    "zhTW": "威力打擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 889,
+  "icon": "/skills/forceful-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 5,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Hammer Attack. If Forceful Blow hits, you strike for +10...26...30 damage and any stance being used by target foe ends. Target foe suffers from Weakness for 5...17...20 seconds. This attack cannot be blocked.",
+      "zhTW": "命中時造成 10～30 額外傷害，移除目標態勢，且造成虛弱 5～20 秒，此技能無法被格檔。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cairn-the-berserker",
+          "en": "Cairn the Berserker",
+          "zhTW": "Cairn the Berserker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "divinity-coast-explorable-area",
+              "en": "Divinity Coast (explorable area)",
+              "zhTW": "Divinity Coast (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Berserker (Divinity Coast (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Berserker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "stone-judge",
+          "en": "Stone Judge",
+          "zhTW": "Stone Judge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone",
+              "en": "Arborstone",
+              "zhTW": "亭石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Stone Judge (Arborstone)",
+        "source": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Stone_Judge",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "mahr-stonebreaker",
+          "en": "Mahr Stonebreaker",
+          "zhTW": "Mahr Stonebreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone-explorable-area",
+              "en": "Arborstone (explorable area)",
+              "zhTW": "Arborstone (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mahr Stonebreaker (Arborstone (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Mahr_Stonebreaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "dorn-stonebreaker",
+          "en": "Dorn Stonebreaker",
+          "zhTW": "Dorn Stonebreaker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "altrumm-ruins",
+              "en": "Altrumm Ruins",
+              "zhTW": "奧楚蘭廢墟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Altrumm_Ruins"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Dorn Stonebreaker (Altrumm Ruins)",
+        "source": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Dorn_Stonebreaker",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ignus-the-eternal",
+          "en": "Ignus the Eternal",
+          "zhTW": "Ignus the Eternal",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sacnoth-valley",
+              "en": "Sacnoth Valley",
+              "zhTW": "聖諾谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sacnoth_Valley"
+          },
+          {
+            "name": {
+              "id": "the-smell-of-titan-in-the-morning",
+              "en": "The Smell of Titan in the Morning",
+              "zhTW": "晨曦中泰坦的氣息",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Smell_of_Titan_in_the_Morning"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ignus the Eternal (Sacnoth Valley, only during 晨曦中泰坦的氣息)",
+        "source": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Ignus_the_Eternal",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時造成 10～30 額外傷害，移除目標態勢，且造成虛弱 5～20 秒，此技能無法被格檔。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+      "revision": 2733164,
+      "title": "Forceful Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26958",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26959,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時造成 %str1% 額外傷害，移除目標態勢，且造成虛弱 %str2% 秒，此技能無法被格檔。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

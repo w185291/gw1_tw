@@ -1,0 +1,362 @@
+{
+  "pvpOnly": false,
+  "id": "enraged-smash",
+  "name": {
+    "en": "Enraged Smash",
+    "zhTW": "憤怒猛擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 993,
+  "icon": "/skills/enraged-smash.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hammer Attack. If Enraged Smash hits, you gain 1...3...4 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...34...40 damage, and target foe is knocked down.",
+      "zhTW": "若此攻擊命中，你獲得1～4怒氣。若目標敵人正在移動，造成額外10～40傷害並擊倒目標。"
+    },
+    "pvp": {
+      "en": "Elite Hammer Attack. If Enraged Smash hits, you gain 1...3...3 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...34...40 damage, and target foe is knocked down.",
+      "zhTW": "若此攻擊命中，你獲得1～3怒氣。若目標敵人正在移動，造成額外10～40傷害並擊倒目標。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Enraged Smash (PvP)",
+      "description": {
+        "en": "Elite Hammer Attack. If Enraged Smash hits, you gain 1...3...3 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...34...40 damage, and target foe is knocked down.",
+        "zhTW": "若此攻擊命中，你獲得1～3怒氣。若目標敵人正在移動，造成額外10～40傷害並擊倒目標。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Recharge": 10.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Enraged_Smash_%28PvP%29",
+        "revision": 2738490,
+        "title": "Enraged Smash (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 2808
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "afflicted-guardsman-chun",
+          "en": "Afflicted Guardsman Chun",
+          "zhTW": "Afflicted Guardsman Chun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bukdek-byway",
+              "en": "Bukdek Byway",
+              "zhTW": "巴德克小徑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway"
+          },
+          {
+            "name": {
+              "id": "the-afflicted-guard",
+              "en": "The Afflicted Guard",
+              "zhTW": "The Afflicted Guard",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Guard"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Afflicted Guardsman Chun (Bukdek Byway, only during The Afflicted Guard)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Afflicted_Guardsman_Chun",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "drinkmaster-tahnu",
+          "en": "Drinkmaster Tahnu",
+          "zhTW": "Drinkmaster Tahnu",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-drunken-master",
+              "en": "The Drunken Master",
+              "zhTW": "The Drunken Master",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Drunken_Master"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Drinkmaster Tahnu (Bukdek Byway, only during The Drunken Master)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Drinkmaster_Tahnu",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-ako",
+          "en": "The Afflicted Ako",
+          "zhTW": "The Afflicted Ako",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vizunah-square",
+              "en": "Vizunah Square",
+              "zhTW": "薇茹廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vizunah_Square"
+          },
+          {
+            "name": {
+              "id": "shadow-s-passage",
+              "en": "Shadow's Passage",
+              "zhTW": "陰暗通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadow%27s_Passage"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Ako (Vizunah Square and Shadow's Passage)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Ako",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-maaka",
+          "en": "The Afflicted Maaka",
+          "zhTW": "The Afflicted Maaka",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "unwaking-waters",
+              "en": "Unwaking Waters",
+              "zhTW": "沉睡之水",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters"
+          },
+          {
+            "name": {
+              "id": "the-eternal-grove",
+              "en": "The Eternal Grove",
+              "zhTW": "永恆之林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Maaka (Unwaking Waters and The Eternal Grove)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Maaka",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "the-afflicted-tamaya",
+          "en": "The Afflicted Tamaya",
+          "zhTW": "The Afflicted Tamaya",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-throat",
+              "en": "Dragon's Throat",
+              "zhTW": "龍喉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Throat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Afflicted Tamaya (Dragon's Throat)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Tamaya",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tuila-the-club",
+          "en": "Tuila the Club",
+          "zhTW": "Tuila the Club",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shadow-s-passage-winds-of-change",
+              "en": "Shadow's Passage (Winds of Change)",
+              "zhTW": "Shadow's Passage (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadow%27s_Passage_(Winds_of_Change)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tuila the Club (Shadow's Passage (Winds of Change))",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Tuila_the_Club",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gowan-chobak",
+          "en": "Gowan Chobak",
+          "zhTW": "Gowan Chobak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Gowan Chobak (Shadow's Passage (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Gowan_Chobak",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "indestructible-golem",
+          "en": "Indestructible Golem",
+          "zhTW": "Indestructible Golem",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-elusive-golemancer",
+              "en": "The Elusive Golemancer",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Elusive_Golemancer"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Indestructible Golem (The Elusive Golemancer)",
+        "source": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+        "url": "https://wiki.guildwars.com/wiki/Indestructible_Golem",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "若此攻擊命中，你獲得1～4怒氣。若目標敵人正在移動，造成額外10～40傷害並擊倒目標。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+      "revision": 2733180,
+      "title": "Enraged Smash",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Enraged_Smash_%28PvP%29",
+      "revision": 2738490,
+      "title": "Enraged Smash (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26952",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26953,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若此攻擊命中，你獲得%str1%怒氣。若目標敵人正在移動，造成額外%str2%傷害並擊倒目標。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

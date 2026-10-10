@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "dwarven-stability",
+  "name": {
+    "en": "Dwarven Stability",
+    "zhTW": "矮人堅定"
+  },
+  "clientSkillId": 2423,
+  "icon": "/skills/dwarven-stability.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 24...30 seconds, your stances last 55...100% longer. If you activated this skill while drunk, you cannot be knocked down.",
+      "zhTW": "持續 24～30 秒，你的態勢持續時間增加 55～100%。當酒醉時發動此技能，可對擊倒免疫。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-big-unfriendly-jotun",
+          "en": "The Big Unfriendly Jotun",
+          "zhTW": "The Big Unfriendly Jotun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "undrath-blastrock",
+              "en": "Undrath Blastrock",
+              "zhTW": "Undrath Blastrock",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Undrath_Blastrock"
+          },
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Big Unfriendly Jotun (from Undrath Blastrock in Sifhalla)",
+        "source": "https://wiki.guildwars.com/wiki/Dwarven_Stability",
+        "url": "https://wiki.guildwars.com/wiki/The_Big_Unfriendly_Jotun",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 24～30 秒，你的態勢持續時間增加 55～100%。當酒醉時發動此技能，可對擊倒免疫。",
+  "commonUses": [
+    "Deldrimor rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dwarven_Stability",
+      "revision": 2645603,
+      "title": "Dwarven Stability",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72886"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72887,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的態勢持續時間增加 %str1%%%。當酒醉時發動此技能，可對擊倒免疫。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "lightbringer-signet",
+  "name": {
+    "en": "Lightbringer Signet",
+    "zhTW": "光明使者紋章"
+  },
+  "clientSkillId": 1815,
+  "icon": "/skills/lightbringer-signet.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "lightbringer-rank",
+    "en": "Lightbringer rank",
+    "zhTW": "光明使者稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Signet. If you are within the area of a demonic servant of Abaddon, you gain 4...5 strikes of adrenaline and 22...24 Energy.",
+      "zhTW": "若你的範圍內有任何亞霸頓的惡魔僕從，你獲得3～5次 攻擊的怒氣值以及16～24能 量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "seeker-of-whispers",
+          "en": "Seeker of Whispers",
+          "zhTW": "Seeker of Whispers",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "chantry-of-secrets",
+              "en": "Chantry of Secrets",
+              "zhTW": "隱密教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Chantry_of_Secrets"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "光明使者稱號達到 Brave Lightbringer（第 3 級、1,000 點）後，在隱密教堂向 Seeker of Whispers 領取。",
+        "source": "https://wiki.guildwars.com/wiki/Lightbringer_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Seeker_of_Whispers",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "若你的範圍內有任何亞霸頓的惡魔僕從，你獲得3～5次 攻擊的怒氣值以及16～24能 量。",
+  "commonUses": [
+    "Lightbringer rank · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightbringer_Signet",
+      "revision": 2706570,
+      "title": "Lightbringer Signet",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/52055"
+  ],
+  "descriptionEvidence": {
+    "stringId": 52056,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "若你的範圍內有任何亞霸頓的惡魔僕從，你獲得%str1%次 攻擊的怒氣值以及%str2%能 量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

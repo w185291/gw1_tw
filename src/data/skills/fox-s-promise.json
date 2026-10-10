@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "fox-s-promise",
+  "name": {
+    "en": "Fox's Promise",
+    "zhTW": "狐狸誓言",
+    "translationVerified": true
+  },
+  "clientSkillId": 1640,
+  "icon": "/skills/fox-s-promise.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 5...17...20 seconds, your dagger attacks cannot be blocked. This enchantment ends the next time you fail to hit.",
+      "zhTW": "持續 5～20 秒，你的攻擊無法被「格擋」，但是當你「下一次」攻擊失敗時，此「加持」的效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "hanchor-trueblade",
+          "en": "Hanchor Trueblade",
+          "zhTW": "Hanchor Trueblade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hanchor Trueblade (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Fox%27s_Promise",
+        "url": "https://wiki.guildwars.com/wiki/Hanchor_Trueblade",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 5～20 秒，你的攻擊無法被「格擋」，但是當你「下一次」攻擊失敗時，此「加持」的效果終止。",
+  "commonUses": [
+    "匕首精通 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Fox%27s_Promise",
+      "revision": 2629035,
+      "title": "Fox's Promise",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44003",
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44004,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的攻擊無法被「格擋」，但是當你「下一次」攻擊失敗時，此「加持」的效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

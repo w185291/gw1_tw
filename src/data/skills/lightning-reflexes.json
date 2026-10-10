@@ -1,0 +1,338 @@
+{
+  "pvpOnly": false,
+  "id": "lightning-reflexes",
+  "name": {
+    "en": "Lightning Reflexes",
+    "zhTW": "閃電迴避",
+    "translationVerified": true
+  },
+  "clientSkillId": 453,
+  "icon": "/skills/lightning-reflexes.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...10...11 seconds, you have a 75% chance to block melee and projectile attacks, and you attack 33% faster.",
+      "zhTW": "持續 5～11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。"
+    },
+    "pvp": {
+      "en": "Stance. For 5...10...11 seconds, you have a 75% chance to block melee and projectile attacks, and you attack 33% faster.",
+      "zhTW": "持續 5～11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Lightning Reflexes (PvP)",
+      "description": {
+        "en": "Stance. For 5...10...11 seconds, you have a 75% chance to block melee and projectile attacks, and you attack 33% faster.",
+        "zhTW": "持續 5～11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Recharge": 45.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Lightning_Reflexes_%28PvP%29",
+        "revision": 2629652,
+        "title": "Lightning Reflexes (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3141
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "caravan-in-trouble",
+          "en": "Caravan in Trouble",
+          "zhTW": "Caravan in Trouble",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eastern-frontier",
+              "en": "Eastern Frontier",
+              "zhTW": "東方邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Caravan in Trouble (Eastern Frontier)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Caravan_in_Trouble",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "kekona-pippip",
+          "en": "Kekona Pippip",
+          "zhTW": "Kekona Pippip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "spearhead-peak",
+              "en": "Spearhead Peak",
+              "zhTW": "槍尖山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak"
+          },
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Kekona Pippip (Spearhead Peak and Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Kekona_Pippip",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "salani-pippip",
+          "en": "Salani Pippip",
+          "zhTW": "Salani Pippip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "witman-s-folly",
+              "en": "Witman's Folly",
+              "zhTW": "威特曼的怪異建築",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Witman%27s_Folly"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Salani Pippip (Witman's Folly)",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Salani_Pippip",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "acolyte-jin",
+          "en": "Acolyte Jin",
+          "zhTW": "侍從 靜",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Unlocking Acolyte Jin",
+        "source": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_Jin",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+      "revision": 2695830,
+      "title": "Lightning Reflexes",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lightning_Reflexes_%28PvP%29",
+      "revision": 2629652,
+      "title": "Lightning Reflexes (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26264",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26265,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒， 你有 75%% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

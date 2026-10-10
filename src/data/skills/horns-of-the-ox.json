@@ -1,0 +1,155 @@
+{
+  "pvpOnly": false,
+  "id": "horns-of-the-ox",
+  "name": {
+    "en": "Horns of the Ox",
+    "zhTW": "牛角衝擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 777,
+  "icon": "/skills/horns-of-the-ox.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "dagger-mastery",
+    "en": "Dagger Mastery",
+    "zhTW": "匕首精通",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "dual-attack",
+    "en": "Dual attack",
+    "zhTW": "雙重攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Dual Attack. Must follow an off-hand attack. If it hits, Horns of the Ox strikes for +1...9...11 damage. If struck foe is not adjacent to any allies, that foe is knocked down.",
+      "zhTW": "必須接續在「即刻攻擊」之後。命中時對目標造成 1～11 額外傷害。若目標敵人沒有鄰近其隊友，該目標將被擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "xien",
+          "en": "Xien",
+          "zhTW": "Xien",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Xien (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
+        "url": "https://wiki.guildwars.com/wiki/Xien",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "必須接續在「即刻攻擊」之後。命中時對目標造成 1～11 額外傷害。若目標敵人沒有鄰近其隊友，該目標將被擊倒。",
+  "commonUses": [
+    "匕首精通 · 雙重攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
+      "revision": 2733147,
+      "title": "Horns of the Ox",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/26388"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26389,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「即刻攻擊」之後。命中時對目標造成 %str1% 額外傷害。若目標敵人沒有鄰近其隊友，該目標將被擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

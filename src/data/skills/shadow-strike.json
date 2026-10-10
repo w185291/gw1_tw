@@ -1,0 +1,334 @@
+{
+  "pvpOnly": false,
+  "id": "shadow-strike",
+  "name": {
+    "en": "Shadow Strike",
+    "zhTW": "暗影衝擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 102,
+  "icon": "/skills/shadow-strike.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2,
+  "recharge": 15,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe takes 12...41...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...41...48 Health.",
+      "zhTW": "使目標敵人受到 12～48 暗影傷害。若該目標的體力高於 50% ，你偷取其 12～48 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "casualty-report",
+          "en": "Casualty Report",
+          "zhTW": "Casualty Report",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "piken-square",
+              "en": "Piken Square",
+              "zhTW": "派肯廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Casualty Report (Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Casualty_Report",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "zalo-soulhaunch",
+          "en": "Zalo Soulhaunch",
+          "zhTW": "Zalo Soulhaunch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zalo Soulhaunch (The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Zalo_Soulhaunch",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "erulai-the-inimical",
+          "en": "Erulai the Inimical",
+          "zhTW": "Erulai the Inimical",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen-explorable-area",
+              "en": "Bloodstone Fen (explorable area)",
+              "zhTW": "Bloodstone Fen (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "all-for-one-and-one-for-justice",
+              "en": "All for One and One for Justice",
+              "zhTW": "All for One and One for Justice",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/All_for_One_and_One_for_Justice"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Erulai the Inimical (Bloodstone Fen (explorable area), during All for One and One for Justice)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Erulai_the_Inimical",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "facet-of-death",
+          "en": "Facet of Death",
+          "zhTW": "Facet of Death",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-grenth",
+              "en": "The Cipher of Grenth",
+              "zhTW": "The Cipher of Grenth",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Grenth"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Death (Sparkfly Swamp during The Cipher of Grenth, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Death",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "murakai-s-steward",
+          "en": "Murakai's Steward",
+          "zhTW": "Murakai's Steward",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Murakai's Steward (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Murakai%27s_Steward",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "olias",
+          "en": "Olias",
+          "zhTW": "奧里亞斯",
+          "translationVerified": true
+        },
+        "locations": [],
+        "campaign": "Prophecies",
+        "details": "Unlocking 奧里亞斯",
+        "source": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Olias",
+        "unlockOnly": true,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "使目標敵人受到 12～48 暗影傷害。若該目標的體力高於 50% ，你偷取其 12～48 體力。",
+  "commonUses": [
+    "血魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+      "revision": 2683671,
+      "title": "Shadow Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25024"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25025,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人受到 %str1% 暗影傷害。若該目標的體力高於 50%% ，你偷取其 %str2% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

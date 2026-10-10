@@ -1,0 +1,357 @@
+{
+  "pvpOnly": false,
+  "id": "spiritual-pain",
+  "name": {
+    "en": "Spiritual Pain",
+    "zhTW": "生靈苦痛",
+    "translationVerified": true
+  },
+  "clientSkillId": 1336,
+  "icon": "/skills/spiritual-pain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 7.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe takes 15...63...75 damage. All hostile summoned creatures in the area of that foe take 25...105...125 damage.",
+      "zhTW": "對目標敵人造成 15～75 傷害，同時對目標範圍內的敵方召喚物造成 25～125 傷害。"
+    },
+    "pvp": {
+      "en": "Spell. Target foe takes 5...33...40 damage. All hostile summoned creatures in the area of that foe take 25...105...125 damage.",
+      "zhTW": "對目標敵人造成 5～40 傷害，同時對目標範圍內的敵方召喚物造成 25～125 傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Spiritual Pain (PvP)",
+      "description": {
+        "en": "Spell. Target foe takes 5...33...40 damage. All hostile summoned creatures in the area of that foe take 25...105...125 damage.",
+        "zhTW": "對目標敵人造成 5～40 傷害，同時對目標範圍內的敵方召喚物造成 25～125 傷害。"
+      },
+      "stats": {
+        "Energy": 5.0,
+        "Activation": 1.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_%28PvP%29",
+        "revision": 2663512,
+        "title": "Spiritual Pain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3189
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "willem-the-demeaning",
+          "en": "Willem the Demeaning",
+          "zhTW": "Willem the Demeaning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "riverside-assassination",
+              "en": "Riverside Assassination",
+              "zhTW": "Riverside Assassination",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Assassination"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Willem the Demeaning (Riverside Province (explorable area), only during Riverside Assassination)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Willem_the_Demeaning",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "francis",
+          "en": "Francis",
+          "zhTW": "Francis",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity-winds-of-change",
+              "en": "The Undercity (Winds of Change)",
+              "zhTW": "The Undercity (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "when-kappa-attack",
+              "en": "When Kappa Attack",
+              "zhTW": "When Kappa Attack",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/When_Kappa_Attack"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Francis (The Undercity (Winds of Change), only during When Kappa Attack)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Francis",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "seiran-of-the-cards",
+          "en": "Seiran of the Cards",
+          "zhTW": "Seiran of the Cards",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seiran of the Cards (What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Seiran_of_the_Cards",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "silver-vaettir",
+          "en": "Silver Vaettir",
+          "zhTW": "Silver Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Silver Vaettir (Drakkar Lake, see page for spawn requirements)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Silver_Vaettir",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "facet-of-illusions",
+          "en": "Facet of Illusions",
+          "zhTW": "Facet of Illusions",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-lyssa",
+              "en": "The Cipher of Lyssa",
+              "zhTW": "The Cipher of Lyssa",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Lyssa"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Illusions (Magus Stones, only during The Cipher of Lyssa; Varajar Fells, only during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Illusions",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "對目標敵人造成 15～75 傷害，同時對目標範圍內的敵方召喚物造成 25～125 傷害。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+      "revision": 2694694,
+      "title": "Spiritual Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_%28PvP%29",
+      "revision": 2663512,
+      "title": "Spiritual Pain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33962",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33963,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "對目標敵人造成 %str1% 傷害，同時對目標範圍內的敵方召喚物造成 %str2% 傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

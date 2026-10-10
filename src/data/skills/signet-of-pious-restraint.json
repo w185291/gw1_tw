@@ -1,0 +1,205 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-pious-restraint",
+  "name": {
+    "en": "Signet of Pious Restraint",
+    "zhTW": "虔誠抑制紋章"
+  },
+  "clientSkillId": 2014,
+  "icon": "/skills/signet-of-pious-restraint.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "Signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Signet. Remove 1 Dervish enchantment. Target foe is Crippled for 5...13...15 seconds. If an enchantment was removed, all foes in the area of your target are also Crippled and this signet recharges 75% faster.",
+      "zhTW": "移除一項神喚加持，使目標殘廢 5～15 秒。若有移除，目標區域內所有敵人也殘廢，紋章冷卻速度提高 75。"
+    },
+    "pvp": {
+      "en": "Signet. Lose 1 Dervish enchantment and Cripple target foe 5...13...15 seconds. If an enchantment was removed, this skill recharges 50% faster.",
+      "zhTW": "使目標敵人殘廢 5～15 秒，移除自身一項神喚使加持，若移除成功，此技能回復速度加快 50% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Signet of Pious Restraint (PvP)",
+      "description": {
+        "en": "Signet. Lose 1 Dervish enchantment and Cripple target foe 5...13...15 seconds. If an enchantment was removed, this skill recharges 50% faster.",
+        "zhTW": "使目標敵人殘廢 5～15 秒，移除自身一項神喚使加持，若移除成功，此技能回復速度加快 50% 。"
+      },
+      "stats": {
+        "Activation": 1.0,
+        "Recharge": 16.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_%28PvP%29",
+        "revision": 2739043,
+        "title": "Signet of Pious Restraint (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3273
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "micah-fergson",
+          "en": "Micah Fergson",
+          "zhTW": "Micah Fergson",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Micah Fergson (Eye of the North)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+        "url": "https://wiki.guildwars.com/wiki/Micah_Fergson",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "sida",
+          "en": "Sida",
+          "zhTW": "Sida",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Sida (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+        "url": "https://wiki.guildwars.com/wiki/Sida",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "ybbob",
+          "en": "Ybbob",
+          "zhTW": "Ybbob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ybbob (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+        "url": "https://wiki.guildwars.com/wiki/Ybbob",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "移除一項神喚加持，使目標殘廢 5～15 秒。若有移除，目標區域內所有敵人也殘廢，紋章冷卻速度提高 75。",
+  "commonUses": [
+    "風之祈禱 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+      "revision": 2739042,
+      "title": "Signet of Pious Restraint",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_%28PvP%29",
+      "revision": 2739043,
+      "title": "Signet of Pious Restraint (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/58990"
+  ],
+  "descriptionEvidence": {
+    "stringId": 58991,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Remove 1 Dervish enchantment. Target foe is Crippled for %str1% second. If an enchantment was removed, all foes in the area of your target are also Crippled and this signet recharges %str2%%% faster."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

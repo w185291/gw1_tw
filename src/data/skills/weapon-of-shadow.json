@@ -1,0 +1,169 @@
+{
+  "id": "weapon-of-shadow",
+  "name": {
+    "en": "Weapon of Shadow",
+    "zhTW": "暗影武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 983,
+  "icon": "/skills/weapon-of-shadow.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "restoration-magic",
+    "en": "Restoration Magic",
+    "zhTW": "復原魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "Weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Weapon Spell. For 1...6...7 second[s], target ally has a Weapon of Shadow. Whenever that ally is struck by an attack, that ally's attacker becomes Blinded for 5 seconds. The next 1...3...3 times [sic] that ally hits with an attack, his target is Blinded for 5 seconds.",
+      "zhTW": "持續 1～7 秒，目標盟友被攻擊時，攻擊者將遭受盲目 5 秒，同時該盟友接下來 1～3 次的攻擊，命中時將使敵人遭受盲目 5 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "shock-of-destruction",
+          "en": "Shock of Destruction",
+          "zhTW": "Shock of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          },
+          {
+            "name": {
+              "id": "o-brave-new-world",
+              "en": "O Brave New World",
+              "zhTW": "O Brave New World",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/O_Brave_New_World"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shock of Destruction (Arbor Bay, during O Brave New World)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow",
+        "url": "https://wiki.guildwars.com/wiki/Shock_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續 1～7 秒，目標盟友被攻擊時，攻擊者將遭受盲目 5 秒，同時該盟友接下來 1～3 次的攻擊，命中時將使敵人遭受盲目 5 秒。",
+  "commonUses": [
+    "Restoration Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow",
+      "revision": 2686475,
+      "title": "Weapon of Shadow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+    "game-client://2026-10-09/string/27403"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27404,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標盟友被攻擊時，攻擊者將遭受盲目 %str1% 秒，同時該盟友接下來 %str2% 次的攻擊，命中時將使敵人遭受盲目 5 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

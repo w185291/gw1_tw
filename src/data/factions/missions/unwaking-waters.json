@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -127,123 +127,240 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "The Afflicted Maaka",
+        "zhTW": "The Afflicted Maaka（繁中名稱待確認）",
         "en": "The Afflicted Maaka"
       },
       "profession": "戰士",
       "importantSkills": [
+        "\"On Your Knees!\"",
+        "Auspicious Blow",
+        "Endure Pain",
+        "Enraged Smash",
+        "Frenzy",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Enraged Smash"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Maaka",
+      "revision": 2550691
     },
     {
       "name": {
-        "zhTW": "The Afflicted Pana",
+        "zhTW": "The Afflicted Pana（繁中名稱待確認）",
         "en": "The Afflicted Pana"
       },
       "profession": "遊俠",
       "importantSkills": [
+        "Broad Head Arrow",
+        "Kindle Arrows",
+        "Marauder's Shot",
+        "Throw Dirt",
+        "Troll Unguent",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Broad Head Arrow"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Pana"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Pana",
+      "revision": 2646669
     },
     {
       "name": {
-        "zhTW": "The Afflicted Jingme",
+        "zhTW": "The Afflicted Jingme（繁中名稱待確認）",
         "en": "The Afflicted Jingme"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Aegis",
+        "Draw Conditions",
+        "Ray of Judgment",
+        "Retribution",
+        "Reversal of Fortune",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Ray of Judgment"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Jingme",
+      "revision": 2638057
     },
     {
       "name": {
-        "zhTW": "The Afflicted Lau",
+        "zhTW": "The Afflicted Lau（繁中名稱待確認）",
         "en": "The Afflicted Lau"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Bitter Chill",
+        "Jaundiced Gaze",
+        "Order of Apostasy",
+        "Vile Miasma",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Order of Apostasy"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Lau",
+      "revision": 2606153
     },
     {
       "name": {
-        "zhTW": "The Afflicted Hsin Jun",
+        "zhTW": "The Afflicted Hsin Jun（繁中名稱待確認）",
         "en": "The Afflicted Hsin Jun"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Accumulated Pain",
+        "Drain Enchantment",
+        "Ether Feast",
+        "Images of Remorse",
+        "Kitah's Burden",
+        "Stolen Speed",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Stolen Speed"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Hsin_Jun",
+      "revision": 2550682
     },
     {
       "name": {
-        "zhTW": "The Afflicted Shen",
+        "zhTW": "The Afflicted Shen（繁中名稱待確認）",
         "en": "The Afflicted Shen"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Air Attunement",
+        "Aura of Restoration",
+        "Lava Arrows",
+        "Lightning Orb",
+        "Mind Burn",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Mind Burn"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Shen",
+      "revision": 2550698
     },
     {
       "name": {
-        "zhTW": "The Afflicted Senku",
+        "zhTW": "The Afflicted Senku（繁中名稱待確認）",
         "en": "The Afflicted Senku"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
-        "Shadow Form"
+        "Dancing Daggers",
+        "Death Blossom",
+        "Jagged Strike",
+        "Shadow Form",
+        "Shadow Refuge",
+        "Wild Strike",
+        "Afflicted Soul Explosion"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Senku",
+      "revision": 2550697
     },
     {
       "name": {
-        "zhTW": "The Afflicted Xenxo",
+        "zhTW": "The Afflicted Xenxo（繁中名稱待確認）",
         "en": "The Afflicted Xenxo"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Life",
+        "Nightmare Weapon",
+        "Recuperation",
+        "Spirit Transfer",
+        "Weapon of Quickening",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Weapon of Quickening"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Unwaking_Waters#Bosses",
-      "revision": 2717290
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Xenxo",
+      "revision": 2550704
     }
   ],
   "recommendedTeam": [
@@ -353,6 +470,62 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Maaka",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Maaka",
+      "revision": 2550691,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Pana",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Pana",
+      "revision": 2646669,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Jingme",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Jingme",
+      "revision": 2638057,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Lau",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Lau",
+      "revision": 2606153,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Hsin Jun",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Hsin_Jun",
+      "revision": 2550682,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Shen",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Shen",
+      "revision": 2550698,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Senku",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Senku",
+      "revision": 2550697,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Xenxo",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Xenxo",
+      "revision": 2550704,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -444,5 +617,22 @@
       "expert": "15–20分鐘",
       "master": "少於15分鐘"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22240",
+    "game-client://2026-10-09/string/22274"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22240,
+      22274
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

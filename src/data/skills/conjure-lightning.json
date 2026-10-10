@@ -1,0 +1,490 @@
+{
+  "pvpOnly": false,
+  "id": "conjure-lightning",
+  "name": {
+    "en": "Conjure Lightning",
+    "zhTW": "召喚閃電",
+    "translationVerified": true
+  },
+  "clientSkillId": 221,
+  "icon": "/skills/conjure-lightning.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "air-magic",
+    "en": "Air Magic",
+    "zhTW": "風系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 60 seconds, if you're wielding a lightning weapon, your attacks strike for an additional 5...17...20 lightning damage.",
+      "zhTW": "持續 60 秒，若你使用具有閃電屬性的武器進行攻擊，對目標額外造成 5～20 閃電傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "steig",
+          "en": "Steig",
+          "zhTW": "Steig",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "camp-rankor",
+              "en": "Camp Rankor",
+              "zhTW": "藍口營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Camp_Rankor"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Steig (Camp Rankor)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Steig",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "enraged-phantom",
+          "en": "Enraged Phantom",
+          "zhTW": "Enraged Phantom",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tunnels-of-the-forsaken",
+              "en": "Tunnels of the Forsaken",
+              "zhTW": "Tunnels of the Forsaken",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tunnels_of_the_Forsaken"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Enraged Phantom (Tunnels of the Forsaken)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Enraged_Phantom",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "zeki-lament",
+          "en": "Zeki Lament",
+          "zhTW": "Zeki Lament",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zeki Lament (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Zeki_Lament",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lamaan-wickedwail",
+          "en": "Lamaan Wickedwail",
+          "zhTW": "Lamaan Wickedwail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lamaan Wickedwail (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "tempest-drake",
+          "en": "Tempest Drake",
+          "zhTW": "Tempest Drake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diviner-s-ascent",
+              "en": "Diviner's Ascent",
+              "zhTW": "預言者之坡",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent"
+          },
+          {
+            "name": {
+              "id": "the-mesmer-s-path",
+              "en": "The Mesmer's Path",
+              "zhTW": "The Mesmer's Path",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mesmer%27s_Path"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tempest Drake (Diviner's Ascent, only during The Mesmer's Path)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Tempest_Drake",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "insatiable-vakar",
+          "en": "Insatiable Vakar",
+          "zhTW": "Insatiable Vakar",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Insatiable Vakar (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Insatiable_Vakar",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "modoss-darkwind",
+          "en": "Modoss Darkwind",
+          "zhTW": "Modoss Darkwind",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fahranur-the-first-city",
+              "en": "Fahranur, The First City",
+              "zhTW": "舊城．法蘭努爾",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fahranur,_The_First_City"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Modoss Darkwind (Fahranur, The First City)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Modoss_Darkwind",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "zephyr-hedger",
+          "en": "Zephyr Hedger",
+          "zhTW": "Zephyr Hedger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arkjok-ward",
+              "en": "Arkjok Ward",
+              "zhTW": "阿爾科監禁區",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arkjok_Ward"
+          },
+          {
+            "name": {
+              "id": "koss-s-elixir",
+              "en": "Koss's Elixir",
+              "zhTW": "Koss's Elixir",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Koss%27s_Elixir"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zephyr Hedger (Arkjok Ward, only during Koss's Elixir)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Zephyr_Hedger",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "birneh-skybringer",
+          "en": "Birneh Skybringer",
+          "zhTW": "Birneh Skybringer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Birneh Skybringer (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Birneh_Skybringer",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "setikor-fireflower",
+          "en": "Setikor Fireflower",
+          "zhTW": "Setikor Fireflower",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "holdings-of-chokhin",
+              "en": "Holdings of Chokhin",
+              "zhTW": "舟克辛卷藏室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Setikor Fireflower (Holdings of Chokhin)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Setikor_Fireflower",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flame-guardian-golem",
+          "en": "Flame Guardian (golem)",
+          "zhTW": "Flame Guardian (golem)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "oola-s-lab",
+              "en": "Oola's Lab",
+              "zhTW": "烏啦的實驗室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Oola%27s_Lab"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flame Guardian (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Flame_Guardian_(golem)",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "malfunctioning-regulator-golem",
+          "en": "Malfunctioning Regulator Golem",
+          "zhTW": "Malfunctioning Regulator Golem",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Malfunctioning Regulator Golem (Oola's Lab)",
+        "source": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+        "url": "https://wiki.guildwars.com/wiki/Malfunctioning_Regulator_Golem",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 60 秒，若你使用具有閃電屬性的武器進行攻擊，對目標額外造成 5～20 閃電傷害。",
+  "commonUses": [
+    "風系魔法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+      "revision": 2738694,
+      "title": "Conjure Lightning",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25264",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25265,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 60 秒，若你使用具有閃電屬性的武器進行攻擊，對目標額外造成 %str1% 閃電傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

@@ -1,0 +1,210 @@
+{
+  "id": "flames-of-the-bear-spirit",
+  "order": 6,
+  "campaign": "eye-of-the-north",
+  "region": "far-shiverpeaks",
+  "name": {
+    "en": "Flames of the Bear Spirit",
+    "zhTW": "Flames of the Bear Spirit（繁中名稱待確認）"
+  },
+  "type": "primary-quest",
+  "category": "main-story",
+  "status": "draft",
+  "contentStatus": "incomplete",
+  "translationVerified": false,
+  "translationSources": [],
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "aliases": [
+    "Flames of the Bear Spirit"
+  ],
+  "tags": [
+    "極地之眼",
+    "主線 Quest",
+    "Norn 熊分支"
+  ],
+  "summary": "帶 Egil 到祭壇並保住點燃進度；重點是阻止 Arctic Nightmare 消耗火焰，不是追求殺光會重生的敵人。",
+  "partySize": 8,
+  "recommendedLevel": 20,
+  "difficulty": {
+    "normal": null,
+    "hard": null
+  },
+  "estimatedMinutes": {
+    "normal": null,
+    "hard": null
+  },
+  "durationCategory": "variable",
+  "modes": {
+    "normal": true,
+    "hard": true
+  },
+  "entryMethod": {
+    "type": "quest",
+    "description": "在 Jaga Moraine 找 Egil Fireteller 接取，帶他到南側 Sacred Altar。",
+    "location": "Jaga Moraine 的 Egil Fireteller",
+    "requirements": [
+      "完成 Curse of the Nornbear。"
+    ]
+  },
+  "requiredHeroes": [],
+  "rewardTiers": [],
+  "branch": "Norn 熊分支",
+  "routeChoice": "Norn 熊與鴉分支都要完成；全章另有 Asura、Ebon Vanguard 分支。",
+  "objectives": [
+    {
+      "text": "帶 Egil 到祭壇並保住點燃進度；重點是阻止 Arctic Nightmare 消耗火焰，不是追求殺光會重生的敵人。"
+    }
+  ],
+  "bonus": {
+    "available": false,
+    "kind": "none",
+    "title": "本任務沒有前三章的 Bonus／大師分級",
+    "summary": "完成主線目標取得 Quest／故事紀錄獎勵，沒有額外 Bonus 或限時 Master 條件。",
+    "trigger": "不適用；依主線目標完成。",
+    "steps": [],
+    "missable": false,
+    "completion": "主線目標完成並觸發結尾或向指定 NPC 回報。"
+  },
+  "walkthrough": [
+    {
+      "title": "帶 Egil 到祭壇",
+      "content": "接取後由 Egil 的住處往 Sacred Altar 推進，分批清路；不要只看自己已到祭壇，確認跟隨 NPC 也靠近。"
+    },
+    {
+      "title": "維持點燃進度",
+      "content": "在祭壇周圍占領／點燃，觀察火焰進度。Arctic Nightmare 會反覆生成，尚未取得控制前最多六隻持續重生。"
+    },
+    {
+      "title": "打斷 Consume Flames",
+      "content": "此技能施法十秒，完成會扣掉 15 點火焰進度。優先打斷正在施放的 Nightmare，再清其他敵人；不要全部追出祭壇。"
+    },
+    {
+      "title": "召出熊靈並回報",
+      "content": "完成祭壇事件後 Bear Spirit 出現，向 Egil Fireteller 領獎，同時接受 Blood Washes Blood。若太早換區，祭壇控制可能需要重新取得。"
+    }
+  ],
+  "routeSummary": "在 Jaga Moraine 找 Egil Fireteller 接取，帶他到南側 Sacred Altar。",
+  "mapImage": "/maps/eotn/flames-of-the-bear-spirit-1.jpg",
+  "mapNotes": [
+    "按圖紅點行走，點圖可放大；圖中英文地名保留以便與遊戲英文介面核對。"
+  ],
+  "maps": [
+    {
+      "src": "/maps/eotn/flames-of-the-bear-spirit-1.jpg",
+      "title": "Wiki 任務路線圖",
+      "alt": "Flames of the Bear Spirit 任務地圖",
+      "width": 400,
+      "height": 402,
+      "filePage": "https://wiki.guildwars.com/wiki/File:Flames_of_the_Bear_Spirit_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/4/40/Flames_of_the_Bear_Spirit_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "Guild Wars 遊戲地圖 © ArenaNet／NCsoft；標註依原 Wiki 圖片頁。",
+      "hasDrawnRoute": true,
+      "role": "main_route",
+      "fileTitle": "File:Flames of the Bear Spirit map.jpg",
+      "visualReview": "reviewed"
+    }
+  ],
+  "bosses": [
+    {
+      "name": {
+        "en": "Arctic Nightmare",
+        "zhTW": "Arctic Nightmare（繁中名稱待確認）"
+      },
+      "profession": null,
+      "importantSkills": [
+        "Consume Flames"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "notes": [
+        "此列表亦包含故事關鍵敵人；有菁英技能不表示普通敵人可捕捉。"
+      ],
+      "strategy": "這是普通事件敵人，沒有可捕捉 Boss 菁英。優先打斷十秒施法的 Consume Flames，守住祭壇進度，不追出占領區。",
+      "source": "https://wiki.guildwars.com/wiki/Arctic_Nightmare",
+      "revision": 2413189,
+      "translationVerified": false
+    }
+  ],
+  "bossAbsenceVerified": false,
+  "bossAbsenceReason": "",
+  "recommendedTeam": [
+    "需要可靠打斷、治療與範圍清怪；祭壇防守時留人維持進度。"
+  ],
+  "tips": [],
+  "warnings": [
+    "Nightmare 不掉物品、不給經驗，也不算 Norn 狩獵數；不要把無限重生當作刷怪目標。",
+    "只完成占領第一段就換區，可能要重占祭壇；無法重新觸發時可能需放棄再接。"
+  ],
+  "modeDifferences": {
+    "normal": [
+      "打斷 Consume Flames 並保住祭壇進度；近祭壇的怪清掉後，讓隊員留在占領範圍。"
+    ],
+    "hard": [
+      "流程相同，Nightmare 等級及傷害提高。優先維持防护與打斷，別因敵人一直重生讓全隊離開祭壇。"
+    ]
+  },
+  "rewards": {
+    "normal": [
+      {
+        "label": "任務獎勵",
+        "experience": 2000,
+        "gold": null,
+        "skillPoints": null,
+        "notes": [
+          "250 Norn 聲望，領獎時同時接後續 Blood Washes Blood。"
+        ]
+      }
+    ],
+    "bonus": [],
+    "hard": [],
+    "zaishen": [],
+    "reforged": []
+  },
+  "wiki": {
+    "guildWarsWiki": "https://wiki.guildwars.com/wiki/Flames_of_the_Bear_Spirit",
+    "pvx": null
+  },
+  "sources": [
+    {
+      "title": "Guild Wars Wiki：Flames of the Bear Spirit",
+      "url": "https://wiki.guildwars.com/wiki/Flames_of_the_Bear_Spirit",
+      "revision": 2635285,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：極地之眼主線結構",
+      "url": "https://wiki.guildwars.com/wiki/List_of_Eye_of_the_North_missions_and_primary_quests",
+      "revision": 2627449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Arctic Nightmare",
+      "url": "https://wiki.guildwars.com/wiki/Arctic_Nightmare",
+      "revision": 2413189,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    }
+  ],
+  "todos": [
+    "核對本文所有 NPC 與技能正式繁中名稱。",
+    "核對各分支前後來源頁並完成全章涵蓋查核。"
+  ],
+  "previousMission": "curse-of-the-nornbear",
+  "nextMission": "blood-washes-blood",
+  "previousOptions": [],
+  "nextOptions": [],
+  "prerequisites": [],
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [],
+  "afterCompletion": [
+    "向 Egil 領 2,000 經驗與 250 Norn 聲望，同時取得 Blood Washes Blood。"
+  ],
+  "storyStartVerified": false
+}

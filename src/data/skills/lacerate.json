@@ -1,0 +1,146 @@
+{
+  "pvpOnly": false,
+  "id": "lacerate",
+  "name": {
+    "en": "Lacerate",
+    "zhTW": "撕裂",
+    "translationVerified": true
+  },
+  "clientSkillId": 961,
+  "icon": "/skills/lacerate.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "beast-mastery",
+    "en": "Beast Mastery",
+    "zhTW": "野獸支配",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Nature Ritual. Create a level 1...8...10 spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for 5...21...25 seconds. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的撕裂精靈。對區域內遭受「流血」病症的生物附加體力衰減 2 的效果。當撕裂精靈死亡時，區域內體力低於 90% 的生物將遭受「流血」病症 5～25 秒。撕裂精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "ryver-mossplanter",
+          "en": "Ryver Mossplanter",
+          "zhTW": "Ryver Mossplanter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone",
+              "en": "Arborstone",
+              "zhTW": "亭石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone"
+          },
+          {
+            "name": {
+              "id": "arborstone-explorable-area",
+              "en": "Arborstone (explorable area)",
+              "zhTW": "Arborstone (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "song-and-stone",
+              "en": "Song and Stone",
+              "zhTW": "Song and Stone",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Song_and_Stone"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ryver Mossplanter (Arborstone mission and explorable area, not during Song and Stone)",
+        "source": "https://wiki.guildwars.com/wiki/Lacerate",
+        "url": "https://wiki.guildwars.com/wiki/Ryver_Mossplanter",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "創造一隻等級 1～10 的撕裂精靈。對區域內遭受「流血」病症的生物附加體力衰減 2 的效果。當撕裂精靈死亡時，區域內體力低於 90% 的生物將遭受「流血」病症 5～25 秒。撕裂精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "野獸支配 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Lacerate",
+      "revision": 2731265,
+      "title": "Lacerate",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/27235",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 27236,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的撕裂精靈。對區域內遭受「流血」病症的生物附加體力衰減 2 的效果。當撕裂精靈死亡時，區域內體力低於 90%% 的生物將遭受「流血」病症 %str2% 秒。撕裂精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

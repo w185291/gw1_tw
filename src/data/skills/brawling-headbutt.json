@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "brawling-headbutt",
+  "name": {
+    "en": "Brawling Headbutt",
+    "zhTW": "喧嘩頭擊"
+  },
+  "clientSkillId": 2215,
+  "icon": "/skills/brawling-headbutt.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "touch-skill",
+    "en": "Touch skill",
+    "zhTW": "碰觸技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Skill. You headbutt target touched foe dealing 45...70 damage and knocking down that foe if it hits.",
+      "zhTW": "以頭擊碰觸目標敵人命中時，造成 45～70 傷害和將其擊倒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "punch-the-clown",
+          "en": "Punch the Clown",
+          "zhTW": "Punch the Clown",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kilroy-stonekin",
+              "en": "Kilroy Stonekin",
+              "zhTW": "「基羅伊石族！」",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kilroy_Stonekin"
+          },
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Punch the Clown (from 基羅伊石族 in Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Brawling_Headbutt",
+        "url": "https://wiki.guildwars.com/wiki/Punch_the_Clown",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "以頭擊碰觸目標敵人命中時，造成 45～70 傷害和將其擊倒。",
+  "commonUses": [
+    "Deldrimor rank · 碰觸技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Brawling_Headbutt",
+      "revision": 2741786,
+      "title": "Brawling Headbutt",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69873"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69874,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "以頭擊碰觸目標敵人命中時，造成 %str1% 傷害和將其擊倒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

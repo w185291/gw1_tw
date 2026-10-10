@@ -1,0 +1,178 @@
+{
+  "pvpOnly": false,
+  "id": "elemental-lord",
+  "name": {
+    "en": "Elemental Lord",
+    "zhTW": "能力調和"
+  },
+  "clientSkillId": 2094,
+  "icon": "/skills/elemental-lord.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "allegiance-rank",
+    "en": "Allegiance rank",
+    "zhTW": "陣營稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 45.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 40...60 seconds, your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 Energy for every 10 ranks of Energy Storage and are healed for 100...300% of the spell's Energy cost.",
+      "zhTW": "持續40～60秒，你的四種元素屬性+1。每當你施展魔法時，根據能量儲存等級，每10級獲得1能量，同時被治療消耗能量的100～300%體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [],
+    "special": [
+      {
+        "name": {
+          "id": "kurzick-bureaucrat",
+          "en": "Kurzick Bureaucrat",
+          "zhTW": "Kurzick Bureaucrat",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "house-zu-heltzer",
+              "en": "House zu Heltzer",
+              "zhTW": "鳳荷議院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/House_zu_Heltzer"
+          },
+          {
+            "name": {
+              "id": "kurzick",
+              "en": "Kurzick",
+              "zhTW": "庫茲柯",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kurzick"
+          },
+          {
+            "name": {
+              "id": "guild-hall",
+              "en": "Guild hall",
+              "zhTW": "公會大廳",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Guild_hall"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Kurzick Bureaucrat (House zu Heltzer and Kurzick-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+        "url": "https://wiki.guildwars.com/wiki/Kurzick_Bureaucrat",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "luxon-scavenger",
+          "en": "Luxon Scavenger",
+          "zhTW": "Luxon Scavenger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cavalon",
+              "en": "Cavalon",
+              "zhTW": "卡瓦隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cavalon"
+          },
+          {
+            "name": {
+              "id": "luxon",
+              "en": "Luxon",
+              "zhTW": "勒克森",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Luxon"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Luxon Scavenger (Cavalon and Luxon-allied guild halls)",
+        "source": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+        "url": "https://wiki.guildwars.com/wiki/Luxon_Scavenger",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "持續40～60秒，你的四種元素屬性+1。每當你施展魔法時，根據能量儲存等級，每10級獲得1能量，同時被治療消耗能量的100～300%體力。",
+  "commonUses": [
+    "Allegiance rank · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+      "revision": 2691933,
+      "title": "Elemental Lord",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/64740"
+  ],
+  "descriptionEvidence": {
+    "stringId": 64741,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，你的四種元素屬性+1。每當你施展魔法時，根據能量儲存等級，每10級獲得1能量，同時被治療消耗能量的%str1%%%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

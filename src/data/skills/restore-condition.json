@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "restore-condition",
+  "name": {
+    "en": "Restore Condition",
+    "zhTW": "回復病症",
+    "translationVerified": true
+  },
+  "clientSkillId": 276,
+  "icon": "/skills/restore-condition.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 2.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target other ally. For each condition removed, that ally is healed for 10...58...70 Health.",
+      "zhTW": "消除目標其他盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每消除一項「病症」，該盟友回復 10～70 體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "spindle-agonyvein",
+          "en": "Spindle Agonyvein",
+          "zhTW": "Spindle Agonyvein",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Spindle Agonyvein (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Restore_Condition",
+        "url": "https://wiki.guildwars.com/wiki/Spindle_Agonyvein",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "消除目標其他盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每消除一項「病症」，該盟友回復 10～70 體力。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Restore_Condition",
+      "revision": 2695694,
+      "title": "Restore Condition",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25762"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25763,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標其他盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每消除一項「病症」，該盟友回復 %str1% 體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

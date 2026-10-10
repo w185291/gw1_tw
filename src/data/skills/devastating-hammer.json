@@ -1,0 +1,445 @@
+{
+  "pvpOnly": false,
+  "id": "devastating-hammer",
+  "name": {
+    "en": "Devastating Hammer",
+    "zhTW": "毀滅之鎚",
+    "translationVerified": true
+  },
+  "clientSkillId": 355,
+  "icon": "/skills/devastating-hammer.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 7,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Hammer Attack. If Devastating Hammer hits, your target is knocked down and suffers from Weakness for 5...17...20 seconds.",
+      "zhTW": "當毀滅之鎚擊中時，目標被擊倒並且遭受「虛弱」病症 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "jade-armor-boss",
+          "en": "Jade Armor (boss)",
+          "zhTW": "Jade Armor (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Jade Armor (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Jade_Armor_(boss)",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "martigris-the-stalwart",
+          "en": "Martigris the Stalwart",
+          "zhTW": "Martigris the Stalwart",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Martigris the Stalwart (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Martigris_the_Stalwart",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "perfected-armor",
+          "en": "Perfected Armor",
+          "zhTW": "Perfected Armor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch-explorable-area",
+              "en": "The Battle for Lion's Arch (explorable area)",
+              "zhTW": "The Battle for Lion's Arch (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Perfected Armor (Thunderhead Keep; The Battle for Lion's Arch (explorable area), only during The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Perfected_Armor",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cairn-the-smug",
+          "en": "Cairn the Smug",
+          "zhTW": "Cairn the Smug",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Smug (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Smug",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "cairn-the-destroyer",
+          "en": "Cairn the Destroyer",
+          "zhTW": "Cairn the Destroyer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cairn the Destroyer (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Cairn_the_Destroyer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sentasi-the-jade-maul",
+          "en": "Sentasi, the Jade Maul",
+          "zhTW": "Sentasi, the Jade Maul",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silent-surf",
+              "en": "Silent Surf",
+              "zhTW": "寂靜之浪",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silent_Surf"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sentasi, the Jade Maul (Silent Surf)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Sentasi,_the_Jade_Maul",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "tembarr-treefall",
+          "en": "Tembarr Treefall",
+          "zhTW": "Tembarr Treefall",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tembarr Treefall (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Tembarr_Treefall",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "churrta-the-rock",
+          "en": "Churrta the Rock",
+          "zhTW": "Churrta the Rock",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jahai-bluffs",
+              "en": "Jahai Bluffs",
+              "zhTW": "夏亥峭壁",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jahai_Bluffs"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Churrta the Rock (Jahai Bluffs)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Churrta_the_Rock",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "krak-flamewhip",
+          "en": "Krak Flamewhip",
+          "zhTW": "Krak Flamewhip",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          },
+          {
+            "name": {
+              "id": "krak-s-cavalry",
+              "en": "Krak's Cavalry",
+              "zhTW": "Krak's Cavalry",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Krak%27s_Cavalry"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Krak Flamewhip (Jaga Moraine, only during Krak's Cavalry)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Krak_Flamewhip",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "hand-of-destruction",
+          "en": "Hand of Destruction",
+          "zhTW": "Hand of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "glint-s-challenge",
+              "en": "Glint's Challenge",
+              "zhTW": "Glint's Challenge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Glint%27s_Challenge"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Hand of Destruction (Glint's Challenge)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Hand_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-ettin",
+          "en": "Inscribed Ettin",
+          "zhTW": "Inscribed Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "finding-gadd",
+              "en": "Finding Gadd",
+              "zhTW": "正在尋找蓋德",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_Gadd"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Ettin (Sparkfly Swamp, only during 正在尋找蓋德)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-sentry",
+          "en": "Inscribed Sentry",
+          "zhTW": "Inscribed Sentry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Sentry (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Sentry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "當毀滅之鎚擊中時，目標被擊倒並且遭受「虛弱」病症 5～20 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+      "revision": 2686524,
+      "title": "Devastating Hammer",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25924",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25925,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當毀滅之鎚擊中時，目標被擊倒並且遭受「虛弱」病症 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

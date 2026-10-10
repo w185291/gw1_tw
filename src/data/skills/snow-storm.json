@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "snow-storm",
+  "name": {
+    "en": "Snow Storm",
+    "zhTW": "雪風暴"
+  },
+  "clientSkillId": 2222,
+  "icon": "/skills/snow-storm.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create a Snow Storm at target foe's location. For 5 seconds, foes adjacent to that location are struck for 30...40 cold damage each second.",
+      "zhTW": "在目標敵人的位置發動「雪風暴」。持續 5 秒，使所有鄰近敵人每秒遭受 30～40 冰凍傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-big-unfriendly-jotun",
+          "en": "The Big Unfriendly Jotun",
+          "zhTW": "The Big Unfriendly Jotun",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "undrath-blastrock",
+              "en": "Undrath Blastrock",
+              "zhTW": "Undrath Blastrock",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Undrath_Blastrock"
+          },
+          {
+            "name": {
+              "id": "sifhalla",
+              "en": "Sifhalla",
+              "zhTW": "襲哈拉",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sifhalla"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Big Unfriendly Jotun (from Undrath Blastrock in Sifhalla)",
+        "source": "https://wiki.guildwars.com/wiki/Snow_Storm",
+        "url": "https://wiki.guildwars.com/wiki/The_Big_Unfriendly_Jotun",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "在目標敵人的位置發動「雪風暴」。持續 5 秒，使所有鄰近敵人每秒遭受 30～40 冰凍傷害。",
+  "commonUses": [
+    "Deldrimor rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Snow_Storm",
+      "revision": 2733887,
+      "title": "Snow Storm",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69865"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69866,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人的位置發動「雪風暴」。持續 %str3% 秒，使所有鄰近敵人每秒遭受 %str1% 冰凍傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

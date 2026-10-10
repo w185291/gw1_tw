@@ -1,0 +1,517 @@
+{
+  "pvpOnly": false,
+  "id": "energy-surge",
+  "name": {
+    "en": "Energy Surge",
+    "zhTW": "能量震盪",
+    "translationVerified": true
+  },
+  "clientSkillId": 39,
+  "icon": "/skills/energy-surge.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe loses 1...8...10 Energy. For each point of Energy lost, that foe takes 7 damage and all nearby foes take 75% of that damage.",
+      "zhTW": "目標失去 1～10 能量；每失去一點能量，目標受到 7 傷害，附近敵人受到該數值 75% 的傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-darkness-boss",
+          "en": "The Darkness (boss)",
+          "zhTW": "The Darkness (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hall-of-heroes-explorable-area",
+              "en": "The Hall of Heroes (explorable area)",
+              "zhTW": "The Hall of Heroes (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hall_of_Heroes_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Darkness (The Hall of Heroes (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/The_Darkness_(boss)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "balasi-the-arcane",
+          "en": "Balasi the Arcane",
+          "zhTW": "Balasi the Arcane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Balasi the Arcane (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Balasi_the_Arcane",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "pantheras-the-deceiver",
+          "en": "Pantheras The Deceiver",
+          "zhTW": "Pantheras The Deceiver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thunderhead-keep",
+              "en": "Thunderhead Keep",
+              "zhTW": "雷雲要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thunderhead_Keep"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pantheras The Deceiver (Thunderhead Keep)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Pantheras_The_Deceiver",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "mursaat-mesmer-boss",
+          "en": "Mursaat Mesmer (boss)",
+          "zhTW": "Mursaat Mesmer (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ice-floe",
+              "en": "Ice Floe",
+              "zhTW": "浮冰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ice_Floe"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mursaat Mesmer (Ice Floe)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Mursaat_Mesmer_(boss)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "melek-the-virtuous",
+          "en": "Melek the Virtuous",
+          "zhTW": "Melek the Virtuous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Melek the Virtuous (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Melek_the_Virtuous",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "mercia-the-smug",
+          "en": "Mercia the Smug",
+          "zhTW": "Mercia the Smug",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "abaddon-s-mouth",
+              "en": "Abaddon's Mouth",
+              "zhTW": "地獄隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Mercia the Smug (Abaddon's Mouth)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Mercia_the_Smug",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "maximilian-the-meticulous",
+          "en": "Maximilian the Meticulous",
+          "zhTW": "Maximilian the Meticulous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Maximilian the Meticulous (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Maximilian_the_Meticulous",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "minea-the-obscene",
+          "en": "Minea the Obscene",
+          "zhTW": "Minea the Obscene",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Minea the Obscene (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Minea_the_Obscene",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "varny-the-zealot",
+          "en": "Varny the Zealot",
+          "zhTW": "Varny the Zealot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tunnels-of-the-forsaken",
+              "en": "Tunnels of the Forsaken",
+              "zhTW": "Tunnels of the Forsaken",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tunnels_of_the_Forsaken"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Varny the Zealot (Tunnels of the Forsaken, level 3)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Varny_the_Zealot",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "willem-the-demeaning",
+          "en": "Willem the Demeaning",
+          "zhTW": "Willem the Demeaning",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "riverside-assassination",
+              "en": "Riverside Assassination",
+              "zhTW": "Riverside Assassination",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Assassination"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Willem the Demeaning (Riverside Province (explorable area), during Riverside Assassination)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Willem_the_Demeaning",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "the-darkness-actor",
+          "en": "The Darkness (actor)",
+          "zhTW": "The Darkness (actor)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tsumei-village-mission-2",
+              "en": "Tsumei Village (mission 2)",
+              "zhTW": "Tsumei Village (mission 2)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tsumei_Village_(mission_2)"
+          },
+          {
+            "name": {
+              "id": "seitung-harbor-mission-2",
+              "en": "Seitung Harbor (mission 2)",
+              "zhTW": "Seitung Harbor (mission 2)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor_(mission_2)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Darkness (Tsumei Village (mission 2) and Seitung Harbor (mission 2))",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/The_Darkness_(actor)",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "milefaun-mindflayer",
+          "en": "Milefaun Mindflayer",
+          "zhTW": "Milefaun Mindflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone",
+              "en": "Arborstone",
+              "zhTW": "亭石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone"
+          },
+          {
+            "name": {
+              "id": "mourning-veil-falls",
+              "en": "Mourning Veil Falls",
+              "zhTW": "哀傷之幕瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mourning_Veil_Falls"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Milefaun Mindflayer (Arborstone and Mourning Veil Falls)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Milefaun_Mindflayer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-mesmer",
+          "en": "Monstrous Afflicted Mesmer",
+          "zhTW": "Monstrous Afflicted Mesmer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "morostav-trail-winds-of-change",
+              "en": "Morostav Trail (Winds of Change)",
+              "zhTW": "Morostav Trail (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Mesmer (Morostav Trail (Winds of Change), only during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Mesmer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "yammiron-ether-lord",
+          "en": "Yammiron, Ether Lord",
+          "zhTW": "Yammiron, Ether Lord",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mirror-of-lyss",
+              "en": "The Mirror of Lyss",
+              "zhTW": "麗之鏡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mirror_of_Lyss"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yammiron, Ether Lord (The Mirror of Lyss)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Yammiron,_Ether_Lord",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "yammirvu-ether-guardian",
+          "en": "Yammirvu, Ether Guardian",
+          "zhTW": "Yammirvu, Ether Guardian",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Yammirvu, Ether Guardian (The Hidden City of Ahdashim)",
+        "source": "https://wiki.guildwars.com/wiki/Energy_Surge",
+        "url": "https://wiki.guildwars.com/wiki/Yammirvu,_Ether_Guardian",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "目標失去 1～10 能量；每失去一點能量，目標受到 7 傷害，附近敵人受到該數值 75% 的傷害。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Energy_Surge",
+      "revision": 2731241,
+      "title": "Energy Surge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/24873"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24874,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Target foe loses %str1% Energy. For each point of Energy lost, that foe takes %str2% damage and all nearby foes take 75%% of that damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

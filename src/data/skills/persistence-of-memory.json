@@ -1,0 +1,229 @@
+{
+  "pvpOnly": false,
+  "id": "persistence-of-memory",
+  "name": {
+    "en": "Persistence of Memory",
+    "zhTW": "堅定記憶",
+    "translationVerified": true
+  },
+  "clientSkillId": 1338,
+  "icon": "/skills/persistence-of-memory.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fast-casting",
+    "en": "Fast Casting",
+    "zhTW": "快速施法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "Enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Enchantment Spell. For 5...17...20 seconds, whenever a spell you cast is interrupted, that spell is instantly recharged.",
+      "zhTW": "持續 5～20 秒，每當你施展「魔法」遭到中斷時，該「魔法」立即回復。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "rai-zhon-the-manipulator",
+          "en": "Rai Zhon the Manipulator",
+          "zhTW": "Rai Zhon the Manipulator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shenzun-tunnels-winds-of-change",
+              "en": "Shenzun Tunnels (Winds of Change)",
+              "zhTW": "Shenzun Tunnels (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shenzun_Tunnels_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Rai Zhon the Manipulator (Shenzun Tunnels (Winds of Change), before A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+        "url": "https://wiki.guildwars.com/wiki/Rai_Zhon_the_Manipulator",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "suunshi-haisang",
+          "en": "Suunshi Haisang",
+          "zhTW": "Suunshi Haisang",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Suunshi Haisang (Shenzun Tunnels (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+        "url": "https://wiki.guildwars.com/wiki/Suunshi_Haisang",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ajun-xi-deft-blade",
+          "en": "Ajun Xi, Deft Blade",
+          "zhTW": "Ajun Xi, Deft Blade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gyala-hatchery-explorable-area",
+              "en": "Gyala Hatchery (explorable area)",
+              "zhTW": "Gyala Hatchery (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(explorable_area)"
+          },
+          {
+            "name": {
+              "id": "ever-closer-to-the-edge",
+              "en": "Ever Closer to the Edge",
+              "zhTW": "Ever Closer to the Edge",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ever_Closer_to_the_Edge"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Ajun Xi, Deft Blade (Gyala Hatchery (explorable area), only during Ever Closer to the Edge)",
+        "source": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+        "url": "https://wiki.guildwars.com/wiki/Ajun_Xi,_Deft_Blade",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "hoju",
+          "en": "Hoju",
+          "zhTW": "Hoju",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Nightfall",
+        "details": "Hoju (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+        "url": "https://wiki.guildwars.com/wiki/Hoju",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 5～20 秒，每當你施展「魔法」遭到中斷時，該「魔法」立即回復。",
+  "commonUses": [
+    "快速施法 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+      "revision": 2720368,
+      "title": "Persistence of Memory",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/33964"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33965,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當你施展「魔法」遭到中斷時，該「魔法」立即回復。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

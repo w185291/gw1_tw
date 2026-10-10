@@ -1,0 +1,156 @@
+{
+  "pvpOnly": false,
+  "id": "triple-chop",
+  "name": {
+    "en": "Triple Chop",
+    "zhTW": "三重砍擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 992,
+  "icon": "/skills/triple-chop.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Axe Attack. Attack target foe and adjacent foes. Each attack that hits deals +10...34...40 damage.",
+      "zhTW": "攻擊目標及其鄰近的敵人，對其造成 10～40 額外傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "wing-three-blade",
+          "en": "Wing, Three Blade",
+          "zhTW": "Wing, Three Blade",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bukdek-byway",
+              "en": "Bukdek Byway",
+              "zhTW": "巴德克小徑",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Wing, Three Blade (Bukdek Byway)",
+        "source": "https://wiki.guildwars.com/wiki/Triple_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Wing,_Three_Blade",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "sheng-pai",
+          "en": "Sheng Pai",
+          "zhTW": "Sheng Pai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Sheng Pai (Dragon's Throat, only during What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Triple_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Sheng_Pai",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "攻擊目標及其鄰近的敵人，對其造成 10～40 額外傷害。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Triple_Chop",
+      "revision": 2733179,
+      "title": "Triple Chop",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/26940"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26941,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "攻擊目標及其鄰近的敵人，對其造成 %str1% 額外傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

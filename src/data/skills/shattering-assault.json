@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "shattering-assault",
+  "name": {
+    "en": "Shattering Assault",
+    "zhTW": "粉碎突襲",
+    "translationVerified": true
+  },
+  "clientSkillId": 1634,
+  "icon": "/skills/shattering-assault.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "critical-strikes",
+    "en": "Critical Strikes",
+    "zhTW": "致命攻擊",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "dual-attack",
+    "en": "dual attack",
+    "zhTW": "雙重攻擊",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Dual Attack. Must follow an off-hand attack. If it hits, you deal 5...41...50 damage and target foe loses one enchantment. This attack cannot be blocked.",
+      "zhTW": "必須接續在「即刻攻擊」之後，命中時對目標造成 5～50 傷害並使其失去一項「加持」。此攻擊無法被「格擋」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "achor-the-bladed",
+          "en": "Achor the Bladed",
+          "zhTW": "Achor the Bladed",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "crystal-overlook",
+              "en": "Crystal Overlook",
+              "zhTW": "水晶高地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Crystal_Overlook"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Achor the Bladed (Crystal Overlook)",
+        "source": "https://wiki.guildwars.com/wiki/Shattering_Assault",
+        "url": "https://wiki.guildwars.com/wiki/Achor_the_Bladed",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      },
+      {
+        "name": {
+          "id": "the-hunter",
+          "en": "The Hunter",
+          "zhTW": "The Hunter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-secrets",
+              "en": "Domain of Secrets",
+              "zhTW": "奧秘領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Secrets"
+          },
+          {
+            "name": {
+              "id": "open-season",
+              "en": "Open Season",
+              "zhTW": "Open Season",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Open_Season"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "The Hunter (Domain of Secrets, only during Open Season)",
+        "source": "https://wiki.guildwars.com/wiki/Shattering_Assault",
+        "url": "https://wiki.guildwars.com/wiki/The_Hunter",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "必須接續在「即刻攻擊」之後，命中時對目標造成 5～50 傷害並使其失去一項「加持」。此攻擊無法被「格擋」。",
+  "commonUses": [
+    "致命攻擊 · 雙重攻擊"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shattering_Assault",
+      "revision": 2720676,
+      "title": "Shattering Assault",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/43987"
+  ],
+  "descriptionEvidence": {
+    "stringId": 43988,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「即刻攻擊」之後，命中時對目標造成 %str1% 傷害並使其失去一項「加持」。此攻擊無法被「格擋」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

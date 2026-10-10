@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "點亮暴風信標，協助難民穿越山口。",
+  "summary": "先點亮七座暴風信標，再破門解除矮人據點圍攻，最後用魔法火把點亮三座信標。",
   "partySize": 6,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "柏里斯通道據點",
+    "description": "從 Traveler's Vale 進入 Borlis Pass 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Borlis Pass 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,51 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "擊殺洞內 Ice Drake",
+    "summary": "擊殺洞內 Ice Drake",
+    "trigger": "火藥桶炸開 Rornak Stonesledge 的牢門；再拿一桶放在他背後木材與鏈條堆的前半部。",
+    "steps": [
+      "火藥桶炸開 Rornak Stonesledge 的牢門；再拿一桶放在他背後木材與鏈條堆的前半部。",
+      "不要把桶直接貼雪牆放，那樣可能不會炸開洞口。",
+      "進洞擊殺盡頭 Ice Drake；洞內冰火蜘蛛會附加持續失血降咒。與 Rornak 的對話不是實際完成 Bonus 的必要條件。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "進洞擊殺盡頭 Ice Drake；洞內冰火蜘蛛會附加持續失血降咒。與 Rornak 的對話不是實際完成 Bonus 的必要條件。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "取得火把",
+      "content": "與起點 Hayden 交談，沿路逐一點亮七座 Storm Beacons；最後一座有半人馬頭目。所有信標亮起後，把火把交給鐵門前的 Tolis。"
+    },
+    {
+      "title": "炸開堡壘門",
+      "content": "從火藥桶站拿 Dwarven Powder Keg，清掉入口頭目後在門旁放下炸開。"
+    },
+    {
+      "title": "解除弩炮威脅",
+      "content": "進門後先清頭目與兩名 Stone Summit Engineers，讓前兩座弩炮停止作用。沿弩炮左側走，到下一座門用拉桿開門。"
+    },
+    {
+      "title": "先走冰龍 Bonus",
+      "content": "有意完成 Bonus，先用火藥桶炸開 Rornak 的囚籠與洞口，殺洞裡的冰龍，再回主路。"
+    },
+    {
+      "title": "清到Prince Rurik處",
+      "content": "往 Krok’s Hollow，清附近石峰矮人與冰魔像，門才會開。敵群靠得很近，用弓逐群引出；不要把長時間停留的魔像巡邏誤認為固定怪。"
+    },
+    {
+      "title": "使用魔法火把",
+      "content": "與Prince Rurik交談觸發過場，King Jalis Ironhammer給予 Enchanted Torch。過橋沿路往 Grooble’s Gulch，分岔通常走右側或先等一隊巡邏靠近再殺。"
+    },
+    {
+      "title": "點亮最後三座",
+      "content": "清掉終點頭目及後方三名馴獸師，點亮三座魔法信標即可通關。"
+    }
+  ],
+  "routeSummary": "七座路邊信標 → 鐵門 → 炸開堡壘門 → 弩炮與工程師 → 囚籠與冰龍 → Prince Rurik → 三座魔法信標",
   "mapImage": "/maps/Borlis_Pass_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +111,361 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Yino Burlyhaunch",
+        "zhTW": "Yino Burlyhaunch（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Dismember",
+        "Sever Artery",
+        "Shield Stance"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Yino_Burlyhaunch",
+      "revision": 2632188,
+      "dangerousSkills": [
+        {
+          "name": "Shield Stance",
+          "counter": "姿態期間使用非攻擊傷害，或先拆姿態再集火。",
+          "source": "https://wiki.guildwars.com/wiki/Yino_Burlyhaunch"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rubi Spottedmane",
+        "zhTW": "Rubi Spottedmane（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Distracting Shot",
+        "Serpent's Quickness",
+        "Winter"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Rubi_Spottedmane",
+      "revision": 2632187,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Jolo Lighthaunch",
+        "zhTW": "Jolo Lighthaunch（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Healing Breeze",
+        "Mend Ailment",
+        "Purge Conditions",
+        "Vigorous Spirit"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Jolo_Lighthaunch",
+      "revision": 2509374,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Geno Darkheart",
+        "zhTW": "Geno Darkheart（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Geno_Darkheart",
+      "revision": 2663103,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ullo Specterhaunch",
+        "zhTW": "Ullo Specterhaunch（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "原頁 Skills 明確記載 None，無固定主動技能。",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ullo_Specterhaunch",
+      "revision": 2663083,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Moro Stormcalf",
+        "zhTW": "Moro Stormcalf（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Earth Attunement",
+        "Ice Spear",
+        "Magnetic Aura",
+        "Ward Against Foes"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Moro_Stormcalf",
+      "revision": 2466646,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Ice Drake",
+        "zhTW": "Ice Drake（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Enervating Charge",
+        "Glyph of Concentration",
+        "Ice Prison",
+        "Whirlwind"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ice_Drake",
+      "revision": 2594437,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Toris Stonehammer",
+        "zhTW": "Toris Stonehammer（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Bull's Strike",
+        "Dolyak Signet",
+        "Healing Signet",
+        "Mighty Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Toris_Stonehammer",
+      "revision": 2466564,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Toris_Stonehammer"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ulhar Stonehound",
+        "zhTW": "Ulhar Stonehound（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Fertile Season",
+        "Pin Down",
+        "Precision Shot",
+        "Troll Unguent",
+        "Melandru's Arrows",
+        "Tiger's Fury"
+      ],
+      "eliteSkills": [
+        "Melandru's Arrows"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound",
+      "revision": 2605235,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Riine Windrot",
+        "zhTW": "Riine Windrot（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Plague Touch",
+        "Soul Feast",
+        "Strip Enchantment",
+        "Vampiric Touch",
+        "Vile Touch",
+        "Animate Bone Fiend",
+        "Life Siphon",
+        "Offering of Blood",
+        "Taste of Death"
+      ],
+      "eliteSkills": [
+        "Offering of Blood"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+      "revision": 2528238,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Riine_Windrot"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Saris Headstaver",
+        "zhTW": "Saris Headstaver（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Empathy",
+        "Ether Feast",
+        "Illusion of Haste",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Saris_Headstaver",
+      "revision": 2096317,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Saris_Headstaver"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Priest of Dagnar",
+        "zhTW": "Priest of Dagnar（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Blinding Flash",
+        "Enervating Charge",
+        "Lightning Javelin",
+        "Lightning Orb"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Priest_of_Dagnar",
+      "revision": 2489164,
+      "dangerousSkills": []
+    }
+  ],
+  "recommendedTeam": [
+    "帶能治療任務友軍的治療者與復活手段；四至六人隊避免全部只帶輸出。",
+    "洞內準備解降咒與群體治療。據點門口可留工程師最後擊殺，利用士氣提升重置復活紋章。"
+  ],
+  "tips": [
+    "據點門不開時，回頭檢查是否漏掉頭目與工程師，不一定是遊戲錯誤。",
+    "拉桿不要連點兩次；門可能關上，把玩家或英雄隔在兩側。",
+    "通關後到寒霜之門。"
+  ],
+  "warnings": [
+    "火藥桶炸開 Rornak Stonesledge 的牢門；再拿一桶放在他背後木材與鏈條堆的前半部。",
+    "步調放慢，分別引出敵群和頭目。石牦牛騎士會治療，優先打斷並集中擊殺。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "依上方步驟先完成可錯過的 Bonus，再觸發最後主線事件；沿圖逐群清路。"
+    ],
+    "hard": [
+      "步調放慢，分別引出敵群和頭目。石牦牛騎士會治療，優先打斷並集中擊殺。",
+      "洞內準備解降咒與群體治療。據點門口可留工程師最後擊殺，利用士氣提升重置復活紋章。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +485,150 @@
       "revision": 2729947,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Yino Burlyhaunch",
+      "url": "https://wiki.guildwars.com/wiki/Yino_Burlyhaunch",
+      "revision": 2632188,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Rubi Spottedmane",
+      "url": "https://wiki.guildwars.com/wiki/Rubi_Spottedmane",
+      "revision": 2632187,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Jolo Lighthaunch",
+      "url": "https://wiki.guildwars.com/wiki/Jolo_Lighthaunch",
+      "revision": 2509374,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Geno Darkheart",
+      "url": "https://wiki.guildwars.com/wiki/Geno_Darkheart",
+      "revision": 2663103,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ullo Specterhaunch",
+      "url": "https://wiki.guildwars.com/wiki/Ullo_Specterhaunch",
+      "revision": 2663083,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Moro Stormcalf",
+      "url": "https://wiki.guildwars.com/wiki/Moro_Stormcalf",
+      "revision": 2466646,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ice Drake",
+      "url": "https://wiki.guildwars.com/wiki/Ice_Drake",
+      "revision": 2594437,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Toris Stonehammer",
+      "url": "https://wiki.guildwars.com/wiki/Toris_Stonehammer",
+      "revision": 2466564,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ulhar Stonehound",
+      "url": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound",
+      "revision": 2605235,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Riine Windrot",
+      "url": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+      "revision": 2528238,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Saris Headstaver",
+      "url": "https://wiki.guildwars.com/wiki/Saris_Headstaver",
+      "revision": 2096317,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Priest of Dagnar",
+      "url": "https://wiki.guildwars.com/wiki/Priest_of_Dagnar",
+      "revision": 2489164,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Way is Blocked",
+      "url": "https://wiki.guildwars.com/wiki/The_Way_is_Blocked",
+      "revision": 2723013,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "nolani-academy",
   "nextMission": "the-frost-gate",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10565"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "通關後到寒霜之門。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10565
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [
+    {
+      "name": {
+        "en": "The Way is Blocked",
+        "zhTW": "The Way is Blocked（繁中名稱待確認）"
+      },
+      "giver": "Captain Osric",
+      "location": "Yak's Bend (Northern Shiverpeaks)",
+      "directions": "在 Yak's Bend 找 Captain Osric 接取，經 Traveler's Vale 清入口的 Inar Frostbite；再前往 Borlis Pass 找 Beccum Reedly 回報。外來角色可自行走到據點，不需接 Tyrian 限定任務。",
+      "url": "https://wiki.guildwars.com/wiki/The_Way_is_Blocked",
+      "revision": 2723013,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ],
+  "primaryQuestAfter": []
 }

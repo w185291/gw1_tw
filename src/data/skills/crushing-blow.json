@@ -1,0 +1,456 @@
+{
+  "pvpOnly": false,
+  "id": "crushing-blow",
+  "name": {
+    "en": "Crushing Blow",
+    "zhTW": "碎裂打擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 352,
+  "icon": "/skills/crushing-blow.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "hammer-mastery",
+    "en": "Hammer Mastery",
+    "zhTW": "精通鎚術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2116"
+    ]
+  },
+  "type": {
+    "id": "hammer-attack",
+    "en": "Hammer attack",
+    "zhTW": "鎚術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10,
+  "description": {
+    "pve": {
+      "en": "Hammer Attack. If this attack hits, you strike for +1...16...20 damage. If you hit a knocked-down foe you inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...17...20 seconds.",
+      "zhTW": "命中時對目標造成 1～20 額外傷害。若命中被擊倒的敵人，將使其遭受「重傷」病症，降低其最大體力值 20% 持續 5～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-price-of-steel",
+          "en": "The Price of Steel",
+          "zhTW": "The Price of Steel",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "silverwood",
+              "en": "Silverwood",
+              "zhTW": "銀樹",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Silverwood"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Price of Steel (Silverwood)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/The_Price_of_Steel",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "tuila-the-club",
+          "en": "Tuila the Club",
+          "zhTW": "Tuila the Club",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "shadow-s-passage-winds-of-change",
+              "en": "Shadow's Passage (Winds of Change)",
+              "zhTW": "Shadow's Passage (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Shadow%27s_Passage_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "a-chance-encounter",
+              "en": "A Chance Encounter",
+              "zhTW": "A Chance Encounter",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Chance_Encounter"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Tuila the Club (Shadow's Passage (Winds of Change), before completion of A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Tuila_the_Club",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gowan-chobak",
+          "en": "Gowan Chobak",
+          "zhTW": "Gowan Chobak",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Factions",
+        "details": "Gowan Chobak (Shadow's Passage (Winds of Change), after A Chance Encounter)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Gowan_Chobak",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "monstrous-afflicted-warrior",
+          "en": "Monstrous Afflicted Warrior",
+          "zhTW": "Monstrous Afflicted Warrior",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "pongmei-valley-winds-of-change",
+              "en": "Pongmei Valley (Winds of Change)",
+              "zhTW": "Pongmei Valley (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "cleansing-pongmei-valley",
+              "en": "Cleansing Pongmei Valley",
+              "zhTW": "Cleansing Pongmei Valley",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Pongmei_Valley"
+          },
+          {
+            "name": {
+              "id": "morostav-trail",
+              "en": "Morostav Trail",
+              "zhTW": "摩洛神秘通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Morostav_Trail"
+          },
+          {
+            "name": {
+              "id": "cleansing-morostav-trail",
+              "en": "Cleansing Morostav Trail",
+              "zhTW": "Cleansing Morostav Trail",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Morostav_Trail"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Monstrous Afflicted Warrior (Pongmei Valley (Winds of Change) during Cleansing Pongmei Valley, and Morostav Trail during Cleansing Morostav Trail)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Monstrous_Afflicted_Warrior",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "facet-of-destruction",
+          "en": "Facet of Destruction",
+          "zhTW": "Facet of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          },
+          {
+            "name": {
+              "id": "the-cipher-of-balthazar",
+              "en": "The Cipher of Balthazar",
+              "zhTW": "The Cipher of Balthazar",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Balthazar"
+          },
+          {
+            "name": {
+              "id": "varajar-fells",
+              "en": "Varajar Fells",
+              "zhTW": "維拉戛陣地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Varajar_Fells"
+          },
+          {
+            "name": {
+              "id": "the-path-to-revelations",
+              "en": "The Path to Revelations",
+              "zhTW": "The Path to Revelations",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Path_to_Revelations"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Facet of Destruction (Verdant Cascades during The Cipher of Balthazar, and Varajar Fells during The Path to Revelations)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Facet_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "alpha-tyrannus",
+          "en": "Alpha Tyrannus",
+          "zhTW": "Alpha Tyrannus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "alcazia-tangle",
+              "en": "Alcazia Tangle",
+              "zhTW": "糾結之艾卡滋亞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Alcazia_Tangle"
+          },
+          {
+            "name": {
+              "id": "norn-catering",
+              "en": "Norn Catering",
+              "zhTW": "Norn Catering",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Norn_Catering"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Alpha Tyrannus (Alcazia Tangle, during Norn Catering)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Alpha_Tyrannus",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-ettin",
+          "en": "Inscribed Ettin",
+          "zhTW": "Inscribed Ettin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          },
+          {
+            "name": {
+              "id": "finding-gadd",
+              "en": "Finding Gadd",
+              "zhTW": "正在尋找蓋德",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_Gadd"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Ettin (Sparkfly Swamp, during 正在尋找蓋德)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "inscribed-sentry",
+          "en": "Inscribed Sentry",
+          "zhTW": "Inscribed Sentry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "finding-the-bloodstone",
+              "en": "Finding the Bloodstone",
+              "zhTW": "尋找血石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Finding_the_Bloodstone"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Inscribed Sentry (Finding the Bloodstone)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Inscribed_Sentry",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "ancient-ooze",
+          "en": "Ancient Ooze",
+          "zhTW": "Ancient Ooze",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ooze-pit",
+              "en": "Ooze Pit",
+              "zhTW": "烏玆地窖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ooze_Pit"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Ooze (Ooze Pit)",
+        "source": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Ooze",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 1～20 額外傷害。若命中被擊倒的敵人，將使其遭受「重傷」病症，降低其最大體力值 20% 持續 5～20 秒。",
+  "commonUses": [
+    "Hammer Mastery · 鎚術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+      "revision": 2733109,
+      "title": "Crushing Blow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25918",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25919,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若命中被擊倒的敵人，將使其遭受「重傷」病症，降低其最大體力值 20%% 持續 %str2% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

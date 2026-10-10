@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "奪回要塞，保護賈利斯國王直到攻勢結束。",
+  "summary": "及時點亮兩側信標；詳見下方分段路線與主線完成條件。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -36,8 +36,8 @@
   },
   "entryMethod": {
     "type": "enter-mission",
-    "description": "詳細進入條件待整理；請先參考本頁 Wiki 原文。",
-    "location": "雷雲要塞據點",
+    "description": "從 Ice Floe 進入 Thunderhead Keep 任務據點，組隊後按 Enter Mission。前後主線接續見本頁『打完去哪』與任務鏈。",
+    "location": "Thunderhead Keep 任務據點",
     "requirements": []
   },
   "requiredHeroes": [],
@@ -50,18 +50,47 @@
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "隱藏目標待整理",
-    "summary": "待翻譯並查核 Wiki 的 Bonus 條件。",
-    "trigger": "待整理",
-    "steps": [],
+    "title": "及時點亮兩側信標",
+    "summary": "及時點亮兩側信標",
+    "trigger": "宣告開戰後約一分鐘內點亮東、西兩側信標，使城外矮人不被殺。",
+    "steps": [
+      "宣告開戰後約一分鐘內點亮東、西兩側信標，使城外矮人不被殺。",
+      "每側已有自己的火把；多人可各分一側，單人別帶著火把跨堡壘拖慢移動。",
+      "城外矮人死亡的喊話表示失敗；沒有喊話只屬間接指標，最後與國王交談時才正式結算。"
+    ],
     "missable": true,
-    "completion": "待查核"
+    "completion": "城外矮人死亡的喊話表示失敗；沒有喊話只屬間接指標，最後與國王交談時才正式結算。"
   },
-  "walkthrough": [],
-  "routeSummary": "待整理主線步驟；路線圖已下載，可先查閱原圖與 Wiki。",
+  "walkthrough": [
+    {
+      "title": "跟國王進城",
+      "content": "與 King Jalis Ironhammer 交談開門，他會跟著第一位對話玩家。過橋往西北，先把橋頭敵群引回殺掉，避免和後續巡邏重疊。"
+    },
+    {
+      "title": "到東門再攻堡壘",
+      "content": "帶國王到城市東側門，讓他開門。進堡壘擊敗 Dagnar Stonepate 與各組守軍，注意國王生命。西側敵群倒下、國王宣告開戰後，攻城事件開始。"
+    },
+    {
+      "title": "立刻點亮兩側信標",
+      "content": "堡壘清完的過場後，用東、西兩側各自的 Enchanted Torch 點亮 Storm Beacons。約一分鐘內完成最穩；單人點完一側就丟下火把，到另一側用當地火把，不要搬著跑全程。"
+    },
+    {
+      "title": "集中樓梯口防守",
+      "content": "單人帶英雄可在國王前方樓梯上方稍微分散，讓兩側入侵者匯集後集火。別把敵人引到國王本人身上，也別追出大門讓另一側漏怪。"
+    },
+    {
+      "title": "按波次清掉所有援軍",
+      "content": "先是 Stone Summit 與 Jade，接著 White Mantle 與 Mursaat，最後 Confessor Dorian 帶隊。波次推進取決於特定頭目隊全滅，別漏掉遠處卡住的成員；可操作城牆弩炮削弱來敵。"
+    },
+    {
+      "title": "確認清空後回報",
+      "content": "擊殺 Confessor Dorian 的整隊，國王頭上出現任務標記後交談完成。Bonus 此時一併結算，並非點火當下立刻顯示完成。"
+    }
+  ],
+  "routeSummary": "跟國王進城 → 到東門再攻堡壘 → 立刻點亮兩側信標 → 集中樓梯口防守 → 按波次清掉所有援軍 → 確認清空後回報",
   "mapImage": "/maps/Thunderhead_Keep_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
@@ -78,13 +107,463 @@
       "role": "main_route"
     }
   ],
-  "bosses": [],
-  "recommendedTeam": [],
-  "tips": [],
-  "warnings": [],
+  "bosses": [
+    {
+      "name": {
+        "en": "Gornar Bellybreaker",
+        "zhTW": "Gornar Bellybreaker（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "\"For Great Justice!\"",
+        "Cleave",
+        "Disrupting Chop",
+        "Healing Signet"
+      ],
+      "eliteSkills": [
+        "Cleave"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Gornar_Bellybreaker",
+      "revision": 2562606,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Gornar_Bellybreaker"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ulhar Stonehound",
+        "zhTW": "Ulhar Stonehound（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Fertile Season",
+        "Pin Down",
+        "Precision Shot",
+        "Troll Unguent",
+        "Melandru's Arrows",
+        "Tiger's Fury"
+      ],
+      "eliteSkills": [
+        "Melandru's Arrows"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound",
+      "revision": 2605235,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Bolis Hillshaker",
+        "zhTW": "Bolis Hillshaker（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Life Attunement",
+        "Mark of Protection",
+        "Mend Ailment",
+        "Orison of Healing"
+      ],
+      "eliteSkills": [
+        "Mark of Protection"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Bolis_Hillshaker",
+      "revision": 2599117,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Riine Windrot",
+        "zhTW": "Riine Windrot（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Plague Touch",
+        "Soul Feast",
+        "Strip Enchantment",
+        "Vampiric Touch",
+        "Vile Touch",
+        "Animate Bone Fiend",
+        "Life Siphon",
+        "Offering of Blood",
+        "Taste of Death"
+      ],
+      "eliteSkills": [
+        "Offering of Blood"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+      "revision": 2528238,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Riine_Windrot"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fuury Stonewrath",
+        "zhTW": "Fuury Stonewrath（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Conjure Phantasm",
+        "Crippling Anguish",
+        "Ether Feast",
+        "Shatter Enchantment"
+      ],
+      "eliteSkills": [
+        "Crippling Anguish"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Fuury_Stonewrath",
+      "revision": 2486037,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Dagnar Stonepate",
+        "zhTW": "Dagnar Stonepate（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Spikes",
+        "Water Attunement",
+        "Disrupting Chop",
+        "\"For Great Justice!\"",
+        "Healing Signet",
+        "Penetrating Blow"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate",
+      "revision": 2681408,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "The Judge",
+        "zhTW": "The Judge（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Frozen Burst",
+        "Ice Spikes",
+        "Water Attunement",
+        "Deep Freeze",
+        "Rust",
+        "Water Trident"
+      ],
+      "eliteSkills": [
+        "Water Trident"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/The_Judge",
+      "revision": 2499030,
+      "dangerousSkills": []
+    },
+    {
+      "name": {
+        "en": "Perfected Armor",
+        "zhTW": "Perfected Armor（繁中名稱待確認）"
+      },
+      "profession": "戰士",
+      "importantSkills": [
+        "Crushing Blow",
+        "Devastating Hammer",
+        "Wild Blow",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Devastating Hammer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Perfected_Armor",
+      "revision": 2135070,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Perfected_Armor"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Perfected Cloak",
+        "zhTW": "Perfected Cloak（繁中名稱待確認）"
+      },
+      "profession": "遊俠",
+      "importantSkills": [
+        "Determined Shot",
+        "Healing Spring",
+        "Oath Shot",
+        "Whirling Defense",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Perfected_Cloak",
+      "revision": 2502024,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Perfected_Cloak"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Demetrios the Enduring",
+        "zhTW": "Demetrios the Enduring（繁中名稱待確認）"
+      },
+      "profession": "僧侶",
+      "importantSkills": [
+        "Aura of Faith",
+        "Contemplation of Purity",
+        "Draw Conditions",
+        "Orison of Healing",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Aura of Faith"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Demetrios_the_Enduring",
+      "revision": 2255446,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Demetrios_the_Enduring"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Argyris the Scoundrel",
+        "zhTW": "Argyris the Scoundrel（繁中名稱待確認）"
+      },
+      "profession": "死靈法師",
+      "importantSkills": [
+        "Blood Renewal",
+        "Insidious Parasite",
+        "Life Siphon",
+        "Life Transfer",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Life Transfer"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel",
+      "revision": 2642055,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Pantheras The Deceiver",
+        "zhTW": "Pantheras The Deceiver（繁中名稱待確認）"
+      },
+      "profession": "幻術師",
+      "importantSkills": [
+        "Energy Surge",
+        "Ether Feast",
+        "Physical Resistance",
+        "Power Leak",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Energy Surge"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Pantheras_The_Deceiver",
+      "revision": 2642034,
+      "dangerousSkills": [
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Pantheras_The_Deceiver"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Chrysos the Magnetic",
+        "zhTW": "Chrysos the Magnetic（繁中名稱待確認）"
+      },
+      "profession": "元素使",
+      "importantSkills": [
+        "Aura of Restoration",
+        "Chain Lightning",
+        "Enervating Charge",
+        "Glyph of Concentration",
+        "Thunderclap",
+        "Spectral Agony"
+      ],
+      "eliteSkills": [
+        "Thunderclap"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "notes": [
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
+      ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
+      "source": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic",
+      "revision": 2255449,
+      "dangerousSkills": [
+        {
+          "name": "Thunderclap",
+          "counter": "準備解除病症，尤其不要讓全隊停在同一範圍內。",
+          "source": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic"
+        },
+        {
+          "name": "Spectral Agony",
+          "counter": "未注入護甲角色不要接近接仇恨；護甲已注入再正面作戰，仍需補血及解除病症。",
+          "source": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic"
+        }
+      ]
+    }
+  ],
+  "recommendedTeam": [
+    "帶友軍治療、解降咒、防擊倒及範圍傷害；樓梯口集中敵群時特別有效。",
+    "靈體／召喚物能分擔防線，但要讓補師保留國王射程。"
+  ],
+  "tips": [
+    "完成後經傳送門到 Ember Light Camp；接續主線 Final Blow 開啟 Ring of Fire（火環群島）據點。"
+  ],
+  "warnings": [
+    "國王死亡失敗；開戰後忘記點燈會失去 Bonus。",
+    "最後一波清完仍要與國王對話；少一隻敵人可能讓任務標記遲遲不出現。"
+  ],
   "modeDifferences": {
-    "normal": [],
-    "hard": []
+    "normal": [
+      "按上方逐區流程推進，先做 Bonus 再觸發通關；隊伍需預留治療及復活能力。"
+    ],
+    "hard": [
+      "流程相同，但必須持續檢查國王血量並解除他的降咒。七英雄可集中防守，不必硬拆成兩支不完整的小隊。"
+    ]
   },
   "rewards": {
     "normal": [],
@@ -104,13 +583,150 @@
       "revision": 2725641,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Gornar Bellybreaker",
+      "url": "https://wiki.guildwars.com/wiki/Gornar_Bellybreaker",
+      "revision": 2562606,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Ulhar Stonehound",
+      "url": "https://wiki.guildwars.com/wiki/Ulhar_Stonehound",
+      "revision": 2605235,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bolis Hillshaker",
+      "url": "https://wiki.guildwars.com/wiki/Bolis_Hillshaker",
+      "revision": 2599117,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Riine Windrot",
+      "url": "https://wiki.guildwars.com/wiki/Riine_Windrot",
+      "revision": 2528238,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fuury Stonewrath",
+      "url": "https://wiki.guildwars.com/wiki/Fuury_Stonewrath",
+      "revision": 2486037,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Dagnar Stonepate",
+      "url": "https://wiki.guildwars.com/wiki/Dagnar_Stonepate",
+      "revision": 2681408,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Judge",
+      "url": "https://wiki.guildwars.com/wiki/The_Judge",
+      "revision": 2499030,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Perfected Armor",
+      "url": "https://wiki.guildwars.com/wiki/Perfected_Armor",
+      "revision": 2135070,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Perfected Cloak",
+      "url": "https://wiki.guildwars.com/wiki/Perfected_Cloak",
+      "revision": 2502024,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Demetrios the Enduring",
+      "url": "https://wiki.guildwars.com/wiki/Demetrios_the_Enduring",
+      "revision": 2255446,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Argyris the Scoundrel",
+      "url": "https://wiki.guildwars.com/wiki/Argyris_the_Scoundrel",
+      "revision": 2642055,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Pantheras The Deceiver",
+      "url": "https://wiki.guildwars.com/wiki/Pantheras_The_Deceiver",
+      "revision": 2642034,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Chrysos the Magnetic",
+      "url": "https://wiki.guildwars.com/wiki/Chrysos_the_Magnetic",
+      "revision": 2255449,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "完成主線、Bonus、Boss 技能、隊伍建議、獎勵與 NM/HM 中文查核。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": "iron-mines-of-moladune",
   "nextMission": "ring-of-fire",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10563"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後經傳送門到 Ember Light Camp；接續主線 Final Blow 開啟 Ring of Fire（火環群島）據點。"
+  ],
+  "storyStartVerified": false,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10563
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": [
+    {
+      "name": {
+        "en": "Final Blow",
+        "zhTW": "Final Blow（繁中名稱待確認）"
+      },
+      "giver": "Shadow",
+      "location": "Ember Light Camp (Ring of Fire Islands)",
+      "directions": "在 Ember Light Camp 找 Shadow 接取。出 Perdition Rock，等入口巡邏群走開，往北清路；Mahgo Hydra 的 Meteor Shower 要打斷或分散躲避。迅速拆掉第一個 Ether Seal，沿中央道路向西北往碼頭。先分批拉掉祭壇外兩隊 White Mantle，再上階梯殺 Argyle、Bolivar、Cuthbert 三名 Council Member。找 Captain Grumby 對話，依序承諾保護他並選準備好了，讓他傳送全隊到 Ring of Fire 據點；再找 Fogard Axemighty 領獎。",
+      "url": "https://wiki.guildwars.com/wiki/Final_Blow",
+      "revision": 2708674,
+      "translationStatus": "needs-review",
+      "optional": false,
+      "questType": "primary"
+    }
+  ]
 }

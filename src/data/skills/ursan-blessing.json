@@ -1,0 +1,120 @@
+{
+  "pvpOnly": false,
+  "id": "ursan-blessing",
+  "name": {
+    "en": "Ursan Blessing",
+    "zhTW": "烏杉賜福"
+  },
+  "clientSkillId": 2374,
+  "icon": "/skills/ursan-blessing.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "norn-rank",
+    "en": "Norn rank",
+    "zhTW": "諾恩稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "form",
+    "en": "form",
+    "zhTW": "型態",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": true,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 60.0,
+  "description": {
+    "pve": {
+      "en": "Elite Form. You lose all effects and take on the aspect of the bear. For 60 seconds, you have 100 armor and 750...790...800 Health. All your attributes are set to 0 and bear attacks replace your skills.",
+      "zhTW": "精英型態(60秒)：化身為熊的型態。你失去目前所有狀態，同時防禦調整至100、體力調整至750～800，你的所有屬性將歸零且技能被熊技能所取代。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "a-hunter-s-pride",
+          "en": "A Hunter's Pride",
+          "zhTW": "A Hunter's Pride",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "A Hunter's Pride (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
+        "url": "https://wiki.guildwars.com/wiki/A_Hunter%27s_Pride",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "精英型態(60秒)：化身為熊的型態。你失去目前所有狀態，同時防禦調整至100、體力調整至750～800，你的所有屬性將歸零且技能被熊技能所取代。",
+  "commonUses": [
+    "Norn rank · 型態"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
+      "revision": 2742159,
+      "title": "Ursan Blessing",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/71917"
+  ],
+  "descriptionEvidence": {
+    "stringId": 71918,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "精英型態(%str3%秒)：化身為熊的型態。你失去目前所有狀態，同時防禦調整至100、體力調整至%str2%，你的所有屬性將歸零且技能被熊技能所取代。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

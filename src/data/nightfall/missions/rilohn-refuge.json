@@ -6,12 +6,12 @@
   "campaign": "nightfall",
   "region": "kourna",
   "name": {
-    "zhTW": "裡歐恩難民營",
+    "zhTW": "里歐恩難民營",
     "en": "Rilohn Refuge"
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -20,7 +20,7 @@
   "tags": [
     "nightfall",
     "大師獎勵",
-    "Master of Whispers 路線"
+    "喚言大師 路線"
   ],
   "summary": "護送Dehjah開水廠門，擊敗Drought與其同群Droughtlings。",
   "partySize": 8,
@@ -41,7 +41,7 @@
   "entryMethod": {
     "type": "npc",
     "description": "在此據點與 Dehjah 對話選擇開始任務。",
-    "location": "裡歐恩難民營 / Rilohn Refuge",
+    "location": "里歐恩難民營 / Rilohn Refuge",
     "requirements": [
       "每位隊員已領取No Me, No Kormir或To Kill a Demon的獎勵。",
       "隊伍必須帶入本頁所列必要英雄；不要求你本人已招募，但需有隊員帶入。"
@@ -52,10 +52,25 @@
     {
       "id": "master-of-whispers",
       "name": {
-        "zhTW": "喚言大師 / Master of Whispers",
+        "zhTW": "喚言大師",
         "en": "Master of Whispers"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/46813",
+        "game-client://2026-10-09/string/51064",
+        "game-client://2026-10-09/string/55342"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          46813,
+          51064,
+          55342
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -114,7 +129,7 @@
       "content": "預先保護，打斷Sandstorm或施暈眩，殺Drought和它的兩隻Droughtlings才完成；捕技能者不要把Boss留最後。"
     }
   ],
-  "routeSummary": "科登諾路口 → 裡歐恩難民營 → 摩多克裂縫",
+  "routeSummary": "科登諾路口 → 里歐恩難民營 → 摩多克裂縫",
   "mapImage": "/maps/nightfall-Rilohn_Refuge_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -123,8 +138,8 @@
   "maps": [
     {
       "src": "/maps/nightfall-Rilohn_Refuge_map.jpg",
-      "title": "裡歐恩難民營 · 主線路線",
-      "alt": "裡歐恩難民營的Guild Wars Wiki原圖：主線路線",
+      "title": "里歐恩難民營 · 主線路線",
+      "alt": "里歐恩難民營的Guild Wars Wiki原圖：主線路線",
       "width": 550,
       "height": 459,
       "filePage": "https://wiki.guildwars.com/wiki/File:Rilohn_Refuge_map.jpg",
@@ -136,8 +151,8 @@
     },
     {
       "src": "/maps/nightfall-Rilohn_Refuge_loading_screen.jpg",
-      "title": "裡歐恩難民營 · 載入畫面",
-      "alt": "裡歐恩難民營的Guild Wars Wiki原圖：載入畫面",
+      "title": "里歐恩難民營 · 載入畫面",
+      "alt": "里歐恩難民營的Guild Wars Wiki原圖：載入畫面",
       "width": 1024,
       "height": 768,
       "filePage": "https://wiki.guildwars.com/wiki/File:Rilohn_Refuge_loading_screen.jpg",
@@ -151,22 +166,34 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "The Drought",
+        "zhTW": "The Drought（繁中名稱待確認）",
         "en": "The Drought"
       },
-      "profession": "元素使",
+      "profession": "Elementalist",
       "importantSkills": [
+        "Ebon Hawk",
+        "Sandstorm",
+        "Stone Daggers",
+        "Stoning"
+      ],
+      "eliteSkills": [
         "Sandstorm"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Rilohn_Refuge#Bosses",
-      "revision": 2703640
+      "source": "https://wiki.guildwars.com/wiki/The_Drought",
+      "revision": 2694328
     }
   ],
   "recommendedTeam": [
-    "Master of Whispers 必須在隊，帶強力打斷／施法封鎖、保護與元素減傷；Winter轉冷傷可避土傷增幅。"
+    "喚言大師 必須在隊，帶強力打斷／施法封鎖、保護與元素減傷；Winter轉冷傷可避土傷增幅。"
   ],
   "tips": [
     "獎勵條件與主線通關是兩件事；希望拿大師時先完成附加目標再觸發終點。"
@@ -279,6 +306,13 @@
       "revision": 2697482,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Drought",
+      "url": "https://wiki.guildwars.com/wiki/The_Drought",
+      "revision": 2694328,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -297,7 +331,7 @@
   "prerequisites": [
     "kodonur-crossroads"
   ],
-  "branch": "Master of Whispers 路線",
+  "branch": "喚言大師 路線",
   "routeChoice": "下列同階段路線只需完成其中一關即可推進；不是要全部完成。",
   "primaryQuestBefore": [
     {
@@ -307,7 +341,7 @@
       },
       "giver": "Lonai",
       "location": "Sunspear Sanctuary",
-      "directions": "接神秘訊息後在Margrid與Master of Whispers路線中選一，首次招募與後續兩組Mission會受選擇影響。",
+      "directions": "接神秘訊息後在Margrid與喚言大師路線中選一，首次招募與後續兩組Mission會受選擇影響。",
       "url": "https://wiki.guildwars.com/wiki/Mysterious_Message_%28Nightfall_quest%29",
       "revision": 2722997,
       "translationStatus": "needs-review"
@@ -317,7 +351,7 @@
         "zhTW": "Secrets in the Shadow",
         "en": "Secrets in the Shadow"
       },
-      "giver": "Master of Whispers",
+      "giver": "喚言大師",
       "location": "Jahai Bluffs",
       "directions": "找Dehjah，清三組地底惡魔，回Whispers。",
       "url": "https://wiki.guildwars.com/wiki/Secrets_in_the_Shadow",
@@ -329,7 +363,7 @@
         "zhTW": "To Kill a Demon",
         "en": "To Kill a Demon"
       },
-      "giver": "Master of Whispers",
+      "giver": "喚言大師",
       "location": "Dejarin Estate",
       "directions": "Floodplain of Mahnkelon會Whispers，清水廠外五群Droughtlings，回Dehjah；招Whispers。",
       "url": "https://wiki.guildwars.com/wiki/To_Kill_a_Demon",
@@ -345,7 +379,7 @@
     {
       "name": "關鍵敵人與機制",
       "mechanism": "Dehjah死即失敗；錯過開門觸發即使她活著也可能只能重開。要大師不可點任何水泵；土傷提升時Sandstorm可秒殺。",
-      "counter": "Master of Whispers 必須在隊，帶強力打斷／施法封鎖、保護與元素減傷；Winter轉冷傷可避土傷增幅。"
+      "counter": "喚言大師 必須在隊，帶強力打斷／施法封鎖、保護與元素減傷；Winter轉冷傷可避土傷增幅。"
     }
   ],
   "missionReward": {
@@ -360,5 +394,31 @@
       "expert": "關閉一個水泵",
       "master": "零水泵關閉"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33103",
+    "game-client://2026-10-09/string/34841"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33103,
+      34841
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Rilohn_Refuge",
+    "revision": 2703640,
+    "heroes": [
+      "喚言大師"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

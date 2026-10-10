@@ -2,6 +2,8 @@
 
 可維護的 Guild Wars 1 攻略網站。正式規格在 [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md)，實作計畫在 [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)。前次靜態 HTML 原型不參與此專案建置。
 
+目前功能、驗證與資料限制見 [最新工作紀錄](docs/LATEST_WORK_20261010.md)。技能有 1,321 筆、十職業介紹與 31 位英雄；完整性 audit 不阻擋 build。
+
 最新第二、三章規格見 `docs/REQUIREMENTS_PHASE2.md`、`docs/REQUIREMENTS_PHASE3.md`；查核範圍與限制見 `docs/PHASE23_CONTENT_AUDIT.md`。
 
 ## 技術
@@ -27,23 +29,37 @@ npm run start
 
 `build` 為正式 Next.js 建置，`start` 啟動正式伺服器。`npm run build:static` 使用同一 App Router 原始碼輸出到 `out/`，可部署到靜態主機；不是另外手寫一套 HTML。`.openai/hosting.json` 指向此輸出，沿用已註冊的私有 Site。
 
-`NEXT_PUBLIC_SITE_URL` 決定 canonical 和 Open Graph URL，參照 `.env.example`。未設定時使用本專案的 Site 網址。更換主機時先設定此值再 build。
+在 Windows 可雙擊專案根目錄的 `預覽靜態網站.cmd`，用 Chrome 開啟 `http://127.0.0.1:8766/`，查看 `out/` 的部署成品。請勿直接雙擊 `out/index.html`：`file://` 會把 `/_next/`、`/images/` 等絕對路徑指向磁碟根目錄，瀏覽器也會限制以 `fetch` 讀取本機 JSON。預覽程式需要保持執行；關閉「GW1 靜態網站預覽」視窗即可停止。
+
+靜態匯出後可執行 `npm run audit:links`，檢查所有 HTML 中的站內連結是否有目標頁；導覽與資料頁的瀏覽器操作檢查在 `scripts/verify-navigation-and-guides.mjs`。
+
+技能資料使用共用詳細頁 `/skills/view/?id=技能-slug`。`dev`、`build` 與 `build:static` 會由 1,321 筆來源資料產生 `public/data/skills/index.json` 及 11 份按職業分組的 JSON；瀏覽器開啟技能時先讀目錄，再讀取該職業資料。生成的 JSON 不納入 Git，部署時必須使用上述建置命令，並將整個 `out/` 一起上傳。
+
+任務、英雄、其他攻略和技能屬性也已改用共用詳細頁：資料分別在 `public/data/guide-content/missions/`（按章節）、`heroes.json`、`extras.json`、`attributes/`（按屬性）。中英名稱對照在 `glossary.json`。目前靜態匯出為 58 份 HTML，內容頁按需取得 JSON。章節首頁、任務列表、職業入口及玩法介紹仍是獨立頁。原 `/campaigns/<章節>/missions/<任務>/`、`/heroes/<英雄>/`、`/guides/<攻略>/`、`/skills/attributes/<屬性>/` 舊網址在 Cloudflare Pages 由 `public/_redirects` 以 301 轉到共用頁；其他靜態主機需另設同等規則。
+
+`NEXT_PUBLIC_SITE_URL` 決定 canonical、Open Graph、`robots.txt` 的 Sitemap URL 與 `sitemap.xml` 中的網址，參照 `.env.example`。未設定時使用本專案的 Site 網址。部署至 Cloudflare Pages 或其他新網域時，**先設定正式網域並重新 build**；不可把本機或舊網域的 sitemap 直接上線。`npm run build:static` 會把這兩個 SEO 檔輸出到 `out/`。動態查詢參數詳細頁目前未列入 sitemap，避免在沒有伺服器端專屬 metadata 時產生大量重複索引。
 
 ## 頁面
 
-- `/`：四章入口、常用入口、三份完整示範。
+- `/`：四章入口與常用入口。
 - `/campaigns`：章節索引。
 - `/campaigns/prophecies`：25 關 timeline 與篩選。
 - `/campaigns/prophecies/missions`：任務列表。
-- `/campaigns/prophecies/missions/[id]`：共用 MissionDetailTemplate。
+- `/missions/view/?campaign=<章節>&id=<任務>`：共用 MissionDetailTemplate 資料檢視。
 - `/search`：中英文、aliases、tags 搜尋。
-- `/campaigns/factions`：13份完整攻略、12故事階段與Kurzick／Luxon分支。
-- `/campaigns/nightfall`：20份完整攻略、17故事階段、三組替代路線。
-- `/heroes/[id]`：13位英雄招募；`/guides/[id]`：12個主線外內容索引。
-- Eye of the North：架構入口，資料待整理。
-- 菁英／Beyond提供已分類入口索引；Dungeons／Zaishen／Builds／Skills詳細攻略仍待後續。
+- `/campaigns/factions`：13份攻略、12故事階段與Kurzick／Luxon分支。
+- `/campaigns/nightfall`：20份攻略、17故事階段、三組替代路線。
+- `/heroes/view/?id=<英雄>`：31位各章英雄招募；`/guides/view/?id=<攻略>`：12個主線外內容索引。
+- Eye of the North：9 份主線／故事／總覽攻略，10 位英雄招募；完整主線仍在整理。
+- `/skills/`：1,321 技能、十職業與共通技能；繁中效果、圖示、取得清單與 PvP 分版。
+- `/professions/`：十職業介紹、主／副職業限制及各職業機制。
+- `/beyond/`、`/dungeons/`、`/elite-missions/`、`/challenge-missions/`、`/zaishen/`、`/builds/`：統一版型的玩法與入口介紹；個別完整攻略仍需逐項核對。
+- `/pve/`、`/postgame/`、`/pvp/`、`/equipment/`：首頁提到的玩法與長期目標說明。
+- `/hall-of-monuments/`：史蹟殿堂圖文、五座紀念碑與官方獎勵計算器。
+- `/glossary/`：按需載入的遊戲繁中／英文名稱查詢。
+- 導覽列「互動地圖」連至 gwrevival 的外部地圖。
 
-完整示範是北方長城、柯瑞塔關所、神聖海岸。其餘 22 關是資料骨架，不宣稱攻略完整。25 關的來源與 34 張 Wiki 原圖均儲存；預言之石只有俯瞰截圖，沒有原站標線路線圖。
+目前公開攻略皆有主線步驟，資料驗證仍保留內部查核狀態。發布流程只驗證結構，不以完整性 audit 阻擋建置；不要將頁面存在或標章隱藏當成全文已完成查核。
 
 ## 目錄
 
@@ -62,7 +78,7 @@ src/
   data/prophecies/missions/        # 25 份 Mission JSON
   data/factions/missions/          # 13 份
   data/nightfall/missions/         # 20 份
-  data/heroes/                     # 13 位英雄
+  data/heroes/                     # 31 位英雄
   data/extras/                     # 主線外入口索引
   data/schemas/content.ts          # schema + types
   lib/content.ts                  # repository 邊界
@@ -80,7 +96,7 @@ package.json
 5. 更新前後關卡與 campaign.flow 中已查核的關係。order 用於列表，不等於遊戲解鎖條件。
 6. 執行內容驗證、lint、typecheck、build。route、metadata、選單與搜尋由 repository 和共用 template 自動產生，不新增專屬 JSX。
 
-如未來增加資料總數，調整 validate-content.ts 中目前第一階段對 25 關與三 demo 的驗收條件。
+如增加玩家技能，先同步 Wiki inventory；新增英雄時同步 roster 與結構驗證的總數。
 
 ## 新增章節與其他任務型別
 

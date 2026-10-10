@@ -1,0 +1,204 @@
+{
+  "pvpOnly": false,
+  "id": "zealous-vow",
+  "name": {
+    "en": "Zealous Vow",
+    "zhTW": "狂熱誓言",
+    "translationVerified": true
+  },
+  "clientSkillId": 1761,
+  "icon": "/skills/zealous-vow.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. For 20 seconds, you have -2 Energy regeneration, and you gain 1...5...6 Energy every time you hit with an attack.",
+      "zhTW": "持續 20 秒，你遭受 2 能量衰減，但是每次擊中對手時，你獲得 1～6 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "justiciar-kasandra",
+          "en": "Justiciar Kasandra",
+          "zhTW": "Justiciar Kasandra",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Justiciar Kasandra (D'Alessio Seaboard (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+        "url": "https://wiki.guildwars.com/wiki/Justiciar_Kasandra",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "sehlon-beautiful-water",
+          "en": "Sehlon, Beautiful Water",
+          "zhTW": "Sehlon, Beautiful Water",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bahdok-caverns",
+              "en": "Bahdok Caverns",
+              "zhTW": "巴多克洞穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bahdok_Caverns"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Sehlon, Beautiful Water (Bahdok Caverns)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+        "url": "https://wiki.guildwars.com/wiki/Sehlon,_Beautiful_Water",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "hajok-earthguardian-djinn",
+          "en": "Hajok Earthguardian (Djinn)",
+          "zhTW": "Hajok Earthguardian (Djinn)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dasha-vestibule",
+              "en": "Dasha Vestibule",
+              "zhTW": "達沙走廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hajok Earthguardian (Djinn) (Dasha Vestibule)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+        "url": "https://wiki.guildwars.com/wiki/Hajok_Earthguardian_(Djinn)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "leilon-tranquil-water",
+          "en": "Leilon, Tranquil Water",
+          "zhTW": "Leilon, Tranquil Water",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-hidden-city-of-ahdashim",
+              "en": "The Hidden City of Ahdashim",
+              "zhTW": "隱藏之城．哈達辛",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Leilon, Tranquil Water (The Hidden City of Ahdashim)",
+        "source": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+        "url": "https://wiki.guildwars.com/wiki/Leilon,_Tranquil_Water",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 20 秒，你遭受 2 能量衰減，但是每次擊中對手時，你獲得 1～6 能量。",
+  "commonUses": [
+    "風之祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+      "revision": 2726541,
+      "title": "Zealous Vow",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/44073"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44074,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你遭受 %str1% 能量衰減，但是每次擊中對手時，你獲得 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

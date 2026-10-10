@@ -1,0 +1,133 @@
+{
+  "pvpOnly": false,
+  "id": "smooth-criminal",
+  "name": {
+    "en": "Smooth Criminal",
+    "zhTW": "圓滑罪犯"
+  },
+  "clientSkillId": 2412,
+  "icon": "/skills/smooth-criminal.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "asura-rank",
+    "en": "Asura rank",
+    "zhTW": "阿蘇拉稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Spell. For 10...20 seconds, one random spell is disabled for target foe and Smooth Criminal is replaced by that spell. You gain 5...10 Energy.",
+      "zhTW": "持續 10～20 秒，隨機使目標敵人的一個魔法無法使用，而該魔法將取代「圓滑罪犯」。你可獲得 5～10 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-cipher-of-melandru",
+          "en": "The Cipher of Melandru",
+          "zhTW": "The Cipher of Melandru",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "tarnished-haven",
+              "en": "Tarnished Haven",
+              "zhTW": "灰暗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Tarnished_Haven"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Cipher of Melandru (Tarnished Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Smooth_Criminal",
+        "url": "https://wiki.guildwars.com/wiki/The_Cipher_of_Melandru",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "持續 10～20 秒，隨機使目標敵人的一個魔法無法使用，而該魔法將取代「圓滑罪犯」。你可獲得 5～10 能量。",
+  "commonUses": [
+    "Asura rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "arcane-thievery",
+      "en": "Arcane Thievery",
+      "zhTW": "魔法竊取",
+      "translationVerified": true
+    },
+    {
+      "id": "arcane-larceny",
+      "en": "Arcane Larceny",
+      "zhTW": "盜竊魔法",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Smooth_Criminal",
+      "revision": 2723310,
+      "title": "Smooth Criminal",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/72859"
+  ],
+  "descriptionEvidence": {
+    "stringId": 72860,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，隨機使目標敵人的一個魔法無法使用，而該魔法將取代「圓滑罪犯」。你可獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

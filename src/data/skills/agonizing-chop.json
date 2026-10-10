@@ -1,0 +1,260 @@
+{
+  "pvpOnly": false,
+  "id": "agonizing-chop",
+  "name": {
+    "en": "Agonizing Chop",
+    "zhTW": "苦痛砍擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1403,
+  "icon": "/skills/agonizing-chop.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "axe-mastery",
+    "en": "Axe Mastery",
+    "zhTW": "精通斧術",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2114"
+    ]
+  },
+  "type": {
+    "id": "axe-attack",
+    "en": "Axe attack",
+    "zhTW": "斧術攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 6.0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Axe Attack. When this attack hits, you deal +5...17...20 damage. If target foe is suffering from a Deep Wound, you interrupt that foe's action.",
+      "zhTW": "命中時對目標造成 5～20 額外傷害。若目標敵人正遭受「重傷」病症，則其動作被中斷。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "medando",
+          "en": "Medando",
+          "zhTW": "Medando",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yohlon-haven",
+              "en": "Yohlon Haven",
+              "zhTW": "猶朗避難所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Medando (Yohlon Haven)",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Medando",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "joh-the-hostile",
+          "en": "Joh the Hostile",
+          "zhTW": "Joh the Hostile",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "scoundrel-s-rise-war-in-kryta",
+              "en": "Scoundrel's Rise (War in Kryta)",
+              "zhTW": "Scoundrel's Rise (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Scoundrel%27s_Rise_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Joh the Hostile (Scoundrel's Rise (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Joh_the_Hostile",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "high-inquisitor-toriimo",
+          "en": "High Inquisitor Toriimo",
+          "zhTW": "High Inquisitor Toriimo",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-battle-for-lion-s-arch",
+              "en": "The Battle for Lion's Arch",
+              "zhTW": "The Battle for Lion's Arch",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Battle_for_Lion%27s_Arch"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "High Inquisitor Toriimo (The Battle for Lion's Arch)",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/High_Inquisitor_Toriimo",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "bloodback-morrob",
+          "en": "Bloodback Morrob",
+          "zhTW": "Bloodback Morrob",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "mehtani-keys",
+              "en": "Mehtani Keys",
+              "zhTW": "梅坦尼之鑰",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Mehtani_Keys"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bloodback Morrob (Mehtani Keys)",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Bloodback_Morrob",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "skomay-bonehewer",
+          "en": "Skomay Bonehewer",
+          "zhTW": "Skomay Bonehewer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Skomay Bonehewer (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Skomay_Bonehewer",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "libeh",
+          "en": "Libeh",
+          "zhTW": "Libeh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "command-post",
+              "en": "Command Post",
+              "zhTW": "指揮所",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Command_Post"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Libeh (Command Post)",
+        "source": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+        "url": "https://wiki.guildwars.com/wiki/Libeh",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "命中時對目標造成 5～20 額外傷害。若目標敵人正遭受「重傷」病症，則其動作被中斷。",
+  "commonUses": [
+    "Axe Mastery · 斧術攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+      "revision": 2733213,
+      "title": "Agonizing Chop",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/34789",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34790,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害。若目標敵人正遭受「重傷」病症，則其動作被中斷。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

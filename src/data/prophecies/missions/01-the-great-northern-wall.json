@@ -9,7 +9,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "aliases": [
     "Great Northern Wall",
     "長城"
@@ -66,7 +66,7 @@
   "walkthrough": [
     {
       "title": "開門與出城",
-      "content": "與卡爾漢軍官（Captain Calhaan）交談。出城往西北走，到第二座門時使用旁邊的拉桿。低等隊伍先逐群清怪，不要同時引到附近巡邏隊。"
+      "content": "與Captain Calhaan（Captain Calhaan）交談。出城往西北走，到第二座門時使用旁邊的拉桿。低等隊伍先逐群清怪，不要同時引到附近巡邏隊。"
     },
     {
       "title": "順路收集盔甲",
@@ -74,7 +74,7 @@
     },
     {
       "title": "先完成隱藏目標",
-      "content": "沿肩甲所在道路到基爾恩・泰斯布里（Kilnn Testibrie）的墓，與他交談並交出四件盔甲。確認 Bonus 完成後再折回西南主線。"
+      "content": "沿肩甲所在道路到Kilnn Testibrie（Kilnn Testibrie）的墓，與他交談並交出四件盔甲。確認 Bonus 完成後再折回西南主線。"
     },
     {
       "title": "觸發偵察劇情",
@@ -82,31 +82,18 @@
     },
     {
       "title": "沿橋路撤退",
-      "content": "一路向南往長城跑，經橋梁沿指定路線回到卡爾漢，與他交談。只需一名玩家抵達並回報；即使追兵接近也要繼續前進。走錯分岔可能繞到門的另一側，來不及折返。"
+      "content": "一路向南往長城跑，經橋梁沿指定路線回到Captain Calhaan，與他交談。只需一名玩家抵達並回報；即使追兵接近也要繼續前進。走錯分岔可能繞到門的另一側，來不及折返。"
     }
   ],
-  "routeSummary": "起點 → 西北城門 → 四處殘骸與墓地 → 西南夏爾營地 → 劇情 → 向南跑回卡爾漢軍官",
-  "mapImage": "/maps/The_Great_Northern_Wall_western_cartographer_map.jpg",
+  "routeSummary": "起點 → 西北城門 → 四處殘骸與墓地 → 西南夏爾營地 → 劇情 → 向南跑回Captain Calhaan",
+  "mapImage": "/maps/The_Great_Northern_Wall_map.jpg",
   "mapNotes": [
-    "原圖保留英文字與編號；完整 demo 的中文步驟可配合原圖閱讀。"
+    "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
   ],
   "maps": [
     {
-      "src": "/maps/The_Great_Northern_Wall_western_cartographer_map.jpg",
-      "title": "主線路線圖",
-      "alt": "北方長城・主線路線圖",
-      "width": 341,
-      "height": 408,
-      "filePage": "https://wiki.guildwars.com/wiki/File:The_Great_Northern_Wall_western_cartographer_map.jpg",
-      "originalImage": "https://wiki.guildwars.com/images/9/90/The_Great_Northern_Wall_western_cartographer_map.jpg",
-      "uploader": "Balistic",
-      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
-      "hasDrawnRoute": true,
-      "role": "main_route"
-    },
-    {
       "src": "/maps/The_Great_Northern_Wall_map.jpg",
-      "title": "補充路線圖",
+      "title": "主線與 Bonus 路線圖",
       "alt": "北方長城・補充路線圖",
       "width": 535,
       "height": 567,
@@ -115,14 +102,27 @@
       "uploader": "Mat Cauthorn",
       "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
       "hasDrawnRoute": true,
-      "role": "bonus_route"
+      "role": "main_route"
+    },
+    {
+      "src": "/maps/The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "title": "製圖探索支路（不是主線撤退路線）",
+      "alt": "北方長城・主線路線圖",
+      "width": 341,
+      "height": 408,
+      "filePage": "https://wiki.guildwars.com/wiki/File:The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "originalImage": "https://wiki.guildwars.com/images/9/90/The_Great_Northern_Wall_western_cartographer_map.jpg",
+      "uploader": "Balistic",
+      "copyright": "ArenaNet / NCsoft；不是 GNU FDL 圖片",
+      "hasDrawnRoute": true,
+      "role": "cartography"
     }
   ],
   "bosses": [
     {
       "name": {
-        "zhTW": "Drub Gorefang",
-        "en": "Drub Gorefang"
+        "en": "Drub Gorefang",
+        "zhTW": "Drub Gorefang（繁中名稱待確認）"
       },
       "profession": "戰士",
       "importantSkills": [
@@ -131,16 +131,39 @@
         "Penetrating Blow",
         "Shield Stance"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Drub_Gorefang",
-      "revision": 2656529
+      "revision": 2656529,
+      "dangerousSkills": [
+        {
+          "name": "Cyclone Axe",
+          "counter": "前排以外保持距離，避免多名隊員同吃近身範圍攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Drub_Gorefang"
+        },
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Drub_Gorefang"
+        },
+        {
+          "name": "Shield Stance",
+          "counter": "姿態期間使用非攻擊傷害，或先拆姿態再集火。",
+          "source": "https://wiki.guildwars.com/wiki/Drub_Gorefang"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Slur Scarchest",
-        "en": "Slur Scarchest"
+        "en": "Slur Scarchest",
+        "zhTW": "Slur Scarchest（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
@@ -149,16 +172,29 @@
         "Penetrating Attack",
         "Troll Unguent"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Slur_Scarchest",
-      "revision": 2413707
+      "revision": 2413707,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Slur_Scarchest"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Swag the Lasher",
-        "en": "Swag the Lasher"
+        "en": "Swag the Lasher",
+        "zhTW": "Swag the Lasher（繁中名稱待確認）"
       },
       "profession": "僧侶",
       "importantSkills": [
@@ -167,16 +203,23 @@
         "Heal Area",
         "Infuse Health"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Swag_the_Lasher",
-      "revision": 2413685
+      "revision": 2413685,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Maul Riptear",
-        "en": "Maul Riptear"
+        "en": "Maul Riptear",
+        "zhTW": "Maul Riptear（繁中名稱待確認）"
       },
       "profession": "死靈法師",
       "importantSkills": [
@@ -184,16 +227,29 @@
         "Life Siphon",
         "Mark of Pain"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Maul_Riptear",
-      "revision": 2413737
+      "revision": 2413737,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Maul_Riptear"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Marr Burnhorn",
-        "en": "Marr Burnhorn"
+        "en": "Marr Burnhorn",
+        "zhTW": "Marr Burnhorn（繁中名稱待確認）"
       },
       "profession": "幻術師",
       "importantSkills": [
@@ -202,16 +258,23 @@
         "Illusion of Haste",
         "Mantra of Flame"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Marr_Burnhorn",
-      "revision": 2413711
+      "revision": 2413711,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Fume Kindleflail",
-        "en": "Fume Kindleflail"
+        "en": "Fume Kindleflail",
+        "zhTW": "Fume Kindleflail（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -220,16 +283,23 @@
         "Flare",
         "Lava Font"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Fume_Kindleflail",
-      "revision": 2656570
+      "revision": 2656570,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Bonfaaz Burntfur",
-        "en": "Bonfaaz Burntfur"
+        "en": "Bonfaaz Burntfur",
+        "zhTW": "Bonfaaz Burntfur（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -238,16 +308,23 @@
         "Flare",
         "Lava Font"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "此頭目只在劇情可見，撤退時移除，不是必殺目標。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Bonfaaz_Burntfur",
-      "revision": 2663172
+      "revision": 2663172,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Igg Fecpelter",
-        "en": "Igg Fecpelter"
+        "en": "Igg Fecpelter",
+        "zhTW": "Igg Fecpelter（繁中名稱待確認）"
       },
       "profession": "遊俠",
       "importantSkills": [
@@ -256,16 +333,29 @@
         "Quickening Zephyr",
         "Troll Unguent"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Igg_Fecpelter",
-      "revision": 2709777
+      "revision": 2709777,
+      "dangerousSkills": [
+        {
+          "name": "Troll Unguent",
+          "counter": "看到施放立即打斷，阻止持續回血；已施放時集中傷害壓過回血。",
+          "source": "https://wiki.guildwars.com/wiki/Igg_Fecpelter"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Fleck Grokspit",
-        "en": "Fleck Grokspit"
+        "en": "Fleck Grokspit",
+        "zhTW": "Fleck Grokspit（繁中名稱待確認）"
       },
       "profession": "死靈法師",
       "importantSkills": [
@@ -274,16 +364,29 @@
         "Putrid Explosion",
         "Weaken Armor"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Fleck_Grokspit",
-      "revision": 2414496
+      "revision": 2414496,
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Fleck_Grokspit"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Spazz Mindrender",
-        "en": "Spazz Mindrender"
+        "en": "Spazz Mindrender",
+        "zhTW": "Spazz Mindrender（繁中名稱待確認）"
       },
       "profession": "幻術師",
       "importantSkills": [
@@ -292,16 +395,29 @@
         "Ether Feast",
         "Ether Lord"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Spazz_Mindrender",
-      "revision": 2414601
+      "revision": 2414601,
+      "dangerousSkills": [
+        {
+          "name": "Empathy",
+          "counter": "物理輸出先停攻擊並解降咒，再恢復攻擊。",
+          "source": "https://wiki.guildwars.com/wiki/Spazz_Mindrender"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Claw Fleshfixer",
-        "en": "Claw Fleshfixer"
+        "en": "Claw Fleshfixer",
+        "zhTW": "Claw Fleshfixer（繁中名稱待確認）"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -310,16 +426,23 @@
         "Lightning Strike",
         "Whirlwind"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "後排分散，移出持續範圍傷害；優先打斷長施法，準備元素傷害減免及防擊倒。別站在同一處讓全隊同時承受爆發。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Claw_Fleshfixer",
-      "revision": 2414598
+      "revision": 2414598,
+      "dangerousSkills": []
     },
     {
       "name": {
-        "zhTW": "Onaona Kubkub",
-        "en": "Onaona Kubkub"
+        "en": "Onaona Kubkub",
+        "zhTW": "Onaona Kubkub（繁中名稱待確認）"
       },
       "profession": "戰士",
       "importantSkills": [
@@ -328,16 +451,29 @@
         "Healing Signet",
         "Mighty Blow"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Onaona_Kubkub",
-      "revision": 2178804
+      "revision": 2178804,
+      "dangerousSkills": [
+        {
+          "name": "Healing Signet",
+          "counter": "施放時集中攻擊並打斷，避免讓低血量頭目自行補回。",
+          "source": "https://wiki.guildwars.com/wiki/Onaona_Kubkub"
+        }
+      ]
     },
     {
       "name": {
-        "zhTW": "Makani Ookook",
-        "en": "Makani Ookook"
+        "en": "Makani Ookook",
+        "zhTW": "Makani Ookook（繁中名稱待確認）"
       },
       "profession": "僧侶",
       "importantSkills": [
@@ -345,11 +481,18 @@
         "Symbol of Wrath",
         "Vital Blessing"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
       "notes": [
-        "原 Wiki 的可能出現頭目；不代表每次全部出現。"
+        "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "translationVerified": false,
       "source": "https://wiki.guildwars.com/wiki/Makani_Ookook",
-      "revision": 2169672
+      "revision": 2169672,
+      "dangerousSkills": []
     }
   ],
   "recommendedTeam": [
@@ -489,13 +632,135 @@
       "revision": null,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki 繁中任務名稱對照（社群在地化紀錄）",
+      "url": "https://wiki.guildwars.com/wiki/Feedback%3ALocalization_bugs/Traditional_Chinese/Zaishen_Mission_Quest_Name?oldid=1982900",
+      "revision": 1982900,
+      "checkedAt": "2026-10-09",
+      "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：Drub Gorefang",
+      "url": "https://wiki.guildwars.com/wiki/Drub_Gorefang",
+      "revision": 2656529,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Slur Scarchest",
+      "url": "https://wiki.guildwars.com/wiki/Slur_Scarchest",
+      "revision": 2413707,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Swag the Lasher",
+      "url": "https://wiki.guildwars.com/wiki/Swag_the_Lasher",
+      "revision": 2413685,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Maul Riptear",
+      "url": "https://wiki.guildwars.com/wiki/Maul_Riptear",
+      "revision": 2413737,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Marr Burnhorn",
+      "url": "https://wiki.guildwars.com/wiki/Marr_Burnhorn",
+      "revision": 2413711,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fume Kindleflail",
+      "url": "https://wiki.guildwars.com/wiki/Fume_Kindleflail",
+      "revision": 2656570,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Bonfaaz Burntfur",
+      "url": "https://wiki.guildwars.com/wiki/Bonfaaz_Burntfur",
+      "revision": 2663172,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Igg Fecpelter",
+      "url": "https://wiki.guildwars.com/wiki/Igg_Fecpelter",
+      "revision": 2709777,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Fleck Grokspit",
+      "url": "https://wiki.guildwars.com/wiki/Fleck_Grokspit",
+      "revision": 2414496,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Spazz Mindrender",
+      "url": "https://wiki.guildwars.com/wiki/Spazz_Mindrender",
+      "revision": 2414601,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Claw Fleshfixer",
+      "url": "https://wiki.guildwars.com/wiki/Claw_Fleshfixer",
+      "revision": 2414598,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Onaona Kubkub",
+      "url": "https://wiki.guildwars.com/wiki/Onaona_Kubkub",
+      "revision": 2178804,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Makani Ookook",
+      "url": "https://wiki.guildwars.com/wiki/Makani_Ookook",
+      "revision": 2169672,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
-    "建議等級、數值難度與分鐘預估沒有已核對資料，保留 null。",
-    "尚未有可靠中文對照的頭目與技能名稱保留 Wiki 英文原名。"
+    "逐筆核對 NPC、技能與地區繁中名稱及遊戲字串 ID。",
+    "補齊並核對所有重要 Boss 的技能與逐一對策。",
+    "核對獎勵各模式及前後 Primary Quest 的 NPC、地點。"
   ],
   "previousMission": null,
   "nextMission": "fort-ranik",
-  "prerequisites": []
+  "prerequisites": [],
+  "translationVerified": true,
+  "translationStatus": "verified",
+  "translationSources": [
+    "game-client://2026-10-09/string/10549"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "afterCompletion": [
+    "完成後到瑞尼克要塞。地圖另附西南探圖支路，供製圖稱號使用，不是主線撤退路線。"
+  ],
+  "storyStartVerified": true,
+  "storyEndingVerified": false,
+  "gameTextEvidence": {
+    "stringIds": [
+      10549
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "primaryQuestBefore": [],
+  "primaryQuestAfter": []
 }

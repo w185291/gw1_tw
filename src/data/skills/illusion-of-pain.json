@@ -1,0 +1,184 @@
+{
+  "pvpOnly": false,
+  "id": "illusion-of-pain",
+  "name": {
+    "en": "Illusion of Pain",
+    "zhTW": "苦痛幻覺",
+    "translationVerified": true
+  },
+  "clientSkillId": 879,
+  "icon": "/skills/illusion-of-pain.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 8 seconds, target foe has -3...9...10 Health degeneration and takes 3...9...10 damage each second. When Illusion of Pain ends, that foe is healed for 36...103...120.",
+      "zhTW": "持續8秒，目標敵人受到3～10體力衰減，每秒受到3～10傷害，結束時治療目標36～120體力。"
+    },
+    "pvp": {
+      "en": "Hex Spell. For 8 seconds, target foe has -3...9...10 Health degeneration and takes 3...9...10 damage each second. When Illusion of Pain ends or is reapplied, that foe is healed for 36...103...120.",
+      "zhTW": "持續8秒，目標敵人受到3～10體力衰減，每秒受到3～10傷害，結束時治療目標36～120體力。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Illusion of Pain (PvP)",
+      "description": {
+        "en": "Hex Spell. For 8 seconds, target foe has -3...9...10 Health degeneration and takes 3...9...10 damage each second. When Illusion of Pain ends or is reapplied, that foe is healed for 36...103...120.",
+        "zhTW": "持續8秒，目標敵人受到3～10體力衰減，每秒受到3～10傷害，結束時治療目標36～120體力。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 5.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_%28PvP%29",
+        "revision": 2648696,
+        "title": "Illusion of Pain (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3374
+    }
+  ],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "waray-skullflayer",
+          "en": "Waray Skullflayer",
+          "zhTW": "Waray Skullflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Waray Skullflayer (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
+        "url": "https://wiki.guildwars.com/wiki/Waray_Skullflayer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "持續8秒，目標敵人受到3～10體力衰減，每秒受到3～10傷害，結束時治療目標36～120體力。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
+      "revision": 2683798,
+      "title": "Illusion of Pain",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_%28PvP%29",
+      "revision": 2648696,
+      "title": "Illusion of Pain (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26558",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26559,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，目標敵人受到%str1%體力衰減，每秒受到%str1%傷害，結束時治療目標%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

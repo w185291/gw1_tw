@@ -1,0 +1,258 @@
+{
+  "pvpOnly": false,
+  "id": "onslaught",
+  "name": {
+    "en": "Onslaught",
+    "zhTW": "猛攻",
+    "translationVerified": true
+  },
+  "clientSkillId": 1754,
+  "icon": "/skills/onslaught.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wind-prayers",
+    "en": "Wind Prayers",
+    "zhTW": "風之祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "flash-enchantment-spell",
+    "en": "flash enchantment spell",
+    "zhTW": "即刻加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10,
+  "description": {
+    "pve": {
+      "en": "Elite Flash Enchantment Spell. For 3...13...15 seconds, you attack, move and gain adrenaline 25% faster.",
+      "zhTW": "持續 3～15 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。"
+    },
+    "pvp": {
+      "en": "Elite Flash Enchantment Spell. For 2...7...8 seconds, you attack and gain adrenaline 25% faster.",
+      "zhTW": "持續 2～8 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Onslaught (PvP)",
+      "description": {
+        "en": "Elite Flash Enchantment Spell. For 2...7...8 seconds, you attack and gain adrenaline 25% faster.",
+        "zhTW": "持續 2～8 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。"
+      },
+      "stats": {
+        "Energy": 10,
+        "Recharge": 10
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Onslaught_%28PvP%29",
+        "revision": 2645384,
+        "title": "Onslaught (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3365
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "lev-the-condemned",
+          "en": "Lev the Condemned",
+          "zhTW": "Lev the Condemned",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "north-kryta-province-war-in-kryta",
+              "en": "North Kryta Province (War in Kryta)",
+              "zhTW": "North Kryta Province (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lev the Condemned (North Kryta Province (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Onslaught",
+        "url": "https://wiki.guildwars.com/wiki/Lev_the_Condemned",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "onslaught-of-terror",
+          "en": "Onslaught of Terror",
+          "zhTW": "Onslaught of Terror",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Onslaught of Terror (Nightfallen Jahai)",
+        "source": "https://wiki.guildwars.com/wiki/Onslaught",
+        "url": "https://wiki.guildwars.com/wiki/Onslaught_of_Terror",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "emissary-of-dhuum-dervish",
+          "en": "Emissary of Dhuum (dervish)",
+          "zhTW": "Emissary of Dhuum (dervish)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "they-only-come-out-at-night",
+              "en": "They Only Come Out at Night",
+              "zhTW": "牠們只會在黑夜出沒",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/They_Only_Come_Out_at_Night"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Emissary of Dhuum (dervish) (Nightfallen Jahai, only during 牠們只會在黑夜出沒)",
+        "source": "https://wiki.guildwars.com/wiki/Onslaught",
+        "url": "https://wiki.guildwars.com/wiki/Emissary_of_Dhuum_(dervish)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "myish-lady-of-the-lake",
+          "en": "Myish, Lady of the Lake",
+          "zhTW": "Myish, Lady of the Lake",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "drakkar-lake",
+              "en": "Drakkar Lake",
+              "zhTW": "卓卡湖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Myish, Lady of the Lake (Drakkar Lake)",
+        "source": "https://wiki.guildwars.com/wiki/Onslaught",
+        "url": "https://wiki.guildwars.com/wiki/Myish,_Lady_of_the_Lake",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      },
+      {
+        "name": {
+          "id": "avatar-of-destruction-dervish",
+          "en": "Avatar of Destruction (dervish)",
+          "zhTW": "Avatar of Destruction (dervish)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "destruction-s-depths",
+              "en": "Destruction's Depths",
+              "zhTW": "破壞的深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Avatar of Destruction (dervish) (Destruction's Depths)",
+        "source": "https://wiki.guildwars.com/wiki/Onslaught",
+        "url": "https://wiki.guildwars.com/wiki/Avatar_of_Destruction_(dervish)",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "持續 3～15 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。",
+  "commonUses": [
+    "風之祈禱 · 即刻加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Onslaught",
+      "revision": 2733587,
+      "title": "Onslaught",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Onslaught_%28PvP%29",
+      "revision": 2645384,
+      "title": "Onslaught (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44065",
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44066,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的攻擊、移動、怒氣值獲得的速度都增加 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

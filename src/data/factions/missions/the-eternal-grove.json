@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -133,48 +133,89 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "The Afflicted Maaka",
+        "zhTW": "The Afflicted Maaka（繁中名稱待確認）",
         "en": "The Afflicted Maaka"
       },
       "profession": "戰士",
       "importantSkills": [
+        "\"On Your Knees!\"",
+        "Auspicious Blow",
+        "Endure Pain",
+        "Enraged Smash",
+        "Frenzy",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Enraged Smash"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
-      "revision": 2740958
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Maaka",
+      "revision": 2550691
     },
     {
       "name": {
-        "zhTW": "The Afflicted Senku",
+        "zhTW": "The Afflicted Senku（繁中名稱待確認）",
         "en": "The Afflicted Senku"
       },
-      "profession": "暗殺者",
+      "profession": "Assassin",
       "importantSkills": [
-        "Shadow Form"
+        "Dancing Daggers",
+        "Death Blossom",
+        "Jagged Strike",
+        "Shadow Form",
+        "Shadow Refuge",
+        "Wild Strike",
+        "Afflicted Soul Explosion"
       ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
-      "revision": 2740958
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Senku",
+      "revision": 2550697
     },
     {
       "name": {
-        "zhTW": "The Afflicted Xenxo",
+        "zhTW": "The Afflicted Xenxo（繁中名稱待確認）",
         "en": "The Afflicted Xenxo"
       },
-      "profession": "祭祀者",
+      "profession": "Ritualist",
       "importantSkills": [
+        "Life",
+        "Nightmare Weapon",
+        "Recuperation",
+        "Spirit Transfer",
+        "Weapon of Quickening",
+        "Afflicted Soul Explosion"
+      ],
+      "eliteSkills": [
         "Weapon of Quickening"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/The_Eternal_Grove#Bosses",
-      "revision": 2740958
+      "source": "https://wiki.guildwars.com/wiki/The_Afflicted_Xenxo",
+      "revision": 2550704
     }
   ],
   "recommendedTeam": [
@@ -284,6 +325,27 @@
       "revision": 1982900,
       "checkedAt": "2026-10-09",
       "role": "terminology"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Maaka",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Maaka",
+      "revision": 2550691,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Senku",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Senku",
+      "revision": 2550697,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：The Afflicted Xenxo",
+      "url": "https://wiki.guildwars.com/wiki/The_Afflicted_Xenxo",
+      "revision": 2550704,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -412,5 +474,24 @@
       "expert": "存活6–11名Tree Singers",
       "master": "十二名Tree Singers全存活"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/22114",
+    "game-client://2026-10-09/string/22115",
+    "game-client://2026-10-09/string/22118"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      22114,
+      22115,
+      22118
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
   }
 }

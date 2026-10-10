@@ -1,0 +1,214 @@
+{
+  "pvpOnly": false,
+  "id": "breath-of-fire",
+  "name": {
+    "en": "Breath of Fire",
+    "zhTW": "燃燒氣息",
+    "translationVerified": true
+  },
+  "clientSkillId": 1094,
+  "icon": "/skills/breath-of-fire.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 10.0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create Breath of Fire at target foe's current location. For 5 seconds, foes adjacent to that location are struck for 10...34...40 fire damage each second.",
+      "zhTW": "在目標敵人所在處引發燃燒氣息。持續 5 秒，使所有鄰近燃燒氣息的敵人每秒受到 10～40 火焰傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "scorch-maulclaw",
+          "en": "Scorch Maulclaw",
+          "zhTW": "Scorch Maulclaw",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dalada-uplands",
+              "en": "Dalada Uplands",
+              "zhTW": "達拉達山地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dalada_Uplands"
+          },
+          {
+            "name": {
+              "id": "the-dawn-of-rebellion",
+              "en": "The Dawn of Rebellion",
+              "zhTW": "The Dawn of Rebellion",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Dawn_of_Rebellion"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Scorch Maulclaw (Dalada Uplands, only during The Dawn of Rebellion)",
+        "source": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+        "url": "https://wiki.guildwars.com/wiki/Scorch_Maulclaw",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "kakei-stormcaller",
+          "en": "Kakei Stormcaller",
+          "zhTW": "Kakei Stormcaller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "blood-washes-blood",
+              "en": "Blood Washes Blood",
+              "zhTW": "血債血償",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kakei Stormcaller (Blood Washes Blood)",
+        "source": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+        "url": "https://wiki.guildwars.com/wiki/Kakei_Stormcaller",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "flamemaster-maultooth",
+          "en": "Flamemaster Maultooth",
+          "zhTW": "Flamemaster Maultooth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "warband-of-brothers",
+              "en": "Warband of Brothers",
+              "zhTW": "戰爭軍團之友",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Flamemaster Maultooth (Warband of Brothers)",
+        "source": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+        "url": "https://wiki.guildwars.com/wiki/Flamemaster_Maultooth",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "在目標敵人所在處引發燃燒氣息。持續 5 秒，使所有鄰近燃燒氣息的敵人每秒受到 10～40 火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+      "revision": 2683926,
+      "title": "Breath of Fire",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26714",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26715,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人所在處引發燃燒氣息。持續 %str3% 秒，使所有鄰近燃燒氣息的敵人每秒受到 %str1% 火焰傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

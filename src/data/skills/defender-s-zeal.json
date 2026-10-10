@@ -1,0 +1,163 @@
+{
+  "pvpOnly": false,
+  "id": "defender-s-zeal",
+  "name": {
+    "en": "Defender's Zeal",
+    "zhTW": "防禦者狂熱",
+    "translationVerified": true
+  },
+  "clientSkillId": 1688,
+  "icon": "/skills/defender-s-zeal.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "smiting-prayers",
+    "en": "Smiting Prayers",
+    "zhTW": "懲戒祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 10...26...30 seconds, whenever target foe hits with an attack, you gain 2 Energy.",
+      "zhTW": "持續 10～30 秒，每當目標敵人攻擊命中時，你獲得 2 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "flame-of-fervor",
+          "en": "Flame of Fervor",
+          "zhTW": "Flame of Fervor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-fear",
+              "en": "Domain of Fear",
+              "zhTW": "恐懼領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Fear"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Flame of Fervor (Domain of Fear)",
+        "source": "https://wiki.guildwars.com/wiki/Defender%27s_Zeal",
+        "url": "https://wiki.guildwars.com/wiki/Flame_of_Fervor",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "diseased-zunraa",
+          "en": "Diseased Zunraa",
+          "zhTW": "Diseased Zunraa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "zen-daijun-winds-of-change",
+              "en": "Zen Daijun (Winds of Change)",
+              "zhTW": "Zen Daijun (Winds of Change)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(Winds_of_Change)"
+          },
+          {
+            "name": {
+              "id": "cleansing-zen-daijun",
+              "en": "Cleansing Zen Daijun",
+              "zhTW": "Cleansing Zen Daijun",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cleansing_Zen_Daijun"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Diseased Zunraa (Zen Daijun (Winds of Change), only during Cleansing Zen Daijun)",
+        "source": "https://wiki.guildwars.com/wiki/Defender%27s_Zeal",
+        "url": "https://wiki.guildwars.com/wiki/Diseased_Zunraa",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall"
+  ],
+  "explanation": "持續 10～30 秒，每當目標敵人攻擊命中時，你獲得 2 能量。",
+  "commonUses": [
+    "懲戒祈禱 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Defender%27s_Zeal",
+      "revision": 2738556,
+      "title": "Defender's Zeal",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/44027"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44028,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標敵人攻擊命中時，你獲得 %str1% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

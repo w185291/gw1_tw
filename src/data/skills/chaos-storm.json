@@ -1,0 +1,417 @@
+{
+  "pvpOnly": false,
+  "id": "chaos-storm",
+  "name": {
+    "en": "Chaos Storm",
+    "zhTW": "混沌風暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 77,
+  "icon": "/skills/chaos-storm.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Create a Chaos Storm at target foe's location that lasts for 10 seconds. Each second, foes adjacent to this location take 5...21...25 damage and lose 0...2...2 Energy.",
+      "zhTW": "在目標敵人位置創造渾沌風暴，持續 10 秒。每秒使鄰近敵人受到 5～25 傷害及失去 0～2 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "trying-times",
+          "en": "Trying Times",
+          "zhTW": "Trying Times",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sardelac-sanitarium",
+              "en": "Sardelac Sanitarium",
+              "zhTW": "薩德拉克療養院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sardelac_Sanitarium"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Trying Times (Sardelac Sanitarium)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Trying_Times",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "gaiza-deadeye",
+          "en": "Gaiza Deadeye",
+          "zhTW": "Gaiza Deadeye",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gaiza Deadeye (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Gaiza_Deadeye",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lamaan-wickedwail",
+          "en": "Lamaan Wickedwail",
+          "zhTW": "Lamaan Wickedwail",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lamaan Wickedwail (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Lamaan_Wickedwail",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "gret-waveringmane",
+          "en": "Gret Waveringmane",
+          "zhTW": "Gret Waveringmane",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-scar",
+              "en": "The Scar",
+              "zhTW": "斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Scar"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gret Waveringmane (The Scar)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Gret_Waveringmane",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ayassah-hess",
+          "en": "Ayassah Hess",
+          "zhTW": "Ayassah Hess",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dunes-of-despair",
+              "en": "Dunes of Despair",
+              "zhTW": "絕望沙丘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ayassah Hess (Dunes of Despair)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Ayassah_Hess",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "goss-aleessh",
+          "en": "Goss Aleessh",
+          "zhTW": "Goss Aleessh",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "thirsty-river",
+              "en": "Thirsty River",
+              "zhTW": "乾枯河流",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Thirsty_River"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Goss Aleessh (Dunes of Despair, Thirsty River)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Goss_Aleessh",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "tiss-danssir",
+          "en": "Tiss Danssir",
+          "zhTW": "Tiss Danssir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "elona-reach",
+              "en": "Elona Reach",
+              "zhTW": "伊洛那流域",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Elona_Reach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tiss Danssir (Elona Reach)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Tiss_Danssir",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "seiran-of-the-cards",
+          "en": "Seiran of the Cards",
+          "zhTW": "Seiran of the Cards",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "what-waits-in-shadow",
+              "en": "What Waits in Shadow",
+              "zhTW": "What Waits in Shadow",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/What_Waits_in_Shadow"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Seiran of the Cards (What Waits in Shadow)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Seiran_of_the_Cards",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "qwytzylkak",
+          "en": "Qwytzylkak",
+          "zhTW": "Qwytzylkak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          },
+          {
+            "name": {
+              "id": "the-killing-joke",
+              "en": "The Killing Joke",
+              "zhTW": "The Killing Joke",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Killing_Joke"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Qwytzylkak (Vehtendi Valley, only during The Killing Joke)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Qwytzylkak",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "faze-magekiller",
+          "en": "Faze Magekiller",
+          "zhTW": "Faze Magekiller",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cathedral-of-flames",
+              "en": "Cathedral of Flames",
+              "zhTW": "火焰大教堂",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cathedral_of_Flames"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Faze Magekiller (Cathedral of Flames)",
+        "source": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Faze_Magekiller",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人位置創造渾沌風暴，持續 10 秒。每秒使鄰近敵人受到 5～25 傷害及失去 0～2 能量。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+      "revision": 2695839,
+      "title": "Chaos Storm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24950",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24951,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人位置創造渾沌風暴，持續 %str3% 秒。每秒使鄰近敵人受到 %str1% 傷害及失去 %str2% 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

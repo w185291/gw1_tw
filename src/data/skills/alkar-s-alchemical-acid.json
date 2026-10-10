@@ -1,0 +1,138 @@
+{
+  "pvpOnly": false,
+  "id": "alkar-s-alchemical-acid",
+  "name": {
+    "en": "Alkar's Alchemical Acid",
+    "zhTW": "阿爾卡的煉金藥劑"
+  },
+  "clientSkillId": 2211,
+  "icon": "/skills/alkar-s-alchemical-acid.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Throw Alkar's Alchemical Acid at target foe. Target and adjacent foes are struck for 40...50 damage. Destroyers take an additional 45...70 damage and they have Cracked Armor for 14...20 seconds.",
+      "zhTW": "朝目標敵人投擲阿爾卡的煉金藥劑，造成目標及鄰近敵人 40～50 傷害。而目標敵人為破壞者時，將使其受到 45～70 額外傷害與「碎甲」14～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "the-destroyer-challenge",
+          "en": "The Destroyer Challenge",
+          "zhTW": "The Destroyer Challenge",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "high-priest-alkar",
+              "en": "High Priest Alkar",
+              "zhTW": "High Priest Alkar",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/High_Priest_Alkar"
+          },
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          },
+          {
+            "name": {
+              "id": "central-transfer-chamber",
+              "en": "Central Transfer Chamber",
+              "zhTW": "中央轉送室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Central_Transfer_Chamber"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "The Destroyer Challenge (from High Priest Alkar in Battledepths or Central Transfer Chamber)",
+        "source": "https://wiki.guildwars.com/wiki/Alkar%27s_Alchemical_Acid",
+        "url": "https://wiki.guildwars.com/wiki/The_Destroyer_Challenge",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "朝目標敵人投擲阿爾卡的煉金藥劑，造成目標及鄰近敵人 40～50 傷害。而目標敵人為破壞者時，將使其受到 45～70 額外傷害與「碎甲」14～20 秒。",
+  "commonUses": [
+    "Deldrimor rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Alkar%27s_Alchemical_Acid",
+      "revision": 2679312,
+      "title": "Alkar's Alchemical Acid",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69851"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69852,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "朝目標敵人投擲阿爾卡的煉金藥劑，造成目標及鄰近敵人 %str2% 傷害。而目標敵人為破壞者時，將使其受到 %str1% 額外傷害與「碎甲」%str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

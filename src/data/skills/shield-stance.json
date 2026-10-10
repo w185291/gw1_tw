@@ -1,0 +1,405 @@
+{
+  "pvpOnly": false,
+  "id": "shield-stance",
+  "name": {
+    "en": "Shield Stance",
+    "zhTW": "舉盾態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 378,
+  "icon": "/skills/shield-stance.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "tactics",
+    "en": "Tactics",
+    "zhTW": "戰術",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 1...5...6 second[s], while wielding a shield, you have a 75% chance to block incoming attacks, and damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction).",
+      "zhTW": "持續 1～6 秒，當裝備盾時，你有 75% 機率「格擋」敵人的攻擊，依照你的力量屬性等級，每級使你獲得 2 的傷害減免。 (最多減少 15 )"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "tengsao",
+          "en": "Tengsao",
+          "zhTW": "Tengsao",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-amnoon-oasis",
+              "en": "The Amnoon Oasis",
+              "zhTW": "安奴綠洲",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Tengsao (The Amnoon Oasis)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Tengsao",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "cobble-poundstone",
+          "en": "Cobble Poundstone",
+          "zhTW": "Cobble Poundstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Cobble Poundstone (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Cobble_Poundstone",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "drub-gorefang",
+          "en": "Drub Gorefang",
+          "zhTW": "Drub Gorefang",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-great-northern-wall",
+              "en": "The Great Northern Wall",
+              "zhTW": "北方長城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Drub Gorefang (The Great Northern Wall)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Drub_Gorefang",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "spar-the-ravager",
+          "en": "Spar the Ravager",
+          "zhTW": "Spar the Ravager",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "fort-ranik",
+              "en": "Fort Ranik",
+              "zhTW": "瑞尼克要塞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Fort_Ranik"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Spar the Ravager (Fort Ranik)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Spar_the_Ravager",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "gorgaan-hatemonger",
+          "en": "Gorgaan Hatemonger",
+          "zhTW": "Gorgaan Hatemonger",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-breach",
+              "en": "The Breach",
+              "zhTW": "缺口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Breach"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gorgaan Hatemonger (The Breach)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Gorgaan_Hatemonger",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "charr-captain",
+          "en": "Charr Captain",
+          "zhTW": "Charr Captain",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-siege-of-piken-square",
+              "en": "The Siege of Piken Square",
+              "zhTW": "The Siege of Piken Square",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Siege_of_Piken_Square"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Charr Captain (The Breach, only during The Siege of Piken Square)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Charr_Captain",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "lumps-ruinator",
+          "en": "Lumps Ruinator",
+          "zhTW": "Lumps Ruinator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "diessa-lowlands",
+              "en": "Diessa Lowlands",
+              "zhTW": "底耶沙低地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Diessa_Lowlands"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lumps Ruinator (Diessa Lowlands)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Lumps_Ruinator",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "puugh-the-slasher",
+          "en": "Puugh the Slasher",
+          "zhTW": "Puugh the Slasher",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ruins-of-surmia",
+              "en": "Ruins of Surmia",
+              "zhTW": "蘇米亞廢墟",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Puugh the Slasher (Ruins of Surmia)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Puugh_the_Slasher",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "brand-the-brawler",
+          "en": "Brand the Brawler",
+          "zhTW": "Brand the Brawler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nolani-academy",
+              "en": "Nolani Academy",
+              "zhTW": "若拉尼學院",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nolani_Academy"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Brand the Brawler (Nolani Academy)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Brand_the_Brawler",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "yino-burlyhaunch",
+          "en": "Yino Burlyhaunch",
+          "zhTW": "Yino Burlyhaunch",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "borlis-pass",
+              "en": "Borlis Pass",
+              "zhTW": "柏里斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Borlis_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Yino Burlyhaunch (Borlis Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Yino_Burlyhaunch",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "dropping-eaves",
+          "en": "Dropping Eaves",
+          "zhTW": "Dropping Eaves",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ettin-s-back",
+              "en": "Ettin's Back",
+              "zhTW": "雙頭怪隱匿地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dropping Eaves (Ettin's Back)",
+        "source": "https://wiki.guildwars.com/wiki/Shield_Stance",
+        "url": "https://wiki.guildwars.com/wiki/Dropping_Eaves",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 1～6 秒，當裝備盾時，你有 75% 機率「格擋」敵人的攻擊，依照你的力量屬性等級，每級使你獲得 2 的傷害減免。 (最多減少 15 )",
+  "commonUses": [
+    "戰術 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shield_Stance",
+      "revision": 2695940,
+      "title": "Shield Stance",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+    "game-client://2026-10-09/string/25975"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25976,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，當裝備盾時，你有 %str1%%% 機率「格擋」敵人的攻擊，依照你的力量屬性等級，每級使你獲得 2 的傷害減免。 (最多減少 %str2% )"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

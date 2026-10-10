@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "avatar-of-lyssa",
+  "name": {
+    "en": "Avatar of Lyssa",
+    "zhTW": "麗莎化身",
+    "translationVerified": true
+  },
+  "clientSkillId": 1521,
+  "icon": "/skills/avatar-of-lyssa.png",
+  "profession": {
+    "id": "dervish",
+    "en": "Dervish",
+    "zhTW": "神喚",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "mysticism",
+    "en": "Mysticism",
+    "zhTW": "祕法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "form",
+    "en": "form",
+    "zhTW": "型態",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Elite Form. For 10...74...90 seconds, your Dervish enchantments recharge 50% faster and your attacks deal chaos damage. Whenever you lose a Dervish enchantment, steal 1 Energy from all nearby foes. This skill is disabled for 45 seconds.",
+      "zhTW": "持續 10～90 秒，神喚使加持回復速度加快 50% 、攻擊造成混沌傷害。每當你失去一項神喚使加持時，偷取附近所有敵人 1 能量。此技能在 45 秒內無法使用。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "acolyte-of-lyssa",
+          "en": "Acolyte of Lyssa",
+          "zhTW": "Acolyte of Lyssa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sunward-marches",
+              "en": "Sunward Marches",
+              "zhTW": "向陽邊境",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sunward_Marches"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Acolyte of Lyssa (Sunward Marches)",
+        "source": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa",
+        "url": "https://wiki.guildwars.com/wiki/Acolyte_of_Lyssa",
+        "unlockOnly": false,
+        "profession": "Dervish"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "持續 10～90 秒，神喚使加持回復速度加快 50% 、攻擊造成混沌傷害。每當你失去一項神喚使加持時，偷取附近所有敵人 1 能量。此技能在 45 秒內無法使用。",
+  "commonUses": [
+    "祕法 · 型態"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa",
+      "revision": 2664510,
+      "title": "Avatar of Lyssa",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized dervish skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+      "revision": 2607803,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_dervish_skill_names",
+    "game-client://2026-10-09/string/39871"
+  ],
+  "descriptionEvidence": {
+    "stringId": 39872,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，神喚使加持回復速度加快 %str2%%% 、攻擊造成混沌傷害。每當你失去一項神喚使加持時，偷取附近所有敵人 %str1% 能量。此技能在 45 秒內無法使用。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

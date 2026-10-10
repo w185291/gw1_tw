@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "signet-of-suffering",
+  "name": {
+    "en": "Signet of Suffering",
+    "zhTW": "苦難紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 1364,
+  "icon": "/skills/signet-of-suffering.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "blood-magic",
+    "en": "Blood Magic",
+    "zhTW": "血魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 4.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. You suffer from Bleeding for 6 seconds. The next Necromancer skill that targets a foe causes Bleeding for 2...13...16 seconds.",
+      "zhTW": "自身遭受流血 6 秒，你下一個對敵人使用的死靈法師技能，會使該目標遭受流血 2～16 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "fondalz-the-spiteful",
+          "en": "Fondalz the Spiteful",
+          "zhTW": "Fondalz the Spiteful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "poisoned-outcrops",
+              "en": "Poisoned Outcrops",
+              "zhTW": "劇毒地表",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Poisoned_Outcrops"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Fondalz the Spiteful (Poisoned Outcrops)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
+        "url": "https://wiki.guildwars.com/wiki/Fondalz_the_Spiteful",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "nehmak-the-unpleasant",
+          "en": "Nehmak the Unpleasant",
+          "zhTW": "Nehmak the Unpleasant",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-desolation",
+              "en": "Gate of Desolation",
+              "zhTW": "荒蕪之地入口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Nehmak the Unpleasant (Gate of Desolation)",
+        "source": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
+        "url": "https://wiki.guildwars.com/wiki/Nehmak_the_Unpleasant",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "自身遭受流血 6 秒，你下一個對敵人使用的死靈法師技能，會使該目標遭受流血 2～16 秒。",
+  "commonUses": [
+    "血魔法 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
+      "revision": 2735647,
+      "title": "Signet of Suffering",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/33980"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33981,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "自身遭受流血 %str2% 秒，你下一個對敵人使用的死靈法師技能，會使該目標遭受流血 %str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

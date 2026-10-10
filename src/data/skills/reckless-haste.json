@@ -1,0 +1,181 @@
+{
+  "pvpOnly": false,
+  "id": "reckless-haste",
+  "name": {
+    "en": "Reckless Haste",
+    "zhTW": "失心瘋",
+    "translationVerified": true
+  },
+  "clientSkillId": 834,
+  "icon": "/skills/reckless-haste.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "Hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Hex Spell. For 6...11...12 seconds, target foe and all adjacent foes are hexed with Reckless Haste. While hexed, they attack 25% faster but have a 50% chance to miss with attacks.",
+      "zhTW": "持續6～12秒，使目標敵人及其鄰近的所有敵人同時遭受此「降咒」，使他們的攻擊速度加快 25% ，但是卻有 50% 的機率發生攻擊失誤。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "zaln-the-jaded",
+          "en": "Zaln the Jaded",
+          "zhTW": "Zaln the Jaded",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "d-alessio-seaboard-explorable-area",
+              "en": "D'Alessio Seaboard (explorable area)",
+              "zhTW": "D'Alessio Seaboard (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Zaln the Jaded (D'Alessio Seaboard (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Zaln_the_Jaded",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "bredyss-longstride",
+          "en": "Bredyss Longstride",
+          "zhTW": "Bredyss Longstride",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "magus-stones",
+              "en": "Magus Stones",
+              "zhTW": "瑪古斯之石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Magus_Stones"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Bredyss Longstride (Magus Stones)",
+        "source": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+        "url": "https://wiki.guildwars.com/wiki/Bredyss_Longstride",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續6～12秒，使目標敵人及其鄰近的所有敵人同時遭受此「降咒」，使他們的攻擊速度加快 25% ，但是卻有 50% 的機率發生攻擊失誤。",
+  "commonUses": [
+    "詛咒 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+      "revision": 2741844,
+      "title": "Reckless Haste",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26608",
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26609,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續%str3%秒，使目標敵人及其鄰近的所有敵人同時遭受此「降咒」，使他們的攻擊速度加快 25%% ，但是卻有 %str1%%% 的機率發生攻擊失誤。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

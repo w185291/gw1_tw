@@ -1,0 +1,141 @@
+{
+  "pvpOnly": false,
+  "id": "simple-thievery",
+  "name": {
+    "en": "Simple Thievery",
+    "zhTW": "簡易竊取",
+    "translationVerified": true
+  },
+  "clientSkillId": 1350,
+  "icon": "/skills/simple-thievery.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "domination-magic",
+    "en": "Domination Magic",
+    "zhTW": "支配魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 10.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Interrupt target foe's action. If that action was a skill, that skill is disabled for 5...17...20 seconds, and Simple Thievery is replaced by that skill.",
+      "zhTW": "中斷目標動作，若中斷的是一項技能，簡易竊取被該技能取代而且目標敵人無法使用該技能5～20秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "midshipman-morolah",
+          "en": "Midshipman Morolah",
+          "zhTW": "Midshipman Morolah",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "barbarous-shore",
+              "en": "Barbarous Shore",
+              "zhTW": "野蠻河岸",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Barbarous_Shore"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Midshipman Morolah (Barbarous Shore)",
+        "source": "https://wiki.guildwars.com/wiki/Simple_Thievery",
+        "url": "https://wiki.guildwars.com/wiki/Midshipman_Morolah",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "中斷目標動作，若中斷的是一項技能，簡易竊取被該技能取代而且目標敵人無法使用該技能5～20秒。",
+  "commonUses": [
+    "支配魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [
+    {
+      "id": "arcane-thievery",
+      "en": "Arcane Thievery",
+      "zhTW": "魔法竊取",
+      "translationVerified": true
+    },
+    {
+      "id": "arcane-larceny",
+      "en": "Arcane Larceny",
+      "zhTW": "盜竊魔法",
+      "translationVerified": true
+    }
+  ],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Simple_Thievery",
+      "revision": 2723308,
+      "title": "Simple Thievery",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33280",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33281,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "中斷目標動作，若中斷的是一項技能，簡易竊取被該技能取代而且目標敵人無法使用該技能%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

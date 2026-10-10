@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "healer-s-covenant",
+  "name": {
+    "en": "Healer's Covenant",
+    "zhTW": "治癒者契約",
+    "translationVerified": true
+  },
+  "clientSkillId": 1394,
+  "icon": "/skills/healer-s-covenant.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "healing-prayers",
+    "en": "Healing Prayers",
+    "zhTW": "治療祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. While you maintain this enchantment, your Healing Prayers spells heal for 20% less Health, but cost -1...3...4 Energy.",
+      "zhTW": "維持此加持時，你的治療祈禱屬性魔法，能量消耗減少 1～4 ，但是治療效果降低 20% 。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "bringer-of-deceit",
+          "en": "Bringer of Deceit",
+          "zhTW": "Bringer of Deceit",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "domain-of-pain",
+              "en": "Domain of Pain",
+              "zhTW": "苦痛領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Domain_of_Pain"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bringer of Deceit (Domain of Pain)",
+        "source": "https://wiki.guildwars.com/wiki/Healer%27s_Covenant",
+        "url": "https://wiki.guildwars.com/wiki/Bringer_of_Deceit",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "維持此加持時，你的治療祈禱屬性魔法，能量消耗減少 1～4 ，但是治療效果降低 20% 。",
+  "commonUses": [
+    "治療祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Healer%27s_Covenant",
+      "revision": 2726520,
+      "title": "Healer's Covenant",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/34779"
+  ],
+  "descriptionEvidence": {
+    "stringId": 34780,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "維持此加持時，你的治療祈禱屬性魔法，能量消耗減少 %str2% ，但是治療效果降低 %str1%%% 。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

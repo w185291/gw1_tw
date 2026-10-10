@@ -1,0 +1,9 @@
+.skillNavigation { display: grid; gap: 12px; margin: 20px 0 30px; }
+.navigationGroup { padding: 14px; background: #151e29; border: 1px solid var(--line); border-radius: 6px; }
+.navigationLabel { display: block; margin-bottom: 10px; color: var(--gold); font-weight: 700; }
+.navigationLinks { display: flex; flex-wrap: wrap; gap: 8px; }
+.navigationLinks a { display: flex; flex-direction: column; gap: 2px; min-width: 112px; padding: 9px 12px; color: var(--muted); text-decoration: none; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+.navigationLinks a small { font-size: 12px; }
+.navigationLinks a:hover { color: var(--text); background: #283341; }
+.navigationLinks a[aria-current='page'] { color: var(--gold); border-color: var(--gold-deep); background: #342b1e; }
+@media (max-width: 600px) { .navigationLinks a { min-width: calc(50% - 4px); } }

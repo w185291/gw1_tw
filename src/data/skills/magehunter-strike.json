@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "magehunter-strike",
+  "name": {
+    "en": "Magehunter Strike",
+    "zhTW": "獵魔者攻擊",
+    "translationVerified": true
+  },
+  "clientSkillId": 1694,
+  "icon": "/skills/magehunter-strike.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "melee-attack",
+    "en": "melee attack",
+    "zhTW": "近身攻擊技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 3.0,
+  "description": {
+    "pve": {
+      "en": "Elite Melee Attack. If this attack hits, you strike for +7...21...25 damage. If your target is under the effects of an enchantment, this attack cannot be blocked.",
+      "zhTW": "命中時對目標造成 7～25 額外傷害，若該目標擁有「加持」，則此攻擊無法被「格擋」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "captain-kavaka",
+          "en": "Captain Kavaka",
+          "zhTW": "Captain Kavaka",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "consulate-docks",
+              "en": "Consulate Docks",
+              "zhTW": "領事館碼頭",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Consulate_Docks"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Captain Kavaka (Consulate Docks)",
+        "source": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Kavaka",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "colonel-chaklin",
+          "en": "Colonel Chaklin",
+          "zhTW": "Colonel Chaklin",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Colonel Chaklin (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
+        "url": "https://wiki.guildwars.com/wiki/Colonel_Chaklin",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "命中時對目標造成 7～25 額外傷害，若該目標擁有「加持」，則此攻擊無法被「格擋」。",
+  "commonUses": [
+    "力量 · 近身攻擊技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
+      "revision": 2733263,
+      "title": "Magehunter Strike",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44033",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44034,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "命中時對目標造成 %str1% 額外傷害，若該目標擁有「加持」，則此攻擊無法被「格擋」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

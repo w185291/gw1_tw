@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "assault-enchantments",
+  "name": {
+    "en": "Assault Enchantments",
+    "zhTW": "衝擊強化",
+    "translationVerified": true
+  },
+  "clientSkillId": 1643,
+  "icon": "/skills/assault-enchantments.png",
+  "profession": {
+    "id": "assassin",
+    "en": "Assassin",
+    "zhTW": "刺客",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "skill",
+    "en": "skill",
+    "zhTW": "技能",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Skill. Must follow a dual attack. Target foe loses all enchantments.",
+      "zhTW": "必須接續在「雙重攻擊」之後，擊中時使目標敵人失去所有「加持」。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "faveo-aggredior",
+          "en": "Faveo Aggredior",
+          "zhTW": "Faveo Aggredior",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nightfallen-jahai",
+              "en": "Nightfallen Jahai",
+              "zhTW": "夜蝕闇殞 夏亥",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nightfallen_Jahai"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Faveo Aggredior (Nightfallen Jahai)",
+        "source": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
+        "url": "https://wiki.guildwars.com/wiki/Faveo_Aggredior",
+        "unlockOnly": false,
+        "profession": "Assassin"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Nightfall"
+  ],
+  "explanation": "必須接續在「雙重攻擊」之後，擊中時使目標敵人失去所有「加持」。",
+  "commonUses": [
+    "無屬性 · 技能"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
+      "revision": 2628517,
+      "title": "Assault Enchantments",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized assassin skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+      "revision": 2709720,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_assassin_skill_names",
+    "game-client://2026-10-09/string/43997"
+  ],
+  "descriptionEvidence": {
+    "stringId": 43998,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "必須接續在「雙重攻擊」之後，擊中時使目標敵人失去所有「加持」。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

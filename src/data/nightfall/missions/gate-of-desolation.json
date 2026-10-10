@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,25 @@
     {
       "id": "zhed-shadowhoof",
       "name": {
-        "zhTW": "影爪傑德 / Zhed Shadowhoof",
+        "zhTW": "影爪 杰德",
         "en": "Zhed Shadowhoof"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/46769",
+        "game-client://2026-10-09/string/51061",
+        "game-client://2026-10-09/string/55338"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          46769,
+          51061,
+          55338
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -136,91 +151,178 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Avah the Crafty",
+        "zhTW": "Avah the Crafty（繁中名稱待確認）",
         "en": "Avah the Crafty"
       },
       "profession": "戰士",
       "importantSkills": [
+        "\"For Great Justice!\"",
+        "Distracting Blow",
+        "Final Thrust",
+        "Soldier's Stance",
+        "Soldier's Strike"
+      ],
+      "eliteSkills": [
         "Soldier's Stance"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "讓前排承受近戰，後排分散。若有範圍攻擊或擊倒，避免圍站；使用致盲、虛弱或格擋減少普通攻擊，再集中輸出。",
+      "dangerousSkills": [
+        {
+          "name": "Final Thrust",
+          "counter": "低血量前排先補起來或撤離，避免被額外傷害收掉。",
+          "source": "https://wiki.guildwars.com/wiki/Avah_the_Crafty"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Avah_the_Crafty",
+      "revision": 2134515
     },
     {
       "name": {
-        "zhTW": "Nehmak the Unpleasant",
+        "zhTW": "Nehmak the Unpleasant（繁中名稱待確認）",
         "en": "Nehmak the Unpleasant"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Faintheartedness",
+        "Parasitic Bond",
+        "Signet of Suffering",
+        "Vocal Minority",
+        "Well of Darkness"
+      ],
+      "eliteSkills": [
         "Signet of Suffering"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Nehmak_the_Unpleasant",
+      "revision": 2105562
     },
     {
       "name": {
-        "zhTW": "Amind the Bitter",
+        "zhTW": "Amind the Bitter（繁中名稱待確認）",
         "en": "Amind the Bitter"
       },
-      "profession": "幻術師",
+      "profession": "Mesmer",
       "importantSkills": [
+        "Cry of Frustration",
+        "Ether Feast",
+        "Hex Eater Vortex",
+        "Ignorance",
+        "Signet of Humility"
+      ],
+      "eliteSkills": [
         "Hex Eater Vortex"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "後排分散，看到能量消耗或攻擊懲罰降咒就解除；打斷重要施法。物理隊不要頂著 Empathy 持續攻擊，施法者也不要在反法降咒下連續施法。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Amind_the_Bitter",
+      "revision": 2118056
     },
     {
       "name": {
-        "zhTW": "Chakeh the Lonely",
+        "zhTW": "Chakeh the Lonely（繁中名稱待確認）",
         "en": "Chakeh the Lonely"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "\"Go for the Eyes!\"",
+        "\"Make Your Time!\"",
+        "\"We Shall Return!\"",
+        "Disrupting Throw",
+        "Signet of Return",
         "Soldier's Fury"
       ],
+      "eliteSkills": [
+        "Soldier's Fury"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Chakeh_the_Lonely",
+      "revision": 2115700
     },
     {
       "name": {
-        "zhTW": "Chundu the Meek",
+        "zhTW": "Chundu the Meek（繁中名稱待確認）",
         "en": "Chundu the Meek"
       },
-      "profession": "神喚使",
+      "profession": "Dervish",
       "importantSkills": [
+        "Crippling Sweep",
+        "Faithful Intervention",
+        "Reap Impurities",
+        "Rending Sweep",
         "Vow of Silence"
       ],
+      "eliteSkills": [
+        "Vow of Silence"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Chundu_the_Meek",
+      "revision": 2410620
     },
     {
       "name": {
-        "zhTW": "Queen Aijundu",
+        "zhTW": "Queen Aijundu（繁中名稱待確認）",
         "en": "Queen Aijundu"
       },
       "profession": "遊俠",
-      "importantSkills": [],
+      "importantSkills": [
+        "Queen Bite",
+        "Queen Heal",
+        "Choking Breath",
+        "Blinding Breath",
+        "Burning Breath",
+        "Queen Siege",
+        "Queen Thump"
+      ],
+      "eliteSkills": [],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "靠地形阻擋投射物，避免後排同站吃範圍箭。若敵方開格擋姿態，使用移除姿態或非攻擊傷害；自我治療開始施放時打斷。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Gate_of_Desolation#Bosses",
-      "revision": 2717145
+      "source": "https://wiki.guildwars.com/wiki/Queen_Aijundu",
+      "revision": 2409256
     }
   ],
   "recommendedTeam": [
@@ -337,6 +439,48 @@
       "revision": 2730658,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Avah the Crafty",
+      "url": "https://wiki.guildwars.com/wiki/Avah_the_Crafty",
+      "revision": 2134515,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Nehmak the Unpleasant",
+      "url": "https://wiki.guildwars.com/wiki/Nehmak_the_Unpleasant",
+      "revision": 2105562,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Amind the Bitter",
+      "url": "https://wiki.guildwars.com/wiki/Amind_the_Bitter",
+      "revision": 2118056,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Chakeh the Lonely",
+      "url": "https://wiki.guildwars.com/wiki/Chakeh_the_Lonely",
+      "revision": 2115700,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Chundu the Meek",
+      "url": "https://wiki.guildwars.com/wiki/Chundu_the_Meek",
+      "revision": 2410620,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Queen Aijundu",
+      "url": "https://wiki.guildwars.com/wiki/Queen_Aijundu",
+      "revision": 2409256,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -418,5 +562,29 @@
       "expert": "救1–2隻",
       "master": "救三隻幼蟲"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/35019"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      35019
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation",
+    "revision": 2717145,
+    "heroes": [
+      "Zhed Shadowhoof"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

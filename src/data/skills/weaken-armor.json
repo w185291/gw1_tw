@@ -1,0 +1,460 @@
+{
+  "pvpOnly": false,
+  "id": "weaken-armor",
+  "name": {
+    "en": "Weaken Armor",
+    "zhTW": "防禦弱化",
+    "translationVerified": true
+  },
+  "clientSkillId": 159,
+  "icon": "/skills/weaken-armor.png",
+  "profession": {
+    "id": "necromancer",
+    "en": "Necromancer",
+    "zhTW": "死靈法師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "curses",
+    "en": "Curses",
+    "zhTW": "詛咒",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Target foe and foes adjacent to your target have Cracked Armor for 5...17...20 seconds.",
+      "zhTW": "目標及所有鄰近敵人受到碎甲5～20秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dau",
+          "en": "Dau",
+          "zhTW": "Dau",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-mouth-of-torment",
+              "en": "The Mouth of Torment",
+              "zhTW": "苦痛之地隘口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Dau (The Mouth of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Dau",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "supplies-for-the-duke",
+          "en": "Supplies for the Duke",
+          "zhTW": "Supplies for the Duke",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Supplies for the Duke (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Supplies_for_the_Duke",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "sapph-blacktracker",
+          "en": "Sapph Blacktracker",
+          "zhTW": "Sapph Blacktracker",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "snake-dance",
+              "en": "Snake Dance",
+              "zhTW": "蛇舞",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Snake_Dance"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Sapph Blacktracker (Snake Dance)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Sapph_Blacktracker",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "nighh-spinechill",
+          "en": "Nighh SpineChill",
+          "zhTW": "Nighh SpineChill",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "talus-chute",
+              "en": "Talus Chute",
+              "zhTW": "碎石坡道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Talus_Chute"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Nighh SpineChill (Talus Chute)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Nighh_SpineChill",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "ceru-gloomrunner",
+          "en": "Ceru Gloomrunner",
+          "zhTW": "Ceru Gloomrunner",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "iron-mines-of-moladune",
+              "en": "Iron Mines of Moladune",
+              "zhTW": "莫拉登礦山",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Iron_Mines_of_Moladune"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ceru Gloomrunner (Iron Mines of Moladune)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Ceru_Gloomrunner",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "tain-the-corrupter",
+          "en": "Tain the Corrupter",
+          "zhTW": "Tain the Corrupter",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yatendi-canyons",
+              "en": "Yatendi Canyons",
+              "zhTW": "亞天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yatendi_Canyons"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Tain the Corrupter (Yatendi Canyons)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Tain_the_Corrupter",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "torment-weaver",
+          "en": "Torment Weaver",
+          "zhTW": "Torment Weaver",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "turai-s-procession",
+              "en": "Turai's Procession",
+              "zhTW": "托雷長廊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Turai%27s_Procession"
+          },
+          {
+            "name": {
+              "id": "battle-of-turai-s-procession",
+              "en": "Battle of Turai's Procession",
+              "zhTW": "Battle of Turai's Procession",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battle_of_Turai%27s_Procession"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Torment Weaver (Turai's Procession, during Battle of Turai's Procession)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Torment_Weaver",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "hauseh-the-defiler",
+          "en": "Hauseh the Defiler",
+          "zhTW": "Hauseh the Defiler",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          },
+          {
+            "name": {
+              "id": "a-show-of-force",
+              "en": "A Show of Force",
+              "zhTW": "A Show of Force",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Show_of_Force"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hauseh the Defiler (The Sulfurous Wastes, during A Show of Force)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Hauseh_the_Defiler",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      },
+      {
+        "name": {
+          "id": "rebirther-jirath",
+          "en": "Rebirther Jirath",
+          "zhTW": "Rebirther Jirath",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-ruptured-heart",
+              "en": "The Ruptured Heart",
+              "zhTW": "破裂之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Ruptured_Heart"
+          },
+          {
+            "name": {
+              "id": "a-tasty-morsel",
+              "en": "A Tasty Morsel",
+              "zhTW": "A Tasty Morsel",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/A_Tasty_Morsel"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Rebirther Jirath (The Ruptured Heart, during A Tasty Morsel)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Rebirther_Jirath",
+        "unlockOnly": false,
+        "profession": "Necromancer"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "godaj",
+          "en": "Godaj",
+          "zhTW": "Godaj",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lair-of-the-forgotten",
+              "en": "Lair of the Forgotten",
+              "zhTW": "被遺忘者的巢穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Godaj (Lair of the Forgotten)",
+        "source": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+        "url": "https://wiki.guildwars.com/wiki/Godaj",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "目標及所有鄰近敵人受到碎甲5～20秒。",
+  "commonUses": [
+    "詛咒 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+      "revision": 2734976,
+      "title": "Weaken Armor",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized necromancer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+      "revision": 2607811,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_necromancer_skill_names",
+    "game-client://2026-10-09/string/25138"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25139,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "目標及所有鄰近敵人受到碎甲%str3%秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

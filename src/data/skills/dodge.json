@@ -1,0 +1,268 @@
+{
+  "pvpOnly": false,
+  "id": "dodge",
+  "name": {
+    "en": "Dodge",
+    "zhTW": "閃避",
+    "translationVerified": true
+  },
+  "clientSkillId": 425,
+  "icon": "/skills/dodge.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "expertise",
+    "en": "Expertise",
+    "zhTW": "專精",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2130"
+    ]
+  },
+  "type": {
+    "id": "stance",
+    "en": "Stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 30.0,
+  "description": {
+    "pve": {
+      "en": "Stance. For 5...10...11 seconds, you move 33% faster and have a 27...65...75% chance to block incoming projectiles. Dodge ends if you attack.",
+      "zhTW": "持續 5～11 秒，你的移動速度增快 33% ，並且有 27～75% 的機率「格擋」投射性攻擊。若你進行攻擊，則閃避的效果停止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "captain-osric",
+          "en": "Captain Osric",
+          "zhTW": "Captain Osric",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "yak-s-bend",
+              "en": "Yak's Bend",
+              "zhTW": "犛牛村",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Captain Osric (Yak's Bend)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/Captain_Osric",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [
+      {
+        "name": {
+          "id": "the-charr-staging-area",
+          "en": "The Charr Staging Area",
+          "zhTW": "The Charr Staging Area",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "old-ascalon",
+              "en": "Old Ascalon",
+              "zhTW": "舊阿斯卡隆",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Old_Ascalon"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "The Charr Staging Area (Old Ascalon)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/The_Charr_Staging_Area",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [
+      {
+        "name": {
+          "id": "ruinwing",
+          "en": "Ruinwing",
+          "zhTW": "Ruinwing",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ruinwing (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/Ruinwing",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "bone-dragon-boss",
+          "en": "Bone Dragon (boss)",
+          "zhTW": "Bone Dragon (boss)",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Bone Dragon (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/Bone_Dragon_(boss)",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "jiao-kuai-the-swift",
+          "en": "Jiao Kuai the Swift",
+          "zhTW": "Jiao Kuai the Swift",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaya-bluffs",
+              "en": "Jaya Bluffs",
+              "zhTW": "蛇野斷崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaya_Bluffs"
+          },
+          {
+            "name": {
+              "id": "honorable-combat",
+              "en": "Honorable Combat",
+              "zhTW": "Honorable Combat",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Honorable_Combat"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Jiao Kuai the Swift (Jaya Bluffs, during Honorable Combat)",
+        "source": "https://wiki.guildwars.com/wiki/Dodge",
+        "url": "https://wiki.guildwars.com/wiki/Jiao_Kuai_the_Swift",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～11 秒，你的移動速度增快 33% ，並且有 27～75% 的機率「格擋」投射性攻擊。若你進行攻擊，則閃避的效果停止。",
+  "commonUses": [
+    "Expertise · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Dodge",
+      "revision": 2732827,
+      "title": "Dodge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26208",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26209,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，你的移動速度增快 33%% ，並且有 %str1%%% 的機率「格擋」投射性攻擊。若你進行攻擊，則閃避的效果停止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

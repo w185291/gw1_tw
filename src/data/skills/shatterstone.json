@@ -1,0 +1,270 @@
+{
+  "pvpOnly": false,
+  "id": "shatterstone",
+  "name": {
+    "en": "Shatterstone",
+    "zhTW": "碎裂冰石",
+    "translationVerified": true
+  },
+  "clientSkillId": 809,
+  "icon": "/skills/shatterstone.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "water-magic",
+    "en": "Water Magic",
+    "zhTW": "水系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. Target foe is struck for 25...85...100 cold damage, moves 66% slower, and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...85...100 cold damage.",
+      "zhTW": "對目標造成 25～100 冰冷傷害，使其移動速度降低 66%，並施加 3 秒降咒。降咒結束時對目標與附近敵人造成 25～100 冰冷傷害。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "the-ancient",
+          "en": "The Ancient",
+          "zhTW": "The Ancient",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arborstone",
+              "en": "Arborstone",
+              "zhTW": "亭石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arborstone"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "The Ancient (Arborstone)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/The_Ancient",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "wiseroot-shatterstone",
+          "en": "Wiseroot Shatterstone",
+          "zhTW": "Wiseroot Shatterstone",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-eternal-grove-explorable-area",
+              "en": "The Eternal Grove (explorable area)",
+              "zhTW": "The Eternal Grove (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(explorable_area)"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Wiseroot Shatterstone (The Eternal Grove (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Wiseroot_Shatterstone",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "wavecrest-stonebreak",
+          "en": "Wavecrest Stonebreak",
+          "zhTW": "Wavecrest Stonebreak",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rhea-s-crater",
+              "en": "Rhea's Crater",
+              "zhTW": "席亞火山口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rhea%27s_Crater"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Wavecrest Stonebreak (Rhea's Crater)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Wavecrest_Stonebreak",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "whiteout",
+          "en": "Whiteout",
+          "zhTW": "Whiteout",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "jaga-moraine",
+              "en": "Jaga Moraine",
+              "zhTW": "亞加 摩瑞音",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Jaga_Moraine"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Whiteout (Jaga Moraine)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Whiteout",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "fragment-of-antiquities",
+          "en": "Fragment of Antiquities",
+          "zhTW": "Fragment of Antiquities",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sepulchre-of-dragrimmar",
+              "en": "Sepulchre of Dragrimmar",
+              "zhTW": "爪格林瑪墳墓",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sepulchre_of_Dragrimmar"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Fragment of Antiquities (Sepulchre of Dragrimmar)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Fragment_of_Antiquities",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "regent-of-ice",
+          "en": "Regent of Ice",
+          "zhTW": "Regent of Ice",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Regent of Ice (Sepulchre of Dragrimmar, level 1)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Regent_of_Ice",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "ancient-vaettir",
+          "en": "Ancient Vaettir",
+          "zhTW": "Ancient Vaettir",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "raven-s-point",
+              "en": "Raven's Point",
+              "zhTW": "渡鴉岬角",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Raven%27s_Point"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Ancient Vaettir (Raven's Point; two on level 1, three on level 2)",
+        "source": "https://wiki.guildwars.com/wiki/Shatterstone",
+        "url": "https://wiki.guildwars.com/wiki/Ancient_Vaettir",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions"
+  ],
+  "explanation": "對目標造成 25～100 冰冷傷害，使其移動速度降低 66%，並施加 3 秒降咒。降咒結束時對目標與附近敵人造成 25～100 冰冷傷害。",
+  "commonUses": [
+    "水系魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shatterstone",
+      "revision": 2740609,
+      "title": "Shatterstone",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26720",
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26721,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "Target foe is struck for %str1% cold damage, moves 66%% slower, and, is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for %str2% cold damage."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

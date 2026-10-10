@@ -1,0 +1,193 @@
+{
+  "id": "weapon-of-fury",
+  "name": {
+    "en": "Weapon of Fury",
+    "zhTW": "狂暴武裝",
+    "translationVerified": true,
+    "translationSources": [
+      "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+    ]
+  },
+  "clientSkillId": 1749,
+  "icon": "/skills/weapon-of-fury.png",
+  "profession": {
+    "id": "ritualist",
+    "en": "Ritualist",
+    "zhTW": "祭祀",
+    "translationVerified": true,
+    "translationSources": [
+      "game-client://2026-10-09/string/2066"
+    ]
+  },
+  "attribute": {
+    "id": "channeling-magic",
+    "en": "Channeling Magic",
+    "zhTW": "導引魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "weapon-spell",
+    "en": "weapon spell",
+    "zhTW": "武裝魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 8.0,
+  "description": {
+    "pve": {
+      "en": "Elite Weapon Spell. For 5...17...20 seconds, target ally gains 100% more adrenaline and 1 Energy whenever that ally successfully hits with an attack.",
+      "zhTW": "持續 5～20 秒，每當目標盟友攻擊成功時，該盟友獲得的怒氣值增加 100% 並且獲得 1 能量。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "podaltur-the-angry",
+          "en": "Podaltur the Angry",
+          "zhTW": "Podaltur the Angry",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dejarin-estate",
+              "en": "Dejarin Estate",
+              "zhTW": "達賈林莊園",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Podaltur the Angry (Dejarin Estate)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Podaltur_the_Angry",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "bohdalz-the-furious",
+          "en": "Bohdalz the Furious",
+          "zhTW": "Bohdalz the Furious",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "vehtendi-valley",
+              "en": "Vehtendi Valley",
+              "zhTW": "巍天帝峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Vehtendi_Valley"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Bohdalz the Furious (Vehtendi Valley)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Bohdalz_the_Furious",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      },
+      {
+        "name": {
+          "id": "shock-of-destruction",
+          "en": "Shock of Destruction",
+          "zhTW": "Shock of Destruction",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arbor-bay",
+              "en": "Arbor Bay",
+              "zhTW": "安博灣",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arbor_Bay"
+          },
+          {
+            "name": {
+              "id": "o-brave-new-world",
+              "en": "O Brave New World",
+              "zhTW": "O Brave New World",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/O_Brave_New_World"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Shock of Destruction (Arbor Bay, only during O Brave New World)",
+        "source": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
+        "url": "https://wiki.guildwars.com/wiki/Shock_of_Destruction",
+        "unlockOnly": false,
+        "profession": "Ritualist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall"
+  ],
+  "explanation": "持續 5～20 秒，每當目標盟友攻擊成功時，該盟友獲得的怒氣值增加 100% 並且獲得 1 能量。",
+  "commonUses": [
+    "Channeling Magic 技能搭配"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
+      "revision": 2738733,
+      "title": "Weapon of Fury",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ritualist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names",
+      "revision": 2607817,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/44099",
+    "https://wiki.guildwars.com/wiki/Localized_ritualist_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 44100,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，每當目標盟友攻擊成功時，該盟友獲得的怒氣值增加 %str1%%% 並且獲得 1 能量。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

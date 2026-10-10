@@ -1,0 +1,557 @@
+{
+  "pvpOnly": false,
+  "id": "convert-hexes",
+  "name": {
+    "en": "Convert Hexes",
+    "zhTW": "降咒轉換",
+    "translationVerified": true
+  },
+  "clientSkillId": 303,
+  "icon": "/skills/convert-hexes.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "core",
+    "en": "Core",
+    "zhTW": "共通技能"
+  },
+  "elite": false,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Spell. Remove all hexes from target other ally. For 8...18...20 seconds, that ally gains +10 armor for each Necromancer hex that was removed.",
+      "zhTW": "消除目標其他盟友身上的所有「降咒」。每消除一個死靈法師的「降咒」，該盟友增加 10 防禦，持續 8～20 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [
+      {
+        "name": {
+          "id": "steig",
+          "en": "Steig",
+          "zhTW": "Steig",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "camp-rankor",
+              "en": "Camp Rankor",
+              "zhTW": "藍口營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Camp_Rankor"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Steig (Camp Rankor)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Steig",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "dakk",
+          "en": "Dakk",
+          "zhTW": "Dakk",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ember-light-camp",
+              "en": "Ember Light Camp",
+              "zhTW": "殘火營地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Dakk (Ember Light Camp)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Dakk",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "michiko",
+          "en": "Michiko",
+          "zhTW": "Michiko",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kaineng-center",
+              "en": "Kaineng Center",
+              "zhTW": "凱寧中心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kaineng_Center"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Michiko (Kaineng Center)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Michiko",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "zendeht",
+          "en": "Zendeht",
+          "zhTW": "Zendeht",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gate-of-torment",
+              "en": "Gate of Torment",
+              "zhTW": "苦痛之門",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Zendeht (Gate of Torment)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Zendeht",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "abbot-ramoth",
+          "en": "Abbot Ramoth",
+          "zhTW": "Abbot Ramoth",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-black-curtain",
+              "en": "The Black Curtain",
+              "zhTW": "黑色帷幕",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain"
+          },
+          {
+            "name": {
+              "id": "the-false-gods",
+              "en": "The False Gods",
+              "zhTW": "The False Gods",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_False_Gods"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Abbot Ramoth (The Black Curtain, only during The False Gods)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Abbot_Ramoth",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "ramm-the-benevolent",
+          "en": "Ramm the Benevolent",
+          "zhTW": "Ramm the Benevolent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "bloodstone-fen",
+              "en": "Bloodstone Fen",
+              "zhTW": "血石沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ramm the Benevolent (Bloodstone Fen)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Ramm_the_Benevolent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "garr-the-merciful",
+          "en": "Garr the Merciful",
+          "zhTW": "Garr the Merciful",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "aurora-glade",
+              "en": "Aurora Glade",
+              "zhTW": "歐若拉林地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Aurora_Glade"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Garr the Merciful (Aurora Glade)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Garr_the_Merciful",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "gilroy-the-stoic",
+          "en": "Gilroy the Stoic",
+          "zhTW": "Gilroy the Stoic",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "twin-serpent-lakes",
+              "en": "Twin Serpent Lakes",
+              "zhTW": "雙頭蛇湖泊",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Gilroy the Stoic (Twin Serpent Lakes)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Gilroy_the_Stoic",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "corbin-the-upright",
+          "en": "Corbin the Upright",
+          "zhTW": "Corbin the Upright",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province",
+              "en": "Riverside Province",
+              "zhTW": "河畔地帶",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Corbin the Upright (Riverside Province)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Corbin_the_Upright",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "selwin-the-fervent",
+          "en": "Selwin the Fervent",
+          "zhTW": "Selwin the Fervent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sanctum-cay",
+              "en": "Sanctum Cay",
+              "zhTW": "神聖沙灘",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Selwin the Fervent (Sanctum Cay)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Selwin_the_Fervent",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "barthimus-the-provident",
+          "en": "Barthimus the Provident",
+          "zhTW": "Barthimus the Provident",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "cursed-lands-war-in-kryta",
+              "en": "Cursed Lands (War in Kryta)",
+              "zhTW": "Cursed Lands (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Cursed_Lands_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Barthimus the Provident (Cursed Lands (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Barthimus_the_Provident",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "commander-noss",
+          "en": "Commander Noss",
+          "zhTW": "Commander Noss",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-floodplain-of-mahnkelon",
+              "en": "The Floodplain of Mahnkelon",
+              "zhTW": "曼克隆氾濫平原",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Floodplain_of_Mahnkelon"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Noss (The Floodplain of Mahnkelon)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Noss",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "taskmaster-sadi-belai",
+          "en": "Taskmaster Sadi-Belai",
+          "zhTW": "Taskmaster Sadi-Belai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "kodonur-crossroads",
+              "en": "Kodonur Crossroads",
+              "zhTW": "科登諾路口",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Taskmaster Sadi-Belai (Kodonur Crossroads)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Taskmaster_Sadi-Belai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "commander-sadi-belai",
+          "en": "Commander Sadi-Belai",
+          "zhTW": "Commander Sadi-Belai",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "forum-highlands",
+              "en": "Forum Highlands",
+              "zhTW": "高地廣場",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Forum_Highlands"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Commander Sadi-Belai (Forum Highlands)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Commander_Sadi-Belai",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [
+      {
+        "name": {
+          "id": "gedrel-of-ascalon",
+          "en": "Gedrel of Ascalon",
+          "zhTW": "Gedrel of Ascalon",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "eye-of-the-north-outpost",
+              "en": "Eye of the North (outpost)",
+              "zhTW": "Eye of the North (outpost)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Eye_of_the_North_(outpost)"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Gedrel of Ascalon (Eye of the North (outpost))",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Gedrel_of_Ascalon",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "kodan",
+          "en": "Kodan",
+          "zhTW": "Kodan",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "gunnar-s-hold",
+              "en": "Gunnar's Hold",
+              "zhTW": "甘拿的佔領地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Gunnar%27s_Hold"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Kodan (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Kodan",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "tyr-the-skaald",
+          "en": "Tyr the Skaald",
+          "zhTW": "Tyr the Skaald",
+          "translationVerified": false
+        },
+        "locations": [],
+        "campaign": "Eye of the North",
+        "details": "Tyr the Skaald (Gunnar's Hold)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Tyr_the_Skaald",
+        "unlockOnly": false,
+        "profession": null
+      },
+      {
+        "name": {
+          "id": "lexx",
+          "en": "Lexx",
+          "zhTW": "Lexx",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "rata-sum",
+              "en": "Rata Sum",
+              "zhTW": "洛達頂點",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Rata_Sum"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lexx (Rata Sum)",
+        "source": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+        "url": "https://wiki.guildwars.com/wiki/Lexx",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Factions",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "消除目標其他盟友身上的所有「降咒」。每消除一個死靈法師的「降咒」，該盟友增加 10 防禦，持續 8～20 秒。",
+  "commonUses": [
+    "防護祈禱 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+      "revision": 2693703,
+      "title": "Convert Hexes",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25816"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25817,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "消除目標其他盟友身上的所有「降咒」。每消除一個死靈法師的「降咒」，該盟友增加 10 防禦，持續 %str3% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

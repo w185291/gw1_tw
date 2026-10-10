@@ -11,7 +11,7 @@
   },
   "type": "cooperative-mission",
   "category": "main-story",
-  "status": "complete",
+  "status": "draft",
   "translationStatus": "verified",
   "verificationStatus": "source-checked",
   "aliases": [
@@ -50,10 +50,25 @@
     {
       "id": "zhed-shadowhoof",
       "name": {
-        "zhTW": "影爪傑德 / Zhed Shadowhoof",
+        "zhTW": "影爪 杰德",
         "en": "Zhed Shadowhoof"
       },
-      "required": true
+      "required": true,
+      "translationVerified": true,
+      "translationStatus": "verified",
+      "translationSources": [
+        "game-client://2026-10-09/string/46769",
+        "game-client://2026-10-09/string/51061",
+        "game-client://2026-10-09/string/55338"
+      ],
+      "gameTextEvidence": {
+        "stringIds": [
+          46769,
+          51061,
+          55338
+        ],
+        "manifest": "docs/reference/game-client-evidence.json"
+      }
     }
   ],
   "rewardTiers": [
@@ -112,7 +127,7 @@
       "content": "分批清內部施法者，最後殺Overseer Boktek和Haubeh。別把所有友軍與自己堵進角落。"
     }
   ],
-  "routeSummary": "凡特墓地 → 科登諾路口 → 波甘驛站 → 裡歐恩難民營",
+  "routeSummary": "凡特墓地 → 科登諾路口 → 波甘驛站 → 里歐恩難民營",
   "mapImage": "/maps/nightfall-Kodonur_Crossroads_map.jpg",
   "mapNotes": [
     "下列圖片為Wiki原圖，點選可放大，原圖的英文圖例保留。",
@@ -149,78 +164,152 @@
   "bosses": [
     {
       "name": {
-        "zhTW": "Taskmaster Sadi-Belai",
+        "zhTW": "Taskmaster Sadi-Belai（繁中名稱待確認）",
         "en": "Taskmaster Sadi-Belai"
       },
       "profession": "僧侶",
       "importantSkills": [
+        "Convert Hexes",
+        "Reversal of Fortune",
+        "Shielding Hands",
         "Zealous Benediction"
       ],
+      "eliteSkills": [
+        "Zealous Benediction"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "先清護衛並集中攻擊治療者，用打斷或反治療限制補血。若敵方有防護加持，拆掉後才投入大招，避免分散輸出被逐一補回。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
-      "revision": 2738156
+      "source": "https://wiki.guildwars.com/wiki/Taskmaster_Sadi-Belai",
+      "revision": 2675574
     },
     {
       "name": {
-        "zhTW": "Overseer Haubeh",
+        "zhTW": "Overseer Haubeh（繁中名稱待確認）",
         "en": "Overseer Haubeh"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Blood is Power",
+        "Blood of the Aggressor",
+        "Life Siphon",
+        "Signet of Lost Souls",
+        "Strip Enchantment"
+      ],
+      "eliteSkills": [
         "Blood is Power"
+      ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Overseer_Haubeh"
+        }
       ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
-      "revision": 2738156
+      "source": "https://wiki.guildwars.com/wiki/Overseer_Haubeh",
+      "revision": 2433851
     },
     {
       "name": {
-        "zhTW": "Taskmaster Vanahk",
+        "zhTW": "Taskmaster Vanahk（繁中名稱待確認）",
         "en": "Taskmaster Vanahk"
       },
-      "profession": "死靈法師",
+      "profession": "Necromancer",
       "importantSkills": [
+        "Blood is Power",
+        "Life Siphon",
+        "Signet of Lost Souls",
+        "Strip Enchantment"
+      ],
+      "eliteSkills": [
         "Blood is Power"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "保留解降咒與解除病症，減少持续失血。若有屍體利用技能，先集中擊殺並控制屍體；避免隊伍聚在會爆炸的屍體旁。",
+      "dangerousSkills": [
+        {
+          "name": "Life Siphon",
+          "counter": "保留解降咒，減少持續失血並解除敵方回血來源。",
+          "source": "https://wiki.guildwars.com/wiki/Taskmaster_Vanahk"
+        }
+      ],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
-      "revision": 2738156
+      "source": "https://wiki.guildwars.com/wiki/Taskmaster_Vanahk",
+      "revision": 2675572
     },
     {
       "name": {
-        "zhTW": "Overseer Boktek",
+        "zhTW": "Overseer Boktek（繁中名稱待確認）",
         "en": "Overseer Boktek"
       },
-      "profession": "聖言者",
+      "profession": "Paragon",
       "importantSkills": [
+        "\"Never Surrender!\"",
+        "\"Stand Your Ground!\"",
+        "Cautery Signet",
+        "Mighty Throw",
+        "Wild Throw"
+      ],
+      "eliteSkills": [
         "Cautery Signet"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
-      "revision": 2738156
+      "source": "https://wiki.guildwars.com/wiki/Overseer_Boktek",
+      "revision": 2433852
     },
     {
       "name": {
-        "zhTW": "Taskmaster Suli",
+        "zhTW": "Taskmaster Suli（繁中名稱待確認）",
         "en": "Taskmaster Suli"
       },
-      "profession": "神喚使",
+      "profession": "Dervish",
       "importantSkills": [
+        "Armor of Sanctity",
+        "Eremite's Attack",
+        "Pious Renewal",
+        "Veil of Thorns"
+      ],
+      "eliteSkills": [
         "Pious Renewal"
       ],
+      "eliteSkillsVerified": true,
+      "skillListVerified": true,
+      "skillListNotes": "",
+      "translationVerified": false,
+      "strategy": "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。",
+      "dangerousSkills": [],
       "notes": [
         "英文名稱保留供精英技能捕捉與遊戲內對照；詳見本頁機制及原文。"
       ],
-      "source": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads#Bosses",
-      "revision": 2738156
+      "source": "https://wiki.guildwars.com/wiki/Taskmaster_Suli",
+      "revision": 2675573
     }
   ],
   "recommendedTeam": [
@@ -337,6 +426,41 @@
       "revision": 2697434,
       "checkedAt": "2026-10-09",
       "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Taskmaster Sadi-Belai",
+      "url": "https://wiki.guildwars.com/wiki/Taskmaster_Sadi-Belai",
+      "revision": 2675574,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Overseer Haubeh",
+      "url": "https://wiki.guildwars.com/wiki/Overseer_Haubeh",
+      "revision": 2433851,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Taskmaster Vanahk",
+      "url": "https://wiki.guildwars.com/wiki/Taskmaster_Vanahk",
+      "revision": 2675572,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Overseer Boktek",
+      "url": "https://wiki.guildwars.com/wiki/Overseer_Boktek",
+      "revision": 2433852,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
+    },
+    {
+      "title": "Guild Wars Wiki：Taskmaster Suli",
+      "url": "https://wiki.guildwars.com/wiki/Taskmaster_Suli",
+      "revision": 2675573,
+      "checkedAt": "2026-10-09",
+      "role": "mechanics"
     }
   ],
   "todos": [
@@ -404,7 +528,7 @@
       },
       "giver": "Lonai",
       "location": "Sunspear Sanctuary",
-      "directions": "接神秘訊息後在Margrid與Master of Whispers路線中選一，首次招募與後續兩組Mission會受選擇影響。",
+      "directions": "接神秘訊息後在Margrid與喚言大師路線中選一，首次招募與後續兩組Mission會受選擇影響。",
       "url": "https://wiki.guildwars.com/wiki/Mysterious_Message_%28Nightfall_quest%29",
       "revision": 2722997,
       "translationStatus": "needs-review"
@@ -438,7 +562,7 @@
         "zhTW": "Secrets in the Shadow",
         "en": "Secrets in the Shadow"
       },
-      "giver": "Master of Whispers",
+      "giver": "喚言大師",
       "location": "Jahai Bluffs",
       "directions": "找Dehjah，清三組地底惡魔，回Whispers。",
       "url": "https://wiki.guildwars.com/wiki/Secrets_in_the_Shadow",
@@ -450,7 +574,7 @@
         "zhTW": "To Kill a Demon",
         "en": "To Kill a Demon"
       },
-      "giver": "Master of Whispers",
+      "giver": "喚言大師",
       "location": "Dejarin Estate",
       "directions": "Floodplain of Mahnkelon會Whispers，清水廠外五群Droughtlings，回Dehjah；招Whispers。",
       "url": "https://wiki.guildwars.com/wiki/To_Kill_a_Demon",
@@ -480,5 +604,31 @@
       "expert": "殺兩位",
       "master": "殺三位"
     }
+  },
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/33097",
+    "game-client://2026-10-09/string/34839"
+  ],
+  "contentStatus": "incomplete",
+  "terminologyAudit": {
+    "status": "incomplete",
+    "sources": []
+  },
+  "gameTextEvidence": {
+    "stringIds": [
+      33097,
+      34839
+    ],
+    "manifest": "docs/reference/game-client-evidence.json"
+  },
+  "requiredHeroesVerified": true,
+  "requiredHeroEvidence": {
+    "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads",
+    "revision": 2738156,
+    "heroes": [
+      "Zhed Shadowhoof"
+    ],
+    "method": "Exact comparison of Required hero infobox link targets; absent field means no fixed required hero."
   }
 }

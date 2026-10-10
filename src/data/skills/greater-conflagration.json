@@ -1,0 +1,162 @@
+{
+  "pvpOnly": false,
+  "id": "greater-conflagration",
+  "name": {
+    "en": "Greater Conflagration",
+    "zhTW": "大火",
+    "translationVerified": true
+  },
+  "clientSkillId": 465,
+  "icon": "/skills/greater-conflagration.png",
+  "profession": {
+    "id": "ranger",
+    "en": "Ranger",
+    "zhTW": "遊俠",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "wilderness-survival",
+    "en": "Wilderness Survival",
+    "zhTW": "求生",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "nature-ritual",
+    "en": "nature ritual",
+    "zhTW": "自然儀式",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 15.0,
+  "description": {
+    "pve": {
+      "en": "Elite Nature Ritual. Create a level 1...8...10 spirit. For non-spirit creatures within its range, all physical damage is fire damage instead. This spirit dies after 30...198...240 seconds.",
+      "zhTW": "創造一隻等級 1～10 的燃燒精靈。使區域內所有生物受到的物理傷害由火焰傷害取代。燃燒精靈在 30～240 秒後消失。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "valetudo-rubor",
+          "en": "Valetudo Rubor",
+          "zhTW": "Valetudo Rubor",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "hell-s-precipice",
+              "en": "Hell's Precipice",
+              "zhTW": "地獄懸崖",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Valetudo Rubor (Hell's Precipice)",
+        "source": "https://wiki.guildwars.com/wiki/Greater_Conflagration",
+        "url": "https://wiki.guildwars.com/wiki/Valetudo_Rubor",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      },
+      {
+        "name": {
+          "id": "staggh-the-fervid",
+          "en": "Staggh the Fervid",
+          "zhTW": "Staggh the Fervid",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "the-titan-source",
+              "en": "The Titan Source",
+              "zhTW": "The Titan Source",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Staggh the Fervid (Dragon's Gullet, only during The Titan Source)",
+        "source": "https://wiki.guildwars.com/wiki/Greater_Conflagration",
+        "url": "https://wiki.guildwars.com/wiki/Staggh_the_Fervid",
+        "unlockOnly": false,
+        "profession": "Ranger"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "創造一隻等級 1～10 的燃燒精靈。使區域內所有生物受到的物理傷害由火焰傷害取代。燃燒精靈在 30～240 秒後消失。",
+  "commonUses": [
+    "求生 · 自然儀式"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Greater_Conflagration",
+      "revision": 2731263,
+      "title": "Greater Conflagration",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized ranger skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names",
+      "revision": 2607815,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/26288",
+    "https://wiki.guildwars.com/wiki/Localized_ranger_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26289,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "創造一隻等級 %str1% 的燃燒精靈。使區域內所有生物受到的物理傷害由火焰傷害取代。燃燒精靈在 %str3% 秒後消失。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

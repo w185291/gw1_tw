@@ -1,0 +1,302 @@
+{
+  "pvpOnly": false,
+  "id": "savannah-heat",
+  "name": {
+    "en": "Savannah Heat",
+    "zhTW": "燎原之火",
+    "translationVerified": true
+  },
+  "clientSkillId": 1380,
+  "icon": "/skills/savannah-heat.png",
+  "profession": {
+    "id": "elementalist",
+    "en": "Elementalist",
+    "zhTW": "元素使",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "fire-magic",
+    "en": "Fire Magic",
+    "zhTW": "火系魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "nightfall",
+    "en": "Nightfall",
+    "zhTW": "第三章：黑暗逆襲"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 25.0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. You create Savannah Heat at target foe's location. For 5 seconds, all nearby foes take 5...17...20 fire damage for each second this spell has been in effect.",
+      "zhTW": "在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5～20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5～20 額外火焰傷害。"
+    },
+    "pvp": {
+      "en": "Elite Spell. You create Savannah Heat at target foe's location. For 5 seconds, all nearby foes take 5...17...20 fire damage for each second this spell has been in effect.",
+      "zhTW": "在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5～20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5～20 額外火焰傷害。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Savannah Heat (PvP)",
+      "description": {
+        "en": "Elite Spell. You create Savannah Heat at target foe's location. For 5 seconds, all nearby foes take 5...17...20 fire damage for each second this spell has been in effect.",
+        "zhTW": "在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5～20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5～20 額外火焰傷害。"
+      },
+      "stats": {
+        "Energy": 15.0,
+        "Activation": 2.0,
+        "Recharge": 25.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Savannah_Heat_%28PvP%29",
+        "revision": 2640758,
+        "title": "Savannah Heat (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3021
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "inquisitor-lovisa",
+          "en": "Inquisitor Lovisa",
+          "zhTW": "Inquisitor Lovisa",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "watchtower-coast-war-in-kryta",
+              "en": "Watchtower Coast (War in Kryta)",
+              "zhTW": "Watchtower Coast (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Inquisitor Lovisa (Watchtower Coast (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Inquisitor_Lovisa",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "singe-the-malevolent",
+          "en": "Singe the Malevolent",
+          "zhTW": "Singe the Malevolent",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "dragon-s-gullet",
+              "en": "Dragon's Gullet",
+              "zhTW": "巨龍峽谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet"
+          },
+          {
+            "name": {
+              "id": "flame-temple-corridor",
+              "en": "Flame Temple Corridor",
+              "zhTW": "夏爾火焰神殿",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Flame_Temple_Corridor"
+          },
+          {
+            "name": {
+              "id": "the-titan-source-hard-mode",
+              "en": "The Titan Source (Hard mode)",
+              "zhTW": "The Titan Source (Hard mode)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Titan_Source_(Hard_mode)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Singe the Malevolent (Dragon's Gullet and Flame Temple Corridor, only during The Titan Source (Hard mode))",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Singe_the_Malevolent",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "hajkor-mystic-flame",
+          "en": "Hajkor, Mystic Flame",
+          "zhTW": "Hajkor, Mystic Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-sulfurous-wastes",
+              "en": "The Sulfurous Wastes",
+              "zhTW": "硫磺荒地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Sulfurous_Wastes"
+          }
+        ],
+        "campaign": "Nightfall",
+        "details": "Hajkor, Mystic Flame (The Sulfurous Wastes)",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Hajkor,_Mystic_Flame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "lok-the-mischievous",
+          "en": "Lok The Mischievous",
+          "zhTW": "Lok The Mischievous",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "arachni-s-haunt",
+              "en": "Arachni's Haunt",
+              "zhTW": "奧拉克妮的棲息地",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Arachni%27s_Haunt"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Lok The Mischievous (Arachni's Haunt)",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Lok_The_Mischievous",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "regent-of-flame",
+          "en": "Regent of Flame",
+          "zhTW": "Regent of Flame",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "catacombs-of-kathandrax",
+              "en": "Catacombs of Kathandrax",
+              "zhTW": "卡山卓司的地下墓穴",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Catacombs_of_Kathandrax"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Regent of Flame (Catacombs of Kathandrax)",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Regent_of_Flame",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      },
+      {
+        "name": {
+          "id": "magmus",
+          "en": "Magmus",
+          "zhTW": "Magmus",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "heart-of-the-shiverpeaks",
+              "en": "Heart of the Shiverpeaks",
+              "zhTW": "席娃山脈之心",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Heart_of_the_Shiverpeaks"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Magmus (Heart of the Shiverpeaks)",
+        "source": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+        "url": "https://wiki.guildwars.com/wiki/Magmus",
+        "unlockOnly": false,
+        "profession": "Elementalist"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Nightfall",
+    "Prophecies"
+  ],
+  "explanation": "在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5～20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5～20 額外火焰傷害。",
+  "commonUses": [
+    "火系魔法 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+      "revision": 2640757,
+      "title": "Savannah Heat",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Savannah_Heat_%28PvP%29",
+      "revision": 2640758,
+      "title": "Savannah Heat (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized elementalist skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+      "revision": 2607804,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_elementalist_skill_names",
+    "game-client://2026-10-09/string/33986"
+  ],
+  "descriptionEvidence": {
+    "stringId": 33987,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "在目標敵人所在地點創造燎原之火。持續 %str3% 秒，使附近的所有敵人每秒受到 %str1% 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 %str2% 額外火焰傷害。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

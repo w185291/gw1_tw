@@ -1,0 +1,153 @@
+{
+  "pvpOnly": false,
+  "id": "life-barrier",
+  "name": {
+    "en": "Life Barrier",
+    "zhTW": "生命屏障",
+    "translationVerified": true
+  },
+  "clientSkillId": 270,
+  "icon": "/skills/life-barrier.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "protection-prayers",
+    "en": "Protection Prayers",
+    "zhTW": "防護祈禱",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "enchantment-spell",
+    "en": "enchantment spell",
+    "zhTW": "加持魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 15.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": -1
+  },
+  "activation": 2.0,
+  "recharge": 5.0,
+  "description": {
+    "pve": {
+      "en": "Elite Enchantment Spell. While you maintain this enchantment, damage dealt to target other ally is reduced by 20...44...50%. If your Health is below 50% when that ally takes damage, Life Barrier ends.",
+      "zhTW": "當你維持此「加持」時，目標其他盟友受到的傷害降低 20～50%。若該盟友受到攻擊，而你的體力低於 50% 時，生命屏障效果終止。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "esnhal-hardwood",
+          "en": "Esnhal Hardwood",
+          "zhTW": "Esnhal Hardwood",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "frozen-forest",
+              "en": "Frozen Forest",
+              "zhTW": "冰凍森林",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Frozen_Forest"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Esnhal Hardwood (Frozen Forest)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Barrier",
+        "url": "https://wiki.guildwars.com/wiki/Esnhal_Hardwood",
+        "unlockOnly": false,
+        "profession": "Monk"
+      },
+      {
+        "name": {
+          "id": "quickroot",
+          "en": "Quickroot",
+          "zhTW": "Quickroot",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "lornar-s-pass",
+              "en": "Lornar's Pass",
+              "zhTW": "洛拿斯通道",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Lornar%27s_Pass"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Quickroot (Lornar's Pass)",
+        "source": "https://wiki.guildwars.com/wiki/Life_Barrier",
+        "url": "https://wiki.guildwars.com/wiki/Quickroot",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "當你維持此「加持」時，目標其他盟友受到的傷害降低 20～50%。若該盟友受到攻擊，而你的體力低於 50% 時，生命屏障效果終止。",
+  "commonUses": [
+    "防護祈禱 · 加持魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Life_Barrier",
+      "revision": 2732822,
+      "title": "Life Barrier",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/25750"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25751,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "當你維持此「加持」時，目標其他盟友受到的傷害降低 %str2%%%。若該盟友受到攻擊，而你的體力低於 %str1%%% 時，生命屏障效果終止。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

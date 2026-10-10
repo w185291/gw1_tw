@@ -1,0 +1,129 @@
+{
+  "pvpOnly": false,
+  "id": "light-of-deldrimor",
+  "name": {
+    "en": "Light of Deldrimor",
+    "zhTW": "戴爾狄摩之光"
+  },
+  "clientSkillId": 2212,
+  "icon": "/skills/light-of-deldrimor.png",
+  "profession": {
+    "id": "common",
+    "en": "Common",
+    "zhTW": "共通",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "deldrimor-rank",
+    "en": "Deldrimor rank",
+    "zhTW": "Deldrimor 稱號等級",
+    "translationVerified": false
+  },
+  "type": {
+    "id": "spell",
+    "en": "Spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "eye-of-the-north",
+    "en": "Eye of the North",
+    "zhTW": "極地之眼"
+  },
+  "elite": false,
+  "pveOnly": true,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 20.0,
+  "description": {
+    "pve": {
+      "en": "Spell. All foes in the area are struck for 55...80 holy damage. The location of hidden objects are briefly indicated on your Compass. Any hidden objects in the area are revealed.",
+      "zhTW": "使區域內所有敵人受到 55～80 神聖傷害。同時，可在羅盤上短暫地顯示區域內的任何隱藏物。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [
+      {
+        "name": {
+          "id": "destructive-research",
+          "en": "Destructive Research",
+          "zhTW": "Destructive Research",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "battledepths",
+              "en": "Battledepths",
+              "zhTW": "戰鬥深淵",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Battledepths"
+          },
+          {
+            "name": {
+              "id": "central-transfer-chamber",
+              "en": "Central Transfer Chamber",
+              "zhTW": "中央轉送室",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Central_Transfer_Chamber"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Destructive Research (Battledepths or Central Transfer Chamber)",
+        "source": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor",
+        "url": "https://wiki.guildwars.com/wiki/Destructive_Research",
+        "unlockOnly": false,
+        "profession": null
+      }
+    ],
+    "bosses": [],
+    "special": [],
+    "professionChangers": [],
+    "tomes": false,
+    "eliteTome": false,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North"
+  ],
+  "explanation": "使區域內所有敵人受到 55～80 神聖傷害。同時，可在羅盤上短暫地顯示區域內的任何隱藏物。",
+  "commonUses": [
+    "Deldrimor rank · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor",
+      "revision": 2684506,
+      "title": "Light of Deldrimor",
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/69837"
+  ],
+  "descriptionEvidence": {
+    "stringId": 69838,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使區域內所有敵人受到 %str1% 神聖傷害。同時，可在羅盤上短暫地顯示區域內的任何隱藏物。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

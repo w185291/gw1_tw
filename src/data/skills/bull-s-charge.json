@@ -1,0 +1,154 @@
+{
+  "pvpOnly": false,
+  "id": "bull-s-charge",
+  "name": {
+    "en": "Bull's Charge",
+    "zhTW": "公牛突擊態勢",
+    "translationVerified": true
+  },
+  "clientSkillId": 379,
+  "icon": "/skills/bull-s-charge.png",
+  "profession": {
+    "id": "warrior",
+    "en": "Warrior",
+    "zhTW": "戰士",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "strength",
+    "en": "Strength",
+    "zhTW": "力量",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "stance",
+    "en": "stance",
+    "zhTW": "態勢",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 5.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Stance. For 1...6...7 seconds, you move 50% faster and if you strike a moving foe in melee, that foe is knocked down. Bull's Charge ends if you use a skill.",
+      "zhTW": "持續 1～7 秒，移動速度提高 50%；近戰命中正在移動的敵人時擊倒對方。使用技能時結束。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "grognard-gravelhead",
+          "en": "Grognard Gravelhead",
+          "zhTW": "Grognard Gravelhead",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sorrow-s-furnace",
+              "en": "Sorrow's Furnace",
+              "zhTW": "哀傷熔爐",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Furnace"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Grognard Gravelhead (Sorrow's Furnace)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Grognard_Gravelhead",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      },
+      {
+        "name": {
+          "id": "skintekaru-manshredder",
+          "en": "Skintekaru Manshredder",
+          "zhTW": "Skintekaru Manshredder",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "perdition-rock",
+              "en": "Perdition Rock",
+              "zhTW": "破滅石",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Perdition_Rock"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Skintekaru Manshredder (Perdition Rock)",
+        "source": "https://wiki.guildwars.com/wiki/Bull%27s_Charge",
+        "url": "https://wiki.guildwars.com/wiki/Skintekaru_Manshredder",
+        "unlockOnly": false,
+        "profession": "Warrior"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Prophecies"
+  ],
+  "explanation": "持續 1～7 秒，移動速度提高 50%；近戰命中正在移動的敵人時擊倒對方。使用技能時結束。",
+  "commonUses": [
+    "力量 · 態勢"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Bull%27s_Charge",
+      "revision": 2726445,
+      "title": "Bull's Charge",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized warrior skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names",
+      "revision": 2607819,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/25977",
+    "https://wiki.guildwars.com/wiki/Localized_warrior_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 25978,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "For %str3% second, you move 50%% faster and if you strike a moving foe in melee, that foe is knocked down. Bull's Charge ends if you use a skill."
+  },
+  "contentStatus": "incomplete",
+  "descriptionTranslationMethod": "Authored Traditional Chinese summary of client English effect; Wiki English retained for comparison.",
+  "rechargeNote": ""
+}

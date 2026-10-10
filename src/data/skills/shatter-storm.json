@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "shatter-storm",
+  "name": {
+    "en": "Shatter Storm",
+    "zhTW": "粉碎風暴",
+    "translationVerified": true
+  },
+  "clientSkillId": 933,
+  "icon": "/skills/shatter-storm.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "no-attribute",
+    "en": "No attribute",
+    "zhTW": "無屬性",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "spell",
+    "en": "spell",
+    "zhTW": "咒文魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 0,
+  "description": {
+    "pve": {
+      "en": "Elite Spell. Target foe loses all enchantments. For each enchantment removed this way, Shatter Storm is disabled for an additional 7 seconds.",
+      "zhTW": "使目標敵人失去所有「加持」。利用此方式每成功移除一項「加持」，此技能的回復時間增加 7 秒。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "mina-shatter-storm",
+          "en": "Mina Shatter Storm",
+          "zhTW": "Mina Shatter Storm",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "the-undercity",
+              "en": "The Undercity",
+              "zhTW": "地下城",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/The_Undercity"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mina Shatter Storm (The Undercity)",
+        "source": "https://wiki.guildwars.com/wiki/Shatter_Storm",
+        "url": "https://wiki.guildwars.com/wiki/Mina_Shatter_Storm",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "使目標敵人失去所有「加持」。利用此方式每成功移除一項「加持」，此技能的回復時間增加 7 秒。",
+  "commonUses": [
+    "無屬性 · 咒文魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Shatter_Storm",
+      "revision": 2629978,
+      "title": "Shatter Storm",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+    "game-client://2026-10-09/string/26584"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26585,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "使目標敵人失去所有「加持」。利用此方式每成功移除一項「加持」，此技能的回復時間增加 %str1% 秒。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

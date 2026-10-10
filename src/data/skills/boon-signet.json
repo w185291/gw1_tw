@@ -1,0 +1,128 @@
+{
+  "pvpOnly": false,
+  "id": "boon-signet",
+  "name": {
+    "en": "Boon Signet",
+    "zhTW": "恩賜紋章",
+    "translationVerified": true
+  },
+  "clientSkillId": 847,
+  "icon": "/skills/boon-signet.png",
+  "profession": {
+    "id": "monk",
+    "en": "Monk",
+    "zhTW": "僧侶",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "divine-favor",
+    "en": "Divine Favor",
+    "zhTW": "神恩",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "signet",
+    "en": "signet",
+    "zhTW": "紋章",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "factions",
+    "en": "Factions",
+    "zhTW": "第二章：盟與敵"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": false,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 1.0,
+  "recharge": 6.0,
+  "description": {
+    "pve": {
+      "en": "Elite Signet. Heal target ally for 20...68...80 Health. Your next Healing or Protection Prayer [sic] spell that targets an ally heals for an additional 20...84...100 Health.",
+      "zhTW": "治療目標20～80體力，你的下一個治療祈禱或者防護祈禱魔法額外治療20～100體力。"
+    },
+    "pvp": null
+  },
+  "pvpVariants": [],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "mungri-magicbox",
+          "en": "Mungri Magicbox",
+          "zhTW": "Mungri Magicbox",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ferndale",
+              "en": "Ferndale",
+              "zhTW": "蕨谷",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ferndale"
+          }
+        ],
+        "campaign": "Factions",
+        "details": "Mungri Magicbox (Ferndale)",
+        "source": "https://wiki.guildwars.com/wiki/Boon_Signet",
+        "url": "https://wiki.guildwars.com/wiki/Mungri_Magicbox",
+        "unlockOnly": false,
+        "profession": "Monk"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Factions"
+  ],
+  "explanation": "治療目標20～80體力，你的下一個治療祈禱或者防護祈禱魔法額外治療20～100體力。",
+  "commonUses": [
+    "神恩 · 紋章"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Boon_Signet",
+      "revision": 2735648,
+      "title": "Boon Signet",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized monk skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+      "revision": 2739027,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "https://wiki.guildwars.com/wiki/Localized_monk_skill_names",
+    "game-client://2026-10-09/string/26902"
+  ],
+  "descriptionEvidence": {
+    "stringId": 26903,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "治療目標%str1%體力，你的下一個治療祈禱或者防護祈禱魔法額外治療%str2%體力。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

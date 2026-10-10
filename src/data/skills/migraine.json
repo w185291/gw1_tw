@@ -1,0 +1,258 @@
+{
+  "pvpOnly": false,
+  "id": "migraine",
+  "name": {
+    "en": "Migraine",
+    "zhTW": "頭痛",
+    "translationVerified": true
+  },
+  "clientSkillId": 53,
+  "icon": "/skills/migraine.png",
+  "profession": {
+    "id": "mesmer",
+    "en": "Mesmer",
+    "zhTW": "幻術師",
+    "translationVerified": true
+  },
+  "attribute": {
+    "id": "illusion-magic",
+    "en": "Illusion Magic",
+    "zhTW": "幻術魔法",
+    "translationVerified": true
+  },
+  "type": {
+    "id": "hex-spell",
+    "en": "hex spell",
+    "zhTW": "降咒魔法",
+    "translationVerified": true
+  },
+  "campaign": {
+    "id": "prophecies",
+    "en": "Prophecies",
+    "zhTW": "第一章：阿斯卡隆戰記"
+  },
+  "elite": true,
+  "pveOnly": false,
+  "pvpVariantExists": true,
+  "pvpVariantVerified": true,
+  "cost": {
+    "energy": 10.0,
+    "adrenaline": 0,
+    "sacrifice": 0,
+    "overcast": 0,
+    "upkeep": 0
+  },
+  "activation": 2.0,
+  "recharge": 12.0,
+  "description": {
+    "pve": {
+      "en": "Elite Hex Spell. For 5...17...20 seconds, target foe suffers -1...7...8 Health degeneration and takes 100% longer to activate skills.",
+      "zhTW": "持續 5～20 秒，目標敵人受到體力衰減 1～8 ，且施展技能時間加倍。"
+    },
+    "pvp": {
+      "en": "Elite Hex Spell. For 4...14...16 seconds, target foe suffers -1...7...8 Health degeneration and takes 100% longer to activate skills.",
+      "zhTW": "持續 4～16 秒，目標敵人受到體力衰減 1～8 ，且施展技能時間加倍。"
+    }
+  },
+  "pvpVariants": [
+    {
+      "name": "Migraine (PvP)",
+      "description": {
+        "en": "Elite Hex Spell. For 4...14...16 seconds, target foe suffers -1...7...8 Health degeneration and takes 100% longer to activate skills.",
+        "zhTW": "持續 4～16 秒，目標敵人受到體力衰減 1～8 ，且施展技能時間加倍。"
+      },
+      "stats": {
+        "Energy": 10.0,
+        "Activation": 2.0,
+        "Recharge": 12.0
+      },
+      "source": {
+        "url": "https://wiki.guildwars.com/wiki/Migraine_%28PvP%29",
+        "revision": 2731245,
+        "title": "Migraine (PvP)",
+        "checkedAt": "2026-10-09"
+      },
+      "clientSkillId": 3183
+    }
+  ],
+  "acquisition": {
+    "trainers": [],
+    "quests": [],
+    "bosses": [
+      {
+        "name": {
+          "id": "pytt-spitespew",
+          "en": "Pytt Spitespew",
+          "zhTW": "Pytt Spitespew",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "ring-of-fire",
+              "en": "Ring of Fire",
+              "zhTW": "火環群島",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Pytt Spitespew (Ring of Fire)",
+        "source": "https://wiki.guildwars.com/wiki/Migraine",
+        "url": "https://wiki.guildwars.com/wiki/Pytt_Spitespew",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "lerita-the-lewd",
+          "en": "Lerita the Lewd",
+          "zhTW": "Lerita the Lewd",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "nebo-terrace-war-in-kryta",
+              "en": "Nebo Terrace (War in Kryta)",
+              "zhTW": "Nebo Terrace (War in Kryta)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace_(War_in_Kryta)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Lerita the Lewd (Nebo Terrace (War in Kryta))",
+        "source": "https://wiki.guildwars.com/wiki/Migraine",
+        "url": "https://wiki.guildwars.com/wiki/Lerita_the_Lewd",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "ven-the-conservator",
+          "en": "Ven the Conservator",
+          "zhTW": "Ven the Conservator",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "riverside-province-explorable-area",
+              "en": "Riverside Province (explorable area)",
+              "zhTW": "Riverside Province (explorable area)",
+              "translationVerified": false
+            },
+            "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(explorable_area)"
+          }
+        ],
+        "campaign": "Prophecies",
+        "details": "Ven the Conservator (Riverside Province (explorable area))",
+        "source": "https://wiki.guildwars.com/wiki/Migraine",
+        "url": "https://wiki.guildwars.com/wiki/Ven_the_Conservator",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "wilderm-wrathspew",
+          "en": "Wilderm Wrathspew",
+          "zhTW": "Wilderm Wrathspew",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "verdant-cascades",
+              "en": "Verdant Cascades",
+              "zhTW": "原野瀑布",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Verdant_Cascades"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Wilderm Wrathspew (Verdant Cascades)",
+        "source": "https://wiki.guildwars.com/wiki/Migraine",
+        "url": "https://wiki.guildwars.com/wiki/Wilderm_Wrathspew",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      },
+      {
+        "name": {
+          "id": "waray-skullflayer",
+          "en": "Waray Skullflayer",
+          "zhTW": "Waray Skullflayer",
+          "translationVerified": false
+        },
+        "locations": [
+          {
+            "name": {
+              "id": "sparkfly-swamp",
+              "en": "Sparkfly Swamp",
+              "zhTW": "火星蠅沼澤",
+              "translationVerified": true
+            },
+            "url": "https://wiki.guildwars.com/wiki/Sparkfly_Swamp"
+          }
+        ],
+        "campaign": "Eye of the North",
+        "details": "Waray Skullflayer (Sparkfly Swamp)",
+        "source": "https://wiki.guildwars.com/wiki/Migraine",
+        "url": "https://wiki.guildwars.com/wiki/Waray_Skullflayer",
+        "unlockOnly": false,
+        "profession": "Mesmer"
+      }
+    ],
+    "special": [],
+    "professionChangers": [],
+    "tomes": true,
+    "eliteTome": true,
+    "verified": false
+  },
+  "availableCampaigns": [
+    "Eye of the North",
+    "Prophecies"
+  ],
+  "explanation": "持續 5～20 秒，目標敵人受到體力衰減 1～8 ，且施展技能時間加倍。",
+  "commonUses": [
+    "幻術魔法 · 降咒魔法"
+  ],
+  "aliases": [],
+  "relatedSkills": [],
+  "earliestAcquisition": null,
+  "recommendedAcquisition": null,
+  "sources": [
+    {
+      "url": "https://wiki.guildwars.com/wiki/Migraine",
+      "revision": 2661567,
+      "title": "Migraine",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "url": "https://wiki.guildwars.com/wiki/Migraine_%28PvP%29",
+      "revision": 2731245,
+      "title": "Migraine (PvP)",
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "title": "Localized mesmer skill names",
+      "url": "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names",
+      "revision": 2607805,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "translationVerified": true,
+  "translationSources": [
+    "game-client://2026-10-09/string/24901",
+    "https://wiki.guildwars.com/wiki/Localized_mesmer_skill_names"
+  ],
+  "descriptionEvidence": {
+    "stringId": 24902,
+    "range": "Client attribute 0 to 15 endpoints; compare full English effect for current wording.",
+    "nativeUnexpanded": "持續 %str3% 秒，目標敵人受到體力衰減 %str1% ，且施展技能時間加倍。"
+  },
+  "contentStatus": "incomplete",
+  "rechargeNote": ""
+}

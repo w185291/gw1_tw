@@ -35,7 +35,7 @@ npm run start
 
 技能資料使用共用詳細頁 `/skills/view/?id=技能-slug`。`dev`、`build` 與 `build:static` 會由 1,321 筆來源資料產生 `public/data/skills/index.json` 及 11 份按職業分組的 JSON；瀏覽器開啟技能時先讀目錄，再讀取該職業資料。生成的 JSON 不納入 Git，部署時必須使用上述建置命令，並將整個 `out/` 一起上傳。
 
-任務、英雄、其他攻略和技能屬性也已改用共用詳細頁：資料分別在 `public/data/guide-content/missions/`（按章節）、`heroes.json`、`extras.json`、`attributes/`（按屬性）。中英名稱對照在 `glossary.json`。目前靜態匯出為 58 份 HTML，內容頁按需取得 JSON。章節首頁、任務列表、職業入口及玩法介紹仍是獨立頁。原 `/campaigns/<章節>/missions/<任務>/`、`/heroes/<英雄>/`、`/guides/<攻略>/`、`/skills/attributes/<屬性>/` 舊網址在 Cloudflare Pages 由 `public/_redirects` 以 301 轉到共用頁；其他靜態主機需另設同等規則。
+任務、英雄、其他攻略和技能屬性也已改用共用詳細頁：資料分別在 `public/data/guide-content/missions/`（按章節）、`heroes.json`、`extras.json`、`attributes/`（按屬性）。中英名稱對照在 `glossary.json`。目前靜態匯出為 58 份 HTML，內容頁按需取得 JSON。章節首頁、任務列表、職業入口及玩法介紹仍是獨立頁。原 `/campaigns/<章節>/missions/<任務>/` 舊網址在 Cloudflare Pages 由 `public/_redirects` 以 301 轉到共用頁。英雄、其他攻略與技能屬性請使用帶有 `?id=` 的共用詳細頁網址；寬泛的舊網址轉址會誤攔 `/view/`，因此已移除。
 
 `NEXT_PUBLIC_SITE_URL` 決定 canonical、Open Graph、`robots.txt` 的 Sitemap URL 與 `sitemap.xml` 中的網址，參照 `.env.example`。未設定時使用本專案的 Site 網址。部署至 Cloudflare Pages 或其他新網域時，**先設定正式網域並重新 build**；不可把本機或舊網域的 sitemap 直接上線。`npm run build:static` 會把這兩個 SEO 檔輸出到 `out/`。動態查詢參數詳細頁目前未列入 sitemap，避免在沒有伺服器端專屬 metadata 時產生大量重複索引。
 

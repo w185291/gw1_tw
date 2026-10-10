@@ -7,7 +7,10 @@ export const homeSources = [
   {group: '遊戲資料', label: 'Guild Wars Wiki：英雄', url: 'https://wiki.guildwars.com/wiki/Hero'},
   {group: '遊戲資料', label: 'Guild Wars Wiki：技能列', url: 'https://wiki.guildwars.com/wiki/User_interface'},
   {group: '遊戲資料', label: 'Guild Wars Wiki：Hard Mode', url: 'https://wiki.guildwars.com/wiki/Hard_mode'},
+  {group: '遊戲資料', label: 'Guild Wars Wiki：合作任務與劇情', url: 'https://wiki.guildwars.com/wiki/Cooperative_Mission'},
+  {group: '遊戲資料', label: 'Guild Wars Wiki：史蹟殿堂', url: 'https://wiki.guildwars.com/wiki/Hall_of_Monuments'},
   {group: '社群觀點', label: '巴哈姆特：新手攻略', url: 'https://forum.gamer.com.tw/C.php?bsn=7678&snA=20285'},
+  {group: '社群觀點', label: 'Reddit：新玩家談劇情、技能與收藏', url: 'https://www.reddit.com/r/GuildWars/comments/1paj935/what_can_i_expect_from_guild_wars_1/'},
   {group: '社群觀點', label: 'Reddit：新玩家攻略討論', url: 'https://www.reddit.com/r/GuildWars/comments/1ueim5n/new_player_guides/'},
   {group: '社群觀點', label: 'Guild Wars Legacy', url: 'https://guildwarslegacy.com/'},
 ] as const;

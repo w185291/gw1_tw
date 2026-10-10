@@ -19,11 +19,12 @@ const skillBar = [
 ] as const;
 
 const features = [
-  {number: '01', title: '你只能帶八招', text: '技能很多，出城卻只有八格；通常最多一招菁英技能。先決定要處理的敵人與任務，再組自己的技能列。', href: '/skills/', link: '搜尋 1,321 招技能'},
-  {number: '02', title: '主職業 × 副職業', text: '主職業決定防具與主屬性，副職業提供另一套技能。同樣是戰士，也能因副職業和隊伍分工而改變玩法。', href: '/professions/', link: '認識十種職業'},
-  {number: '03', title: '帶上自己的英雄隊', text: '黑暗逆襲與極地之眼逐步開放英雄。可配置技能、屬性、武器與符文，也能安排他們的位置和行為。', href: '/heroes/', link: '查看英雄取得'},
-  {number: '04', title: '故事與合作任務', text: '三大戰役各有自己的地區與劇情。Mission 常有額外獎勵目標，打完主線仍能回頭挑戰。', href: '/campaigns/', link: '看所有章節'},
-  {number: '05', title: '打不贏就回城改 Build', text: '缺打斷、解狀態、防護或能量管理時，換技能與調隊伍往往比追更高裝等有效。', href: '/builds/', link: '查看 Build 入口'},
+  {number: '01', title: '跟著故事走遍四地', text: '從阿斯卡隆、凱珊到伊洛那，再進入極地之眼。主線任務、合作任務與過場劇情串起各地人物和衝突。', href: '/campaigns/', link: '選一段故事'},
+  {number: '02', title: '帶隊探索與解任務', text: '你可與玩家組隊，也可帶傭兵或英雄挑戰 PvE。英雄能調整技能與行為，讓一個人也能按自己的步調推進大量內容。', href: '/heroes/', link: '認識英雄'},
+  {number: '03', title: '八格技能與雙職業', text: '主、副職業和有限的技能欄讓隊伍配置有很多變化。卡關時可換招、調屬性或分工，但探索路線與操作同樣重要。', href: '/builds/', link: '學會使用 Build'},
+  {number: '04', title: '挑戰合作任務與高難區', text: '完成劇情後，還能補 Bonus／Master、重打困難模式、探索地下城及菁英區域。', href: '/pve/', link: '查看 PvE 內容'},
+  {number: '05', title: '在 PvP 與其他玩家較量', text: '競技場、陣營戰及公會戰各有隊伍人數與目標。技能和隊伍策略能在玩家對戰中接受另一種考驗。', href: '/pvp/', link: '認識 PvP 模式'},
+  {number: '06', title: '收集自己想留下的成果', text: '技能、菁英防具、武器、迷你寵物、地圖探索與稱號都能成為長期目標；部分成果可展示在史蹟殿堂。', href: '/hall-of-monuments/', link: '看史蹟殿堂'},
 ] as const;
 
 const faq = [
@@ -50,8 +51,8 @@ export function GwWelcome({expanded = false}: {expanded?: boolean}) {
       <div className={styles.heroCopy}>
         <p className={styles.kicker}>GUILD WARS REFORGED · 繁體中文入門</p>
         <h1 id="welcome-title">Guild Wars 1<br/><em>是什麼遊戲？</em></h1>
-        <p className={styles.lead}>先組 Build，再解問題。一款把八格技能、職業搭配與隊伍戰術放在裝備數值之上的經典線上 RPG。</p>
-        <p>2005 年開始的冒險，透過 2025 年的 Reforged 更新改善現代硬體與操作體驗。買斷、無月費，也能帶英雄按自己的步調探索。</p>
+        <p className={styles.lead}>走進阿斯卡隆、凱珊與伊洛那的故事；與玩家或英雄組隊冒險，在 PvE、PvP 與收藏目標中走出自己的路。</p>
+        <p>《Guild Wars 1》有合作任務、可調整的職業與技能、競技對戰，也有技能、裝備、稱號與史蹟殿堂等長期目標。2005 年開始的世界，透過 Reforged 更新延續至今；買斷後無月費。</p>
         <div className={styles.actions}><Link className={styles.primary} href="/getting-started/">第一次玩，從這裡開始</Link><Link className={styles.secondary} href="/campaigns/">我已在遊戲裡，查看攻略</Link><a className={styles.secondary} href="#buy">怎麼購買</a></div>
         <div className={styles.heroFacts}><span>無月費</span><span>三大戰役</span><span>PvE／PvP</span><span>PC／行動版</span></div>
       </div>
@@ -66,13 +67,13 @@ export function GwWelcome({expanded = false}: {expanded?: boolean}) {
     <nav className={styles.jumpNav} aria-label="新手導覽章節"><a href="#what-is">遊戲特色</a><a href="#how-to-play">核心玩法</a><a href="#campaigns">四段冒險</a><a href="#buy">怎麼購買</a><a href="#activities">玩什麼</a><a href="#monuments">史蹟殿堂</a><a href="#faq">常見問題</a></nav>
 
     <section id="what-is" className={styles.section}>
-      <SectionTitle eyebrow="01 / 先認識它" title="它和一般大型 MMO 有什麼不同？"><p>你會在城鎮與其他玩家相遇；離開據點後，隊伍進入自己的冒險區域。官方曾用 CORPG 描述這種重視合作與競技的線上角色扮演遊戲。</p></SectionTitle>
-      <div className={styles.compare}><div><span>一般大型 MMORPG 常見流程</span><p>共享野外 → 持續升級 → 追逐更高裝等 → 團隊副本</p></div><div><span>Guild Wars 1 的典型循環</span><p>城鎮組隊 → 選八招與隊伍 → 獨立冒險區域 → 任務與挑戰 → 回城調整 Build</p></div></div>
+      <SectionTitle eyebrow="01 / 先認識它" title="同一個世界，可以有不同目標"><p>你會在城鎮與其他玩家相遇；離開據點後，隊伍進入自己的冒險區域。官方曾用 CORPG 描述這種重視合作與競技的線上角色扮演遊戲。玩家可以為劇情而來，也可以專注挑戰、對戰或收藏。</p></SectionTitle>
+      <div className={styles.compare}><div><span>沿著故事冒險</span><p>選戰役 → 認識人物與地區 → 完成任務和合作關卡 → 前往下一座城市</p></div><div><span>找到自己的長期目標</span><p>組隊與調整技能 → 挑戰高難 PvE 或 PvP → 收集技能、外觀與稱號 → 展示成果</p></div></div>
       <div className={styles.statStrip}><div><strong>20</strong><span>等級上限</span></div><div><strong>8</strong><span>技能欄位</span></div><div><strong>10</strong><span>個職業</span></div><div><strong>0</strong><span>月費</span></div></div>
     </section>
 
     <section id="how-to-play" className={styles.section}>
-      <SectionTitle eyebrow="02 / 真正在玩什麼" title="每次出城，都是一次新的解題"><p>從技能、職業與隊友中做選擇，觀察失敗原因，再回據點調整。裝備有升級與收藏價值，但基礎數值不會永無止境往上堆。</p></SectionTitle>
+      <SectionTitle eyebrow="02 / 真正在玩什麼" title="故事、隊伍、競技與收藏交織的旅程"><p>技能搭配是戰鬥的一部分；你也會探索地圖、追隨劇情、與隊友合作、挑戰其他玩家，或為一件外觀與一個稱號持續努力。不同玩家能選擇不同重點。</p></SectionTitle>
       <div className={styles.featureGrid}>{features.map(feature => <article key={feature.number}><span>{feature.number}</span><h3>{feature.title}</h3><p>{feature.text}</p><Link href={feature.href}>{feature.link} →</Link></article>)}</div>
       <div className={styles.skillNote}><div className={styles.miniBar}>{skillBar.slice(0, 8).map(([id, name]) => <Image key={id} src={`/skills/${id}.png`} width={44} height={44} alt={name} loading="lazy"/>)}</div><p>示意：八格技能列展示不同職業的圖示，實際 Build 必須符合角色可用技能與規則。</p></div>
     </section>

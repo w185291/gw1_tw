@@ -6,7 +6,7 @@ export type Portrait = {
   sourceUrl: string;
   sourceType: 'wiki';
   credit: string;
-  licenseStatus: 'verified' | 'needs-review';
+  licenseStatus: 'verified' | 'fan-use' | 'needs-review';
 };
 
 const portraits = media as {

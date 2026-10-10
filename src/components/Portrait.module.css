@@ -2,6 +2,7 @@
 .portrait img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .portrait span { display: grid; place-items: center; width: 100%; height: 100%; color: var(--gold); font: 700 24px Georgia, serif; }
 .hero { width: 76px; height: 76px; border-radius: 12px; }
+.hero img { object-position: center 16%; }
 .profession { width: 110px; height: 110px; border-radius: 16px; }
 .largeHero { width: min(100%, 280px); height: 330px; border-radius: 18px; }
 .largeHero img { object-fit: contain; object-position: center bottom; }

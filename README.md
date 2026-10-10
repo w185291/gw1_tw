@@ -39,6 +39,8 @@ npm run start
 
 `NEXT_PUBLIC_SITE_URL` 決定 canonical、Open Graph、`robots.txt` 的 Sitemap URL 與 `sitemap.xml` 中的網址，參照 `.env.example`。未設定時使用本專案的 Site 網址。部署至 Cloudflare Pages 或其他新網域時，**先設定正式網域並重新 build**；不可把本機或舊網域的 sitemap 直接上線。`npm run build:static` 會把這兩個 SEO 檔輸出到 `out/`。動態查詢參數詳細頁目前未列入 sitemap，避免在沒有伺服器端專屬 metadata 時產生大量重複索引。
 
+Cloudflare Pages 連結 GitHub 儲存庫時，選 `main` 為正式分支、`Next.js (Static HTML Export)` 預設，並把建置命令覆寫為 `npm run build:static`，輸出目錄設為 `out`。在 Pages 的建置環境變數設定 `NEXT_PUBLIC_SITE_URL` 為實際公開的 `https://<專案名稱>.pages.dev` 或自訂網域；本專案的靜態輸出開關與資料 JSON 匯出都由 `build:static` 處理，單跑預設的 `next build` 不會產生可部署的 `out/`。
+
 ## 頁面
 
 - `/`：四章入口與常用入口。

@@ -1,5 +1,3 @@
-# Preserve pre-JSON detail bookmarks on Cloudflare Pages.
+# Preserve legacy mission bookmarks. The other detail routes use /view/ with
+# query-string IDs; broad one-segment redirects would intercept those pages.
 /campaigns/:campaign/missions/:mission/ /missions/view/?campaign=:campaign&id=:mission 301
-/heroes/:hero/ /heroes/view/?id=:hero 301
-/guides/:guide/ /guides/view/?id=:guide 301
-/skills/attributes/:attribute/ /skills/attributes/view/?id=:attribute 301

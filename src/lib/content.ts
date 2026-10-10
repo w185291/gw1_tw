@@ -1,5 +1,6 @@
 import {cache} from 'react';
 import {getSkills} from './skills';
+import {missionSearchContent,skillSearchContent} from './search-content';
 import {publicText} from './presentation';
 import {isGuideComplete} from '@/lib/guide-audit';
 import fs from 'node:fs';
@@ -26,12 +27,12 @@ export function regionName(c:Campaign,id:string):string {return c.regions.find(r
 export function getSearchEntries():SearchEntry[] {
   const missions=getMissions();
   const entryLabels:Record<string,string>={'cooperative-mission':'合作任務','primary-quest':'主線 Quest','story-quest':'故事 Quest','dungeon':'地下城','elite-mission':'菁英任務','challenge-mission':'挑戰任務','competitive-mission':'競技任務'};
-  const entries:SearchEntry[]=missions.map(m=>({id:m.id,name:m.name,aliases:m.aliases,tags:[...m.tags,m.entryMethod.location,m.entryMethod.description,...m.walkthrough.map(step=>step.content),...m.bosses.flatMap(b=>[b.name.en,b.name.zhTW,...b.importantSkills]),...m.requiredHeroes.flatMap(h=>[h.name.en,h.name.zhTW])],summary:m.summary,href:missionHref(m),kind:entryLabels[m.type],status:isGuideComplete(m)?'complete':'draft'}));
+  const entries:SearchEntry[]=missions.map(m=>({id:m.id,name:m.name,aliases:m.aliases,tags:[...m.tags,...missionSearchContent(m),...m.requiredHeroes.flatMap(h=>[h.name.en,h.name.zhTW])],summary:m.summary,href:missionHref(m),kind:entryLabels[m.type],status:isGuideComplete(m)?'complete':'draft'}));
   entries.push(...getHeroes().map(h=>({id:h.id,name:h.name,aliases:[],tags:[h.profession,h.choiceGroup??''],summary:h.summary,href:`/heroes/view/?id=${h.id}`,kind:'英雄招募',status:h.contentStatus==='complete'?'complete' as const:'draft' as const})));
   const quests=new Map<string,SearchEntry>(missions.flatMap(m=>[...m.primaryQuestBefore,...m.primaryQuestAfter].map(q=>[q.url,{id:q.name.en,name:q.name,aliases:[q.giver,q.location],tags:[q.directions],summary:q.directions,href:missionHref(m)+'#quest-chain',kind:q.optional?'可選 Quest':q.questType==='secondary'?'次要 Quest':'主線 Quest',status:isGuideComplete(m)&&q.translationStatus==='verified'?'complete':'draft'}])));
   entries.push(...quests.values());
-  entries.push(...getExtraGuides().map(g=>({id:g.id,name:g.name,aliases:[],tags:[g.campaign,g.category],summary:g.summary,href:`/guides/view/?id=${g.id}`,kind:'其他內容索引',status:'draft' as const})));
-  entries.push(...getSkills().map(s=>({id:s.id,name:s.name,aliases:s.aliases,tags:[s.profession.zhTW,s.profession.en,s.attribute.zhTW,s.attribute.en,s.campaign.zhTW,...s.commonUses],summary:s.explanation,href:`/skills/view/?id=${encodeURIComponent(s.id)}`,kind:'技能',status:s.contentStatus==='complete'?'complete' as const:'draft' as const})));
+  entries.push(...getExtraGuides().map(g=>({id:g.id,name:g.name,aliases:[],tags:[g.campaign,g.category,...g.steps],summary:g.summary,href:`/guides/view/?id=${g.id}`,kind:'其他內容索引',status:'draft' as const})));
+  entries.push(...getSkills().map(s=>({id:s.id,name:s.name,aliases:s.aliases,tags:[s.profession.zhTW,s.profession.en,s.attribute.zhTW,s.attribute.en,s.campaign.zhTW,s.type.zhTW,s.type.en,...skillSearchContent(s)],summary:s.explanation,href:`/skills/view/?id=${encodeURIComponent(s.id)}`,kind:'技能',status:s.contentStatus==='complete'?'complete' as const:'draft' as const})));
   return entries;
 }
 export function getHeroes(){const dir=path.join(dataRoot,'heroes');return fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith('.json')).map(f=>heroSchema.parse(parseFile(path.join(dir,f)))):[];}

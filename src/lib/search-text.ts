@@ -13,3 +13,9 @@ export function searchableText(values:string[]):string {
   const localized=text.replace(pattern,en=>translations.get(en.toLowerCase())??en);
   return normalizeSearch(text+' '+localized);
 }
+export function matchesSearch(values:string[],query:string):boolean {
+ const terms=normalizeSearch(query).split(/\s+/).filter(Boolean);
+ if(!terms.length)return true;
+ const haystack=searchableText(values);
+ return terms.every(term=>haystack.includes(term));
+}

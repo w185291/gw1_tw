@@ -1,4 +1,4 @@
-import evidence from '../../../../docs/reference/game-client-evidence.json';
+import evidence from '@/data/terminology/game-client-evidence-summary.json';
 import terms from '@/data/terminology/game-client.json';
 import Link from 'next/link';
 import styles from '@/components/Site.module.css';

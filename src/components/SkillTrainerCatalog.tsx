@@ -12,7 +12,7 @@ export function SkillTrainerCatalog(){
   const [query,setQuery]=useState('');
   const results=skillTrainerIndex.filter(item=>
     (!campaign||item.campaign===campaign)&&(!kind||item.type===kind)&&
-    (!query||normalizeSearch([item.name,...item.locations.flatMap(loc=>[loc.zhTW,loc.en]),...item.regions.flatMap(loc=>[loc.zhTW,loc.en])].join(' ')).includes(normalizeSearch(query)))
+    (!query||normalizeSearch([item.name,item.zhTW??'',...item.locations.flatMap(loc=>[loc.zhTW,loc.en]),...item.regions.flatMap(loc=>[loc.zhTW,loc.en])].join(' ')).includes(normalizeSearch(query)))
   );
   return <>
     <div className={styles.filters}>
@@ -26,7 +26,7 @@ export function SkillTrainerCatalog(){
       if(!members.length)return null;
       return <section key={chapter.id} className={styles.chapter} id={chapter.id}><h2>{chapter.label}<small>{members.length} 位</small></h2><div className={styles.grid}>{members.map(item=><Link key={item.id} href={trainerHref(item.id)} className={styles.card}>
         <span className={styles.avatar}>{item.image&&<Image src={item.image.src} alt={item.name==='Skill Trainer (NPC)'?'捕捉紋章技能圖示':`${item.name} 的 Wiki 角色圖片`} width={92} height={92} unoptimized loading="lazy"/>}</span>
-        <span className={styles.cardText}><strong>{item.name}</strong><small>{item.type==='hero'?'英雄技能導師':'技能導師'}</small><span>{item.locations.map(loc=>loc.zhTW===loc.en?loc.en:`${loc.zhTW} · ${loc.en}`).join('、')}</span></span>
+        <span className={styles.cardText}><strong>{item.zhTW??item.name}</strong>{item.zhTW&&<small>{item.name}</small>}<small>{item.type==='hero'?'英雄技能導師':'技能導師'}</small><span>{item.locations.map(loc=>loc.zhTW===loc.en?loc.en:`${loc.zhTW} · ${loc.en}`).join('、')}</span></span>
       </Link>)}</div></section>;
     })}
     {!results.length&&<p className={styles.empty}>找不到符合條件的導師。可以改用英文 NPC 名稱或據點名稱搜尋。</p>}

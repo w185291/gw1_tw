@@ -5,6 +5,7 @@ export type TrainerPlace = {en:string;zhTW:string};
 export type TrainerSummary = {
   id:string;
   name:string;
+  zhTW?:string;
   campaign:string;
   type:string;
   locations:TrainerPlace[];

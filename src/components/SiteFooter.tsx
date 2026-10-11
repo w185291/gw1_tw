@@ -1,9 +1,11 @@
+import Link from 'next/link';
 import styles from './Site.module.css';
 
 export function SiteFooter() {
   return <footer className={styles.footer}>
     <div><strong>Guild Wars 1 攻略站</strong><p>本站為玩家製作之非官方攻略網站</p></div>
     <div>
+      <Link href="/translation-report/">繁中／英文名稱回報</Link>
       <a href="https://wiki.guildwars.com/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Guild Wars Wiki</a>
       <a href="https://gwrevival.com/map/?c=0&x=1200&y=1145&z=4" target="_blank" rel="noopener noreferrer">GW Revival 互動地圖</a>
       <a href="https://hom.guildwars2.com/en/" target="_blank" rel="noopener noreferrer">官方史蹟殿堂查詢</a>

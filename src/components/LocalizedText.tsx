@@ -11,5 +11,5 @@ const pattern=new RegExp(`(?<![A-Za-z])(${entries.map(t=>escape(t.en)).join('|')
 /** Show verified client names alongside English without rewriting stored source prose. */
 export function LocalizedText({text}:{text:string}){
   const parts=publicText(text).split(pattern);
-  return <>{parts.map((part,i)=>names.has(part)?<span key={i} title="依遊戲內相同字串 ID 核對">{names.get(part)}（{part}）</span>:part)}</>;
+  return <>{parts.map((part,i)=>names.has(part)?<span key={i} title="繁中名稱對照">{names.get(part)}（{part}）</span>:part)}</>;
 }

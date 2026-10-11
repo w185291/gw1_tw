@@ -33,7 +33,7 @@ export function SkillTrainerViewer(){
   const [query,setQuery]=useState('');
   const summary=skillTrainerIndex.find(item=>item.id===id);
   const {data,error}=useStaticJson<TrainerPayload>(summary?`/data/skill-trainers/${summary.campaign}.json`:null);
-  useEffect(()=>{if(summary)document.title=`${summary.name}｜技能導師｜GW1 非官方攻略站`;},[summary]);
+  useEffect(()=>{if(summary)document.title=`${summary.zhTW??summary.name}｜技能導師｜GW1 非官方攻略站`;},[summary]);
   if(!summary)return <p>找不到這位導師。<Link href="/skill-trainers/">返回導師名錄</Link></p>;
   if(error)return <p>導師資料載入失敗，請重新整理頁面。</p>;
   if(!data)return <p role="status">正在載入導師資料…</p>;
@@ -45,9 +45,9 @@ export function SkillTrainerViewer(){
   const total=Object.values(trainer.skills).flat().length;
   const placeText=(en:string,zhTW:string)=>zhTW===en?en:`${zhTW}（${en}）`;
   return <article className={styles.detail}>
-    <nav className={styles.breadcrumb}><Link href="/">首頁</Link> / <Link href="/skill-trainers/">技能導師</Link> / {trainer.name}</nav>
+    <nav className={styles.breadcrumb}><Link href="/">首頁</Link> / <Link href="/skill-trainers/">技能導師</Link> / {trainer.zhTW??trainer.name}</nav>
     <header className={styles.hero}>
-      <div><span className={styles.kicker}>{trainerCampaignLabel(trainer.campaign)} · {trainer.type==='hero'?'英雄技能導師':'技能導師'}</span><h1>{trainer.name}</h1>
+      <div><span className={styles.kicker}>{trainerCampaignLabel(trainer.campaign)} · {trainer.type==='hero'?'英雄技能導師':'技能導師'}</span><h1>{trainer.zhTW??trainer.name}</h1>{trainer.zhTW&&<p>{trainer.name}</p>}
         <p>{trainer.type==='hero'?'消耗英雄技能點學習技能；不另收金幣。':'消耗一般技能點與金幣學習技能。'}</p>
         <p className={styles.locationLine}><strong>所在地：</strong>{trainer.locations.map(place=>placeText(place.en,place.zhTW)).join('、')}</p>
         {trainer.regions.length>0&&<p><strong>區域：</strong>{trainer.regions.map(place=>placeText(place.en,place.zhTW)).join('、')}</p>}

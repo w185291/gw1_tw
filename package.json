@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && next dev --hostname 127.0.0.1",
+    "dev": "tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && next dev --hostname 127.0.0.1 --port 8080",
     "build": "npm run validate:content && tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && next build --webpack",
     "build:static": "npm run validate:content && tsx scripts/export-skill-json.ts && tsx scripts/export-guide-json.ts && node scripts/build-static.mjs",
-    "start": "next start --hostname 127.0.0.1",
+    "start": "next start --hostname 127.0.0.1 --port 8080",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "validate:content": "tsx scripts/validate-content.ts",

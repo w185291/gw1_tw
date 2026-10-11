@@ -22,12 +22,12 @@ export function SkillViewer(){
    try{
     setState('loading');
     if(!/^[a-z0-9-]+$/.test(id)){setState('missing');return;}
-    const indexResponse=await fetch('/data/skills/index.json',{signal:controller.signal});
+    const indexResponse=await fetch('/data/skills/index.json',{signal:controller.signal,cache:'no-cache'});
     if(!indexResponse.ok)throw new Error('技能索引載入失敗');
     const index=await indexResponse.json() as Record<string,string>;
     const profession=index[id];
     if(!profession){setState('missing');return;}
-    const response=await fetch(`/data/skills/${encodeURIComponent(profession)}.json`,{signal:controller.signal});
+    const response=await fetch(`/data/skills/${encodeURIComponent(profession)}.json`,{signal:controller.signal,cache:'no-cache'});
     if(!response.ok)throw new Error('職業資料載入失敗');
     const skills=await response.json() as Skill[];
     const found=skills.find(item=>item.id===id);

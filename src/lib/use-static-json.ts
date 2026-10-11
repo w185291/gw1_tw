@@ -9,7 +9,7 @@ export function useStaticJson<T>(url:string|null){
   const cached=cache.get(url);
   if(cached){queueMicrotask(()=>setResult({url,data:cached as T,error:false}));return;}
   const controller=new AbortController();
-  fetch(url,{signal:controller.signal}).then(response=>{
+  fetch(url,{signal:controller.signal,cache:'no-cache'}).then(response=>{
    if(!response.ok)throw new Error(`${response.status} ${url}`);
    return response.json() as Promise<T>;
   }).then(data=>{cache.set(url,data);setResult({url,data,error:false});}).catch(error=>{

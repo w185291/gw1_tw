@@ -15,7 +15,10 @@
     "validate:skills": "tsx scripts/validate-skills.ts",
     "export:skills": "tsx scripts/export-skill-json.ts",
     "export:guides": "tsx scripts/export-guide-json.ts",
-    "audit:links": "node scripts/audit-static-links.mjs"
+    "audit:links": "node scripts/audit-static-links.mjs",
+    "research:zaishen": "node scripts/research-zaishen-lookup.mjs",
+    "export:zaishen": "node scripts/build-zaishen-lookup.mjs",
+    "validate:zaishen-lookup": "node scripts/validate-zaishen-lookup.mjs"
   },
   "dependencies": {
     "next": "16.4.0",

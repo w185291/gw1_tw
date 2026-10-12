@@ -5,7 +5,7 @@ import {usePathname} from 'next/navigation';
 import type {Campaign} from '@/data/schemas/content';
 import styles from './Site.module.css';
 
-const otherGuides=[['beyond','Beyond 後續故事'],['dungeons','地下城'],['elite-missions','菁英任務'],['challenge-missions','挑戰與競技任務'],['zaishen','戰承任務'],['heroes','英雄取得']];
+const otherGuides=[['beyond','Beyond 後續故事'],['dungeons','地下城'],['elite-missions','菁英任務'],['challenge-missions','挑戰與競技任務'],['zaishen','承戰任務・速查'],['heroes','英雄取得']];
 const activities=[['pve','PvE 冒險'],['postgame','破關後目標'],['pvp','PvP 競技'],['equipment','裝備與收藏']];
 
 export function MainNavigation({campaigns}:{campaigns:Campaign[]}){

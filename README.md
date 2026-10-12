@@ -119,3 +119,9 @@ GuideEntry 支援七種 type；不要把所有章節強制塞進直線 25 Missio
 ## 更新Wiki來源
 
 `npm run research:fetch`使用公開MediaWiki API、最多兩個並行請求，保留新版修訂到独立資料夾，不自動改寫中文攻略。原始已查核修訂與43張新增圖片來源保留在docs/reference/phase23。
+
+## 承戰任務速查
+
+入口為 `/zaishen/#lookup`，可搜尋已接任務，不限今日輪替。目錄包含 69 個主線、66 個懸賞、136 個清圖、7 種競技；每類詳情以 AJAX 載入對應 JSON。分享單項使用 `/zaishen/?quest=bounty-the-stygian-lords#lookup`。
+
+`npm run validate:zaishen-lookup` 檢查章節、來源修訂、任務條件／銅幣列與合計。維護資料時先執行 `npm run research:zaishen`，再執行 `npm run export:zaishen`；Wiki 快取保留本地且不提交。`docs/research/zaishen-lookup-audit.json` 記錄每個任務的來源。此工具是定位與獎勵速查；完整主線路線沿用本站攻略，未有可靠繁中專名的 NPC 或任務保留英文。

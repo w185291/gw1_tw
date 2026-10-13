@@ -10,7 +10,12 @@
   "type": "cooperative-mission",
   "category": "main-story",
   "status": "draft",
-  "aliases": [],
+  "aliases": [
+    "先知",
+    "預言者",
+    "Seer",
+    "Ancient Seer"
+  ],
   "tags": [
     "地獄懸崖",
     "Hell's Precipice",
@@ -52,9 +57,9 @@
     "kind": "bonus",
     "title": "擊敗三名 Armageddon Lords",
     "summary": "擊敗三名 Armageddon Lords",
-    "trigger": "Ancient Seer 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
+    "trigger": "預言者 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
     "steps": [
-      "Ancient Seer 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
+      "預言者 活著且已與它交談，才啟動殺三名 Armageddon Lords 的 Bonus。",
       "先把三名目標從熔岩池逐一引出，殺掉後處理衍生怪。",
       "建議關傳送門前完成；提前關門會把隊伍傳走，補做需多次折返。"
     ],
@@ -67,8 +72,8 @@
       "content": "起點往南過兩座橋，站橋口拉怪而非在橋上被包圍。優先擊殺 Spark of the Titans，其火焰範圍法術比普通 Titan 更危險。每殺一隻會分裂的 Titan，先處理其衍生敵人再開下一隻。"
     },
     {
-      "title": "等大隊移走再救 Seer",
-      "content": "第二橋後分岔會有大群敵人朝生成的頭目聚集；等其走遠，走東南路避開。再從北側接近 Ancient Seer，立刻殺攻擊它的 Burning Titan 並治療它，交談接 Bonus。"
+      "title": "等大隊移走再救 預言者",
+      "content": "第二橋後分岔會有大群敵人朝生成的頭目聚集；等其走遠，走東南路避開。再從北側接近 預言者，立刻殺攻擊它的 Burning Titan 並治療它，交談接 Bonus。"
     },
     {
       "title": "西南推進到傳送門區",
@@ -76,7 +81,7 @@
     },
     {
       "title": "先殺三名 Armageddon Lords",
-      "content": "到傳送門前大熔岩池，把三名 Armageddon Lords 逐一引到乾地。殺掉其衍生敵人並確認 Bonus；Ancient Seer 必須先獲救及對話，不可只自行殺三名目標。"
+      "content": "到傳送門前大熔岩池，把三名 Armageddon Lords 逐一引到乾地。殺掉其衍生敵人並確認 Bonus；預言者 必須先獲救及對話，不可只自行殺三名目標。"
     },
     {
       "title": "關閉三個門並擊敗 Rurik",
@@ -88,10 +93,10 @@
     },
     {
       "title": "領取通關獎勵",
-      "content": "完成後進 Droknar's Forge 的探索區，與 Jalis Ironhammer 交談領取每角色一次的 Deldrimor Talisman，可兌換一件獨特武器；後續再選 Defend Droknar's Forge 等終局內容。"
+      "content": "完成後進 Droknar's Forge 的探索區，與 亞里斯艾倫漢默國王 交談領取每角色一次的 Deldrimor Talisman，可兌換一件獨特武器；後續再選 Defend Droknar's Forge 等終局內容。"
     }
   ],
-  "routeSummary": "用橋口逐群清怪 → 等大隊移走再救 Seer → 西南推進到傳送門區 → 先殺三名 Armageddon Lords → 關閉三個門並擊敗 Rurik → Lich 復活時先清增援 → 領取通關獎勵",
+  "routeSummary": "用橋口逐群清怪 → 等大隊移走再救 預言者 → 西南推進到傳送門區 → 先殺三名 Armageddon Lords → 關閉三個門並擊敗 Rurik → Lich 復活時先清增援 → 領取通關獎勵",
   "mapImage": "/maps/Hell's_Precipice_map.jpg",
   "mapNotes": [
     "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
@@ -353,10 +358,10 @@
     "冷傷對 Titan 較有效，範圍虛弱可減少 Fists/Hands 傷害；多數 Titan 沒有血肉，不能只依賴毒、流血或屍體召喚。"
   ],
   "tips": [
-    "通關後到 Droknar's Forge（探索區），向 Jalis Ironhammer 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
+    "通關後到 Droknar's Forge（探索區），向 亞里斯艾倫漢默國王 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
   ],
   "warnings": [
-    "Seer 死亡不能靠事後殺三名 Lords 補拿 Bonus。",
+    "預言者 死亡不能靠事後殺三名 Lords 補拿 Bonus。",
     "不要讓英雄追 Lich 到熔岩；被傳入熔岩的玩家立即回乾地。"
   ],
   "modeDifferences": {
@@ -462,7 +467,7 @@
     "sources": []
   },
   "afterCompletion": [
-    "通關後到 Droknar's Forge（探索區），向 Jalis Ironhammer 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
+    "通關後到 Droknar's Forge（探索區），向 亞里斯艾倫漢默國王 領取一次性的 Deldrimor Talisman。這是本章主線結尾；後續為 Defend Droknar's Forge 與其他終局支線。"
   ],
   "storyStartVerified": false,
   "storyEndingVerified": true,

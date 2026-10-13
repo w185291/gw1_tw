@@ -10,7 +10,12 @@
   "type": "cooperative-mission",
   "category": "main-story",
   "status": "draft",
-  "aliases": [],
+  "aliases": [
+    "先知",
+    "預言者",
+    "Seer",
+    "Ancient Seer"
+  ],
   "tags": [
     "火環群島",
     "Ring of Fire",
@@ -51,14 +56,14 @@
     "available": true,
     "kind": "bonus",
     "title": "交付 Eidolon 的 Spectral Essence",
-    "summary": "交付 Eidolon 的 Spectral Essence",
-    "trigger": "先找北方分岔 Ancient Seer 接任務。",
+    "summary": "先與預言者交談，擊殺 Eidolon 並拾取 Spectral Essence，再帶回預言者交付；只擊殺或只拾取都不算完成本關 Bonus。",
+    "trigger": "先找北方分岔 預言者 接任務。",
     "steps": [
-      "先找北方分岔 Ancient Seer 接任務。",
-      "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 Seer 交付；不是只殺 Eidolon。"
+      "先找北方分岔 預言者 接任務。",
+      "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 預言者 交付；不是只殺 Eidolon。"
     ],
     "missable": true,
-    "completion": "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 Seer 交付；不是只殺 Eidolon。"
+    "completion": "拆 Citadel Guardhouse 四座塔，擊殺生成的 Eidolon，攜 Spectral Essence 回 預言者 交付；不是只殺 Eidolon。"
   },
   "walkthrough": [
     {
@@ -67,7 +72,7 @@
     },
     {
       "title": "分岔先接 Bonus",
-      "content": "第一座塔後往西北，過 Ettin 頭目到分岔。先取北路找 Ancient Seer 接 Bonus，再回南路推主線。未接任務即使拆塔也不會生成 Eidolon。"
+      "content": "第一座塔後往西北，過 Ettin 頭目到分岔。先取北路找 預言者 接 Bonus，再回南路推主線。未接任務即使拆塔也不會生成 Eidolon。"
     },
     {
       "title": "正門逐座拆塔",
@@ -78,15 +83,15 @@
       "content": "內塔封印朝背面，可先清後方 瑪賽特，再繞到封印側拆塔。不要同時承受多塔扣能、拆加持與守軍攻擊；補師站塔外維持支援。"
     },
     {
-      "title": "先帶精華回 Seer",
-      "content": "四座要塞塔全停用且已接 Bonus 後，Eidolon 才出現。擊殺取得 Spectral Essence，返回 Ancient Seer 交付取得 Bonus，也可做護甲 infusion。"
+      "title": "先帶精華回 預言者",
+      "content": "四座要塞塔全停用且已接 Bonus 後，Eidolon 才出現。擊殺後拾取地上的 Spectral Essence，由攜帶者帶回預言者並交談交付，才取得本關 Bonus；只遇到、殺掉 Eidolon 或拾取物品都不夠。注意：拾取時任務日誌可能已顯示 Bonus 完成，但未交付仍不會取得完成紀錄。先回報再清主線最後一群敵人，也可在交付時進行護甲 infusion。"
     },
     {
       "title": "開主門後完成",
       "content": "回堡壘拆通往拉桿的封印、殺守衛頭目，操作主門拉桿。過 Jade bridge 清最後頭目與小隊即完成；要捕捉菁英先留一名雜兵。"
     }
   ],
-  "routeSummary": "北進並分開塔與守衛 → 分岔先接 Bonus → 正門逐座拆塔 → 處理內側兩塔 → 先帶精華回 Seer → 開主門後完成",
+  "routeSummary": "北進並分開塔與守衛 → 分岔先接 Bonus → 正門逐座拆塔 → 處理內側兩塔 → 先帶精華回 預言者 → 開主門後完成",
   "mapImage": "/maps/Ring_of_Fire_map.jpg",
   "mapNotes": [
     "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
@@ -533,7 +538,8 @@
   ],
   "warnings": [
     "熔岩內不要停下戰鬥；塔區別同時拉多隊。",
-    "未接 Seer 對話不能生成 Bonus 目標，最後敵群全滅又會立刻結束。"
+    "未接 預言者 對話不能生成 Bonus 目標，最後敵群全滅又會立刻結束。",
+    "拾取 Spectral Essence 時，任務日誌可能提早顯示 Bonus 完成；仍要由攜帶者回預言者交談交付，才真正取得本關 Bonus。不要帶著物品直接完成主線。"
   ],
   "modeDifferences": {
     "normal": [

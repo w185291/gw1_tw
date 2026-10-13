@@ -18,7 +18,7 @@
     "第一章",
     "Bonus"
   ],
-  "summary": "尋找預言者為護甲附魔，殺死瑪基思以及他的翡翠戰士護衛；Bonus 需另外攔截 The Inquisitor。",
+  "summary": "主線需殺死瑪基思及四名翡翠戰士護衛；Bonus 是在 馬賽特審問官 逃入傳送門前擊殺他。尋找預言者為護甲附魔是準備流程，已附魔者可略過。",
   "partySize": 8,
   "recommendedLevel": null,
   "difficulty": {
@@ -47,26 +47,27 @@
       "text": "殺死瑪基思以及他的翡翠戰士護衛。"
     },
     {
-      "text": "尋找預言者，為目前穿著的護甲完成附魔（Infusion）。"
+      "text": "尋找預言者，為目前穿著的護甲完成附魔（Infusion）；這不是通關或 Bonus 的必要條件，已附魔者可略過。"
     }
   ],
   "bonus": {
     "available": true,
     "kind": "bonus",
-    "title": "攔截並擊殺 The Inquisitor",
-    "summary": "攔截並擊殺 The Inquisitor",
-    "trigger": "Ryder 必須活著才能接任務；接受後才生成 The Inquisitor，勿還沒準備好就對話。",
+    "title": "攔截並擊殺 馬賽特審問官",
+    "summary": "攔截並擊殺 馬賽特審問官",
+    "trigger": "向 Ryder 接取 Bonus 後，馬賽特審問官 與護衛會生成並開始往北方傳送點逃跑。Ryder 若死亡，就無法開始 Bonus。",
     "steps": [
-      "Ryder 必須活著才能接任務；接受後才生成 The Inquisitor，勿還沒準備好就對話。",
-      "先清路、布好隊伍，再單人回去接。The Inquisitor 抵達北方傳送點前必須擊殺。"
+      "向 Ryder 接取 Bonus，使 馬賽特審問官 出現。",
+      "在他進入北方傳送點前擊殺 馬賽特審問官，即完成 Bonus。",
+      "建議先清路或讓隊友預先就位，降低引怪與追丟的風險；這只是準備方式，不是額外完成條件。"
     ],
     "missable": true,
-    "completion": "先清路、布好隊伍，再單人回去接。The Inquisitor 抵達北方傳送點前必須擊殺。"
+    "completion": "Bonus 已觸發後，在 馬賽特審問官 逃入傳送門前將他擊殺即完成；不要求先附魔護甲，也不要求殺光他的護衛。"
   },
   "walkthrough": [
     {
-      "title": "先穿好要 infusion 的護甲",
-      "content": "進場前換上準備長期使用的護甲。沿冰河往北，避開互打的 Stone Summit 與 White Mantle 大群；第二處戰場往東繞，不需清光。"
+      "title": "可選準備：尚未附魔的護甲先處理",
+      "content": "護甲尚未附魔時，建議先換上準備長期使用的護甲並走預言者路線，以減少靈體劇痛威脅；這不是主線或 Bonus 的必做條件。已附魔者可沿東北方穿過Mursaat 據點的捷徑，途中接 Bonus。若走預言者路線，沿冰河往北，避開互打的 Stone Summit 與 White Mantle 大群；第二處戰場往東繞，不需清光。"
     },
     {
       "title": "先找 預言者 不接追捕",
@@ -77,19 +78,19 @@
       "content": "去原圖 E 殺 Eidolon，拿 Spectral Essence 回 預言者。每名玩家都要交談確認自己目前穿著的護甲已 infusion；這是裝備狀態，不是整個帳號永久保護。"
     },
     {
-      "title": "清 Bonus 逃跑路線",
-      "content": "沿 預言者 北方通道接近 瑪基思，但先不要結束戰鬥。往南找 Ryder，預清她到橋與傳送點之間的 Mursaat，讓隊伍先在 The Inquisitor 出生的門外斜坡等候。"
+      "title": "建議準備：先清 Bonus 逃跑路線",
+      "content": "沿 預言者 北方通道接近 瑪基思，但先不要結束戰鬥。往南找 Ryder，預清她到橋與傳送點之間的 Mursaat，讓隊伍先在 馬賽特審問官 出生的門外斜坡等候。"
     },
     {
       "title": "接任務立即攔截",
-      "content": "由一名玩家回去和 Ryder 交談，The Inquisitor 與護衛才會生成並往北逃。以減速、擊倒及集火攔截，不能讓它走到 Mursaat 傳送點。"
+      "content": "由一名玩家回去和 Ryder 交談，馬賽特審問官 與護衛才會生成並往北逃。以減速、擊倒及集火攔截，不能讓它走到 Mursaat 傳送點。"
     },
     {
       "title": "擊殺 瑪基思 及四名護衛",
       "content": "Bonus 完成後回 瑪基思，殺他與四名 翡翠戰士 結束。想捕捉 Barrage，先殺 瑪基思 並保留至少一名護衛，完成捕捉後才清最後敵人。"
     }
   ],
-  "routeSummary": "先穿好要 infusion 的護甲 → 先找 預言者 不接追捕 → 取得精華並逐人交談 → 清 Bonus 逃跑路線 → 接任務立即攔截 → 擊殺 瑪基思 及四名護衛",
+  "routeSummary": "可選準備：尚未附魔的護甲先處理 → 先找 預言者 不接追捕 → 取得精華並逐人交談 → 建議準備：先清 Bonus 逃跑路線 → 接任務立即攔截 → 擊殺 瑪基思 及四名護衛",
   "mapImage": "/maps/Iron_Mines_of_Moladune_map.jpg",
   "mapNotes": [
     "原圖保留 Wiki 的英文標記與編號，可放大後搭配本頁步驟。"
@@ -444,7 +445,7 @@
     {
       "name": {
         "en": "The Inquisitor",
-        "zhTW": "The Inquisitor（繁中名稱待確認）"
+        "zhTW": "馬賽特審問官"
       },
       "profession": "元素使",
       "importantSkills": [
@@ -465,7 +466,7 @@
         "NM／HM 可能使用不同技能；完整列表保留原頁修訂連結。"
       ],
       "strategy": "在 Ryder 對話前清路並布隊，生成後用減速、擊倒及集火攔截，別讓它跑進傳送點；追擊時避免拉到未清的 Mursaat。",
-      "translationVerified": false,
+      "translationVerified": true,
       "source": "https://wiki.guildwars.com/wiki/The_Inquisitor",
       "revision": 2642037,
       "dangerousSkills": [
